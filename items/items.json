@@ -1,138 +1,8 @@
 [
     {
-        "name": "HM02 Fly",
-        "type": "toggle",
-        "img": "images/items/hm02fly.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "hm02fly"
-    },
-    {
-        "name": "HM06 Rock Smash",
-        "type": "toggle",
-        "img": "images/items/hm06rocksmash.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "hm06rocksmash"
-    },
-    {
-        "name": "Mine Badge",
-        "type": "toggle",
-        "img": "images/items/minebadge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "minebadge"
-    },
-    {
-        "name": "HM05 Defog",
-        "type": "toggle",
-        "img": "images/items/hm05defog.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "hm05defog"
-    },
-    {
-        "name": "S.S. Ticket",
-        "type": "toggle",
-        "img": "images/items/s.s.ticket.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "s.s.ticket"
-    },
-    {
-        "name": "Bag",
-        "type": "toggle",
-        "img": "images/items/bag.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bag"
-    },
-    {
-        "name": "Cobble Badge",
-        "type": "toggle",
-        "img": "images/items/cobblebadge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "cobblebadge"
-    },
-    {
-        "name": "HM03 Surf",
-        "type": "toggle",
-        "img": "images/items/hm03surf.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "hm03surf"
-    },
-    {
-        "name": "Oak's Letter",
-        "type": "toggle",
-        "img": "images/items/oaksletter.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "oaksletter"
-    },
-    {
-        "name": "Coupon 3",
-        "type": "toggle",
-        "img": "images/items/coupon3.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "coupon3"
-    },
-    {
-        "name": "Red Chain",
-        "type": "toggle",
-        "img": "images/items/redchain.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "redchain"
-    },
-    {
-        "name": "Good Rod",
-        "type": "toggle",
-        "img": "images/items/goodrod.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "goodrod"
-    },
-    {
-        "name": "Beacon Badge",
-        "type": "toggle",
-        "img": "images/items/beaconbadge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "beaconbadge"
-    },
-    {
         "name": "Coal Badge",
         "type": "toggle",
-        "img": "images/items/coalbadge.png",
+        "img": "images/items/coal_badge.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -142,7 +12,7 @@
     {
         "name": "Forest Badge",
         "type": "toggle",
-        "img": "images/items/forestbadge.png",
+        "img": "images/items/forest_badge.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -150,34 +20,226 @@
         "codes": "forestbadge"
     },
     {
-        "name": "Marsh Pass",
+        "name": "Cobble Badge",
         "type": "toggle",
-        "img": "images/items/marshpass.png",
+        "img": "images/items/cobble_badge.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "marshpass"
+        "codes": "cobblebadge"
     },
     {
-        "name": "SecretPotion",
+        "name": "Fen Badge",
         "type": "toggle",
-        "img": "images/items/secretpotion.png",
+        "img": "images/items/fen_badge.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "secretpotion"
+        "codes": "fenbadge"
     },
     {
-        "name": "Bicycle",
+        "name": "Relic Badge",
         "type": "toggle",
-        "img": "images/items/bicycle.png",
+        "img": "images/items/relic_badge.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "bicycle"
+        "codes": "relicbadge"
+    },
+    {
+        "name": "Mine Badge",
+        "type": "toggle",
+        "img": "images/items/mine_badge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "minebadge"
+    },
+    {
+        "name": "Icicle Badge",
+        "type": "toggle",
+        "img": "images/items/icicle_badge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "iciclebadge"
+    },
+    {
+        "name": "Beacon Badge",
+        "type": "toggle",
+        "img": "images/items/beacon_badge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "beaconbadge"
+    },
+    {
+        "name": "HM01 Cut",
+        "type": "progressive_toggle",
+        "img": "images/items/hm01_cut.png",
+        "codes": "hm01cut",
+        "stages": [
+            {
+                "name": "HM01 Cut",
+                "codes": "hm01cut",
+                "img": "images/items/hm01_cut.png",
+                "img_mods": "overlay|images/items/overlays/badge2_overlay.png"
+            },
+            {
+                "name": "HM01 Cut - No Badge Requirement",
+                "codes": "hm01cut, free_cut",
+                "img": "images/items/hm01_cut.png"
+            }
+        ]
+    },
+    {
+        "name": "HM02 Fly",
+        "type": "progressive_toggle",
+        "img": "images/items/hm02_fly.png",
+        "codes": "hm02fly",
+        "stages": [
+            {
+                "name": "HM02 Fly",
+                "codes": "hm02fly",
+                "img": "images/items/hm02_fly.png",
+                "img_mods": "overlay|images/items/overlays/badge3_overlay.png"
+            },
+            {
+                "name": "HM02 Fly - No Badge Requirement",
+                "codes": "hm02fly, free_fly",
+                "img": "images/items/hm02_fly.png"
+            }
+        ]
+    },
+    {
+        "name": "HM03 Surf",
+        "type": "progressive_toggle",
+        "img": "images/items/hm03_surf.png",
+        "codes": "hm03surf",
+        "stages": [
+            {
+                "name": "HM03 Surf",
+                "codes": "hm03surf",
+                "img": "images/items/hm03_surf.png",
+                "img_mods": "overlay|images/items/overlays/badge4_overlay.png"
+            },
+            {
+                "name": "HM03 Surf - No Badge Requirement",
+                "codes": "hm03surf, free_surf",
+                "img": "images/items/hm03_surf.png"
+            }
+        ]
+    },
+    {
+        "name": "HM04 Strength",
+        "type": "progressive_toggle",
+        "img": "images/items/hm04_strength.png",
+        "codes": "hm04strength",
+        "stages": [
+            {
+                "name": "HM04 Strength",
+                "codes": "hm04strength",
+                "img": "images/items/hm04_strength.png",
+                "img_mods": "overlay|images/items/overlays/badge6_overlay.png"
+            },
+            {
+                "name": "HM04 Strength - No Badge Requirement",
+                "codes": "hm04strength, free_strength",
+                "img": "images/items/hm04_strength.png"
+            }
+        ]
+    },
+    {
+        "name": "HM05 Defog",
+        "type": "progressive_toggle",
+        "img": "images/items/hm05_defog.png",
+        "codes": "hm05defog",
+        "stages": [
+            {
+                "name": "HM05 Defog",
+                "codes": "hm05defog",
+                "img": "images/items/hm05_defog.png",
+                "img_mods": "overlay|images/items/overlays/badge5_overlay.png"
+            },
+            {
+                "name": "HM05 Defog - No Badge Requirement",
+                "codes": "hm05defog, free_defog",
+                "img": "images/items/hm05_defog.png"
+            }
+        ]
+    },
+    {
+        "name": "HM06 Rock Smash",
+        "type": "progressive_toggle",
+        "img": "images/items/hm06_rocksmash.png",
+        "codes": "hm06rocksmash",
+        "stages": [
+            {
+                "name": "HM06 Rock Smash",
+                "codes": "hm06rocksmash",
+                "img": "images/items/hm06_rocksmash.png",
+                "img_mods": "overlay|images/items/overlays/badge1_overlay.png"
+            },
+            {
+                "name": "HM06 Rock Smash - No Badge Requirement",
+                "codes": "hm06rocksmash, free_rocksmash",
+                "img": "images/items/hm06_rocksmash.png"
+            }
+        ]
+    },
+    {
+        "name": "HM07 Waterfall",
+        "type": "progressive_toggle",
+        "img": "images/items/hm07_waterfall.png",
+        "codes": "hm07waterfall",
+        "stages": [
+            {
+                "name": "HM07 Waterfall",
+                "codes": "hm07waterfall",
+                "img": "images/items/hm07_waterfall.png",
+                "img_mods": "overlay|images/items/overlays/badge8_overlay.png"
+            },
+            {
+                "name": "HM07 Waterfall - No Badge Requirement",
+                "codes": "hm07waterfall, free_waterfall",
+                "img": "images/items/hm07_waterfall.png"
+            }
+        ]
+    },
+    {
+        "name": "HM08 Rock Climb",
+        "type": "progressive_toggle",
+        "img": "images/items/hm08_rockclimb.png",
+        "codes": "hm08rockclimb",
+        "stages": [
+            {
+                "name": "HM08 Rock Climb",
+                "codes": "hm08rockclimb",
+                "img": "images/items/hm08_rockclimb.png",
+                "img_mods": "overlay|images/items/overlays/badge7_overlay.png"
+            },
+            {
+                "name": "HM08 Rock Climb - No Badge Requirement",
+                "codes": "hm08rockclimb, free_rockclimb",
+                "img": "images/items/hm08_rockclimb.png"
+            }
+        ]
+    },
+    {
+        "name": "TM70 Flash",
+        "type": "toggle",
+        "img": "images/items/tm70_flash.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tm70flash"
     },
     {
         "name": "Upgradable Pokedex",
@@ -188,7 +250,7 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "Upgradable Pokedex stage1",
+                "name": "Pokedex",
                 "inherit_codes": true,
                 "img": "/images/items/pokedex.png",
                 "img_mods": "",
@@ -198,216 +260,26 @@
                 "secondary_codes": ""
             },
             {
-                "name": "Upgradable Pokedex stage2",
+                "name": "Pokedex - Forms",
                 "inherit_codes": true,
                 "img": "/images/items/pokedex.png",
-                "img_mods": "",
+                "img_mods": "overlay|images/items/overlays/form.png",
                 "disabled_img": "",
                 "disabled_img_mods": "",
                 "codes": "pokedex_stage2",
                 "secondary_codes": ""
             },
             {
-                "name": "Upgradable Pokedex stage3",
+                "name": "Pokedex - National",
                 "inherit_codes": true,
                 "img": "/images/items/pokedex.png",
-                "img_mods": "",
+                "img_mods": "overlay|images/items/overlays/nat.png",
                 "disabled_img": "",
                 "disabled_img_mods": "",
                 "codes": "pokedex_stage3",
                 "secondary_codes": ""
             }
         ]
-    },
-    {
-        "name": "Odd Keystone",
-        "type": "toggle",
-        "img": "images/items/oddkeystone.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "oddkeystone"
-    },
-    {
-        "name": "Parcel",
-        "type": "toggle",
-        "img": "images/items/parcel.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "parcel"
-    },
-    {
-        "name": "Unown File",
-        "type": "toggle",
-        "img": "images/items/unownfile.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "unownfile"
-    },
-    {
-        "name": "TM70 Flash",
-        "type": "toggle",
-        "img": "images/items/tm70flash.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "tm70flash"
-    },
-    {
-        "name": "Old Rod",
-        "type": "toggle",
-        "img": "images/items/oldrod.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "oldrod"
-    },
-    {
-        "name": "Storage Key",
-        "type": "toggle",
-        "img": "images/items/storagekey.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "storagekey"
-    },
-    {
-        "name": "Galactic Key",
-        "type": "toggle",
-        "img": "images/items/galactickey.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "galactickey"
-    },
-    {
-        "name": "Icicle Badge",
-        "type": "toggle",
-        "img": "images/items/iciclebadge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "iciclebadge"
-    },
-    {
-        "name": "Coupon 2",
-        "type": "toggle",
-        "img": "images/items/coupon2.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "coupon2"
-    },
-    {
-        "name": "Coupon 1",
-        "type": "toggle",
-        "img": "images/items/coupon1.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "coupon1"
-    },
-    {
-        "name": "Works Key",
-        "type": "toggle",
-        "img": "images/items/workskey.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "workskey"
-    },
-    {
-        "name": "HM04 Strength",
-        "type": "toggle",
-        "img": "images/items/hm04strength.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "hm04strength"
-    },
-    {
-        "name": "Super Rod",
-        "type": "toggle",
-        "img": "images/items/superrod.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "superrod"
-    },
-    {
-        "name": "HM07 Waterfall",
-        "type": "toggle",
-        "img": "images/items/hm07waterfall.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "hm07waterfall"
-    },
-    {
-        "name": "HM01 Cut",
-        "type": "toggle",
-        "img": "images/items/hm01cut.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "hm01cut"
-    },
-    {
-        "name": "Fen Badge",
-        "type": "toggle",
-        "img": "images/items/fenbadge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "fenbadge"
-    },
-    {
-        "name": "HM08 Rock Climb",
-        "type": "toggle",
-        "img": "images/items/hm08rockclimb.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "hm08rockclimb"
-    },
-    {
-        "name": "Old Charm",
-        "type": "toggle",
-        "img": "images/items/oldcharm.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "oldcharm"
-    },
-    {
-        "name": "Relic Badge",
-        "type": "toggle",
-        "img": "images/items/relicbadge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "relicbadge"
     },
     {
         "name": "Poketch",
@@ -420,14 +292,194 @@
         "codes": "poketch"
     },
     {
+        "name": "Dowsing Machine",
+        "type": "toggle",
+        "img": "images/items/dowsing_machine.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dowsingmachine"
+    },
+    {
+        "name": "Bag",
+        "type": "toggle",
+        "img": "images/items/bag.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bag"
+    },
+    {
+        "name": "Bicycle",
+        "type": "toggle",
+        "img": "images/items/bicycle.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bicycle"
+    },
+    {
+        "name": "Old Rod",
+        "type": "toggle",
+        "img": "images/items/old_rod.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "oldrod"
+    },
+    {
+        "name": "Good Rod",
+        "type": "toggle",
+        "img": "images/items/good_rod.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "goodrod"
+    },
+    {
+        "name": "Super Rod",
+        "type": "toggle",
+        "img": "images/items/super_rod.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "superrod"
+    },
+    {
+        "name": "Parcel",
+        "type": "toggle",
+        "img": "images/items/parcel.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "parcel"
+    },
+    {
+        "name": "Coupons",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 3,
+        "increment": 1,
+        "initial_quantity": 0,
+        "img": "images/items/coupons.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "coupons"
+    },
+    {
+        "name": "Works Key",
+        "type": "toggle",
+        "img": "images/items/works_key.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "workskey"
+    },
+    {
+        "name": "SecretPotion",
+        "type": "toggle",
+        "img": "images/items/secretpotion.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "secretpotion"
+    },
+    {
+        "name": "Red Chain",
+        "type": "toggle",
+        "img": "images/items/red_chain.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "redchain"
+    },
+    {
+        "name": "Marsh Pass",
+        "type": "toggle",
+        "img": "images/items/marsh_pass.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "marshpass"
+    },
+    {
+        "name": "Unown File",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 28,
+        "increment": 1,
+        "initial_quantity": 0,
+        "img": "images/items/unown_file.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "unownfile"
+    },
+    {
+        "name": "Storage Key",
+        "type": "toggle",
+        "img": "images/items/storage_key.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "storagekey"
+    },
+    {
+        "name": "Galactic Key",
+        "type": "toggle",
+        "img": "images/items/galactic_key.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "galactickey"
+    },
+    {
+        "name": "Old Charm",
+        "type": "toggle",
+        "img": "images/items/old_charm.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "oldcharm"
+    },
+    {
         "name": "Suite Key",
         "type": "toggle",
-        "img": "images/items/suitekey.png",
+        "img": "images/items/suite_key.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "suitekey"
+    },
+    {
+        "name": "S.S. Ticket",
+        "type": "toggle",
+        "img": "images/items/ss_ticket.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s.s.ticket"
     },
     {
         "name": "Update",
