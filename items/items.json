@@ -89,7 +89,8 @@
                 "name": "HM01 Cut",
                 "codes": "hm01cut",
                 "img": "images/items/hm01_cut.png",
-                "img_mods": "overlay|images/items/overlays/badge2_overlay.png"
+                "img_mods": "overlay|images/items/overlays/badge2_overlay.png",
+				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge2_overlay.png"
             },
             {
                 "name": "HM01 Cut - No Badge Requirement",
@@ -108,7 +109,8 @@
                 "name": "HM02 Fly",
                 "codes": "hm02fly",
                 "img": "images/items/hm02_fly.png",
-                "img_mods": "overlay|images/items/overlays/badge3_overlay.png"
+                "img_mods": "overlay|images/items/overlays/badge3_overlay.png",
+				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge3_overlay.png"
             },
             {
                 "name": "HM02 Fly - No Badge Requirement",
@@ -127,7 +129,8 @@
                 "name": "HM03 Surf",
                 "codes": "hm03surf",
                 "img": "images/items/hm03_surf.png",
-                "img_mods": "overlay|images/items/overlays/badge4_overlay.png"
+                "img_mods": "overlay|images/items/overlays/badge4_overlay.png",
+				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge4_overlay.png"
             },
             {
                 "name": "HM03 Surf - No Badge Requirement",
@@ -146,7 +149,8 @@
                 "name": "HM04 Strength",
                 "codes": "hm04strength",
                 "img": "images/items/hm04_strength.png",
-                "img_mods": "overlay|images/items/overlays/badge6_overlay.png"
+                "img_mods": "overlay|images/items/overlays/badge6_overlay.png",
+				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge6_overlay.png"
             },
             {
                 "name": "HM04 Strength - No Badge Requirement",
@@ -165,7 +169,8 @@
                 "name": "HM05 Defog",
                 "codes": "hm05defog",
                 "img": "images/items/hm05_defog.png",
-                "img_mods": "overlay|images/items/overlays/badge5_overlay.png"
+                "img_mods": "overlay|images/items/overlays/badge5_overlay.png",
+				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge5_overlay.png"
             },
             {
                 "name": "HM05 Defog - No Badge Requirement",
@@ -184,7 +189,8 @@
                 "name": "HM06 Rock Smash",
                 "codes": "hm06rocksmash",
                 "img": "images/items/hm06_rocksmash.png",
-                "img_mods": "overlay|images/items/overlays/badge1_overlay.png"
+                "img_mods": "overlay|images/items/overlays/badge1_overlay.png",
+				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge1_overlay.png"
             },
             {
                 "name": "HM06 Rock Smash - No Badge Requirement",
@@ -203,7 +209,8 @@
                 "name": "HM07 Waterfall",
                 "codes": "hm07waterfall",
                 "img": "images/items/hm07_waterfall.png",
-                "img_mods": "overlay|images/items/overlays/badge8_overlay.png"
+                "img_mods": "overlay|images/items/overlays/badge8_overlay.png",
+				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge8_overlay.png"
             },
             {
                 "name": "HM07 Waterfall - No Badge Requirement",
@@ -222,7 +229,8 @@
                 "name": "HM08 Rock Climb",
                 "codes": "hm08rockclimb",
                 "img": "images/items/hm08_rockclimb.png",
-                "img_mods": "overlay|images/items/overlays/badge7_overlay.png"
+                "img_mods": "overlay|images/items/overlays/badge7_overlay.png",
+				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge7_overlay.png"
             },
             {
                 "name": "HM08 Rock Climb - No Badge Requirement",
@@ -370,6 +378,7 @@
         "increment": 1,
         "initial_quantity": 0,
         "img": "images/items/coupons.png",
+        "overlay_background": "#000000",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -425,6 +434,7 @@
         "increment": 1,
         "initial_quantity": 0,
         "img": "images/items/unown_file.png",
+        "overlay_background": "#000000",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
