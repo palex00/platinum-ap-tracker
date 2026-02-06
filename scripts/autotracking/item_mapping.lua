@@ -34,6 +34,7 @@ ITEM_MAPPING = {
 	[24583] =   {{"beaconbadge", "toggle"}},
 	[57346] =   {{"pokedex", "progressive"}},
 	[57347] =   {{"poketch", "toggle"}},
+	[20486] =   {{"dowsingmachine", "toggle"}},
 	[469] =     {{"marshpass", "toggle"}},
 	[470] =     {{"unownfile", "consumable"}},
 	[57348] =   {{"bag", "toggle"}},
