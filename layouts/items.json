@@ -1,0 +1,158 @@
+{
+    "shared_item_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "hm02fly",
+                                "hm06rocksmash",
+                                "minebadge",
+                                "hm05defog",
+                                "s.s.ticket",
+                                "bag",
+                                "cobblebadge"
+                            ],
+                            [
+                                "hm03surf",
+                                "oaksletter",
+                                "coupon3",
+                                "redchain",
+                                "goodrod",
+                                "beaconbadge",
+                                "coalbadge"
+                            ],
+                            [
+                                "forestbadge",
+                                "marshpass",
+                                "secretpotion",
+                                "bicycle",
+                                "pokedex_stage1",
+                                "oddkeystone",
+                                "parcel"
+                            ],
+                            [
+                                "unownfile",
+                                "tm70flash",
+                                "oldrod",
+                                "storagekey",
+                                "galactickey",
+                                "iciclebadge",
+                                "coupon2"
+                            ],
+                            [
+                                "coupon1",
+                                "workskey",
+                                "hm04strength",
+                                "superrod",
+                                "hm07waterfall",
+                                "hm01cut",
+                                "fenbadge"
+                            ],
+                            [
+                                "hm08rockclimb",
+                                "oldcharm",
+                                "relicbadge",
+                                "poketch",
+                                "suitekey",
+                                "update"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "shared_item_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "hm02fly",
+                                "hm06rocksmash",
+                                "minebadge",
+                                "hm05defog",
+                                "s.s.ticket",
+                                "bag",
+                                "cobblebadge"
+                            ],
+                            [
+                                "hm03surf",
+                                "oaksletter",
+                                "coupon3",
+                                "redchain",
+                                "goodrod",
+                                "beaconbadge",
+                                "coalbadge"
+                            ],
+                            [
+                                "forestbadge",
+                                "marshpass",
+                                "secretpotion",
+                                "bicycle",
+                                "pokedex_stage1",
+                                "oddkeystone",
+                                "parcel"
+                            ],
+                            [
+                                "unownfile",
+                                "tm70flash",
+                                "oldrod",
+                                "storagekey",
+                                "galactickey",
+                                "iciclebadge",
+                                "coupon2"
+                            ],
+                            [
+                                "coupon1",
+                                "workskey",
+                                "hm04strength",
+                                "superrod",
+                                "hm07waterfall",
+                                "hm01cut",
+                                "fenbadge"
+                            ],
+                            [
+                                "hm08rockclimb",
+                                "oldcharm",
+                                "relicbadge",
+                                "poketch",
+                                "suitekey",
+                                "update"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

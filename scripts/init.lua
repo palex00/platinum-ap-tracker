@@ -1,32 +1,32 @@
-
 local variant = Tracker.ActiveVariantUID
 
 -- Items
-require("scripts/items_import")
+Tracker:AddItems("items/events.json")
+Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/settings.json")
+                
 
 -- Logic
-require("scripts/logic/logic_helper")
-require("scripts/logic/logic_main")
+require("scripts/logic/utils")
+require("scripts/logic/logic")
 
 -- Maps
-if Tracker.ActiveVariantUID == "maps-u" then
-    Tracker:AddMaps("maps/maps-u.json")  
-else
-    Tracker:AddMaps("maps/maps.json")  
-end  
-
-if PopVersion and PopVersion >= "0.23.0" then
-    Tracker:AddLocations("locations/dungeons.json")
-end
+Tracker:AddMaps("maps/maps.json")  
 
 -- Layout
-require("scripts/layouts_import")
+Tracker:AddLayouts("layouts/settings_popup.json")
+Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/tabs.json")
+Tracker:AddLayouts("layouts/tracker.json")
+Tracker:AddLayouts("layouts/broadcast.json")
 
 -- Locations
-require("scripts/locations_import")
+Tracker:AddLocations("locations/access.json")
+Tracker:AddLocations("locations/overworldmap.json")
+Tracker:AddLocations("locations/submaps_singles.json")
+Tracker:AddLocations("locations/submaps_groups.json")
 
 -- AutoTracking for Poptracker
 require("scripts/autotracking")
 
-require("scripts/luaitems")
 require("scripts/watches")

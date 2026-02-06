@@ -1,4 +1,3 @@
-
 ACCESS_NONE = AccessibilityLevel.None
 ACCESS_PARTIAL = AccessibilityLevel.Partial
 ACCESS_INSPECT = AccessibilityLevel.Inspect
@@ -11,21 +10,21 @@ local bool_to_accesslvl = {
     [false] = ACCESS_NONE
 }
                 
-function A(result)
+function a(result)
     if result then
         return ACCESS_NORMAL
     end
     return ACCESS_NONE
 end
 
-function ALL(...)
+function all(...)
     local args = { ... }
     local min = ACCESS_NORMAL
     for _, v in ipairs(args) do
         if type(v) == "function" then
             v = v()
         elseif type(v) == "string" then
-            v = Has(v)
+            v = has(v)
         end
         if type(v) == "boolean" then
             v = bool_to_accesslvl[v]
@@ -40,14 +39,14 @@ function ALL(...)
     return min
 end
 
-function ANY(...)
+function any(...)
     local args = { ... }
     local max = ACCESS_NONE
     for _, v in ipairs(args) do
         if type(v) == "function" then
             v = v()
         elseif type(v) == "string" then
-            v = Has(v)
+            v = has(v)
         end
         if type(v) == "boolean" then
             v = bool_to_accesslvl[v]
@@ -63,7 +62,7 @@ function ANY(...)
     return max
 end
 
-function Has(item, amount, amountInLogic)
+function has(item, amount, amountInLogic)
     local count = Tracker:ProviderCountForCode(item)
 
     -- print(item, count, amount, amountInLogic)
@@ -88,8 +87,22 @@ function Has(item, amount, amountInLogic)
     end
 end
 
-
--- ANy function added here and used in access rules should try to return an Accessibility Level if it is used inside 
--- the ANY() and ALL() functions
---
---
+function dump_table(o, depth)
+    if depth == nil then
+        depth = 0
+    end
+    if type(o) == 'table' then
+        local tabs = ('\t'):rep(depth)
+        local tabs2 = ('\t'):rep(depth + 1)
+        local s = '{'
+        for k, v in pairs(o) do
+            if type(k) ~= 'number' then
+                k = '"' .. k .. '"'
+            end
+            s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ','
+        end
+        return s .. tabs .. '}'
+    else
+        return tostring(o)
+    end
+end
