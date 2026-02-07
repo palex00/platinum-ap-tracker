@@ -1,60 +1,20 @@
 [
     {
         "name": "Great Marsh",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
         ],
         "sections": [
             {
-                "name": "Area 3 - Item in Front of Man",
+                "name": "Matchup Checker App from Cowgirl",
                 "access_rules": [
-                    "@great_marsh_3"
+                    "@pastoria_city_observatory_gate_1f, $marsh_pass"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Area 3 - Hidden Item in Center of East Mud Puddle",
-                "access_rules": [
-                    "^$hidden, @great_marsh_3"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Area 4 - Item Above Bug Catcher",
-                "access_rules": [
-                    "@great_marsh_4"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Area 6 - Item Below Bug Catcher",
-                "access_rules": [
-                    "@great_marsh_4"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Area 4 - Hidden Item in SW Corner of Muddy Grass",
-                "access_rules": [
-                    "^$hidden, @great_marsh_4"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
+                    "opt_poketchapps_on"
                 ],
                 "item_count": 1
             },
@@ -89,6 +49,66 @@
                 "item_count": 1
             },
             {
+                "name": "Area 2 - Item Above Ledge",
+                "access_rules": [
+                    "@great_marsh_2"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Area 2 - Hidden Item in Deep Mud Behind Parasol Lady",
+                "access_rules": [
+                    "^$hidden, @great_marsh_2"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Area 3 - Item in Front of Man",
+                "access_rules": [
+                    "@great_marsh_3"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Area 3 - Hidden Item in Center of East Mud Puddle",
+                "access_rules": [
+                    "^$hidden, @great_marsh_3"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Area 4 - Item Above Bug Catcher",
+                "access_rules": [
+                    "@great_marsh_4"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Area 4 - Hidden Item in SW Corner of Muddy Grass",
+                "access_rules": [
+                    "^$hidden, @great_marsh_4"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "Area 5 - Item in Southwest Area",
                 "access_rules": [
                     "@great_marsh_5"
@@ -109,22 +129,12 @@
                 "item_count": 1
             },
             {
-                "name": "Area 2 - Item Above Ledge",
+                "name": "Area 6 - Item Below Bug Catcher",
                 "access_rules": [
-                    "@great_marsh_2"
+                    "@great_marsh_4"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Area 2 - Hidden Item in Deep Mud Behind Parasol Lady",
-                "access_rules": [
-                    "^$hidden, @great_marsh_2"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -147,31 +157,21 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
-            },
-            {
-                "name": "Matchup Checker App from Cowgirl",
-                "access_rules": [
-                    "@pastoria_city_observatory_gate_1f, $marsh_pass"
-                ],
-                "visibility_rules": [
-                    "opt_poketchapps_on"
-                ],
-                "item_count": 1
             }
         ],
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 422,
-                "y": 2262,
-                "size": 6
+                "x": 269,
+                "y": 266,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 225",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -183,7 +183,7 @@
                     "@route_225, $rock_climb"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -311,16 +311,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1974,
-                "y": 691,
-                "size": 6
+                "x": 276,
+                "y": 84,
+                "size": 7
             }
         ]
     },
     {
         "name": "Victory Road",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -332,7 +332,7 @@
                     "@victory_road_1f"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -610,16 +610,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2090,
-                "y": 2224,
-                "size": 6
+                "x": 374,
+                "y": 182,
+                "size": 7
             }
         ]
     },
     {
         "name": "Pokemon League",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -631,7 +631,7 @@
                     "^$hidden, @pokemon_league"
                 ],
                 "visibility_rules": [
-                    "opt_hidden_on"
+                    ""
                 ],
                 "item_count": 1
             }
@@ -639,16 +639,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2172,
-                "y": 2256,
-                "size": 6
+                "x": 374,
+                "y": 168,
+                "size": 10
             }
         ]
     },
     {
-        "name": "Route 224",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "Route 224 West",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -660,7 +660,7 @@
                     "@route_224"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -670,12 +670,61 @@
                     "@route_224"
                 ],
                 "visibility_rules": [
+                    ""
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item at Top of Grass Outside Victory Road",
+                "access_rules": [
+                    "^$hidden, @route_224"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item Outside Victory Road Exit",
+                "access_rules": [
+                    "^$hidden, @route_224"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 388,
+                "y": 161,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Route 224 East",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "Item in Northern Grass",
+                "access_rules": [
+                    "@route_224"
+                ],
+                "visibility_rules": [
                     "opt_overworld_on"
                 ],
                 "item_count": 1
             },
             {
-                "name": "Item in Northern Grass",
+                "name": "Item on Island 1",
                 "access_rules": [
                     "@route_224"
                 ],
@@ -701,36 +750,6 @@
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item on Island 1",
-                "access_rules": [
-                    "@route_224"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item in Grass Outside Victory Road",
-                "access_rules": [
-                    "@route_224"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Item at Top of Grass Outside Victory Road",
-                "access_rules": [
-                    "^$hidden, @route_224"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -775,16 +794,6 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item Outside Victory Road Exit",
-                "access_rules": [
-                    "^$hidden, @route_224"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Hidden Item Below Berry Patch",
                 "access_rules": [
                     "^$hidden, @route_224"
@@ -798,16 +807,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 539,
-                "y": 726,
-                "size": 6
+                "x": 402,
+                "y": 147,
+                "size": 7
             }
         ]
     },
     {
         "name": "Survival Area",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -819,7 +828,7 @@
                     "@survival_area"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -857,16 +866,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1869,
-                "y": 2337,
-                "size": 6
+                "x": 290,
+                "y": 70,
+                "size": 10
             }
         ]
     },
     {
         "name": "Fullmoon Island",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -878,7 +887,7 @@
                     "@fullmoon_island_forest"
                 ],
                 "visibility_rules": [
-                    "opt_keyitems_on"
+                    ""
                 ],
                 "item_count": 1
             }
@@ -886,16 +895,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2364,
-                "y": 1989,
-                "size": 6
+                "x": 24,
+                "y": 42,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 226",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -907,7 +916,7 @@
                     "@route_226"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -985,16 +994,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2180,
-                "y": 1864,
-                "size": 6
+                "x": 318,
+                "y": 70,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 227",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -1006,7 +1015,7 @@
                     "@route_227, $rock_climb"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -1054,16 +1063,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1530,
-                "y": 2187,
-                "size": 6
+                "x": 332,
+                "y": 49,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 228",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -1076,7 +1085,7 @@
                     "@route_228, $fly"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -1204,16 +1213,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1876,
-                "y": 2141,
-                "size": 6
+                "x": 346,
+                "y": 84,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 230",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -1225,7 +1234,7 @@
                     "@route_230, $rock_smash, $surf"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -1263,16 +1272,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 470,
-                "y": 1574,
-                "size": 6
+                "x": 318,
+                "y": 112,
+                "size": 7
             }
         ]
     },
     {
         "name": "Celestic Town",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -1330,16 +1339,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 488,
-                "y": 2316,
-                "size": 6
+                "x": 208,
+                "y": 154,
+                "size": 10
             }
         ]
     },
     {
         "name": "Route 229",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -1351,7 +1360,7 @@
                     "@route_229, $cut"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -1409,16 +1418,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 244,
-                "y": 734,
-                "size": 6
+                "x": 353,
+                "y": 112,
+                "size": 7
             }
         ]
     },
     {
         "name": "Resort Area",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -1430,7 +1439,7 @@
                     "@resort_area, $surf"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -1448,16 +1457,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 757,
-                "y": 555,
-                "size": 6
+                "x": 360,
+                "y": 126,
+                "size": 10
             }
         ]
     },
     {
         "name": "Twinleaf Town",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -1469,7 +1478,7 @@
                     "^$hidden, @twinleaf_town, $surf"
                 ],
                 "visibility_rules": [
-                    "opt_hidden_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -1505,28 +1514,38 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2139,
-                "y": 2181,
-                "size": 6
+                "x": 52,
+                "y": 308,
+                "size": 10
             }
         ]
     },
     {
-        "name": "Verity Lakefront",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "Lake Verity",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
         ],
         "sections": [
             {
-                "name": "Hidden Item in Flower Patch",
+                "name": "Lakefront - Hidden Item in Flower Patch",
                 "access_rules": [
                     "^$hidden, @verity_lakefront"
                 ],
                 "visibility_rules": [
-                    "opt_hidden_on"
+                    ""
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Lake - Item in Southwest Grass Patch",
+                "access_rules": [
+                    "@lake_verity, $surf"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
                 ],
                 "item_count": 1
             }
@@ -1534,16 +1553,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1630,
-                "y": 1154,
-                "size": 6
+                "x": 31,
+                "y": 287,
+                "size": 7
             }
         ]
     },
     {
         "name": "Pastoria City",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -1599,16 +1618,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1347,
-                "y": 2317,
-                "size": 6
+                "x": 269,
+                "y": 287,
+                "size": 13
             }
         ]
     },
     {
         "name": "Iron Island",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -1856,16 +1875,65 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1595,
-                "y": 2010,
-                "size": 6
+                "x": 52,
+                "y": 140,
+                "size": 7
             }
         ]
     },
     {
-        "name": "Route 213",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "Route 213 West",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "Hidden Item Next to Honey Tree",
+                "access_rules": [
+                    "^$hidden, @route_213, $rock_smash"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item Below Footsteps House 1",
+                "access_rules": [
+                    "^$hidden, @route_213"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item Below Footsteps House 2",
+                "access_rules": [
+                    "^$hidden, @route_213"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 290,
+                "y": 287,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Route 213 East",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -1877,7 +1945,7 @@
                     "@route_213, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -1962,26 +2030,6 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item Below Footsteps House 2",
-                "access_rules": [
-                    "^$hidden, @route_213"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Item Next to Honey Tree",
-                "access_rules": [
-                    "^$hidden, @route_213, $rock_smash"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Hidden Item in Rock Corner Behind Fisherman",
                 "access_rules": [
                     "^$hidden, @route_213"
@@ -2025,16 +2073,6 @@
                 "name": "Hidden Item on Southeast White Rock",
                 "access_rules": [
                     "^$hidden, @route_213, $surf"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Item Below Footsteps House 1",
-                "access_rules": [
-                    "^$hidden, @route_213"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -2095,16 +2133,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 308,
-                "y": 1581,
-                "size": 6
+                "x": 311,
+                "y": 287,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 219",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -2116,7 +2154,7 @@
                     "@route_219"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -2134,16 +2172,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2411,
-                "y": 1519,
-                "size": 6
+                "x": 80,
+                "y": 309,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 221",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -2155,7 +2193,7 @@
                     "@route_221"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -2243,16 +2281,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 354,
-                "y": 1945,
-                "size": 6
+                "x": 112,
+                "y": 322,
+                "size": 7
             }
         ]
     },
     {
         "name": "Stark Mountain",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -2264,7 +2302,7 @@
                     "@stark_mountain_outside, $rock_climb"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -2482,28 +2520,147 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 366,
-                "y": 282,
-                "size": 6
+                "x": 332,
+                "y": 28,
+                "size": 7
             }
         ]
     },
     {
-        "name": "Route 212 South",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "Route 212 North",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
         ],
         "sections": [
             {
-                "name": "Item in Bottom Left of West Grass Area",
+                "name": "Item in Flower Patch",
+                "access_rules": [
+                    "@route_212_north, $surf"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Item on West Ledge",
+                "access_rules": [
+                    "@route_212_north, $cut",
+                    "@route_212_north, $surf"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Item Next to Mansion",
+                "access_rules": [
+                    "@route_212_north"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Item Next to North Pond",
+                "access_rules": [
+                    "@route_212_north, $surf"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item in Bush Outside of Mansion Fences",
+                "access_rules": [
+                    "^$hidden, @route_212_north"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 206,
+                "y": 259,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Route 212 Center",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "Item Behind Trainer Tips Sign",
+                "access_rules": [
+                    "@route_212_north"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item in Bush By Mansion Entrance",
+                "access_rules": [
+                    "^$hidden, @route_212_north"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 206,
+                "y": 280,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Route 212 South West",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "Item in Top Left of West Grass Area",
                 "access_rules": [
                     "@route_212_south"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Item in Bottom Left of West Grass Area",
+                "access_rules": [
+                    "@route_212_south"
+                ],
+                "visibility_rules": [
+                    ""
                 ],
                 "item_count": 1
             },
@@ -2528,12 +2685,51 @@
                 "item_count": 1
             },
             {
+                "name": "Hidden Item on SW Bike Bridge Island",
+                "access_rules": [
+                    "^$hidden, @route_212_south, bicycle, $cut"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item Below Two Trees on Corner",
+                "access_rules": [
+                    "^$hidden, @route_212_south, $surf"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 213,
+                "y": 294,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Route 212 South East",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
                 "name": "Item on Ledge Above Move Tutor",
                 "access_rules": [
                     "@route_212_south, $cut, bicycle"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -2574,26 +2770,6 @@
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item in Top Left of West Grass Area",
-                "access_rules": [
-                    "@route_212_south"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Item Below Two Trees on Corner",
-                "access_rules": [
-                    "^$hidden, @route_212_south, $surf"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -2656,121 +2832,21 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
-            },
-            {
-                "name": "Hidden Item on SW Bike Bridge Island",
-                "access_rules": [
-                    "^$hidden, @route_212_south, bicycle, $cut"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
             }
         ],
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1491,
-                "y": 323,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "Route 212 North",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Item in Flower Patch",
-                "access_rules": [
-                    "@route_212_north, $surf"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item on West Ledge",
-                "access_rules": [
-                    "@route_212_north, $cut",
-                    "@route_212_north, $surf"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item Behind Trainer Tips Sign",
-                "access_rules": [
-                    "@route_212_north"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item Next to Mansion",
-                "access_rules": [
-                    "@route_212_north"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item Next to North Pond",
-                "access_rules": [
-                    "@route_212_north, $surf"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Item in Bush Outside of Mansion Fences",
-                "access_rules": [
-                    "^$hidden, @route_212_north"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Item in Bush By Mansion Entrance",
-                "access_rules": [
-                    "^$hidden, @route_212_north"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Sinnoh",
-                "x": 1884,
-                "y": 1999,
-                "size": 6
+                "x": 241,
+                "y": 294,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 208",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -2782,7 +2858,7 @@
                     "@route_208, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -2860,16 +2936,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1516,
-                "y": 957,
-                "size": 6
+                "x": 185,
+                "y": 238,
+                "size": 7
             }
         ]
     },
     {
         "name": "Hearthome City",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -2935,45 +3011,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1705,
-                "y": 988,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "Lake Verity",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Item in Southwest Grass Patch",
-                "access_rules": [
-                    "@lake_verity, $surf"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Sinnoh",
-                "x": 1519,
-                "y": 810,
-                "size": 6
+                "x": 213,
+                "y": 231,
+                "size": 13
             }
         ]
     },
     {
         "name": "Route 220",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -2985,7 +3032,7 @@
                     "@route_220"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -3023,16 +3070,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1227,
-                "y": 2479,
-                "size": 6
+                "x": 87,
+                "y": 322,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 202",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -3044,7 +3091,7 @@
                     "@route_202"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -3062,16 +3109,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 463,
-                "y": 1840,
-                "size": 6
+                "x": 80,
+                "y": 280,
+                "size": 7
             }
         ]
     },
     {
         "name": "Jubilife City",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -3281,16 +3328,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1097,
-                "y": 1151,
-                "size": 6
+                "x": 73,
+                "y": 259,
+                "size": 13
             }
         ]
     },
     {
         "name": "Route 209",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -3408,16 +3455,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1412,
-                "y": 1506,
-                "size": 6
+                "x": 248,
+                "y": 238,
+                "size": 7
             }
         ]
     },
     {
         "name": "Solaceon Town",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -3429,7 +3476,7 @@
                     "@solaceon_town"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -3487,28 +3534,117 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1633,
-                "y": 2137,
-                "size": 6
+                "x": 248,
+                "y": 210,
+                "size": 10
             }
         ]
     },
     {
-        "name": "Route 210 Middle",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "Route 210 North",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
         ],
         "sections": [
             {
+                "name": "North - Item Under Bridge Next to Hidden Ninja Boy",
+                "access_rules": [
+                    "@route_210_north"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "North - Item Behind Breakable Rocks",
+                "access_rules": [
+                    "@route_210_north, $rock_smash, bicycle"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "North - Item Under West Bridge",
+                "access_rules": [
+                    "@route_210_north, $surf, $waterfall"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "North - Hidden Item up East Waterfall",
+                "access_rules": [
+                    "^$hidden, @route_210_north, $surf, $waterfall"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 228,
+                "y": 154,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Route 210 Center",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "North - Item on Ledge Below Move Tutor",
+                "access_rules": [
+                    "@route_210_north, $rock_climb"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "North - Item to Left of Grass",
+                "access_rules": [
+                    "@route_210_north"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "North - Hidden Item on Ledge in Pit",
+                "access_rules": [
+                    "^$hidden, @route_210_north, $rock_climb"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "Item Near Bottom Left Tree in Long Grass",
                 "access_rules": [
                     "@route_210_south"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -3576,16 +3712,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 822,
-                "y": 1797,
-                "size": 6
+                "x": 248,
+                "y": 161,
+                "size": 7
             }
         ]
     },
     {
-        "name": "Route 210",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "Route 210 South",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -3597,7 +3733,7 @@
                     "@route_210_south, bicycle, bag"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -3605,76 +3741,6 @@
                 "name": "South - Hidden Item in Grass Next to Honey Tree",
                 "access_rules": [
                     "^$hidden, @route_210_south"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "North - Item Under Bridge Next to Hidden Ninja Boy",
-                "access_rules": [
-                    "@route_210_north"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "North - Item Under West Bridge",
-                "access_rules": [
-                    "@route_210_north, $surf, $waterfall"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "North - Item Behind Breakable Rocks",
-                "access_rules": [
-                    "@route_210_north, $rock_smash, bicycle"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "North - Item on Ledge Below Move Tutor",
-                "access_rules": [
-                    "@route_210_north, $rock_climb"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "North - Item to Left of Grass",
-                "access_rules": [
-                    "@route_210_north"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "North - Hidden Item on Ledge in Pit",
-                "access_rules": [
-                    "^$hidden, @route_210_north, $rock_climb"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "North - Hidden Item up East Waterfall",
-                "access_rules": [
-                    "^$hidden, @route_210_north, $surf, $waterfall"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -3705,16 +3771,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 611,
-                "y": 1849,
-                "size": 6
+                "x": 248,
+                "y": 189,
+                "size": 7
             }
         ]
     },
     {
         "name": "Lost Tower",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -3726,7 +3792,7 @@
                     "@route_209_lost_tower_2f"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -3794,16 +3860,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 362,
-                "y": 1119,
-                "size": 6
+                "x": 262,
+                "y": 224,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 204",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -3815,7 +3881,7 @@
                     "@route_204_south, $surf"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -3873,16 +3939,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 635,
-                "y": 1279,
-                "size": 6
+                "x": 80,
+                "y": 231,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 218",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -3930,16 +3996,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1827,
-                "y": 1358,
-                "size": 6
+                "x": 45,
+                "y": 252,
+                "size": 7
             }
         ]
     },
     {
         "name": "Solaceon Ruins",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -4251,16 +4317,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2232,
-                "y": 2495,
-                "size": 6
+                "x": 262,
+                "y": 210,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 222",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -4272,7 +4338,7 @@
                     "@route_222"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -4393,33 +4459,33 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1131,
-                "y": 323,
-                "size": 6
+                "x": 346,
+                "y": 266,
+                "size": 7
             }
         ]
     },
     {
-        "name": "Valor Lakefront",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "Lake Valor",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
         ],
         "sections": [
             {
-                "name": "Hidden Item in Corner of Route 222s NW Trees",
+                "name": "Lakefront - Hidden Item in Corner of Route 222s NW Trees",
                 "access_rules": [
                     "^$hidden, @route_222"
                 ],
                 "visibility_rules": [
-                    "opt_hidden_on"
+                    ""
                 ],
                 "item_count": 1
             },
             {
-                "name": "Item After Rock Climb Ledges 2",
+                "name": "Lakefront - Item After Rock Climb Ledges 2",
                 "access_rules": [
                     "@valor_lakefront, $rock_climb"
                 ],
@@ -4429,7 +4495,7 @@
                 "item_count": 1
             },
             {
-                "name": "Item in Grass",
+                "name": "Lakefront - Item in Grass",
                 "access_rules": [
                     "@valor_lakefront"
                 ],
@@ -4439,7 +4505,7 @@
                 "item_count": 1
             },
             {
-                "name": "Item After Rock Climb Ledges 1",
+                "name": "Lakefront - Item After Rock Climb Ledges 1",
                 "access_rules": [
                     "@valor_lakefront, $rock_climb"
                 ],
@@ -4449,7 +4515,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item After Rock Climbing From Route 213",
+                "name": "Lakefront - Hidden Item After Rock Climbing From Route 213",
                 "access_rules": [
                     "^$hidden, @valor_lakefront, $rock_climb"
                 ],
@@ -4459,7 +4525,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Upper Corner of Grass",
+                "name": "Lakefront - Hidden Item in Upper Corner of Grass",
                 "access_rules": [
                     "^$hidden, @valor_lakefront"
                 ],
@@ -4469,7 +4535,7 @@
                 "item_count": 1
             },
             {
-                "name": "SecretPotion from Cynthia",
+                "name": "Lakefront - SecretPotion from Cynthia",
                 "access_rules": [
                     "@valor_lakefront, event_fen_badge"
                 ],
@@ -4479,7 +4545,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gift from Locked Out Woman",
+                "name": "Lakefront - Gift from Locked Out Woman",
                 "access_rules": [
                     "@grand_lake_valor_lakefront_east_house, suite_key"
                 ],
@@ -4487,21 +4553,41 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Lake - Hidden Item By Pile of Magikarp During Saturn Takeover",
+                "access_rules": [
+                    "^$hidden, @lake_valor_drained"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Lake - Item in SE Corner of Lake",
+                "access_rules": [
+                    "@lake_valor"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1879,
-                "y": 59,
-                "size": 6
+                "x": 311,
+                "y": 259,
+                "size": 7
             }
         ]
     },
     {
         "name": "Sunyshore City",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -4597,38 +4683,67 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 347,
-                "y": 384,
-                "size": 6
+                "x": 381,
+                "y": 259,
+                "size": 13
             }
         ]
     },
     {
-        "name": "Route 223",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "Route 223 South",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
         ],
         "sections": [
             {
+                "name": "Hidden Item on First Islet",
+                "access_rules": [
+                    "^$hidden, @route_223, $surf"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "Item Surrounded by West Rocks",
                 "access_rules": [
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
-            },
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 374,
+                "y": 231,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Route 223 North",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
             {
                 "name": "Item Behind Sailor",
                 "access_rules": [
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -4653,16 +4768,6 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item on First Islet",
-                "access_rules": [
-                    "^$hidden, @route_223, $surf"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Hidden Item to Left of Sailor",
                 "access_rules": [
                     "^$hidden, @route_223, $surf"
@@ -4676,16 +4781,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2116,
-                "y": 2331,
-                "size": 6
+                "x": 374,
+                "y": 203,
+                "size": 7
             }
         ]
     },
     {
         "name": "Ravaged Path",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -4697,7 +4802,7 @@
                     "@ravaged_path, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -4735,16 +4840,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 70,
-                "y": 1731,
-                "size": 6
+                "x": 94,
+                "y": 231,
+                "size": 7
             }
         ]
     },
     {
         "name": "Canalave City",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -4802,16 +4907,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 691,
-                "y": 465,
-                "size": 6
+                "x": 24,
+                "y": 245,
+                "size": 10
             }
         ]
     },
     {
         "name": "Route 205",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -4823,7 +4928,7 @@
                     "@route_205_south"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -4881,16 +4986,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 976,
-                "y": 2220,
-                "size": 6
+                "x": 94,
+                "y": 196,
+                "size": 7
             }
         ]
     },
     {
         "name": "Valley Windworks",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -4902,7 +5007,7 @@
                     "@valley_windworks_outside, $surf"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -4940,16 +5045,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 902,
-                "y": 1236,
-                "size": 6
+                "x": 108,
+                "y": 210,
+                "size": 7
             }
         ]
     },
     {
         "name": "Eterna Forest",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -5042,21 +5147,41 @@
                 ],
                 "visibility_rules": [],
                 "item_count": 1
+            },
+            {
+                "name": "Side Route - Rocky Area Right",
+                "access_rules": [
+                    "@eterna_forest_outside"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Side Route - Rocky Area Left",
+                "access_rules": [
+                    "@eterna_forest_outside"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 87,
-                "y": 958,
-                "size": 6
+                "x": 101,
+                "y": 161,
+                "size": 7
             }
         ]
     },
     {
         "name": "Fuego Ironworks",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -5068,7 +5193,7 @@
                     "^$hidden, @fuego_ironworks_outside"
                 ],
                 "visibility_rules": [
-                    "opt_hidden_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -5196,16 +5321,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2150,
-                "y": 2392,
-                "size": 6
+                "x": 80,
+                "y": 182,
+                "size": 7
             }
         ]
     },
     {
         "name": "Old Chateau",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -5217,7 +5342,7 @@
                     "@old_chateau_side_rooms"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -5275,16 +5400,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 755,
-                "y": 1387,
-                "size": 6
+                "x": 101,
+                "y": 140,
+                "size": 7
             }
         ]
     },
     {
         "name": "Eterna City",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -5296,7 +5421,7 @@
                     "@eterna_city, $cut"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -5458,16 +5583,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2304,
-                "y": 2179,
-                "size": 6
+                "x": 136,
+                "y": 154,
+                "size": 10
             }
         ]
     },
     {
         "name": "Route 205 North",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -5479,7 +5604,7 @@
                     "^$hidden, @eterna_city"
                 ],
                 "visibility_rules": [
-                    "opt_hidden_on"
+                    ""
                 ],
                 "item_count": 1
             }
@@ -5487,16 +5612,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2307,
-                "y": 1603,
-                "size": 6
+                "x": 122,
+                "y": 154,
+                "size": 7
             }
         ]
     },
     {
-        "name": "Route 214",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "Route 214 North",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -5508,7 +5633,36 @@
                     "@route_214"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 318,
+                "y": 210,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Route 214 South",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "Item Near Breakable Rocks",
+                "access_rules": [
+                    "@route_214"
+                ],
+                "visibility_rules": [
+                    ""
                 ],
                 "item_count": 1
             },
@@ -5586,16 +5740,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1380,
-                "y": 2314,
-                "size": 6
+                "x": 318,
+                "y": 231,
+                "size": 7
             }
         ]
     },
     {
         "name": "Maniac Tunnel",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -5607,7 +5761,7 @@
                     "@maniac_tunnel"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             }
@@ -5615,16 +5769,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 24,
-                "y": 1076,
-                "size": 6
+                "x": 304,
+                "y": 210,
+                "size": 7
             }
         ]
     },
     {
         "name": "Veilstone City",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -5768,16 +5922,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2493,
-                "y": 2045,
-                "size": 6
+                "x": 311,
+                "y": 189,
+                "size": 13
             }
         ]
     },
     {
         "name": "Floaroma Meadow",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -5789,7 +5943,7 @@
                     "@floaroma_meadow"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -5957,16 +6111,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1507,
-                "y": 817,
-                "size": 6
+                "x": 80,
+                "y": 196,
+                "size": 7
             }
         ]
     },
     {
         "name": "Amity Square",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -5978,7 +6132,7 @@
                     "@amity_square"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -6026,16 +6180,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1953,
-                "y": 2335,
-                "size": 6
+                "x": 213,
+                "y": 210,
+                "size": 7
             }
         ]
     },
     {
         "name": "Galactic Warehouse",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -6133,16 +6287,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1645,
-                "y": 1587,
-                "size": 6
+                "x": 304,
+                "y": 168,
+                "size": 7
             }
         ]
     },
     {
         "name": "Galactic HQ",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -6154,7 +6308,7 @@
                     "^$hidden, @veilstone_city"
                 ],
                 "visibility_rules": [
-                    "opt_hidden_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -6272,16 +6426,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 131,
-                "y": 2422,
-                "size": 6
+                "x": 318,
+                "y": 168,
+                "size": 7
             }
         ]
     },
     {
-        "name": "Route 212",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "Pokémon Mansion",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -6293,7 +6447,7 @@
                     "@pokemon_mansion_maids_room"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -6331,16 +6485,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 587,
-                "y": 1917,
-                "size": 6
+                "x": 220,
+                "y": 252,
+                "size": 7
             }
         ]
     },
     {
-        "name": "Route 206",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "Route 206 North",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -6352,7 +6506,7 @@
                     "@route_206"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -6428,16 +6582,45 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1518,
-                "y": 1511,
-                "size": 6
+                "x": 136,
+                "y": 189,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Route 206 South",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "Item Above Berry Patch",
+                "access_rules": [
+                    "@route_206"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 136,
+                "y": 217,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 207",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -6565,16 +6748,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 468,
-                "y": 1851,
-                "size": 6
+                "x": 143,
+                "y": 238,
+                "size": 7
             }
         ]
     },
     {
         "name": "Lake Valor",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -6611,48 +6794,9 @@
         ]
     },
     {
-        "name": "Eterna Forest Side Route",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Rocky Area Right",
-                "access_rules": [
-                    "@eterna_forest_outside"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Rocky Area Left",
-                "access_rules": [
-                    "@eterna_forest_outside"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Sinnoh",
-                "x": 2103,
-                "y": 1027,
-                "size": 6
-            }
-        ]
-    },
-    {
         "name": "Route 216",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -6664,7 +6808,7 @@
                     "@route_216, $rock_climb"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -6732,16 +6876,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1553,
-                "y": 2188,
-                "size": 6
+                "x": 150,
+                "y": 98,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 211 East",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -6753,7 +6897,7 @@
                     "@route_211_east, $rock_climb, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -6791,46 +6935,28 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2324,
-                "y": 2327,
-                "size": 6
+                "x": 193,
+                "y": 154,
+                "size": 7
             }
         ]
     },
     {
-        "name": "Route 217",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "Route 217 South",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
         ],
         "sections": [
             {
-                "name": "HM08 Above Hikers House",
-                "access_rules": [
-                    "@route_217"
-                ],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
                 "name": "Item in Center Between Tree Pairs",
                 "access_rules": [
                     "@route_217"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item Southeast of Hikers House",
-                "access_rules": [
-                    "@route_217"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -6855,7 +6981,85 @@
                 "item_count": 1
             },
             {
-                "name": "Item Far East of Hikers House",
+                "name": "Hidden Item Above SW Group of Trees",
+                "access_rules": [
+                    "^$hidden, @route_217"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item in South in Center",
+                "access_rules": [
+                    "^$hidden, @route_217"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item North of Lower Right Pair of Trees",
+                "access_rules": [
+                    "^$hidden, @route_217"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "SE Hidden Item Between Ninja Boy and Skier",
+                "access_rules": [
+                    "^$hidden, @route_217"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item in Corner of SW Group of Trees",
+                "access_rules": [
+                    "^$hidden, @route_217"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 136,
+                "y": 77,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Route 217 North",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "HM08 Above Hikers House",
+                "access_rules": [
+                    "@route_217"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+			
+            {
+                "name": "Item Southeast of Hikers House",
                 "access_rules": [
                     "@route_217"
                 ],
@@ -6865,12 +7069,12 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item Above SW Group of Trees",
+                "name": "Item Far East of Hikers House",
                 "access_rules": [
-                    "^$hidden, @route_217"
+                    "@route_217"
                 ],
                 "visibility_rules": [
-                    "opt_hidden_on"
+                    "opt_overworld_on"
                 ],
                 "item_count": 1
             },
@@ -6895,27 +7099,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in South in Center",
-                "access_rules": [
-                    "^$hidden, @route_217"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Hidden Item North of Middle Pair of Trees",
-                "access_rules": [
-                    "^$hidden, @route_217"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Item North of Lower Right Pair of Trees",
                 "access_rules": [
                     "^$hidden, @route_217"
                 ],
@@ -6936,26 +7120,6 @@
             },
             {
                 "name": "Hidden Item Near Skier Far East of Hikers House",
-                "access_rules": [
-                    "^$hidden, @route_217"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "SE Hidden Item Between Ninja Boy and Skier",
-                "access_rules": [
-                    "^$hidden, @route_217"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Item in Corner of SW Group of Trees",
                 "access_rules": [
                     "^$hidden, @route_217"
                 ],
@@ -6988,33 +7152,33 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1219,
-                "y": 920,
-                "size": 6
+                "x": 136,
+                "y": 49,
+                "size": 7
             }
         ]
     },
     {
-        "name": "Acuity Lakefront",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "Lake Acuity",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
         ],
         "sections": [
             {
-                "name": "NE Item",
+                "name": "Lakefront - NE Item",
                 "access_rules": [
                     "@acuity_lakefront"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
             {
-                "name": "Item East of Lake Entrance",
+                "name": "Lakefront - Item East of Lake Entrance",
                 "access_rules": [
                     "@acuity_lakefront, $rock_climb"
                 ],
@@ -7022,28 +7186,9 @@
                     "opt_overworld_on"
                 ],
                 "item_count": 1
-            }
-        ],
-        "map_locations": [
+            },
             {
-                "map": "Sinnoh",
-                "x": 1364,
-                "y": 112,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "Lake Acuity",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Item in NE Corner of Lake",
+                "name": "Lake - Item in NE Corner of Lake",
                 "access_rules": [
                     "@lake_acuity"
                 ],
@@ -7056,16 +7201,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1849,
-                "y": 1563,
-                "size": 6
+                "x": 143,
+                "y": 21,
+                "size": 7
             }
         ]
     },
     {
         "name": "Snowpoint City",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -7092,36 +7237,6 @@
                 "item_count": 1
             },
             {
-                "name": "Temple B1F - Bottom Right Item",
-                "access_rules": [
-                    "@snowpoint_temple_b1f"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Temple B3F - Hidden Item on Rock Between Staircases",
-                "access_rules": [
-                    "^$hidden, @snowpoint_temple_b3f"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Temple B4F - Item Past Ice Tile",
-                "access_rules": [
-                    "@snowpoint_temple_b4f, $strength"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Gym - Icicle Badge from Candice",
                 "access_rules": [
                     "@snowpoint_city_gym"
@@ -7143,16 +7258,65 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2128,
-                "y": 1343,
-                "size": 6
+                "x": 164,
+                "y": 28,
+                "size": 10
+            }
+        ]
+    },
+    {
+        "name": "Snowpoint Temple",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "B1F - Bottom Right Item",
+                "access_rules": [
+                    "@snowpoint_temple_b1f"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B3F - Hidden Item on Rock Between Staircases",
+                "access_rules": [
+                    "^$hidden, @snowpoint_temple_b3f"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B4F - Item Past Ice Tile",
+                "access_rules": [
+                    "@snowpoint_temple_b4f, $strength"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 164,
+                "y": 14,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 215",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -7164,7 +7328,7 @@
                     "@route_215"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -7262,16 +7426,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2193,
-                "y": 688,
-                "size": 6
+                "x": 276,
+                "y": 182,
+                "size": 7
             }
         ]
     },
     {
         "name": "Wayward Cave",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -7429,16 +7593,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1647,
-                "y": 591,
-                "size": 6
+                "x": 150,
+                "y": 189,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 211 West",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -7450,7 +7614,7 @@
                     "@route_211_west, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -7468,21 +7632,31 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2239,
-                "y": 2079,
-                "size": 6
+                "x": 164,
+                "y": 154,
+                "size": 7
             }
         ]
     },
     {
         "name": "Oreburgh City",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
         ],
         "sections": [
+            {
+                "name": "Pokemon Center Basement - Pal Pad",
+                "access_rules": [
+                    "@virt"
+                ],
+                "visibility_rules": [
+                    "opt_keyitems_on"
+                ],
+                "item_count": 1
+            },
             {
                 "name": "Right item by Slag Heap",
                 "access_rules": [
@@ -7520,36 +7694,6 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Mine - Item at Entrance",
-                "access_rules": [
-                    "@oreburgh_mine_b1f"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Mine - B2F Left item",
-                "access_rules": [
-                    "@oreburgh_mine_b2f"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Mine - B2F Right item",
-                "access_rules": [
-                    "@oreburgh_mine_b2f"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
                 ],
                 "item_count": 1
             },
@@ -7615,16 +7759,65 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1560,
-                "y": 649,
-                "size": 6
+                "x": 129,
+                "y": 252,
+                "size": 10
+            }
+        ]
+    },
+    {
+        "name": "Oreburgh Mine",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "B1F - Item at Entrance",
+                "access_rules": [
+                    "@oreburgh_mine_b1f"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Mine - B2F Left item",
+                "access_rules": [
+                    "@oreburgh_mine_b2f"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Mine - B2F Right item",
+                "access_rules": [
+                    "@oreburgh_mine_b2f"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 136,
+                "y": 266,
+                "size": 7
             }
         ]
     },
     {
         "name": "Oreburgh Gate",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -7636,7 +7829,7 @@
                     "@oreburgh_gate_b1f, $surf, $strength"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -7691,16 +7884,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2262,
-                "y": 836,
-                "size": 6
+                "x": 108,
+                "y": 252,
+                "size": 7
             }
         ]
     },
     {
         "name": "Route 203",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -7712,7 +7905,7 @@
                     "@route_203"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -7740,16 +7933,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2238,
-                "y": 396,
-                "size": 6
+                "x": 94,
+                "y": 252,
+                "size": 7
             }
         ]
     },
     {
         "name": "Fight Area",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -7777,16 +7970,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 173,
-                "y": 565,
-                "size": 6
+                "x": 283,
+                "y": 112,
+                "size": 10
             }
         ]
     },
     {
         "name": "Route 201",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -7798,7 +7991,7 @@
                     "@route_201"
                 ],
                 "visibility_rules": [
-                    "opt_npcgifts_on"
+                    ""
                 ],
                 "item_count": 1
             }
@@ -7806,16 +7999,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2129,
-                "y": 1450,
-                "size": 6
+                "x": 59,
+                "y": 294,
+                "size": 7
             }
         ]
     },
     {
         "name": "Sandgem Town",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -7861,16 +8054,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 461,
-                "y": 1783,
-                "size": 6
+                "x": 80,
+                "y": 294,
+                "size": 10
             }
         ]
     },
     {
         "name": "Pal Park",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -7880,7 +8073,7 @@
                 "name": "Kitchen Timer App from Girl",
                 "access_rules": [],
                 "visibility_rules": [
-                    "opt_poketchapps_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -7906,16 +8099,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2037,
-                "y": 515,
-                "size": 6
+                "x": 136,
+                "y": 322,
+                "size": 7
             }
         ]
     },
     {
         "name": "Floaroma Town",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -7927,7 +8120,7 @@
                     "@floaroma_town_middle_house"
                 ],
                 "visibility_rules": [
-                    "opt_npcgifts_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -7955,45 +8148,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1265,
-                "y": 1710,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "Pokemon Center Basement",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Pal Pad",
-                "access_rules": [
-                    "@virt"
-                ],
-                "visibility_rules": [
-                    "opt_keyitems_on"
-                ],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Sinnoh",
-                "x": 229,
-                "y": 2375,
-                "size": 6
+                "x": 80,
+                "y": 210,
+                "size": 10
             }
         ]
     },
     {
         "name": "Mt. Coronet Path to R216",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -8005,7 +8169,7 @@
                     "@mt_coronet_2f"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -8204,16 +8368,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 2371,
-                "y": 198,
-                "size": 6
+                "x": 178,
+                "y": 98,
+                "size": 7
             }
         ]
     },
     {
         "name": "Mt. Coronet Main",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -8225,7 +8389,7 @@
                     "^$hidden, @mt_coronet_3f"
                 ],
                 "visibility_rules": [
-                    "opt_hidden_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -8533,16 +8697,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 127,
-                "y": 381,
-                "size": 6
+                "x": 178,
+                "y": 196,
+                "size": 7
             }
         ]
     },
     {
         "name": "Mt. Coronet (Route 211 Tunnel)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -8554,7 +8718,7 @@
                     "@mt_coronet_1f_north_room_1, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -8652,16 +8816,16 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 72,
-                "y": 1870,
-                "size": 6
+                "x": 178,
+                "y": 154,
+                "size": 7
             }
         ]
     },
     {
         "name": "Mt. Coronet (Routes 207-208 Room)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -8673,7 +8837,7 @@
                     "@mt_coronet_1f_south, $surf"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    ""
                 ],
                 "item_count": 1
             },
@@ -8721,9 +8885,9 @@
         "map_locations": [
             {
                 "map": "Sinnoh",
-                "x": 1347,
-                "y": 1748,
-                "size": 6
+                "x": 164,
+                "y": 238,
+                "size": 7
             }
         ]
     }
