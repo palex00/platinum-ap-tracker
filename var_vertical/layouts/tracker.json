@@ -8,35 +8,34 @@
             "content": [
                 {
                     "type": "dock",
-                    "dropshadow": false,
-                    "dock": "bottom",
-                    "background": "#000000",
+                    "dock": "left",
+                    "v_alignment": "stretch",
                     "content": [
                         {
                             "type": "group",
                             "header": "Items",
-                            "dock": "left",
+                            "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "key_items_grid"
+                                "key": "v_key_items_grid"
                             }
                         },
                         {
                             "type": "group",
                             "header": "Events",
-                            "dock": "left",
+                            "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "event_grid"
+                                "key": "v_event_grid"
                             }
                         },
                         {
                             "type": "group",
                             "header": "Tools",
-                            "dock": "left",
+                            "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "quick_settings_grid"
+                                "key": "v_quick_settings_grid"
                             }
                         }
                     ]

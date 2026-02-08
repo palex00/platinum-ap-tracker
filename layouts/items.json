@@ -1,5 +1,5 @@
 {
-    "shared_item_grid_horizontal": {
+    "key_items_grid": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -68,7 +68,7 @@
             }
         ]
     },
-    "shared_item_grid_vertical": {
+    "v_key_items_grid": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",

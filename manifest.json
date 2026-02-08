@@ -2,21 +2,17 @@
     "name": "Pokemon Platinum Archipelago",
     "game_name": "Pokemon Platinum",
     "package_version": "0.0.1",
-    "package_uid": "pokemon platinum_ap",
-    "author": "builder_script",
+    "package_uid": "pokemon_platinum_ap",
+    "min_poptracker_version": "0.33.0",
+    "author": "palex00 & Radis7Noir",
     "variants": {
-        "Map Tracker": {
-            "display_name": "Map Tracker",
-            "flags": [
-                "ap"
-            ]
+        "standard": {
+            "display_name": "Map Tracker (Horizontal)",
+            "flags": ["ap"]
         },
-        "Items Only": {
-            "display_name": "Items Only",
-            "flags": [
-                "ap"
-            ]
+        "var_vertical": {
+            "display_name": "Map Tracker (Vertical)",
+            "flags": ["ap"]
         }
-    },
-    "min_poptracker_version": "0.31.0"
+    }
 }

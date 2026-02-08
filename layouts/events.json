@@ -1,0 +1,95 @@
+{
+    "event_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2",
+                        "item_size": "32,32",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "event_defeat_roark",
+                                "event_clear_windworks"
+                            ],
+                            [
+                                "event_defeat_gardenia",
+                                "event_clear_eternahideout"
+                            ],
+                            [
+                                "event_defeat_maylene",
+                                "event_learn_of_lake_explosion"
+                            ],
+                            [
+                                "event_defeat_wake",
+                                "event_clear_lakevalor",
+                                "event_defeat_cynthia"
+                            ],
+                            [
+                                "event_defeat_fantina",
+                                "event_clear_lakeverity",
+                                "event_met_oak_at_palpark"
+                            ],
+                            [
+                                "event_defeat_byronf",
+                                "event_clear_lakeacuity"
+                            ],
+                            [
+                                "event_defeat_candice",
+                                "event_galactic_hq_defeat_cyrus"
+                            ],
+                            [
+                                "event_defeat_volkner",
+                                "event_clear_distortion"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "v_event_grid": {
+        "type": "array",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "item_size": "32,32",
+                "h_alignment": "center",
+                "rows": [
+                    [
+                        "event_defeat_roark",
+                        "event_defeat_gardenia",
+                        "event_defeat_maylene",
+                        "event_defeat_wake",
+                        "event_defeat_fantina",
+                        "event_defeat_byron",
+                        "event_defeat_candice",
+                        "event_defeat_volkner"
+                    ],
+                    [
+                        "event_clear_windworks",
+                        "event_clear_eternahideout",
+                        "event_learn_of_lake_explosion",
+                        "event_clear_lakevalor",
+                        "event_clear_lakeverity",
+                        "event_clear_lakeacuity",
+                        "event_galactic_hq_defeat_cyrus",
+                        "event_clear_distortion"
+                    ],
+                    [
+                        "event_defeat_cynthia",
+                        "event_met_oak_at_palpark"
+                    ]
+                ]
+            }
+        ]
+    }
+}

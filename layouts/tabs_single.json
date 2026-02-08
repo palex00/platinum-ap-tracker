@@ -1,0 +1,16 @@
+{
+    "tabbed_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Sinnoh",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Sinnoh"
+                    ]
+                }
+            }
+        ]
+    }
+}

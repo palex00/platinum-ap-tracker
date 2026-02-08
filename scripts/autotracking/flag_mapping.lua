@@ -1,4 +1,5 @@
 FLAG_EVENT_CODES = {
+    "event_defeat_wake",
     "event_met_oak_at_palpark",
     "event_clear_lakeverity",
     "event_learn_of_lake_explosion",

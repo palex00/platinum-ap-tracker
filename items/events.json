@@ -1,5 +1,12 @@
 [
     {
+        "name": "Defeat Crasher Wake",
+        "type": "toggle",
+        "img": "/images/events/event_defeat_wake.png",
+        "img_mods": "",
+        "initial_active_state": true, "codes": "event_defeat_wake"
+    },
+    {
         "name": "Meet Oak at Pal Park",
         "type": "toggle",
         "img": "/images/events/event_met_oak_at_palpark.png",
