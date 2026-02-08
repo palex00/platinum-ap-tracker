@@ -33,13 +33,13 @@ function waterfall()
     or (has("hm07waterfall") and has("beaconbadge"))
 end
 
-function rockclimb()
+function rock_climb()
     return has("free_rockclimb")
     or (has("hm08rockclimb") and has("iciclebadge"))
 end
 
 function hidden()
-    return true
+    return AccessibilityLevel.Normal
 end
 
 function regional_monsTODO()
@@ -74,4 +74,64 @@ function poketch_req(badgecount)
     end
     
     return has("coupons", 3) and has("parcel")
+end
+
+function route203_pass()
+    print("Remember to implement this")
+    return true
+end
+
+function early_sunyshore()
+    print("Remember to implement this")
+    return true
+    -- has early sunyshore or event distortion world
+end
+
+function north_sinnoh_fly()
+    print("Remember to implement this")
+    return true
+    -- has north sinnoh fly on and fly or just true
+end
+
+function soft_defog()
+    print("Remember to implement this")
+    return true
+    -- has defog or defog-not-required
+end
+
+function unowns()
+    print("Remember to implement this")
+    return true
+    -- either 26 Unown Files if they're items or access to Solaceon Ruins if Unowns are vanilla
+end
+
+function mon_geodude()
+    -- Once Encounter Randomisation is a thing, this needs to change.
+    -- Now just gives accessibility of the earliest area you can catch Geodude
+    return Tracker:FindObjectForCode("@oreburgh_gate_1f").AccessibilityLevel
+end
+
+function pastoria_barriers()
+    print("Remember to implement this")
+    return true
+    -- either pastoria barriers off or surf
+end
+
+function mons()
+    print("Remember to implement this")
+    return true
+end
+
+function regional_mons()
+    print("Remember to implement this")
+    return true
+end
+
+function marsh_pass()
+    print("Remember to implement this")
+    return true
+end
+
+function flash()
+    return AccessibilityLevel.Normal
 end

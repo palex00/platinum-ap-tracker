@@ -224,21 +224,21 @@
                 "inherit_codes": true,
                 "img": "/images/items/pokedex.png",
                 "img_mods": "",
-                "codes": "pokedex, pokedex_stage1"
+                "codes": "pokedex"
             },
             {
                 "name": "Pokedex - Forms",
                 "inherit_codes": true,
                 "img": "/images/items/pokedex.png",
                 "img_mods": "overlay|images/items/overlays/form.png",
-                "codes": "pokedex, pokedex_stage2"
+                "codes": "pokedex"
             },
             {
                 "name": "Pokedex - National",
                 "inherit_codes": true,
                 "img": "/images/items/pokedex.png",
                 "img_mods": "overlay|images/items/overlays/nat.png",
-                "codes": "pokedex, pokedex_stage3"
+                "codes": "pokedex, national_dex"
             }
         ]
     },
@@ -366,7 +366,7 @@
         "name": "S.S. Ticket",
         "type": "toggle",
         "img": "images/items/ss_ticket.png",
-        "codes": "s.s.ticket"
+        "codes": "ssticket"
     },
     {
         "name": "Update",

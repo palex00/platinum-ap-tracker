@@ -268,7 +268,7 @@
         ]
     },
     {
-        "name": "distortion_world",
+        "name": "event_clear_distortion",
         "access_rules": [
             "@spear_pillar"
         ]
@@ -399,7 +399,7 @@
             "@fight_area_south_house",
             "@route_225_gate_to_fight_area",
             "@route_230, national_dex, $surf",
-            "@snowpoint_city, s_s_ticket"
+            "@snowpoint_city, ssticket"
         ]
     },
     {
@@ -546,7 +546,7 @@
     {
         "name": "fullmoon_island",
         "access_rules": [
-            "@canalave_city, national_dex, event_beat_cynthia",
+            "@canalave_city, national_dex, event_defeat_cynthia",
             "@fullmoon_island_forest"
         ]
     },
@@ -559,13 +559,13 @@
     {
         "name": "galactic_hq_w_key",
         "access_rules": [
-            "@veilstone_city, galactic_key"
+            "@veilstone_city, galactickey"
         ]
     },
     {
         "name": "galactic_hq_wo_key",
         "access_rules": [
-            "@veilstone_city_galactic_warehouse, event_lake_acuity_meet_jupiter",
+            "@veilstone_city_galactic_warehouse, event_clear_lakeacuity",
             "@veilstone_city_galactic_warehouse, storage_key"
         ]
     },
@@ -1008,7 +1008,7 @@
     {
         "name": "jubilife_tv_1f",
         "access_rules": [
-            "@jubilife_city, event_coal_badge",
+            "@jubilife_city, event_defeat_roark",
             "@jubilife_tv_2f"
         ]
     },
@@ -1066,7 +1066,7 @@
         "name": "lake_acuity",
         "access_rules": [
             "@acuity_cavern",
-            "@acuity_lakefront, event_lake_verity_defeat_mars, $rock_climb"
+            "@acuity_lakefront, event_clear_lakeverity, $rock_climb"
         ]
     },
     {
@@ -1078,20 +1078,20 @@
     {
         "name": "lake_valor",
         "access_rules": [
-            "@valor_lakefront, event_distortion_world"
+            "@valor_lakefront, event_clear_distortion"
         ]
     },
     {
         "name": "lake_valor_drained",
         "access_rules": [
-            "@valor_lakefront, event_lake_explosion"
+            "@valor_lakefront, event_learn_of_lake_explosion"
         ]
     },
     {
         "name": "lake_verity",
         "access_rules": [
             "@verity_cavern",
-            "@verity_lakefront, event_lake_valor_defeat_saturn"
+            "@verity_lakefront, event_clear_lakevalor"
         ]
     },
     {
@@ -1241,7 +1241,7 @@
     {
         "name": "mt_coronet_b1f",
         "access_rules": [
-            "@mt_coronet_1f_north_room_1_top, $fly, defog_if_opt if north_sinnoh_fly else defog_if_opt",
+            "@mt_coronet_1f_north_room_1_top, ^$north_sinnoh_fly, ^$soft_defog",
             "@mt_coronet_1f_north_room_2, ^$defog"
         ]
     },
@@ -1901,7 +1901,7 @@
     {
         "name": "route_203",
         "access_rules": [
-            "@jubilife_city, poketch_req if parcel_coupons_route_203",
+            "@jubilife_city, $route203_pass",
             "@oreburgh_gate_1f"
         ]
     },
@@ -2296,7 +2296,7 @@
             "@route_222_east_house",
             "@route_222_gate_to_sunyshore_city",
             "@route_222_west_house",
-            "@valor_lakefront, event_distortion_world if !early_sunyshore"
+            "@valor_lakefront, $early_sunyshore"
         ]
     },
     {
@@ -2520,7 +2520,7 @@
     {
         "name": "sendoff_spring",
         "access_rules": [
-            "@distortion_world",
+            "@event_clear_distortion",
             "@spring_path",
             "@turnback_cave_entrance"
         ]
@@ -2584,7 +2584,7 @@
     {
         "name": "snowpoint_temple_1f",
         "access_rules": [
-            "@snowpoint_city, national_dex, event_beat_cynthia",
+            "@snowpoint_city, national_dex, event_defeat_cynthia",
             "@snowpoint_temple_b1f"
         ]
     },
@@ -2625,7 +2625,7 @@
     {
         "name": "solaceon_ruins_maniac_tunnel_room",
         "access_rules": [
-            "@maniac_tunnel, uunown * 26 if unown_option == option_item else event_solaceon_ruins if unown_option == option_vanilla",
+            "@maniac_tunnel, $unowns",
             "@solaceon_town_ledge"
         ]
     },
@@ -2834,7 +2834,7 @@
     {
         "name": "spring_path",
         "access_rules": [
-            "@route_214, event_distortion_world",
+            "@route_214, event_clear_distortion",
             "@sendoff_spring"
         ]
     },
@@ -3198,7 +3198,7 @@
     {
         "name": "veilstone_city_galactic_warehouse",
         "access_rules": [
-            "@galactic_hq_wo_key, event_lake_acuity_meet_jupiter",
+            "@galactic_hq_wo_key, event_clear_lakeacuity",
             "@galactic_hq_wo_key, storage_key",
             "@veilstone_city"
         ]
@@ -3344,8 +3344,8 @@
     {
         "name": "victory_road_1f_room_1",
         "access_rules": [
-            "@victory_road_1f, event_beat_cynthia, national_dex",
-            "@victory_road_1f_room_2, event_beat_cynthia, national_dex"
+            "@victory_road_1f, event_defeat_cynthia, national_dex",
+            "@victory_road_1f_room_2, event_defeat_cynthia, national_dex"
         ]
     },
     {

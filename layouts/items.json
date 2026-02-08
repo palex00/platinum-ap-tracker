@@ -49,7 +49,7 @@
                                 "storagekey",
                                 "galactickey",
 								"suitekey",
-                                "s.s.ticket"
+                                "ssticket"
                             ],
                             [
                                 "pokedex",
@@ -118,10 +118,10 @@
                                 "storagekey",
                                 "galactickey",
 								"suitekey",
-                                "s.s.ticket"
+                                "ssticket"
                             ],
                             [
-                                "pokedex_stage1",
+                                "pokedex",
 								"bicycle",
                                 "poketch",
                                 "dowsingmachine",

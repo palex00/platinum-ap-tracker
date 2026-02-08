@@ -9,7 +9,19 @@ local bool_to_accesslvl = {
     [true] = ACCESS_NORMAL,
     [false] = ACCESS_NONE
 }
-                
+      
+
+function has(item, amount)
+    local count = Tracker:ProviderCountForCode(item)
+    amount = tonumber(amount)
+    if not amount then
+        return count > 0
+    else
+        return count >= amount
+    end
+end
+
+      
 function a(result)
     if result then
         return ACCESS_NORMAL
@@ -24,7 +36,7 @@ function all(...)
         if type(v) == "function" then
             v = v()
         elseif type(v) == "string" then
-            v = has(v)
+            v = has_level(v)
         end
         if type(v) == "boolean" then
             v = bool_to_accesslvl[v]
@@ -46,7 +58,7 @@ function any(...)
         if type(v) == "function" then
             v = v()
         elseif type(v) == "string" then
-            v = has(v)
+            v = has_level(v)
         end
         if type(v) == "boolean" then
             v = bool_to_accesslvl[v]
@@ -62,7 +74,7 @@ function any(...)
     return max
 end
 
-function has(item, amount, amountInLogic)
+function has_level(item, amount, amountInLogic)
     local count = Tracker:ProviderCountForCode(item)
 
     -- print(item, count, amount, amountInLogic)
