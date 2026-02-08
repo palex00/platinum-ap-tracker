@@ -7487,8 +7487,8 @@
             },
             {
                 "name": "Hidden Item South of Hikers",
-                "access_rules": [],
-                "visibility_rules": [],
+                "access_rules": ["@route_207_right, ^$hidden"],
+                "visibility_rules": ["opt_hidden_on"],
                 "item_count": 1
             },
             {
