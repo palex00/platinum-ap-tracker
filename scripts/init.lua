@@ -27,6 +27,5 @@ Tracker:AddLocations("locations/submaps_singles.json")
 Tracker:AddLocations("locations/submaps_groups.json")
 
 -- AutoTracking for Poptracker
-require("scripts/autotracking")
-
+require("scripts/autotracking/archipelago")
 require("scripts/watches")

@@ -3,80 +3,48 @@
         "name": "Coal Badge",
         "type": "toggle",
         "img": "images/items/coal_badge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "coalbadge"
     },
     {
         "name": "Forest Badge",
         "type": "toggle",
         "img": "images/items/forest_badge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "forestbadge"
     },
     {
         "name": "Cobble Badge",
         "type": "toggle",
         "img": "images/items/cobble_badge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "cobblebadge"
     },
     {
         "name": "Fen Badge",
         "type": "toggle",
         "img": "images/items/fen_badge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "fenbadge"
     },
     {
         "name": "Relic Badge",
         "type": "toggle",
         "img": "images/items/relic_badge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "relicbadge"
     },
     {
         "name": "Mine Badge",
         "type": "toggle",
         "img": "images/items/mine_badge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "minebadge"
     },
     {
         "name": "Icicle Badge",
         "type": "toggle",
         "img": "images/items/icicle_badge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "iciclebadge"
     },
     {
         "name": "Beacon Badge",
         "type": "toggle",
         "img": "images/items/beacon_badge.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "beaconbadge"
     },
     {
@@ -243,49 +211,34 @@
         "name": "TM70 Flash",
         "type": "toggle",
         "img": "images/items/tm70_flash.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "tm70flash"
     },
     {
         "name": "Upgradable Pokedex",
         "type": "progressive",
         "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "overlay_align": "right",
+        "codes": "pokedex",
         "stages": [
             {
                 "name": "Pokedex",
                 "inherit_codes": true,
                 "img": "/images/items/pokedex.png",
                 "img_mods": "",
-                "disabled_img": "",
-                "disabled_img_mods": "",
-                "codes": "pokedex_stage1",
-                "secondary_codes": ""
+                "codes": "pokedex, pokedex_stage1"
             },
             {
                 "name": "Pokedex - Forms",
                 "inherit_codes": true,
                 "img": "/images/items/pokedex.png",
                 "img_mods": "overlay|images/items/overlays/form.png",
-                "disabled_img": "",
-                "disabled_img_mods": "",
-                "codes": "pokedex_stage2",
-                "secondary_codes": ""
+                "codes": "pokedex, pokedex_stage2"
             },
             {
                 "name": "Pokedex - National",
                 "inherit_codes": true,
                 "img": "/images/items/pokedex.png",
                 "img_mods": "overlay|images/items/overlays/nat.png",
-                "disabled_img": "",
-                "disabled_img_mods": "",
-                "codes": "pokedex_stage3",
-                "secondary_codes": ""
+                "codes": "pokedex, pokedex_stage3"
             }
         ]
     },
@@ -293,80 +246,48 @@
         "name": "Poketch",
         "type": "toggle",
         "img": "images/items/poketch.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "poketch"
     },
     {
         "name": "Dowsing Machine",
         "type": "toggle",
         "img": "images/items/dowsing_machine.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "dowsingmachine"
     },
     {
         "name": "Bag",
         "type": "toggle",
         "img": "images/items/bag.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "bag"
     },
     {
         "name": "Bicycle",
         "type": "toggle",
         "img": "images/items/bicycle.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "bicycle"
     },
     {
         "name": "Old Rod",
         "type": "toggle",
         "img": "images/items/old_rod.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "oldrod"
     },
     {
         "name": "Good Rod",
         "type": "toggle",
         "img": "images/items/good_rod.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "goodrod"
     },
     {
         "name": "Super Rod",
         "type": "toggle",
         "img": "images/items/super_rod.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "superrod"
     },
     {
         "name": "Parcel",
         "type": "toggle",
         "img": "images/items/parcel.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "parcel"
     },
     {
@@ -379,50 +300,30 @@
         "initial_quantity": 0,
         "img": "images/items/coupons.png",
         "overlay_background": "#000000",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "coupons"
     },
     {
         "name": "Works Key",
         "type": "toggle",
         "img": "images/items/works_key.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "workskey"
     },
     {
-        "name": "SecretPotion",
+        "name": "Secret Potion",
         "type": "toggle",
         "img": "images/items/secretpotion.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "secretpotion"
     },
     {
         "name": "Red Chain",
         "type": "toggle",
         "img": "images/items/red_chain.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "redchain"
     },
     {
         "name": "Marsh Pass",
         "type": "toggle",
         "img": "images/items/marsh_pass.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "marshpass"
     },
     {
@@ -435,70 +336,42 @@
         "initial_quantity": 0,
         "img": "images/items/unown_file.png",
         "overlay_background": "#000000",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "unownfile"
     },
     {
         "name": "Storage Key",
         "type": "toggle",
         "img": "images/items/storage_key.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "storagekey"
     },
     {
         "name": "Galactic Key",
         "type": "toggle",
         "img": "images/items/galactic_key.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "galactickey"
     },
     {
         "name": "Old Charm",
         "type": "toggle",
         "img": "images/items/old_charm.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "oldcharm"
     },
     {
         "name": "Suite Key",
         "type": "toggle",
         "img": "images/items/suite_key.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "suitekey"
     },
     {
         "name": "S.S. Ticket",
         "type": "toggle",
         "img": "images/items/ss_ticket.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "s.s.ticket"
     },
     {
         "name": "Update",
         "type": "toggle",
         "img": "images/items/update.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
         "codes": "update"
     }
 ]

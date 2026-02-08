@@ -42,11 +42,7 @@ function resetLocations()
                 local location_obj = Tracker:FindObjectForCode(location)
                 if location_obj then
                     if location:sub(1, 1) == "@" then
-                        if custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][location_obj.FullID] then
-                            location_obj.AvailableChestCount = custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][location_obj.FullID]
-                        else
-                            location_obj.AvailableChestCount = location_obj.ChestCount
-                        end
+                        location_obj.AvailableChestCount = location_obj.ChestCount
                     else
                         location_obj.Active = false
                     end
