@@ -2,19 +2,22 @@
     {
         "name": "Randomize HMs",
         "type": "progressive",
+        "initial_stage_idx": 1,
         "loop": true,
         "allow_disabled": false,
+        "code": "opt_hms",
         "stages": [
             {
-                "name": "Randomize HMs - ON",
-                "img": "/images/settings/hm_random.png",
-                "codes": "opt_hms,opt_hms_on",
+                "name": "Randomize HMs - OFF",
+                "img": "images/settings/opt_hms.png",
+                "img_mods": "@disabled",
+                "codes": "opt_hms, opt_hms_off",
                 "inherit_codes": false
             },
             {
-                "name": "Randomize HMs - OFF",
-                "img": "/images/settings/hm_vanilla.png",
-                "codes": "opt_hms,opt_hms_off",
+                "name": "Randomize HMs - ON",
+                "img": "images/settings/opt_hms.png",
+                "codes": "opt_hms, opt_hms_on",
                 "inherit_codes": false
             }
         ]
@@ -22,19 +25,22 @@
     {
         "name": "Randomize Badges",
         "type": "progressive",
+        "initial_stage_idx": 1,
         "loop": true,
         "allow_disabled": false,
+        "code": "opt_badges",
         "stages": [
             {
-                "name": "Randomize Badges - ON",
-                "img": "/images/settings/badge_random.png",
-                "codes": "opt_badges,opt_badges_on",
+                "name": "Randomize Badges - OFF",
+                "img": "images/settings/opt_badges.png",
+                "img_mods": "@disabled",
+                "codes": "opt_badges, opt_badges_off",
                 "inherit_codes": false
             },
             {
-                "name": "Randomize Badges - OFF",
-                "img": "/images/settings/badge_vanilla.png",
-                "codes": "opt_badges,opt_badges_off",
+                "name": "Randomize Badges - ON",
+                "img": "images/settings/opt_badges.png",
+                "codes": "opt_badges, opt_badges_on",
                 "inherit_codes": false
             }
         ]
@@ -42,19 +48,22 @@
     {
         "name": "Randomize Overworld Items",
         "type": "progressive",
+        "initial_stage_idx": 1,
         "loop": true,
         "allow_disabled": false,
+        "code": "opt_overworlds",
         "stages": [
             {
-                "name": "Randomize Overworld Items - ON",
-                "img": "/images/settings/overworld_random.png",
-                "codes": "opt_overworld,opt_overworld_on",
+                "name": "Randomize Overworld Items - OFF",
+                "img": "images/settings/opt_overworlds.png",
+                "img_mods": "@disabled",
+                "codes": "opt_overworlds, opt_overworlds_off",
                 "inherit_codes": false
             },
             {
-                "name": "Randomize Overworld Items - OFF",
-                "img": "/images/settings/overworld_vanilla.png",
-                "codes": "opt_overworld,opt_overworld_off",
+                "name": "Randomize Overworld Items - ON",
+                "img": "images/settings/opt_overworlds.png",
+                "codes": "opt_overworlds, opt_overworlds_on",
                 "inherit_codes": false
             }
         ]
@@ -62,19 +71,22 @@
     {
         "name": "Randomize Hidden Items",
         "type": "progressive",
+        "initial_stage_idx": 1,
         "loop": true,
         "allow_disabled": false,
+        "code": "opt_hidden",
         "stages": [
             {
-                "name": "Randomize Hidden Items - ON",
-                "img": "/images/settings/hiddens_random.png",
-                "codes": "opt_hidden,opt_hidden_on",
+                "name": "Randomize Hidden Items - OFF",
+                "img": "images/settings/opt_hidden.png",
+                "img_mods": "@disabled",
+                "codes": "opt_hidden, opt_hidden_off",
                 "inherit_codes": false
             },
             {
-                "name": "Randomize Hidden Items - OFF",
-                "img": "/images/settings/hiddens_vanilla.png",
-                "codes": "opt_hidden,opt_hidden_off",
+                "name": "Randomize Hidden Items - ON",
+                "img": "images/settings/opt_hidden.png",
+                "codes": "opt_hidden, opt_hidden_on",
                 "inherit_codes": false
             }
         ]
@@ -82,19 +94,22 @@
     {
         "name": "Randomize NPC Gifts",
         "type": "progressive",
+        "initial_stage_idx": 1,
         "loop": true,
         "allow_disabled": false,
+        "code": "opt_npcgifts",
         "stages": [
             {
-                "name": "Randomize NPC Gifts - ON",
-                "img": "/images/settings/npc_random.png",
-                "codes": "opt_npc,opt_npc_on",
+                "name": "Randomize NPC Gifts - OFF",
+                "img": "images/settings/opt_npcgifts.png",
+                "img_mods": "@disabled",
+                "codes": "opt_npcgifts, opt_npcgifts_off",
                 "inherit_codes": false
             },
             {
-                "name": "Randomize NPC Gifts - OFF",
-                "img": "/images/settings/npc_vanilla.png",
-                "codes": "opt_npc,opt_npc_off",
+                "name": "Randomize NPC Gifts - ON",
+                "img": "images/settings/opt_npcgifts.png",
+                "codes": "opt_npcgifts, opt_npcgifts_on",
                 "inherit_codes": false
             }
         ]
@@ -102,28 +117,463 @@
     {
         "name": "Randomize Key Items",
         "type": "progressive",
-        "loop": true,
         "initial_stage_idx": 1,
+        "loop": true,
         "allow_disabled": false,
+        "code": "opt_keyitems",
         "stages": [
             {
-                "name": "Randomize Key Items - MOST",
-                "img": "/images/settings/key_random_most.png",
-                "codes": "opt_keyitems,opt_keyitems_most",
-                "inherit_codes": false
-            },
-            {
-                "name": "Randomize Key Items - ALL",
-                "img": "/images/settings/key_random_all.png",
-                "codes": "opt_keyitems,opt_keyitems_all",
-                "inherit_codes": false
-            },
-            {
                 "name": "Randomize Key Items - OFF",
-                "img": "/images/settings/key_vanilla.png",
-                "codes": "opt_keyitems,opt_keyitems_off",
+                "img": "images/settings/opt_keyitems.png",
+                "img_mods": "@disabled",
+                "codes": "opt_keyitems, opt_keyitems_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Key Items - ON",
+                "img": "images/settings/opt_keyitems.png",
+                "codes": "opt_keyitems, opt_keyitems_on",
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Randomize Fishing Rods",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_rods",
+        "stages": [
+            {
+                "name": "Randomize Fishing Rods - OFF",
+                "img": "images/settings/opt_rods.png",
+                "img_mods": "@disabled",
+                "codes": "opt_rods, opt_rods_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Fishing Rods - ON",
+                "img": "images/settings/opt_rods.png",
+                "codes": "opt_rods, opt_rods_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Poketech Apps",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_poketchapps",
+        "stages": [
+            {
+                "name": "Randomize Poketech Apps - OFF",
+                "img": "images/settings/opt_poketchapps.png",
+                "img_mods": "@disabled",
+                "codes": "opt_poketchapps, opt_poketchapps_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Poketech Apps - ON",
+                "img": "images/settings/opt_poketchapps.png",
+                "codes": "opt_poketchapps, opt_poketchapps_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Running Shoes",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_shoes",
+        "stages": [
+            {
+                "name": "Randomize Running Shoes - OFF",
+                "img": "images/settings/opt_shoes.png",
+                "img_mods": "@disabled",
+                "codes": "opt_shoes, opt_shoes_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Running Shoes - ON",
+                "img": "images/settings/opt_shoes.png",
+                "codes": "opt_shoes, opt_shoes_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Bicycle",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_bicycle",
+        "stages": [
+            {
+                "name": "Randomize Bicycle - OFF",
+                "img": "images/settings/opt_bicycle.png",
+                "img_mods": "@disabled",
+                "codes": "opt_bicycle, opt_bicycle_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Bicycle - ON",
+                "img": "images/settings/opt_bicycle.png",
+                "codes": "opt_bicycle, opt_bicycle_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Pokedex",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_pokedex",
+        "stages": [
+            {
+                "name": "Randomize Pokedex - OFF",
+                "img": "images/settings/opt_pokedex.png",
+                "img_mods": "@disabled",
+                "codes": "opt_pokedex, opt_pokedex_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Pokedex - ON",
+                "img": "images/settings/opt_pokedex.png",
+                "codes": "opt_pokedex, opt_pokedex_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Accessories",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_accessories",
+        "stages": [
+            {
+                "name": "Randomize Accessories - OFF",
+                "img": "images/settings/opt_accessories.png",
+                "img_mods": "@disabled",
+                "codes": "opt_accessories, opt_accessories_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Accessories - ON",
+                "img": "images/settings/opt_accessories.png",
+                "codes": "opt_accessories, opt_accessories_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize S.S. Ticket",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_ssticket",
+        "stages": [
+            {
+                "name": "Randomize S.S. Ticket - OFF",
+                "img": "images/settings/opt_ssticket.png",
+                "img_mods": "@disabled",
+                "codes": "opt_ssticket, opt_ssticket_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize S.S. Ticket - ON",
+                "img": "images/settings/opt_ssticket.png",
+                "codes": "opt_ssticket, opt_ssticket_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Lock Great Marsh",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_marsh_pass",
+        "stages": [
+            {
+                "name": "Great Marsh is freely accessible",
+                "img": "images/settings/opt_marsh_pass.png",
+                "img_mods": "@disabled",
+                "codes": "opt_marsh_pass, opt_marsh_pass_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Great Marsh requires the Marsh Pass",
+                "img": "images/settings/opt_marsh_pass.png",
+                "codes": "opt_marsh_pass, opt_marsh_pass_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Storage Key",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_storage_key",
+        "stages": [
+            {
+                "name": "Randomize Storage Key - OFF",
+                "img": "images/settings/opt_storage_key.png",
+                "img_mods": "@disabled",
+                "codes": "opt_storage_key, opt_storage_key_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Storage Key - ON",
+                "img": "images/settings/opt_storage_key.png",
+                "codes": "opt_storage_key, opt_storage_key_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Bag",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_bag",
+        "stages": [
+            {
+                "name": "Randomize Bag - OFF",
+                "img": "images/settings/opt_bag.png",
+                "img_mods": "@disabled",
+                "codes": "opt_bag, opt_bag_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Bag - ON",
+                "img": "images/settings/opt_bag.png",
+                "codes": "opt_bag, opt_bag_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Maniac Tunnel Access",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_unown",
+        "stages": [
+            {
+                "name": "Maniac Tunnel requires seeing all 26 Unown Forms",
+                "img": "images/settings/opt_unown.png",
+                "codes": "opt_unown, opt_unown_vanilla",
+                "inherit_codes": false
+            },
+            {
+                "name": "Maniac Tunnel requires having all 26 Unown File Items",
+                "img": "images/settings/opt_unown.png",
+                "codes": "opt_unown, opt_unown_item",
+                "inherit_codes": false
+            },
+            {
+                "name": "Maniac Tunnel is open",
+                "img": "images/settings/opt_unown.png",
+                "codes": "opt_unown, opt_unown_none",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Visibility-Related HM Logic",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_hm_visibility",
+        "stages": [
+            {
+                "name": "Fog & Darkness need to be traversed without help",
+                "img": "images/settings/opt_hm_visibility.png",
+                "codes": "opt_hm_visibility, opt_hm_visibility_of",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fog & Darkness logically require Defog and Flash",
+                "img": "images/settings/opt_hm_visibility.png",
+                "img_mods": "@disabled",
+                "codes": "opt_hm_visibility, opt_hm_visibility_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dowsing Machine Logic",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_dowsing",
+        "stages": [
+            {
+                "name": "Hidden Items are expected to be picked up without help",
+                "img": "images/settings/opt_dowsing.png",
+                "img_mods": "@disabled",
+                "codes": "opt_dowsing, opt_dowsing_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hidden Items logically require the Dowsing Machine App",
+                "img": "images/settings/opt_dowsing.png",
+                "codes": "opt_dowsing, opt_dowsing_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "North Sinnoh Fly Logic",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_north_sinnoh_fly",
+        "stages": [
+            {
+                "name": "North Sinnoh is in logic when accessible",
+                "img": "images/settings/opt_north_sinnoh_fly.png",
+                "img_mods": "@disabled",
+                "codes": "opt_north_sinnoh_fly, opt_north_sinnoh_fly_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "North Sinnoh also requires the ability to fly to access",
+                "img": "images/settings/opt_north_sinnoh_fly.png",
+                "codes": "opt_north_sinnoh_fly, opt_north_sinnoh_fly_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Route 203 Barrier",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_route_203",
+        "stages": [
+            {
+                "name": "Route 203 is open",
+                "img": "images/settings/opt_route_203.png",
+                "img_mods": "@disabled",
+                "codes": "opt_route_203, opt_route_203_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Route 203 requires all coupons and the parcel",
+                "img": "images/settings/opt_route_203.png",
+                "codes": "opt_route_203, opt_route_203_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Early Sunyshore",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_earlys_sunyshore",
+        "stages": [
+            {
+                "name": "The path to Sunyshore is blocked until Distortion World is cleared",
+                "img": "images/settings/opt_earlys_sunyshore.png",
+                "codes": "opt_earlys_sunyshore, opt_earlys_sunyshore_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "The path to Sunyshore is open",
+                "img": "images/settings/opt_earlys_sunyshore.png",
+                "img_mods": "@disabled",
+                "codes": "opt_earlys_sunyshore, opt_earlys_sunyshore_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Pastoria Barriers",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_pastoria_barriers",
+        "stages": [
+            {
+                "name": "Pastoria City is accessible vanilla",
+                "img": "images/settings/opt_pastoria_barriers.png",
+                "img_mods": "@disabled",
+                "codes": "opt_pastoria_barriers, opt_pastoria_barriers_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pastoria City is blocked behind Surf",
+                "img": "images/settings/opt_pastoria_barriers.png",
+                "codes": "opt_pastoria_barriers, opt_pastoria_barriers_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "code": "opt_goal",
+        "stages": [
+            {
+                "name": "Goal: Defeat Cynthia",
+                "img": "images/settings/opt_goal.png",
+                "codes": "opt_goal, opt_goal_cynthia",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal: Annihilate Cynthia",
+                "img": "images/settings/opt_goal.png",
+                "codes": "opt_goal, opt_goal_cynthia",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal: Date Cynthia",
+                "img": "images/settings/opt_goal.png",
+                "codes": "opt_goal, opt_goal_cynthia",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal: Also Cynthia",
+                "img": "images/settings/opt_goal.png",
+                "codes": "opt_goal, opt_goal_cynthia",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Regional Dex Goal",
+        "type": "consumable",
+        "img": "/images/settings/regional_dex_goal.png",
+        "min_quantity": 1,
+        "max_quantity": 80,
+        "initial_quantity": 60,
+        "codes": "regional_dex_goal"
     }
 ]

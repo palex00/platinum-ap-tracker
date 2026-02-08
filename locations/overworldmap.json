@@ -2687,8 +2687,8 @@
             {
                 "name": "Item on Northeast Island Past Bike Bridge",
                 "access_rules": [
-                    "@route_212_south, pastoria_barriers_true, bicycle, bag",
-                    "@route_212_south, pastoria_barriers_false, bicycle"
+                    "@route_212_south, opt_pastoria_barriers_true, bicycle, bag",
+                    "@route_212_south, opt_pastoria_barriers_false, bicycle"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"

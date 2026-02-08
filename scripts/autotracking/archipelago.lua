@@ -1,5 +1,6 @@
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
+require("scripts/autotracking/option_mapping")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -18,20 +19,48 @@ if Highlight then
 end
 
 function onClear(slot_data)
-    
+    print(dump_table(slot_data))
     CUR_INDEX = -1
-    
-    resetLocations()
-    resetItems()
-   
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
     
+    resetLocations()
+    resetItems()
+
+
+    for k, v in pairs(slot_data) do
+        if SLOT_CODES[k] then
+            Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = (SLOT_CODES[k].mapping and SLOT_CODES[k].mapping[v] or v)
+        elseif k == "regional_dex_goal" then
+            Tracker:FindObjectForCode("regional_dex_goal").AcquiredCount = v
+        elseif k == "hm_badge_requirement" then
+            local stage = (tonumber(v) == 1) and 0 or 1
+            for _, code in pairs(HM_CODES) do
+                Tracker:FindObjectForCode(code).CurrentStage = stage
+            end
+        elseif k == "remove_badge_requirements" then
+            for _, hm in pairs(v) do
+                if HM_CODES[hm] then
+                    Tracker:FindObjectForCode(HM_CODES[hm]).CurrentStage = 1
+                end
+            end
+        end
+    end
+    
     if Archipelago.PlayerNumber > -1 then
+    
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
+        
+        EVENT_ID = "pokemon_platinum_tracked_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({EVENT_ID})
+        Archipelago:Get({EVENT_ID})
+        
+        KEY_ID = ""..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({KEY_ID})
+        Archipelago:Get({KEY_ID})
     end
 end
 
@@ -149,48 +178,26 @@ function onLocation(location_id, location_name)
 end
 
 function onNotify(key, value, old_value)
-    print("onNotify", key, value, old_value)
-    if value ~= old_value and key == HINTS_ID then
-        for _, hint in ipairs(value) do
-            if hint.finding_player == Archipelago.PlayerNumber then
-                if not hint.found then
-                    updateHints(hint.location, hint.status)
-                elseif hint.found then
-                    updateHints(hint.location, hint.status)
-                end
-            end
+    if value ~= nil and value ~= 0 and old_value ~= value then
+        if key == EVENT_ID then
+            updateEvents(value)
+        elseif key == KEY_ID then
+            updateVanillaKeyItems(value)
+        elseif key == HINT_ID then
+            updateHints(value)
         end
     end
 end
+
 
 function onNotifyLaunch(key, value)
-    if key == HINTS_ID then
-        for _, hint in ipairs(value) do
-            if hint.finding_player == Archipelago.PlayerNumber then
-                if not hint.found then
-                    updateHints(hint.location, hint.status)
-                else if hint.found then
-                    updateHints(hint.location, hint.status)
-                end end
-            end
-        end
-    end
-end
-
-function updateHints(locationID, status) -->
-    if Highlight then
-        print(locationID, status)
-        local location_table = LOCATION_MAPPING[locationID]
-        for _, location in ipairs(location_table) do
-            if location:sub(1, 1) == "@" then
-                local obj = Tracker:FindObjectForCode(location)
-
-                if obj then
-                    obj.Highlight = HIGHTLIGHT_LEVEL[status]
-                else
-                    print(string.format("No object found for code: %s", location))
-                end
-            end
+    if value ~= nil and value ~= 0 then
+        if key == EVENT_ID then
+            updateEvents(value)
+        elseif key == KEY_ID then
+            updateVanillaKeyItems(value)
+        elseif key == HINT_ID then
+            updateHints(value)
         end
     end
 end

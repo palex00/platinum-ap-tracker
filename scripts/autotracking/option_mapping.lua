@@ -1,0 +1,37 @@
+SLOT_CODES = {
+    hms = {code = "opt_hms"},
+    badges = {code = "opt_badges"},
+    overworlds = {code = "opt_overworlds"},
+    hiddens = {code = "opt_hidden"},
+    npc_gifts = {code = "opt_npcgifts"},
+    key_items = {code = "opt_keyitems"},
+    rods = {code = "opt_rods"},
+    poketch_apps = {code = "opt_poketchapps"},
+    running_shoes = {code = "opt_shoes"},
+    bicycle = {code = "opt_bicycle"},
+    pokedex = {code = "opt_pokedex"},
+    accessories = {code = "opt_accessories"},
+    s_s_ticket = {code = "opt_ssticket"},
+    marsh_pass = {code = "opt_marsh_pass"},
+    storage_key = {code = "opt_storage_key"},
+    bag = {code = "opt_bag"},
+    unown_option = {code = "opt_unown"},
+    visibility_hm_logic = {code = "opt_hm_visibility"},
+    dowsing_machine_logic = {code = "opt_dowsing"},
+    north_sinnoh_fly = {code = "opt_north_sinnoh_fly"},
+    parcel_coupons_route_203 = {code = "opt_route_203"},
+    early_sunyshore = {code = "opt_earlys_sunyshore"},
+    pastoria_barriers = {code = "opt_pastoria_barriers"},
+    goal = {code = "opt_goal"}
+}
+
+HM_CODES = {
+    CUT = "hm01cut",
+    FLY = "hm02fly",
+    SURF = "hm03surf",
+    STRENGTH = "hm04strength",
+    DEFOG = "hm05defog",
+    ROCK_SMASH = "hm06rocksmash",
+    WATERFALL = "hm07waterfall",
+    ROCK_CLIMB = "hm08rockclimb",
+}
