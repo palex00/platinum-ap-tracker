@@ -1,20 +1,101 @@
 {
     "settings_popup": {
-        "type": "array",
-        "margin": 5,
-        "content": [
-            {
-                "type": "group",
-                "header": "Settings",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "margin": "5,1,5,5",
-                        "item": "autofill_settings"
+        "type": "dock",
+        "content": {
+            "type": "array",
+            "orientation": "vertical",
+            "h_alignment": "left",
+            "content": [
+                {
+                    "type": "group",
+                    "header": "Sanities",
+                    "content": {
+                        "type": "layout",
+                        "key": "sanity_grid"
                     }
-                ]
-            }
+                },
+			    {
+                    "type": "group",
+                    "header": "Logic",
+                    "content": {
+                        "type": "layout",
+                        "key": "logic_grid"
+                    }
+                },
+			    {
+                    "type": "group",
+                    "header": "Roadblocks",
+                    "content": {
+                        "type": "layout",
+                        "key": "roadblock_grid"
+                    }
+                }
+            ]
+        }
+    },
+    "sanity_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,32",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "opt_hms",
+				"opt_badges",
+                "opt_overworlds",
+                "opt_hidden",
+                "opt_npcgifts",
+                "opt_keyitems"
+            ],
+            [
+                "opt_rods",
+                "opt_poketchapps",
+                "opt_shoes",
+                "opt_bicycle",
+                "opt_pokedex"
+            ],
+            [
+                "opt_accessories",
+                "opt_ssticket",
+                "opt_marsh_pass",
+                "opt_storage_key",
+                "opt_bag"
+            ]
+        ]
+    },
+    "logic_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,32",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "opt_goal",
+                "opt_hm_visibility",
+                "opt_dowsing",
+                "opt_north_sinnoh_fly"
+            ]
+        ]
+    },
+    "roadblock_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,32",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "opt_unown",
+                "opt_route_203",
+                "opt_early_sunyshore",
+                "opt_pastoria_barriers",
+                "regional_dex_goal"
+            ]
         ]
     }
 }
