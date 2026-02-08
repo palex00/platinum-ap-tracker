@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Randomize HMs",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Randomize HMs - ON",
+                "img": "/images/settings/hm_random.png",
+                "codes": "opt_hms,opt_hms_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize HMs - OFF",
+                "img": "/images/settings/hm_vanilla.png",
+                "codes": "opt_hms,opt_hms_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Badges",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Randomize Badges - ON",
+                "img": "/images/settings/badge_random.png",
+                "codes": "opt_badges,opt_badges_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Badges - OFF",
+                "img": "/images/settings/badge_vanilla.png",
+                "codes": "opt_badges,opt_badges_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Overworld Items",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Randomize Overworld Items - ON",
+                "img": "/images/settings/overworld_random.png",
+                "codes": "opt_overworld,opt_overworld_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Overworld Items - OFF",
+                "img": "/images/settings/overworld_vanilla.png",
+                "codes": "opt_overworld,opt_overworld_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Hidden Items",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Randomize Hidden Items - ON",
+                "img": "/images/settings/hiddens_random.png",
+                "codes": "opt_hidden,opt_hidden_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Hidden Items - OFF",
+                "img": "/images/settings/hiddens_vanilla.png",
+                "codes": "opt_hidden,opt_hidden_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize NPC Gifts",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Randomize NPC Gifts - ON",
+                "img": "/images/settings/npc_random.png",
+                "codes": "opt_npc,opt_npc_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize NPC Gifts - OFF",
+                "img": "/images/settings/npc_vanilla.png",
+                "codes": "opt_npc,opt_npc_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Key Items",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Randomize Key Items - MOST",
+                "img": "/images/settings/key_random_most.png",
+                "codes": "opt_keyitems,opt_keyitems_most",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Key Items - ALL",
+                "img": "/images/settings/key_random_all.png",
+                "codes": "opt_keyitems,opt_keyitems_all",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Key Items - OFF",
+                "img": "/images/settings/key_vanilla.png",
+                "codes": "opt_keyitems,opt_keyitems_off",
+                "inherit_codes": false
+            }
+        ]
+    }
+]
