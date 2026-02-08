@@ -1,9 +1,10 @@
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/option_mapping")
+require("scripts/autotracking/flag_mapping")
 
 CUR_INDEX = -1
---SLOT_DATA = nil
+SLOT_DATA = nil
 
 SLOT_DATA = {}
 
@@ -199,5 +200,56 @@ function onNotifyLaunch(key, value)
         elseif key == HINT_ID then
             updateHints(value)
         end
+    end
+end
+
+
+function updateEvents(value)
+    if value ~= nil then
+        for i, code in ipairs(FLAG_EVENT_CODES) do
+            local obj = Tracker:FindObjectForCode(code)
+            if obj ~= nil then
+                obj.Active = false
+            end
+            local bit = value >> (i - 1) & 1
+            if #code > 0 then
+                local obj = Tracker:FindObjectForCode(code)
+                obj.Active = obj.Active or bit == 1
+            end
+        end
+    end
+end
+
+function updateVanillaKeyItems(value)
+    if value ~= nil then
+        for i, obj in ipairs(FLAG_ITEM_CODES) do
+            local bit = value >> (i - 1) & 1
+            if obj.codes and (obj.option == nil or has(obj.option)) then
+                for i, code in ipairs(obj.codes) do
+                    Tracker:FindObjectForCode(code).Active = Tracker:FindObjectForCode(code).Active or bit
+                end
+            end
+        end
+    end
+end
+
+function updateHints(value)
+    if not Highlight then
+        return
+    end
+    
+    for _, hint in ipairs(value) do
+        if hint.finding_player == PLAYER_ID then
+            local mapped = LOCATION_MAPPING[hint.location]
+            local locations = (type(mapped) == "table") and mapped or { mapped }
+    
+            
+            for _, location in ipairs(locations) do
+                -- Only sections (items don't support Highlight)
+                if type(location) == "string" and location:sub(1, 1) == "@" and Tracker:FindObjectForCode(location).ChestCount == 1 then
+                    Tracker:FindObjectForCode(location).Highlight = HIGHTLIGHT_LEVEL[hint.item_flags]
+                end
+            end
+        end        
     end
 end

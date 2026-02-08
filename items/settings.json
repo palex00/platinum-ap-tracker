@@ -406,7 +406,7 @@
             {
                 "name": "Fog & Darkness need to be traversed without help",
                 "img": "images/settings/opt_hm_visibility.png",
-                "codes": "opt_hm_visibility, opt_hm_visibility_of",
+                "codes": "opt_hm_visibility, opt_hm_visibility_off",
                 "inherit_codes": false
             },
             {
@@ -493,19 +493,19 @@
         "initial_stage_idx": 1,
         "loop": true,
         "allow_disabled": false,
-        "code": "opt_earlys_sunyshore",
+        "code": "opt_early_sunyshore",
         "stages": [
             {
                 "name": "The path to Sunyshore is blocked until Distortion World is cleared",
-                "img": "images/settings/opt_earlys_sunyshore.png",
-                "codes": "opt_earlys_sunyshore, opt_earlys_sunyshore_off",
+                "img": "images/settings/opt_early_sunyshore.png",
+                "codes": "opt_early_sunyshore, opt_early_sunyshore_off",
                 "inherit_codes": false
             },
             {
                 "name": "The path to Sunyshore is open",
-                "img": "images/settings/opt_earlys_sunyshore.png",
+                "img": "images/settings/opt_early_sunyshore.png",
                 "img_mods": "@disabled",
-                "codes": "opt_earlys_sunyshore, opt_earlys_sunyshore_on",
+                "codes": "opt_early_sunyshore, opt_early_sunyshore_on",
                 "inherit_codes": false
             }
         ]

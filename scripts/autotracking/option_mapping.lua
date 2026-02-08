@@ -20,7 +20,7 @@ SLOT_CODES = {
     dowsing_machine_logic = {code = "opt_dowsing"},
     north_sinnoh_fly = {code = "opt_north_sinnoh_fly"},
     parcel_coupons_route_203 = {code = "opt_route_203"},
-    early_sunyshore = {code = "opt_earlys_sunyshore"},
+    early_sunyshore = {code = "opt_early_sunyshore"},
     pastoria_barriers = {code = "opt_pastoria_barriers"},
     goal = {code = "opt_goal"}
 }

@@ -2296,7 +2296,7 @@
             "@route_222_east_house",
             "@route_222_gate_to_sunyshore_city",
             "@route_222_west_house",
-            "@valor_lakefront, $early_sunyshore"
+            "@valor_lakefront, ^$early_sunyshore"
         ]
     },
     {
@@ -2520,7 +2520,7 @@
     {
         "name": "sendoff_spring",
         "access_rules": [
-            "@event_clear_distortion",
+            "@event_clear_distortion, event_clear_distortion",
             "@spring_path",
             "@turnback_cave_entrance"
         ]

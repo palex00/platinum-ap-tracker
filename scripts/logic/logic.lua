@@ -39,16 +39,15 @@ function rock_climb()
 end
 
 function hidden()
-    return AccessibilityLevel.Normal
+    if has("opt_dowsing_off") or has("dowsingmachine") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
 end
 
 function regional_monsTODO()
-    print("Remember to implement this")
-    return true
-end
-
-function pokedex()
-    print("Remember to implement this")
+    -- Returns true for now, will change with PKMN Randomisation
     return true
 end
 
@@ -72,37 +71,49 @@ function poketch_req(badgecount)
             return false
         end
     end
-    
     return has("coupons", 3) and has("parcel")
 end
 
 function route203_pass()
-    print("Remember to implement this")
-    return true
+    if has("opt_route_203_off") then
+        return true
+    else
+        return poketch_req()
+    end
 end
 
 function early_sunyshore()
-    print("Remember to implement this")
-    return true
-    -- has early sunyshore or event distortion world
+    if has("opt_early_sunyshore_on") then
+        return AccessibilityLevel.Normal
+    else
+        return math.max(has_level("event_clear_distortion") and Tracker:FindObjectForCode("event_clear_distortion").AccessibilityLevel)
+    end
 end
 
 function north_sinnoh_fly()
-    print("Remember to implement this")
-    return true
-    -- has north sinnoh fly on and fly or just true
+    if has("opt_north_sinnoh_fly_off") or fly() then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
 end
 
 function soft_defog()
-    print("Remember to implement this")
-    return true
-    -- has defog or defog-not-required
+    if has("opt_hm_visibility_off") or defog() then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
 end
 
 function unowns()
-    print("Remember to implement this")
-    return true
-    -- either 26 Unown Files if they're items or access to Solaceon Ruins if Unowns are vanilla
+    if has("opt_unown_none") then
+        return true
+    elseif has("opt_unown_item") then
+        return has("unownfile", 28)
+    elseif has("opt_unown_vanilla") then
+        return true
+    end
 end
 
 function mon_geodude()
@@ -112,26 +123,27 @@ function mon_geodude()
 end
 
 function pastoria_barriers()
-    print("Remember to implement this")
-    return true
-    -- either pastoria barriers off or surf
+    return has("opt_pastoria_barriers_off") or surf()
 end
 
 function mons()
-    print("Remember to implement this")
+    -- Returns true for now, will change with PKMN Randomisation
     return true
 end
 
 function regional_mons()
-    print("Remember to implement this")
+    -- Returns true for now, will change with PKMN Randomisation
     return true
 end
 
 function marsh_pass()
-    print("Remember to implement this")
-    return true
+    return has("opt_marsh_pass_off") or has("marshpass")
 end
 
 function flash()
-    return AccessibilityLevel.Normal
+    if has("opt_hm_visibility_off") or has("tm70flash") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
 end
