@@ -3099,7 +3099,7 @@
     {
         "name": "twinleaf_town_player_house_2f",
         "access_rules": [
-            "@twinleaf_town_player_house_1f"
+            ""
         ]
     },
     {

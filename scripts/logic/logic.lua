@@ -41,3 +41,37 @@ end
 function hidden()
     return true
 end
+
+function regional_monsTODO()
+    print("Remember to implement this")
+    return true
+end
+
+function pokedex()
+    print("Remember to implement this")
+    return true
+end
+
+function badges()
+  return
+  Tracker:ProviderCountForCode("coalbadge") +
+  Tracker:ProviderCountForCode("forestbadge") +
+  Tracker:ProviderCountForCode("cobblebadge") +
+  Tracker:ProviderCountForCode("fenbadge") +
+  Tracker:ProviderCountForCode("relicbadge") +
+  Tracker:ProviderCountForCode("minebadge") +
+  Tracker:ProviderCountForCode("iciclebadge") +
+  Tracker:ProviderCountForCode("beaconbadge")
+end
+
+function poketch_req(badgecount)
+    if badgecount ~= nil then 
+        if badges() >= tonumber(badgecount) then
+            -- dummy
+        else
+            return false
+        end
+    end
+    
+    return has("coupons", 3) and has("parcel")
+end
