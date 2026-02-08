@@ -50,8 +50,6 @@
     {
         "name": "HM01 Cut",
         "type": "progressive_toggle",
-        "img": "images/items/hm01_cut.png",
-        "codes": "hm01cut",
         "stages": [
             {
                 "name": "HM01 Cut",
@@ -70,8 +68,6 @@
     {
         "name": "HM02 Fly",
         "type": "progressive_toggle",
-        "img": "images/items/hm02_fly.png",
-        "codes": "hm02fly",
         "stages": [
             {
                 "name": "HM02 Fly",
@@ -90,8 +86,6 @@
     {
         "name": "HM03 Surf",
         "type": "progressive_toggle",
-        "img": "images/items/hm03_surf.png",
-        "codes": "hm03surf",
         "stages": [
             {
                 "name": "HM03 Surf",
@@ -110,8 +104,6 @@
     {
         "name": "HM04 Strength",
         "type": "progressive_toggle",
-        "img": "images/items/hm04_strength.png",
-        "codes": "hm04strength",
         "stages": [
             {
                 "name": "HM04 Strength",
@@ -130,8 +122,6 @@
     {
         "name": "HM05 Defog",
         "type": "progressive_toggle",
-        "img": "images/items/hm05_defog.png",
-        "codes": "hm05defog",
         "stages": [
             {
                 "name": "HM05 Defog",
@@ -150,8 +140,6 @@
     {
         "name": "HM06 Rock Smash",
         "type": "progressive_toggle",
-        "img": "images/items/hm06_rocksmash.png",
-        "codes": "hm06rocksmash",
         "stages": [
             {
                 "name": "HM06 Rock Smash",
@@ -170,8 +158,6 @@
     {
         "name": "HM07 Waterfall",
         "type": "progressive_toggle",
-        "img": "images/items/hm07_waterfall.png",
-        "codes": "hm07waterfall",
         "stages": [
             {
                 "name": "HM07 Waterfall",
@@ -190,8 +176,6 @@
     {
         "name": "HM08 Rock Climb",
         "type": "progressive_toggle",
-        "img": "images/items/hm08_rockclimb.png",
-        "codes": "hm08rockclimb",
         "stages": [
             {
                 "name": "HM08 Rock Climb",
@@ -217,7 +201,6 @@
         "name": "Upgradable Pokedex",
         "type": "progressive",
         "loop": false,
-        "codes": "pokedex",
         "stages": [
             {
                 "name": "Pokedex",
@@ -293,7 +276,6 @@
     {
         "name": "Coupons",
         "type": "consumable",
-        "allow_disabled": true,
         "min_quantity": 0,
         "max_quantity": 3,
         "increment": 1,
@@ -329,7 +311,6 @@
     {
         "name": "Unown File",
         "type": "consumable",
-        "allow_disabled": true,
         "min_quantity": 0,
         "max_quantity": 28,
         "increment": 1,
