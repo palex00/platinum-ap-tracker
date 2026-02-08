@@ -5,7 +5,7 @@
         "content": [
             {
                 "type": "group",
-                "header": "Autofill Settings",
+                "header": "Settings",
                 "header_background": "#3e4b57",
                 "content": [
                     {

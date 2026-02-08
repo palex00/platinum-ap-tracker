@@ -913,7 +913,7 @@
             {
                 "name": "Item on Ledge Below Ace Trainers",
                 "access_rules": [
-                    "@route_226"
+                    "@route_226_mid"
                 ],
                 "visibility_rules": [
                     ""
@@ -923,7 +923,7 @@
             {
                 "name": "Item in SW Trees",
                 "access_rules": [
-                    "@route_226"
+                    "@route_226_mid"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -933,7 +933,7 @@
             {
                 "name": "Item on Ledge Below Berry Patch",
                 "access_rules": [
-                    "@route_226"
+                    "@route_226_mid"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -943,7 +943,7 @@
             {
                 "name": "Hidden Item on Beach Below Rock Climb Area",
                 "access_rules": [
-                    "^$hidden, @route_226, $surf"
+                    "^$hidden, @route_226_east, $surf"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -953,7 +953,7 @@
             {
                 "name": "Hidden Item on Grassy Plateau Near Lake 1",
                 "access_rules": [
-                    "^$hidden, @route_226"
+                    "^$hidden, @route_226_mid"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -963,7 +963,7 @@
             {
                 "name": "Hidden Item on Grassy Plateau Near Lake 2",
                 "access_rules": [
-                    "^$hidden, @route_226"
+                    "^$hidden, @route_226_mid"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -973,7 +973,7 @@
             {
                 "name": "Hidden Item on Grassy Plateau Near Lake 3",
                 "access_rules": [
-                    "^$hidden, @route_226"
+                    "^$hidden, @route_226_mid"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -983,7 +983,7 @@
             {
                 "name": "Hidden Item in Tree Gap North of Meisters House",
                 "access_rules": [
-                    "^$hidden, @route_226, $surf"
+                    "^$hidden, @route_226_east, $surf"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -6765,45 +6765,6 @@
                 "x": 143,
                 "y": 238,
                 "size": 7
-            }
-        ]
-    },
-    {
-        "name": "Lake Valor",
-        "chest_unopened_img": "/images/locations/ball.png",
-        "chest_opened_img": "/images/locations/ballopen.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Hidden Item By Pile of Magikarp During Saturn Takeover",
-                "access_rules": [
-                    "^$hidden, @lake_valor_drained"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item in SE Corner of Lake",
-                "access_rules": [
-                    "@lake_valor"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Sinnoh",
-                "x": 1769,
-                "y": 357,
-                "size": 6
             }
         ]
     },
