@@ -11,7 +11,6 @@ ITEM_MAPPING = {
 	[438] =     {{"workskey", "toggle"}},
 	[439] =     {{"oldcharm", "toggle"}},
 	[16824] =   {{"galactickey", "toggle"}},
-	[441] =     {{"redchain", "toggle"}},
 	[445] =     {{"oldrod", "toggle"}},
 	[446] =     {{"goodrod", "toggle"}},
 	[447] =     {{"superrod", "toggle"}},

@@ -297,12 +297,6 @@
         "codes": "secretpotion"
     },
     {
-        "name": "Red Chain",
-        "type": "toggle",
-        "img": "images/items/red_chain.png",
-        "codes": "redchain"
-    },
-    {
         "name": "Marsh Pass",
         "type": "toggle",
         "img": "images/items/marsh_pass.png",
