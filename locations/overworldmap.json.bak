@@ -1322,19 +1322,15 @@
                 "access_rules": [
                     "@celestic_town_cave, oldcharm"
                 ],
-                "visibility_rules": [
-                    "opt_hms_on"
-                ],
+                "visibility_rules": ["opt_hms_on"],
                 "item_count": 1
             },
             {
-                "name": "Cave - HM03 from Cynthias Grandmother\u200b",
+                "name": "Cave - HM03 from Cynthias Grandmother​",
                 "access_rules": [
                     "@celestic_town_cave, oldcharm"
                 ],
-                "visibility_rules": [
-                    "opt_hms_off"
-                ],
+                "visibility_rules": ["opt_hms_off"],
                 "hosted_item": "hm03surf"
             },
             {
@@ -1509,9 +1505,7 @@
                 "access_rules": [
                     "@twinleaf_town_player_house_1f"
                 ],
-                "visibility_rules": [
-                    "opt_shoes_on"
-                ],
+                "visibility_rules": ["opt_shoes_on"],
                 "item_count": 1
             },
             {
@@ -1617,19 +1611,15 @@
                 "access_rules": [
                     "@pastoria_city_gym"
                 ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
             },
             {
-                "name": "Gym - Fen Badge from Crasher Wake\u200b",
+                "name": "Gym - Fen Badge from Crasher Wake​",
                 "access_rules": [
                     "@pastoria_city_gym"
                 ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
+                "visibility_rules": ["opt_badges_off"],
                 "hosted_item": "fenbadge"
             },
             {
@@ -1647,9 +1637,7 @@
                 "access_rules": [
                     "@pastoria_city"
                 ],
-                "visibility_rules": [
-                    "opt_accessories_on"
-                ],
+                "visibility_rules": [""],
                 "item_count": 1
             }
         ],
@@ -1896,19 +1884,15 @@
                 "access_rules": [
                     "@iron_island"
                 ],
-                "visibility_rules": [
-                    "opt_hms_on"
-                ],
+                "visibility_rules": ["opt_hms_on"],
                 "item_count": 1
             },
             {
-                "name": "HM04 from Riley\u200b",
+                "name": "HM04 from Riley​",
                 "access_rules": [
                     "@iron_island"
                 ],
-                "visibility_rules": [
-                    "opt_hms_off"
-                ],
+                "visibility_rules": ["opt_hms_off"],
                 "hosted_item": "hm04strength"
             },
             {
@@ -3017,19 +3001,15 @@
                 "access_rules": [
                     "@hearthome_city_gym_leader_room"
                 ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
             },
             {
-                "name": "Gym - Relic Badge From Fantina\u200b",
+                "name": "Gym - Relic Badge From Fantina​",
                 "access_rules": [
                     "@hearthome_city_gym_leader_room"
                 ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
+                "visibility_rules": ["opt_badges_off"],
                 "hosted_item": "relicbadge"
             },
             {
@@ -3067,9 +3047,7 @@
                 "access_rules": [
                     "@contest_hall_lobby"
                 ],
-                "visibility_rules": [
-                    "opt_accessories_on"
-                ],
+                "visibility_rules": [""],
                 "item_count": 1
             }
         ],
@@ -3224,19 +3202,15 @@
                 "access_rules": [
                     "@route_218_gate_to_jubilife_city"
                 ],
-                "visibility_rules": [
-                    "opt_rods_on"
-                ],
+                "visibility_rules": ["opt_rods_on"],
                 "item_count": 1
             },
             {
-                "name": "Gate to Route 218 - Old Rod from Fisherman\u200b",
+                "name": "Gate to Route 218 - Old Rod from Fisherman​",
                 "access_rules": [
                     "@route_218_gate_to_jubilife_city"
                 ],
-                "visibility_rules": [
-                    "opt_rods_off"
-                ],
+                "visibility_rules": ["opt_rods_off"],
                 "hosted_item": "oldrod"
             },
             {
@@ -3274,60 +3248,24 @@
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
-                "visibility_rules": [
-                    "opt_coupons_on"
-                ],
+                "visibility_rules": [""],
                 "item_count": 1
-            },
-            {
-                "name": "Coupon from East Clown​",
-                "access_rules": [
-                    "@jubilife_city, parcel"
-                ],
-                "visibility_rules": [
-                    "opt_coupons_off"
-                ],
-                "hosted_item": "coupons"
             },
             {
                 "name": "Coupon from Clown in front of Poketch HQ",
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
-                "visibility_rules": [
-                    "opt_coupons_on"
-                ],
+                "visibility_rules": [""],
                 "item_count": 1
-            },
-            {
-                "name": "Coupon from Clown in front of Poketch HQ​",
-                "access_rules": [
-                    "@jubilife_city, parcel"
-                ],
-                "visibility_rules": [
-                    "opt_coupons_off"
-                ],
-                "hosted_item": "coupons"
             },
             {
                 "name": "Coupon from Clown in front of Jubilife TV",
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
-                "visibility_rules": [
-                    "opt_coupons_on"
-                ],
+                "visibility_rules": [""],
                 "item_count": 1
-            },
-            {
-                "name": "Coupon from Clown in front of Jubilife TV​",
-                "access_rules": [
-                    "@jubilife_city, parcel"
-                ],
-                "visibility_rules": [
-                    "opt_coupons_off"
-                ],
-                "hosted_item": "coupons"
             },
             {
                 "name": "Poketch from CEO",
@@ -3434,9 +3372,7 @@
                 "access_rules": [
                     "@jubilife_tv_2f"
                 ],
-                "visibility_rules": [
-                    "opt_accessories_on"
-                ],
+                "visibility_rules": [""],
                 "item_count": 1
             }
         ],
@@ -3563,19 +3499,15 @@
                 "access_rules": [
                     "@route_209"
                 ],
-                "visibility_rules": [
-                    "opt_rods_on"
-                ],
+                "visibility_rules": ["opt_rods_on"],
                 "item_count": 1
             },
             {
-                "name": "Good Rod from Fisherman\u200b",
+                "name": "Good Rod from Fisherman​",
                 "access_rules": [
                     "@route_209"
                 ],
-                "visibility_rules": [
-                    "opt_rods_off"
-                ],
+                "visibility_rules": ["opt_rods_off"],
                 "hosted_item": "goodrod"
             }
         ],
@@ -3893,16 +3825,6 @@
                     "opt_keyitems_on"
                 ],
                 "item_count": 1
-            },
-            {
-                "name": "Old Charm from Cynthia​",
-                "access_rules": [
-                    "@route_210_south_upper, secretpotion"
-                ],
-                "visibility_rules": [
-                    "opt_keyitems_off"
-                ],
-                "hosted_item": "oldcharm"
             }
         ],
         "map_locations": [
@@ -4126,19 +4048,15 @@
                 "access_rules": [
                     "@route_218_gate_to_canalave_city"
                 ],
-                "visibility_rules": [
-                    "opt_pokedex_on"
-                ],
+                "visibility_rules": ["opt_pokedex_on"],
                 "item_count": 1
             },
             {
-                "name": "Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father\u200b",
+                "name": "Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father​",
                 "access_rules": [
                     "@route_218_gate_to_canalave_city"
                 ],
-                "visibility_rules": [
-                    "opt_pokedex_off"
-                ],
+                "visibility_rules": ["opt_pokedex_off"],
                 "hosted_item": "pokedex"
             }
         ],
@@ -4225,20 +4143,8 @@
                 "access_rules": [
                     "@solaceon_ruins_room_7"
                 ],
-                "visibility_rules": [
-                    "opt_hms_on"
-                ],
+                "visibility_rules": [""],
                 "item_count": 1
-            },
-            {
-                "name": "B5F - FRIENDSHIP Room Top Right Item​",
-                "access_rules": [
-                    "@solaceon_ruins_room_7"
-                ],
-                "visibility_rules": [
-                    "opt_hms_off"
-                ],
-                "hosted_item": "hm05defog"
             },
             {
                 "name": "B2F - Gift for Lending Defog to Hiker",
@@ -4255,9 +4161,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4265,9 +4169,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4275,9 +4177,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4285,9 +4185,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4295,9 +4193,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4305,9 +4201,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4315,9 +4209,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4325,9 +4217,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4335,9 +4225,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4345,9 +4233,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4355,9 +4241,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4365,9 +4249,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4375,9 +4257,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4385,9 +4265,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4395,9 +4273,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4405,9 +4281,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4415,9 +4289,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4425,9 +4297,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4435,9 +4305,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4445,9 +4313,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4455,9 +4321,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4465,9 +4329,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4475,9 +4337,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4485,9 +4345,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4495,9 +4353,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4505,9 +4361,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_1"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4515,9 +4369,7 @@
                 "access_rules": [
                     "@solaceon_ruins_maniac_tunnel_room"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             },
             {
@@ -4525,9 +4377,7 @@
                 "access_rules": [
                     "@solaceon_ruins_maniac_tunnel_room"
                 ],
-                "visibility_rules": [
-                    "opt_unown_item"
-                ],
+                "visibility_rules": ["opt_unown_item"],
                 "item_count": 1
             }
         ],
@@ -4801,16 +4651,6 @@
                 "item_count": 1
             },
             {
-                "name": "Secret Potion from Cynthia​",
-                "access_rules": [
-                    "@valor_lakefront, event_defeat_wake"
-                ],
-                "visibility_rules": [
-                    "opt_keyitems_off"
-                ],
-                "hosted_item": "secretpotion"
-            },
-            {
                 "name": "Gift from Locked Out Woman",
                 "access_rules": [
                     "@grand_lake_valor_lakefront_east_house, suite_key"
@@ -4874,19 +4714,15 @@
                 "access_rules": [
                     "@sunyshore_city_gym_room_3"
                 ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
             },
             {
-                "name": "Gym - Beacon Badge from Volkner\u200b",
+                "name": "Gym - Beacon Badge from Volkner​",
                 "access_rules": [
                     "@sunyshore_city_gym_room_3"
                 ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
+                "visibility_rules": ["opt_badges_off"],
                 "hosted_item": "beaconbadge"
             },
             {
@@ -4904,19 +4740,15 @@
                 "access_rules": [
                     "@sunyshore_city, event_defeat_volkner"
                 ],
-                "visibility_rules": [
-                    "opt_hms_on"
-                ],
+                "visibility_rules": ["opt_hms_on"],
                 "item_count": 1
             },
             {
-                "name": "HM07 from Jasmine\u200b",
+                "name": "HM07 from Jasmine​",
                 "access_rules": [
                     "@sunyshore_city, event_defeat_volkner"
                 ],
-                "visibility_rules": [
-                    "opt_hms_off"
-                ],
+                "visibility_rules": ["opt_hms_off"],
                 "hosted_item": "hm07waterfall"
             },
             {
@@ -5150,19 +4982,15 @@
                 "access_rules": [
                     "@canalave_city_gym"
                 ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
             },
             {
-                "name": "Gym - Mine Badge from Byron\u200b",
+                "name": "Gym - Mine Badge from Byron​",
                 "access_rules": [
                     "@canalave_city_gym"
                 ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
+                "visibility_rules": ["opt_badges_off"],
                 "hosted_item": "minebadge"
             },
             {
@@ -5427,9 +5255,7 @@
                 "access_rules": [
                     "@eterna_forest_outside"
                 ],
-                "visibility_rules": [
-                    "opt_accessories_on"
-                ],
+                "visibility_rules": [""],
                 "item_count": 1
             },
             {
@@ -5794,19 +5620,15 @@
                 "access_rules": [
                     "@eterna_city_gym"
                 ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
             },
             {
-                "name": "Gym - Forest Badge From Gardenia\u200b",
+                "name": "Gym - Forest Badge From Gardenia​",
                 "access_rules": [
                     "@eterna_city_gym"
                 ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
+                "visibility_rules": ["opt_badges_off"],
                 "hosted_item": "forestbadge"
             },
             {
@@ -5824,19 +5646,15 @@
                 "access_rules": [
                     "@eterna_city"
                 ],
-                "visibility_rules": [
-                    "opt_hms_on"
-                ],
+                "visibility_rules": ["opt_hms_on"],
                 "item_count": 1
             },
             {
-                "name": "HM01 from Cynthia\u200b",
+                "name": "HM01 from Cynthia​",
                 "access_rules": [
                     "@eterna_city"
                 ],
-                "visibility_rules": [
-                    "opt_hms_off"
-                ],
+                "visibility_rules": ["opt_hms_off"],
                 "hosted_item": "hm01cut"
             },
             {
@@ -5844,19 +5662,15 @@
                 "access_rules": [
                     "@cycle_shop, event_clear_eternahideout"
                 ],
-                "visibility_rules": [
-                    "opt_bicycle_on"
-                ],
+                "visibility_rules": ["opt_bicycle_on"],
                 "item_count": 1
             },
             {
-                "name": "Bike from Rad Rickshaw\u200b",
+                "name": "Bike from Rad Rickshaw​",
                 "access_rules": [
                     "@cycle_shop, event_clear_eternahideout"
                 ],
-                "visibility_rules": [
-                    "opt_bicycle_off"
-                ],
+                "visibility_rules": ["opt_bicycle_off"],
                 "hosted_item": "bicycle"
             },
             {
@@ -6159,19 +5973,15 @@
                 "access_rules": [
                     "@veilstone_city_gym"
                 ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
             },
             {
-                "name": "Gym - Cobble Badge from Maylene\u200b",
+                "name": "Gym - Cobble Badge from Maylene​",
                 "access_rules": [
                     "@veilstone_city_gym"
                 ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
+                "visibility_rules": ["opt_badges_off"],
                 "hosted_item": "cobblebadge"
             },
             {
@@ -6229,9 +6039,7 @@
                 "access_rules": [
                     "@veilstone_store_1f"
                 ],
-                "visibility_rules": [
-                    "opt_accessories_on"
-                ],
+                "visibility_rules": ["opt_accessories_on"],
                 "item_count": 1
             },
             {
@@ -6239,9 +6047,7 @@
                 "access_rules": [
                     "@veilstone_city_southwest_house"
                 ],
-                "visibility_rules": [
-                    "opt_accessories_on"
-                ],
+                "visibility_rules": ["opt_accessories_on"],
                 "item_count": 1
             }
         ],
@@ -6424,16 +6230,6 @@
                 "item_count": 1
             },
             {
-                "name": "Works Key after Galactic Grunts​",
-                "access_rules": [
-                    "@floaroma_meadow_south"
-                ],
-                "visibility_rules": [
-                    "opt_keyitems_off"
-                ],
-                "hosted_item": "workskey"
-            },
-            {
                 "name": "Gift from Man after Grunts",
                 "access_rules": [
                     "@floaroma_meadow_south"
@@ -6592,16 +6388,6 @@
                 "item_count": 1
             },
             {
-                "name": "Galactic Key Next to Locked Door​",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "opt_keyitems_off"
-                ],
-                "hosted_item": "galactickey"
-            },
-            {
                 "name": "Item By Boxes",
                 "access_rules": [
                     "@galactic_hq_wo_key"
@@ -6626,19 +6412,15 @@
                 "access_rules": [
                     "@veilstone_city_galactic_warehouse"
                 ],
-                "visibility_rules": [
-                    "opt_hms_on"
-                ],
+                "visibility_rules": ["opt_hms_on"],
                 "item_count": 1
             },
             {
-                "name": "HM02 with Looker\u200b",
+                "name": "HM02 with Looker​",
                 "access_rules": [
                     "@veilstone_city_galactic_warehouse"
                 ],
-                "visibility_rules": [
-                    "opt_hms_off"
-                ],
+                "visibility_rules": ["opt_hms_off"],
                 "hosted_item": "hm02fly"
             }
         ],
@@ -6923,9 +6705,7 @@
                 "access_rules": [
                     "@route_206_cycling_road_south_gate"
                 ],
-                "visibility_rules": [
-                    "opt_accessories_on"
-                ],
+                "visibility_rules": [""],
                 "item_count": 1
             }
         ],
@@ -7068,12 +6848,8 @@
             },
             {
                 "name": "Hidden Item Above Rock Climb Slope",
-                "access_rules": [
-                    "^$hidden, @route_207_right"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
+                "access_rules": [""],
+                "visibility_rules": [""],
                 "item_count": 1
             },
             {
@@ -7085,16 +6861,6 @@
                     "opt_poketchapps_on"
                 ],
                 "item_count": 1
-            },
-            {
-                "name": "Second Gift from Dawn or Lucas​",
-                "access_rules": [
-                    "@route_207"
-                ],
-                "visibility_rules": [
-                    "opt_poketchapps_off"
-                ],
-                "hosted_item": "dowsing_machine"
             },
             {
                 "name": "First Gift from Dawn or Lucas",
@@ -7377,19 +7143,15 @@
                 "access_rules": [
                     "@route_217"
                 ],
-                "visibility_rules": [
-                    "opt_hms_on"
-                ],
+                "visibility_rules": ["opt_hms_on"],
                 "item_count": 1
             },
             {
-                "name": "HM08 Above Hikers House\u200b",
+                "name": "HM08 Above Hikers House​",
                 "access_rules": [
                     "@route_217"
                 ],
-                "visibility_rules": [
-                    "opt_hms_off"
-                ],
+                "visibility_rules": ["opt_hms_off"],
                 "hosted_item": "hm08rockclimb"
             },
             {
@@ -7575,19 +7337,15 @@
                 "access_rules": [
                     "@snowpoint_city_gym"
                 ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
             },
             {
-                "name": "Gym - Icicle Badge from Candice\u200b",
+                "name": "Gym - Icicle Badge from Candice​",
                 "access_rules": [
                     "@snowpoint_city_gym"
                 ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
+                "visibility_rules": ["opt_badges_off"],
                 "hosted_item": "iciclebadge"
             },
             {
@@ -7849,12 +7607,8 @@
             },
             {
                 "name": "Hidden Item South of Hikers",
-                "access_rules": [
-                    "@route_207_right, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
+                "access_rules": ["@route_207_right, ^$hidden"],
+                "visibility_rules": ["opt_hidden_on"],
                 "item_count": 1
             },
             {
@@ -8050,19 +7804,15 @@
                 "access_rules": [
                     "@oreburgh_city_gym"
                 ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
             },
             {
-                "name": "Gym - Coal Badge From Roark\u200b",
+                "name": "Gym - Coal Badge From Roark​",
                 "access_rules": [
                     "@oreburgh_city_gym"
                 ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
+                "visibility_rules": ["opt_badges_off"],
                 "hosted_item": "coalbadge"
             },
             {
@@ -8219,20 +7969,8 @@
                 "access_rules": [
                     "@oreburgh_gate_b1f"
                 ],
-                "visibility_rules": [
-                    "opt_hms_on"
-                ],
+                "visibility_rules": [""],
                 "item_count": 1
-            },
-            {
-                "name": "B1F - Item on East Ledges​",
-                "access_rules": [
-                    "@oreburgh_gate_b1f"
-                ],
-                "visibility_rules": [
-                    "opt_hms_off"
-                ],
-                "hosted_item": "tm70flash"
             },
             {
                 "name": "B1F - Item Next to Cyclist",
@@ -8249,19 +7987,15 @@
                 "access_rules": [
                     "@oreburgh_gate_1f"
                 ],
-                "visibility_rules": [
-                    "opt_hms_on"
-                ],
+                "visibility_rules": ["opt_hms_on"],
                 "item_count": 1
             },
             {
-                "name": "HM06 from Hiker\u200b",
+                "name": "HM06 from Hiker​",
                 "access_rules": [
                     "@oreburgh_gate_1f"
                 ],
-                "visibility_rules": [
-                    "opt_hms_off"
-                ],
+                "visibility_rules": ["opt_hms_off"],
                 "hosted_item": "hm06rocksmash"
             }
         ],
@@ -8337,9 +8071,7 @@
                 "access_rules": [
                     "@fight_area, national_dex"
                 ],
-                "visibility_rules": [
-                    "opt_rods_on"
-                ],
+                "visibility_rules": ["opt_rods_on"],
                 "item_count": 1
             },
             {
@@ -8347,9 +8079,7 @@
                 "access_rules": [
                     "@fight_area, national_dex"
                 ],
-                "visibility_rules": [
-                    "opt_rods_off"
-                ],
+                "visibility_rules": ["opt_rods_off"],
                 "hosted_item": "superrod"
             },
             {
@@ -8415,19 +8145,15 @@
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab"
                 ],
-                "visibility_rules": [
-                    "opt_pokedex_on"
-                ],
+                "visibility_rules": ["opt_pokedex_on"],
                 "item_count": 1
             },
             {
-                "name": "Lab - Pokedex from Prof Rowan\u200b",
+                "name": "Lab - Pokedex from Prof Rowan​",
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab"
                 ],
-                "visibility_rules": [
-                    "opt_pokedex_off"
-                ],
+                "visibility_rules": ["opt_pokedex_off"],
                 "hosted_item": "pokedex"
             },
             {
@@ -8435,19 +8161,15 @@
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab, pokedex, $regional_monsTODO"
                 ],
-                "visibility_rules": [
-                    "opt_pokedex_on"
-                ],
+                "visibility_rules": ["opt_pokedex_on"],
                 "item_count": 1
             },
             {
-                "name": "Lab - National Pokedex from Prof Oak\u200b",
+                "name": "Lab - National Pokedex from Prof Oak​",
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab, pokedex, $regional_monsTODO"
                 ],
-                "visibility_rules": [
-                    "opt_pokedex_off"
-                ],
+                "visibility_rules": ["opt_pokedex_off"],
                 "hosted_item": "pokedex"
             },
             {
