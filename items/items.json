@@ -206,7 +206,7 @@
                 "name": "Pokedex",
                 "inherit_codes": true,
                 "img": "/images/items/pokedex.png",
-                "img_mods": "",
+                "img_mods": "overlay|images/items/overlays/base.png",
                 "codes": "pokedex"
             },
             {

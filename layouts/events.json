@@ -62,7 +62,8 @@
                         "event_defeat_fantina",
                         "event_defeat_byron",
                         "event_defeat_candice",
-                        "event_defeat_volkner"
+                        "event_defeat_volkner",
+                        "event_defeat_cynthia"
                     ],
                     [
                         "event_clear_windworks",
@@ -72,11 +73,8 @@
                         "event_clear_lakeverity",
                         "event_clear_lakeacuity",
                         "event_galactic_hq_defeat_cyrus",
-                        "event_met_oak_at_palpark"
-                    ],
-                    [
-                        "event_clear_distortion",
-                        "event_defeat_cynthia"
+                        "event_met_oak_at_palpark",
+                        "event_clear_distortion"
                     ]
                 ]
             }

@@ -131,7 +131,7 @@
             },
             {
                 "name": "Randomize Key Items - ALL",
-                "img": "images/settings/opt_keyitems.png",
+                "img": "images/settings/opt_keyitems_all.png",
                 "codes": "opt_keyitems, opt_keyitems_on, opt_coupons_on",
                 "inherit_codes": false
             }
@@ -344,14 +344,14 @@
         "stages": [
             {
                 "name": "Randomize Bag - OFF",
-                "img": "images/settings/opt_bag.png",
+                "img": "images/items/bag.png",
                 "img_mods": "@disabled",
                 "codes": "opt_bag, opt_bag_off",
                 "inherit_codes": false
             },
             {
                 "name": "Randomize Bag - ON",
-                "img": "images/settings/opt_bag.png",
+                "img": "images/items/bag.png",
                 "codes": "opt_bag, opt_bag_on",
                 "inherit_codes": false
             }
@@ -366,19 +366,19 @@
         "stages": [
             {
                 "name": "Maniac Tunnel requires seeing all 26 Unown Forms",
-                "img": "images/settings/opt_unown.png",
+                "img": "images/settings/opt_unown_vanilla.png",
                 "codes": "opt_unown, opt_unown_vanilla",
                 "inherit_codes": false
             },
             {
                 "name": "Maniac Tunnel requires having all 26 Unown File Items",
-                "img": "images/settings/opt_unown.png",
+                "img": "images/settings/opt_unown_item.png",
                 "codes": "opt_unown, opt_unown_item",
                 "inherit_codes": false
             },
             {
                 "name": "Maniac Tunnel is open",
-                "img": "images/settings/opt_unown.png",
+                "img": "images/settings/opt_unown_open.png",
                 "codes": "opt_unown, opt_unown_none",
                 "inherit_codes": false
             }
@@ -481,14 +481,13 @@
         "stages": [
             {
                 "name": "The path to Sunyshore is blocked until Distortion World is cleared",
-                "img": "images/settings/opt_early_sunyshore.png",
+                "img": "images/settings/opt_early_sunyshore_off.png",
                 "codes": "opt_early_sunyshore, opt_early_sunyshore_off",
                 "inherit_codes": false
             },
             {
                 "name": "The path to Sunyshore is open",
-                "img": "images/settings/opt_early_sunyshore.png",
-                "img_mods": "@disabled",
+                "img": "images/settings/opt_early_sunyshore_on.png",
                 "codes": "opt_early_sunyshore, opt_early_sunyshore_on",
                 "inherit_codes": false
             }
@@ -503,14 +502,13 @@
         "stages": [
             {
                 "name": "Pastoria City is accessible vanilla",
-                "img": "images/settings/opt_pastoria_barriers.png",
-                "img_mods": "@disabled",
+                "img": "images/settings/opt_pastoria_barriers_off.png",
                 "codes": "opt_pastoria_barriers, opt_pastoria_barriers_off",
                 "inherit_codes": false
             },
             {
                 "name": "Pastoria City is blocked behind Surf",
-                "img": "images/settings/opt_pastoria_barriers.png",
+                "img": "images/settings/opt_pastoria_barriers_on.png",
                 "codes": "opt_pastoria_barriers, opt_pastoria_barriers_on",
                 "inherit_codes": false
             }
@@ -556,6 +554,7 @@
         "min_quantity": 1,
         "max_quantity": 80,
         "initial_quantity": 60,
+        "overlay_background": "#000000",
         "codes": "regional_dex_goal"
     }
 ]
