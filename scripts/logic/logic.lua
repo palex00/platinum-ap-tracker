@@ -137,6 +137,7 @@ function regional_mons()
 end
 
 function marsh_pass()
+    print(Tracker:FindObjectForCode("@pokemon_league").AccessibilityLevel)
     return has("opt_marsh_pass_off") or has("marshpass")
 end
 

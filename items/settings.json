@@ -52,15 +52,15 @@
         "stages": [
             {
                 "name": "Randomize Overworld Items - OFF",
-                "img": "images/settings/opt_overworlds.png",
+                "img": "images/settings/opt_overworld.png",
                 "img_mods": "@disabled",
-                "codes": "opt_overworlds, opt_overworlds_off",
+                "codes": "opt_overworld, opt_overworld_off",
                 "inherit_codes": false
             },
             {
                 "name": "Randomize Overworld Items - ON",
-                "img": "images/settings/opt_overworlds.png",
-                "codes": "opt_overworlds, opt_overworlds_on",
+                "img": "images/settings/opt_overworld.png",
+                "codes": "opt_overworld, opt_overworld_on",
                 "inherit_codes": false
             }
         ]

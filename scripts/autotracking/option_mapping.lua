@@ -1,7 +1,7 @@
 SLOT_CODES = {
     hms = {code = "opt_hms"},
     badges = {code = "opt_badges"},
-    overworlds = {code = "opt_overworlds"},
+    overworlds = {code = "opt_overworld"},
     hiddens = {code = "opt_hidden"},
     npc_gifts = {code = "opt_npcgifts"},
     key_items = {code = "opt_keyitems"},

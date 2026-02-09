@@ -4263,7 +4263,7 @@
             {
                 "name": "B2F - Gift for Lending Defog to Hiker",
                 "access_rules": [
-                    "@solaceon_ruins_room_2, hm05"
+                    "@solaceon_ruins_room_2, hm05defog"
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
@@ -7485,7 +7485,7 @@
             {
                 "name": "Gift from Hiker",
                 "access_rules": [
-                    "@route_217_west_house, hm08"
+                    "@route_217_west_house, hm08rockclimb"
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
@@ -8363,7 +8363,7 @@
                 "item_count": 1
             },
             {
-                "name": "Super Rod from Fisherman",
+                "name": "Super Rod from Fisherman​",
                 "access_rules": [
                     "@fight_area, national_dex"
                 ],

@@ -44,7 +44,7 @@
             [
                 "opt_hms",
 				"opt_badges",
-                "opt_overworlds",
+                "opt_overworld",
                 "opt_hidden",
                 "opt_npcgifts",
                 "opt_keyitems"
