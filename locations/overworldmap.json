@@ -1603,8 +1603,16 @@
                 "access_rules": [
                     "@pastoria_city_gym"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Fen Badge from Crasher Wake​",
+                "access_rules": [
+                    "@pastoria_city_gym"
+                ],
+                "visibility_rules": ["opt_badges_off"],
+                "hosted_item": "fenbadge"
             },
             {
                 "name": "Gym - TM55 from Crasher Wake",
@@ -2977,8 +2985,16 @@
                 "access_rules": [
                     "@hearthome_city_gym_leader_room"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Relic Badge From Fantina​",
+                "access_rules": [
+                    "@hearthome_city_gym_leader_room"
+                ],
+                "visibility_rules": ["opt_badges_off"],
+                "hosted_item": "relicbadge"
             },
             {
                 "name": "Gym - TM65 From Fantina",
@@ -4662,7 +4678,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Beacon Badge from Volkner",
+                "name": "Gym - Beacon Badge from Volkner​",
                 "access_rules": [
                     "@sunyshore_city_gym_room_3"
                 ],
@@ -4688,7 +4704,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM07 from Jasmine",
+                "name": "HM07 from Jasmine​",
                 "access_rules": [
                     "@sunyshore_city, event_defeat_volkner"
                 ],
@@ -4926,8 +4942,16 @@
                 "access_rules": [
                     "@canalave_city_gym"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Mine Badge from Byron​",
+                "access_rules": [
+                    "@canalave_city_gym"
+                ],
+                "visibility_rules": ["opt_badges_off"],
+                "hosted_item": "minebadge"
             },
             {
                 "name": "Gym - TM91 from Byron",
@@ -5556,8 +5580,16 @@
                 "access_rules": [
                     "@eterna_city_gym"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Forest Badge From Gardenia​",
+                "access_rules": [
+                    "@eterna_city_gym"
+                ],
+                "visibility_rules": ["opt_badges_off"],
+                "hosted_item": "forestbadge"
             },
             {
                 "name": "Gym - TM86 From Gardenia",
@@ -5885,8 +5917,16 @@
                 "access_rules": [
                     "@veilstone_city_gym"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Cobble Badge from Maylene​",
+                "access_rules": [
+                    "@veilstone_city_gym"
+                ],
+                "visibility_rules": ["opt_badges_off"],
+                "hosted_item": "cobblebadge"
             },
             {
                 "name": "Gym - TM60 from Maylene",
@@ -7225,8 +7265,16 @@
                 "access_rules": [
                     "@snowpoint_city_gym"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Icicle Badge from Candice​",
+                "access_rules": [
+                    "@snowpoint_city_gym"
+                ],
+                "visibility_rules": ["opt_badges_off"],
+                "hosted_item": "iciclebadge"
             },
             {
                 "name": "Gym - TM72 from Candice",
@@ -7684,8 +7732,16 @@
                 "access_rules": [
                     "@oreburgh_city_gym"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_badges_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Coal Badge From Roark​",
+                "access_rules": [
+                    "@oreburgh_city_gym"
+                ],
+                "visibility_rules": ["opt_badges_off"],
+                "hosted_item": "coalbadge"
             },
             {
                 "name": "Gym - TM75 From Roark",
