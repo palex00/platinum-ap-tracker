@@ -5606,16 +5606,32 @@
                 "access_rules": [
                     "@eterna_city"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_hms_on"],
                 "item_count": 1
+            },
+            {
+                "name": "HM01 from Cynthia​",
+                "access_rules": [
+                    "@eterna_city"
+                ],
+                "visibility_rules": ["opt_hms_off"],
+                "hosted_item": "hm01cut"
             },
             {
                 "name": "Bike from Rad Rickshaw",
                 "access_rules": [
                     "@cycle_shop, event_clear_eternahideout"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_bicycle_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Bike from Rad Rickshaw​",
+                "access_rules": [
+                    "@cycle_shop, event_clear_eternahideout"
+                ],
+                "visibility_rules": ["opt_bicycle_off"],
+                "hosted_item": "bicycle"
             },
             {
                 "name": "Pokemon Center - Friendship Checker App from Woman",
