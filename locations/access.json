@@ -399,7 +399,8 @@
             "@fight_area_south_house",
             "@route_225_gate_to_fight_area",
             "@route_230, national_dex, $surf",
-            "@snowpoint_city, ssticket"
+            "@snowpoint_city, ssticket",
+            "@snowpoint_city, event_defeat_cynthia, @pokemon_league_champion_room"
         ]
     },
     {
@@ -546,7 +547,7 @@
     {
         "name": "fullmoon_island",
         "access_rules": [
-            "@canalave_city, national_dex, event_defeat_cynthia",
+            "@canalave_city, national_dex, event_defeat_cynthia, @pokemon_league_champion_room",
             "@fullmoon_island_forest"
         ]
     },
@@ -2584,7 +2585,7 @@
     {
         "name": "snowpoint_temple_1f",
         "access_rules": [
-            "@snowpoint_city, national_dex, event_defeat_cynthia",
+            "@snowpoint_city, national_dex, event_defeat_cynthia, @pokemon_league_champion_room",
             "@snowpoint_temple_b1f"
         ]
     },
@@ -3344,8 +3345,8 @@
     {
         "name": "victory_road_1f_room_1",
         "access_rules": [
-            "@victory_road_1f, event_defeat_cynthia, national_dex",
-            "@victory_road_1f_room_2, event_defeat_cynthia, national_dex"
+            "@victory_road_1f, event_defeat_cynthia, @pokemon_league_champion_room, national_dex",
+            "@victory_road_1f_room_2, event_defeat_cynthia, @pokemon_league_champion_room, national_dex"
         ]
     },
     {

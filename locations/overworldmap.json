@@ -1533,6 +1533,16 @@
                     "opt_keyitems_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Parcel from Rivals Mom​",
+                "access_rules": [
+                    "@twinleaf_town_player_house_1f"
+                ],
+                "visibility_rules": [
+                    "opt_keyitems_off"
+                ],
+                "hosted_item": "parcel"
             }
         ],
         "map_locations": [
@@ -2138,6 +2148,16 @@
                     "opt_keyitems_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Hidden Suite Key By Reception​",
+                "access_rules": [
+                    "@route_213, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_keyitems_off"
+                ],
+                "hosted_item": "suitekey"
             },
             {
                 "name": "Hidden Item on Beach East Side 1",

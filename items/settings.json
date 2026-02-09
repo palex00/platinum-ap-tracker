@@ -314,21 +314,21 @@
         ]
     },
     {
-        "name": "Randomize Storage Key",
+        "name": "Add Storage Key",
         "type": "progressive",
         "initial_stage_idx": 1,
         "loop": true,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Randomize Storage Key - OFF",
+                "name": "Add Storage Key - OFF",
                 "img": "images/settings/opt_storage_key.png",
                 "img_mods": "@disabled",
                 "codes": "opt_storage_key, opt_storage_key_off",
                 "inherit_codes": false
             },
             {
-                "name": "Randomize Storage Key - ON",
+                "name": "Add Storage Key - ON",
                 "img": "images/settings/opt_storage_key.png",
                 "codes": "opt_storage_key, opt_storage_key_on",
                 "inherit_codes": false
