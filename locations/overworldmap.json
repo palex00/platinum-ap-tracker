@@ -1322,8 +1322,16 @@
                 "access_rules": [
                     "@celestic_town_cave, oldcharm"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_hms_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Cave - HM03 from Cynthias Grandmother​",
+                "access_rules": [
+                    "@celestic_town_cave, oldcharm"
+                ],
+                "visibility_rules": ["opt_hms_off"],
+                "hosted_item": "hm03surf"
             },
             {
                 "name": "Analog Watch App from Black Belt in Lower Left House",
@@ -1497,7 +1505,7 @@
                 "access_rules": [
                     "@twinleaf_town_player_house_1f"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_shoes_on"],
                 "item_count": 1
             },
             {
@@ -1629,7 +1637,7 @@
                 "access_rules": [
                     "@pastoria_city"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": [""],
                 "item_count": 1
             }
         ],
@@ -1876,8 +1884,16 @@
                 "access_rules": [
                     "@iron_island"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_hms_on"],
                 "item_count": 1
+            },
+            {
+                "name": "HM04 from Riley​",
+                "access_rules": [
+                    "@iron_island"
+                ],
+                "visibility_rules": ["opt_hms_off"],
+                "hosted_item": "hm04strength"
             },
             {
                 "name": "Metal Coat from Byron",
@@ -3031,7 +3047,7 @@
                 "access_rules": [
                     "@contest_hall_lobby"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": [""],
                 "item_count": 1
             }
         ],
@@ -3186,8 +3202,16 @@
                 "access_rules": [
                     "@route_218_gate_to_jubilife_city"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_rods_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Gate to Route 218 - Old Rod from Fisherman​",
+                "access_rules": [
+                    "@route_218_gate_to_jubilife_city"
+                ],
+                "visibility_rules": ["opt_rods_off"],
+                "hosted_item": "oldrod"
             },
             {
                 "name": "Vs. Recorder from Looker",
@@ -3224,7 +3248,7 @@
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": [""],
                 "item_count": 1
             },
             {
@@ -3232,7 +3256,7 @@
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": [""],
                 "item_count": 1
             },
             {
@@ -3240,7 +3264,7 @@
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": [""],
                 "item_count": 1
             },
             {
@@ -3348,7 +3372,7 @@
                 "access_rules": [
                     "@jubilife_tv_2f"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": [""],
                 "item_count": 1
             }
         ],
@@ -3475,8 +3499,16 @@
                 "access_rules": [
                     "@route_209"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_rods_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Good Rod from Fisherman​",
+                "access_rules": [
+                    "@route_209"
+                ],
+                "visibility_rules": ["opt_rods_off"],
+                "hosted_item": "goodrod"
             }
         ],
         "map_locations": [
@@ -4016,8 +4048,16 @@
                 "access_rules": [
                     "@route_218_gate_to_canalave_city"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_pokedex_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father​",
+                "access_rules": [
+                    "@route_218_gate_to_canalave_city"
+                ],
+                "visibility_rules": ["opt_pokedex_off"],
+                "hosted_item": "pokedex"
             }
         ],
         "map_locations": [
@@ -4103,7 +4143,7 @@
                 "access_rules": [
                     "@solaceon_ruins_room_7"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": [""],
                 "item_count": 1
             },
             {
@@ -5215,7 +5255,7 @@
                 "access_rules": [
                     "@eterna_forest_outside"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": [""],
                 "item_count": 1
             },
             {
@@ -5999,7 +6039,7 @@
                 "access_rules": [
                     "@veilstone_store_1f"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_accessories_on"],
                 "item_count": 1
             },
             {
@@ -6007,7 +6047,7 @@
                 "access_rules": [
                     "@veilstone_city_southwest_house"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_accessories_on"],
                 "item_count": 1
             }
         ],
@@ -6372,8 +6412,16 @@
                 "access_rules": [
                     "@veilstone_city_galactic_warehouse"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_hms_on"],
                 "item_count": 1
+            },
+            {
+                "name": "HM02 with Looker​",
+                "access_rules": [
+                    "@veilstone_city_galactic_warehouse"
+                ],
+                "visibility_rules": ["opt_hms_off"],
+                "hosted_item": "hm02fly"
             }
         ],
         "map_locations": [
@@ -6657,7 +6705,7 @@
                 "access_rules": [
                     "@route_206_cycling_road_south_gate"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": [""],
                 "item_count": 1
             }
         ],
@@ -6800,8 +6848,8 @@
             },
             {
                 "name": "Hidden Item Above Rock Climb Slope",
-                "access_rules": [],
-                "visibility_rules": [],
+                "access_rules": [""],
+                "visibility_rules": [""],
                 "item_count": 1
             },
             {
@@ -7095,8 +7143,16 @@
                 "access_rules": [
                     "@route_217"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_hms_on"],
                 "item_count": 1
+            },
+            {
+                "name": "HM08 Above Hikers House​",
+                "access_rules": [
+                    "@route_217"
+                ],
+                "visibility_rules": ["opt_hms_off"],
+                "hosted_item": "hm08rockclimb"
             },
             {
                 "name": "Item Southeast of Hikers House",
@@ -7913,7 +7969,7 @@
                 "access_rules": [
                     "@oreburgh_gate_b1f"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": [""],
                 "item_count": 1
             },
             {
@@ -7931,8 +7987,16 @@
                 "access_rules": [
                     "@oreburgh_gate_1f"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_hms_on"],
                 "item_count": 1
+            },
+            {
+                "name": "HM06 from Hiker​",
+                "access_rules": [
+                    "@oreburgh_gate_1f"
+                ],
+                "visibility_rules": ["opt_hms_off"],
+                "hosted_item": "hm06rocksmash"
             }
         ],
         "map_locations": [
@@ -8007,8 +8071,16 @@
                 "access_rules": [
                     "@fight_area, national_dex"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_rods_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Super Rod from Fisherman",
+                "access_rules": [
+                    "@fight_area, national_dex"
+                ],
+                "visibility_rules": ["opt_rods_off"],
+                "hosted_item": "superrod"
             },
             {
                 "name": "Gift from Woman in Poke Mart",
@@ -8073,16 +8145,32 @@
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_pokedex_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Lab - Pokedex from Prof Rowan​",
+                "access_rules": [
+                    "@sandgem_town_pokemon_research_lab"
+                ],
+                "visibility_rules": ["opt_pokedex_off"],
+                "hosted_item": "pokedex"
             },
             {
                 "name": "Lab - National Pokedex from Prof Oak",
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab, pokedex, $regional_monsTODO"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["opt_pokedex_on"],
                 "item_count": 1
+            },
+            {
+                "name": "Lab - National Pokedex from Prof Oak​",
+                "access_rules": [
+                    "@sandgem_town_pokemon_research_lab, pokedex, $regional_monsTODO"
+                ],
+                "visibility_rules": ["opt_pokedex_off"],
+                "hosted_item": "pokedex"
             },
             {
                 "name": "Lab - Poke Radar from Rowan",
