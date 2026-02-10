@@ -394,13 +394,13 @@
             {
                 "name": "Fog & Darkness need to be traversed without help",
                 "img": "images/settings/opt_hm_visibility.png",
+                "img_mods": "@disabled",
                 "codes": "opt_hm_visibility, opt_hm_visibility_off",
                 "inherit_codes": false
             },
             {
                 "name": "Fog & Darkness logically require Defog and Flash",
                 "img": "images/settings/opt_hm_visibility.png",
-                "img_mods": "@disabled",
                 "codes": "opt_hm_visibility, opt_hm_visibility_on",
                 "inherit_codes": false
             }
