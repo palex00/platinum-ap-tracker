@@ -1700,10 +1700,10 @@
             {
                 "name": "Lake - Defeat Mars (Event)",
                 "access_rules": [
-                    ""
+                    "@lake_verity"
                 ],
                 "visibility_rules": [
-                    "@lake_verity"
+                    ""
                 ],
                 "hosted_item": "event_clear_lakeverity"
             }
