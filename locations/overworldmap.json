@@ -5500,7 +5500,7 @@
             {
                 "name": "Gym - Defeat Byron (Event)",
                 "access_rules": [
-                    ""
+                    "@canalave_city_gym"
                 ],
                 "visibility_rules": [
                     ""
@@ -5540,7 +5540,7 @@
             {
                 "name": "Library - Witness the Explosion (Event)",
                 "access_rules": [
-                    ""
+                    "@canalave_library_3f, hm04strength, event_defeat_byron"
                 ],
                 "visibility_rules": [
                     ""
