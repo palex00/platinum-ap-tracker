@@ -1,0 +1,134 @@
+{
+    "key_items_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "coalbadge",
+                                "forestbadge",
+                                "cobblebadge",
+                                "fenbadge",
+                                "relicbadge",
+                                "minebadge",
+                                "iciclebadge",
+                                "beaconbadge",
+                                "bag"
+                            ],
+                            [
+                                "hm01cut",
+                                "hm02fly",
+                                "hm03surf",
+                                "hm04strength",
+                                "hm05defog",
+                                "hm06rocksmash",
+                                "hm07waterfall",
+                                "hm08rockclimb",
+                                "tm70flash"
+                            ],
+                            [
+                                "parcel",
+                                "coupons",
+                                "workskey",
+                                "secretpotion",
+                                "oldcharm",
+                                "galactickey",
+                                "suitekey",
+                                "ssticket"
+                            ],
+                            [
+                                "pokedex",
+                                "bicycle",
+                                "poketch",
+                                "dowsingmachine",
+                                "oldrod",
+                                "goodrod",
+                                "superrod"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "v_key_items_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "coalbadge",
+                                "forestbadge",
+                                "cobblebadge",
+                                "fenbadge",
+                                "relicbadge",
+                                "minebadge",
+                                "iciclebadge",
+                                "beaconbadge",
+                                "bag"
+                            ],
+                            [
+                                "hm01cut",
+                                "hm02fly",
+                                "hm03surf",
+                                "hm04strength",
+                                "hm05defog",
+                                "hm06rocksmash",
+                                "hm07waterfall",
+                                "hm08rockclimb",
+                                "tm70flash"
+                            ],
+                            [
+                                "parcel",
+                                "coupons",
+                                "workskey",
+                                "secretpotion",
+                                "oldcharm",
+                                "galactickey",
+                                "suitekey",
+                                "ssticket"
+                            ],
+                            [
+                                "pokedex",
+                                "bicycle",
+                                "poketch",
+                                "dowsingmachine",
+                                "oldrod",
+                                "goodrod",
+                                "superrod"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

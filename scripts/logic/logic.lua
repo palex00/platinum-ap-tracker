@@ -1,39 +1,63 @@
 function cut()
+    if not has("bag") then
+        return false
+    end
     return has("free_cut")
     or (has("hm01cut") and has("forestbadge"))
 end
 
 function fly()
+    if not has("bag") then
+        return false
+    end
     return has("free_fly")
     or (has("hm02fly") and has("cobblebadge"))
 end
 
 function surf()
+    if not has("bag") then
+        return false
+    end
     return has("free_surf")
     or (has("hm03surf") and has("fenbadge"))
 end
 
 function strength()
+    if not has("bag") then
+        return false
+    end
     return has("free_strength")
     or (has("hm04strength") and has("minebadge"))
 end
 
 function defog()
+    if not has("bag") then
+        return false
+    end
     return has("free_defog")
     or (has("hm05defog") and has("relicbadge"))
 end
 
 function rock_smash()
+    if not has("bag") then
+        return false
+    end
     return has("free_rocksmash")
     or (has("hm06rocksmash") and has("coalbadge"))
 end
 
 function waterfall()
+    if not has("bag") then
+        return false
+    end
     return has("free_waterfall")
     or (has("hm07waterfall") and has("beaconbadge"))
 end
 
 function rock_climb()
+    if not has("bag") then
+        return false
+    end
     return has("free_rockclimb")
     or (has("hm08rockclimb") and has("iciclebadge"))
 end
@@ -86,7 +110,7 @@ function early_sunyshore()
     if has("opt_early_sunyshore_on") then
         return AccessibilityLevel.Normal
     else
-        return math.max(has_level("event_clear_distortion") and Tracker:FindObjectForCode("event_clear_distortion").AccessibilityLevel)
+        return math.max(has_level("event_clear_distortion") and Tracker:FindObjectForCode("@event_clear_distortion").AccessibilityLevel)
     end
 end
 
