@@ -634,6 +634,16 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Champion's Room - Defeat Cynthia (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_cynthia"
             }
         ],
         "map_locations": [
@@ -1582,6 +1592,16 @@
                     "opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Lake - Defeat Mars (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_clear_lakeverity"
             }
         ],
         "map_locations": [
@@ -1621,6 +1641,16 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Defeat Crasher Wake (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_wake"
             },
             {
                 "name": "Gym - Fen Badge from Crasher Wake",
@@ -3031,6 +3061,16 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Defeat Fantina (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_fantina"
             },
             {
                 "name": "Gym - Relic Badge From Fantina",
@@ -4730,7 +4770,17 @@
                     "opt_overworld_on"
                 ],
                 "item_count": 1
-            }
+            },
+            {
+                "name": "Defeat Saturn (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_clear_lakevalor"
+            },
         ],
         "map_locations": [
             {
@@ -4888,6 +4938,16 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Defeat Volkner (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_volkner"
             },
             {
                 "name": "Gym - Beacon Badge from Volkner",
@@ -5166,6 +5226,16 @@
                 "item_count": 1
             },
             {
+                "name": "Gym - Defeat Byron (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_byron"
+            },
+            {
                 "name": "Gym - Mine Badge from Byron",
                 "access_rules": [
                     "@canalave_city_gym"
@@ -5194,6 +5264,16 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Library - Witness the Explosion (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_learn_of_lake_explosion"
             },
             {
                 "name": "Gift in First House",
@@ -5342,6 +5422,16 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Defeat Team Galactic (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_clear_windworks"
             }
         ],
         "map_locations": [
@@ -5800,6 +5890,16 @@
                 "item_count": 1
             },
             {
+                "name": "Galactic Building 4F - Defeat Team Galactic (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_clear_eternahideout"
+            },
+            {
                 "name": "Galactic Building 4F - Item By Jupiter",
                 "access_rules": [
                     "@team_galactic_eterna_building_4f"
@@ -5808,6 +5908,16 @@
                     "opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Defeat Gardenia (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_gardenia"
             },
             {
                 "name": "Gym - Forest Badge From Gardenia",
@@ -6173,6 +6283,16 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Defeat Maylene (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_maylene"
             },
             {
                 "name": "Gym - Cobble Badge from Maylene",
@@ -6789,6 +6909,16 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Defeat Cyrus (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_galactic_hq_defeat_cyrus"
             },
             {
                 "name": "Master Ball from Cyrus",
@@ -7550,6 +7680,16 @@
                     "opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Lake - Watch Jupiter defeat your rival (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_clear_lakeacuity"
             }
         ],
         "map_locations": [
@@ -7589,6 +7729,16 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Defeat Candice (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_candice"
             },
             {
                 "name": "Gym - Icicle Badge from Candice",
@@ -8066,6 +8216,16 @@
                 "item_count": 1
             },
             {
+                "name": "Gym - Defeat Roark (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_roark"
+            },
+            {
                 "name": "Gym - Coal Badge From Roark",
                 "access_rules": [
                     "@oreburgh_city_gym"
@@ -8509,6 +8669,16 @@
             " "
         ],
         "sections": [
+            {
+                "name": "Meet Oak (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_met_oak_at_palpark"
+            },
             {
                 "name": "Trainer Counter App from Prof Oak",
                 "access_rules": [
@@ -9116,6 +9286,16 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Spear Pillar - Clear the Distortion World (Event)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_clear_distortion"
             }
         ],
         "map_locations": [
