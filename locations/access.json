@@ -567,7 +567,7 @@
         "name": "galactic_hq_wo_key",
         "access_rules": [
             "@veilstone_city_galactic_warehouse, event_clear_lakeacuity",
-            "@veilstone_city_galactic_warehouse, storage_key"
+            "@veilstone_city_galactic_warehouse, storagekey"
         ]
     },
     {
@@ -1942,7 +1942,7 @@
             "@eterna_forest",
             "@eterna_forest_outside",
             "@floaroma_meadow",
-            "@floaroma_town, works_key",
+            "@floaroma_town, workskey",
             "@floaroma_town, $surf",
             "@fuego_ironworks_outside",
             "@route_205_house"
@@ -2833,6 +2833,12 @@
         ]
     },
     {
+        "name": "distortion_world",
+        "access_rules": [
+            "@spear_pillar"
+        ]
+    },
+    {
         "name": "spring_path",
         "access_rules": [
             "@route_214, event_clear_distortion",
@@ -3148,7 +3154,7 @@
     {
         "name": "valley_windworks_building",
         "access_rules": [
-            "@valley_windworks_outside, works_key"
+            "@valley_windworks_outside, workskey"
         ]
     },
     {
@@ -3200,7 +3206,7 @@
         "name": "veilstone_city_galactic_warehouse",
         "access_rules": [
             "@galactic_hq_wo_key, event_clear_lakeacuity",
-            "@galactic_hq_wo_key, storage_key",
+            "@galactic_hq_wo_key, storagekey",
             "@veilstone_city"
         ]
     },

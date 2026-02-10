@@ -684,7 +684,7 @@
             {
                 "name": "Champion's Room - Defeat Cynthia (Event)",
                 "access_rules": [
-                    ""
+                    "@pokemon_league_hall_of_fame"
                 ],
                 "visibility_rules": [
                     ""
@@ -1703,7 +1703,7 @@
                     ""
                 ],
                 "visibility_rules": [
-                    ""
+                    "@lake_verity"
                 ],
                 "hosted_item": "event_clear_lakeverity"
             }
@@ -1751,7 +1751,7 @@
             {
                 "name": "Gym - Defeat Crasher Wake (Event)",
                 "access_rules": [
-                    ""
+                    "@pastoria_city_gym"
                 ],
                 "visibility_rules": [
                     ""
@@ -3267,7 +3267,7 @@
             {
                 "name": "Gym - Defeat Fantina (Event)",
                 "access_rules": [
-                    ""
+                    "@hearthome_city_gym_leader_room"
                 ],
                 "visibility_rules": [
                     ""
@@ -5030,7 +5030,7 @@
             {
                 "name": "Defeat Saturn (Event)",
                 "access_rules": [
-                    ""
+                    "@lake_valor_drained"
                 ],
                 "visibility_rules": [
                     ""
@@ -5208,7 +5208,7 @@
             {
                 "name": "Gym - Defeat Volkner (Event)",
                 "access_rules": [
-                    ""
+                    "@sunyshore_city_gym_room_3"
                 ],
                 "visibility_rules": [
                     ""
@@ -5702,7 +5702,7 @@
             {
                 "name": "Defeat Team Galactic (Event)",
                 "access_rules": [
-                    ""
+                    "@valley_windworks_building"
                 ],
                 "visibility_rules": [
                     ""
@@ -6184,7 +6184,7 @@
             {
                 "name": "Galactic Building 4F - Defeat Team Galactic (Event)",
                 "access_rules": [
-                    ""
+                    "@team_galactic_eterna_building_4f"
                 ],
                 "visibility_rules": [
                     ""
@@ -6204,7 +6204,7 @@
             {
                 "name": "Gym - Defeat Gardenia (Event)",
                 "access_rules": [
-                    ""
+                    "@eterna_city_gym"
                 ],
                 "visibility_rules": [
                     ""
@@ -6593,7 +6593,7 @@
             {
                 "name": "Gym - Defeat Maylene (Event)",
                 "access_rules": [
-                    ""
+                    "@veilstone_city_gym"
                 ],
                 "visibility_rules": [
                     ""
@@ -7255,7 +7255,7 @@
             {
                 "name": "Defeat Cyrus (Event)",
                 "access_rules": [
-                    ""
+                    "@galactic_hq_w_key"
                 ],
                 "visibility_rules": [
                     ""
@@ -8066,7 +8066,7 @@
             {
                 "name": "Lake - Watch Jupiter defeat your rival (Event)",
                 "access_rules": [
-                    ""
+                    "@lake_acuity"
                 ],
                 "visibility_rules": [
                     ""
@@ -8117,7 +8117,7 @@
             {
                 "name": "Gym - Defeat Candice (Event)",
                 "access_rules": [
-                    ""
+                    "@snowpoint_city_gym"
                 ],
                 "visibility_rules": [
                     ""
@@ -8618,7 +8618,7 @@
             {
                 "name": "Gym - Defeat Roark (Event)",
                 "access_rules": [
-                    ""
+                    "@oreburgh_city_gym"
                 ],
                 "visibility_rules": [
                     ""
@@ -9082,7 +9082,7 @@
             {
                 "name": "Meet Oak (Event)",
                 "access_rules": [
-                    ""
+                    "@pal_park_lobby"
                 ],
                 "visibility_rules": [
                     ""
@@ -9774,7 +9774,7 @@
             {
                 "name": "Spear Pillar - Clear the Distortion World (Event)",
                 "access_rules": [
-                    ""
+					"@distortion_world"
                 ],
                 "visibility_rules": [
                     ""
