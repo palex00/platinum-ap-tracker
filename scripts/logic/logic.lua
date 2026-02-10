@@ -110,7 +110,7 @@ function early_sunyshore()
     if has("opt_early_sunyshore_on") then
         return AccessibilityLevel.Normal
     else
-        return math.max(has_level("event_clear_distortion") and Tracker:FindObjectForCode("@event_clear_distortion").AccessibilityLevel)
+        return has_level("event_clear_distortion") and Tracker:FindObjectForCode("@event_clear_distortion").AccessibilityLevel
     end
 end
 
