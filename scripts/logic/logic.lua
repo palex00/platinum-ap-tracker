@@ -63,7 +63,7 @@ function rock_climb()
 end
 
 function hidden()
-    if has("opt_dowsing_off") or has("dowsingmachine") then
+    if has("opt_dowsing_off") or (has("dowsingmachine") and has("poketch")) then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.SequenceBreak
