@@ -1243,7 +1243,7 @@
         "name": "mt_coronet_b1f",
         "access_rules": [
             "@mt_coronet_1f_north_room_1_top, ^$north_sinnoh_fly, ^$soft_defog",
-            "@mt_coronet_1f_north_room_2, ^$defog"
+            "@mt_coronet_1f_north_room_2, ^$soft_defog"
         ]
     },
     {
@@ -2054,7 +2054,7 @@
     {
         "name": "route_209_lost_tower_3f",
         "access_rules": [
-            "@route_209_lost_tower_2f, ^$defog",
+            "@route_209_lost_tower_2f, ^$soft_defog",
             "@route_209_lost_tower_4f"
         ]
     },
@@ -2080,9 +2080,9 @@
     {
         "name": "route_210_north",
         "access_rules": [
-            "@celestic_town, ^$defog",
+            "@celestic_town, ^$soft_defog",
             "@route_210_grandma_wilma_house",
-            "@route_210_south_upper, ^$defog"
+            "@route_210_south_upper, ^$soft_defog"
         ]
     },
     {
@@ -3071,7 +3071,7 @@
     {
         "name": "turnback_cave_entrance",
         "access_rules": [
-            "@sendoff_spring, ^$defog"
+            "@sendoff_spring, ^$soft_defog"
         ]
     },
     {
