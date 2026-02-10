@@ -270,21 +270,21 @@
         ]
     },
     {
-        "name": "Randomize S.S. Ticket",
+        "name": "Add S.S. Ticket",
         "type": "progressive",
         "initial_stage_idx": 1,
         "loop": true,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Randomize S.S. Ticket - OFF",
+                "name": "Add S.S. Ticket - OFF",
                 "img": "images/settings/opt_ssticket.png",
                 "img_mods": "@disabled",
                 "codes": "opt_ssticket, opt_ssticket_off",
                 "inherit_codes": false
             },
             {
-                "name": "Randomize S.S. Ticket - ON",
+                "name": "Add S.S. Ticket - ON",
                 "img": "images/settings/opt_ssticket.png",
                 "codes": "opt_ssticket, opt_ssticket_on",
                 "inherit_codes": false

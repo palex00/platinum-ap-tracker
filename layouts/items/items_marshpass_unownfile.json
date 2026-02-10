@@ -12,7 +12,7 @@
                     {
                         "type": "itemgrid",
                         "item_margin": "2, 2",
-                        "h_alignment": "left",
+                        "h_alignment": "center",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
                         "item_height": 32,
@@ -24,10 +24,10 @@
                                 "cobblebadge",
                                 "fenbadge",
                                 "relicbadge",
-								"minebadge",
+                                "minebadge",
                                 "iciclebadge",
                                 "beaconbadge",
-								"bag"
+                                "bag"
                             ],
                             [
                                 "hm01cut",
@@ -37,26 +37,24 @@
                                 "hm05defog",
                                 "hm06rocksmash",
                                 "hm07waterfall",
-								"hm08rockclimb",
-								"tm70flash"
+                                "hm08rockclimb",
+                                "tm70flash"
                             ],
                             [
                                 "parcel",
                                 "coupons",
-								"workskey",
+                                "workskey",
                                 "secretpotion",
                                 "oldcharm",
-                                "storagekey",
                                 "galactickey",
-								"suitekey",
-                                "ssticket"
+                                "suitekey"
                             ],
                             [
                                 "pokedex",
-								"bicycle",
+                                "bicycle",
                                 "poketch",
                                 "dowsingmachine",
-								"marshpass",
+                                "marshpass",
                                 "oldrod",
                                 "goodrod",
                                 "superrod",
@@ -81,7 +79,7 @@
                     {
                         "type": "itemgrid",
                         "item_margin": "2, 2",
-                        "h_alignment": "left",
+                        "h_alignment": "center",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
                         "item_height": 32,
@@ -93,10 +91,10 @@
                                 "cobblebadge",
                                 "fenbadge",
                                 "relicbadge",
-								"minebadge",
+                                "minebadge",
                                 "iciclebadge",
                                 "beaconbadge",
-								"bag"
+                                "bag"
                             ],
                             [
                                 "hm01cut",
@@ -106,26 +104,24 @@
                                 "hm05defog",
                                 "hm06rocksmash",
                                 "hm07waterfall",
-								"hm08rockclimb",
-								"tm70flash"
+                                "hm08rockclimb",
+                                "tm70flash"
                             ],
                             [
                                 "parcel",
                                 "coupons",
-								"workskey",
+                                "workskey",
                                 "secretpotion",
                                 "oldcharm",
-                                "storagekey",
                                 "galactickey",
-								"suitekey",
-                                "ssticket"
+                                "suitekey"
                             ],
                             [
                                 "pokedex",
-								"bicycle",
+                                "bicycle",
                                 "poketch",
                                 "dowsingmachine",
-								"marshpass",
+                                "marshpass",
                                 "oldrod",
                                 "goodrod",
                                 "superrod",

@@ -15,7 +15,7 @@ Tracker:AddMaps("maps/maps.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/settings_popup.json")
-Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/items/items_ssticket_marshpass_storagekey_unownfile.json")
 Tracker:AddLayouts("layouts/events.json")
 Tracker:AddLayouts("layouts/tabs_single.json")
 Tracker:AddLayouts("layouts/tracker.json")
@@ -29,4 +29,5 @@ Tracker:AddLocations("locations/submaps_groups.json")
 
 -- AutoTracking for Poptracker
 require("scripts/autotracking/archipelago")
+require("scripts/toggles")
 require("scripts/watches")
