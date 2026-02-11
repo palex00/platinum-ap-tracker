@@ -8428,7 +8428,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@route_207_right, ^$hidden"
+                    "@wayward_cave_1f, $rock_smash, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
