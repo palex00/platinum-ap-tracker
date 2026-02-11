@@ -134,7 +134,7 @@ function unowns()
     if has("opt_unown_none") then
         return true
     elseif has("opt_unown_item") then
-        return has("unownfile", 28)
+        return has("unownfile", 26)
     elseif has("opt_unown_vanilla") then
         return true
     end
