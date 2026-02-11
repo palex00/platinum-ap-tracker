@@ -118,3 +118,18 @@ function dump_table(o, depth)
         return tostring(o)
     end
 end
+
+function debug()
+    local count = 0
+
+    for _, locationTable in pairs(LOCATION_MAPPING) do
+        for _, locationCode in ipairs(locationTable) do
+            local obj = Tracker:FindObjectForCode(locationCode)
+            if obj and obj.AccessibilityLevel == 6 then
+                count = count + 1
+            end
+        end
+    end
+
+    print(count)
+end
