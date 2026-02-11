@@ -3916,7 +3916,7 @@
             {
                 "name": "Pokemon History App from Ruin Maniac",
                 "access_rules": [
-                    "@solaceon_town, pokedex, $regional_mons|50"
+                    "@solaceon_town, $regional_mons|50"
                 ],
                 "visibility_rules": [
                     "opt_poketchapps_on"
@@ -7397,7 +7397,7 @@
             {
                 "name": "North Gate - Reward For 35 Pokemon Seen",
                 "access_rules": [
-                    "@route_206_cycling_road_north_gate, pokedex, $mons|35"
+                    "@route_206_cycling_road_north_gate, $mons|35"
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
@@ -9037,7 +9037,7 @@
             {
                 "name": "Lab - National Pokedex from Prof Oak",
                 "access_rules": [
-                    "@sandgem_town_pokemon_research_lab, pokedex, $regional_monsTODO"
+                    "@sandgem_town_pokemon_research_lab, $regional_monsTODO"
                 ],
                 "visibility_rules": [
                     "opt_pokedex_on"
@@ -9047,7 +9047,7 @@
             {
                 "name": "Lab - National Pokedex from Prof Oak​",
                 "access_rules": [
-                    "@sandgem_town_pokemon_research_lab, pokedex, $regional_monsTODO"
+                    "@sandgem_town_pokemon_research_lab, $regional_monsTODO"
                 ],
                 "visibility_rules": [
                     "opt_pokedex_off"
@@ -9057,7 +9057,7 @@
             {
                 "name": "Lab - Poke Radar from Rowan",
                 "access_rules": [
-                    "@sandgem_town_pokemon_research_lab, pokedex, $regional_monsTODO"
+                    "@sandgem_town_pokemon_research_lab, $regional_monsTODO"
                 ],
                 "visibility_rules": [
                     "opt_keyitems_on"
