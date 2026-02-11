@@ -9482,7 +9482,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "^$hidden, $rock_smash"
+                    "^$hidden, $rock_smash, $doesnotexist"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
