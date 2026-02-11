@@ -7353,26 +7353,6 @@
         ],
         "sections": [
             {
-                "name": "Item Behind Cut Tree Before Wooden Bridge",
-                "access_rules": [
-                    "@route_206_upper"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item Under Split Cycling Road Section",
-                "access_rules": [
-                    "@route_206_upper"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Item Against East Wall",
                 "access_rules": [
                     "@route_206_upper"
@@ -7383,14 +7363,12 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item Near Honey Tree",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "name": "Item Above Berry Patch",
                 "access_rules": [
-                    "^$hidden, @route_206_upper"
+                    "@route_206_upper"
                 ],
                 "visibility_rules": [
-                    "opt_hidden_on"
+                    "opt_overworld_on"
                 ],
                 "item_count": 1
             },
@@ -7415,16 +7393,6 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
-            },
-            {
-                "name": "South Gate Gift Item",
-                "access_rules": [
-                    "@route_206_cycling_road_south_gate"
-                ],
-                "visibility_rules": [
-                    "opt_accessories_on"
-                ],
-                "item_count": 1
             }
         ],
         "map_locations": [
@@ -7446,12 +7414,44 @@
         ],
         "sections": [
             {
-                "name": "Item Above Berry Patch",
+                "name": "Item Behind Cut Tree Before Wooden Bridge",
                 "access_rules": [
                     "@route_206_upper"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Item Under Split Cycling Road Section",
+                "access_rules": [
+                    "@route_206_upper"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item Near Honey Tree",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @route_206_upper"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "South Gate Gift Item",
+                "access_rules": [
+                    "@route_206_cycling_road_south_gate"
+                ],
+                "visibility_rules": [
+                    "opt_accessories_on"
                 ],
                 "item_count": 1
             }
