@@ -1936,7 +1936,7 @@
             "@eterna_forest",
             "@eterna_forest_outside",
             "@floaroma_meadow",
-            "@floaroma_town, workskey",
+            "@floaroma_town, event_clear_windworks, @valley_windworks_building",
             "@floaroma_town, $surf",
             "@fuego_ironworks_outside",
             "@route_205_house"

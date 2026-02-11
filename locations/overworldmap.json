@@ -3606,6 +3606,16 @@
                 "item_count": 1
             },
             {
+                "name": "Poketch from CEO​",
+                "access_rules": [
+                    "@jubilife_city, $poketch_req"
+                ],
+                "visibility_rules": [
+                    "opt_poketchapps_off"
+                ],
+                "hosted_item": "poketch"
+            },
+            {
                 "name": "Calculator App from CEO",
                 "access_rules": [
                     "@jubilife_city, $poketch_req"
@@ -7602,7 +7612,7 @@
                 "visibility_rules": [
                     "opt_poketchapps_off"
                 ],
-                "hosted_item": "dowsing_machine"
+                "hosted_item": "dowsingmachine"
             },
             {
                 "name": "First Gift from Dawn or Lucas",
