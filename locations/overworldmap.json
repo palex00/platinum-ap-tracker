@@ -1434,7 +1434,7 @@
                 "item_count": 1
             },
             {
-                "name": "Cave - HM03 from Cynthias Grandmother\u200b",
+                "name": "Cave - HM03 from Cynthias Grandmother​",
                 "access_rules": [
                     "@celestic_town_cave, oldcharm"
                 ],
@@ -1769,7 +1769,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Fen Badge from Crasher Wake\u200b",
+                "name": "Gym - Fen Badge from Crasher Wake​",
                 "access_rules": [
                     "@pastoria_city_gym"
                 ],
@@ -2062,7 +2062,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM04 from Riley\u200b",
+                "name": "HM04 from Riley​",
                 "access_rules": [
                     "@iron_island"
                 ],
@@ -3285,7 +3285,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Relic Badge From Fantina\u200b",
+                "name": "Gym - Relic Badge From Fantina​",
                 "access_rules": [
                     "@hearthome_city_gym_leader_room"
                 ],
@@ -3496,7 +3496,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gate to Route 218 - Old Rod from Fisherman\u200b",
+                "name": "Gate to Route 218 - Old Rod from Fisherman​",
                 "access_rules": [
                     "@route_218_gate_to_jubilife_city"
                 ],
@@ -3648,7 +3648,7 @@
             {
                 "name": "Fashion Case from Overalls Man After Grunts Battle After Oreburgh Gym",
                 "access_rules": [
-                    "@jubilife_city, event_defeat_roark"
+                    "@jubilife_city, event_defeat_roark, @oreburgh_city_gym"
                 ],
                 "visibility_rules": [
                     "opt_keyitems_on"
@@ -3843,7 +3843,7 @@
                 "item_count": 1
             },
             {
-                "name": "Good Rod from Fisherman\u200b",
+                "name": "Good Rod from Fisherman​",
                 "access_rules": [
                     "@route_209"
                 ],
@@ -4426,7 +4426,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father\u200b",
+                "name": "Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father​",
                 "access_rules": [
                     "@route_218_gate_to_canalave_city"
                 ],
@@ -5125,7 +5125,7 @@
             {
                 "name": "Secret Potion from Cynthia",
                 "access_rules": [
-                    "@valor_lakefront, event_defeat_wake"
+                    "@valor_lakefront, event_defeat_wake, @pastoria_city_gym"
                 ],
                 "visibility_rules": [
                     "opt_keyitems_on"
@@ -5135,7 +5135,7 @@
             {
                 "name": "Secret Potion from Cynthia​",
                 "access_rules": [
-                    "@valor_lakefront, event_defeat_wake"
+                    "@valor_lakefront, event_defeat_wake, @pastoria_city_gym"
                 ],
                 "visibility_rules": [
                     "opt_keyitems_off"
@@ -5226,7 +5226,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Beacon Badge from Volkner\u200b",
+                "name": "Gym - Beacon Badge from Volkner​",
                 "access_rules": [
                     "@sunyshore_city_gym_room_3"
                 ],
@@ -5248,7 +5248,7 @@
             {
                 "name": "HM07 from Jasmine",
                 "access_rules": [
-                    "@sunyshore_city, event_defeat_volkner"
+                    "@sunyshore_city, event_defeat_volkner, @sunyshore_city_gym_room_3"
                 ],
                 "visibility_rules": [
                     "opt_hms_on"
@@ -5256,9 +5256,9 @@
                 "item_count": 1
             },
             {
-                "name": "HM07 from Jasmine\u200b",
+                "name": "HM07 from Jasmine​",
                 "access_rules": [
-                    "@sunyshore_city, event_defeat_volkner"
+                    "@sunyshore_city, event_defeat_volkner, @sunyshore_city_gym_room_3"
                 ],
                 "visibility_rules": [
                     "opt_hms_off"
@@ -5518,7 +5518,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Mine Badge from Byron\u200b",
+                "name": "Gym - Mine Badge from Byron​",
                 "access_rules": [
                     "@canalave_city_gym"
                 ],
@@ -5540,7 +5540,7 @@
             {
                 "name": "Library - Witness the Explosion (Event)",
                 "access_rules": [
-                    "@canalave_library_3f, hm04strength, event_defeat_byron"
+                    "@canalave_library_3f, hm04strength, event_defeat_byron, @canalave_city_gym"
                 ],
                 "visibility_rules": [
                     ""
@@ -6222,7 +6222,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Forest Badge From Gardenia\u200b",
+                "name": "Gym - Forest Badge From Gardenia​",
                 "access_rules": [
                     "@eterna_city_gym"
                 ],
@@ -6252,7 +6252,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM01 from Cynthia\u200b",
+                "name": "HM01 from Cynthia​",
                 "access_rules": [
                     "@eterna_city"
                 ],
@@ -6264,7 +6264,7 @@
             {
                 "name": "Bike from Rad Rickshaw",
                 "access_rules": [
-                    "@cycle_shop, event_clear_eternahideout"
+                    "@cycle_shop, event_clear_eternahideout, @team_galactic_eterna_building_4f"
                 ],
                 "visibility_rules": [
                     "opt_bicycle_on"
@@ -6272,9 +6272,9 @@
                 "item_count": 1
             },
             {
-                "name": "Bike from Rad Rickshaw\u200b",
+                "name": "Bike from Rad Rickshaw​",
                 "access_rules": [
-                    "@cycle_shop, event_clear_eternahideout"
+                    "@cycle_shop, event_clear_eternahideout, @team_galactic_eterna_building_4f"
                 ],
                 "visibility_rules": [
                     "opt_bicycle_off"
@@ -6304,7 +6304,7 @@
             {
                 "name": "Up-Grade from Prof Oak",
                 "access_rules": [
-                    "@eterna_city_south_house, event_met_oak_at_palpark"
+                    "@eterna_city_south_house, event_met_oak_at_palpark, @pal_park_lobby"
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
@@ -6611,7 +6611,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Cobble Badge from Maylene\u200b",
+                "name": "Gym - Cobble Badge from Maylene​",
                 "access_rules": [
                     "@veilstone_city_gym"
                 ],
@@ -7102,7 +7102,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM02 with Looker\u200b",
+                "name": "HM02 with Looker​",
                 "access_rules": [
                     "@veilstone_city_galactic_warehouse"
                 ],
@@ -7905,7 +7905,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM08 Above Hikers House\u200b",
+                "name": "HM08 Above Hikers House​",
                 "access_rules": [
                     "@route_217"
                 ],
@@ -8135,7 +8135,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Icicle Badge from Candice\u200b",
+                "name": "Gym - Icicle Badge from Candice​",
                 "access_rules": [
                     "@snowpoint_city_gym"
                 ],
@@ -8636,7 +8636,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Coal Badge From Roark\u200b",
+                "name": "Gym - Coal Badge From Roark​",
                 "access_rules": [
                     "@oreburgh_city_gym"
                 ],
@@ -8835,7 +8835,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM06 from Hiker\u200b",
+                "name": "HM06 from Hiker​",
                 "access_rules": [
                     "@oreburgh_gate_1f"
                 ],
@@ -9011,7 +9011,7 @@
                 "item_count": 1
             },
             {
-                "name": "Lab - Pokedex from Prof Rowan\u200b",
+                "name": "Lab - Pokedex from Prof Rowan​",
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab"
                 ],
@@ -9031,7 +9031,7 @@
                 "item_count": 1
             },
             {
-                "name": "Lab - National Pokedex from Prof Oak\u200b",
+                "name": "Lab - National Pokedex from Prof Oak​",
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab, pokedex, $regional_monsTODO"
                 ],
@@ -9212,7 +9212,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "^$hidden, @mt_coronet_2f_left, event_galactic_hq_defeat_cyrus"
+                    "^$hidden, @mt_coronet_2f_left, event_galactic_hq_defeat_cyrus, @galactic_hq_w_key"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -9234,7 +9234,7 @@
             {
                 "name": "2F - Gift from Looker",
                 "access_rules": [
-                    "@mt_coronet_2f_left, event_galactic_hq_defeat_cyrus"
+                    "@mt_coronet_2f_left, event_galactic_hq_defeat_cyrus, @galactic_hq_w_key"
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
@@ -9774,7 +9774,7 @@
             {
                 "name": "Spear Pillar - Clear the Distortion World (Event)",
                 "access_rules": [
-					"@distortion_world"
+                    "@distortion_world"
                 ],
                 "visibility_rules": [
                     ""
