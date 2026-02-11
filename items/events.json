@@ -4,125 +4,125 @@
         "type": "toggle",
         "img": "/images/events/event_defeat_wake.png",
         "img_mods": "",
-        "codes": "event_defeat_wake"
+        "initial_active_state": true, "codes": "event_defeat_wake"
     },
     {
         "name": "Meet Oak at Pal Park",
         "type": "toggle",
         "img": "/images/events/event_met_oak_at_palpark.png",
         "img_mods": "",
-        "codes": "event_met_oak_at_palpark"
+        "initial_active_state": true, "codes": "event_met_oak_at_palpark"
     },
     {
         "name": "Defeat Mars at Lake Verity",
         "type": "toggle",
         "img": "/images/events/event_clear_lakeverity.png",
         "img_mods": "",
-        "codes": "event_clear_lakeverity"
+        "initial_active_state": true, "codes": "event_clear_lakeverity"
     },
     {
         "name": "Witness the Explosion in Canalave Library",
         "type": "toggle",
         "img": "/images/events/event_learn_of_lake_explosion.png",
         "img_mods": "",
-        "codes": "event_learn_of_lake_explosion"
+        "initial_active_state": true, "codes": "event_learn_of_lake_explosion"
     },
     {
         "name": "Defeat Gardenia",
         "type": "toggle",
         "img": "/images/events/event_defeat_gardenia.png",
         "img_mods": "",
-        "codes": "event_defeat_gardenia"
+        "initial_active_state": true, "codes": "event_defeat_gardenia"
     },
     {
         "name": "Defeat Maylene",
         "type": "toggle",
         "img": "/images/events/event_defeat_maylene.png",
         "img_mods": "",
-        "codes": "event_defeat_maylene"
+        "initial_active_state": true, "codes": "event_defeat_maylene"
     },
     {
         "name": "Defeat Cyrus at Galactic HQ",
         "type": "toggle",
         "img": "/images/events/event_galactic_hq_defeat_cyrus.png",
         "img_mods": "",
-        "codes": "event_galactic_hq_defeat_cyrus"
+        "initial_active_state": true, "codes": "event_galactic_hq_defeat_cyrus"
     },
     {
         "name": "Defeat Saturn at Lake Valor",
         "type": "toggle",
         "img": "/images/events/event_clear_lakevalor.png",
         "img_mods": "",
-        "codes": "event_clear_lakevalor"
+        "initial_active_state": true, "codes": "event_clear_lakevalor"
     },
     {
         "name": "Watch Jupiter defeat your rival at Lake Acuity",
         "type": "toggle",
         "img": "/images/events/event_clear_lakeacuity.png",
         "img_mods": "",
-        "codes": "event_clear_lakeacuity"
+        "initial_active_state": true, "codes": "event_clear_lakeacuity"
     },
     {
         "name": "Defeat Candice",
         "type": "toggle",
         "img": "/images/events/event_defeat_candice.png",
         "img_mods": "",
-        "codes": "event_defeat_candice"
+        "initial_active_state": true, "codes": "event_defeat_candice"
     },
     {
         "name": "Defeat Team Galactic in Eterna City",
         "type": "toggle",
         "img": "/images/events/event_clear_eternahideout.png",
         "img_mods": "",
-        "codes": "event_clear_eternahideout"
+        "initial_active_state": true, "codes": "event_clear_eternahideout"
     },
     {
         "name": "Defeat Fantina",
         "type": "toggle",
         "img": "/images/events/event_defeat_fantina.png",
         "img_mods": "",
-        "codes": "event_defeat_fantina"
+        "initial_active_state": true, "codes": "event_defeat_fantina"
     },
     {
         "name": "Defeat Roark",
         "type": "toggle",
         "img": "/images/events/event_defeat_roark.png",
         "img_mods": "",
-        "codes": "event_defeat_roark"
+        "initial_active_state": true, "codes": "event_defeat_roark"
     },
     {
         "name": "Defeat Volkner",
         "type": "toggle",
         "img": "/images/events/event_defeat_volkner.png",
         "img_mods": "",
-        "codes": "event_defeat_volkner"
+        "initial_active_state": true, "codes": "event_defeat_volkner"
     },
     {
         "name": "Defeat Byron",
         "type": "toggle",
         "img": "/images/events/event_defeat_byron.png",
         "img_mods": "",
-        "codes": "event_defeat_byron"
+        "initial_active_state": true, "codes": "event_defeat_byron"
     },
     {
         "name": "Defeat Cynthia",
         "type": "toggle",
         "img": "/images/events/event_defeat_cynthia.png",
         "img_mods": "",
-        "codes": "event_defeat_cynthia"
+        "initial_active_state": true, "codes": "event_defeat_cynthia"
     },
     {
         "name": "Clear the Distortion World",
         "type": "toggle",
         "img": "/images/events/event_clear_distortion.png",
         "img_mods": "",
-        "codes": "event_clear_distortion"
+        "initial_active_state": true, "codes": "event_clear_distortion"
     },
     {
         "name": "Defeat Team Galactic in the Valley Windworks",
         "type": "toggle",
         "img": "/images/events/event_clear_windworks.png",
         "img_mods": "",
-        "codes": "event_clear_windworks"
+        "initial_active_state": true, "codes": "event_clear_windworks"
     }
 ]
