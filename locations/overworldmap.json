@@ -4563,7 +4563,7 @@
             {
                 "name": "Unown File A",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4573,7 +4573,7 @@
             {
                 "name": "Unown File B",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4583,7 +4583,7 @@
             {
                 "name": "Unown File C",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4593,7 +4593,7 @@
             {
                 "name": "Unown File D",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4603,7 +4603,7 @@
             {
                 "name": "Unown File E",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4613,7 +4613,7 @@
             {
                 "name": "Unown File F",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4623,7 +4623,7 @@
             {
                 "name": "Unown File G",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4633,7 +4633,7 @@
             {
                 "name": "Unown File H",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4643,7 +4643,7 @@
             {
                 "name": "Unown File I",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4653,7 +4653,7 @@
             {
                 "name": "Unown File J",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4663,7 +4663,7 @@
             {
                 "name": "Unown File K",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4673,7 +4673,7 @@
             {
                 "name": "Unown File L",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4683,7 +4683,7 @@
             {
                 "name": "Unown File M",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4693,7 +4693,7 @@
             {
                 "name": "Unown File N",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4703,7 +4703,7 @@
             {
                 "name": "Unown File O",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4713,7 +4713,7 @@
             {
                 "name": "Unown File P",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4723,7 +4723,7 @@
             {
                 "name": "Unown File Q",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4733,7 +4733,7 @@
             {
                 "name": "Unown File R",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4743,7 +4743,7 @@
             {
                 "name": "Unown File S",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4753,7 +4753,7 @@
             {
                 "name": "Unown File T",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4763,7 +4763,7 @@
             {
                 "name": "Unown File U",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4773,7 +4773,7 @@
             {
                 "name": "Unown File V",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4783,7 +4783,7 @@
             {
                 "name": "Unown File W",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4793,7 +4793,7 @@
             {
                 "name": "Unown File X",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4803,7 +4803,7 @@
             {
                 "name": "Unown File Y",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4813,7 +4813,7 @@
             {
                 "name": "Unown File Z",
                 "access_rules": [
-                    "@solaceon_ruins_room_1"
+                    "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4823,7 +4823,7 @@
             {
                 "name": "Unown File !",
                 "access_rules": [
-                    "@solaceon_ruins_maniac_tunnel_room"
+                    "@solaceon_ruins_maniac_tunnel_room, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
@@ -4833,7 +4833,7 @@
             {
                 "name": "Unown File ?",
                 "access_rules": [
-                    "@solaceon_ruins_maniac_tunnel_room"
+                    "@solaceon_ruins_maniac_tunnel_room, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_unown_item"
