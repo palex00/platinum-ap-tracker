@@ -5700,7 +5700,7 @@
                 "item_count": 1
             },
             {
-                "name": "Defeat Team Galactic (Event)",
+                "name": "Building - Defeat Team Galactic (Event)",
                 "access_rules": [
                     "@valley_windworks_building"
                 ],
