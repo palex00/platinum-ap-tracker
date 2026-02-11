@@ -12,4 +12,5 @@ ScriptHost:AddWatchForCode("opt_storage_key", "opt_storage_key", toggle_itemgrid
 ScriptHost:AddWatchForCode("opt_unown", "opt_unown", toggle_itemgrid)
 
 -- Debug
-ScriptHost:AddWatchForCode("opt_goal", "opt_goal", debug)
+ScriptHost:AddWatchForCode("debug", "*", debug)
+ScriptHost:AddOnLocationSectionChangedHandler("debug", debug)
