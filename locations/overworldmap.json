@@ -8597,6 +8597,8 @@
             },
             {
                 "name": "Left hidden item by Slag Heap",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
                     "^$hidden, @oreburgh_city"
                 ],
@@ -8607,6 +8609,8 @@
             },
             {
                 "name": "Right hidden item by Slag Heap",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
                     "^$hidden, @oreburgh_city"
                 ],
