@@ -5578,7 +5578,7 @@
         ]
     },
     {
-        "name": "Route 205",
+        "name": "Route 205 South",
         "chest_unopened_img": "/images/locations/ball.png",
         "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
@@ -5587,7 +5587,7 @@
         ],
         "sections": [
             {
-                "name": "South - Item Under Bridge",
+                "name": "Item Under Bridge",
                 "access_rules": [
                     "@route_205_south"
                 ],
@@ -5597,7 +5597,7 @@
                 "item_count": 1
             },
             {
-                "name": "South - Item Before First Hiker",
+                "name": "Item Before First Hiker",
                 "access_rules": [
                     "@route_205_south"
                 ],
@@ -5607,7 +5607,7 @@
                 "item_count": 1
             },
             {
-                "name": "South - Item South of House",
+                "name": "Item South of House",
                 "access_rules": [
                     "@route_205_south"
                 ],
@@ -5617,7 +5617,7 @@
                 "item_count": 1
             },
             {
-                "name": "South - Item Next to Battle Girl",
+                "name": "Item Next to Battle Girl",
                 "access_rules": [
                     "@route_205_south"
                 ],
@@ -5627,7 +5627,7 @@
                 "item_count": 1
             },
             {
-                "name": "South - Hidden Item Above Aroma Lady",
+                "name": "Hidden Item Above Aroma Lady",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -5635,16 +5635,6 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item South of Pond",
-                "access_rules": [
-                    "@route_205_north"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
                 ],
                 "item_count": 1
             }
@@ -6359,6 +6349,16 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Item South of Pond",
+                "access_rules": [
+                    "@route_205_north"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
                 ],
                 "item_count": 1
             }
@@ -9482,10 +9482,10 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "^$hidden, $rock_smash, $doesnotexist"
+                    "^$hidden, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "opt_hidden_on"
+                    "opt_hidden_on, $doesnotexist"
                 ],
                 "item_count": 1
             },
