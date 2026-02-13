@@ -50,12 +50,11 @@ function onClear(slot_data)
     end
     
     if Archipelago.PlayerNumber > -1 then
-    
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
         
-        EVENT_ID = "pokemon_platinum_tracked_"..TEAM_NUMBER.."_"..PLAYER_ID
+        EVENT_ID = "pokemon_platinum_tracked_events_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({EVENT_ID})
         Archipelago:Get({EVENT_ID})
         
@@ -176,6 +175,10 @@ function onLocation(location_id, location_name)
 end
 
 function onNotify(key, value, old_value)
+    print("onNotify is called with")
+    print(dump_table(key))
+    print(value)
+    print(dump_table(value))
     if value ~= nil and value ~= 0 and old_value ~= value then
         if key == EVENT_ID then
             updateEvents(value)
@@ -189,6 +192,10 @@ end
 
 
 function onNotifyLaunch(key, value)
+    print("onNotify is called with")
+    print(dump_table(key))
+    print(value)
+    print(dump_table(value))
     if value ~= nil and value ~= 0 then
         if key == EVENT_ID then
             updateEvents(value)
