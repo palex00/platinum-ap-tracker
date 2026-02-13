@@ -154,9 +154,6 @@ end
 
 --called when a location gets cleared
 function onLocation(location_id, location_name)
-    if location_id == 131156 then
-        print("Processed")
-    end
     local location_array = LOCATION_MAPPING[location_id]
     if not location_array or not location_array[1] then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
