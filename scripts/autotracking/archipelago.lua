@@ -175,10 +175,6 @@ function onLocation(location_id, location_name)
 end
 
 function onNotify(key, value, old_value)
-    print("onNotify is called with")
-    print(dump_table(key))
-    print(value)
-    print(dump_table(value))
     if value ~= nil and value ~= 0 and old_value ~= value then
         if key == EVENT_ID then
             updateEvents(value)
@@ -192,10 +188,6 @@ end
 
 
 function onNotifyLaunch(key, value)
-    print("onNotify is called with")
-    print(dump_table(key))
-    print(value)
-    print(dump_table(value))
     if value ~= nil and value ~= 0 then
         if key == EVENT_ID then
             updateEvents(value)
@@ -256,4 +248,9 @@ function updateHints(value)
             end
         end        
     end
+end
+
+function onMap(value)
+    print(value)
+    print(dump_table(value))
 end
