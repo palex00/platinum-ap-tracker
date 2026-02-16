@@ -1,0 +1,29 @@
+﻿{
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "content": {
+                        "type": "tabbed",
+                        "tabs": [
+                            {
+                                "title": "This is the wrong version",
+                                "content": {
+                                    "type": "map",
+                                    "maps": [
+                                        "error_version"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

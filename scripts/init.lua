@@ -12,6 +12,7 @@ require("scripts/logic/logic")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json")  
+Tracker:AddMaps("maps/errors.json")  
 
 -- Layout
 Tracker:AddLayouts("layouts/settings_popup.json")

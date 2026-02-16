@@ -26,6 +26,35 @@ function onClear(slot_data)
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
     
+    -- we check for correct game, version, and non manual
+    for k, v in pairs(slot_data) do
+        if slot_data["pick_a_peck_accessories"] ~= nil then
+            -- we detected it's the manual
+            Tracker:AddLayouts("layouts/errors/error_manual.json")
+            return
+        else
+            if slot_data["parcel_coupons_route_203"] ~= nil then
+                if  k == "version" then
+                    local first_two_dots = ""
+                    local version_str = tostring(v)
+                    first_two_dots = version_str:match("^([^.]+%.[^.]+)%.")
+                    if first_two_dots == "0.1" or nil then
+                        -- yey
+                        Tracker:AddLayouts("layouts/tracker.json")
+                    else
+                        -- we detected it's not for this tracker version
+                        Tracker:AddLayouts("layouts/errors/error_version.json")
+                        return
+                    end
+                end
+            else
+                -- we detected it's not PKMN Platinum
+                Tracker:AddLayouts("layouts/errors/error_game.json")
+                return
+            end
+        end
+    end
+
     resetLocations()
     resetItems()
 

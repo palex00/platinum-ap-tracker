@@ -1,0 +1,20 @@
+[
+    {
+        "name": "error_game",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/errors/error_game.png"
+    },
+    {
+        "name": "error_version",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/errors/error_version.png"
+    },
+    {
+        "name": "error_manual",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/errors/error_manual.png"
+    }
+]
