@@ -3201,7 +3201,7 @@
         "access_rules": [
             "@galactic_hq_wo_key, event_clear_lakeacuity, @lake_acuity",
             "@galactic_hq_wo_key, storagekey",
-            "@veilstone_city"
+            "@veilstone_city, event_defeat_maylene, @veilstone_city_gym"
         ]
     },
     {
