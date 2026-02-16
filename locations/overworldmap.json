@@ -4547,7 +4547,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4557,7 +4557,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4567,7 +4567,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4577,7 +4577,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4587,7 +4587,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4597,7 +4597,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4607,7 +4607,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4617,7 +4617,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4627,7 +4627,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4637,7 +4637,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4647,7 +4647,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4657,7 +4657,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4667,7 +4667,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4677,7 +4677,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4687,7 +4687,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4697,7 +4697,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4707,7 +4707,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4717,7 +4717,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4727,7 +4727,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4737,7 +4737,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4747,7 +4747,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4757,7 +4757,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4767,7 +4767,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4777,7 +4777,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4787,7 +4787,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4797,7 +4797,7 @@
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4807,7 +4807,7 @@
                     "@solaceon_ruins_maniac_tunnel_room, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -4817,7 +4817,7 @@
                     "@solaceon_ruins_maniac_tunnel_room, ^$hidden"
                 ],
                 "visibility_rules": [
-                    "opt_unown_item"
+                    "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
             }
