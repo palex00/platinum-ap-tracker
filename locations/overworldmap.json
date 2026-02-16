@@ -9466,7 +9466,7 @@
                     "^$hidden, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "opt_hidden_on, $doesnotexist"
+                    "opt_hidden_on"
                 ],
                 "item_count": 1
             },
