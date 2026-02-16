@@ -1655,7 +1655,7 @@
         "name": "pokemon_league_elevator_to_aaron_room",
         "access_rules": [
             "@pokemon_league_aaron_room",
-            "@pokemon_league_north_pokecenter_1f, $badges|8"
+            "@pokemon_league_north_pokecenter_1f, $badges_req|8"
         ]
     },
     {

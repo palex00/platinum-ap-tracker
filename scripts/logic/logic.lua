@@ -75,6 +75,18 @@ function regional_monsTODO()
     return true
 end
 
+function badge_req()
+  return
+  Tracker:ProviderCountForCode("coalbadge") +
+  Tracker:ProviderCountForCode("forestbadge") +
+  Tracker:ProviderCountForCode("cobblebadge") +
+  Tracker:ProviderCountForCode("fenbadge") +
+  Tracker:ProviderCountForCode("relicbadge") +
+  Tracker:ProviderCountForCode("minebadge") +
+  Tracker:ProviderCountForCode("iciclebadge") +
+  Tracker:ProviderCountForCode("beaconbadge")
+end
+
 function badges()
   return
   Tracker:ProviderCountForCode("coalbadge") +
