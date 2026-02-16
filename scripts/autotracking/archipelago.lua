@@ -49,6 +49,8 @@ function onClear(slot_data)
         end
     end
     
+    updateEvents(0)
+    
     if Archipelago.PlayerNumber > -1 then
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({HINTS_ID})
