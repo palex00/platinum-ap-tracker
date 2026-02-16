@@ -25,39 +25,32 @@ function onClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
+    GAME = Archipelago:GetPlayerGame(PLAYER_ID)
     
     -- we check for correct game, version, and non manual
-    for k, v in pairs(slot_data) do
-        if slot_data["pick_a_peck_accessories"] ~= nil then
-            -- we detected it's the manual
-            Tracker:AddLayouts("layouts/errors/error_manual.json")
-            return
+    if GAME == "Manual_PokemonPlatinum_Linneus" then
+        Tracker:AddLayouts("layouts/errors/error_manual.json")
+        return
+    elseif GAME == "Pokemon Platinum" then
+        if slot_data["version"] == nil then
+            Tracker:AddLocations("locations/oldversionsupport.json")
+            -- pass
         else
-            if slot_data["parcel_coupons_route_203"] ~= nil then
-                if  k == "version" then
-                    local first_two_dots = ""
-                    local version_str = tostring(v)
-                    first_two_dots = version_str:match("^([^.]+%.[^.]+)%.")
-                    if first_two_dots == "0.1" or nil then
-                        -- yey
-                        Tracker:AddLayouts("layouts/tracker.json")
-                    else
-                        -- we detected it's not for this tracker version
-                        Tracker:AddLayouts("layouts/errors/error_version.json")
-                        return
-                    end
-                end
+            local version = tostring(slot_data["version"])
+            local major_version = version:match("^([^.]+%.[^.]+)%.")
+            if major_version == "0.1" then
+                -- yey. pass.
             else
-                -- we detected it's not PKMN Platinum
-                Tracker:AddLayouts("layouts/errors/error_game.json")
-                return
+                Tracker:AddLayouts("layouts/errors/error_version.json")
             end
         end
+    else
+        Tracker:AddLayouts("layouts/errors/error_game.json")
+        return
     end
-
+    
     resetLocations()
     resetItems()
-
 
     for k, v in pairs(slot_data) do
         if SLOT_CODES[k] then
@@ -80,7 +73,7 @@ function onClear(slot_data)
     
     updateEvents(0)
     --updateVanillaKeyItems1(0)
-    --updateVanillaKeyItems2(0)    
+    --updateVanillaKeyItems2(0)
     
     if Archipelago.PlayerNumber > -1 then
         HINT_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID

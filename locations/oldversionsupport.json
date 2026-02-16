@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Dummy",
+        "chest_unopened_img": "/images/items/invisible.png",
+        "chest_opened_img": "/images/items/invisible.png",
+        "overlay_background": "#000000",
+        "children": [
+            {
+                "name": "Important Info",
+                "chest_unopened_img": "/images/items/invisible.png",
+                "chest_opened_img": "/images/items/invisible.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                            {
+                                "name": "This slot was generated with a pre-0.1.7-apworld.\nSettings and Events are NOT auto-tracked.\nCheck them yourself.",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            }
+				],
+                "map_locations": [
+                    {
+                        "map": "Sinnoh",
+                        "x": 20,
+                        "y": 20,
+                        "size": 20
+                    }
+                ]
+            }
+        ]
+    }
+
+]
