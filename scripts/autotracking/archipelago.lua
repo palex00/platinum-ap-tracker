@@ -327,7 +327,7 @@ function updateHints(value)
             for _, location in ipairs(locations) do
                 -- Only sections (items don't support Highlight)
                 if type(location) == "string" and location:sub(1, 1) == "@" and Tracker:FindObjectForCode(location).ChestCount == 1 then
-                    Tracker:FindObjectForCode(location).Highlight = HIGHTLIGHT_LEVEL[hint.item_flags]
+                    Tracker:FindObjectForCode(location).Highlight = HIGHLIGHT_LEVEL[hint.item_flags]
                 end
             end
         end
