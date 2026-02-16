@@ -83,9 +83,9 @@ function onClear(slot_data)
     --updateVanillaKeyItems2(0)    
     
     if Archipelago.PlayerNumber > -1 then
-        HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({HINTS_ID})
-        Archipelago:Get({HINTS_ID})
+        HINT_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({HINT_ID})
+        Archipelago:Get({HINT_ID})
         
         EVENT_ID = "pokemon_platinum_tracked_events_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({EVENT_ID})
@@ -330,7 +330,7 @@ function updateHints(value)
                     Tracker:FindObjectForCode(location).Highlight = HIGHTLIGHT_LEVEL[hint.item_flags]
                 end
             end
-        end        
+        end
     end
 end
 
