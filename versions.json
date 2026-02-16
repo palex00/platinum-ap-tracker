@@ -1,12 +1,4 @@
 {
   "versions": [
-    {
-      "package_version": "1.0.0",
-      "download_url": "https://github.com/palex00/platinum-ap-tracker/archive/refs/tags/1.0.0.zip",
-      "sha256": "577d4e84eb9f272fe9accc8e4c7ceb483da5b4ec80a2c3cbf8845d13be398ca0",
-      "changelog": [
-        "Check release notes"
-      ]
-    }
   ]
 }
