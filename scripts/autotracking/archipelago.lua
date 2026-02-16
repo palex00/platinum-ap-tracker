@@ -79,6 +79,8 @@ function onClear(slot_data)
     end
     
     updateEvents(0)
+    --updateVanillaKeyItems1(0)
+    --updateVanillaKeyItems2(0)    
     
     if Archipelago.PlayerNumber > -1 then
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
@@ -89,9 +91,13 @@ function onClear(slot_data)
         Archipelago:SetNotify({EVENT_ID})
         Archipelago:Get({EVENT_ID})
         
-        KEY_ID = ""..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({KEY_ID})
-        Archipelago:Get({KEY_ID})
+        KEY1_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_0"
+        Archipelago:SetNotify({KEY1_ID})
+        Archipelago:Get({KEY1_ID})
+        
+        KEY2_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_1"
+        Archipelago:SetNotify({KEY2_ID})
+        Archipelago:Get({KEY2_ID})
     end
 end
 
@@ -209,8 +215,10 @@ function onNotify(key, value, old_value)
     if value ~= nil and value ~= 0 and old_value ~= value then
         if key == EVENT_ID then
             updateEvents(value)
-        elseif key == KEY_ID then
-            updateVanillaKeyItems(value)
+        elseif key == KEY1_ID then
+            updateVanillaKeyItems1(value)
+        elseif key == KEY2_ID then
+            updateVanillaKeyItems2(value)
         elseif key == HINT_ID then
             updateHints(value)
         end
@@ -222,8 +230,10 @@ function onNotifyLaunch(key, value)
     if value ~= nil and value ~= 0 then
         if key == EVENT_ID then
             updateEvents(value)
-        elseif key == KEY_ID then
-            updateVanillaKeyItems(value)
+        elseif key == KEY1_ID then
+            updateVanillaKeyItems1(value)
+        elseif key == KEY2_ID then
+            updateVanillaKeyItems2(value)
         elseif key == HINT_ID then
             updateHints(value)
         end
@@ -247,13 +257,56 @@ function updateEvents(value)
     end
 end
 
-function updateVanillaKeyItems(value)
-    if value ~= nil then
-        for i, obj in ipairs(FLAG_ITEM_CODES) do
+function updateVanillaKeyItems1(value)
+    if value ~= nil then        
+        -- reset progressive & consumable item codes
+        Tracker:FindObjectForCode("pokedex").CurrentStage = 0
+        Tracker:FindObjectForCode("coupons").AcquiredCount = 0
+        
+        for i, obj in ipairs(FLAG_ITEM1_CODES) do
             local bit = value >> (i - 1) & 1
             if obj.codes and (obj.option == nil or has(obj.option)) then
-                for i, code in ipairs(obj.codes) do
-                    Tracker:FindObjectForCode(code).Active = Tracker:FindObjectForCode(code).Active or bit
+                for j, code in ipairs(obj.codes) do
+                    local item = Tracker:FindObjectForCode(code)
+                    if item then
+                        if code == "pokedex" then
+                            if bit == 1 then
+                                item.CurrentStage = (item.CurrentStage or 0) + 1
+                            end
+                        elseif code == "coupons" then
+                            if bit == 1 then
+                                item.AcquiredCount = (item.AcquiredCount or 0) + 1
+                            end
+                        else
+                            item.Active = item.Active or bit
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+
+function updateVanillaKeyItems2(value)
+    if value ~= nil then        
+        -- reset consumable item codes
+        Tracker:FindObjectForCode("unownfile").AcquiredCount = 0
+        
+        for i, obj in ipairs(FLAG_ITEM2_CODES) do
+            local bit = value >> (i - 1) & 1
+            if obj.codes and (obj.option == nil or has(obj.option)) then
+                for j, code in ipairs(obj.codes) do
+                    local item = Tracker:FindObjectForCode(code)
+                    if item then
+                        if code == "unownfile" then
+                            if bit == 1 then
+                                item.AcquiredCount = (item.AcquiredCount or 0) + 1
+                            end
+                        else
+                            item.Active = item.Active or bit
+                        end
+                    end
                 end
             end
         end
@@ -282,6 +335,6 @@ function updateHints(value)
 end
 
 function onMap(value)
-    print(value)
-    print(dump_table(value))
+    --print(value)
+    --print(dump_table(value))
 end

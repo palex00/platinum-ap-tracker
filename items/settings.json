@@ -120,7 +120,7 @@
                 "name": "Randomize Key Items - OFF",
                 "img": "images/settings/opt_keyitems.png",
                 "img_mods": "@disabled",
-                "codes": "opt_keyitems, opt_keyitems_off",
+                "codes": "opt_keyitems, opt_keyitems_off, opt_coupons_off",
                 "inherit_codes": false
             },
             {
