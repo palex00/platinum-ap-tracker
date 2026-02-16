@@ -2833,6 +2833,16 @@
                 "item_count": 1
             },
             {
+                "name": "Item Next to North Pond",
+                "access_rules": [
+                    "@route_212_north, $surf"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "Item Next to Mansion",
                 "access_rules": [
                     "@route_212_north"
@@ -2843,9 +2853,9 @@
                 "item_count": 1
             },
             {
-                "name": "Item Next to North Pond",
+                "name": "Item Behind Trainer Tips Sign",
                 "access_rules": [
-                    "@route_212_north, $surf"
+                    "@route_212_north"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -2861,35 +2871,6 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
-                ],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Sinnoh",
-                "x": 206,
-                "y": 259,
-                "size": 7
-            }
-        ]
-    },
-    {
-        "name": "Route 212 Center",
-        "chest_unopened_img": "/images/locations/ball.png",
-        "chest_opened_img": "/images/locations/ballopen.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Item Behind Trainer Tips Sign",
-                "access_rules": [
-                    "@route_212_north"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
                 ],
                 "item_count": 1
             },
@@ -2910,7 +2891,7 @@
             {
                 "map": "Sinnoh",
                 "x": 206,
-                "y": 280,
+                "y": 266,
                 "size": 7
             }
         ]
@@ -6142,106 +6123,6 @@
                 "item_count": 1
             },
             {
-                "name": "Galactic Building 2F - Item Between Boxes",
-                "access_rules": [
-                    "@team_galactic_eterna_building_2f"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Galactic Building 3F - Item Behind Machines",
-                "access_rules": [
-                    "@team_galactic_eterna_building_3f"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Galactic Building 4F - Dead End Item 2",
-                "access_rules": [
-                    "@team_galactic_eterna_building_4f"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Galactic Building 4F - Dead End Item 1",
-                "access_rules": [
-                    "@team_galactic_eterna_building_4f"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Galactic Building 4F - Defeat Team Galactic (Event)",
-                "access_rules": [
-                    "@team_galactic_eterna_building_4f"
-                ],
-                "visibility_rules": [
-                    ""
-                ],
-                "hosted_item": "event_clear_eternahideout"
-            },
-            {
-                "name": "Galactic Building 4F - Item By Jupiter",
-                "access_rules": [
-                    "@team_galactic_eterna_building_4f"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Defeat Gardenia (Event)",
-                "access_rules": [
-                    "@eterna_city_gym"
-                ],
-                "visibility_rules": [
-                    ""
-                ],
-                "hosted_item": "event_defeat_gardenia"
-            },
-            {
-                "name": "Gym - Forest Badge From Gardenia",
-                "access_rules": [
-                    "@eterna_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Forest Badge From Gardenia​",
-                "access_rules": [
-                    "@eterna_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
-                "hosted_item": "forestbadge"
-            },
-            {
-                "name": "Gym - TM86 From Gardenia",
-                "access_rules": [
-                    "@eterna_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "HM01 from Cynthia",
                 "access_rules": [
                     "@eterna_city"
@@ -6320,6 +6201,46 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Defeat Gardenia (Event)",
+                "access_rules": [
+                    "@eterna_city_gym"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_gardenia"
+            },
+            {
+                "name": "Gym - Forest Badge From Gardenia",
+                "access_rules": [
+                    "@eterna_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_badges_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Forest Badge From Gardenia​",
+                "access_rules": [
+                    "@eterna_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_badges_off"
+                ],
+                "hosted_item": "forestbadge"
+            },
+            {
+                "name": "Gym - TM86 From Gardenia",
+                "access_rules": [
+                    "@eterna_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -6328,6 +6249,85 @@
                 "x": 136,
                 "y": 154,
                 "size": 10
+            }
+        ]
+    },
+    {
+        "name": "Team Galactic Eterna Building",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "2F - Item Between Boxes",
+                "access_rules": [
+                    "@team_galactic_eterna_building_2f"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Item Behind Machines",
+                "access_rules": [
+                    "@team_galactic_eterna_building_3f"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F - Dead End Item 1",
+                "access_rules": [
+                    "@team_galactic_eterna_building_4f"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F - Dead End Item 2",
+                "access_rules": [
+                    "@team_galactic_eterna_building_4f"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F - Defeat Team Galactic (Event)",
+                "access_rules": [
+                    "@team_galactic_eterna_building_4f"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_clear_eternahideout"
+            },
+            {
+                "name": "4F - Item By Jupiter",
+                "access_rules": [
+                    "@team_galactic_eterna_building_4f"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 136,
+                "y": 140,
+                "size": 7
             }
         ]
     },
@@ -6373,7 +6373,7 @@
         ]
     },
     {
-        "name": "Route 214 North",
+        "name": "Route 214",
         "chest_unopened_img": "/images/locations/ball.png",
         "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
@@ -6402,55 +6402,12 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Corner Above Beauty",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @route_214"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Item Near Breakable Rocks",
                 "access_rules": [
                     "@route_214"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
-                ],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Sinnoh",
-                "x": 318,
-                "y": 210,
-                "size": 7
-            }
-        ]
-    },
-    {
-        "name": "Route 214 South",
-        "chest_unopened_img": "/images/locations/ball.png",
-        "chest_opened_img": "/images/locations/ballopen.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Hidden Item in Ring of Grass Around Fence",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @route_214"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -6465,7 +6422,17 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Corner of Long Grass",
+                "name": "Item in Grass Near Honey Tree",
+                "access_rules": [
+                    "@route_214"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item in Corner Above Beauty",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -6477,12 +6444,26 @@
                 "item_count": 1
             },
             {
-                "name": "Item in Grass Near Honey Tree",
+                "name": "Hidden Item in Ring of Grass Around Fence",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@route_214"
+                    "^$hidden, @route_214"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item in Corner of Long Grass",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @route_214"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
                 ],
                 "item_count": 1
             }
@@ -6491,7 +6472,7 @@
             {
                 "map": "Sinnoh",
                 "x": 318,
-                "y": 231,
+                "y": 224,
                 "size": 7
             }
         ]
