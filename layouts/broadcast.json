@@ -11,7 +11,7 @@
                 "content": [
                     {
                         "type": "layout",
-                        "key": "shared_item_grid_vertical"
+                        "key": "key_items_grid"
                     }
                 ]
             }
