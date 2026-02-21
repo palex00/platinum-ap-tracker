@@ -1,6 +1,6 @@
 # Archipelago Pokémon Platinum Tracker
 
-Archipelago Pokémon Crystal tracker pack [PopTracker](https://github.com/black-sliver/PopTracker/) with Autotracking.
+Archipelago Pokémon Platinum tracker pack [PopTracker](https://github.com/black-sliver/PopTracker/) with Autotracking.
 
 PopTracker v0.33.3 or higher is neccessary.
 
