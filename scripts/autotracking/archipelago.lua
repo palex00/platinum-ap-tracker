@@ -38,7 +38,7 @@ function onClear(slot_data)
         else
             local version = tostring(slot_data["version"])
             local major_version = version:match("^([^.]+%.[^.]+)%.")
-            if major_version == "0.1" then
+            if major_version == "0.2" then
                 -- yey. pass.
             else
                 Tracker:AddLayouts("layouts/errors/error_version.json")
