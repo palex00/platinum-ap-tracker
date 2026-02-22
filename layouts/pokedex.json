@@ -1,0 +1,43 @@
+{
+    "pokedex_grid": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Kanto Pokémon (001-151)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "kantodex"
+                    ]
+                }
+            },
+            {
+                "title": "Johto Pokémon (152-251)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "johtodex"
+                    ]
+                }
+            },
+            {
+                "title": "Hoenn Pokémon (252-386)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "hoenndex"
+                    ]
+                }
+            },
+            {
+                "title": "Sinnoh Pokémon (387-493)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "sinnohdex"
+                    ]
+                }
+            }
+        ]
+    }
+}

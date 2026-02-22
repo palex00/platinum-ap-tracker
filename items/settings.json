@@ -556,5 +556,32 @@
         "initial_quantity": 60,
         "overlay_background": "#000000",
         "codes": "regional_dex_goal"
+    },
+    {
+        "name": "Split Map",
+        "type": "progressive",
+        "loop": true,
+        "codes": "split",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Split Map - OFF",
+                "img": "/images/settings/map_single.png",
+                "codes": "splitmap, splitmap_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Split Map - ON",
+                "img": "/images/settings/map_split.png",
+                "codes": "splitmap, splitmap_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Split Map - Reverse",
+                "img": "/images/settings/map_reverse.png",
+                "codes": "splitmap, splitmap_reverse",
+                "inherit_codes": false
+            },
+        ]
     }
 ]
