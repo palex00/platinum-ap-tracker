@@ -72,8 +72,6 @@ function onClear(slot_data)
     end
     
     updateEvents(0)
-    --updateVanillaKeyItems1(0)
-    --updateVanillaKeyItems2(0)
     
     if Archipelago.PlayerNumber > -1 then
         HINT_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
@@ -251,11 +249,7 @@ function updateEvents(value)
 end
 
 function updateVanillaKeyItems1(value)
-    if value ~= nil then        
-        -- reset progressive & consumable item codes
-        Tracker:FindObjectForCode("pokedex").CurrentStage = 0
-        Tracker:FindObjectForCode("coupons").AcquiredCount = 0
-        
+    if value ~= nil then
         for i, obj in ipairs(FLAG_ITEM1_CODES) do
             local bit = value >> (i - 1) & 1
             if obj.codes and (obj.option == nil or has(obj.option)) then
@@ -282,10 +276,7 @@ end
 
 
 function updateVanillaKeyItems2(value)
-    if value ~= nil then        
-        -- reset consumable item codes
-        Tracker:FindObjectForCode("unownfile").AcquiredCount = 0
-        
+    if value ~= nil then
         for i, obj in ipairs(FLAG_ITEM2_CODES) do
             local bit = value >> (i - 1) & 1
             if obj.codes and (obj.option == nil or has(obj.option)) then
