@@ -1,0 +1,94 @@
+{
+    "tabbed_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "content": {
+                    "type": "array",
+                    "orientation": "horizontal",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "tabs": [
+                                {
+                                    "title": "Cities",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "cities"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Routes",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "routes"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Dungeons A",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "dungeons_a"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Dungeons B",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "dungeons_b"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Others",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "others"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tabbed",
+                            "tabs": [
+                                {
+                                    "title": "Sinnoh",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "Sinnoh"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Pokédex",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "pokedex_grid"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
