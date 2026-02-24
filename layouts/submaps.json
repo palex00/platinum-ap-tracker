@@ -1,1112 +1,1999 @@
 {
-    "cities": {
-        "type": "tabbed",
-        "tabs": [
+  "cities": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Twinleaf Town",
+        "content": {
+          "type": "map",
+          "maps": [
+            "twinleaftown"
+          ]
+        }
+      },
+      {
+        "title": "Sandgem Town",
+        "content": {
+          "type": "map",
+          "maps": [
+            "sandgemtown"
+          ]
+        }
+      },
+      {
+        "title": "Jubilife City",
+        "content": {
+          "type": "map",
+          "maps": [
+            "jubilifecity"
+          ]
+        }
+      },
+      {
+        "title": "Oreburgh City",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
             {
-                "title": "Twinleaf Town",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "twinleaftown"
-                    ]
-                }
+              "title": "City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "oreburghcity"
+                ]
+              }
             },
             {
-                "title": "Sandgem Town",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "sandgemtown"
-                    ]
-                }
-            },
-            {
-                "title": "Jubilife City",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "jubilifecity"
-                    ]
-                }
-            },
-            {
-                "title": "Oreburgh City",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "oreburghcity"
-                    ]
-                }
-            },
-            {
-                "title": "Floaroma Town",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "floaromatown"
-                    ]
-                }
-            },
-            {
-                "title": "Eterna City",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "City",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "eternacity"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Gym",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "eternagym"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Hearthome City",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "City",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "hearthomecity"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Amity Square",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "amitysquare"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Solaceon Town",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "solaceontown"
-                    ]
-                }
-            },
-            {
-                "title": "Veilstone City",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "veilstonecity"
-                    ]
-                }
-            },
-            {
-                "title": "Pastoria City",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "pastoriacity"
-                    ]
-                }
-            },
-            {
-                "title": "Celestic Town",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "celestictown"
-                    ]
-                }
-            },
-            {
-                "title": "Canalave City",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "canalavecity"
-                    ]
-                }
-            },
-            {
-                "title": "Snowpoint City",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "snowpointcity"
-                    ]
-                }
-            },
-            {
-                "title": "Sunyshore City",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "sunyshorecity"
-                    ]
-                }
-            },
-            {
-                "title": "Pokémon League",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "pokemonleaguenorth"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "pokemonleaguesouth"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Fight Area",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "fightarea"
-                    ]
-                }
-            },
-            {
-                "title": "Survival Area",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "survivalarea"
-                    ]
-                }
-            },
-            {
-                "title": "Resort Area",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "resortarea"
-                    ]
-                }
+              "title": "Mine",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "B1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "oreburghmineb1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "oreburghmineb2f"
+                      ]
+                    }
+                  }
+                ]
+              }
             }
-        ]
-    },
-    "routes": {
-        "type": "tabbed",
-        "tabs": [
+          ]
+        }
+      },
+      {
+        "title": "Floaroma Town",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
             {
-                "title": "R201",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "route201"
-                    ]
-                }
+              "title": "Town",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "floaromatown"
+                ]
+              }
             },
             {
-                "title": "R202",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "route202"
-                    ]
-                }
-            },
-            {
-                "title": "R203",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "route203"
-                    ]
-                }
-            },
-            {
-                "title": "R204",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route204north"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route204south"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R205",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route205north"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South (Top)",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route205center"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South (Bottom)",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route205south"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R206",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route206north"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route206south"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R207",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "route207"
-                    ]
-                }
-            },
-            {
-                "title": "R208",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "route208"
-                    ]
-                }
-            },
-            {
-                "title": "R209",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route209north"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route209south"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R210",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route210north"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Center",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route210center"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route210south"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R211",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "West",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route211west"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "East",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route211east"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R212",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "North (Top)",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route212north"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "North (Bottom)",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route212center"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South-West",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route212southwest"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South-East",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route212southeast"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Pokémon Mansion",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "pokemonmansion"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R213",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "West",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route213west"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "East",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route213east"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R214",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route214north"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route214south"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R215",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "West",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route215west"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "East",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route215east"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R216",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "West",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route216west"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "East",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route216east"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R217",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route217north"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route217south"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R218",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "route218"
-                    ]
-                }
-            },
-            {
-                "title": "R219",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "route219"
-                    ]
-                }
-            },
-            {
-                "title": "R220",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "route220"
-                    ]
-                }
-            },
-            {
-                "title": "R221",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "West",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route221west"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "East",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route221east"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R222",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "West",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route222west"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "East",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route222east"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R223",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route223north"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route223south"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R224",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "West",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route224west"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "East",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route224east"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R225",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route225north"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route225south"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R226",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "West",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route226west"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "East",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route226east"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R227",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "route227"
-                    ]
-                }
-            },
-            {
-                "title": "R228",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route228north"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "South",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route228south"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "R229",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "route229"
-                    ]
-                }
-            },
-            {
-                "title": "R230",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "West",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route230west"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "East",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "route230east"
-                                ]
-                            }
-                        }
-                    ]
-                }
+              "title": "Meadow",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "floaromameadow"
+                ]
+              }
             }
-        ]
-    },
-    "dungeons_a": {
-        "type": "tabbed",
-        "tabs": [
+          ]
+        }
+      },
+      {
+        "title": "Eterna City",
+        "content": {
+          "type": "map",
+          "maps": [
+            "eternacity"
+          ]
+        }
+      },
+      {
+        "title": "Hearthome City",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
             {
-                "title": "Lake Verity",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Lakefront",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "veritylakefront"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Lake",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "veritylake"
-                                ]
-                            }
-                        }
-                    ]
-                }
+              "title": "City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "hearthomecity"
+                ]
+              }
             },
             {
-                "title": "Oreburgh Gate",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "oreburghgate1f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "B1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "oreburghgateb1f"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Oreburgh Mine",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "B1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "oreburghmineb1f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "B2F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "oreburghmineb2f"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Ravaged Path",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "ravagedpath"
-                    ]
-                }
-            },
-            {
-                "title": "Floaroma Meadow",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "floaromameadow"
-                    ]
-                }
-            },
-            {
-                "title": "Eterna Forest",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Outside",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "eternaforestoutside"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Inside",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "eternaforest"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Old Chateau",
-                            "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "Entrance",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "oldchateauentrance"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "1F",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "oldchateau1f"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "2F",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "oldchateau2f"
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Team Galactic Eterna Building",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "tgeternabuilding1f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "2F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "tgeternabuilding2f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "3F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "tgeternabuilding3f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "4F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "tgeternabuilding4f"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Wayward Cave",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "waywardcave1f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "B1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "waywardcaveb1f"
-                                ]
-                            }
-                        }
-                    ]
-                }
+              "title": "Amity Square",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "amitysquare"
+                ]
+              }
             }
-        ]
-    }
+          ]
+        }
+      },
+      {
+        "title": "Solaceon Town",
+        "content": {
+          "type": "map",
+          "maps": [
+            "solaceontown"
+          ]
+        }
+      },
+      {
+        "title": "Veilstone City",
+        "content": {
+          "type": "map",
+          "maps": [
+            "veilstonecity"
+          ]
+        }
+      },
+      {
+        "title": "Pastoria City",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pastoriacity"
+                ]
+              }
+            },
+            {
+              "title": "Great Marsh",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "greatmarsh"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Celestic Town",
+        "content": {
+          "type": "map",
+          "maps": [
+            "celestictown"
+          ]
+        }
+      },
+      {
+        "title": "Canalave City",
+        "content": {
+          "type": "map",
+          "maps": [
+            "canalavecity"
+          ]
+        }
+      },
+      {
+        "title": "Snowpoint City",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "snowpointcity"
+                ]
+              }
+            },
+            {
+              "title": "Temple",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "snowpointtemple1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "snowpointtempleb1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "snowpointtempleb2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "snowpointtempleb3f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B4F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "snowpointtempleb4f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B5F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "snowpointtempleb5f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Sunyshore City",
+        "content": {
+          "type": "map",
+          "maps": [
+            "sunyshorecity"
+          ]
+        }
+      },
+      {
+        "title": "Pokémon League",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "North",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pokemonleaguenorth"
+                ]
+              }
+            },
+            {
+              "title": "South",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pokemonleaguesouth"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Fight Area",
+        "content": {
+          "type": "map",
+          "maps": [
+            "fightarea"
+          ]
+        }
+      },
+      {
+        "title": "Survival Area",
+        "content": {
+          "type": "map",
+          "maps": [
+            "survivalarea"
+          ]
+        }
+      },
+      {
+        "title": "Resort Area",
+        "content": {
+          "type": "map",
+          "maps": [
+            "resortarea"
+          ]
+        }
+      }
+    ]
+  },
+  "routes": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "R201",
+        "content": {
+          "type": "map",
+          "maps": [
+            "route201"
+          ]
+        }
+      },
+      {
+        "title": "R202",
+        "content": {
+          "type": "map",
+          "maps": [
+            "route202"
+          ]
+        }
+      },
+      {
+        "title": "R203",
+        "content": {
+          "type": "map",
+          "maps": [
+            "route203"
+          ]
+        }
+      },
+      {
+        "title": "R204",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "North",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route204north"
+                ]
+              }
+            },
+            {
+              "title": "South",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route204south"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R205",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "North",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route205north"
+                ]
+              }
+            },
+            {
+              "title": "South (Top)",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route205center"
+                ]
+              }
+            },
+            {
+              "title": "South (Bottom)",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route205south"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R206",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "North",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route206north"
+                ]
+              }
+            },
+            {
+              "title": "South",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route206south"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R207",
+        "content": {
+          "type": "map",
+          "maps": [
+            "route207"
+          ]
+        }
+      },
+      {
+        "title": "R208",
+        "content": {
+          "type": "map",
+          "maps": [
+            "route208"
+          ]
+        }
+      },
+      {
+        "title": "R209",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "North",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route209north"
+                ]
+              }
+            },
+            {
+              "title": "South",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route209south"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R210",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "North",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route210north"
+                ]
+              }
+            },
+            {
+              "title": "Center",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route210center"
+                ]
+              }
+            },
+            {
+              "title": "South",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route210south"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R211",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "West",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route211west"
+                ]
+              }
+            },
+            {
+              "title": "East",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route211east"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R212",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "North",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route212north"
+                ]
+              }
+            },
+            {
+              "title": "Center",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route212center"
+                ]
+              }
+            },
+            {
+              "title": "Southwest",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route212southwest"
+                ]
+              }
+            },
+            {
+              "title": "Southeast",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route212southeast"
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Mansion",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Mansion",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemonmansion"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Trophy Garden",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "trophygarden"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R213",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "West",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route213west"
+                ]
+              }
+            },
+            {
+              "title": "East",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route213east"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R214",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "North",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route214north"
+                ]
+              }
+            },
+            {
+              "title": "South",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route214south"
+                ]
+              }
+            },
+            {
+              "title": "Maniac Tunnel",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1st Stage",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "maniactunnel1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2nd Stage",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "maniactunnel2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "3rd Stage",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "maniactunnel3"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R215",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "West",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route215west"
+                ]
+              }
+            },
+            {
+              "title": "East",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route215east"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R216",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "West",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route216west"
+                ]
+              }
+            },
+            {
+              "title": "East",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route216east"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R217",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "North",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route217north"
+                ]
+              }
+            },
+            {
+              "title": "South",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route217south"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R218",
+        "content": {
+          "type": "map",
+          "maps": [
+            "route218"
+          ]
+        }
+      },
+      {
+        "title": "R219",
+        "content": {
+          "type": "map",
+          "maps": [
+            "route219"
+          ]
+        }
+      },
+      {
+        "title": "R220",
+        "content": {
+          "type": "map",
+          "maps": [
+            "route220"
+          ]
+        }
+      },
+      {
+        "title": "R221",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "West",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route221west"
+                ]
+              }
+            },
+            {
+              "title": "East",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route221east"
+                ]
+              }
+            },
+            {
+              "title": "Pal Park",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "palpark"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R222",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "West",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route222west"
+                ]
+              }
+            },
+            {
+              "title": "East",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route222east"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R223",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "North",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route223north"
+                ]
+              }
+            },
+            {
+              "title": "South",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route223south"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R224",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "West",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route224west"
+                ]
+              }
+            },
+            {
+              "title": "East",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route224east"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R225",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "North",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route225north"
+                ]
+              }
+            },
+            {
+              "title": "South",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route225south"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R226",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "West",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route226west"
+                ]
+              }
+            },
+            {
+              "title": "East",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route226east"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R227",
+        "content": {
+          "type": "map",
+          "maps": [
+            "route227"
+          ]
+        }
+      },
+      {
+        "title": "R228",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "North",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route228north"
+                ]
+              }
+            },
+            {
+              "title": "South",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route228south"
+                ]
+              }
+            },
+            {
+              "title": "Rock Peak Ruins",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "rockpeakruins"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "R229",
+        "content": {
+          "type": "map",
+          "maps": [
+            "route229"
+          ]
+        }
+      },
+      {
+        "title": "R230",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "West",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route230west"
+                ]
+              }
+            },
+            {
+              "title": "East",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route230east"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "dungeons": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Oreburgh Gate",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "oreburghgate1f"
+                ]
+              }
+            },
+            {
+              "title": "B1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "oreburghgateb1f"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Ravaged Path",
+        "content": {
+          "type": "map",
+          "maps": [
+            "ravagedpath"
+          ]
+        }
+      },
+      {
+        "title": "Eterna Forest",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Outside",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "eternaforestoutside"
+                ]
+              }
+            },
+            {
+              "title": "Inside",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "eternaforest"
+                ]
+              }
+            },
+            {
+              "title": "Old Chateau",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Entrance",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "oldchateauentrance"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "oldchateau1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "oldchateau2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Galactic Building",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "tgeternabuilding1f"
+                ]
+              }
+            },
+            {
+              "title": "2F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "tgeternabuilding2f"
+                ]
+              }
+            },
+            {
+              "title": "3F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "tgeternabuilding3f"
+                ]
+              }
+            },
+            {
+              "title": "4F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "tgeternabuilding4f"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Wayward Cave",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "waywardcave1f"
+                ]
+              }
+            },
+            {
+              "title": "B1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "waywardcaveb1f"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Lost Tower",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "losttower1f"
+                ]
+              }
+            },
+            {
+              "title": "2F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "losttower2f"
+                ]
+              }
+            },
+            {
+              "title": "3F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "losttower3f"
+                ]
+              }
+            },
+            {
+              "title": "4F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "losttower4f"
+                ]
+              }
+            },
+            {
+              "title": "5F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "losttower5f"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Solaceon Ruins",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "2F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "solaceonruins2f"
+                ]
+              }
+            },
+            {
+              "title": "1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "solaceonruins1f"
+                ]
+              }
+            },
+            {
+              "title": "B1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "solaceonruinsb1f"
+                ]
+              }
+            },
+            {
+              "title": "B2F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "solaceonruinsb2f"
+                ]
+              }
+            },
+            {
+              "title": "B3F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "solaceonruinsb3f"
+                ]
+              }
+            },
+            {
+              "title": "B4F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "solaceonruinsb4f"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Galactic HQ",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Warehouse",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "galacticwharehouse1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "galacticwharehouseb1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "galacticwharehouseb2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "HQ",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "galactichq1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "galactichq2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "galactichq3f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "4F",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Cyrus' Office",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "galactichqcyrusoffice"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Hall",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "galactichqhall"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Machine Room",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "galactichqmachineroom"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Iron Island",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Outside",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ironislandoutside"
+                ]
+              }
+            },
+            {
+              "title": "1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ironisland1f"
+                ]
+              }
+            },
+            {
+              "title": "B1F",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Left",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ironislandb1fleft"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Right",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ironislandb1fright"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "B2F",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Left",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ironislandb2fleft"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Right",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ironislandb2fright"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "B3F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ironislandb3f"
+                ]
+              }
+            },
+            {
+              "title": "Iron Ruins",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ironruins"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Lake Verity",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Lakefront",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "veritylakefront"
+                ]
+              }
+            },
+            {
+              "title": "Lake",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "veritylake"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Lake Acuity",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Lakefront",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "acuitylakefront"
+                ]
+              }
+            },
+            {
+              "title": "Lake",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "acuitylake"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Lake Valor",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Lakefront",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "valorlakefrontnorth"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "valorlakefrontsouth"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Lake",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Normal",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "valorlake"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Drained",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "valorlakedrained"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Victory Road",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "B1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "victoryroadb1f"
+                ]
+              }
+            },
+            {
+              "title": "1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "victoryroad1f"
+                ]
+              }
+            },
+            {
+              "title": "2F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "victoryroad2f"
+                ]
+              }
+            },
+            {
+              "title": "Side Cave",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Entrance",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "victoryroadsidecaveentrance"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Basement",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "victoryroadsidecavefoggybasement"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Exit",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "victoryroadsidecaveexit"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Stark Mountain",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Outside",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "starkmountainoutside"
+                ]
+              }
+            },
+            {
+              "title": "Entrance",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "starkmountainentrance"
+                ]
+              }
+            },
+            {
+              "title": "Cavern",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "starkmountaincavern"
+                ]
+              }
+            },
+            {
+              "title": "Heatran's Room",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "starkmountainheatransroom"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Fullmoon Island",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Outside",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fullmoonislandoutside"
+                ]
+              }
+            },
+            {
+              "title": "Inside",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fullmoonislandinside"
+                ]
+              }
+            }
+          ]
+        }
+      },
+    ]
+  },
+  "mtcoronet": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Northern Side",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mtcoronetnorth1f"
+                ]
+              }
+            },
+            {
+              "title": "B1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mtcoronetnorthb1f"
+                ]
+              }
+            },
+            {
+              "title": "Exit",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mtcoronetnorthexit"
+                ]
+              }
+            },
+            {
+              "title": "Iceberg Ruins",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "icebergruins"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Southern Side",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mtcoronetsouth1f"
+                ]
+              }
+            },
+            {
+              "title": "2F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mtcoronetsouth2f"
+                ]
+              }
+            },
+            {
+              "title": "3F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mtcoronetsouth3f"
+                ]
+              }
+            },
+            {
+              "title": "Outside",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mtcoronetsouthoutside"
+                ]
+              }
+            },
+            {
+              "title": "Tunnel",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mtcoronetsouthtunnel"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Upper Floors",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "4F",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Main",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mtcoronetupper4fmain"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Back",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mtcoronetupper4fback"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Right",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mtcoronetupper4fright"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "5F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mtcoronetupper5f"
+                ]
+              }
+            },
+            {
+              "title": "6F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mtcoronetupper6f"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Spear Pillar",
+        "content": {
+          "type": "map",
+          "maps": [
+            "spearpillar"
+          ]
+        }
+      },
+      {
+        "title": "Distortion World",
+        "content": {
+          "type": "map",
+          "maps": [
+            "distortionworld"
+          ]
+        }
+      }
+    ]
+  }
 }

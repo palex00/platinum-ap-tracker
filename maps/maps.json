@@ -556,5 +556,455 @@
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/pokemonmansion.png"
+    },
+    {
+        "name": "trophygarden",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/trophygarden.png"
+    },
+    {
+        "name": "losttower1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/losttower1f.png"
+    },
+    {
+        "name": "losttower2f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/losttower2f.png"
+    },
+    {
+        "name": "losttower3f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/losttower3f.png"
+    },
+    {
+        "name": "losttower4f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/losttower4f.png"
+    },
+    {
+        "name": "losttower5f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/losttower5f.png"
+    },
+    {
+        "name": "solaceonruins2f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/solaceonruins2f.png"
+    },
+    {
+        "name": "solaceonruins1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/solaceonruins1f.png"
+    },
+    {
+        "name": "solaceonruinsb1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/solaceonruinsb1f.png"
+    },
+    {
+        "name": "solaceonruinsb2f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/solaceonruinsb2f.png"
+    },
+    {
+        "name": "solaceonruinsb3f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/solaceonruinsb3f.png"
+    },
+    {
+        "name": "solaceonruinsb4f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/solaceonruinsb4f.png"
+    },
+    {
+        "name": "galacticwharehouse1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/galacticwharehouse1f.png"
+    },
+    {
+        "name": "galacticwharehouseb1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/galacticwharehouseb1f.png"
+    },
+    {
+        "name": "galacticwharehouseb2f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/galacticwharehouseb2f.png"
+    },
+    {
+        "name": "galactichq1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/galactichq1f.png"
+    },
+    {
+        "name": "galactichq2f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/galactichq2f.png"
+    },
+    {
+        "name": "galactichq3f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/galactichq3f.png"
+    },
+    {
+        "name": "galactichqcyrusoffice",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/galactichqcyrusoffice.png"
+    },
+    {
+        "name": "galactichqhall",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/galactichqhall.png"
+    },
+    {
+        "name": "galactichqmachineroom",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/galactichqmachineroom.png"
+    },
+    {
+        "name": "maniactunnel1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/maniactunnel1.png"
+    },
+    {
+        "name": "maniactunnel2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/maniactunnel2.png"
+    },
+    {
+        "name": "maniactunnel3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/maniactunnel3.png"
+    },
+    {
+        "name": "greatmarsh",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/greatmarsh.png"
+    },
+    {
+        "name": "ironislandoutside",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ironislandoutside.png"
+    },
+    {
+        "name": "ironisland1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ironisland1f.png"
+    },
+    {
+        "name": "ironislandb1fleft",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ironislandb1fleft.png"
+    },
+    {
+        "name": "ironislandb1fright",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ironislandb1fright.png"
+    },
+    {
+        "name": "ironislandb2fleft",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ironislandb2fleft.png"
+    },
+    {
+        "name": "ironislandb2fright",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ironislandb2fright.png"
+    },
+    {
+        "name": "ironislandb3f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ironislandb3f.png"
+    },
+    {
+        "name": "ironruins",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ironruins.png"
+    },
+    {
+        "name": "acuitylakefront",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/acuitylakefront.png"
+    },
+    {
+        "name": "acuitylake",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/acuitylake.png"
+    },
+    {
+        "name": "valorlakefrontnorth",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route213valorlakefront.png"
+    },
+    {
+        "name": "valorlakefrontsouth",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route213valorlakefront.png"
+    },
+    {
+        "name": "valorlake",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/valorlake.png"
+    },
+    {
+        "name": "valorlakedrained",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/valorlakedrained.png"
+    },
+    {
+        "name": "victoryroad1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/victoryroad1f.png"
+    },
+    {
+        "name": "victoryroadb1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/victoryroadb1f.png"
+    },
+    {
+        "name": "victoryroad2f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/victoryroad2f.png"
+    },
+    {
+        "name": "victoryroadsidecaveentrance",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/victoryroadsidecaveentrance.png"
+    },
+    {
+        "name": "victoryroadsidecavefoggybasement",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/victoryroadsidecavefoggybasement.png"
+    },
+    {
+        "name": "victoryroadsidecaveexit",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/victoryroadsidecaveexit.png"
+    },
+    {
+        "name": "snowpointtemple1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/snowpointtemple1f.png"
+    },
+    {
+        "name": "snowpointtempleb1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/snowpointtempleb1f.png"
+    },
+    {
+        "name": "snowpointtempleb2f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/snowpointtempleb2f.png"
+    },
+    {
+        "name": "snowpointtempleb3f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/snowpointtempleb3f.png"
+    },
+    {
+        "name": "snowpointtempleb4f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/snowpointtempleb4f.png"
+    },
+    {
+        "name": "snowpointtempleb5f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/snowpointtempleb5f.png"
+    },
+    {
+        "name": "palpark",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/palpark.png"
+    },
+    {
+        "name": "rockpeakruins",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/rockpeakruins.png"
+    },
+    {
+        "name": "starkmountainoutside",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/starkmountainoutside.png"
+    },
+    {
+        "name": "starkmountainentrance",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/starkmountainentrance.png"
+    },
+    {
+        "name": "starkmountaincavern",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/starkmountaincavern.png"
+    },
+    {
+        "name": "starkmountainheatransroom",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/starkmountainheatransroom.png"
+    },
+    {
+        "name": "mtcoronetnorth1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mtcoronetnorth1f.png"
+    },
+    {
+        "name": "mtcoronetnorthb1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mtcoronetnorthb1f.png"
+    },
+    {
+        "name": "mtcoronetnorthexit",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mtcoronetnorthexit.png"
+    },
+    {
+        "name": "icebergruins",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/icebergruins.png"
+    },
+    {
+        "name": "mtcoronetsouth1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mtcoronetsouth1f.png"
+    },
+    {
+        "name": "mtcoronetsouth2f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mtcoronetsouth2f.png"
+    },
+    {
+        "name": "mtcoronetsouth3f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mtcoronetsouth3f.png"
+    },
+    {
+        "name": "mtcoronetsouthoutside",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mtcoronetsouthoutside.png"
+    },
+    {
+        "name": "mtcoronetsouthtunnel",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mtcoronetsouthtunnel.png"
+    },
+    {
+        "name": "mtcoronetupper4fmain",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mtcoronetupper4fmain.png"
+    },
+    {
+        "name": "mtcoronetupper4fback",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mtcoronetupper4fback.png"
+    },
+    {
+        "name": "mtcoronetupper4fright",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mtcoronetupper4fright.png"
+    },
+    {
+        "name": "mtcoronetupper5f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mtcoronetupper5f.png"
+    },
+    {
+        "name": "mtcoronetupper6f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mtcoronetupper6f.png"
+    },
+    {
+        "name": "spearpillar",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/spearpillar.png"
+    },
+    {
+        "name": "distortionworld",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/distortionworld.png"
+    },
+    {
+        "name": "fullmoonislandoutside",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/fullmoonislandoutside.png"
+    },
+    {
+        "name": "fullmoonislandinside",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/fullmoonislandinside.png"
     }
 ]

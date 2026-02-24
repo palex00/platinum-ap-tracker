@@ -55,32 +55,22 @@
                                     }
                                 },
                                 {
-                                    "title": "Dungeons A",
+                                    "title": "Dungeons",
                                     "content": {
                                         "type": "dock",
                                         "content": {
                                             "type": "layout",
-                                            "key": "dungeons_a"
+                                            "key": "dungeons"
                                         }
                                     }
                                 },
                                 {
-                                    "title": "Dungeons B",
+                                    "title": "Mt. Coronet",
                                     "content": {
                                         "type": "dock",
                                         "content": {
                                             "type": "layout",
-                                            "key": "dungeons_b"
-                                        }
-                                    }
-                                },
-                                {
-                                    "title": "Others",
-                                    "content": {
-                                        "type": "dock",
-                                        "content": {
-                                            "type": "layout",
-                                            "key": "others"
+                                            "key": "mtcoronet"
                                         }
                                     }
                                 }
