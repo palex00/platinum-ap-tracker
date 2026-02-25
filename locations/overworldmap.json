@@ -9216,7 +9216,7 @@
         ],
         "sections": [
             {
-                "name": "B1F - Item Behind Boulder",
+                "name": "Item Behind Boulder",
                 "access_rules": [
                     "@mt_coronet_b1f, $strength"
                 ],
@@ -9226,7 +9226,7 @@
                 "item_count": 1
             },
             {
-                "name": "B1F - Item Behind West Boulder",
+                "name": "Item Behind West Boulder",
                 "access_rules": [
                     "@mt_coronet_b1f, $strength, $rock_smash"
                 ],
@@ -9236,7 +9236,7 @@
                 "item_count": 1
             },
             {
-                "name": "B1F - Item in Middle of Lake",
+                "name": "Item in Middle of Lake",
                 "access_rules": [
                     "@mt_coronet_b1f, $surf"
                 ],
@@ -9246,7 +9246,7 @@
                 "item_count": 1
             },
             {
-                "name": "B1F - Item in Northeast Corner of Lake",
+                "name": "Item in Northeast Corner of Lake",
                 "access_rules": [
                     "@mt_coronet_b1f, $surf",
                     "@mt_coronet_b1f, $rock_smash"
@@ -9257,7 +9257,7 @@
                 "item_count": 1
             },
             {
-                "name": "B1F - Item Against East Wall",
+                "name": "Item Against East Wall",
                 "access_rules": [
                     "@mt_coronet_b1f, $rock_smash"
                 ],
@@ -9267,7 +9267,7 @@
                 "item_count": 1
             },
             {
-                "name": "B1F - Item in SW Corner",
+                "name": "Item in SW Corner",
                 "access_rules": [
                     "@mt_coronet_b1f, $rock_smash"
                 ],
@@ -9277,7 +9277,7 @@
                 "item_count": 1
             },
             {
-                "name": "B1F - Hidden Item Between White Rocks in North",
+                "name": "Hidden Item Between White Rocks in North",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -9289,7 +9289,7 @@
                 "item_count": 1
             },
             {
-                "name": "B1F - Hidden Item in Front of North Stairs",
+                "name": "Hidden Item in Front of North Stairs",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -9301,7 +9301,7 @@
                 "item_count": 1
             },
             {
-                "name": "B1F - Hidden Item Behind Breakable Rock West of Lake",
+                "name": "Hidden Item Behind Breakable Rock West of Lake",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -9313,7 +9313,7 @@
                 "item_count": 1
             },
             {
-                "name": "B1F - Hidden Item in SW White Rock",
+                "name": "Hidden Item in SW White Rock",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
