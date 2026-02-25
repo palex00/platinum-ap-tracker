@@ -1824,6 +1824,15 @@
           "type": "tabbed",
           "tabs": [
             {
+              "title": "Tunnel",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mtcoronetsouthtunnel"
+                ]
+              }
+            },
+            {
               "title": "1F",
               "content": {
                 "type": "map",
@@ -1842,7 +1851,7 @@
               }
             },
             {
-              "title": "Exit",
+              "title": "R216 Path",
               "content": {
                 "type": "map",
                 "maps": [
@@ -1902,15 +1911,6 @@
                   "mtcoronetsouthoutside"
                 ]
               }
-            },
-            {
-              "title": "Tunnel",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "mtcoronetsouthtunnel"
-                ]
-              }
             }
           ]
         }
@@ -1926,7 +1926,7 @@
                 "type": "tabbed",
                 "tabs": [
                   {
-                    "title": "Main",
+                    "title": "Left",
                     "content": {
                       "type": "map",
                       "maps": [

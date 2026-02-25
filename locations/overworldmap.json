@@ -9154,7 +9154,7 @@
         ]
     },
     {
-        "name": "Mt. Coronet Path to R216",
+        "name": "Mt. Coronet R216 Path",
         "chest_unopened_img": "/images/locations/ball.png",
         "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
@@ -9163,51 +9163,11 @@
         ],
         "sections": [
             {
-                "name": "2F - Item in Top Left",
-                "access_rules": [
-                    "@mt_coronet_2f_left"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "2F - Item in Center",
-                "access_rules": [
-                    "@mt_coronet_2f_right"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "2F - Item in Bottom Left Path",
-                "access_rules": [
-                    "@mt_coronet_2f_left"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "2F - Item Between White Rocks",
-                "access_rules": [
-                    "@mt_coronet_2f_left"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "2F - Hidden Item on Rock Down East Staircase After Mural",
+                "name": "Hidden Item on Left White Rock",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "^$hidden, @mt_coronet_2f_left, event_galactic_hq_defeat_cyrus, @galactic_hq_w_key"
+                    "^$hidden, @mt_coronet_1f_north_room_2"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -9215,27 +9175,46 @@
                 "item_count": 1
             },
             {
-                "name": "2F - Hidden Item on Center Boulder",
+                "name": "Iceberg Ruins - Item in Center",
+                "access_rules": [
+                    "@mt_coronet_iceberg_ruins"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Iceberg Ruins - Hidden Item Up and Left of Center",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "^$hidden, @mt_coronet_2f_right"
+                    "^$hidden, @mt_coronet_iceberg_ruins"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
                 ],
                 "item_count": 1
-            },
+            }
+        ],
+        "map_locations": [
             {
-                "name": "2F - Gift from Looker",
-                "access_rules": [
-                    "@mt_coronet_2f_left, event_galactic_hq_defeat_cyrus, @galactic_hq_w_key"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
-                ],
-                "item_count": 1
-            },
+                "map": "Sinnoh",
+                "x": 178,
+                "y": 98,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Mt. Coronet B1F",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
             {
                 "name": "B1F - Item Behind Boulder",
                 "access_rules": [
@@ -9344,53 +9323,19 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
-            },
-            {
-                "name": "Exit to Route 216 Room - Hidden Item on Left White Rock",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_1f_north_room_2"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Iceberg Ruins - Item in Center",
-                "access_rules": [
-                    "@mt_coronet_iceberg_ruins"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Iceberg Ruins - Hidden Item Up and Left of Center",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_iceberg_ruins"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
             }
         ],
         "map_locations": [
             {
                 "map": "Sinnoh",
                 "x": 178,
-                "y": 98,
+                "y": 126,
                 "size": 7
             }
         ]
     },
     {
-        "name": "Mt. Coronet Main",
+        "name": "Mt. Coronet Upper Floors",
         "chest_unopened_img": "/images/locations/ball.png",
         "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
@@ -9398,78 +9343,6 @@
             " "
         ],
         "sections": [
-            {
-                "name": "3F - Hidden Item in Top Left in Room After Mural",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_3f"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Outside 1 - Hidden Item Behind Breakable Rock",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_outside_south, $rock_smash"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Outside 1 - Hidden Item in SE Grass",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_outside_south_entrance"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Outside 1 - Hidden Item in Big Grass Patch",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_outside_south"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Outside 1 - Hidden Item in Grass Above Upper Rock Climb Slope",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_outside_north_plat"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Outside 1 - Hidden Item on Rock in Grass Above Upper Rock Climb Slope",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, $rock_smash"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
             {
                 "name": "4F Room Above Waterfall - Item 1",
                 "access_rules": [
@@ -9623,150 +9496,6 @@
                 "item_count": 1
             },
             {
-                "name": "Outside 2 - Hidden Item in Corner Behind Breakable Rock",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_outside_north_plat"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Outside 2 - Hidden Item on Northmost Rock",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_outside_north"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Outside 2 - Hidden Item on Ledge Without Grass",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_outside_north"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Outside 2 - Hidden Item on Rock in Grass",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_outside_north"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Outside 2 - Hidden Item in Grass North of Strength Boulder",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_outside_north"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Outside 2 - Hidden Item in Corner By NW Exit",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_outside_north"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Tunnel to 1F - Hidden Item Behind Breakable Rock on Left",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_1f_tunnel_room, $rock_smash, $rock_climb"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Tunnel to 1F - Hidden Item on Corner White Rock Before Exit",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_1f_tunnel_room_base, $rock_smash"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Tunnel to 1F - Hidden Item Above Big White Rock",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_1f_tunnel_room_base, $rock_smash"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Tunnel to 1F - Hidden Item Before Exit",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_1f_tunnel_room_base"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Tunnel to 1F - Hidden Item on Right Path",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_1f_tunnel_room, $rock_climb"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Tunnel to 1F - Hidden Item in White Rock on South Ledge",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "^$hidden, @mt_coronet_1f_tunnel_room, $rock_climb"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Spear Pillar - Clear the Distortion World (Event)",
                 "access_rules": [
                     "@distortion_world"
@@ -9787,7 +9516,98 @@
         ]
     },
     {
-        "name": "Mt. Coronet (Route 211 Tunnel)",
+        "name": "Mt. Coronet Tunnel",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "Hidden Item Behind Breakable Rock on Left",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_1f_tunnel_room, $rock_smash, $rock_climb"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item on Corner White Rock Before Exit",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_1f_tunnel_room_base, $rock_smash"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item Above Big White Rock",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_1f_tunnel_room_base, $rock_smash"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item Before Exit",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_1f_tunnel_room_base"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item on Right Path",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_1f_tunnel_room, $rock_climb"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item in White Rock on South Ledge",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_1f_tunnel_room, $rock_climb"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 178,
+                "y": 175,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Mt. Coronet 1F North",
         "chest_unopened_img": "/images/locations/ball.png",
         "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
@@ -9916,7 +9736,263 @@
         ]
     },
     {
-        "name": "Mt. Coronet (Routes 207-208 Room)",
+        "name": "Mt. Coronet Outside",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "Outside 1 - Hidden Item Behind Breakable Rock",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_outside_south, $rock_smash"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Outside 1 - Hidden Item in SE Grass",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_outside_south_entrance"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Outside 1 - Hidden Item in Big Grass Patch",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_outside_south"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Outside 1 - Hidden Item in Grass Above Upper Rock Climb Slope",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_outside_north_plat"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Outside 1 - Hidden Item on Rock in Grass Above Upper Rock Climb Slope",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, $rock_smash"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Outside 2 - Hidden Item in Corner Behind Breakable Rock",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_outside_north_plat"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Outside 2 - Hidden Item on Northmost Rock",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_outside_north"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Outside 2 - Hidden Item on Ledge Without Grass",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_outside_north"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Outside 2 - Hidden Item on Rock in Grass",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_outside_north"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Outside 2 - Hidden Item in Grass North of Strength Boulder",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_outside_north"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Outside 2 - Hidden Item in Corner By NW Exit",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_outside_north"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 164,
+                "y": 196,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Mt. Coronet 2F-3F",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "2F - Item in Top Left",
+                "access_rules": [
+                    "@mt_coronet_2f_left"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Item in Center",
+                "access_rules": [
+                    "@mt_coronet_2f_right"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Item in Bottom Left Path",
+                "access_rules": [
+                    "@mt_coronet_2f_left"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Item Between White Rocks",
+                "access_rules": [
+                    "@mt_coronet_2f_left"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Hidden Item on Rock Down East Staircase After Mural",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_2f_left, event_galactic_hq_defeat_cyrus, @galactic_hq_w_key"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Hidden Item on Center Boulder",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_2f_right"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Gift from Looker",
+                "access_rules": [
+                    "@mt_coronet_2f_left, event_galactic_hq_defeat_cyrus, @galactic_hq_w_key"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Hidden Item in Top Left in Room After Mural",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "^$hidden, @mt_coronet_3f"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 164,
+                "y": 217,
+                "size": 7
+            }
+        ]
+    },
+    {
+        "name": "Mt. Coronet 1F South",
         "chest_unopened_img": "/images/locations/ball.png",
         "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
