@@ -90,7 +90,7 @@ function onClear(slot_data)
         elseif k == "trainersanity_trainers" then
             if #v == 0 then
                 TRAINERS:setType("none")
-            elseif #v == 537 then
+            elseif #v == 457 then
                 TRAINERS:setType("full")
             else
                 TRAINERS:setType("partial")
@@ -210,65 +210,67 @@ function onItem(index, item_id, item_name, player_number)
     end
 end
 
--- tables to track usage
-local missing_mappings = {}   -- location_ids passed to function but not in LOCATION_MAPPING
-local called_mappings  = {}   -- mappings that were actually used
+-- This is a debug to be used so you can check if there's locations that exist in either
+-- the pack or the game (fullsanity seed) that don't in the tracker
+------ tables to track usage
+----local missing_mappings = {}   -- location_ids passed to function but not in LOCATION_MAPPING
+----local called_mappings  = {}   -- mappings that were actually used
+----
+----function onLocation(location_id, location_name)
+----    local location_array = LOCATION_MAPPING[location_id]
+----
+----    -- mark this id as called
+----    called_mappings[location_id] = true
+----
+----    -- no mapping exists
+----    if not location_array then
+----        missing_mappings[location_id] = true
+----        return
+----    end
+----
+----    for _, location in pairs(location_array) do
+----        -- (code)
+----    end
+----end
+----
+------ call this when processing is finished
+----function printLocationReport()
+----    print("=== Missing LOCATION_MAPPING ===")
+----    for id, _ in pairs(missing_mappings) do
+----        print(id)
+----    end
+----
+----    print("=== LOCATION_MAPPING never called ===")
+----    for id, _ in pairs(LOCATION_MAPPING) do
+----        if not called_mappings[id] then
+----            print(id)
+----        end
+----    end
+----end
 
+
+--called when a location gets cleared
 function onLocation(location_id, location_name)
     local location_array = LOCATION_MAPPING[location_id]
-
-    -- mark this id as called
-    called_mappings[location_id] = true
-
-    -- no mapping exists
-    if not location_array then
-        missing_mappings[location_id] = true
+    if not location_array or not location_array[1] then
+        print(string.format("onLocation: could not find location mapping for id %s", location_id))
         return
     end
 
     for _, location in pairs(location_array) do
-        -- (code)
-    end
-end
-
--- call this when processing is finished
-function printLocationReport()
-    print("=== Missing LOCATION_MAPPING ===")
-    for id, _ in pairs(missing_mappings) do
-        print(id)
-    end
-
-    print("=== LOCATION_MAPPING never called ===")
-    for id, _ in pairs(LOCATION_MAPPING) do
-        if not called_mappings[id] then
-            print(id)
+        local location_obj = Tracker:FindObjectForCode(location)
+        -- print(location, location_obj)
+        if location_obj then
+            if location:sub(1, 1) == "@" then
+                location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
+            else
+                location_obj.Active = true
+            end
+        else
+            print(string.format("onLocation: could not find location_object for code %s", location))
         end
     end
 end
-
-
---called when a location gets cleared
---function onLocation(location_id, location_name)
---    local location_array = LOCATION_MAPPING[location_id]
---    if not location_array or not location_array[1] then
---        print(string.format("onLocation: could not find location mapping for id %s", location_id))
---        return
---    end
---
---    for _, location in pairs(location_array) do
---        local location_obj = Tracker:FindObjectForCode(location)
---        -- print(location, location_obj)
---        if location_obj then
---            if location:sub(1, 1) == "@" then
---                location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
---            else
---                location_obj.Active = true
---            end
---        else
---            print(string.format("onLocation: could not find location_object for code %s", location))
---        end
---    end
---end
 
 function onNotify(key, value, old_value)
     if value ~= nil and value ~= 0 and old_value ~= value then
