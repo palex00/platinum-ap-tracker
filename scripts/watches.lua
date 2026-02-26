@@ -11,7 +11,7 @@ ScriptHost:AddWatchForCode("opt_ssticket", "opt_ssticket", toggle_itemgrid)
 ScriptHost:AddWatchForCode("opt_marsh_pass", "opt_marsh_pass", toggle_itemgrid)
 ScriptHost:AddWatchForCode("opt_storage_key", "opt_storage_key", toggle_itemgrid)
 ScriptHost:AddWatchForCode("opt_unown", "opt_unown", toggle_itemgrid)
-ScriptHost:AddWatchForCode("splitmap", "splitmap", printLocationReport)
+ScriptHost:AddWatchForCode("splitmap", "splitmap", toggle_splitmap)
 ScriptHost:AddWatchForCode("opt_pastoria_barriers", "opt_pastoria_barriers", toggle_pastoriabarriers)
 
 -- Debug

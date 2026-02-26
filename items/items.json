@@ -56,7 +56,7 @@
                 "codes": "hm01cut",
                 "img": "images/items/hm01_cut.png",
                 "img_mods": "overlay|images/items/overlays/badge2_overlay.png",
-				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge2_overlay.png"
+                "disabled_img_mods": "@disabled,overlay|images/items/overlays/badge2_overlay.png"
             },
             {
                 "name": "HM01 Cut - No Badge Requirement",
@@ -74,7 +74,7 @@
                 "codes": "hm02fly",
                 "img": "images/items/hm02_fly.png",
                 "img_mods": "overlay|images/items/overlays/badge3_overlay.png",
-				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge3_overlay.png"
+                "disabled_img_mods": "@disabled,overlay|images/items/overlays/badge3_overlay.png"
             },
             {
                 "name": "HM02 Fly - No Badge Requirement",
@@ -92,7 +92,7 @@
                 "codes": "hm03surf",
                 "img": "images/items/hm03_surf.png",
                 "img_mods": "overlay|images/items/overlays/badge4_overlay.png",
-				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge4_overlay.png"
+                "disabled_img_mods": "@disabled,overlay|images/items/overlays/badge4_overlay.png"
             },
             {
                 "name": "HM03 Surf - No Badge Requirement",
@@ -110,7 +110,7 @@
                 "codes": "hm04strength",
                 "img": "images/items/hm04_strength.png",
                 "img_mods": "overlay|images/items/overlays/badge6_overlay.png",
-				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge6_overlay.png"
+                "disabled_img_mods": "@disabled,overlay|images/items/overlays/badge6_overlay.png"
             },
             {
                 "name": "HM04 Strength - No Badge Requirement",
@@ -128,7 +128,7 @@
                 "codes": "hm05defog",
                 "img": "images/items/hm05_defog.png",
                 "img_mods": "overlay|images/items/overlays/badge5_overlay.png",
-				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge5_overlay.png"
+                "disabled_img_mods": "@disabled,overlay|images/items/overlays/badge5_overlay.png"
             },
             {
                 "name": "HM05 Defog - No Badge Requirement",
@@ -146,7 +146,7 @@
                 "codes": "hm06rocksmash",
                 "img": "images/items/hm06_rocksmash.png",
                 "img_mods": "overlay|images/items/overlays/badge1_overlay.png",
-				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge1_overlay.png"
+                "disabled_img_mods": "@disabled,overlay|images/items/overlays/badge1_overlay.png"
             },
             {
                 "name": "HM06 Rock Smash - No Badge Requirement",
@@ -164,7 +164,7 @@
                 "codes": "hm07waterfall",
                 "img": "images/items/hm07_waterfall.png",
                 "img_mods": "overlay|images/items/overlays/badge8_overlay.png",
-				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge8_overlay.png"
+                "disabled_img_mods": "@disabled,overlay|images/items/overlays/badge8_overlay.png"
             },
             {
                 "name": "HM07 Waterfall - No Badge Requirement",
@@ -182,7 +182,7 @@
                 "codes": "hm08rockclimb",
                 "img": "images/items/hm08_rockclimb.png",
                 "img_mods": "overlay|images/items/overlays/badge7_overlay.png",
-				"disabled_img_mods": "@disabled,overlay|images/items/overlays/badge7_overlay.png"
+                "disabled_img_mods": "@disabled,overlay|images/items/overlays/badge7_overlay.png"
             },
             {
                 "name": "HM08 Rock Climb - No Badge Requirement",
@@ -348,5 +348,59 @@
         "type": "toggle",
         "img": "images/items/update.png",
         "codes": "update"
+    },
+    {
+        "name": "Sapphire Cartridge",
+        "type": "toggle",
+        "img": "images/items/cartridgesapphire.png",
+        "codes": "sapphirecartridge"
+    },
+    {
+        "name": "Ruby Cartridge",
+        "type": "toggle",
+        "img": "images/items/cartridgeruby.png",
+        "codes": "rubycartridge"
+    },
+    {
+        "name": "Emerald Cartridge",
+        "type": "toggle",
+        "img": "images/items/cartridgeemerald.png",
+        "codes": "emeraldcartridge"
+    },
+    {
+        "name": "Fire Red Cartridge",
+        "type": "toggle",
+        "img": "images/items/cartridgefirered.png",
+        "codes": "fireredcartridge"
+    },
+    {
+        "name": "Leaf Green Cartridge",
+        "type": "toggle",
+        "img": "images/items/cartridgeleafgreen.png",
+        "codes": "leafgreencartridge"
+    },
+    {
+        "name": "Daytime",
+        "type": "toggle",
+        "img": "images/items/day.png",
+        "codes": "daytime"
+    },
+    {
+        "name": "Nighttime",
+        "type": "toggle",
+        "img": "images/items/night.png",
+        "codes": "nighttime"
+    },
+    {
+        "name": "Tree Camera",
+        "type": "toggle",
+        "img": "images/items/treecamera.png",
+        "codes": "treecamera"
+    },
+    {
+        "name": "PokeSonar",
+        "type": "toggle",
+        "img": "images/items/pokesonar.png",
+        "codes": "pokesonar"
     }
 ]
