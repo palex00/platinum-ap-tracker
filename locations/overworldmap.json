@@ -326,6 +326,94 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Bird Keeper Audrey",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328234"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Dragon Tamer Geoffrey",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328237"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Rodolfo",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328243"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Quinn",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328247"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Deanna",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328253"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Psychic Daisy",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328265"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ranger Dwayne",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328273"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ranger Ashlee",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328274"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -649,6 +737,314 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "2F - Ace Trainer Omar",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327904"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F - Ace Trainer Henry",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327905"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Ace Trainer Mariah",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327906"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Ace Trainer Sydney",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327907"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Veteran Edgar",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327908"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Veteran Clayton",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327909"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F - Dragon Tamer Ondrej",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327910"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Dragon Tamer Clinton",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327911"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Bird Keeper Hana",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327913"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Psychic Bryce",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327914"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F - Psychic Valencia",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327915"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F - Double Team Jo And Pat",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327916"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Double Team Al And Kay",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327917"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Bird Keeper Autumn",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328053"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Dragon Tamer Joe",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328066"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Ace Trainer Micah",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328069"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Ace Trainer Arthur",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328070"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Ace Trainer Brandi",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328073"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Ace Trainer Clarice",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328074"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Psychic Landon",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328076"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Psychic Deandre",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328077"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Psychic Desiree",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328079"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Psychic Kendra",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328080"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Black Belt Miles",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328124"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Black Belt Eddie",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328126"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Black Belt Willie",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328127"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Veteran Terrell",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328179"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Veteran Brenden",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328180"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -690,6 +1086,127 @@
                     ""
                 ],
                 "hosted_item": "event_defeat_cynthia"
+            },
+            {
+                "name": "Elite Four Aaron",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327941"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Elite Four Bertha",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327942"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Elite Four Flint",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327943"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Elite Four Lucian",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327944"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Champion Cynthia",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327947"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Rival",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328160"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Elite Four Aaron Rematch",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328546"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Elite Four Bertha Rematch",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328547"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Elite Four Flint Rematch",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328548"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Elite Four Lucian Rematch",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328549"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Champion Cynthia Rematch",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328550"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -943,6 +1460,17 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Rival 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328518"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -1081,6 +1609,61 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Bird Keeper Geneva",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328235"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Dragon Tamer Stanley",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328240"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Graham",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328248"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Wade",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328280"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Lydia",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328284"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -1152,6 +1735,50 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Saul",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328244"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Mikayla",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328256"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Belt Griffin",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328268"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ranger Felicia",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328275"
                 ],
                 "item_count": 1
             }
@@ -1318,6 +1945,94 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Dragon Tamer Keegan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328239"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Jose",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328245"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Moira",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328254"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Meagan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328257"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Psychic Corbin",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328263"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Belt Davon",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328267"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ranger Kyler",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328271"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ranger Krista",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328276"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -1381,6 +2096,72 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Swimmer Glenn",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328277"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Kurt",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328278"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Sam",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328279"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Joanna",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328281"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Sophia",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328282"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Mallory",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328283"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -1434,7 +2215,7 @@
                 "item_count": 1
             },
             {
-                "name": "Cave - HM03 from Cynthias Grandmother​",
+                "name": "Cave - HM03 from Cynthias Grandmother\u200b",
                 "access_rules": [
                     "@celestic_town_cave, oldcharm"
                 ],
@@ -1490,6 +2271,28 @@
                 ],
                 "visibility_rules": [
                     ""
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328096"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Cave - Galactic Boss Cyrus",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328593"
                 ],
                 "item_count": 1
             }
@@ -1571,6 +2374,50 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Felix",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328246"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Dana",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328255"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Sandra",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328258"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ranger Deshawn",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328272"
                 ],
                 "item_count": 1
             }
@@ -1657,7 +2504,7 @@
                 "item_count": 1
             },
             {
-                "name": "Bag in Player's Bedroom​",
+                "name": "Bag in Player's Bedroom\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -1697,7 +2544,7 @@
                 "item_count": 1
             },
             {
-                "name": "Parcel from Rivals Mom​",
+                "name": "Parcel from Rivals Mom\u200b",
                 "access_rules": [
                     "@twinleaf_town_player_house_1f"
                 ],
@@ -1717,7 +2564,7 @@
                 "item_count": 1
             },
             {
-                "name": "S.S. Ticket from Mom (After Defeating Champion)​",
+                "name": "S.S. Ticket from Mom (After Defeating Champion)\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -1776,6 +2623,61 @@
                     ""
                 ],
                 "hosted_item": "event_clear_lakeverity"
+            },
+            {
+                "name": "Commander Mars",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328085"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328099"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 3",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328100"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328106"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 4",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328107"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -1839,7 +2741,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Fen Badge from Crasher Wake​",
+                "name": "Gym - Fen Badge from Crasher Wake\u200b",
                 "access_rules": [
                     "@pastoria_city_gym"
                 ],
@@ -1875,6 +2777,94 @@
                 ],
                 "visibility_rules": [
                     "opt_accessories_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Fisherman Erick",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327973"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Leader Wake",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327996"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Sailor Damian",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328019"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Fisherman Walter",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328081"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Rival",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328154"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Sailor Samson",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328163"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Tuber Jacky",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328177"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Tuber Caitlyn",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328178"
                 ],
                 "item_count": 1
             }
@@ -2142,7 +3132,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM04 from Riley​",
+                "name": "HM04 from Riley\u200b",
                 "access_rules": [
                     "@iron_island"
                 ],
@@ -2158,6 +3148,160 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Left - Battle Girl Tyler",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328052"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F Left - Camper Lawrence",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328058"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Left - Ace Trainer Jonah",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328068"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Left - Ace Trainer Brenda",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328072"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Left - Black Belt Kendal",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328125"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Left - Hiker Damon",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328132"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Left - Hiker Maurice",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328133"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F Right - Picnicker Summer",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328137"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Right - Worker Noel",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328183"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Right - Worker Braden",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328184"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Left - Worker Brendon",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328185"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Left - Worker Quentin",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328186"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328515"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328516"
                 ],
                 "item_count": 1
             }
@@ -2213,6 +3357,28 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fisherman Kenneth",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327791"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Beauty Cyndy",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328026"
                 ],
                 "item_count": 1
             }
@@ -2402,7 +3568,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Suite Key By Reception​",
+                "name": "Hidden Suite Key By Reception\u200b",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -2456,6 +3622,83 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Swimmer Sheltin",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327783"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Evan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327784"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Haley",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327785"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Mary",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327786"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Tuber Jared",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327787"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Tuber Chelsea",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327788"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Sailor Paul",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327790"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -2495,6 +3738,28 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Tuber Trenton",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328038"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Tuber Mariel",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328040"
                 ],
                 "item_count": 1
             }
@@ -2614,6 +3879,72 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Dillon",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327846"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Vanessa",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327847"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fisherman Cory",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327848"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Jake",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327850"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Shannon",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327851"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Collector Ivan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327954"
                 ],
                 "item_count": 1
             }
@@ -2871,6 +4202,215 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Bird Keeper Krystal",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328236"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Exterior - Dragon Tamer Darien",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328238"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Dragon Tamer Drake",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328241"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Dragon Tamer Kenny",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328242"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Keenan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328249"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Stefan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328250"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Skylar",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328251"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Abel",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328252"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Kassandra",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328259"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Jasmin",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328260"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Natasha",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328261"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Monique",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328262"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Psychic Sterling",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328264"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Psychic Chelsey",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328266"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Belt Ray",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328269"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Belt Jarrett",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328270"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Veteran Harlan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328286"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Commander Mars",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328606"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Commander Jupiter",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328607"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -2965,6 +4505,94 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Rich Boy Jason",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327762"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Lady Melissa",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327763"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gentleman Jeremy",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327764"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Socialite Reina",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327765"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Policeman Bobby",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327768"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Policeman Alex",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327769"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Policeman Dylan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327770"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Policeman Caleb",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327782"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -3047,6 +4675,94 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fisherman Juan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327771"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fisherman Josh",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327772"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fisherman Travis",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327773"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ranger Jeffrey",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327775"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ranger Allison",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327776"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Scientist Stefano",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327779"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Collector Dean",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328061"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Policeman Danny",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328012"
                 ],
                 "item_count": 1
             }
@@ -3190,6 +4906,50 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Parasol Lady Alexa",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328007"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ranger Taylor",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327774"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Scientist Shaun",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328166"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Parasol Lady Sabrina",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328008"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -3293,6 +5053,83 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Hiker Robert",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327719"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hiker Alexander",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327720"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hiker Jonathan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327721"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Belt Kyle",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327722"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fisherman Cody",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327723"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Aroma Lady Hannah",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327724"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Artist William",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327725"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -3346,7 +5183,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Relic Badge From Fantina​",
+                "name": "Gym - Relic Badge From Fantina\u200b",
                 "access_rules": [
                     "@hearthome_city_gym_leader_room"
                 ],
@@ -3392,6 +5229,83 @@
                 ],
                 "visibility_rules": [
                     "opt_accessories_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Ace Trainer Allen",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327960"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Ace Trainer Catherine",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327964"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Leader Fantina",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327998"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Lass Molly",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328005"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - School Kid Chance",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328020"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - School Kid Mackenzie",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328023"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Youngster Donny",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328037"
                 ],
                 "item_count": 1
             }
@@ -3455,6 +5369,83 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Swimmer Adrian",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327839"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Erik",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327840"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Vincent",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327841"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Jessica",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327842"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Erica",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327843"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Katelyn",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327844"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Claire",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328174"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -3492,6 +5483,39 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Youngster Tristan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327681"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Youngster Logan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327682"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Lass Natalie",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327683"
                 ],
                 "item_count": 1
             }
@@ -3557,7 +5581,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gate to Route 218 - Old Rod from Fisherman​",
+                "name": "Gate to Route 218 - Old Rod from Fisherman\u200b",
                 "access_rules": [
                     "@route_218_gate_to_jubilife_city"
                 ],
@@ -3607,7 +5631,7 @@
                 "item_count": 1
             },
             {
-                "name": "Coupon from East Clown​",
+                "name": "Coupon from East Clown\u200b",
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
@@ -3627,7 +5651,7 @@
                 "item_count": 1
             },
             {
-                "name": "Coupon from Clown in front of Poketch HQ​",
+                "name": "Coupon from Clown in front of Poketch HQ\u200b",
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
@@ -3647,7 +5671,7 @@
                 "item_count": 1
             },
             {
-                "name": "Coupon from Clown in front of Jubilife TV​",
+                "name": "Coupon from Clown in front of Jubilife TV\u200b",
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
@@ -3667,7 +5691,7 @@
                 "item_count": 1
             },
             {
-                "name": "Poketch from CEO​",
+                "name": "Poketch from CEO\u200b",
                 "access_rules": [
                     "@jubilife_city, $poketch_req"
                 ],
@@ -3787,7 +5811,7 @@
                 "item_count": 1
             },
             {
-                "name": "Fire Red Cartridge from DS Kid​",
+                "name": "Fire Red Cartridge from DS Kid\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -3807,7 +5831,7 @@
                 "item_count": 1
             },
             {
-                "name": "Leaf Green Cartridge from DS Kid​",
+                "name": "Leaf Green Cartridge from DS Kid\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -3827,7 +5851,7 @@
                 "item_count": 1
             },
             {
-                "name": "Sapphire Cartridge from Schoolboy in Southwest Corner​",
+                "name": "Sapphire Cartridge from Schoolboy in Southwest Corner\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -3835,6 +5859,50 @@
                     "opt_cartridges_off"
                 ],
                 "hosted_item": "sapphirecartridge"
+            },
+            {
+                "name": "Trainers' School - School Kid Harrison",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328022"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Trainers' School - School Kid Christine",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328025"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328094"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328095"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -3974,7 +6042,7 @@
                 "item_count": 1
             },
             {
-                "name": "Good Rod from Fisherman​",
+                "name": "Good Rod from Fisherman\u200b",
                 "access_rules": [
                     "@route_209"
                 ],
@@ -3982,6 +6050,105 @@
                     "opt_rods_off"
                 ],
                 "hosted_item": "goodrod"
+            },
+            {
+                "name": "Breeder Albert",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327726"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Breeder Jennifer",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327727"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Cowgirl Shelley",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327728"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Jogger Richard",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327729"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Poke Kid Danielle",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327733"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Young Couple Ty And Sue",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327735"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Twins Emma And Lil",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327974"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Jogger Raul",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327988"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Rival",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328151"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -4122,6 +6289,116 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Ernest",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327746"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Alyssa",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327747"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Veteran Brian",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327748"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Belt Adam",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327749"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Joel",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327750"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Nathan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327751"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Davido",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327752"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Dragon Tamer Patrick",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327753"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Bird Keeper Brianna",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327754"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Double Team Zac And Jen",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327755"
                 ],
                 "item_count": 1
             }
@@ -4316,7 +6593,7 @@
                 "item_count": 1
             },
             {
-                "name": "Old Charm from Cynthia​",
+                "name": "Old Charm from Cynthia\u200b",
                 "access_rules": [
                     "@route_210_south_upper, secretpotion"
                 ],
@@ -4324,6 +6601,138 @@
                     "opt_keyitems_off"
                 ],
                 "hosted_item": "oldcharm"
+            },
+            {
+                "name": "Breeder Kahlil",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327736"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Breeder Amber",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327737"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Twins Teri And Tia",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327745"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Collector Fernando",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327955"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Collector Edwin",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327956"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Belle And Pa Ava And Matt",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327970"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Rancher Marco",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327972"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Jogger Wyatt",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327986"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Waitress Kati",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328046"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Fabian",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328168"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Brennan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328169"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Bruce",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328170"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -4417,6 +6826,72 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "3F - Roughneck Kirby",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328209"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Pokefan Leonard",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328210"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F - Pokefan Rebekah",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328211"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Youngster Oliver",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328212"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F - Belle And Pa Beth And Bob",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328213"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F - Young Couple Mike And Nat",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328214"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -4496,6 +6971,72 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Youngster Tyler",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327690"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Lass Samantha",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327691"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Lass Sarah",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327692"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "North/Bug Catcher Brandon",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327693"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "North/Aroma Lady Taylor",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327694"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "North/Twins Liv And Liz",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327695"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -4557,7 +7098,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father​",
+                "name": "Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father\u200b",
                 "access_rules": [
                     "@route_218_gate_to_canalave_city"
                 ],
@@ -4565,6 +7106,50 @@
                     "opt_pokedex_off"
                 ],
                 "hosted_item": "pokedex"
+            },
+            {
+                "name": "Fisherman Miguel",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327833"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fisherman Luc",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327834"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Guitarist Tony",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327980"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Sailor Skyler",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328018"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -4662,7 +7247,7 @@
                 "item_count": 1
             },
             {
-                "name": "B5F - FRIENDSHIP Room Top Right Item​",
+                "name": "B5F - FRIENDSHIP Room Top Right Item\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_7"
                 ],
@@ -4960,6 +7545,17 @@
                     "opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Ruin Maniac Karl",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328233"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -5116,6 +7712,138 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Fisherman Brett",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327852"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fisherman Alec",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327853"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fisherman George",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327854"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fisherman Cole",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327855"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Sailor Luther",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327860"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Policeman Thomas",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328013"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Rich Boy Trey",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328015"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Sailor Marc",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328017"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Tuber Conner",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328039"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Tuber Holly",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328041"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Beauty Nicola",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328172"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Poke Kid Janet",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328512"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -5167,6 +7895,50 @@
                     ""
                 ],
                 "hosted_item": "event_clear_lakevalor"
+            },
+            {
+                "name": "Cavern - Commander Saturn",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328088"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328097"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328098"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 3",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328105"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -5264,7 +8036,7 @@
                 "item_count": 1
             },
             {
-                "name": "Secret Potion from Cynthia​",
+                "name": "Secret Potion from Cynthia\u200b",
                 "access_rules": [
                     "@valor_lakefront, event_defeat_wake, @pastoria_city_gym"
                 ],
@@ -5280,6 +8052,17 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328527"
                 ],
                 "item_count": 1
             }
@@ -5357,7 +8140,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Beacon Badge from Volkner​",
+                "name": "Gym - Beacon Badge from Volkner\u200b",
                 "access_rules": [
                     "@sunyshore_city_gym_room_3"
                 ],
@@ -5387,7 +8170,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM07 from Jasmine​",
+                "name": "HM07 from Jasmine\u200b",
                 "access_rules": [
                     "@sunyshore_city, event_defeat_volkner, @sunyshore_city_gym_room_3"
                 ],
@@ -5437,7 +8220,7 @@
                 "item_count": 1
             },
             {
-                "name": "Daytime in Lighthouse​",
+                "name": "Daytime in Lighthouse\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -5445,6 +8228,105 @@
                     "opt_timeitems_off"
                 ],
                 "hosted_item": "daytime"
+            },
+            {
+                "name": "Gym - Ace Trainer Zachery",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327961"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Ace Trainer Destiny",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327965"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Guitarist Jerry",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327981"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Guitarist Preston",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327982"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Guitarist Lonnie",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327983"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Leader Volkner",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328000"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Poke Kid Meghan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328011"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - School Kid Forrest",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328021"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - School Kid Tiera",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328024"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -5484,6 +8366,83 @@
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Ricardo",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327864"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Colton",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327866"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Oscar",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327868"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Miranda",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327869"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Aubree",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327870"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Paige",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327871"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Sailor Zachariah",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328162"
                 ],
                 "item_count": 1
             }
@@ -5545,6 +8504,72 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Crystal",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327872"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Cassandra",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327873"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Gabrielle",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327874"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Troy",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327867"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Francisco",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327865"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Swimmer Wesley",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327863"
                 ],
                 "item_count": 1
             }
@@ -5669,7 +8694,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Mine Badge from Byron​",
+                "name": "Gym - Mine Badge from Byron\u200b",
                 "access_rules": [
                     "@canalave_city_gym"
                 ],
@@ -5705,6 +8730,105 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Black Belt David",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327912"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Leader Byron",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327930"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Worker Jackson",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327936"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Worker Gary",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327937"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Ace Trainer Cesar",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327959"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Ace Trainer Breanna",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327963"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Black Belt Ricky",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327994"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Worker Gerardo",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328047"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Rival",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328157"
                 ],
                 "item_count": 1
             }
@@ -5776,6 +8900,94 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Camper Jacob",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327696"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Picnicker Siena",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327697"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hiker Daniel",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327698"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hiker Nicholas",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327699"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Battle Girl Kelsey",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327700"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Aroma Lady Elizabeth",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327701"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Camper Zackary",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328057"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Picnicker Karina",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328136"
                 ],
                 "item_count": 1
             }
@@ -5861,7 +9073,7 @@
                 "item_count": 1
             },
             {
-                "name": "Building - Ruby Cartridge from Scientist After Defeating Mars​",
+                "name": "Building - Ruby Cartridge from Scientist After Defeating Mars\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -5869,6 +9081,50 @@
                     "opt_cartridges_off"
                 ],
                 "hosted_item": "rubycartridge"
+            },
+            {
+                "name": "Commander Mars",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327975"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327978"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 3",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327979"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328523"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -5900,7 +9156,7 @@
                 "item_count": 1
             },
             {
-                "name": "TM95 (By Mossy Rock)​",
+                "name": "TM95 (By Mossy Rock)\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -6018,6 +9274,94 @@
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Bug Catcher Jack",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327881"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Bug Catcher Phillip",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327882"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Bug Catcher Donald",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327883"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Lass Briana",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327884"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Psychic Elijah",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327885"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Psychic Lindsey",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327886"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Psychic Kody",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328075"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Psychic Rachael",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328078"
                 ],
                 "item_count": 1
             }
@@ -6189,7 +9533,7 @@
                 "item_count": 1
             },
             {
-                "name": "TM93 (Overworld Item)​",
+                "name": "TM93 (Overworld Item)\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -6197,6 +9541,39 @@
                     "opt_overworld_off"
                 ],
                 "hosted_item": "tm93rollout"
+            },
+            {
+                "name": "Worker Dillan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328524"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Worker Holden",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328525"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Worker Conrad",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328526"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -6290,7 +9667,7 @@
                 "item_count": 1
             },
             {
-                "name": "TM96 (In Right Side Room)​",
+                "name": "TM96 (In Right Side Room)\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -6373,7 +9750,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM01 from Cynthia​",
+                "name": "HM01 from Cynthia\u200b",
                 "access_rules": [
                     "@eterna_city"
                 ],
@@ -6393,7 +9770,7 @@
                 "item_count": 1
             },
             {
-                "name": "Bike from Rad Rickshaw​",
+                "name": "Bike from Rad Rickshaw\u200b",
                 "access_rules": [
                     "@cycle_shop, event_clear_eternahideout, @team_galactic_eterna_building_4f"
                 ],
@@ -6463,7 +9840,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Forest Badge From Gardenia​",
+                "name": "Gym - Forest Badge From Gardenia\u200b",
                 "access_rules": [
                     "@eterna_city_gym"
                 ],
@@ -6479,6 +9856,50 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Aroma Lady Jenna",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327939"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Aroma Lady Angela",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327940"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Leader Gardenia",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327995"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Lass Caroline",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328004"
                 ],
                 "item_count": 1
             }
@@ -6560,6 +9981,83 @@
                     "opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Commander Jupiter",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328086"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328090"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328092"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328101"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328102"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Galactic Grunt",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328103"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Scientist Travon",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328511"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -6599,6 +10097,39 @@
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fisherman Andrew",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327702"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fisherman Joseph",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327703"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fisherman Zachary",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327704"
                 ],
                 "item_count": 1
             }
@@ -6704,6 +10235,105 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ruin Maniac Bryan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327793"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ruin Maniac Ronald",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327794"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Psychic Mitchell",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327799"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Psychic Abigail",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327800"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Pi Carlos",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327801"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Collector Douglas",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327952"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Collector Brady",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327953"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Collector Jamal",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328062"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Beauty Devon",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328171"
                 ],
                 "item_count": 1
             }
@@ -6842,7 +10472,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Cobble Badge from Maylene​",
+                "name": "Gym - Cobble Badge from Maylene\u200b",
                 "access_rules": [
                     "@veilstone_city_gym"
                 ],
@@ -6918,6 +10548,83 @@
                 ],
                 "visibility_rules": [
                     "opt_accessories_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Black Belt Colby",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327989"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Black Belt Darren",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327990"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Black Belt Rafael",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327991"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Black Belt Jeffery",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327992"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Leader Maylene",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327997"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328528"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328529"
                 ],
                 "item_count": 1
             }
@@ -7123,7 +10830,7 @@
                 "item_count": 1
             },
             {
-                "name": "Works Key after Galactic Grunts​",
+                "name": "Works Key after Galactic Grunts\u200b",
                 "access_rules": [
                     "@floaroma_meadow_south"
                 ],
@@ -7139,6 +10846,28 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327976"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327977"
                 ],
                 "item_count": 1
             }
@@ -7293,7 +11022,7 @@
                 "item_count": 1
             },
             {
-                "name": "Galactic Key Next to Locked Door​",
+                "name": "Galactic Key Next to Locked Door\u200b",
                 "access_rules": [
                     "@galactic_hq_wo_key"
                 ],
@@ -7333,7 +11062,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM02 with Looker​",
+                "name": "HM02 with Looker\u200b",
                 "access_rules": [
                     "@veilstone_city_galactic_warehouse"
                 ],
@@ -7494,7 +11223,7 @@
                 "item_count": 1
             },
             {
-                "name": "Linking Cord (In First Basement)​",
+                "name": "Linking Cord (In First Basement)\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -7520,6 +11249,160 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Boss Cyrus",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328083"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Commander Saturn",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328089"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Galactic Grunt",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328108"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Galactic Grunt 3",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328110"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F - Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328187"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F - Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328188"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328189"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328190"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328192"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328193"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Galactic Grunt 3",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328194"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Galactic Grunt 4",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328202"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Scientist Darrius",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328509"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Scientist Fredrick",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328510"
                 ],
                 "item_count": 1
             }
@@ -7644,6 +11527,61 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Cyclist Axel",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327705"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Cyclist James",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327706"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Cyclist Megan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327709"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Cyclist Nicole",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327710"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hiker Theodore",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328131"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -7703,6 +11641,50 @@
                 ],
                 "visibility_rules": [
                     "opt_accessories_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Cyclist Kayla",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327711"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Cyclist Rachel",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327712"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Cyclist John",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327707"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Cyclist Ryan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327708"
                 ],
                 "item_count": 1
             }
@@ -7846,7 +11828,7 @@
                 "item_count": 1
             },
             {
-                "name": "Second Gift from Dawn or Lucas​",
+                "name": "Second Gift from Dawn or Lucas\u200b",
                 "access_rules": [
                     "@route_207"
                 ],
@@ -7862,6 +11844,72 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Youngster Austin",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327713"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Camper Anthony",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327714"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Picnicker Lauren",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327715"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hiker Kevin",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327716"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hiker Justin",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327717"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Battle Girl Helen",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327718"
                 ],
                 "item_count": 1
             }
@@ -7955,6 +12003,105 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Blake",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327812"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Garrett",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327813"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Laura",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327814"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Maria",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327815"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Skier Bradley",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327816"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Skier Edward",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327817"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Skier Kaitlyn",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327818"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Skier Andrea",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327819"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Belt Philip",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327938"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -8014,6 +12161,50 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Belt Sean",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327759"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Nick",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327760"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Bird Keeper Katherine",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327761"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ruin Maniac Harry",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328122"
                 ],
                 "item_count": 1
             }
@@ -8125,6 +12316,61 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Dalton",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327820"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Skier Shawn",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327822"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Skier Madison",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327825"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Matthew",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327826"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Ethan",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327827"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -8156,7 +12402,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM08 Above Hikers House​",
+                "name": "HM08 Above Hikers House\u200b",
                 "access_rules": [
                     "@route_217"
                 ],
@@ -8262,6 +12508,50 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Olivia",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327821"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Skier Bjorn",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327823"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Skier Lexie",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327824"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Belt Luke",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327828"
                 ],
                 "item_count": 1
             }
@@ -8386,7 +12676,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Icicle Badge from Candice​",
+                "name": "Gym - Icicle Badge from Candice\u200b",
                 "access_rules": [
                     "@snowpoint_city_gym"
                 ],
@@ -8402,6 +12692,83 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Ace Trainer Sergio",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327948"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Ace Trainer Isaiah",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327949"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Ace Trainer Savannah",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327950"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Ace Trainer Alicia",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327951"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Leader Candice",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327999"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Ace Trainer Anton",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328507"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Ace Trainer Brenna",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328508"
                 ],
                 "item_count": 1
             }
@@ -8457,7 +12824,7 @@
                 "item_count": 1
             },
             {
-                "name": "B3F - TM94 (Overworld Item)​",
+                "name": "B3F - TM94 (Overworld Item)\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -8598,6 +12965,94 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Belt Gregory",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327807"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Belt Derek",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327808"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Belt Nathaniel",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327809"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Jogger Scott",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327810"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Dennis",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327958"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Maya",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327967"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ruin Maniac Calvin",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327984"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Jogger Craig",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327987"
                 ],
                 "item_count": 1
             }
@@ -8785,6 +13240,116 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "1F - Camper Diego",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328059"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Camper Parker",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328060"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Collector Terry",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328063"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Ruin Maniac Gerald",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328123"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Lass Cassidy",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328130"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Hiker Reginald",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328134"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Hiker Lorenzo",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328135"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Picnicker Tori",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328138"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Picnicker Ana",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328139"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Youngster Wayne",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328176"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -8824,6 +13389,39 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Bird Keeper Alexandra",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327756"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Zach",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327758"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hiker Louis",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328006"
                 ],
                 "item_count": 1
             }
@@ -8911,7 +13509,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Coal Badge From Roark​",
+                "name": "Gym - Coal Badge From Roark\u200b",
                 "access_rules": [
                     "@oreburgh_city_gym"
                 ],
@@ -8969,6 +13567,39 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Youngster Jonathon",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327924"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Youngster Darius",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327925"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Leader Roark",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327926"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -9016,6 +13647,28 @@
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F - Worker Colin",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327875"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F - Worker Mason",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327876"
                 ],
                 "item_count": 1
             }
@@ -9080,7 +13733,7 @@
                 "item_count": 1
             },
             {
-                "name": "B1F - Item on East Ledges​",
+                "name": "B1F - Item on East Ledges\u200b",
                 "access_rules": [
                     "@oreburgh_gate_b1f"
                 ],
@@ -9110,7 +13763,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM06 from Hiker​",
+                "name": "HM06 from Hiker\u200b",
                 "access_rules": [
                     "@oreburgh_gate_1f"
                 ],
@@ -9118,6 +13771,39 @@
                     "opt_hms_off"
                 ],
                 "hosted_item": "hm06rocksmash"
+            },
+            {
+                "name": "B1F - Veteran Grant",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327920"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Camper Curtis",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327945"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Picnicker Diana",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328009"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -9167,6 +13853,72 @@
                     "opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Youngster Michael",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327684"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Rival",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_327928"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Lass Madeline",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328002"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Lass Kaitlin",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328003"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Youngster Dallas",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328035"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Youngster Sebastian",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328036"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -9198,7 +13950,7 @@
                 "item_count": 1
             },
             {
-                "name": "Super Rod from Fisherman​",
+                "name": "Super Rod from Fisherman\u200b",
                 "access_rules": [
                     "@fight_area, national_dex"
                 ],
@@ -9214,6 +13966,28 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Leader Volkner",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328601"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Elite Four Flint",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328602"
                 ],
                 "item_count": 1
             }
@@ -9286,7 +14060,7 @@
                 "item_count": 1
             },
             {
-                "name": "Lab - Pokedex from Prof Rowan​",
+                "name": "Lab - Pokedex from Prof Rowan\u200b",
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab"
                 ],
@@ -9306,7 +14080,7 @@
                 "item_count": 1
             },
             {
-                "name": "Lab - National Pokedex from Prof Oak​",
+                "name": "Lab - National Pokedex from Prof Oak\u200b",
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab, $regional_monsTODO"
                 ],
@@ -9405,7 +14179,7 @@
                 "item_count": 1
             },
             {
-                "name": "Emerald Cartridge from Guy​",
+                "name": "Emerald Cartridge from Guy\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -9826,7 +14600,7 @@
                 "item_count": 1
             },
             {
-                "name": "Spear Pillar - Nighttime​",
+                "name": "Spear Pillar - Nighttime\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -9844,6 +14618,116 @@
                     ""
                 ],
                 "hosted_item": "event_clear_distortion"
+            },
+            {
+                "name": "Distortion World - Galactic Boss Cyrus",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328084"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Spear Pillar - Commander Jupiter",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328087"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F - Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328196"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F - Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328197"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "5F - Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328200"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Spear Pillar - Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328201"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "5F - Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328205"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "6F - Galactic Grunt",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328206"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Spear Pillar - Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328207"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Spear Pillar - Commander Mars",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328208"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -9933,6 +14817,39 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328198"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328199"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Galactic Grunt 3",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328204"
                 ],
                 "item_count": 1
             }
@@ -10318,6 +15235,28 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Galactic Grunt 1",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328195"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Galactic Grunt 2",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_trainers_full",
+                    "opt_trainer_328203"
                 ],
                 "item_count": 1
             }
