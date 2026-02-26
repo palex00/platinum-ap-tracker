@@ -1448,7 +1448,7 @@
                           }
                         },
                         {
-                          "title": "Machine Room",
+                          "title": "Secret Lab",
                           "content": {
                             "type": "map",
                             "maps": [
@@ -1988,9 +1988,26 @@
       {
         "title": "Distortion World",
         "content": {
-          "type": "map",
-          "maps": [
-            "distortionworld"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Bottom",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "distortionworldbottom"
+                ]
+              }
+            },
+            {
+              "title": "Giratina",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "distortionworld"
+                ]
+              }
+            }
           ]
         }
       }
