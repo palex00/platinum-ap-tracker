@@ -4,11 +4,13 @@ local variant = Tracker.ActiveVariantUID
 Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/trainers.json")
                 
 
 -- Logic
-require("scripts/logic/utils")
-require("scripts/logic/logic")
+ScriptHost:LoadScript("scripts/logic/utils.lua")
+ScriptHost:LoadScript("scripts/logic/logic.lua")
+ScriptHost:LoadScript("scripts/custom_items.lua")
 
 -- Maps
 Tracker:AddMaps("maps/errors.json")

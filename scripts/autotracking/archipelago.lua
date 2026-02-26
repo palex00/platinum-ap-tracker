@@ -49,8 +49,27 @@ function onClear(slot_data)
         return
     end
     
+    -------------------------------------------------
+    -- RESET AREA
     resetLocations()
     resetItems()
+    
+        -- resets trainer visibility
+    local trainer_resetting = false
+    for id, _ in pairs(LOCATION_MAPPING) do
+        if id == START_ID then
+            trainer_resetting = true
+        end
+    
+        if trainer_resetting then
+            Tracker:FindObjectForCode("opt_trainer_" .. id).Active = false
+        end
+    
+        if id == END_ID then
+            trainer_resetting = false
+        end
+    end
+    -------------------------------------------------
 
     for k, v in pairs(slot_data) do
         if SLOT_CODES[k] then
@@ -66,6 +85,18 @@ function onClear(slot_data)
             for _, hm in pairs(v) do
                 if HM_CODES[hm] then
                     Tracker:FindObjectForCode(HM_CODES[hm]).CurrentStage = 1
+                end
+            end
+        elseif k == "trainersanity_trainers" then
+            if #v == 0 then
+                TRAINERS:setType("none")
+            elseif #v == 537 then
+                TRAINERS:setType("full")
+            else
+                TRAINERS:setType("partial")
+                TRAINERS:setStage(#v)
+                for _, value in ipairs(v) do
+                    Tracker:FindObjectForCode("opt_trainer_" .. value).Active = true
                 end
             end
         end
