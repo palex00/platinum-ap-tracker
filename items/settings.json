@@ -270,21 +270,21 @@
         ]
     },
     {
-        "name": "Add S.S. Ticket",
+        "name": "Randomize S.S. Ticket",
         "type": "progressive",
         "initial_stage_idx": 1,
         "loop": true,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Add S.S. Ticket - OFF",
+                "name": "Randomize S.S. Ticket - OFF",
                 "img": "images/settings/opt_ssticket.png",
                 "img_mods": "@disabled",
                 "codes": "opt_ssticket, opt_ssticket_off",
                 "inherit_codes": false
             },
             {
-                "name": "Add S.S. Ticket - ON",
+                "name": "Randomize S.S. Ticket - ON",
                 "img": "images/settings/opt_ssticket.png",
                 "codes": "opt_ssticket, opt_ssticket_on",
                 "inherit_codes": false
@@ -582,6 +582,60 @@
                 "codes": "splitmap, splitmap_reverse",
                 "inherit_codes": false
             },
+        ]
+    },
+    {
+        "name": "Cartridges",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cartridges are randomized",
+                "img": "images/settings/opt_cartridges_on.png",
+                "codes": "opt_cartridges, opt_cartridges_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cartridges are vanilla",
+                "img": "images/settings/opt_cartridges_off.png",
+                "codes": "opt_cartridges, opt_cartridges_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cartridges are pre-collected",
+                "img": "images/settings/opt_cartridges_precollect.png",
+                "codes": "opt_cartridges, opt_cartridges_precollect",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Time Items",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Time Items are randomized",
+                "img": "images/settings/opt_timeitems_on.png",
+                "codes": "opt_timeitems, opt_timeitems_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Time Items are Vanilla",
+                "img": "images/settings/opt_timeitems_off.png",
+                "codes": "opt_timeitems, opt_timeitems_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Time Items are pre-collected",
+                "img": "images/settings/opt_timeitems_precollect.png",
+                "codes": "opt_timeitems, opt_timeitems_precollect",
+                "inherit_codes": false
+            }
         ]
     }
 ]

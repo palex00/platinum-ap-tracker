@@ -1462,6 +1462,36 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Choice Specs from Man in Shop (Morning)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Glasses from Man in Shop (Day)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Black Glasses from Man in Shop (Night)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -1617,6 +1647,26 @@
                 "item_count": 1
             },
             {
+                "name": "Bag in Player's Bedroom",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_bag_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Bag in Player's Bedroom​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_bag_off"
+                ],
+                "hosted_item": "bag"
+            },
+            {
                 "name": "Running Shoes From Mom",
                 "access_rules": [
                     "@twinleaf_town_player_house_1f"
@@ -1655,6 +1705,26 @@
                     "opt_keyitems_off"
                 ],
                 "hosted_item": "parcel"
+            },
+            {
+                "name": "S.S. Ticket from Mom (After Defeating Champion)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_cartridges_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "S.S. Ticket from Mom (After Defeating Champion)​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_ssticket_off"
+                ],
+                "hosted_item": "ssticket"
             }
         ],
         "map_locations": [
@@ -1785,6 +1855,16 @@
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Marsh Pass from Wake (After Defeating Gym)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_marsh_pass_on"
                 ],
                 "item_count": 1
             },
@@ -3695,6 +3775,66 @@
                     "opt_accessories_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Fire Red Cartridge from DS Kid",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_cartridges_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Fire Red Cartridge from DS Kid​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_cartridges_off"
+                ],
+                "hosted_item": "fireredcartridge"
+            },
+            {
+                "name": "Leaf Green Cartridge from DS Kid",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_cartridges_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Leaf Green Cartridge from DS Kid​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_cartridges_off"
+                ],
+                "hosted_item": "leafgreencartridge"
+            },
+            {
+                "name": "Sapphire Cartridge from Schoolboy in Southwest Corner",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_cartridges_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Sapphire Cartridge from Schoolboy in Southwest Corner​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_cartridges_off"
+                ],
+                "hosted_item": "sapphirecartridge"
             }
         ],
         "map_locations": [
@@ -5019,7 +5159,7 @@
                 "item_count": 1
             },
             {
-                "name": "Defeat Saturn (Event)",
+                "name": "Cavern - Defeat Saturn (Event)",
                 "access_rules": [
                     "@lake_valor_drained"
                 ],
@@ -5285,6 +5425,26 @@
                     "opt_poketchapps_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Daytime in Lighthouse",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_timeitems_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Daytime in Lighthouse​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_timeitems_off"
+                ],
+                "hosted_item": "daytime"
             }
         ],
         "map_locations": [
@@ -5689,6 +5849,26 @@
                     ""
                 ],
                 "hosted_item": "event_clear_windworks"
+            },
+            {
+                "name": "Building - Ruby Cartridge from Scientist After Defeating Mars",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_cartridges_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Building - Ruby Cartridge from Scientist After Defeating Mars​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_cartridges_off"
+                ],
+                "hosted_item": "rubycartridge"
             }
         ],
         "map_locations": [
@@ -5709,6 +5889,26 @@
             " "
         ],
         "sections": [
+            {
+                "name": "TM95 (By Mossy Rock)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "TM95 (By Mossy Rock)​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_overworld_off"
+                ],
+                "hosted_item": "tm95doublehit"
+            },
             {
                 "name": "Item Left of South Entrance",
                 "access_rules": [
@@ -5977,6 +6177,26 @@
                     "opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "TM93 (Overworld Item)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "TM93 (Overworld Item)​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_overworld_off"
+                ],
+                "hosted_item": "tm93rollout"
             }
         ],
         "map_locations": [
@@ -6058,6 +6278,26 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "TM96 (In Right Side Room)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "TM96 (In Right Side Room)​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_overworld_off"
+                ],
+                "hosted_item": "tm96mimic"
             }
         ],
         "map_locations": [
@@ -7244,6 +7484,26 @@
                 "item_count": 1
             },
             {
+                "name": "Linking Cord (In First Basement)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_keyitems_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Linking Cord (In First Basement)​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_keyitems_off"
+                ],
+                "hosted_item": "linkingcord"
+            },
+            {
                 "name": "Defeat Cyrus (Event)",
                 "access_rules": [
                     "@galactic_hq_w_key"
@@ -8187,6 +8447,26 @@
                 "item_count": 1
             },
             {
+                "name": "B3F - TM94 (Overworld Item)",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B3F - TM94 (Overworld Item)​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_overworld_off"
+                ],
+                "hosted_item": "tm94ancientpower"
+            },
+            {
                 "name": "B4F - Item Past Ice Tile",
                 "access_rules": [
                     "@snowpoint_temple_b4f, $strength"
@@ -9093,6 +9373,46 @@
                     "opt_poketchapps_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Kitchen Timer App from Girl",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_poketchapps_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Color Changer App from Girl",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_poketchapps_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Emerald Cartridge from Guy",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_cartridges_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Emerald Cartridge from Guy​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_cartridges_off"
+                ],
+                "hosted_item": "emeraldcartridge"
             }
         ],
         "map_locations": [
@@ -9494,6 +9814,26 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Spear Pillar - Nighttime",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_timeitems_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Spear Pillar - Nighttime​",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    "opt_timeitems_off"
+                ],
+                "hosted_item": "nighttime"
             },
             {
                 "name": "Spear Pillar - Clear the Distortion World (Event)",

@@ -103,15 +103,30 @@ function dump_table(o, depth)
     if depth == nil then
         depth = 0
     end
+
+    local ignore_keys = {
+        generated_trainer_parties = true,
+        generated_starters = true,
+        encounter_species_blacklist = true,
+        starter_whitelist = true,
+        starter_blacklist = true,
+        generated_roamers = true,
+        roamer_blacklist = true,
+        seed = true,
+    }
+
     if type(o) == 'table' then
         local tabs = ('\t'):rep(depth)
         local tabs2 = ('\t'):rep(depth + 1)
         local s = '{\n'
         for k, v in pairs(o) do
-            if type(k) ~= 'number' then
-                k = '"' .. k .. '"'
+            local key_str = tostring(k)
+            if not ignore_keys[key_str] then
+                if type(k) ~= 'number' then
+                    k = '"' .. k .. '"'
+                end
+                s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
             end
-            s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
         end
         return s .. tabs .. '}'
     else
