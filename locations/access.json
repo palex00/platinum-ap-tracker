@@ -17,8 +17,8 @@
     {
         "name": "amity_square",
         "access_rules": [
-            "@hearthome_city_east_gate_to_amity_square",
-            "@hearthome_city_west_gate_to_amity_square"
+            "@hearthome_city_east_gate_to_amity_square, $amity_square",
+            "@hearthome_city_west_gate_to_amity_square, $amity_square"
         ]
     },
     {
@@ -268,6 +268,12 @@
         ]
     },
     {
+        "name": "distortion_world",
+        "access_rules": [
+            "@spear_pillar"
+        ]
+    },
+    {
         "name": "eterna_city",
         "access_rules": [
             "@cycle_shop",
@@ -359,7 +365,7 @@
     {
         "name": "eterna_city_south_house",
         "access_rules": [
-            "@eterna_city"
+            "@eterna_city, $event_met_oak_pal_park"
         ]
     },
     {
@@ -393,8 +399,7 @@
             "@fight_area_south_house",
             "@route_225_gate_to_fight_area",
             "@route_230, national_dex, $surf",
-            "@snowpoint_city, ssticket",
-            "@snowpoint_city, event_defeat_cynthia, @pokemon_league_hall_of_fame"
+            "@snowpoint_city, ssticket"
         ]
     },
     {
@@ -541,7 +546,7 @@
     {
         "name": "fullmoon_island",
         "access_rules": [
-            "@canalave_city, national_dex, event_defeat_cynthia, @pokemon_league_hall_of_fame",
+            "@canalave_city, national_dex, event_defeat_cynthia",
             "@fullmoon_island_forest"
         ]
     },
@@ -560,7 +565,7 @@
     {
         "name": "galactic_hq_wo_key",
         "access_rules": [
-            "@veilstone_city_galactic_warehouse, event_clear_lakeacuity, @lake_acuity",
+            "@veilstone_city_galactic_warehouse, event_clear_lakeacuity",
             "@veilstone_city_galactic_warehouse, storagekey"
         ]
     },
@@ -1003,7 +1008,7 @@
     {
         "name": "jubilife_tv_1f",
         "access_rules": [
-            "@jubilife_city, event_defeat_roark, @oreburgh_city_gym",
+            "@jubilife_city, event_defeat_roark",
             "@jubilife_tv_2f"
         ]
     },
@@ -1061,7 +1066,7 @@
         "name": "lake_acuity",
         "access_rules": [
             "@acuity_cavern",
-            "@acuity_lakefront, event_clear_lakeverity, $rock_climb, @lake_verity"
+            "@acuity_lakefront, $event_lake_verity_defeat_mars, $rock_climb"
         ]
     },
     {
@@ -1073,20 +1078,20 @@
     {
         "name": "lake_valor",
         "access_rules": [
-            "@valor_lakefront, event_clear_distortion, @distortion_world"
+            "@valor_lakefront, event_clear_distortion"
         ]
     },
     {
         "name": "lake_valor_drained",
         "access_rules": [
-            "@valor_lakefront, event_learn_of_lake_explosion, @canalave_library_3f, hm04strength, event_defeat_byron"
+            "@valor_lakefront, $event_lake_explosion"
         ]
     },
     {
         "name": "lake_verity",
         "access_rules": [
             "@verity_cavern",
-            "@verity_lakefront, event_clear_lakevalor, @lake_valor_drained"
+            "@verity_lakefront, $event_lake_valor_defeat_saturn"
         ]
     },
     {
@@ -1194,7 +1199,7 @@
     {
         "name": "mt_coronet_3f",
         "access_rules": [
-            "@mt_coronet_2f_left, event_galactic_hq_defeat_cyrus, @galactic_hq_w_key",
+            "@mt_coronet_2f_left, event_galactic_hq_defeat_cyrus",
             "@mt_coronet_outside_south_entrance"
         ]
     },
@@ -1236,8 +1241,16 @@
     {
         "name": "mt_coronet_b1f",
         "access_rules": [
-            "@mt_coronet_1f_north_room_1_top, ^$north_sinnoh_fly, ^$soft_defog",
+            "@mt_coronet_1f_north_room_1_top, ^$soft_defog, ^$north_sinnoh_fly",
             "@mt_coronet_1f_north_room_2, ^$soft_defog"
+        ]
+    },
+    {
+        "name": "mt_coronet_b1f_feebas",
+        "access_rules": [
+            "@mt_coronet_b1f, $good_rod",
+            "@mt_coronet_b1f, $super_rod) & poketch & feebas_upgrade",
+            "@mt_coronet_b1f, $surf & (old_rod"
         ]
     },
     {
@@ -1544,7 +1557,7 @@
     {
         "name": "pastoria_city_gym",
         "access_rules": [
-            "@pastoria_city"
+            "@pastoria_city, $event_cobble_badge"
         ]
     },
     {
@@ -1655,7 +1668,7 @@
         "name": "pokemon_league_elevator_to_aaron_room",
         "access_rules": [
             "@pokemon_league_aaron_room",
-            "@pokemon_league_north_pokecenter_1f, $badges_req|8"
+            "@pokemon_league_north_pokecenter_1f, $badges|8"
         ]
     },
     {
@@ -1936,8 +1949,8 @@
             "@eterna_forest",
             "@eterna_forest_outside",
             "@floaroma_meadow",
-            "@floaroma_town, event_clear_windworks, @valley_windworks_building",
             "@floaroma_town, $surf",
+            "@floaroma_town, workskey",
             "@fuego_ironworks_outside",
             "@route_205_house"
         ]
@@ -1954,8 +1967,7 @@
         "name": "route_206_cycling_road_north_gate",
         "access_rules": [
             "@cycling_road",
-            "@eterna_city",
-            "@route_206"
+            "@eterna_city"
         ]
     },
     {
@@ -2066,6 +2078,12 @@
         ]
     },
     {
+        "name": "route_209_odd_keystone",
+        "access_rules": [
+            "@route_209, $odd_keystone, $evo_item_shop"
+        ]
+    },
+    {
         "name": "route_210_grandma_wilma_house",
         "access_rules": [
             "@route_210_north, $rock_climb"
@@ -2165,6 +2183,12 @@
         ]
     },
     {
+        "name": "route_213_honey_tree",
+        "access_rules": [
+            "@route_213, $rock_smash"
+        ]
+    },
+    {
         "name": "route_214",
         "access_rules": [
             "@maniac_tunnel",
@@ -2258,6 +2282,12 @@
         ]
     },
     {
+        "name": "route_218_honey_tree",
+        "access_rules": [
+            "@route_218, $surf"
+        ]
+    },
+    {
         "name": "route_219",
         "access_rules": [
             "@route_220",
@@ -2291,7 +2321,7 @@
             "@route_222_east_house",
             "@route_222_gate_to_sunyshore_city",
             "@route_222_west_house",
-            "@valor_lakefront, ^$early_sunyshore"
+            "@valor_lakefront, $early_sunyshore"
         ]
     },
     {
@@ -2380,7 +2410,7 @@
         "name": "route_227",
         "access_rules": [
             "@route_227_house",
-            "@route_227_lower, bicycle",
+            "@route_227_lower, bicycle, $bag",
             "@stark_mountain_outside"
         ]
     },
@@ -2423,8 +2453,8 @@
     {
         "name": "route_228_rock_peak_ruins",
         "access_rules": [
-            "@route_228, bicycle",
-            "@route_228, $fly"
+            "@route_228, $(bicycle",
+            "@route_228, $fly) & bag"
         ]
     },
     {
@@ -2515,7 +2545,7 @@
     {
         "name": "sendoff_spring",
         "access_rules": [
-            "@distortion_world, event_clear_distortion",
+            "@distortion_world",
             "@spring_path",
             "@turnback_cave_entrance"
         ]
@@ -2579,7 +2609,7 @@
     {
         "name": "snowpoint_temple_1f",
         "access_rules": [
-            "@snowpoint_city, national_dex, event_defeat_cynthia, @pokemon_league_hall_of_fame",
+            "@snowpoint_city, national_dex, event_defeat_cynthia",
             "@snowpoint_temple_b1f"
         ]
     },
@@ -2827,15 +2857,9 @@
         ]
     },
     {
-        "name": "distortion_world",
-        "access_rules": [
-            "@spear_pillar"
-        ]
-    },
-    {
         "name": "spring_path",
         "access_rules": [
-            "@route_214, event_clear_distortion, @distortion_world",
+            "@route_214, event_clear_distortion",
             "@sendoff_spring"
         ]
     },
@@ -3069,6 +3093,12 @@
         ]
     },
     {
+        "name": "trophy_garden_national_dex",
+        "access_rules": [
+            "@trophy_garden, national_dex"
+        ]
+    },
+    {
         "name": "turnback_cave_entrance",
         "access_rules": [
             "@sendoff_spring, ^$soft_defog"
@@ -3199,9 +3229,9 @@
     {
         "name": "veilstone_city_galactic_warehouse",
         "access_rules": [
-            "@galactic_hq_wo_key, event_clear_lakeacuity, @lake_acuity",
+            "@galactic_hq_wo_key, event_clear_lakeacuity",
             "@galactic_hq_wo_key, storagekey",
-            "@veilstone_city, event_defeat_maylene, @veilstone_city_gym"
+            "@veilstone_city"
         ]
     },
     {
@@ -3315,7 +3345,7 @@
     {
         "name": "verity_cavern",
         "access_rules": [
-            "@lake_verity"
+            "@lake_verity, $surf"
         ]
     },
     {
@@ -3345,8 +3375,8 @@
     {
         "name": "victory_road_1f_room_1",
         "access_rules": [
-            "@victory_road_1f, event_defeat_cynthia, national_dex, @pokemon_league_hall_of_fame",
-            "@victory_road_1f_room_2, event_defeat_cynthia, national_dex, @pokemon_league_hall_of_fame"
+            "@victory_road_1f, event_defeat_cynthia, national_dex, ^$soft_defog",
+            "@victory_road_1f_room_2, event_defeat_cynthia, national_dex, ^$soft_defog"
         ]
     },
     {
@@ -3390,9 +3420,36 @@
         ]
     },
     {
+        "name": "virt_dex",
+        "access_rules": [
+            "@twinleaf_town_player_house_2f, $wtfthis"
+        ]
+    },
+    {
         "name": "virt_great_marsh",
         "access_rules": [
             "@pastoria_city_observatory_gate_1f, $marsh_pass"
+        ]
+    },
+    {
+        "name": "virt_great_marsh_national_dex",
+        "access_rules": [
+            "@virt_great_marsh, national_dex"
+        ]
+    },
+    {
+        "name": "virt_mt_coronet",
+        "access_rules": [
+            "@mt_coronet_1f_north_room_1_left",
+            "@mt_coronet_1f_north_room_1_right",
+            "@mt_coronet_1f_north_room_2",
+            "@mt_coronet_1f_south"
+        ]
+    },
+    {
+        "name": "virt_national_dex",
+        "access_rules": [
+            "@twinleaf_town_player_house_2f, $wtfthis"
         ]
     },
     {
@@ -3416,6 +3473,18 @@
             "@sunyshore_city_pokecenter_b1f",
             "@survival_area_pokecenter_b1f",
             "@veilstone_city_pokecenter_b1f"
+        ]
+    },
+    {
+        "name": "virt_roamers",
+        "access_rules": [
+            "@twinleaf_town_player_house_2f, poketch, $markingmap, $event_beat_cynthia if can_reset_legendaries_in_ap_helper else poketch, $markingmap"
+        ]
+    },
+    {
+        "name": "virt_specs",
+        "access_rules": [
+            "@twinleaf_town_player_house_2f"
         ]
     },
     {

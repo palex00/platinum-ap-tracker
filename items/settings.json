@@ -587,7 +587,7 @@
     {
         "name": "Cartridges",
         "type": "progressive",
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "loop": true,
         "allow_disabled": false,
         "stages": [
@@ -614,7 +614,7 @@
     {
         "name": "Time Items",
         "type": "progressive",
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "loop": true,
         "allow_disabled": false,
         "stages": [
