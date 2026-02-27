@@ -637,5 +637,44 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "HM Reader and Mode",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Add HM Reader - OFF",
+                "img": "images/settings/opt_hmreader_off.png",
+                "codes": "opt_hmreader, opt_hmreader_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Add HM Reader - Randomized and Comptabible Pokémon Required",
+                "img": "images/settings/opt_hmreader_on_reqmon.png",
+                "codes": "opt_hmreader, opt_hmreader_on_reqmon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Add HM Reader - Randomized and Free",
+                "img": "images/settings/opt_hmreader_on_free.png",
+                "codes": "opt_hmreader, opt_hmreader_on_free",
+                "inherit_codes": false
+            },
+            {
+                "name": "Add HM Reader - Pre-collected and Comptabible Pokémon Required",
+                "img": "images/settings/opt_hmreader_precollect_reqmon.png",
+                "codes": "opt_hmreader, opt_hmreader_precollect_reqmon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Add HM Reader - Pre-collected and Free",
+                "img": "images/settings/opt_hmreader_precollect_free.png",
+                "codes": "opt_hmreader, opt_hmreader_precollect_free",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

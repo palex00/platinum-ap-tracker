@@ -291,7 +291,7 @@
         "codes": "workskey"
     },
     {
-        "name": "Secret Potion",
+        "name": "SecretPotion",
         "type": "toggle",
         "img": "images/items/secretpotion.png",
         "codes": "secretpotion"
@@ -368,13 +368,13 @@
         "codes": "emeraldcartridge"
     },
     {
-        "name": "Fire Red Cartridge",
+        "name": "FireRed Cartridge",
         "type": "toggle",
         "img": "images/items/cartridgefirered.png",
         "codes": "fireredcartridge"
     },
     {
-        "name": "Leaf Green Cartridge",
+        "name": "LeafGreen Cartridge",
         "type": "toggle",
         "img": "images/items/cartridgeleafgreen.png",
         "codes": "leafgreencartridge"
@@ -402,5 +402,83 @@
         "type": "toggle",
         "img": "images/items/pokesonar.png",
         "codes": "pokesonar"
+    },
+    {
+        "name": "HM Reader",
+        "type": "toggle",
+        "img": "images/items/hmreader.png",
+        "codes": "hmreader"
+    },
+    {
+        "name": "Poffin Case",
+        "type": "toggle",
+        "img": "images/items/poffincase.png",
+        "codes": "poffincase"
+    },
+    {
+        "name": "Cord Link",
+        "type": "toggle",
+        "img": "images/items/cordlink.png",
+        "codes": "cordlink"
+    },
+    {
+        "name": "Dawn Stone",
+        "type": "toggle",
+        "img": "images/items/dawnstone.png",
+        "codes": "dawnstone"
+    },
+    {
+        "name": "Dusk Stone",
+        "type": "toggle",
+        "img": "images/items/duskstone.png",
+        "codes": "duskstone"
+    },
+    {
+        "name": "Fire Stone",
+        "type": "toggle",
+        "img": "images/items/firestone.png",
+        "codes": "firestone"
+    },
+    {
+        "name": "Leaf Stone",
+        "type": "toggle",
+        "img": "images/items/leafstone.png",
+        "codes": "firestone"
+    },
+    {
+        "name": "Moon Stone",
+        "type": "toggle",
+        "img": "images/items/moonstone.png",
+        "codes": "moonstone"
+    },
+    {
+        "name": "Shiny Stone",
+        "type": "toggle",
+        "img": "images/items/shinystone.png",
+        "codes": "shinystone"
+    },
+    {
+        "name": "Thunder Stone",
+        "type": "toggle",
+        "img": "images/items/thunderstone.png",
+        "codes": "thunderstone"
+    },
+    {
+        "name": "Sun Stone",
+        "type": "toggle",
+        "img": "images/items/sunstone.png",
+        "codes": "sunstone"
+    },
+    {
+        "name": "Water Stone",
+        "type": "toggle",
+        "img": "images/items/waterstone.png",
+        "codes": "waterstone"
+    },
+    {
+        "name": "Odd Keystone",
+        "type": "toggle",
+        "img": "images/items/oddkeystone.png",
+        "codes": "oddkeystone"
     }
 ]

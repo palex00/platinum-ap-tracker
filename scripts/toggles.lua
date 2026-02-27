@@ -1,8 +1,8 @@
 function toggle_itemgrid()
     suffix = ""
     
-    if has("opt_ssticket_on") then
-        suffix = suffix.."_ssticket"
+    if has("opt_hmreader_on_reqmon") or has("opt_hmreader_on_free") or has("opt_hmreader_on_reqmon") or has("opt_hmreader_precollect_reqmon") or has("opt_hmreader_precollect_free") then
+        suffix = suffix.."_hmreader"
     end
     
     if has("opt_marsh_pass_on") then

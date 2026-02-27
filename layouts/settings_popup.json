@@ -54,14 +54,15 @@
                 "opt_poketchapps",
                 "opt_shoes",
                 "opt_bicycle",
-                "opt_pokedex"
+                "opt_pokedex",
+                "opt_accessories"
             ],
             [
-                "opt_accessories",
                 "opt_ssticket",
                 "opt_marsh_pass",
                 "opt_storage_key",
-                "opt_bag"
+                "opt_bag",
+				"opt_hmreader"
             ]
         ]
     },
