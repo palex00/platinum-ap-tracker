@@ -652,27 +652,15 @@
                 "inherit_codes": false
             },
             {
-                "name": "Add HM Reader - Randomized and Compatible Pokémon Required",
+                "name": "Add HM Reader - Randomized",
                 "img": "images/settings/opt_hmreader_on_reqmon.png",
-                "codes": "opt_hmreader, opt_hmreader_on_reqmon",
+                "codes": "opt_hmreader, opt_hmreader_on",
                 "inherit_codes": false
             },
             {
-                "name": "Add HM Reader - Randomized and Free",
+                "name": "Add HM Reader - Pre-Collected",
                 "img": "images/settings/opt_hmreader_on_free.png",
-                "codes": "opt_hmreader, opt_hmreader_on_free",
-                "inherit_codes": false
-            },
-            {
-                "name": "Add HM Reader - Pre-collected and Compatible Pokémon Required",
-                "img": "images/settings/opt_hmreader_precollect_reqmon.png",
-                "codes": "opt_hmreader, opt_hmreader_precollect_reqmon",
-                "inherit_codes": false
-            },
-            {
-                "name": "Add HM Reader - Pre-collected and Free",
-                "img": "images/settings/opt_hmreader_precollect_free.png",
-                "codes": "opt_hmreader, opt_hmreader_precollect_free",
+                "codes": "opt_hmreader, opt_hmreader_precollected",
                 "inherit_codes": false
             }
         ]
