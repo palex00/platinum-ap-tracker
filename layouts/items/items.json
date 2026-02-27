@@ -47,16 +47,16 @@
                                 "secretpotion",
                                 "oldcharm",
                                 "galactickey",
-                                "suitekey"
+                                "suitekey",
+                                "ssticket"
                             ],
                             [
                                 "pokedex",
                                 "bicycle",
                                 "poketch",
                                 "dowsingmachine",
-                                "oldrod",
-                                "goodrod",
-                                "superrod"
+                                "daytime",
+                                "nighttime"
                             ]
                         ]
                     }
@@ -112,16 +112,16 @@
                                 "secretpotion",
                                 "oldcharm",
                                 "galactickey",
-                                "suitekey"
+                                "suitekey",
+                                "ssticket"
                             ],
                             [
                                 "pokedex",
                                 "bicycle",
                                 "poketch",
                                 "dowsingmachine",
-                                "oldrod",
-                                "goodrod",
-                                "superrod"
+                                "daytime",
+                                "nighttime"
                             ]
                         ]
                     }
