@@ -4748,7 +4748,7 @@
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
                     "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut",
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -4878,7 +4878,7 @@
                 "name": "Item on Ledge Above Move Tutor",
                 "access_rules": [
                     "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut",
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -4889,7 +4889,7 @@
                 "name": "Item Near Scientist Between Cut Trees",
                 "access_rules": [
                     "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut",
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -5024,7 +5024,7 @@
                 "name": "Scientist Shaun",
                 "access_rules": [
                     "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut",
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -5036,7 +5036,7 @@
                 "name": "Parasol Lady Sabrina",
                 "access_rules": [
                     "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut",
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",

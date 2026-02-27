@@ -1248,7 +1248,7 @@
     {
         "name": "mt_coronet_b1f_feebas",
         "access_rules": [
-            "@mt_coronet_b1f, $any_rod, $surf, poketch, pokesonar",
+            "@mt_coronet_b1f, $any_rod, $surf, poketch, pokesonar"
         ]
     },
     {
@@ -3417,12 +3417,6 @@
             "@resort_area"
         ]
     },
-    //{
-    //    "name": "virt_dex",
-    //    "access_rules": [
-    //        "@twinleaf_town_player_house_2f, $wtfthis"
-    //    ]
-    //},
     {
         "name": "virt_great_marsh",
         "access_rules": [
@@ -3444,12 +3438,6 @@
             "@mt_coronet_1f_south"
         ]
     },
-    //{
-    //    "name": "virt_national_dex",
-    //    "access_rules": [
-    //        "@twinleaf_town_player_house_2f, $wtfthis"
-    //    ]
-    //},
     {
         "name": "virt_pal_pad",
         "access_rules": [
@@ -3479,12 +3467,6 @@
             "@twinleaf_town_player_house_2f, poketch, markingmap, ^$roamer_respawn"
         ]
     },
-    //{
-    //    "name": "virt_specs",
-    //    "access_rules": [
-    //        "@twinleaf_town_player_house_2f"
-    //    ]
-    //},
     {
         "name": "virt_wayward_cave_1f_red_shard",
         "access_rules": [
