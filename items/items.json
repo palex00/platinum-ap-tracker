@@ -416,10 +416,10 @@
         "codes": "poffincase"
     },
     {
-        "name": "Cord Link",
+        "name": "Linking Cord",
         "type": "toggle",
-        "img": "images/items/cordlink.png",
-        "codes": "cordlink"
+        "img": "images/items/linkingcord.png",
+        "codes": "linkingcord"
     },
     {
         "name": "Dawn Stone",
