@@ -102,25 +102,25 @@ function onClear(slot_data)
         end
     end
     
-    --updateEvents(0)
-    --
-    --if Archipelago.PlayerNumber > -1 then
-    --    HINT_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
-    --    Archipelago:SetNotify({HINT_ID})
-    --    Archipelago:Get({HINT_ID})
-    --    
-    --    EVENT_ID = "pokemon_platinum_tracked_events_"..TEAM_NUMBER.."_"..PLAYER_ID
-    --    Archipelago:SetNotify({EVENT_ID})
-    --    Archipelago:Get({EVENT_ID})
-    --    
-    --    KEY1_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_0"
-    --    Archipelago:SetNotify({KEY1_ID})
-    --    Archipelago:Get({KEY1_ID})
-    --    
-    --    KEY2_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_1"
-    --    Archipelago:SetNotify({KEY2_ID})
-    --    Archipelago:Get({KEY2_ID})
-    --end
+    updateEvents(0)
+    
+    if Archipelago.PlayerNumber > -1 then
+        HINT_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({HINT_ID})
+        Archipelago:Get({HINT_ID})
+        
+        EVENT_ID = "pokemon_platinum_tracked_events_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({EVENT_ID})
+        Archipelago:Get({EVENT_ID})
+        
+        --KEY1_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_0"
+        --Archipelago:SetNotify({KEY1_ID})
+        --Archipelago:Get({KEY1_ID})
+        --
+        --KEY2_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_1"
+        --Archipelago:SetNotify({KEY2_ID})
+        --Archipelago:Get({KEY2_ID})
+    end
 end
 
 function resetLocations()
