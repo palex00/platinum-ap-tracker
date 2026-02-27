@@ -5,7 +5,7 @@ function TrainersanityNumber:init()
     self.code = "opt_trainer_full"
     self.type = "full"
     self:setStage(449)
-    self.baseImage = "images/settings/trainersanity.png"
+    self.baseImage = "images/settings/opt_trainersanity.png"
     self.stageCount = 449
     self:updateIcon()
 end

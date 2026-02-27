@@ -50,14 +50,15 @@
                 "opt_keyitems"
             ],
             [
+                "opt_trainer_full",
                 "opt_rods",
                 "opt_poketchapps",
                 "opt_shoes",
                 "opt_bicycle",
-                "opt_pokedex",
-                "opt_accessories"
+                "opt_pokedex"
             ],
             [
+                "opt_accessories",
                 "opt_ssticket",
                 "opt_marsh_pass",
                 "opt_storage_key",
