@@ -480,5 +480,11 @@
         "type": "toggle",
         "img": "images/items/oddkeystone.png",
         "codes": "oddkeystone"
+    },
+    {
+        "name": "Markingmap",
+        "type": "toggle",
+        "img": "images/items/markingmap.png",
+        "codes": "markingmap"
     }
 ]
