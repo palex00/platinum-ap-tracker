@@ -6390,13 +6390,13 @@
                 "item_count": 1
             },
             {
-                "name": "Ace Trainer Alyssa",
+                "name": "Bird Keeper Brianna",
                 "access_rules": [
                     "@route_210_north"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
-                    "opt_trainer_327747"
+                    "opt_trainer_327754"
                 ],
                 "item_count": 1
             },
@@ -6423,17 +6423,6 @@
                 "item_count": 1
             },
             {
-                "name": "Ninja Boy Joel",
-                "access_rules": [
-                    "@route_210_north"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327750"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Ninja Boy Nathan",
                 "access_rules": [
                     "@route_210_north"
@@ -6452,28 +6441,6 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_327752"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Dragon Tamer Patrick",
-                "access_rules": [
-                    "@route_210_north, $rock_climb"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327753"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Bird Keeper Brianna",
-                "access_rules": [
-                    "@route_210_north"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327754"
                 ],
                 "item_count": 1
             },
@@ -6614,6 +6581,72 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ace Trainer Alyssa",
+                "access_rules": [
+                    "@route_210_north"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327747"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Dragon Tamer Patrick",
+                "access_rules": [
+                    "@route_210_north, $rock_climb"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327753"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Joel",
+                "access_rules": [
+                    "@route_210_north"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327750"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Fabian",
+                "access_rules": [
+                    "@route_210_south_upper"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328168"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Brennan",
+                "access_rules": [
+                    "@route_210_south_upper"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328169"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Boy Bruce",
+                "access_rules": [
+                    "@route_210_south_upper"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328170"
                 ],
                 "item_count": 1
             }
@@ -6784,39 +6817,6 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_328046"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Ninja Boy Fabian",
-                "access_rules": [
-                    "@route_210_south_upper"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328168"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Ninja Boy Brennan",
-                "access_rules": [
-                    "@route_210_south_upper"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328169"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Ninja Boy Bruce",
-                "access_rules": [
-                    "@route_210_south_upper"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328170"
                 ],
                 "item_count": 1
             }
