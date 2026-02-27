@@ -641,7 +641,7 @@
     {
         "name": "HM Reader and Mode",
         "type": "progressive",
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "loop": true,
         "allow_disabled": false,
         "stages": [
@@ -673,6 +673,72 @@
                 "name": "Add HM Reader - Pre-collected and Free",
                 "img": "images/settings/opt_hmreader_precollect_free.png",
                 "codes": "opt_hmreader, opt_hmreader_precollect_free",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Start With Swarms",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Start With Swarms - OFF",
+                "img": "images/settings/start_with_swarms.png",
+                "img_mods": "@disabled",
+                "codes": "opt_start_with_swarms, opt_start_with_swarms_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Start With Swarms - ON",
+                "img": "images/settings/start_with_swarms.png",
+                "codes": "opt_start_with_swarms, opt_start_with_swarms_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Can Reset Legendaries in AP Helper",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Can Reset Legendaries in AP Helper - OFF",
+                "img": "images/settings/can_reset_legendaries_in_ap_helper.png",
+                "img_mods": "@disabled",
+                "codes": "opt_can_reset_legendaries_in_ap_helper, opt_can_reset_legendaries_in_ap_helper_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Can Reset Legendaries in AP Helper - ON",
+                "img": "images/settings/can_reset_legendaries_in_ap_helper.png",
+                "codes": "opt_can_reset_legendaries_in_ap_helper, opt_can_reset_legendaries_in_ap_helper_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Evo Items Shop in AP Helper",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Evo Items Shop in AP Helper - OFF",
+                "img": "images/settings/evo_items_shop_in_ap_helper.png",
+                "img_mods": "@disabled",
+                "codes": "opt_evo_items_shop_in_ap_helper, opt_evo_items_shop_in_ap_helper_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Evo Items Shop in AP Helper - ON",
+                "img": "images/settings/evo_items_shop_in_ap_helper.png",
+                "codes": "opt_evo_items_shop_in_ap_helper, opt_evo_items_shop_in_ap_helper_on",
                 "inherit_codes": false
             }
         ]

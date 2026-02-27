@@ -72,13 +72,18 @@
         "item_size": "32,32",
         "item_h_alignment": "center",
         "item_v_alignment": "center",
-        "h_alignment": "left",
+        "h_alignment": "center",
         "rows": [
             [
                 "opt_goal",
                 "opt_hm_visibility",
                 "opt_dowsing",
-                "opt_north_sinnoh_fly"
+                "opt_north_sinnoh_fly",
+                "opt_start_with_swarms"
+            ],
+            [
+                "opt_evo_items_shop_in_ap_helper",
+				"opt_can_reset_legendaries_in_ap_helper"
             ]
         ]
     },
