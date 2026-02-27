@@ -56,10 +56,9 @@
                                 "bicycle",
                                 "poketch",
                                 "dowsingmachine",
-                                "marshpass",
-                                "oldrod",
-                                "goodrod",
-                                "superrod"
+                                "daytime",
+                                "nighttime",
+                                "hmreader"
                             ]
                         ]
                     }
@@ -124,10 +123,9 @@
                                 "bicycle",
                                 "poketch",
                                 "dowsingmachine",
-                                "marshpass",
-                                "oldrod",
-                                "goodrod",
-                                "superrod"
+                                "daytime",
+                                "nighttime",
+                                "hmreader"
                             ]
                         ]
                     }

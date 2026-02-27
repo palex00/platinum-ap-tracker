@@ -55,9 +55,9 @@
                                 "bicycle",
                                 "poketch",
                                 "dowsingmachine",
-                                "oldrod",
-                                "goodrod",
-                                "superrod"
+                                "daytime",
+                                "nighttime",
+                                "hmreader"
                             ]
                         ]
                     }
@@ -121,9 +121,9 @@
                                 "bicycle",
                                 "poketch",
                                 "dowsingmachine",
-                                "oldrod",
-                                "goodrod",
-                                "superrod"
+                                "daytime",
+                                "nighttime",
+                                "hmreader"
                             ]
                         ]
                     }

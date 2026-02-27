@@ -48,7 +48,8 @@
                                 "oldcharm",
                                 "storagekey",
                                 "galactickey",
-                                "suitekey"
+                                "suitekey",
+                                "ssticket"
                             ],
                             [
                                 "pokedex",
@@ -56,9 +57,8 @@
                                 "poketch",
                                 "dowsingmachine",
                                 "marshpass",
-                                "oldrod",
-                                "goodrod",
-                                "superrod"
+                                "daytime",
+                                "nighttime"
                             ]
                         ]
                     }
@@ -115,7 +115,8 @@
                                 "oldcharm",
                                 "storagekey",
                                 "galactickey",
-                                "suitekey"
+                                "suitekey",
+                                "ssticket"
                             ],
                             [
                                 "pokedex",
@@ -123,9 +124,8 @@
                                 "poketch",
                                 "dowsingmachine",
                                 "marshpass",
-                                "oldrod",
-                                "goodrod",
-                                "superrod"
+                                "daytime",
+                                "nighttime"
                             ]
                         ]
                     }

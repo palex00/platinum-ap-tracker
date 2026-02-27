@@ -46,6 +46,7 @@
                                 "workskey",
                                 "secretpotion",
                                 "oldcharm",
+                                "storagekey",
                                 "galactickey",
                                 "suitekey",
                                 "ssticket"
@@ -55,10 +56,9 @@
                                 "bicycle",
                                 "poketch",
                                 "dowsingmachine",
-                                "marshpass",
-                                "oldrod",
-                                "goodrod",
-                                "superrod",
+                                "daytime",
+                                "nighttime",
+                                "hmreader",
                                 "unownfile"
                             ]
                         ]
@@ -114,6 +114,7 @@
                                 "workskey",
                                 "secretpotion",
                                 "oldcharm",
+                                "storagekey",
                                 "galactickey",
                                 "suitekey",
                                 "ssticket"
@@ -123,10 +124,9 @@
                                 "bicycle",
                                 "poketch",
                                 "dowsingmachine",
-                                "marshpass",
-                                "oldrod",
-                                "goodrod",
-                                "superrod",
+                                "daytime",
+                                "nighttime",
+                                "hmreader",
                                 "unownfile"
                             ]
                         ]
