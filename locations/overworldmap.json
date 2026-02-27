@@ -2584,7 +2584,7 @@
             {
                 "name": "Bag in Player's Bedroom",
                 "access_rules": [
-                    "@twinleaf_town_player_house_2f"
+                    ""
                 ],
                 "visibility_rules": [
                     "opt_bag_on"
@@ -2647,14 +2647,14 @@
                     "@twinleaf_town_player_house_1f, event_defeat_cynthia"
                 ],
                 "visibility_rules": [
-                    "opt_cartridges_on"
+                    "opt_ssticket_on"
                 ],
                 "item_count": 1
             },
             {
                 "name": "S.S. Ticket from Mom (After Defeating Champion)​",
                 "access_rules": [
-                    ""
+                    "@twinleaf_town_player_house_1f, event_defeat_cynthia"
                 ],
                 "visibility_rules": [
                     "opt_ssticket_off"
@@ -5906,7 +5906,7 @@
             {
                 "name": "Fire Red Cartridge from DS Kid​",
                 "access_rules": [
-                    ""
+                    "@jubilife_city"
                 ],
                 "visibility_rules": [
                     "opt_cartridges_off"
@@ -5926,7 +5926,7 @@
             {
                 "name": "Leaf Green Cartridge from DS Kid​",
                 "access_rules": [
-                    ""
+                    "@jubilife_city"
                 ],
                 "visibility_rules": [
                     "opt_cartridges_off"
@@ -5946,7 +5946,7 @@
             {
                 "name": "Sapphire Cartridge from Schoolboy in Southwest Corner​",
                 "access_rules": [
-                    ""
+                    "@jubilife_city, $badges|1"
                 ],
                 "visibility_rules": [
                     "opt_cartridges_off"
@@ -8133,7 +8133,7 @@
             {
                 "name": "Secret Potion from Cynthia​",
                 "access_rules": [
-                    "@valor_lakefront, event_defeat_wake, @pastoria_city_gym"
+                    "@valor_lakefront, event_defeat_wake"
                 ],
                 "visibility_rules": [
                     "opt_keyitems_off"
@@ -8257,7 +8257,7 @@
             {
                 "name": "HM07 from Jasmine",
                 "access_rules": [
-                    "@sunyshore_city, event_defeat_volkner, @sunyshore_city_gym_room_3"
+                    "@sunyshore_city, event_defeat_volkner"
                 ],
                 "visibility_rules": [
                     "opt_hms_on"
@@ -8267,7 +8267,7 @@
             {
                 "name": "HM07 from Jasmine​",
                 "access_rules": [
-                    "@sunyshore_city, event_defeat_volkner, @sunyshore_city_gym_room_3"
+                    "@sunyshore_city, event_defeat_volkner"
                 ],
                 "visibility_rules": [
                     "opt_hms_off"
@@ -8317,7 +8317,7 @@
             {
                 "name": "Daytime in Lighthouse​",
                 "access_rules": [
-                    ""
+                    "@sunyshore_city"
                 ],
                 "visibility_rules": [
                     "opt_timeitems_off"
@@ -8811,7 +8811,7 @@
             {
                 "name": "Library - Witness the Explosion (Event)",
                 "access_rules": [
-                    "@canalave_library_3f, hm04strength, event_defeat_byron, @canalave_city_gym"
+                    "@canalave_library_3f, hm04strength, event_defeat_byron"
                 ],
                 "visibility_rules": [
                     ""
@@ -9170,7 +9170,7 @@
             {
                 "name": "Building - Ruby Cartridge from Scientist After Defeating Mars​",
                 "access_rules": [
-                    ""
+                    "@valley_windworks_building"
                 ],
                 "visibility_rules": [
                     "opt_cartridges_off"
@@ -9253,7 +9253,7 @@
             {
                 "name": "TM95 (By Mossy Rock)​",
                 "access_rules": [
-                    ""
+                    "@eterna_forest"
                 ],
                 "visibility_rules": [
                     "opt_overworld_off"
@@ -9630,7 +9630,7 @@
             {
                 "name": "TM93 (Overworld Item)​",
                 "access_rules": [
-                    ""
+                    "@fuego_ironworks_building"
                 ],
                 "visibility_rules": [
                     "opt_overworld_off"
@@ -9764,7 +9764,7 @@
             {
                 "name": "TM96 (In Right Side Room)​",
                 "access_rules": [
-                    ""
+                    "@old_chateau_side_rooms"
                 ],
                 "visibility_rules": [
                     "opt_overworld_off"
@@ -9867,7 +9867,7 @@
             {
                 "name": "Bike from Rad Rickshaw​",
                 "access_rules": [
-                    "@cycle_shop, event_clear_eternahideout, @team_galactic_eterna_building_4f"
+                    "@cycle_shop, event_clear_eternahideout"
                 ],
                 "visibility_rules": [
                     "opt_bicycle_off"
@@ -11320,7 +11320,7 @@
             {
                 "name": "Linking Cord (In First Basement)​",
                 "access_rules": [
-                    ""
+                    "@galactic_hq_wo_key"
                 ],
                 "visibility_rules": [
                     "opt_keyitems_off"
@@ -12921,7 +12921,7 @@
             {
                 "name": "B3F - TM94 (Overworld Item)​",
                 "access_rules": [
-                    ""
+                    "@snowpoint_temple_b3f"
                 ],
                 "visibility_rules": [
                     "opt_overworld_off"
@@ -14276,7 +14276,7 @@
             {
                 "name": "Emerald Cartridge from Guy​",
                 "access_rules": [
-                    ""
+                    "@pal_park_lobby"
                 ],
                 "visibility_rules": [
                     "opt_cartridges_off"
@@ -14697,7 +14697,7 @@
             {
                 "name": "Spear Pillar - Nighttime​",
                 "access_rules": [
-                    ""
+                    "@spear_pillar"
                 ],
                 "visibility_rules": [
                     "opt_timeitems_off"
