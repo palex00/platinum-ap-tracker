@@ -365,7 +365,7 @@
     {
         "name": "eterna_city_south_house",
         "access_rules": [
-            "@eterna_city, event_met_oak_at_palpark"
+            "@eterna_city, event_met_oak_at_palpark, @pal_park_lobby"
         ]
     },
     {
@@ -546,7 +546,7 @@
     {
         "name": "fullmoon_island",
         "access_rules": [
-            "@canalave_city, national_dex, event_defeat_cynthia",
+            "@canalave_city, national_dex, event_defeat_cynthia, @pokemon_league_hall_of_fame",
             "@fullmoon_island_forest"
         ]
     },
@@ -565,7 +565,7 @@
     {
         "name": "galactic_hq_wo_key",
         "access_rules": [
-            "@veilstone_city_galactic_warehouse, event_clear_lakeacuity",
+            "@veilstone_city_galactic_warehouse, event_clear_lakeacuity, @lake_acuity",
             "@veilstone_city_galactic_warehouse, storagekey"
         ]
     },
@@ -1008,7 +1008,7 @@
     {
         "name": "jubilife_tv_1f",
         "access_rules": [
-            "@jubilife_city, event_defeat_roark",
+            "@jubilife_city, event_defeat_roark, @oreburgh_city_gym",
             "@jubilife_tv_2f"
         ]
     },
@@ -1066,7 +1066,7 @@
         "name": "lake_acuity",
         "access_rules": [
             "@acuity_cavern",
-            "@acuity_lakefront, event_clear_lakeverity, $rock_climb"
+            "@acuity_lakefront, event_clear_lakeverity, $rock_climb, @lake_verity"
         ]
     },
     {
@@ -1078,20 +1078,20 @@
     {
         "name": "lake_valor",
         "access_rules": [
-            "@valor_lakefront, event_clear_distortion"
+            "@valor_lakefront, event_clear_distortion, @distortion_world"
         ]
     },
     {
         "name": "lake_valor_drained",
         "access_rules": [
-            "@valor_lakefront, event_learn_of_lake_explosion"
+            "@valor_lakefront, event_learn_of_lake_explosion, @canalave_library_3f, hm04strength, event_defeat_byron"
         ]
     },
     {
         "name": "lake_verity",
         "access_rules": [
             "@verity_cavern",
-            "@verity_lakefront, event_clear_lakevalor"
+            "@verity_lakefront, event_clear_lakevalor, @lake_valor_drained"
         ]
     },
     {
@@ -1199,7 +1199,7 @@
     {
         "name": "mt_coronet_3f",
         "access_rules": [
-            "@mt_coronet_2f_left, event_galactic_hq_defeat_cyrus",
+            "@mt_coronet_2f_left, event_galactic_hq_defeat_cyrus, @galactic_hq_w_key",
             "@mt_coronet_outside_south_entrance"
         ]
     },
@@ -1555,7 +1555,7 @@
     {
         "name": "pastoria_city_gym",
         "access_rules": [
-            "@pastoria_city, event_defeat_maylene"
+            "@pastoria_city, event_defeat_maylene, @veilstone_city_gym"
         ]
     },
     {
@@ -2607,7 +2607,7 @@
     {
         "name": "snowpoint_temple_1f",
         "access_rules": [
-            "@snowpoint_city, national_dex, event_defeat_cynthia",
+            "@snowpoint_city, national_dex, event_defeat_cynthia, @pokemon_league_hall_of_fame",
             "@snowpoint_temple_b1f"
         ]
     },
@@ -2857,7 +2857,7 @@
     {
         "name": "spring_path",
         "access_rules": [
-            "@route_214, event_clear_distortion",
+            "@route_214, event_clear_distortion, @distortion_world",
             "@sendoff_spring"
         ]
     },
@@ -3227,7 +3227,7 @@
     {
         "name": "veilstone_city_galactic_warehouse",
         "access_rules": [
-            "@galactic_hq_wo_key, event_clear_lakeacuity",
+            "@galactic_hq_wo_key, event_clear_lakeacuity, @lake_acuity",
             "@galactic_hq_wo_key, storagekey",
             "@veilstone_city"
         ]
@@ -3373,8 +3373,8 @@
     {
         "name": "victory_road_1f_room_1",
         "access_rules": [
-            "@victory_road_1f, event_defeat_cynthia, national_dex, ^$soft_defog",
-            "@victory_road_1f_room_2, event_defeat_cynthia, national_dex, ^$soft_defog"
+            "@victory_road_1f, event_defeat_cynthia, national_dex, ^$soft_defog, @pokemon_league_hall_of_fame",
+            "@victory_road_1f_room_2, event_defeat_cynthia, national_dex, ^$soft_defog, @pokemon_league_hall_of_fame"
         ]
     },
     {

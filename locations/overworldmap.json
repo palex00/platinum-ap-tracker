@@ -2644,7 +2644,7 @@
             {
                 "name": "S.S. Ticket from Mom (After Defeating Champion)",
                 "access_rules": [
-                    "@twinleaf_town_player_house_1f, event_defeat_cynthia"
+                    "@twinleaf_town_player_house_1f, event_defeat_cynthia, @pokemon_league_hall_of_fame"
                 ],
                 "visibility_rules": [
                     "opt_ssticket_on"
@@ -2654,7 +2654,7 @@
             {
                 "name": "S.S. Ticket from Mom (After Defeating Champion)​",
                 "access_rules": [
-                    "@twinleaf_town_player_house_1f, event_defeat_cynthia"
+                    "@twinleaf_town_player_house_1f, event_defeat_cynthia, @pokemon_league_hall_of_fame"
                 ],
                 "visibility_rules": [
                     "opt_ssticket_off"
@@ -2915,7 +2915,7 @@
             {
                 "name": "Rival",
                 "access_rules": [
-                    "@pastoria_city, event_defeat_maylene"
+                    "@pastoria_city, event_defeat_maylene, @veilstone_city_gym"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -5836,7 +5836,7 @@
             {
                 "name": "Fashion Case from Overalls Man After Grunts Battle After Oreburgh Gym",
                 "access_rules": [
-                    "@jubilife_city, event_defeat_roark"
+                    "@jubilife_city, event_defeat_roark, @oreburgh_city_gym"
                 ],
                 "visibility_rules": [
                     "opt_keyitems_on"
@@ -5978,7 +5978,7 @@
             {
                 "name": "Galactic Grunt 1",
                 "access_rules": [
-                    "@jubilife_city, event_defeat_roark"
+                    "@jubilife_city, event_defeat_roark, @oreburgh_city_gym"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -5989,7 +5989,7 @@
             {
                 "name": "Galactic Grunt 2",
                 "access_rules": [
-                    "@jubilife_city, event_defeat_roark"
+                    "@jubilife_city, event_defeat_roark, @oreburgh_city_gym"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -6235,7 +6235,7 @@
             {
                 "name": "Rival",
                 "access_rules": [
-                    "@route_209, event_defeat_fantina"
+                    "@route_209, event_defeat_fantina, @hearthome_city_gym_leader_room"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -8123,7 +8123,7 @@
             {
                 "name": "Secret Potion from Cynthia",
                 "access_rules": [
-                    "@valor_lakefront, event_defeat_wake"
+                    "@valor_lakefront, event_defeat_wake, @pastoria_city_gym"
                 ],
                 "visibility_rules": [
                     "opt_keyitems_on"
@@ -8133,7 +8133,7 @@
             {
                 "name": "Secret Potion from Cynthia​",
                 "access_rules": [
-                    "@valor_lakefront, event_defeat_wake"
+                    "@valor_lakefront, event_defeat_wake, @pastoria_city_gym"
                 ],
                 "visibility_rules": [
                     "opt_keyitems_off"
@@ -8153,7 +8153,7 @@
             {
                 "name": "Galactic Grunt",
                 "access_rules": [
-                    "@valor_lakefront, event_defeat_wake"
+                    "@valor_lakefront, event_defeat_wake, @pastoria_city_gym"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -8257,7 +8257,7 @@
             {
                 "name": "HM07 from Jasmine",
                 "access_rules": [
-                    "@sunyshore_city, event_defeat_volkner"
+                    "@sunyshore_city, event_defeat_volkner, @sunyshore_city_gym_room_3"
                 ],
                 "visibility_rules": [
                     "opt_hms_on"
@@ -8267,7 +8267,7 @@
             {
                 "name": "HM07 from Jasmine​",
                 "access_rules": [
-                    "@sunyshore_city, event_defeat_volkner"
+                    "@sunyshore_city, event_defeat_volkner, @sunyshore_city_gym_room_3"
                 ],
                 "visibility_rules": [
                     "opt_hms_off"
@@ -8811,7 +8811,7 @@
             {
                 "name": "Library - Witness the Explosion (Event)",
                 "access_rules": [
-                    "@canalave_library_3f, hm04strength, event_defeat_byron"
+                    "@canalave_library_3f, hm04strength, event_defeat_byron, @canalave_city_gym"
                 ],
                 "visibility_rules": [
                     ""
@@ -9857,7 +9857,7 @@
             {
                 "name": "Bike from Rad Rickshaw",
                 "access_rules": [
-                    "@cycle_shop, event_clear_eternahideout"
+                    "@cycle_shop, event_clear_eternahideout, @team_galactic_eterna_building_4f"
                 ],
                 "visibility_rules": [
                     "opt_bicycle_on"
@@ -9867,7 +9867,7 @@
             {
                 "name": "Bike from Rad Rickshaw​",
                 "access_rules": [
-                    "@cycle_shop, event_clear_eternahideout"
+                    "@cycle_shop, event_clear_eternahideout, @team_galactic_eterna_building_4f"
                 ],
                 "visibility_rules": [
                     "opt_bicycle_off"
@@ -10704,7 +10704,7 @@
             {
                 "name": "Galactic Grunt 1",
                 "access_rules": [
-                    "@veilstone_city, event_defeat_maylene"
+                    "@veilstone_city, event_defeat_maylene, @veilstone_city_gym"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -10715,7 +10715,7 @@
             {
                 "name": "Galactic Grunt 2",
                 "access_rules": [
-                    "@veilstone_city, event_defeat_maylene"
+                    "@veilstone_city, event_defeat_maylene, @veilstone_city_gym"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -15292,7 +15292,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@mt_coronet_2f_left, event_galactic_hq_defeat_cyrus"
+                    "@mt_coronet_2f_left, event_galactic_hq_defeat_cyrus, @galactic_hq_w_key"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -15314,7 +15314,7 @@
             {
                 "name": "2F - Gift from Looker",
                 "access_rules": [
-                    "@mt_coronet_2f_left, event_galactic_hq_defeat_cyrus"
+                    "@mt_coronet_2f_left, event_galactic_hq_defeat_cyrus, @galactic_hq_w_key"
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
