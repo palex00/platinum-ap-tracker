@@ -70,11 +70,6 @@ function hidden()
     end
 end
 
-function regional_monsTODO()
-    -- Returns true for now, will change with PKMN Randomisation
-    return true
-end
-
 function badges_req(count)
     return (badges() >= tonumber(count))
 end
@@ -144,24 +139,8 @@ function unowns()
     end
 end
 
-function mon_geodude()
-    -- Once Encounter Randomisation is a thing, this needs to change.
-    -- Now just gives accessibility of the earliest area you can catch Geodude
-    return Tracker:FindObjectForCode("@oreburgh_gate_1f").AccessibilityLevel
-end
-
 function pastoria_barriers()
     return has("opt_pastoria_barriers_off") or surf()
-end
-
-function mons()
-    -- Returns true for now, will change with PKMN Randomisation
-    return true
-end
-
-function regional_mons()
-    -- Returns true for now, will change with PKMN Randomisation
-    return true
 end
 
 function marsh_pass()
@@ -173,5 +152,46 @@ function flash()
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.SequenceBreak
+    end
+end
+
+function roamer_respawn()
+    return AccessibilityLevel.Normal
+end
+
+function any_rod()
+    return has("oldrod") or has("goodrod") or has("superrod")
+end
+
+function see_regional_mons()
+    -- We need to decide on this
+    return AccessibilityLevel.Normal
+end
+
+function see_50_regional_mons()
+    -- We need to decide on this
+    return AccessibilityLevel.Normal
+end
+
+function see_35_mons()
+    -- We need to decide on this
+    return AccessibilityLevel.Normal
+end
+
+function regional_mons()
+    -- We need to decide on this
+    return AccessibilityLevel.Normal
+end
+
+function amity_square()
+    -- We need to decide on this
+    return AccessibilityLevel.Normal
+end
+
+function has_mon(dexnumber)
+    if has("caught_"..dexnumber) then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.Inspect
     end
 end

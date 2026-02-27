@@ -291,7 +291,7 @@
         "codes": "workskey"
     },
     {
-        "name": "SecretPotion",
+        "name": "Secret Potion",
         "type": "toggle",
         "img": "images/items/secretpotion.png",
         "codes": "secretpotion"
@@ -368,13 +368,13 @@
         "codes": "emeraldcartridge"
     },
     {
-        "name": "FireRed Cartridge",
+        "name": "Fire Red Cartridge",
         "type": "toggle",
         "img": "images/items/cartridgefirered.png",
         "codes": "fireredcartridge"
     },
     {
-        "name": "LeafGreen Cartridge",
+        "name": "Leaf Green Cartridge",
         "type": "toggle",
         "img": "images/items/cartridgeleafgreen.png",
         "codes": "leafgreencartridge"
