@@ -28,8 +28,7 @@ SLOT_CODES = {
     can_reset_legendaries_in_ap_helper = {code = "opt_can_reset_legendaries_in_ap_helper"},
     cartridges = {code = "opt_cartridges"},
     hm_reader = {code = "opt_hmreader"},
-    time_items = {code = "opt_timeitems"},
-    
+    time_items = {code = "opt_timeitems"}
 }
 
 HM_CODES = {
