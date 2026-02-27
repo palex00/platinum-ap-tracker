@@ -38,25 +38,31 @@ ITEM_MAPPING = {
 	[470] =     {{"unownfile", "consumable"}},
 	[57348] =   {{"bag", "toggle"}},
     
-    -- 0.2.0 items
+    --    0.2.0 items
+    -- Access items
+    [57354] = {{"daytime", "toggle"}},
+    [57355] = {{"nighttime", "toggle"}},
+    [478] =   {{"hmreader", "toggle"}},
+    
+    -- Encounter related
     [57349] = {{"sapphirecartridge", "toggle"}},
     [57350] = {{"rubycartridge", "toggle"}},
     [57351] = {{"emeraldcartridge", "toggle"}},
     [57352] = {{"fireredcartridge", "toggle"}},
     [57353] = {{"leafgreencartridge", "toggle"}},
-    [57354] = {{"daytime", "toggle"}},
-    [57355] = {{"nighttime", "toggle"}},
     [57356] = {{"treecamera", "toggle"}},
     [57357] = {{"pokesonar", "toggle"}},
-    [478] =   {{"hmreader", "toggle"}},
+    [16833] = {{"poffincase", "toggle"}},
+    [20492] = {{"markingmap", "toggle"}},
+    [16495] = {{"oddkeystone", "toggle"}},
     
+    -- Evolution related
     --[16856] = {{"tm93rollout", "toggle"}},
     --[16857] = {{"tm94ancientpower", "toggle"}},
     --[16858] = {{"tm95doublehit", "toggle"}},
     --[16859] = {{"tm96mimic", "toggle"}},
     --[471] =   {{"linkingcord", "toggle"}},
     --[16494] = {{"ovalstone", "toggle"}},
-    --[16495] = {{"oddkeystone", "toggle"}},
     --[16605] = {{"kingsrock", "toggle"}},
     --[16610] = {{"deepseatooth", "toggle"}},
     --[16611] = {{"deepseascale", "toggle"}},
@@ -70,5 +76,4 @@ ITEM_MAPPING = {
     --[16709] = {{"reapercloth", "toggle"}},
     --[16710] = {{"razowclaw", "toggle"}},
     --[16711] = {{"razorfang", "toggle"}},
-    --[16833] = {{"poffincase", "toggle"}},
 }

@@ -365,7 +365,7 @@
     {
         "name": "eterna_city_south_house",
         "access_rules": [
-            "@eterna_city, $event_met_oak_pal_park"
+            "@eterna_city, event_met_oak_at_palpark"
         ]
     },
     {
@@ -1066,7 +1066,7 @@
         "name": "lake_acuity",
         "access_rules": [
             "@acuity_cavern",
-            "@acuity_lakefront, $event_lake_verity_defeat_mars, $rock_climb"
+            "@acuity_lakefront, event_clear_lakeverity, $rock_climb"
         ]
     },
     {
@@ -1084,14 +1084,14 @@
     {
         "name": "lake_valor_drained",
         "access_rules": [
-            "@valor_lakefront, $event_lake_explosion"
+            "@valor_lakefront, event_learn_of_lake_explosion"
         ]
     },
     {
         "name": "lake_verity",
         "access_rules": [
             "@verity_cavern",
-            "@verity_lakefront, $event_lake_valor_defeat_saturn"
+            "@verity_lakefront, event_clear_lakevalor"
         ]
     },
     {
@@ -1248,9 +1248,7 @@
     {
         "name": "mt_coronet_b1f_feebas",
         "access_rules": [
-            "@mt_coronet_b1f, $good_rod",
-            "@mt_coronet_b1f, $super_rod) & poketch & feebas_upgrade",
-            "@mt_coronet_b1f, $surf & (old_rod"
+            "@mt_coronet_b1f, $any_rod, $surf, poketch, pokesonar",
         ]
     },
     {
@@ -1557,7 +1555,7 @@
     {
         "name": "pastoria_city_gym",
         "access_rules": [
-            "@pastoria_city, $event_cobble_badge"
+            "@pastoria_city, event_defeat_maylene"
         ]
     },
     {
@@ -2080,7 +2078,7 @@
     {
         "name": "route_209_odd_keystone",
         "access_rules": [
-            "@route_209, $odd_keystone, $evo_item_shop"
+            "@route_209, oddkeystone, $evo_item_shop"
         ]
     },
     {
@@ -2410,7 +2408,7 @@
         "name": "route_227",
         "access_rules": [
             "@route_227_house",
-            "@route_227_lower, bicycle, $bag",
+            "@route_227_lower, bicycle, bag",
             "@stark_mountain_outside"
         ]
     },
@@ -2453,8 +2451,8 @@
     {
         "name": "route_228_rock_peak_ruins",
         "access_rules": [
-            "@route_228, $(bicycle",
-            "@route_228, $fly) & bag"
+            "@route_228, bag, $fly",
+            "@route_228, bag, bicycle"
         ]
     },
     {
@@ -3419,12 +3417,12 @@
             "@resort_area"
         ]
     },
-    {
-        "name": "virt_dex",
-        "access_rules": [
-            "@twinleaf_town_player_house_2f, $wtfthis"
-        ]
-    },
+    //{
+    //    "name": "virt_dex",
+    //    "access_rules": [
+    //        "@twinleaf_town_player_house_2f, $wtfthis"
+    //    ]
+    //},
     {
         "name": "virt_great_marsh",
         "access_rules": [
@@ -3446,12 +3444,12 @@
             "@mt_coronet_1f_south"
         ]
     },
-    {
-        "name": "virt_national_dex",
-        "access_rules": [
-            "@twinleaf_town_player_house_2f, $wtfthis"
-        ]
-    },
+    //{
+    //    "name": "virt_national_dex",
+    //    "access_rules": [
+    //        "@twinleaf_town_player_house_2f, $wtfthis"
+    //    ]
+    //},
     {
         "name": "virt_pal_pad",
         "access_rules": [
@@ -3478,15 +3476,15 @@
     {
         "name": "virt_roamers",
         "access_rules": [
-            "@twinleaf_town_player_house_2f, poketch, $markingmap, $event_beat_cynthia if can_reset_legendaries_in_ap_helper else poketch, $markingmap"
+            "@twinleaf_town_player_house_2f, poketch, markingmap, ^$roamer_respawn"
         ]
     },
-    {
-        "name": "virt_specs",
-        "access_rules": [
-            "@twinleaf_town_player_house_2f"
-        ]
-    },
+    //{
+    //    "name": "virt_specs",
+    //    "access_rules": [
+    //        "@twinleaf_town_player_house_2f"
+    //    ]
+    //},
     {
         "name": "virt_wayward_cave_1f_red_shard",
         "access_rules": [

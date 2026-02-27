@@ -533,7 +533,7 @@
             {
                 "name": "2F - NW Item",
                 "access_rules": [
-                    "@victory_road_2f, bicycle, $bag"
+                    "@victory_road_2f, bicycle, bag"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -543,7 +543,7 @@
             {
                 "name": "2F - Item Above Ledge",
                 "access_rules": [
-                    "@victory_road_2f, bicycle, $bag"
+                    "@victory_road_2f, bicycle, bag"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -553,7 +553,7 @@
             {
                 "name": "2F - Item in NE",
                 "access_rules": [
-                    "@victory_road_2f, bicycle, $bag"
+                    "@victory_road_2f, bicycle, bag"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -1892,7 +1892,8 @@
             {
                 "name": "Item in Northernmost Pit",
                 "access_rules": [
-                    "$toocomplicated"
+                    "@route_228, bag, bicycle",
+                    "@route_228, bag, $fly"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -1912,7 +1913,7 @@
             {
                 "name": "Item Across Bike Rail Above Vents",
                 "access_rules": [
-                    "@route_228, bicycle, $bag"
+                    "@route_228, bicycle, bag"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -1944,7 +1945,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@route_228, bicycle, $bag"
+                    "@route_228, bicycle, bag"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -2026,7 +2027,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@route_228, bicycle, $bag"
+                    "@route_228, bicycle, bag"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -2036,7 +2037,7 @@
             {
                 "name": "Dragon Tamer Keegan",
                 "access_rules": [
-                    "@route_228, bicycle, $bag"
+                    "@route_228, bicycle, bag"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -2080,7 +2081,7 @@
             {
                 "name": "Psychic Corbin",
                 "access_rules": [
-                    "@route_228, bicycle, $bag"
+                    "@route_228, bicycle, bag"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -2272,7 +2273,7 @@
             {
                 "name": "Item Below Shrine Right Stairs",
                 "access_rules": [
-                    "@celestic_town, $old_charm"
+                    "@celestic_town, oldcharm"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -2284,7 +2285,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@celestic_town, $old_charm"
+                    "@celestic_town, oldcharm"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -2294,7 +2295,7 @@
             {
                 "name": "Cave - HM03 from Cynthias Grandmother",
                 "access_rules": [
-                    "@celestic_town_cave, $old_charm"
+                    "@celestic_town_cave, oldcharm"
                 ],
                 "visibility_rules": [
                     "opt_hms_on"
@@ -2364,7 +2365,7 @@
             {
                 "name": "Galactic Grunt",
                 "access_rules": [
-                    "@celestic_town, $old_charm"
+                    "@celestic_town, oldcharm"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -2375,7 +2376,7 @@
             {
                 "name": "Cave - Galactic Boss Cyrus",
                 "access_rules": [
-                    "@celestic_town_cave, $old_charm"
+                    "@celestic_town_cave, oldcharm"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -2914,7 +2915,7 @@
             {
                 "name": "Rival",
                 "access_rules": [
-                    "@pastoria_city, $event_cobble_badge"
+                    "@pastoria_city, event_defeat_maylene"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -4733,7 +4734,8 @@
             {
                 "name": "Item on Northeast Island Past Bike Bridge",
                 "access_rules": [
-                    "@route_212_south, bicycle, $bag if pastoria_barriers else bicycle"
+                    "@route_212_south, opt_pastoria_barriers_on, bicycle, bag",
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -4745,7 +4747,8 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@route_212_south, bicycle, $cut, $bag if pastoria_barriers else cut, bicycle"
+                    "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut",
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -4874,7 +4877,8 @@
             {
                 "name": "Item on Ledge Above Move Tutor",
                 "access_rules": [
-                    "@route_212_south, $cut, bicycle, $bag if pastoria_barriers else cut, bicycle"
+                    "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut",
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -4884,7 +4888,8 @@
             {
                 "name": "Item Near Scientist Between Cut Trees",
                 "access_rules": [
-                    "@route_212_south, $cut, bicycle, $bag if pastoria_barriers else cut, bicycle"
+                    "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut",
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -5018,7 +5023,8 @@
             {
                 "name": "Scientist Shaun",
                 "access_rules": [
-                    "@route_212_south, $cut, bicycle, $bag if pastoria_barriers else cut, bicycle"
+                    "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut",
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -5029,7 +5035,8 @@
             {
                 "name": "Parasol Lady Sabrina",
                 "access_rules": [
-                    "@route_212_south, $cut, bicycle, $bag if pastoria_barriers else cut, bicycle"
+                    "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut",
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -6228,7 +6235,7 @@
             {
                 "name": "Rival",
                 "access_rules": [
-                    "@route_209, $event_relic_badge"
+                    "@route_209, event_defeat_fantina"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -6290,7 +6297,7 @@
             {
                 "name": "Pokemon History App from Ruin Maniac",
                 "access_rules": [
-                    "@solaceon_town, pokedex, $see_regional_mons(50)"
+                    "@solaceon_town, pokedex, $see_50_regional_mons"
                 ],
                 "visibility_rules": [
                     "opt_poketchapps_on"
@@ -6349,7 +6356,8 @@
             {
                 "name": "Item Behind Breakable Rocks",
                 "access_rules": [
-                    "$toocomplicated"
+                    "@route_210_north, $rock_smash, bicycle, bag",
+                    "@route_210_north, $rock_smash, bicycle, $strength"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -6436,7 +6444,8 @@
             {
                 "name": "Ninja Boy Davido",
                 "access_rules": [
-                    "$toocomplicated"
+                    "@route_210_north, bicycle, bag",
+                    "@route_210_north, bicycle, $rock_smash, $strength"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -6672,7 +6681,7 @@
             {
                 "name": "Item in Northwest Corner",
                 "access_rules": [
-                    "@route_210_south, bicycle, $bag"
+                    "@route_210_south, bicycle, bag"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -6724,7 +6733,7 @@
             {
                 "name": "Breeder Kahlil",
                 "access_rules": [
-                    "@route_210_south, bicycle, $bag"
+                    "@route_210_south, bicycle, bag"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -6746,7 +6755,7 @@
             {
                 "name": "Twins Teri And Tia",
                 "access_rules": [
-                    "@route_210_south, bicycle, $bag"
+                    "@route_210_south, bicycle, bag"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -8114,7 +8123,7 @@
             {
                 "name": "Secret Potion from Cynthia",
                 "access_rules": [
-                    "@valor_lakefront, $event_fen_badge"
+                    "@valor_lakefront, event_defeat_wake"
                 ],
                 "visibility_rules": [
                     "opt_keyitems_on"
@@ -8144,7 +8153,7 @@
             {
                 "name": "Galactic Grunt",
                 "access_rules": [
-                    "@valor_lakefront, $event_fen_badge"
+                    "@valor_lakefront, event_defeat_wake"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -9848,7 +9857,7 @@
             {
                 "name": "Bike from Rad Rickshaw",
                 "access_rules": [
-                    "@cycle_shop, $event_eterna_defeat_team_galactic"
+                    "@cycle_shop, event_clear_eternahideout"
                 ],
                 "visibility_rules": [
                     "opt_bicycle_on"
@@ -10695,7 +10704,7 @@
             {
                 "name": "Galactic Grunt 1",
                 "access_rules": [
-                    "@veilstone_city, $event_cobble_badge"
+                    "@veilstone_city, event_defeat_maylene"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -10706,7 +10715,7 @@
             {
                 "name": "Galactic Grunt 2",
                 "access_rules": [
-                    "@veilstone_city, $event_cobble_badge"
+                    "@veilstone_city, event_defeat_maylene"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -11607,7 +11616,7 @@
             {
                 "name": "North Gate - Reward For 35 Pokemon Seen",
                 "access_rules": [
-                    "@route_206_cycling_road_north_gate, pokedex, $see_mons(35)"
+                    "@route_206_cycling_road_north_gate, pokedex, ^$see_35_mons"
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
@@ -12580,7 +12589,7 @@
             {
                 "name": "Gift from Hiker",
                 "access_rules": [
-                    "@route_217_west_house, $hm08"
+                    "@route_217_west_house, hm08rockclimb"
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
@@ -13627,7 +13636,7 @@
             {
                 "name": "Gift from Overalls Man for Showing Geodude in North House",
                 "access_rules": [
-                    "@oreburgh_city_north_house_2f, $mon_geodude"
+                    "@oreburgh_city_north_house_2f, ^$has_mon|74"
                 ],
                 "visibility_rules": [
                     "opt_npcgifts_on"
@@ -14158,7 +14167,7 @@
             {
                 "name": "Lab - National Pokedex from Prof Oak",
                 "access_rules": [
-                    "@sandgem_town_pokemon_research_lab, pokedex, $see_regional_mons(opt:regional_dex_goal)"
+                    "@sandgem_town_pokemon_research_lab, pokedex, ^$see_regional_mons"
                 ],
                 "visibility_rules": [
                     "opt_pokedex_on"
@@ -14168,7 +14177,7 @@
             {
                 "name": "Lab - National Pokedex from Prof Oak​",
                 "access_rules": [
-                    "@sandgem_town_pokemon_research_lab, $regional_monsTODO"
+                    "@sandgem_town_pokemon_research_lab, pokedex, ^$see_regional_mons"
                 ],
                 "visibility_rules": [
                     "opt_pokedex_off"
@@ -14178,7 +14187,7 @@
             {
                 "name": "Lab - Poke Radar from Rowan",
                 "access_rules": [
-                    "@sandgem_town_pokemon_research_lab, pokedex, $see_regional_mons(opt:regional_dex_goal)"
+                    "@sandgem_town_pokemon_research_lab, pokedex, ^$see_regional_mons"
                 ],
                 "visibility_rules": [
                     "opt_keyitems_on"
@@ -14237,7 +14246,7 @@
             {
                 "name": "Kitchen Timer App from Girl",
                 "access_rules": [
-                    "@pal_park_lobby, $mon_snorlax"
+                    "@pal_park_lobby, ^$has_mon|143"
                 ],
                 "visibility_rules": [
                     "opt_poketchapps_on"
@@ -14247,7 +14256,7 @@
             {
                 "name": "Color Changer App from Girl",
                 "access_rules": [
-                    "@pal_park_lobby, $mon_kecleon, $mon_snorlax"
+                    "@pal_park_lobby, ^$has_mon|352, ^$has_mon|143"
                 ],
                 "visibility_rules": [
                     "opt_poketchapps_on"
