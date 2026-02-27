@@ -47,7 +47,8 @@
                 "opt_overworld",
                 "opt_hidden",
                 "opt_npcgifts",
-                "opt_keyitems"
+                "opt_keyitems",
+                "opt_cartridges"
             ],
             [
                 "opt_trainer_full",

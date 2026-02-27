@@ -592,15 +592,15 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Cartridges are randomized",
-                "img": "images/settings/opt_cartridges_on.png",
-                "codes": "opt_cartridges, opt_cartridges_on",
-                "inherit_codes": false
-            },
-            {
                 "name": "Cartridges are vanilla",
                 "img": "images/settings/opt_cartridges_off.png",
                 "codes": "opt_cartridges, opt_cartridges_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cartridges are randomized",
+                "img": "images/settings/opt_cartridges_on.png",
+                "codes": "opt_cartridges, opt_cartridges_on",
                 "inherit_codes": false
             },
             {

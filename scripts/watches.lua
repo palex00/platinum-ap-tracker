@@ -15,5 +15,5 @@ ScriptHost:AddWatchForCode("splitmap", "splitmap", toggle_splitmap)
 ScriptHost:AddWatchForCode("opt_pastoria_barriers", "opt_pastoria_barriers", toggle_pastoriabarriers)
 
 -- Debug
---ScriptHost:AddWatchForCode("debug", "*", debug)
---ScriptHost:AddOnLocationSectionChangedHandler("debug", debug)
+ScriptHost:AddWatchForCode("debug", "*", debug)
+ScriptHost:AddOnLocationSectionChangedHandler("debug", debug)
