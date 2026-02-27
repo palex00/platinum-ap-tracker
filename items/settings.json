@@ -652,7 +652,7 @@
                 "inherit_codes": false
             },
             {
-                "name": "Add HM Reader - Randomized and Comptabible Pokémon Required",
+                "name": "Add HM Reader - Randomized and Compatible Pokémon Required",
                 "img": "images/settings/opt_hmreader_on_reqmon.png",
                 "codes": "opt_hmreader, opt_hmreader_on_reqmon",
                 "inherit_codes": false
@@ -664,7 +664,7 @@
                 "inherit_codes": false
             },
             {
-                "name": "Add HM Reader - Pre-collected and Comptabible Pokémon Required",
+                "name": "Add HM Reader - Pre-collected and Compatible Pokémon Required",
                 "img": "images/settings/opt_hmreader_precollect_reqmon.png",
                 "codes": "opt_hmreader, opt_hmreader_precollect_reqmon",
                 "inherit_codes": false
