@@ -581,7 +581,7 @@
                 "img": "/images/settings/map_reverse.png",
                 "codes": "splitmap, splitmap_reverse",
                 "inherit_codes": false
-            },
+            }
         ]
     },
     {
