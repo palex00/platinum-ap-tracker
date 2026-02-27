@@ -22,7 +22,14 @@ SLOT_CODES = {
     parcel_coupons_route_203 = {code = "opt_route_203"},
     early_sunyshore = {code = "opt_early_sunyshore"},
     pastoria_barriers = {code = "opt_pastoria_barriers"},
-    goal = {code = "opt_goal"}
+    goal = {code = "opt_goal"},
+    dexsanity_specs = {code = "opt_evo_items_shop_in_ap_helper"},
+    start_with_swarms = {code = "opt_start_with_swarms"},
+    can_reset_legendaries_in_ap_helper = {code = "opt_can_reset_legendaries_in_ap_helper"},
+    cartridges = {code = "opt_cartridges"},
+    hm_reader = {code = "opt_hmreader"},
+    time_items = {code = "opt_timeitems"},
+    
 }
 
 HM_CODES = {
