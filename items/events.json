@@ -124,5 +124,12 @@
         "img": "/images/events/event_clear_windworks.png",
         "img_mods": "",
         "codes":"event_clear_windworks"
+    },
+    {
+        "name": "Defeat Team Galactic in Stark Mountain",
+        "type": "toggle",
+        "img": "/images/events/event_clear_windworks.png",
+        "img_mods": "",
+        "codes":"event_clear_starkmountain"
     }
 ]

@@ -113,13 +113,14 @@ function onClear(slot_data)
         Archipelago:SetNotify({EVENT_ID})
         Archipelago:Get({EVENT_ID})
         
-        --KEY1_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_0"
-        --Archipelago:SetNotify({KEY1_ID})
-        --Archipelago:Get({KEY1_ID})
-        --
-        --KEY2_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_1"
-        --Archipelago:SetNotify({KEY2_ID})
-        --Archipelago:Get({KEY2_ID})
+        for i = 1, 4 do
+            _G["KEY"..i.."_ID"] =
+                "pokemon_platinum_tracked_unrandomized_required_locations_"
+                ..TEAM_NUMBER.."_"..PLAYER_ID.."_"..(i - 1)
+        
+            Archipelago:SetNotify({_G["KEY"..i.."_ID"]})
+            Archipelago:Get({_G["KEY"..i.."_ID"]})
+        end
     end
 end
 

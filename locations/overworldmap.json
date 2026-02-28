@@ -1156,7 +1156,7 @@
             {
                 "name": "Elite Four Aaron Rematch",
                 "access_rules": [
-                    "@pokemon_league_aaron_room, $event_stark_mountain_arrest_team_galactic"
+                    "@pokemon_league_aaron_room, event_clear_starkmountain, @stark_mountain_room_3"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -1167,7 +1167,7 @@
             {
                 "name": "Elite Four Bertha Rematch",
                 "access_rules": [
-                    "@pokemon_league_bertha_room, $event_stark_mountain_arrest_team_galactic"
+                    "@pokemon_league_bertha_room, event_clear_starkmountain, @stark_mountain_room_3"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -1178,7 +1178,7 @@
             {
                 "name": "Elite Four Flint Rematch",
                 "access_rules": [
-                    "@pokemon_league_flint_room, $event_stark_mountain_arrest_team_galactic"
+                    "@pokemon_league_flint_room, event_clear_starkmountain, @stark_mountain_room_3"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -1189,7 +1189,7 @@
             {
                 "name": "Elite Four Lucian Rematch",
                 "access_rules": [
-                    "@pokemon_league_lucian_room, $event_stark_mountain_arrest_team_galactic"
+                    "@pokemon_league_lucian_room, event_clear_starkmountain, @stark_mountain_room_3"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -1200,7 +1200,7 @@
             {
                 "name": "Champion Cynthia Rematch",
                 "access_rules": [
-                    "@pokemon_league_champion_room, $event_stark_mountain_arrest_team_galactic"
+                    "@pokemon_league_champion_room, event_clear_starkmountain, @stark_mountain_room_3"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -1552,7 +1552,7 @@
             {
                 "name": "Rival",
                 "access_rules": [
-                    "@survival_area, $event_stark_mountain_arrest_team_galactic"
+                    "@survival_area, event_clear_starkmountain, @stark_mountain_room_3"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
@@ -4290,6 +4290,16 @@
                     "opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Cavern - Defeat Team Galactic in Stark Mountain (Event)",
+                "access_rules": [
+                    "@stark_mountain_room_3"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_clear_starkmountain"
             },
             {
                 "name": "Bird Keeper Krystal",
