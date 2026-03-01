@@ -30,6 +30,12 @@
         "img": "images/maps/oreburghcity.png"
     },
     {
+        "name": "oreburghgym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/oreburghgym.png"
+    },
+    {
         "name": "floaromatown",
         "location_size": 14,
         "location_border_thickness": 2,
@@ -42,10 +48,22 @@
         "img": "images/maps/eternacity.png"
     },
     {
+        "name": "eternagym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/eternagym.png"
+    },
+    {
         "name": "hearthomecity",
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/hearthomecity.png"
+    },
+    {
+        "name": "hearthomegym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/hearthomegym.png"
     },
     {
         "name": "solaceontown",
@@ -60,10 +78,22 @@
         "img": "images/maps/veilstonecity.png"
     },
     {
+        "name": "veilstonegym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/veilstonegym.png"
+    },
+    {
         "name": "pastoriacity",
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/pastoriacity.png"
+    },
+    {
+        "name": "pastoriagym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/pastoriagym.png"
     },
     {
         "name": "celestictown",
@@ -78,16 +108,64 @@
         "img": "images/maps/canalavecity.png"
     },
     {
+        "name": "canalavegym1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/canalavegym1f.png"
+    },
+    {
+        "name": "canalavegym2f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/canalavegym2f.png"
+    },
+    {
+        "name": "canalavegym3f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/canalavegym3f.png"
+    },
+    {
+        "name": "canalavegym4f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/canalavegym4f.png"
+    },
+    {
         "name": "snowpointcity",
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/snowpointcity.png"
     },
     {
+        "name": "snowpointgym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/snowpointgym.png"
+    },
+    {
         "name": "sunyshorecity",
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/sunyshorecity.png"
+    },
+    {
+        "name": "sunyshoregym1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sunyshoregym1.png"
+    },
+    {
+        "name": "sunyshoregym2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sunyshoregym2.png"
+    },
+    {
+        "name": "sunyshoregym3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sunyshoregym3.png"
     },
     {
         "name": "pokemonleaguesouth",

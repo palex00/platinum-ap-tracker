@@ -44,6 +44,15 @@
               }
             },
             {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "oreburghgym"
+                ]
+              }
+            },
+            {
               "title": "Mine",
               "content": {
                 "type": "tabbed",
@@ -101,9 +110,26 @@
       {
         "title": "Eterna City",
         "content": {
-          "type": "map",
-          "maps": [
-            "eternacity"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "eternacity"
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "eternagym"
+                ]
+              }
+            }
           ]
         }
       },
@@ -122,6 +148,15 @@
               }
             },
             {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "hearthomegym"
+                ]
+              }
+            },
+            {
               "title": "Amity Square",
               "content": {
                 "type": "map",
@@ -136,18 +171,105 @@
       {
         "title": "Solaceon Town",
         "content": {
-          "type": "map",
-          "maps": [
-            "solaceontown"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Town",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "solaceontown"
+                ]
+              }
+            },
+            {
+              "title": "Ruins",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "solaceonruins2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "solaceonruins1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "solaceonruinsb1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "solaceonruinsb2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "solaceonruinsb3f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B4F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "solaceonruinsb4f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Veilstone City",
         "content": {
-          "type": "map",
-          "maps": [
-            "veilstonecity"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "veilstonecity"
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "veilstonegym"
+                ]
+              }
+            }
           ]
         }
       },
@@ -162,6 +284,15 @@
                 "type": "map",
                 "maps": [
                   "pastoriacity"
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pastoriagym"
                 ]
               }
             },
@@ -189,9 +320,61 @@
       {
         "title": "Canalave City",
         "content": {
-          "type": "map",
-          "maps": [
-            "canalavecity"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "canalavecity"
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "canalavegym1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "canalavegym2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "canalavegym3f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "4F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "canalavegym4f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
           ]
         }
       },
@@ -206,6 +389,15 @@
                 "type": "map",
                 "maps": [
                   "snowpointcity"
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "snowpointgym"
                 ]
               }
             },
@@ -277,9 +469,52 @@
       {
         "title": "Sunyshore City",
         "content": {
-          "type": "map",
-          "maps": [
-            "sunyshorecity"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sunyshorecity"
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1st Room",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "sunyshoregym1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2nd Room",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "sunyshoregym2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "3rd Room",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "sunyshoregym3"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
           ]
         }
       },
@@ -1284,68 +1519,6 @@
                 "type": "map",
                 "maps": [
                   "losttower5f"
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "title": "Solaceon Ruins",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "2F",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "solaceonruins2f"
-                ]
-              }
-            },
-            {
-              "title": "1F",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "solaceonruins1f"
-                ]
-              }
-            },
-            {
-              "title": "B1F",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "solaceonruinsb1f"
-                ]
-              }
-            },
-            {
-              "title": "B2F",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "solaceonruinsb2f"
-                ]
-              }
-            },
-            {
-              "title": "B3F",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "solaceonruinsb3f"
-                ]
-              }
-            },
-            {
-              "title": "B4F",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "solaceonruinsb4f"
                 ]
               }
             }
