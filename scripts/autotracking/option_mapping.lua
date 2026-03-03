@@ -32,12 +32,12 @@ SLOT_CODES = {
 }
 
 HM_CODES = {
-    CUT = "hm01cut",
-    FLY = "hm02fly",
-    SURF = "hm03surf",
-    STRENGTH = "hm04strength",
-    DEFOG = "hm05defog",
-    ROCK_SMASH = "hm06rocksmash",
-    WATERFALL = "hm07waterfall",
-    ROCK_CLIMB = "hm08rockclimb",
+    cut = "hm01cut",
+    fly = "hm02fly",
+    surf = "hm03surf",
+    strength = "hm04strength",
+    defog = "hm05defog",
+    rock_smash = "hm06rocksmash",
+    waterfall = "hm07waterfall",
+    rock_climb = "hm08rockclimb",
 }
