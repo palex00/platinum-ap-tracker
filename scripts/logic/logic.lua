@@ -7,7 +7,7 @@ function cut()
 end
 
 function fly()
-    if not has("bag") or not has("hmreader") then
+    if not has("bag") then
         return false
     end
     return has("free_fly")
@@ -31,7 +31,7 @@ function strength()
 end
 
 function defog()
-    if not has("bag") or not has("hmreader") then
+    if not has("bag") then
         return false
     end
     return has("free_defog")
