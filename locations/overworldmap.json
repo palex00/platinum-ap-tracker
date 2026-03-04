@@ -1,5 +1,34 @@
 [
     {
+        "name": "Sendoff Spring",
+        "chest_unopened_img": "/images/locations/ball.png",
+        "chest_opened_img": "/images/locations/ballopen.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            ""
+        ],
+        "sections": [
+            {
+                "name": "Dummy",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 339,
+                "y": 231,
+                "size": 7
+            }
+        ]
+    },
+    {
         "name": "Great Marsh",
         "chest_unopened_img": "/images/locations/ball.png",
         "chest_opened_img": "/images/locations/ballopen.png",
