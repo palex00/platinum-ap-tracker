@@ -42,6 +42,18 @@
         "img": "images/maps/floaromatown.png"
     },
     {
+        "name": "fuegoironworksoutside",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/fuegoironworksoutside.png"
+    },
+    {
+        "name": "fuegoironworks",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/fuegoironworks.png"
+    },
+    {
         "name": "eternacity",
         "location_size": 14,
         "location_border_thickness": 2,
@@ -246,13 +258,7 @@
         "img": "images/maps/route205north.png"
     },
     {
-        "name": "route206north",
-        "location_size": 14,
-        "location_border_thickness": 2,
-        "img": "images/maps/route206.png"
-    },
-    {
-        "name": "route206south",
+        "name": "route206",
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route206.png"
@@ -330,13 +336,7 @@
         "img": "images/maps/route212southeast.png"
     },
     {
-        "name": "route213west",
-        "location_size": 14,
-        "location_border_thickness": 2,
-        "img": "images/maps/route213valorlakefront.png"
-    },
-    {
-        "name": "route213east",
+        "name": "route213",
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route213valorlakefront.png"
@@ -844,18 +844,6 @@
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/acuitylake.png"
-    },
-    {
-        "name": "valorlakefrontnorth",
-        "location_size": 14,
-        "location_border_thickness": 2,
-        "img": "images/maps/route213valorlakefront.png"
-    },
-    {
-        "name": "valorlakefrontsouth",
-        "location_size": 14,
-        "location_border_thickness": 2,
-        "img": "images/maps/route213valorlakefront.png"
     },
     {
         "name": "valorlake",

@@ -667,26 +667,9 @@
       {
         "title": "R206",
         "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "North",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "route206north"
-                ]
-              }
-            },
-            {
-              "title": "South",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "route206south"
-                ]
-              }
-            }
+          "type": "map",
+          "maps": [
+            "route206"
           ]
         }
       },
@@ -868,26 +851,9 @@
       {
         "title": "R213",
         "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "West",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "route213west"
-                ]
-              }
-            },
-            {
-              "title": "East",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "route213east"
-                ]
-              }
-            }
+          "type": "map",
+          "maps": [
+            "route213"
           ]
         }
       },
@@ -1526,6 +1492,32 @@
         }
       },
       {
+        "title": "Fuego Ironworks",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Outside",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fuegoironworksoutside"
+                ]
+              }
+            },
+            {
+              "title": "Inside",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fuegoironworks"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
         "title": "Galactic HQ",
         "content": {
           "type": "tabbed",
@@ -1792,54 +1784,20 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Lakefront",
+              "title": "Normal",
               "content": {
-                "type": "tabbed",
-                "tabs": [
-                  {
-                    "title": "North",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "valorlakefrontnorth"
-                      ]
-                    }
-                  },
-                  {
-                    "title": "South",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "valorlakefrontsouth"
-                      ]
-                    }
-                  }
+                "type": "map",
+                "maps": [
+                  "valorlake"
                 ]
               }
             },
             {
-              "title": "Lake",
+              "title": "Drained",
               "content": {
-                "type": "tabbed",
-                "tabs": [
-                  {
-                    "title": "Normal",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "valorlake"
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Drained",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "valorlakedrained"
-                      ]
-                    }
-                  }
+                "type": "map",
+                "maps": [
+                  "valorlakedrained"
                 ]
               }
             }
