@@ -5,7 +5,9 @@ Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/settings.json")
 Tracker:AddItems("items/trainers.json")
-                
+Tracker:AddItems("items/pokemon.json")
+Tracker:AddItems("items/dexsanity_visibility.json")
+Tracker:AddItems("items/dexsanity_sent.json")
 
 -- Logic
 ScriptHost:LoadScript("scripts/logic/utils.lua")
@@ -35,6 +37,8 @@ Tracker:AddLocations("locations/access.json")
 Tracker:AddLocations("locations/overworldmap.json")
 Tracker:AddLocations("locations/submaps_singles.json")
 Tracker:AddLocations("locations/submaps_groups.json")
+Tracker:AddLocations("locations/pokedex.json")
+Tracker:AddLocations("locations/dexsanity.json")
 
 -- AutoTracking for Poptracker
 require("scripts/autotracking/archipelago")

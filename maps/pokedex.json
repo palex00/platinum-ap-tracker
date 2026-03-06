@@ -1,7 +1,7 @@
 [
     {
         "name": "kantodex",
-        "location_size": 21,
+        "location_size": 16,
         "location_border_thickness": 3,
         "img": "images/maps/kantodex.png"
     },
