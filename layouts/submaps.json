@@ -1617,37 +1617,29 @@
                     }
                   },
                   {
-                    "title": "4F",
+                    "title": "Hall",
                     "content": {
-                      "type": "tabbed",
-                      "tabs": [
-                        {
-                          "title": "Cyrus' Office",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "galactichqcyrusoffice"
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Hall",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "galactichqhall"
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Secret Lab",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "galactichqmachineroom"
-                            ]
-                          }
-                        }
+                      "type": "map",
+                      "maps": [
+                        "galactichqhall"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Office",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "galactichqcyrusoffice"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Secret Lab",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "galactichqmachineroom"
                       ]
                     }
                   }
@@ -1878,7 +1870,7 @@
                     }
                   },
                   {
-                    "title": "Basement",
+                    "title": "B1F",
                     "content": {
                       "type": "map",
                       "maps": [
