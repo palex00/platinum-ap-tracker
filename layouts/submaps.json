@@ -914,7 +914,16 @@
                   }
                 ]
               }
-            }
+            },
+            {
+              "title": "Sendoff Spring",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sendoffspring"
+                ]
+              }
+            },
           ]
         }
       },
