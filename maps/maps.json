@@ -1084,5 +1084,17 @@
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/sendoffspring.png"
+    },
+    {
+        "name": "valleywindworksbuilding",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/valleywindworksbuilding.png"
+    },
+    {
+        "name": "cafecabin",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/cafecabin.png"
     }
 ]

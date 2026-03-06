@@ -660,6 +660,15 @@
                   "route205south"
                 ]
               }
+            },
+            {
+              "title": "Valley Windworks Building",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "valleywindworksbuilding"
+                ]
+              }
             }
           ]
         }
@@ -746,6 +755,15 @@
                 "type": "map",
                 "maps": [
                   "route210south"
+                ]
+              }
+            },
+            {
+              "title": "Café Cabin",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cafecabin"
                 ]
               }
             }
