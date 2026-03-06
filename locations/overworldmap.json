@@ -2732,28 +2732,7 @@
                 "item_count": 1
             },
             {
-                "name": "Lake - Defeat Mars (Event)",
-                "access_rules": [
-                    "@lake_verity"
-                ],
-                "visibility_rules": [
-                    ""
-                ],
-                "hosted_item": "event_clear_lakeverity"
-            },
-            {
-                "name": "Commander Mars",
-                "access_rules": [
-                    "@lake_verity"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328085"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Galactic Grunt 1",
+                "name": "Lake - Galactic Grunt 1",
                 "access_rules": [
                     "@lake_verity"
                 ],
@@ -2764,18 +2743,7 @@
                 "item_count": 1
             },
             {
-                "name": "Galactic Grunt 3",
-                "access_rules": [
-                    "@lake_verity"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328100"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Galactic Grunt 2",
+                "name": "Lake - Galactic Grunt 2",
                 "access_rules": [
                     "@lake_verity"
                 ],
@@ -2786,13 +2754,45 @@
                 "item_count": 1
             },
             {
-                "name": "Galactic Grunt 4",
+                "name": "Lake - Galactic Grunt 3",
+                "access_rules": [
+                    "@lake_verity"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328100"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Lake - Galactic Grunt 4",
                 "access_rules": [
                     "@lake_verity"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_328107"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Lake - Defeat Mars (Event)",
+                "access_rules": [
+                    "@lake_verity"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_clear_lakeverity"
+            },
+            {
+                "name": "Lake - Commander Mars",
+                "access_rules": [
+                    "@lake_verity"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328085"
                 ],
                 "item_count": 1
             }
@@ -3005,7 +3005,7 @@
         ],
         "sections": [
             {
-                "name": "Hidden Item on Rock Outside",
+                "name": "Outside - Hidden Item on Rock",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -3017,9 +3017,39 @@
                 "item_count": 1
             },
             {
-                "name": "B3F - Item in Front of Iron Ruins",
+                "name": "Outside - HM04 from Riley",
                 "access_rules": [
-                    "@iron_island_b3f"
+                    "@iron_island"
+                ],
+                "visibility_rules": [
+                    "opt_hms_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Outside - HM04 from Riley\u200b",
+                "access_rules": [
+                    "@iron_island"
+                ],
+                "visibility_rules": [
+                    "opt_hms_off"
+                ],
+                "hosted_item": "hm04strength"
+            },
+            {
+                "name": "Byron's House - Metal Coat from Byron",
+                "access_rules": [
+                    "@iron_island_house, national_dex"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F Left - Item in Center",
+                "access_rules": [
+                    "@iron_island_b1f_left_room"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -3027,9 +3057,9 @@
                 "item_count": 1
             },
             {
-                "name": "Iron Ruins - Item in Center",
+                "name": "B1F Left - Item on Raised Walkway",
                 "access_rules": [
-                    "@iron_island_iron_ruins"
+                    "@iron_island_b1f_left_room"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -3037,14 +3067,120 @@
                 "item_count": 1
             },
             {
-                "name": "Iron Ruins - Hidden Item on Left",
+                "name": "B1F Left - Camper Lawrence",
+                "access_rules": [
+                    "@iron_island_b1f_left_room"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328058"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F Right - Item on Right",
+                "access_rules": [
+                    "@iron_island_b1f_right_room"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F Right - Item on Left",
+                "access_rules": [
+                    "@iron_island_b1f_right_room"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F Right - Item Next to Lift",
+                "access_rules": [
+                    "@iron_island_b1f_right_room"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F Right - Hidden Item to Right of Center Boulder",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@iron_island_iron_ruins, ^$hidden"
+                    "@iron_island, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F Right - Picnicker Summer",
+                "access_rules": [
+                    "@iron_island_b1f_right_room"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328137"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Right - Item in Top Right",
+                "access_rules": [
+                    "@iron_island_b2f_right_room"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Right - Item on Left Side of Pit",
+                "access_rules": [
+                    "@iron_island_b2f_right_room"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Right - Hidden Item on Right Side of Pit",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@iron_island, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Right - Worker Noel",
+                "access_rules": [
+                    "@iron_island_b2f_right_room"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328183"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F Right - Worker Braden",
+                "access_rules": [
+                    "@iron_island_b2f_right_room"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328184"
                 ],
                 "item_count": 1
             },
@@ -3145,130 +3281,6 @@
                 "item_count": 1
             },
             {
-                "name": "B1F Right - Item on Right",
-                "access_rules": [
-                    "@iron_island_b1f_right_room"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B1F Right - Item on Left",
-                "access_rules": [
-                    "@iron_island_b1f_right_room"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B1F Right - Item Next to Lift",
-                "access_rules": [
-                    "@iron_island_b1f_right_room"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B1F Right - Hidden Item to Right of Center Boulder",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@iron_island, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B2F Right - Item in Top Right",
-                "access_rules": [
-                    "@iron_island_b2f_right_room"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B2F Right - Item on Left Side of Pit",
-                "access_rules": [
-                    "@iron_island_b2f_right_room"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B2F Right - Hidden Item on Right Side of Pit",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@iron_island, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B1F Left - Item in Center",
-                "access_rules": [
-                    "@iron_island_b1f_left_room"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B1F Left - Item on Raised Walkway",
-                "access_rules": [
-                    "@iron_island_b1f_left_room"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "HM04 from Riley",
-                "access_rules": [
-                    "@iron_island"
-                ],
-                "visibility_rules": [
-                    "opt_hms_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "HM04 from Riley\u200b",
-                "access_rules": [
-                    "@iron_island"
-                ],
-                "visibility_rules": [
-                    "opt_hms_off"
-                ],
-                "hosted_item": "hm04strength"
-            },
-            {
-                "name": "Metal Coat from Byron",
-                "access_rules": [
-                    "@iron_island_house, national_dex"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "B2F Left - Battle Girl Tyler",
                 "access_rules": [
                     "@iron_island_b2f_left_room"
@@ -3276,17 +3288,6 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_328052"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B1F Left - Camper Lawrence",
-                "access_rules": [
-                    "@iron_island_b1f_left_room"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328058"
                 ],
                 "item_count": 1
             },
@@ -3346,39 +3347,6 @@
                 "item_count": 1
             },
             {
-                "name": "B1F Right - Picnicker Summer",
-                "access_rules": [
-                    "@iron_island_b1f_right_room"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328137"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B2F Right - Worker Noel",
-                "access_rules": [
-                    "@iron_island_b2f_right_room"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328183"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B2F Right - Worker Braden",
-                "access_rules": [
-                    "@iron_island_b2f_right_room"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328184"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "B2F Left - Worker Brendon",
                 "access_rules": [
                     "@iron_island_b2f_left_room"
@@ -3401,7 +3369,7 @@
                 "item_count": 1
             },
             {
-                "name": "Galactic Grunt 1",
+                "name": "B2F Left - Galactic Grunt 1",
                 "access_rules": [
                     "@iron_island_b2f_left_room"
                 ],
@@ -3412,13 +3380,45 @@
                 "item_count": 1
             },
             {
-                "name": "Galactic Grunt 2",
+                "name": "B2F Left - Galactic Grunt 2",
                 "access_rules": [
                     "@iron_island_b2f_left_room"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_328516"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B3F - Item in Front of Iron Ruins",
+                "access_rules": [
+                    "@iron_island_b3f"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Iron Ruins - Item in Center",
+                "access_rules": [
+                    "@iron_island_iron_ruins"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Iron Ruins - Hidden Item on Left",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@iron_island_iron_ruins, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
                 ],
                 "item_count": 1
             }
@@ -7047,7 +7047,7 @@
         ],
         "sections": [
             {
-                "name": "Item Behind Southwest Pond",
+                "name": "South - Item Behind Southwest Pond",
                 "access_rules": [
                     "@route_204_south, $surf"
                 ],
@@ -7057,7 +7057,7 @@
                 "item_count": 1
             },
             {
-                "name": "Item Behind Eastern Pond",
+                "name": "South - Item Behind Eastern Pond",
                 "access_rules": [
                     "@route_204_south, $surf"
                 ],
@@ -7067,7 +7067,7 @@
                 "item_count": 1
             },
             {
-                "name": "Item Behind Small Pond",
+                "name": "South - Item Behind Small Pond",
                 "access_rules": [
                     "@route_204_south"
                 ],
@@ -7077,37 +7077,7 @@
                 "item_count": 1
             },
             {
-                "name": "Top - Item on Left",
-                "access_rules": [
-                    "@route_204_north"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Top - Item Above Cave Entrance",
-                "access_rules": [
-                    "@route_204_north"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Top - Woman Behind Cut Tree",
-                "access_rules": [
-                    "@route_204_north, $cut"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Youngster Tyler",
+                "name": "South - Youngster Tyler",
                 "access_rules": [
                     "@route_204_south"
                 ],
@@ -7118,7 +7088,7 @@
                 "item_count": 1
             },
             {
-                "name": "Lass Samantha",
+                "name": "South - Lass Samantha",
                 "access_rules": [
                     "@route_204_south"
                 ],
@@ -7129,7 +7099,7 @@
                 "item_count": 1
             },
             {
-                "name": "Lass Sarah",
+                "name": "South - Lass Sarah",
                 "access_rules": [
                     "@route_204_south"
                 ],
@@ -7140,7 +7110,37 @@
                 "item_count": 1
             },
             {
-                "name": "Top - Bug Catcher Brandon",
+                "name": "North - Item on Left",
+                "access_rules": [
+                    "@route_204_north"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "North - Item Above Cave Entrance",
+                "access_rules": [
+                    "@route_204_north"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "North - Woman Behind Cut Tree",
+                "access_rules": [
+                    "@route_204_north, $cut"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "North - Bug Catcher Brandon",
                 "access_rules": [
                     "@route_204_north"
                 ],
@@ -7151,7 +7151,7 @@
                 "item_count": 1
             },
             {
-                "name": "Top - Aroma Lady Taylor",
+                "name": "North - Aroma Lady Taylor",
                 "access_rules": [
                     "@route_204_north"
                 ],
@@ -7162,7 +7162,7 @@
                 "item_count": 1
             },
             {
-                "name": "Top - Twins Liv And Liz",
+                "name": "North - Twins Liv And Liz",
                 "access_rules": [
                     "@route_204_north"
                 ],
@@ -8786,6 +8786,27 @@
         ],
         "sections": [
             {
+                "name": "Gift in First House",
+                "access_rules": [
+                    "@canalave_city_southeast_house"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Rival",
+                "access_rules": [
+                    "@canalave_city"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328157"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "Item in Trees South of Canal",
                 "access_rules": [
                     "@canalave_city, $surf"
@@ -8804,88 +8825,6 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Defeat Byron (Event)",
-                "access_rules": [
-                    "@canalave_city_gym"
-                ],
-                "visibility_rules": [
-                    ""
-                ],
-                "hosted_item": "event_defeat_byron"
-            },
-            {
-                "name": "Gym - Mine Badge from Byron",
-                "access_rules": [
-                    "@canalave_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Mine Badge from Byron\u200b",
-                "access_rules": [
-                    "@canalave_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
-                "hosted_item": "minebadge"
-            },
-            {
-                "name": "Gym - TM91 from Byron",
-                "access_rules": [
-                    "@canalave_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Library - Witness the Explosion (Event)",
-                "access_rules": [
-                    "@canalave_library_3f, hm04strength, event_defeat_byron, @canalave_city_gym"
-                ],
-                "visibility_rules": [
-                    ""
-                ],
-                "hosted_item": "event_learn_of_lake_explosion"
-            },
-            {
-                "name": "Gift in First House",
-                "access_rules": [
-                    "@canalave_city_southeast_house"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Black Belt David",
-                "access_rules": [
-                    "@canalave_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327912"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Leader Byron",
-                "access_rules": [
-                    "@canalave_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327930"
                 ],
                 "item_count": 1
             },
@@ -8956,15 +8895,76 @@
                 "item_count": 1
             },
             {
-                "name": "Rival",
+                "name": "Gym - Black Belt David",
                 "access_rules": [
-                    "@canalave_city"
+                    "@canalave_city_gym"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
-                    "opt_trainer_328157"
+                    "opt_trainer_327912"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Gym - Defeat Byron (Event)",
+                "access_rules": [
+                    "@canalave_city_gym"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_byron"
+            },
+            {
+                "name": "Gym - Mine Badge from Byron",
+                "access_rules": [
+                    "@canalave_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_badges_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Mine Badge from Byron\u200b",
+                "access_rules": [
+                    "@canalave_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_badges_off"
+                ],
+                "hosted_item": "minebadge"
+            },
+            {
+                "name": "Gym - TM91 from Byron",
+                "access_rules": [
+                    "@canalave_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Leader Byron",
+                "access_rules": [
+                    "@canalave_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327930"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Library - Witness the Explosion (Event)",
+                "access_rules": [
+                    "@canalave_library_3f, hm04strength, event_defeat_byron, @canalave_city_gym"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_learn_of_lake_explosion"
             }
         ],
         "map_locations": [
@@ -9187,6 +9187,39 @@
                 "item_count": 1
             },
             {
+                "name": "Galactic Grunt 1",
+                "access_rules": [
+                    "@valley_windworks_outside"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328523"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Building - Galactic Grunt 2",
+                "access_rules": [
+                    "@valley_windworks_building"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327978"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Building - Galactic Grunt 3",
+                "access_rules": [
+                    "@valley_windworks_building"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327979"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "Building - Defeat Team Galactic (Event)",
                 "access_rules": [
                     "@valley_windworks_building"
@@ -9195,6 +9228,17 @@
                     ""
                 ],
                 "hosted_item": "event_clear_windworks"
+            },
+            {
+                "name": "Building - Commander Mars",
+                "access_rules": [
+                    "@valley_windworks_building"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327975"
+                ],
+                "item_count": 1
             },
             {
                 "name": "Building - Ruby Cartridge from Scientist After Defeating Mars",
@@ -9215,50 +9259,6 @@
                     "opt_cartridges_off"
                 ],
                 "hosted_item": "rubycartridge"
-            },
-            {
-                "name": "Commander Mars",
-                "access_rules": [
-                    "@valley_windworks_building"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327975"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Galactic Grunt 2",
-                "access_rules": [
-                    "@valley_windworks_building"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327978"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Galactic Grunt 3",
-                "access_rules": [
-                    "@valley_windworks_building"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327979"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Galactic Grunt 1",
-                "access_rules": [
-                    "@valley_windworks_outside"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328523"
-                ],
-                "item_count": 1
             }
         ],
         "map_locations": [
@@ -9382,36 +9382,6 @@
                 "item_count": 1
             },
             {
-                "name": "Side Route - Big Tree from Woman",
-                "access_rules": [
-                    "@eterna_forest_outside"
-                ],
-                "visibility_rules": [
-                    "opt_accessories_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Side Route - Rocky Area Right",
-                "access_rules": [
-                    "@eterna_forest_outside"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Side Route - Rocky Area Left",
-                "access_rules": [
-                    "@eterna_forest_outside"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Bug Catcher Jack",
                 "access_rules": [
                     "@eterna_forest"
@@ -9496,6 +9466,36 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_328078"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Side Route - Big Tree from Woman",
+                "access_rules": [
+                    "@eterna_forest_outside"
+                ],
+                "visibility_rules": [
+                    "opt_accessories_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Side Route - Rocky Area Right",
+                "access_rules": [
+                    "@eterna_forest_outside"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Side Route - Rocky Area Left",
+                "access_rules": [
+                    "@eterna_forest_outside"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
                 ],
                 "item_count": 1
             }
@@ -9729,7 +9729,7 @@
         ],
         "sections": [
             {
-                "name": "2F - Item in Room Left of Entrance",
+                "name": "Entrance - TM96 in Right Side Room",
                 "access_rules": [
                     "@old_chateau_side_rooms"
                 ],
@@ -9739,24 +9739,14 @@
                 "item_count": 1
             },
             {
-                "name": "2F - Item in Easternmost Bedroom",
+                "name": "Entrance - TM96 in Right Side Room\u200b",
                 "access_rules": [
-                    "@old_chateau_back_east_room"
+                    "@old_chateau_side_rooms"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_on"
+                    "opt_overworld_off"
                 ],
-                "item_count": 1
-            },
-            {
-                "name": "2F - Item in Westernmost Bedroom",
-                "access_rules": [
-                    "@old_chateau_back_west_room"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
+                "hosted_item": "tm96mimic"
             },
             {
                 "name": "1F - Item on Left of Dining Area",
@@ -9791,7 +9781,7 @@
                 "item_count": 1
             },
             {
-                "name": "TM96 (In Right Side Room)",
+                "name": "2F - Item in Room Left of Entrance",
                 "access_rules": [
                     "@old_chateau_side_rooms"
                 ],
@@ -9801,14 +9791,24 @@
                 "item_count": 1
             },
             {
-                "name": "TM96 (In Right Side Room)\u200b",
+                "name": "2F - Item in Easternmost Bedroom",
                 "access_rules": [
-                    "@old_chateau_side_rooms"
+                    "@old_chateau_back_east_room"
                 ],
                 "visibility_rules": [
-                    "opt_overworld_off"
+                    "opt_overworld_on"
                 ],
-                "hosted_item": "tm96mimic"
+                "item_count": 1
+            },
+            {
+                "name": "2F - Item in Westernmost Bedroom",
+                "access_rules": [
+                    "@old_chateau_back_west_room"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -9954,6 +9954,39 @@
                 "item_count": 1
             },
             {
+                "name": "Gym - Aroma Lady Jenna",
+                "access_rules": [
+                    "@eterna_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327939"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Aroma Lady Angela",
+                "access_rules": [
+                    "@eterna_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327940"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Lass Caroline",
+                "access_rules": [
+                    "@eterna_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328004"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "Gym - Defeat Gardenia (Event)",
                 "access_rules": [
                     "@eterna_city_gym"
@@ -9994,28 +10027,6 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Aroma Lady Jenna",
-                "access_rules": [
-                    "@eterna_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327939"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Aroma Lady Angela",
-                "access_rules": [
-                    "@eterna_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327940"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Gym - Leader Gardenia",
                 "access_rules": [
                     "@eterna_city_gym"
@@ -10023,17 +10034,6 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_327995"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Lass Caroline",
-                "access_rules": [
-                    "@eterna_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328004"
                 ],
                 "item_count": 1
             }
@@ -10048,7 +10048,7 @@
         ]
     },
     {
-        "name": "Team Galactic Eterna Building",
+        "name": "Galactic Building",
         "chest_unopened_img": "/images/locations/ball.png",
         "chest_opened_img": "/images/locations/ballopen.png",
         "overlay_background": "#000000",
@@ -10056,6 +10056,28 @@
             " "
         ],
         "sections": [
+            {
+                "name": "1F - Galactic Grunt 1",
+                "access_rules": [
+                    "@team_galactic_eterna_building_1f"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328090"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Galactic Grunt 2",
+                "access_rules": [
+                    "@team_galactic_eterna_building_1f"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328101"
+                ],
+                "item_count": 1
+            },
             {
                 "name": "2F - Item Between Boxes",
                 "access_rules": [
@@ -10067,12 +10089,56 @@
                 "item_count": 1
             },
             {
+                "name": "2F - Galactic Grunt 1",
+                "access_rules": [
+                    "@team_galactic_eterna_building_2f"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328092"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Galactic Grunt 2",
+                "access_rules": [
+                    "@team_galactic_eterna_building_2f"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328102"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "3F - Item Behind Machines",
                 "access_rules": [
                     "@team_galactic_eterna_building_3f"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Galactic Grunt",
+                "access_rules": [
+                    "@team_galactic_eterna_building_3f"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328103"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Scientist Travon",
+                "access_rules": [
+                    "@team_galactic_eterna_building_3f"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328511"
                 ],
                 "item_count": 1
             },
@@ -10107,16 +10173,6 @@
                 "hosted_item": "event_clear_eternahideout"
             },
             {
-                "name": "4F - Item By Jupiter",
-                "access_rules": [
-                    "@team_galactic_eterna_building_4f"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "4F - Commander Jupiter",
                 "access_rules": [
                     "@team_galactic_eterna_building_4f"
@@ -10128,68 +10184,12 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Galactic Grunt 1",
+                "name": "4F - Item By Jupiter",
                 "access_rules": [
-                    "@team_galactic_eterna_building_1f"
+                    "@team_galactic_eterna_building_4f"
                 ],
                 "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328090"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "2F - Galactic Grunt 1",
-                "access_rules": [
-                    "@team_galactic_eterna_building_2f"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328092"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "1F - Galactic Grunt 2",
-                "access_rules": [
-                    "@team_galactic_eterna_building_1f"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328101"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "2F - Galactic Grunt 2",
-                "access_rules": [
-                    "@team_galactic_eterna_building_2f"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328102"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "3F - Galactic Grunt",
-                "access_rules": [
-                    "@team_galactic_eterna_building_3f"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328103"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "3F - Scientist Travon",
-                "access_rules": [
-                    "@team_galactic_eterna_building_3f"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328511"
+                    "opt_overworld_on"
                 ],
                 "item_count": 1
             }
@@ -14362,7 +14362,7 @@
                 "item_count": 1
             },
             {
-                "name": "Daily Berry from Flower Shop",
+                "name": "Flower Shop - Daily Berry",
                 "access_rules": [
                     "@flower_shop"
                 ],
