@@ -1020,22 +1020,16 @@
         "img": "images/maps/mtcoronetsouthtunnel.png"
     },
     {
-        "name": "mtcoronetupper4fmain",
+        "name": "mtcoronetupper4fbottom",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/mtcoronetupper4fmain.png"
+        "img": "images/maps/mtcoronetupper4fbottom.png"
     },
     {
-        "name": "mtcoronetupper4fback",
+        "name": "mtcoronetupper4ftop",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/mtcoronetupper4fback.png"
-    },
-    {
-        "name": "mtcoronetupper4fright",
-        "location_size": 14,
-        "location_border_thickness": 2,
-        "img": "images/maps/mtcoronetupper4fright.png"
+        "img": "images/maps/mtcoronetupper4ftop.png"
     },
     {
         "name": "mtcoronetupper5f",

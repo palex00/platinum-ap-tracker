@@ -38,7 +38,7 @@
         ],
         "sections": [
             {
-                "name": "Matchup Checker App from Cowgirl",
+                "name": "Lobby - Matchup Checker App from Cowgirl",
                 "access_rules": [
                     "@pastoria_city_observatory_gate_1f, $marsh_pass"
                 ],
@@ -464,16 +464,6 @@
         ],
         "sections": [
             {
-                "name": "1F - Item from Southern B1F Stairs",
-                "access_rules": [
-                    "@victory_road_1f"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "1F - Item Across Bridge",
                 "access_rules": [
                     "@victory_road_1f_entrance"
@@ -484,9 +474,64 @@
                 "item_count": 1
             },
             {
+                "name": "1F - Bird Keeper Hana",
+                "access_rules": [
+                    "@victory_road_1f_entrance"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327913"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "1F - First Item on Left",
                 "access_rules": [
                     "@victory_road_1f_entrance, $rock_climb"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Hidden Item Before First Staircase to 2F",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@victory_road_1f_entrance, $rock_climb, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Ace Trainer Mariah",
+                "access_rules": [
+                    "@victory_road_1f_entrance, $rock_climb"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327906"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Psychic Bryce",
+                "access_rules": [
+                    "@victory_road_1f_entrance, $rock_climb"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327914"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Item from Southern B1F Stairs",
+                "access_rules": [
+                    "@victory_road_1f"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
@@ -538,14 +583,35 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Hidden Item Before First Staircase to 2F",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "name": "1F - Veteran Edgar",
                 "access_rules": [
-                    "@victory_road_1f_entrance, $rock_climb, ^$hidden"
+                    "@victory_road_1f"
                 ],
                 "visibility_rules": [
-                    "opt_hidden_on"
+                    "opt_trainer_full",
+                    "opt_trainer_327908"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Dragon Tamer Clinton",
+                "access_rules": [
+                    "@victory_road_1f"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327911"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Black Belt Miles",
+                "access_rules": [
+                    "@victory_road_1f"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328124"
                 ],
                 "item_count": 1
             },
@@ -614,6 +680,50 @@
                 "item_count": 1
             },
             {
+                "name": "2F - Ace Trainer Omar",
+                "access_rules": [
+                    "@victory_road_2f"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327904"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Ace Trainer Sydney",
+                "access_rules": [
+                    "@victory_road_2f"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327907"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Double Team Al And Kay",
+                "access_rules": [
+                    "@victory_road_2f"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327917"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Veteran Clayton",
+                "access_rules": [
+                    "@victory_road_2f"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327909"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "B1F - Item on Ledge",
                 "access_rules": [
                     "@victory_road_b1f"
@@ -668,117 +778,6 @@
                 "item_count": 1
             },
             {
-                "name": "Foggy Basement - Item Above Stairs to Left of Exit",
-                "access_rules": [
-                    "@victory_road_1f_room_2"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Foggy Basement - NW Strength Boulders Item 1",
-                "access_rules": [
-                    "@victory_road_1f_room_2"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Foggy Basement - NW Strength Boulders Item 2",
-                "access_rules": [
-                    "@victory_road_1f_room_2"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Foggy Basement - Item in Bottom Right Corner of SW Pool",
-                "access_rules": [
-                    "@victory_road_1f_room_2"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Foggy Basement - Hidden Item on Center Rock Below North Pool",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@victory_road_1f_room_2, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Foggy Basement - Hidden Item Before Exit",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@victory_road_1f_room_2, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Foggy Basement - Hidden Item in Top Middle of Rock Maze",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@victory_road_1f_room_2, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Foggy Basement - Hidden Item in Bottom Right of Rock Maze",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@victory_road_1f_room_2, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Foggy Basement - Hidden Item in Top Right Corner of SW Pool",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@victory_road_1f_room_2, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "2F - Ace Trainer Omar",
-                "access_rules": [
-                    "@victory_road_2f"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327904"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "B1F - Ace Trainer Henry",
                 "access_rules": [
                     "@victory_road_b1f"
@@ -790,50 +789,6 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Ace Trainer Mariah",
-                "access_rules": [
-                    "@victory_road_1f_entrance, $rock_climb"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327906"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "2F - Ace Trainer Sydney",
-                "access_rules": [
-                    "@victory_road_2f"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327907"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "1F - Veteran Edgar",
-                "access_rules": [
-                    "@victory_road_1f"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327908"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "2F - Veteran Clayton",
-                "access_rules": [
-                    "@victory_road_2f"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327909"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "B1F - Dragon Tamer Ondrej",
                 "access_rules": [
                     "@victory_road_b1f"
@@ -841,39 +796,6 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_327910"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "1F - Dragon Tamer Clinton",
-                "access_rules": [
-                    "@victory_road_1f"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327911"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "1F - Bird Keeper Hana",
-                "access_rules": [
-                    "@victory_road_1f_entrance"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327913"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "1F - Psychic Bryce",
-                "access_rules": [
-                    "@victory_road_1f_entrance, $rock_climb"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327914"
                 ],
                 "item_count": 1
             },
@@ -900,18 +822,107 @@
                 "item_count": 1
             },
             {
-                "name": "2F - Double Team Al And Kay",
+                "name": "Side Cave B1F - Item Above Stairs to Left of Exit",
                 "access_rules": [
-                    "@victory_road_2f"
+                    "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327917"
+                    "opt_overworld_on"
                 ],
                 "item_count": 1
             },
             {
-                "name": "1F - Bird Keeper Autumn",
+                "name": "Side Cave B1F - NW Strength Boulders Item 1",
+                "access_rules": [
+                    "@victory_road_1f_room_2"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Side Cave B1F - NW Strength Boulders Item 2",
+                "access_rules": [
+                    "@victory_road_1f_room_2"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Side Cave B1F - Item in Bottom Right Corner of SW Pool",
+                "access_rules": [
+                    "@victory_road_1f_room_2"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Side Cave B1F - Hidden Item on Center Rock Below North Pool",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@victory_road_1f_room_2, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Side Cave B1F - Hidden Item Before Exit",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@victory_road_1f_room_2, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Side Cave B1F - Hidden Item in Top Middle of Rock Maze",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@victory_road_1f_room_2, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Side Cave B1F - Hidden Item in Bottom Right of Rock Maze",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@victory_road_1f_room_2, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Side Cave B1F - Hidden Item in Top Right Corner of SW Pool",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@victory_road_1f_room_2, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Side Cave B1F - Bird Keeper Autumn",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -922,7 +933,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Dragon Tamer Joe",
+                "name": "Side Cave B1F - Dragon Tamer Joe",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -933,7 +944,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Ace Trainer Micah",
+                "name": "Side Cave B1F - Ace Trainer Micah",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -944,7 +955,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Ace Trainer Arthur",
+                "name": "Side Cave B1F - Ace Trainer Arthur",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -955,7 +966,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Ace Trainer Brandi",
+                "name": "Side Cave B1F - Ace Trainer Brandi",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -966,7 +977,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Ace Trainer Clarice",
+                "name": "Side Cave B1F - Ace Trainer Clarice",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -977,7 +988,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Psychic Landon",
+                "name": "Side Cave B1F - Psychic Landon",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -988,7 +999,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Psychic Deandre",
+                "name": "Side Cave B1F - Psychic Deandre",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -999,7 +1010,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Psychic Desiree",
+                "name": "Side Cave B1F - Psychic Desiree",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -1010,7 +1021,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Psychic Kendra",
+                "name": "Side Cave B1F - Psychic Kendra",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -1021,18 +1032,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Black Belt Miles",
-                "access_rules": [
-                    "@victory_road_1f"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328124"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "1F - Black Belt Eddie",
+                "name": "Side Cave B1F - Black Belt Eddie",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -1043,7 +1043,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Black Belt Willie",
+                "name": "Side Cave B1F - Black Belt Willie",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -1054,7 +1054,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Veteran Terrell",
+                "name": "Side Cave B1F - Veteran Terrell",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -1065,7 +1065,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F - Veteran Brenden",
+                "name": "Side Cave B1F - Veteran Brenden",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -2322,26 +2322,6 @@
                 "item_count": 1
             },
             {
-                "name": "Cave - HM03 from Cynthias Grandmother",
-                "access_rules": [
-                    "@celestic_town_cave, oldcharm"
-                ],
-                "visibility_rules": [
-                    "opt_hms_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Cave - HM03 from Cynthias Grandmother\u200b",
-                "access_rules": [
-                    "@celestic_town_cave, oldcharm"
-                ],
-                "visibility_rules": [
-                    "opt_hms_off"
-                ],
-                "hosted_item": "hm03surf"
-            },
-            {
                 "name": "Analog Watch App from Black Belt in Lower Left House",
                 "access_rules": [
                     "@celestic_town_southwest_house"
@@ -2412,6 +2392,26 @@
                     "opt_trainer_328593"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Cave - HM03 from Cynthias Grandmother",
+                "access_rules": [
+                    "@celestic_town_cave, oldcharm"
+                ],
+                "visibility_rules": [
+                    "opt_hms_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Cave - HM03 from Cynthias Grandmother\u200b",
+                "access_rules": [
+                    "@celestic_town_cave, oldcharm"
+                ],
+                "visibility_rules": [
+                    "opt_hms_off"
+                ],
+                "hosted_item": "hm03surf"
             }
         ],
         "map_locations": [
@@ -2838,6 +2838,103 @@
                 "item_count": 1
             },
             {
+                "name": "Rival",
+                "access_rules": [
+                    "@pastoria_city, event_defeat_maylene, @veilstone_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328154"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Marsh Pass from Wake (After Defeating Gym)",
+                "access_rules": [
+                    "@pastoria_city"
+                ],
+                "visibility_rules": [
+                    "opt_marsh_pass_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gift from Parasol Lady",
+                "access_rules": [
+                    "@pastoria_city"
+                ],
+                "visibility_rules": [
+                    "opt_accessories_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Fisherman Erick",
+                "access_rules": [
+                    "@pastoria_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327973"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Sailor Damian",
+                "access_rules": [
+                    "@pastoria_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328019"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Fisherman Walter",
+                "access_rules": [
+                    "@pastoria_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328081"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Sailor Samson",
+                "access_rules": [
+                    "@pastoria_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328163"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Tuber Jacky",
+                "access_rules": [
+                    "@pastoria_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328177"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Tuber Caitlyn",
+                "access_rules": [
+                    "@pastoria_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328178"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "Gym - Defeat Crasher Wake (Event)",
                 "access_rules": [
                     "@pastoria_city_gym"
@@ -2878,37 +2975,6 @@
                 "item_count": 1
             },
             {
-                "name": "Marsh Pass from Wake (After Defeating Gym)",
-                "access_rules": [
-                    "@pastoria_city"
-                ],
-                "visibility_rules": [
-                    "opt_marsh_pass_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gift from Parasol Lady",
-                "access_rules": [
-                    "@pastoria_city"
-                ],
-                "visibility_rules": [
-                    "opt_accessories_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Fisherman Erick",
-                "access_rules": [
-                    "@pastoria_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327973"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Gym - Leader Wake",
                 "access_rules": [
                     "@pastoria_city_gym"
@@ -2916,72 +2982,6 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_327996"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Sailor Damian",
-                "access_rules": [
-                    "@pastoria_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328019"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Fisherman Walter",
-                "access_rules": [
-                    "@pastoria_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328081"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Rival",
-                "access_rules": [
-                    "@pastoria_city, event_defeat_maylene, @veilstone_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328154"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Sailor Samson",
-                "access_rules": [
-                    "@pastoria_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328163"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Tuber Jacky",
-                "access_rules": [
-                    "@pastoria_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328177"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Tuber Caitlyn",
-                "access_rules": [
-                    "@pastoria_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328178"
                 ],
                 "item_count": 1
             }
@@ -5295,46 +5295,6 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Defeat Fantina (Event)",
-                "access_rules": [
-                    "@hearthome_city_gym_leader_room"
-                ],
-                "visibility_rules": [
-                    ""
-                ],
-                "hosted_item": "event_defeat_fantina"
-            },
-            {
-                "name": "Gym - Relic Badge From Fantina",
-                "access_rules": [
-                    "@hearthome_city_gym_leader_room"
-                ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Relic Badge From Fantina\u200b",
-                "access_rules": [
-                    "@hearthome_city_gym_leader_room"
-                ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
-                "hosted_item": "relicbadge"
-            },
-            {
-                "name": "Gym - TM65 From Fantina",
-                "access_rules": [
-                    "@hearthome_city_gym_leader_room"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Poffin Case from Fan Club Chairman",
                 "access_rules": [
                     "@hearthome_city_pokemon_fan_club"
@@ -5387,17 +5347,6 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Leader Fantina",
-                "access_rules": [
-                    "@hearthome_city_gym_leader_room"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327998"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Gym - Lass Molly",
                 "access_rules": [
                     "@hearthome_city_gym_trainer_room_1"
@@ -5438,6 +5387,57 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_328037"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Defeat Fantina (Event)",
+                "access_rules": [
+                    "@hearthome_city_gym_leader_room"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_fantina"
+            },
+            {
+                "name": "Gym - Relic Badge From Fantina",
+                "access_rules": [
+                    "@hearthome_city_gym_leader_room"
+                ],
+                "visibility_rules": [
+                    "opt_badges_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Relic Badge From Fantina\u200b",
+                "access_rules": [
+                    "@hearthome_city_gym_leader_room"
+                ],
+                "visibility_rules": [
+                    "opt_badges_off"
+                ],
+                "hosted_item": "relicbadge"
+            },
+            {
+                "name": "Gym - TM65 From Fantina",
+                "access_rules": [
+                    "@hearthome_city_gym_leader_room"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Leader Fantina",
+                "access_rules": [
+                    "@hearthome_city_gym_leader_room"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327998"
                 ],
                 "item_count": 1
             }
@@ -6803,28 +6803,6 @@
                 "item_count": 1
             },
             {
-                "name": "Collector Fernando",
-                "access_rules": [
-                    "@cafe"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327955"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Collector Edwin",
-                "access_rules": [
-                    "@cafe"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327956"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Belle And Pa Ava And Matt",
                 "access_rules": [
                     "@route_210_south"
@@ -6858,13 +6836,35 @@
                 "item_count": 1
             },
             {
-                "name": "Waitress Kati",
+                "name": "Cafe Cabin - Waitress Kati",
                 "access_rules": [
                     "@cafe"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_328046"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Cafe Cabin - Collector Fernando",
+                "access_rules": [
+                    "@cafe"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327955"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Cafe Cabin - Collector Edwin",
+                "access_rules": [
+                    "@cafe"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327956"
                 ],
                 "item_count": 1
             }
@@ -6910,54 +6910,23 @@
                 "item_count": 1
             },
             {
+                "name": "2F - Youngster Oliver",
+                "access_rules": [
+                    "@route_209_lost_tower_2f"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328212"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "3F - Item in Southwest Corner",
                 "access_rules": [
                     "@route_209_lost_tower_3f"
                 ],
                 "visibility_rules": [
                     "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "4F - Item on South Path",
-                "access_rules": [
-                    "@route_209_lost_tower_4f"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "4F - Hidden Item in Corner of Southwest Graves",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@route_209_lost_tower_4f, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "5F - Gift from Old Woman on Right",
-                "access_rules": [
-                    "@route_209_lost_tower_5f, $defog"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "5F - Gift from Old Woman on Left",
-                "access_rules": [
-                    "@route_209_lost_tower_5f, $defog"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
                 ],
                 "item_count": 1
             },
@@ -6984,6 +6953,28 @@
                 "item_count": 1
             },
             {
+                "name": "4F - Item on South Path",
+                "access_rules": [
+                    "@route_209_lost_tower_4f"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F - Hidden Item in Corner of Southwest Graves",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@route_209_lost_tower_4f, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "4F - Pokefan Rebekah",
                 "access_rules": [
                     "@route_209_lost_tower_4f"
@@ -6991,17 +6982,6 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_328211"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "2F - Youngster Oliver",
-                "access_rules": [
-                    "@route_209_lost_tower_2f"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328212"
                 ],
                 "item_count": 1
             },
@@ -7024,6 +7004,26 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_328214"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "5F - Gift from Old Woman on Right",
+                "access_rules": [
+                    "@route_209_lost_tower_5f, $defog"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "5F - Gift from Old Woman on Left",
+                "access_rules": [
+                    "@route_209_lost_tower_5f, $defog"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
                 ],
                 "item_count": 1
             }
@@ -8254,46 +8254,6 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Defeat Volkner (Event)",
-                "access_rules": [
-                    "@sunyshore_city_gym_room_3"
-                ],
-                "visibility_rules": [
-                    ""
-                ],
-                "hosted_item": "event_defeat_volkner"
-            },
-            {
-                "name": "Gym - Beacon Badge from Volkner",
-                "access_rules": [
-                    "@sunyshore_city_gym_room_3"
-                ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Beacon Badge from Volkner\u200b",
-                "access_rules": [
-                    "@sunyshore_city_gym_room_3"
-                ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
-                "hosted_item": "beaconbadge"
-            },
-            {
-                "name": "Gym - TM57 from Volkner",
-                "access_rules": [
-                    "@sunyshore_city_gym_room_3"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "HM07 from Jasmine",
                 "access_rules": [
                     "@sunyshore_city, event_defeat_volkner, @sunyshore_city_gym_room_3"
@@ -8364,24 +8324,13 @@
                 "hosted_item": "daytime"
             },
             {
-                "name": "Gym - Ace Trainer Zachery",
+                "name": "Gym - School Kid Tiera",
                 "access_rules": [
-                    "@sunyshore_city_gym_room_3"
+                    "@sunyshore_city_gym_room_1"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
-                    "opt_trainer_327961"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Ace Trainer Destiny",
-                "access_rules": [
-                    "@sunyshore_city_gym_room_3"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327965"
+                    "opt_trainer_328024"
                 ],
                 "item_count": 1
             },
@@ -8393,39 +8342,6 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_327981"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Guitarist Preston",
-                "access_rules": [
-                    "@sunyshore_city_gym_room_3"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327982"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Guitarist Lonnie",
-                "access_rules": [
-                    "@sunyshore_city_gym_room_3"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327983"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Leader Volkner",
-                "access_rules": [
-                    "@sunyshore_city_gym_room_3"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328000"
                 ],
                 "item_count": 1
             },
@@ -8452,13 +8368,97 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - School Kid Tiera",
+                "name": "Gym - Ace Trainer Zachery",
                 "access_rules": [
-                    "@sunyshore_city_gym_room_1"
+                    "@sunyshore_city_gym_room_3"
                 ],
                 "visibility_rules": [
                     "opt_trainer_full",
-                    "opt_trainer_328024"
+                    "opt_trainer_327961"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Ace Trainer Destiny",
+                "access_rules": [
+                    "@sunyshore_city_gym_room_3"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327965"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Guitarist Preston",
+                "access_rules": [
+                    "@sunyshore_city_gym_room_3"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327982"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Guitarist Lonnie",
+                "access_rules": [
+                    "@sunyshore_city_gym_room_3"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327983"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Defeat Volkner (Event)",
+                "access_rules": [
+                    "@sunyshore_city_gym_room_3"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_volkner"
+            },
+            {
+                "name": "Gym - Beacon Badge from Volkner",
+                "access_rules": [
+                    "@sunyshore_city_gym_room_3"
+                ],
+                "visibility_rules": [
+                    "opt_badges_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Beacon Badge from Volkner\u200b",
+                "access_rules": [
+                    "@sunyshore_city_gym_room_3"
+                ],
+                "visibility_rules": [
+                    "opt_badges_off"
+                ],
+                "hosted_item": "beaconbadge"
+            },
+            {
+                "name": "Gym - TM57 from Volkner",
+                "access_rules": [
+                    "@sunyshore_city_gym_room_3"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Leader Volkner",
+                "access_rules": [
+                    "@sunyshore_city_gym_room_3"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328000"
                 ],
                 "item_count": 1
             }
@@ -10586,46 +10586,6 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Defeat Maylene (Event)",
-                "access_rules": [
-                    "@veilstone_city_gym"
-                ],
-                "visibility_rules": [
-                    ""
-                ],
-                "hosted_item": "event_defeat_maylene"
-            },
-            {
-                "name": "Gym - Cobble Badge from Maylene",
-                "access_rules": [
-                    "@veilstone_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Cobble Badge from Maylene\u200b",
-                "access_rules": [
-                    "@veilstone_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
-                "hosted_item": "cobblebadge"
-            },
-            {
-                "name": "Gym - TM60 from Maylene",
-                "access_rules": [
-                    "@veilstone_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "TM63 from Roughneck Near Gym",
                 "access_rules": [
                     "@veilstone_city"
@@ -10646,27 +10606,39 @@
                 "item_count": 1
             },
             {
-                "name": "Department Store - Counter App",
+                "name": "Random Accessory from Massage Girl",
                 "access_rules": [
-                    "@veilstone_store_2f"
+                    "@veilstone_city_southwest_house"
                 ],
                 "visibility_rules": [
-                    "opt_poketchapps_on"
+                    "opt_accessories_on"
                 ],
                 "item_count": 1
             },
             {
-                "name": "Department Store - Sticky Barb",
+                "name": "Galactic Grunt 1",
                 "access_rules": [
-                    "@veilstone_store_5f"
+                    "@veilstone_city, event_defeat_maylene, @veilstone_city_gym"
                 ],
                 "visibility_rules": [
-                    "opt_npcgifts_on"
+                    "opt_trainer_full",
+                    "opt_trainer_328528"
                 ],
                 "item_count": 1
             },
             {
-                "name": "Department Store - Turtwig Mask",
+                "name": "Galactic Grunt 2",
+                "access_rules": [
+                    "@veilstone_city, event_defeat_maylene, @veilstone_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328529"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Department Store 1F - Turtwig Mask",
                 "access_rules": [
                     "@veilstone_store_1f"
                 ],
@@ -10676,12 +10648,22 @@
                 "item_count": 1
             },
             {
-                "name": "Random Accessory",
+                "name": "Department Store 2F - Counter App",
                 "access_rules": [
-                    "@veilstone_city_southwest_house"
+                    "@veilstone_store_2f"
                 ],
                 "visibility_rules": [
-                    "opt_accessories_on"
+                    "opt_poketchapps_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Department Store 5F - Sticky Barb",
+                "access_rules": [
+                    "@veilstone_store_5f"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
                 ],
                 "item_count": 1
             },
@@ -10730,6 +10712,46 @@
                 "item_count": 1
             },
             {
+                "name": "Gym - Defeat Maylene (Event)",
+                "access_rules": [
+                    "@veilstone_city_gym"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_maylene"
+            },
+            {
+                "name": "Gym - Cobble Badge from Maylene",
+                "access_rules": [
+                    "@veilstone_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_badges_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Cobble Badge from Maylene\u200b",
+                "access_rules": [
+                    "@veilstone_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_badges_off"
+                ],
+                "hosted_item": "cobblebadge"
+            },
+            {
+                "name": "Gym - TM60 from Maylene",
+                "access_rules": [
+                    "@veilstone_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "Gym - Leader Maylene",
                 "access_rules": [
                     "@veilstone_city_gym"
@@ -10737,28 +10759,6 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_327997"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Galactic Grunt 1",
-                "access_rules": [
-                    "@veilstone_city, event_defeat_maylene, @veilstone_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328528"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Galactic Grunt 2",
-                "access_rules": [
-                    "@veilstone_city, event_defeat_maylene, @veilstone_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328529"
                 ],
                 "item_count": 1
             }
@@ -11065,7 +11065,7 @@
                 "item_count": 1
             },
             {
-                "name": "Random Berry or Accessory",
+                "name": "Berry or Accessory from Man in Random Spot",
                 "access_rules": [
                     "@amity_square"
                 ],
@@ -11621,6 +11621,16 @@
         ],
         "sections": [
             {
+                "name": "North Gate - Reward For 35 Pokemon Seen",
+                "access_rules": [
+                    "@route_206_cycling_road_north_gate, pokedex, ^$see_35_mons"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "Item Against East Wall",
                 "access_rules": [
                     "@route_206_upper"
@@ -11649,16 +11659,6 @@
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "North Gate - Reward For 35 Pokemon Seen",
-                "access_rules": [
-                    "@route_206_cycling_road_north_gate, pokedex, ^$see_35_mons"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
                 ],
                 "item_count": 1
             },
@@ -11769,16 +11769,6 @@
                 "item_count": 1
             },
             {
-                "name": "South Gate Gift Item",
-                "access_rules": [
-                    "@route_206_cycling_road_south_gate"
-                ],
-                "visibility_rules": [
-                    "opt_accessories_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Cyclist Kayla",
                 "access_rules": [
                     "@cycling_road"
@@ -11819,6 +11809,16 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_327708"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "South Gate - Gift Item",
+                "access_rules": [
+                    "@route_206_cycling_road_south_gate"
+                ],
+                "visibility_rules": [
+                    "opt_accessories_on"
                 ],
                 "item_count": 1
             }
@@ -12790,46 +12790,6 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Defeat Candice (Event)",
-                "access_rules": [
-                    "@snowpoint_city_gym"
-                ],
-                "visibility_rules": [
-                    ""
-                ],
-                "hosted_item": "event_defeat_candice"
-            },
-            {
-                "name": "Gym - Icicle Badge from Candice",
-                "access_rules": [
-                    "@snowpoint_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Icicle Badge from Candice\u200b",
-                "access_rules": [
-                    "@snowpoint_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
-                "hosted_item": "iciclebadge"
-            },
-            {
-                "name": "Gym - TM72 from Candice",
-                "access_rules": [
-                    "@snowpoint_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Gym - Ace Trainer Sergio",
                 "access_rules": [
                     "@snowpoint_city_gym"
@@ -12874,17 +12834,6 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Leader Candice",
-                "access_rules": [
-                    "@snowpoint_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_327999"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Gym - Ace Trainer Anton",
                 "access_rules": [
                     "@snowpoint_city_gym"
@@ -12903,6 +12852,57 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_328508"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Defeat Candice (Event)",
+                "access_rules": [
+                    "@snowpoint_city_gym"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_candice"
+            },
+            {
+                "name": "Gym - Icicle Badge from Candice",
+                "access_rules": [
+                    "@snowpoint_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_badges_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Icicle Badge from Candice\u200b",
+                "access_rules": [
+                    "@snowpoint_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_badges_off"
+                ],
+                "hosted_item": "iciclebadge"
+            },
+            {
+                "name": "Gym - TM72 from Candice",
+                "access_rules": [
+                    "@snowpoint_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Leader Candice",
+                "access_rules": [
+                    "@snowpoint_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_327999"
                 ],
                 "item_count": 1
             }
@@ -13210,17 +13210,7 @@
         ],
         "sections": [
             {
-                "name": "Secret Basement - Item in Final Room",
-                "access_rules": [
-                    "@wayward_cave_b1f, bicycle"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item in Southwest Corner",
+                "name": "1F - Item in Southwest Corner",
                 "access_rules": [
                     "@wayward_cave_1f, $rock_smash"
                 ],
@@ -13230,7 +13220,7 @@
                 "item_count": 1
             },
             {
-                "name": "Item in Northwest Corner",
+                "name": "1F - Item in Northwest Corner",
                 "access_rules": [
                     "@wayward_cave_1f, $rock_smash"
                 ],
@@ -13240,7 +13230,7 @@
                 "item_count": 1
             },
             {
-                "name": "Item Next to Five Rocks",
+                "name": "1F - Item Next to Five Rocks",
                 "access_rules": [
                     "@wayward_cave_1f, $rock_smash"
                 ],
@@ -13250,7 +13240,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Rock Next to Mira",
+                "name": "1F - Hidden Item in Rock Next to Mira",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -13262,7 +13252,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Rock Below Picnicker on East Side",
+                "name": "1F - Hidden Item in Rock Below Picnicker on East Side",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -13274,7 +13264,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item South of Hikers",
+                "name": "1F - Hidden Item South of Hikers",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -13286,7 +13276,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Center Boulder",
+                "name": "1F - Hidden Item in Center Boulder",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -13298,7 +13288,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Corner With Breakable Rock",
+                "name": "1F - Hidden Item in Corner With Breakable Rock",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -13310,65 +13300,11 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Southeast Corner",
+                "name": "1F - Hidden Item in Southeast Corner",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
                     "@wayward_cave_1f, $rock_smash, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Secret Basement - Item Between Bike Bridges",
-                "access_rules": [
-                    "@wayward_cave_b1f, bicycle"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Secret Basement - Item After Four Bike Jumps",
-                "access_rules": [
-                    "@wayward_cave_b1f, bicycle"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Secret Basement - Item Next to Bike Ramp on Ledges",
-                "access_rules": [
-                    "@wayward_cave_b1f, bicycle"
-                ],
-                "visibility_rules": [
-                    "opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Secret Basement - Hidden Item Against Northwest Wall",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@wayward_cave_b1f, bicycle, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Secret Basement - Hidden Item in Rock Before First Bike Slope",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@wayward_cave_b1f, ^$hidden"
                 ],
                 "visibility_rules": [
                     "opt_hidden_on"
@@ -13484,7 +13420,71 @@
                     "opt_trainer_328176"
                 ],
                 "item_count": 1
-            }
+            },
+            {
+                "name": "B1F - Item Between Bike Bridges",
+                "access_rules": [
+                    "@wayward_cave_b1f, bicycle"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F - Item After Four Bike Jumps",
+                "access_rules": [
+                    "@wayward_cave_b1f, bicycle"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F - Item Next to Bike Ramp on Ledges",
+                "access_rules": [
+                    "@wayward_cave_b1f, bicycle"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F - Hidden Item Against Northwest Wall",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@wayward_cave_b1f, bicycle, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F - Hidden Item in Rock Before First Bike Slope",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@wayward_cave_b1f, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Final Room - Item",
+                "access_rules": [
+                    "@wayward_cave_b1f, bicycle"
+                ],
+                "visibility_rules": [
+                    "opt_overworld_on"
+                ],
+                "item_count": 1
+            },
         ],
         "map_locations": [
             {
@@ -13623,46 +13623,6 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Defeat Roark (Event)",
-                "access_rules": [
-                    "@oreburgh_city_gym"
-                ],
-                "visibility_rules": [
-                    ""
-                ],
-                "hosted_item": "event_defeat_roark"
-            },
-            {
-                "name": "Gym - Coal Badge From Roark",
-                "access_rules": [
-                    "@oreburgh_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_badges_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Gym - Coal Badge From Roark\u200b",
-                "access_rules": [
-                    "@oreburgh_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_badges_off"
-                ],
-                "hosted_item": "coalbadge"
-            },
-            {
-                "name": "Gym - TM75 From Roark",
-                "access_rules": [
-                    "@oreburgh_city_gym"
-                ],
-                "visibility_rules": [
-                    "opt_npcgifts_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Lass in Northwest Building",
                 "access_rules": [
                     "@oreburgh_city_northwest_house_2f"
@@ -13721,6 +13681,46 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_327925"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Defeat Roark (Event)",
+                "access_rules": [
+                    "@oreburgh_city_gym"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_defeat_roark"
+            },
+            {
+                "name": "Gym - Coal Badge From Roark",
+                "access_rules": [
+                    "@oreburgh_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_badges_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gym - Coal Badge From Roark\u200b",
+                "access_rules": [
+                    "@oreburgh_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_badges_off"
+                ],
+                "hosted_item": "coalbadge"
+            },
+            {
+                "name": "Gym - TM75 From Roark",
+                "access_rules": [
+                    "@oreburgh_city_gym"
+                ],
+                "visibility_rules": [
+                    "opt_npcgifts_on"
                 ],
                 "item_count": 1
             },
@@ -14572,6 +14572,76 @@
         ],
         "sections": [
             {
+                "name": "4F Bottom - Hidden Item Behind NW Breakable Rock",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@mt_coronet_4f_rooms_1_and_2, $rock_smash, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F Bottom - Hidden Item in Upper Middle",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@mt_coronet_4f_rooms_1_and_2, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F Bottom - Hidden Item Before Exit",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@mt_coronet_4f_rooms_1_and_2, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F Bottom - Hidden Item on Ledge Above Exit",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@mt_coronet_4f_rooms_1_and_2, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F Bottom - Galactic Grunt 1",
+                "access_rules": [
+                    "@mt_coronet_4f_rooms_1_and_2"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328196"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "4F Bottom - Galactic Grunt 2",
+                "access_rules": [
+                    "@mt_coronet_4f_rooms_1_and_2"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328197"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "4F Room Above Waterfall - Item 1",
                 "access_rules": [
                     "@mt_coronet_4f_rooms_1_and_2_lower, $surf, $waterfall"
@@ -14604,55 +14674,7 @@
                 "item_count": 1
             },
             {
-                "name": "4F Left - Hidden Item Behind NW Breakable Rock",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@mt_coronet_4f_rooms_1_and_2, $rock_smash, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "4F Left - Hidden Item in Upper Middle",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@mt_coronet_4f_rooms_1_and_2, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "4F Left - Hidden Item Before Exit",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@mt_coronet_4f_rooms_1_and_2, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "4F Left - Hidden Item on Ledge Above Exit",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@mt_coronet_4f_rooms_1_and_2, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "4F Right - Hidden Item on Wall Behind Breakable Rock",
+                "name": "4F Top - Hidden Item on Wall Behind Breakable Rock",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -14664,7 +14686,7 @@
                 "item_count": 1
             },
             {
-                "name": "4F Right - Hidden Item in Corner Behind Breakable Rock",
+                "name": "4F Top - Hidden Item in Corner Behind Breakable Rock",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -14676,7 +14698,7 @@
                 "item_count": 1
             },
             {
-                "name": "4F Right - Hidden Item in Rock Up Stairs",
+                "name": "4F Top - Hidden Item in Rock Up Stairs",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -14688,7 +14710,7 @@
                 "item_count": 1
             },
             {
-                "name": "4F - Hidden Item Before 5F",
+                "name": "4F Top - Hidden Item Before 5F",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -14724,80 +14746,6 @@
                 "item_count": 1
             },
             {
-                "name": "Spear Pillar - Nighttime",
-                "access_rules": [
-                    "@spear_pillar"
-                ],
-                "visibility_rules": [
-                    "opt_timeitems_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Spear Pillar - Nighttime\u200b",
-                "access_rules": [
-                    "@spear_pillar"
-                ],
-                "visibility_rules": [
-                    "opt_timeitems_off"
-                ],
-                "hosted_item": "nighttime"
-            },
-            {
-                "name": "Spear Pillar - Clear the Distortion World (Event)",
-                "access_rules": [
-                    "@distortion_world"
-                ],
-                "visibility_rules": [
-                    ""
-                ],
-                "hosted_item": "event_clear_distortion"
-            },
-            {
-                "name": "Distortion World - Galactic Boss Cyrus",
-                "access_rules": [
-                    "@distortion_world"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328084"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Spear Pillar - Commander Jupiter",
-                "access_rules": [
-                    "@spear_pillar"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328087"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "4F - Galactic Grunt 1",
-                "access_rules": [
-                    "@mt_coronet_4f_rooms_1_and_2"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328196"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "4F - Galactic Grunt 2",
-                "access_rules": [
-                    "@mt_coronet_4f_rooms_1_and_2"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328197"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "5F - Galactic Grunt 1",
                 "access_rules": [
                     "@mt_coronet_5f"
@@ -14805,17 +14753,6 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_328200"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Spear Pillar - Galactic Grunt 1",
-                "access_rules": [
-                    "@spear_pillar"
-                ],
-                "visibility_rules": [
-                    "opt_trainer_full",
-                    "opt_trainer_328201"
                 ],
                 "item_count": 1
             },
@@ -14842,6 +14779,37 @@
                 "item_count": 1
             },
             {
+                "name": "Spear Pillar - Nighttime",
+                "access_rules": [
+                    "@spear_pillar"
+                ],
+                "visibility_rules": [
+                    "opt_timeitems_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Spear Pillar - Nighttime\u200b",
+                "access_rules": [
+                    "@spear_pillar"
+                ],
+                "visibility_rules": [
+                    "opt_timeitems_off"
+                ],
+                "hosted_item": "nighttime"
+            },
+            {
+                "name": "Spear Pillar - Galactic Grunt 1",
+                "access_rules": [
+                    "@spear_pillar"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328201"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "Spear Pillar - Galactic Grunt 2",
                 "access_rules": [
                     "@spear_pillar"
@@ -14849,6 +14817,17 @@
                 "visibility_rules": [
                     "opt_trainer_full",
                     "opt_trainer_328207"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Spear Pillar - Commander Jupiter",
+                "access_rules": [
+                    "@spear_pillar"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328087"
                 ],
                 "item_count": 1
             },
@@ -14862,6 +14841,27 @@
                     "opt_trainer_328208"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Distortion World - Galactic Boss Cyrus",
+                "access_rules": [
+                    "@distortion_world"
+                ],
+                "visibility_rules": [
+                    "opt_trainer_full",
+                    "opt_trainer_328084"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Distortion World - Clear the Distortion World (Event)",
+                "access_rules": [
+                    "@distortion_world"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
+                "hosted_item": "event_clear_distortion"
             }
         ],
         "map_locations": [
@@ -15136,7 +15136,7 @@
         ],
         "sections": [
             {
-                "name": "Outside 1 - Hidden Item Behind Breakable Rock",
+                "name": "South - Hidden Item Behind Breakable Rock",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -15148,7 +15148,7 @@
                 "item_count": 1
             },
             {
-                "name": "Outside 1 - Hidden Item in SE Grass",
+                "name": "South - Hidden Item in SE Grass",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -15160,7 +15160,7 @@
                 "item_count": 1
             },
             {
-                "name": "Outside 1 - Hidden Item in Big Grass Patch",
+                "name": "South - Hidden Item in Big Grass Patch",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -15172,7 +15172,7 @@
                 "item_count": 1
             },
             {
-                "name": "Outside 1 - Hidden Item in Grass Above Upper Rock Climb Slope",
+                "name": "South - Hidden Item in Grass Above Upper Rock Climb Slope",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -15184,7 +15184,7 @@
                 "item_count": 1
             },
             {
-                "name": "Outside 1 - Hidden Item on Rock in Grass Above Upper Rock Climb Slope",
+                "name": "South - Hidden Item on Rock in Grass Above Upper Rock Climb Slope",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -15196,7 +15196,7 @@
                 "item_count": 1
             },
             {
-                "name": "Outside 2 - Hidden Item in Corner Behind Breakable Rock",
+                "name": "North - Hidden Item in Corner Behind Breakable Rock",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -15208,7 +15208,7 @@
                 "item_count": 1
             },
             {
-                "name": "Outside 2 - Hidden Item on Northmost Rock",
+                "name": "North - Hidden Item on Northmost Rock",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -15220,7 +15220,7 @@
                 "item_count": 1
             },
             {
-                "name": "Outside 2 - Hidden Item on Ledge Without Grass",
+                "name": "North - Hidden Item on Ledge Without Grass",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -15232,7 +15232,7 @@
                 "item_count": 1
             },
             {
-                "name": "Outside 2 - Hidden Item on Rock in Grass",
+                "name": "North - Hidden Item on Rock in Grass",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -15244,7 +15244,7 @@
                 "item_count": 1
             },
             {
-                "name": "Outside 2 - Hidden Item in Grass North of Strength Boulder",
+                "name": "North - Hidden Item in Grass North of Strength Boulder",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -15256,7 +15256,7 @@
                 "item_count": 1
             },
             {
-                "name": "Outside 2 - Hidden Item in Corner By NW Exit",
+                "name": "North - Hidden Item in Corner By NW Exit",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [

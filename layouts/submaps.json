@@ -2076,29 +2076,20 @@
                 "type": "tabbed",
                 "tabs": [
                   {
-                    "title": "Left",
+                    "title": "Bottom",
                     "content": {
                       "type": "map",
                       "maps": [
-                        "mtcoronetupper4fmain"
+                        "mtcoronetupper4fbottom"
                       ]
                     }
                   },
                   {
-                    "title": "Back",
+                    "title": "Top",
                     "content": {
                       "type": "map",
                       "maps": [
-                        "mtcoronetupper4fback"
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Right",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "mtcoronetupper4fright"
+                        "mtcoronetupper4ftop"
                       ]
                     }
                   }
