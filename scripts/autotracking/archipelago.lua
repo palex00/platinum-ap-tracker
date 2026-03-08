@@ -2,6 +2,7 @@ require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/option_mapping")
 require("scripts/autotracking/flag_mapping")
+require("scripts/autotracking/map_mapping")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
