@@ -390,16 +390,17 @@ function updateHints(value)
     end
 end
 
-function updateMap(map_id)
+function onMap(mapBounce)
     if has("automap_on") then
-        local tabs = MAP_MAPPING[map_id]
+        local mapID = mapBounce.data.mapNumber
+        local tabs = MAP_MAPPING[mapID]
         if tabs then
             for _, tab in ipairs(tabs) do
                 Tracker:UiHint("ActivateTab", tab)
             end
         else
             print("No Mapping found for:")
-            print(dump_table(map_id))
+            print(dump_table(mapBounce))
         end
     end
 end
