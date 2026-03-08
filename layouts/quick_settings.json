@@ -20,6 +20,9 @@
                             ],
                             [
                                 "automap"
+                            ],
+                            [
+                                "location_visibility"
                             ]
                         ]
                     }
@@ -48,6 +51,9 @@
                             ],
                             [
                                 "automap"
+                            ],
+                            [
+                                "location_visibility"
                             ]
                         ]
                     }

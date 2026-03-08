@@ -750,5 +750,32 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Location Visibility",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Only show normal locations",
+                "img": "/images/settings/opt_unown_item.png",
+                "codes": "location_visibility, show_items",
+                "inherit_codes": false
+            },
+            {
+                "name": "Show normal and encounter locations",
+                "img": "/images/settings/opt_unown_open.png",
+                "codes": "location_visibility,show_items, show_mons",
+                "inherit_codes": false
+            },
+            {
+                "name": "Only show encounter locations",
+                "img": "/images/settings/opt_unown_vanilla.png",
+                "codes": "location_visibility, show_mons",
+                "inherit_codes": false
+            }
+        ]
     }
 ]
