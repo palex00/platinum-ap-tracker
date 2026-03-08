@@ -113,6 +113,12 @@ function dump_table(o, depth)
         generated_roamers = true,
         roamer_blacklist = true,
         seed = true,
+        generated_special_encounters = true,
+        trainersanity_trainers = true,
+        trainer_party_blacklist = true,
+        generated_encounters = true,
+        dexsanity_specs = true,
+        generated_munchlax_trees = true,
     }
 
     if type(o) == 'table' then

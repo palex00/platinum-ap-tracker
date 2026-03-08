@@ -391,7 +391,7 @@ function updateHints(value)
 end
 
 function onMap(mapBounce)
-    if has("automap_on") then
+    if has("automap_on") and mapBounce.data ~= nil then
         local mapID = mapBounce.data.mapNumber
         local tabs = MAP_MAPPING[mapID]
         if tabs then

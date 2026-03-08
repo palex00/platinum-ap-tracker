@@ -741,7 +741,7 @@ LOCATION_MAPPING = {
     [65866] = {"@Mt. Coronet Upper Floors/Spear Pillar - Nighttime"},
     [65867] = {"@Snowpoint Temple/B3F - TM94 (Overworld Item)"},
     [65868] = {"@Fuego Ironworks/TM93 (Overworld Item)"},
-    [65869] = {"@Old Chateau/TM96 (In Right Side Room)"},
+    [65869] = {"@Old Chateau/Entrance - TM96 (In Right Side Room)"},
     [65870] = {"@Eterna Forest/TM95 (By Mossy Rock)"},
     [65871] = {"@Galactic HQ/Linking Cord (In First Basement)"},
     

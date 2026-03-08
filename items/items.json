@@ -443,7 +443,7 @@
         "name": "Leaf Stone",
         "type": "toggle",
         "img": "images/items/leafstone.png",
-        "codes": "firestone"
+        "codes": "leafstone"
     },
     {
         "name": "Moon Stone",
