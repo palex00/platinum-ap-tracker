@@ -387,13 +387,12 @@ function onMap(mapBounce)
     if has("automap_on") and mapBounce.data ~= nil then
         local mapID = mapBounce.data.mapNumber
         local tabs = MAP_MAPPING[mapID]
+        print("No Mapping found for:")
+        print(dump_table(mapBounce))
         if tabs then
             for _, tab in ipairs(tabs) do
                 Tracker:UiHint("ActivateTab", tab)
             end
-        else
-            print("No Mapping found for:")
-            print(dump_table(mapBounce))
         end
     end
 end
