@@ -867,11 +867,11 @@
         }
       },
       {
-        "title": "R213",
+        "title": "R213 & VLF",
         "content": {
           "type": "map",
           "maps": [
-            "route213"
+            "route213valorlakefront"
           ]
         }
       },
