@@ -1,5 +1,5 @@
 function cut()
-    if not has("bag") or not has("hmreader") then
+    if not has("bag") and not has("hmreader") then
         return false
     end
     return has("free_cut")
@@ -15,7 +15,7 @@ function fly()
 end
 
 function surf()
-    if not has("bag") or not has("hmreader") then
+    if not has("bag") and not has("hmreader") then
         return false
     end
     return has("free_surf")
@@ -23,7 +23,7 @@ function surf()
 end
 
 function strength()
-    if not has("bag") or not has("hmreader") then
+    if not has("bag") and not has("hmreader") then
         return false
     end
     return has("free_strength")
@@ -39,7 +39,7 @@ function defog()
 end
 
 function rock_smash()
-    if not has("bag") or not has("hmreader") then
+    if not has("bag") and not has("hmreader") then
         return false
     end
     return has("free_rocksmash")
@@ -47,7 +47,7 @@ function rock_smash()
 end
 
 function waterfall()
-    if not has("bag") or not has("hmreader") then
+    if not has("bag") and not has("hmreader") then
         return false
     end
     return has("free_waterfall")
@@ -55,7 +55,7 @@ function waterfall()
 end
 
 function rock_climb()
-    if not has("bag") or not has("hmreader") then
+    if not has("bag") and not has("hmreader") then
         return false
     end
     return has("free_rockclimb")
