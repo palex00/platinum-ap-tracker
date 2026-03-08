@@ -384,15 +384,29 @@ function updateHints(value)
 end
 
 function onMap(mapBounce)
+    print("Bounced")
     if has("automap_on") and mapBounce.data ~= nil then
         local mapID = mapBounce.data.mapNumber
-        local tabs = MAP_MAPPING[mapID]
-        print("No Mapping found for:")
-        print(dump_table(mapBounce))
-        if tabs then
-            for _, tab in ipairs(tabs) do
-                Tracker:UiHint("ActivateTab", tab)
+        
+        if MAP_SPLIT_MAPPING[mapID] ~= nil then
+            local matrixX = mapBounce.data.matrixX
+            local matrixZ = mapBounce.data.matrixZ
+            local tabs = MAP_SPLIT_MAPPING[mapID] and MAP_SPLIT_MAPPING[mapID][matrixX] and MAP_SPLIT_MAPPING[mapID][matrixX][matrixZ]
+            if tabs then
+                for i, tab in ipairs(tabs) do
+                    Tracker:UiHint("ActivateTab", tab)
+                end
             end
+        elseif MAP_MAPPING[mapID] ~= nil then    
+            local tabs = MAP_MAPPING[mapID]
+            if tabs then
+                for _, tab in ipairs(tabs) do
+                    Tracker:UiHint("ActivateTab", tab)
+                end
+            end
+        else
+            print("No Mapping found for:")
+            print(dump_table(mapBounce))
         end
     end
 end

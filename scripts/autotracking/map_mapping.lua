@@ -154,7 +154,6 @@ MAP_MAPPING = {
   [407] = {"Routes", "R229"}, --407: "route_229",
   [411] = {"Cities", "Twinleaf Town"}, --411: "twinleaf_town",
   [418] = {"Cities", "Sandgem Town"}, --418: "sandgem_town",
-  [426] = {"Cities", "Floaroma Town", "Town"}, --426: "floaroma_town",
   [433] = {"Cities", "Solaceon Town", "Town"}, --433: "solaceon_town",
   [442] = {"Cities", "Celestic Town"}, --442: "celestic_town",
   [450] = {"Cities", "Survival Area"}, --450: "survival_area",
@@ -188,4 +187,189 @@ MAP_MAPPING = {
   [592] = {"Routes", "R228", "Rock Peak Ruins"} --592: "rock_peak_ruins"
 }
 
--- TODO: Special Maps
+MAP_SPLIT_MAPPING = {
+  -- Split Maps
+  [172] = {
+    [26] = {
+      [17] = {"Cities", "Pokémon League", "North"}, --172: "pokemon_league",
+      [18] = {"Cities", "Pokémon League", "South"}, --172: "pokemon_league",
+    }
+  },
+  [347] = {
+    [6] = {
+      [18] = {"Routes", "R205", "South (Top)"}, --347: "route_205_south",
+      [19] = {"Routes", "R205", "South (Top)"}, --347: "route_205_south",
+      [20] = {"Routes", "R205", "South (Bottom)"}, --347: "route_205_south",
+    }
+  },
+  [356] = {
+    [16] = {
+      [22] = {"Routes", "R209", "South"}, --356: "route_209",
+    },
+    [17] = {
+      [21] = {"Routes", "R209", "North"}, --356: "route_209",
+      [22] = {"Routes", "R209", "South"}, --356: "route_209",
+    }
+  },
+  [362] = {
+    [17] = {
+      [17] = {"Routes", "R210", "Center"}, --"362": "route_210_south",
+      [18] = {"Routes", "R210", "South"}, --"362": "route_210_south",
+      [19] = {"Routes", "R211", "South"}, --"362": "route_210_south",
+    }
+  },
+  [363] = {
+    [15] = {
+      [16] = {"Routes", "R210", "North"}, --363: "route_210_north",
+    },
+    [16] = {
+      [16] = {"Routes", "R210", "North"}, --363: "route_210_north",
+    },
+    [17] = {
+      [16] = {"Routes", "R210", "Center"}, --363: "route_210_north",
+    }
+  },
+  [367] = {
+    [14] = {
+      [23] = {"Routes", "R212", "North"}, --367: "route_212_north",
+      [24] = {"Routes", "R212", "North"}, --367: "route_212_north",
+      [25] = {"Routes", "R212", "Center"}, --367: "route_212_north",
+    }
+  },
+  [371] = {
+    [14] = {
+      [26] = {"Routes", "R212", "Southwest"}, --371: "route_212_south",
+    },
+    [15] = {
+      [26] = {"Routes", "R212", "Southwest"}, --371: "route_212_south",
+    },
+    [16] = {
+      [26] = {"Routes", "R212", "Southeast"}, --371: "route_212_south",
+    },
+    [17] = {
+      [26] = {"Routes", "R212", "Southeast"}, --371: "route_212_south",
+    }
+  },
+  [380] = {
+    [22] = {
+      [20] = {"Routes", "R214", "North"}, --380: "route_214",
+      [21] = {"Routes", "R214", "South"}, --380: "route_214",
+      [22] = {"Routes", "R214", "South"}, --380: "route_214",
+    }
+  },
+  [382] = {
+    [18] = {
+      [18] = {"Routes", "R215", "West"}, --382: "route_215",
+    },
+    [19] = {
+      [18] = {"Routes", "R215", "West"}, --382: "route_215",
+    },
+    [20] = {
+      [18] = {"Routes", "R215", "East"}, --382: "route_215",
+    }
+  },
+  [383] = {
+    [9] = {
+      [12] = {"Routes", "R216", "West"}, --383: "route_216",
+    },
+    [10] = {
+      [12] = {"Routes", "R216", "East"}, --383: "route_216",
+    },
+    [11] = {
+      [12] = {"Routes", "R216", "East"}, --383: "route_216",
+    }
+  },
+  [385] = {
+    [9] = {
+      [8] = {"Routes", "R217", "North"}, --385: "route_217",
+      [9] = {"Routes", "R217", "North"}, --385: "route_217",
+      [10] = {"Routes", "R217", "South"}, --385: "route_217",
+      [11] = {"Routes", "R217", "South"}, --385: "route_217",
+    }
+  },
+  [392] = {
+    [7] = {
+      [28] = {"Routes", "R221", "West"}, --392: "route_221",
+    },
+    [8] = {
+      [28] = {"Routes", "R221", "West"}, --392: "route_221",
+    },
+    [9] = {
+      [28] = {"Routes", "R221", "East"}, --392: "route_221",
+    }
+  },
+  [395] = {
+    [23] = {
+      [24] = {"Routes", "R222", "West"}, --395: "route_222",
+    },
+    [24] = {
+      [24] = {"Routes", "R222", "East"}, --395: "route_222",
+    },
+    [25] = {
+      [24] = {"Routes", "R222", "East"}, --395: "route_222",
+    }
+  },
+  [399] = {
+    [27] = {
+      [16] = {"Routes", "R224", "West"}, --399: "route_224",
+      [17] = {"Routes", "R224", "West"}, --399: "route_224",
+    },
+    [28] = {
+      [15] = {"Routes", "R224", "East"}, --399: "route_224",
+      [16] = {"Routes", "R224", "East"}, --399: "route_224",
+    }
+  },
+  [400] = {
+    [19] = {
+      [10] = {"Routes", "R225", "North"}, --400: "route_225",
+      [11] = {"Routes", "R225", "South"}, --400: "route_225",
+      [12] = {"Routes", "R225", "South"}, --400: "route_225",
+    }
+  },
+  [406] = {
+    [24] = {
+      [10] = {"Routes", "R228", "North"}, --406: "route_228",
+      [11] = {"Routes", "R228", "South"}, --406: "route_228",
+      [12] = {"Routes", "R228", "South"}, --406: "route_228",
+    }
+  },
+  [426] = {
+    [5] = {
+      [19] = {"Dungeons", "Fuego Ironworks", "Outside"}, --"426": "floaroma_town",
+      [20] = {"Cities", "Floaroma Town", "Town"}, --"426": "floaroma_town",
+    }
+  },
+  [468] = {
+    [26] = {
+      [19] = {"Routes", "R223", "North"}, --468: "route_223",
+      [20] = {"Routes", "R223", "North"}, --468: "route_223",
+      [21] = {"Routes", "R223", "South"}, --468: "route_223",
+      [22] = {"Routes", "R223", "South"}, --468: "route_223",
+    }
+  },
+  [469] = {
+    [21] = {
+      [10] = {"Routes", "R226", "West"}, --469: "route_226",
+    },
+    [22] = {
+      [10] = {"Routes", "R226", "West"}, --469: "route_226",
+    },
+    [23] = {
+      [10] = {"Routes", "R226", "East"}, --469: "route_226",
+    }
+  },
+  [471] = {
+    [21] = {
+      [13] = {"Routes", "R230", "West"}, --471: "route_230",
+    },
+    [22] = {
+      [13] = {"Routes", "R230", "East"}, --471: "route_230",
+    },
+    [23] = {
+      [13] = {"Routes", "R230", "East"}, --471: "route_230",
+    }
+  }
+
+}
+
+-- TODO: Zoom Maps
