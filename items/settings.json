@@ -566,7 +566,8 @@
         "stages": [
             {
                 "name": "Split Map - OFF",
-                "img": "/images/settings/map_single.png",
+                "img": "/images/settings/map_split.png",
+                "img_mods": "@disabled",
                 "codes": "splitmap, splitmap_off",
                 "inherit_codes": false
             },
@@ -592,13 +593,14 @@
         "stages": [
             {
                 "name": "Auto-Tab Map - ON",
-                "img": "/images/settings/opt_cartridges_on.png",
+                "img": "/images/settings/tools_autotab.png",
                 "codes": "automap, automap_on",
                 "inherit_codes": false
             },
             {
                 "name": "Auto-Tab Map - OFF",
-                "img": "/images/settings/opt_cartridges_off.png",
+                "img": "/images/settings/tools_autotab.png",
+                "img_mods": "@disabled",
                 "codes": "automap, automap_off",
                 "inherit_codes": false
             }
@@ -759,20 +761,21 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Only show normal locations",
-                "img": "/images/settings/opt_unown_item.png",
+                "name": "Don't show encounter locations",
+                "img": "/images/settings/tools_encounters_off.png",
+                "img_mods": "@disabled",
                 "codes": "location_visibility, show_items",
                 "inherit_codes": false
             },
             {
                 "name": "Show normal and encounter locations",
-                "img": "/images/settings/opt_unown_open.png",
+                "img": "/images/settings/tools_encounters_on.png",
                 "codes": "location_visibility,show_items, show_mons",
                 "inherit_codes": false
             },
             {
                 "name": "Only show encounter locations",
-                "img": "/images/settings/opt_unown_vanilla.png",
+                "img": "/images/settings/tools_encounters_only.png",
                 "codes": "location_visibility, show_mons",
                 "inherit_codes": false
             }

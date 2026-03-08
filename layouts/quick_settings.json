@@ -16,10 +16,10 @@
                         "h_alignment": "center",
                         "rows": [
                             [
-                                "split"
+                                "automap"
                             ],
                             [
-                                "automap"
+                                "split"
                             ],
                             [
                                 "location_visibility"
@@ -47,13 +47,9 @@
                         "h_alignment": "center",
                         "rows": [
                             [
-								"split"
-                            ],
-                            [
-                                "automap"
-                            ],
-                            [
-                                "location_visibility"
+                                "automap",
+								"split",
+								"location_visibility"
                             ]
                         ]
                     }
