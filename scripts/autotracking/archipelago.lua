@@ -389,7 +389,16 @@ function updateHints(value)
     end
 end
 
-function onMap(value)
-    --print(value)
-    --print(dump_table(value))
+function updateMap(map_id)
+    if has("automap_on") then
+        local tabs = MAP_MAPPING[map_id]
+        if tabs then
+            for _, tab in ipairs(tabs) do
+                Tracker:UiHint("ActivateTab", tab)
+            end
+        else
+            print("No Mapping found for:")
+            print(dump_table(map_id))
+        end
+    end
 end

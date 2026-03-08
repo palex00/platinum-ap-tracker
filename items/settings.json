@@ -585,6 +585,26 @@
         ]
     },
     {
+        "name": "Auto-Tab",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Auto-Tab Map - ON",
+                "img": "/images/settings/opt_cartridges_on.png",
+                "codes": "automap, automap_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Auto-Tab Map - OFF",
+                "img": "/images/settings/opt_cartridges_off.png",
+                "codes": "automap, automap_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Cartridges",
         "type": "progressive",
         "initial_stage_idx": 0,

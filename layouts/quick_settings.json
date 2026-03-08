@@ -17,6 +17,9 @@
                         "rows": [
                             [
                                 "split"
+                            ],
+                            [
+                                "automap"
                             ]
                         ]
                     }
@@ -42,6 +45,9 @@
                         "rows": [
                             [
 								"split"
+                            ],
+                            [
+                                "automap"
                             ]
                         ]
                     }
