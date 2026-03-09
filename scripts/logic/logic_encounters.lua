@@ -1,4 +1,9 @@
 function day_encounters()
+    return AccessibilityLevel.Normal
+end
+
+
+function day_encounters()
     if has("daytime") and has("poketch") then
         return AccessibilityLevel.Normal
     else
@@ -71,11 +76,7 @@ function swarms_encounters()
 end
 
 function surf_encounters()
-    if surf then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+    return surf
 end
 
 function roamers_encounters()
