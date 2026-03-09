@@ -1,0 +1,210 @@
+[
+    {
+        "name": "Encounter Tracking",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Tracking - Off",
+                "img": "/images/settings/encounter_tracking.png",
+                "img_mods": "@disabled",
+                "codes": "encounter_tracking, encounter_tracking_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Tracking - Strict",
+                "img": "/images/settings/encounter_tracking.png",
+                "codes": "encounter_tracking, encounter_tracking_strict",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Tracking - Loose",
+                "img": "/images/settings/encounter_tracking_loose.png",
+                "codes": "encounter_tracking, encounter_tracking_loose",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/encountermethods.png",
+        "codes": "encountermethods_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Land",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Land Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_land, encmethod_land_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Land Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_land, encmethod_land_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/land.png",
+        "codes": "land_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Swarms",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Swarm Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_swarm, encmethod_swarm_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Swarm Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_swarm, encmethod_swarm_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/swarm.png",
+        "codes": "swarm_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Poké Radar",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Radar Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_radar, encmethod_radar_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Swarm Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_radar, encmethod_radar_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/radar.png",
+        "codes": "radar_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Daytime",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Day Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_day, encmethod_day_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Day Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_day, encmethod_day_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/day.png",
+        "codes": "day_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Nighttime",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Night Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_night, encmethod_night_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Night Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_night, encmethod_night_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/night.png",
+        "codes": "night_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Fishing",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Fishing Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_fishing, encmethod_fishing_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Fishing Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_fishing, encmethod_fishing_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/fishing.png",
+        "codes": "fishing_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Surfing",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Surfing Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_water, encmethod_water_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Surfing Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_water, encmethod_water_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/surfing.png",
+        "codes": "surfing_dummy",
+        "type": "static"
+    },
+]
