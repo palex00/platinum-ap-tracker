@@ -594,5 +594,11 @@
         "type": "toggle",
         "img": "images/items/razorfang.png",
         "codes": "razorfang"
+    },
+    {
+        "name": "Poké Radar",
+        "type": "toggle",
+        "img": "images/items/pokeradar.png",
+        "codes": "radar"
     }
 ]
