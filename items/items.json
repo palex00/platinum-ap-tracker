@@ -490,50 +490,44 @@
     {
         "name": "TM93 Rollout",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/tm93rollout.png",
         "codes": "tm93rollout"
     },
     {
         "name": "TM94 AncientPower",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/tm94ancientpower.png",
         "codes": "tm94ancientpower"
     },
     {
         "name": "TM95 Double Hit",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/tm95doublehit.png",
         "codes": "tm95doublehit"
     },
     {
         "name": "TM96 Mimic",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/tm96mimic.png",
         "codes": "tm96mimic"
     },
     {
         "name": "Oval Stone",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/ovalstone.png",
         "codes": "ovalstone"
     },
     {
         "name": "King's Rock",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/kingsrock.png",
         "codes": "kingsrock"
     },
     {
         "name": "Deep Sea Tooth",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/deepseatooth.png",
         "codes": "deepseatooth"
-    },
-    {
-        "name": "Deep Sea Scale",
-        "type": "toggle",
-        "img": "images/items/bag.png",
-        "codes": "deepseascale"
     },
     {
         "name": "Deep Sea Scale",
@@ -544,61 +538,61 @@
     {
         "name": "Metal Coat",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/metalcoat.png",
         "codes": "metalcoat"
     },
     {
         "name": "Dragon Scale",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/dragonscale.png",
         "codes": "dragonscale"
     },
     {
         "name": "Up-Grade",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/upgrade.png",
         "codes": "upgrade"
     },
     {
         "name": "Protector",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/protector.png",
         "codes": "protector"
     },
     {
         "name": "Electirizer",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/electirizer.png",
         "codes": "electirizer"
     },
     {
         "name": "Magmarizer",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/magmarizer.png",
         "codes": "magmarizer"
     },
     {
         "name": "Dubious Disc",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/dubiousdisc.png",
         "codes": "dubiousdisc"
     },
     {
         "name": "Reaper Cloth",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/reapercloth.png",
         "codes": "reapercloth"
     },
     {
         "name": "Razor Claw",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/razorclaw.png",
         "codes": "razorclaw"
     },
     {
         "name": "Razor Fang",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/razorfang.png",
         "codes": "razorfang"
     }
 ]
