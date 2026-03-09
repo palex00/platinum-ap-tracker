@@ -876,7 +876,7 @@
 {"name": "Route 214​​​​​​​​​​​​​", "sections": [{"ref": "Route 214/Collector Douglas", "name": "Collector Douglas"}], "map_locations": [{"map": "route214south", "x": 424, "y": 760}]},
 {"name": "Route 214​​​​​​​​​​​​​​", "sections": [{"ref": "Route 214/Collector Brady", "name": "Collector Brady"}], "map_locations": [{"map": "route214south", "x": 392, "y": 120}]},
 {"name": "Route 221​​​​​​​​​​​​​​", "sections": [{"ref": "Route 221/Collector Ivan", "name": "Collector Ivan"}], "map_locations": [{"map": "route221east", "x": 8, "y": 302}]},
-{"name": "Route 210 South​​​​​​​", "sections": [{"ref": "Route 210 South/Cafe Cabin - Collector Fernando", "name": "Cafe Cabin - Collector Fernando"}], "map_locations": [{"map": "cafecabin", "x": 84, "y": 80}]},
+{"name": "Route 210 South​​​​​​​", "sections": [{"ref": "Route 210 South/Cafe Cabin - Collector Fernando", "name": "Cafe Cabin - Collector Fernando"}], "map_locations": [{"map": "cafecabin", "x": 63, "y": 80}]},
 {"name": "Route 210 South​​​​​​​​", "sections": [{"ref": "Route 210 South/Cafe Cabin - Collector Edwin", "name": "Cafe Cabin - Collector Edwin"}], "map_locations": [{"map": "cafecabin", "x": 96, "y": 80}]},
 {"name": "Route 215​​​​​​​​​​​​​​", "sections": [{"ref": "Route 215/Ace Trainer Dennis", "name": "Ace Trainer Dennis"}], "map_locations": [{"map": "route215east", "x": 136, "y": 408}]},
 {"name": "Canalave City​​​​​​", "sections": [{"ref": "Canalave City/Gym - Ace Trainer Cesar", "name": "Gym - Ace Trainer Cesar"}], "map_locations": [{"map": "canalavegym1f", "x": 342, "y": 218}]},
