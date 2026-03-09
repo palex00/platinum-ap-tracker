@@ -3560,7 +3560,7 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
-                    "@route_230, ^$land_encounters"
+                    "@route_230, ^$land_encounters, $surf"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -3572,7 +3572,7 @@
                 "chest_unopened_img": "/images/locations/encounters/swarm.png",
                 "chest_opened_img": "/images/locations/encounters/swarm_cleared.png",
                 "access_rules": [
-                    "@route_230, ^$swarm_encounters"
+                    "@route_230, ^$swarm_encounters, $surf"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -3584,7 +3584,7 @@
                 "chest_unopened_img": "/images/locations/encounters/radar.png",
                 "chest_opened_img": "/images/locations/encounters/radar_cleared.png",
                 "access_rules": [
-                    "@route_230, ^$radar_encounters"
+                    "@route_230, ^$radar_encounters, $surf"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -3596,7 +3596,7 @@
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
                 "access_rules": [
-                    "@route_230, ^$night_encounters"
+                    "@route_230, ^$night_encounters, $surf"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -10617,7 +10617,7 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
-                    "@route_218, ^$land_encounters"
+                    "@route_218, ^$land_encounters, $surf"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -10629,7 +10629,7 @@
                 "chest_unopened_img": "/images/locations/encounters/swarm.png",
                 "chest_opened_img": "/images/locations/encounters/swarm_cleared.png",
                 "access_rules": [
-                    "@route_218, ^$swarm_encounters"
+                    "@route_218, ^$swarm_encounters, $surf"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -12698,7 +12698,7 @@
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
                 "access_rules": [
-                    "@ravaged_path, ^$surf_encounters"
+                    "@ravaged_path, ^$surf_encounters, $rock_smash"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -12710,7 +12710,7 @@
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
                 "access_rules": [
-                    "@ravaged_path, ^$oldrod_encounters"
+                    "@ravaged_path, ^$oldrod_encounters, $rock_smash"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -12722,7 +12722,7 @@
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
                 "access_rules": [
-                    "@ravaged_path, ^$goodrod_encounters"
+                    "@ravaged_path, ^$goodrod_encounters, $rock_smash"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -12734,7 +12734,7 @@
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
                 "access_rules": [
-                    "@ravaged_path, ^$superrod_encounters"
+                    "@ravaged_path, ^$superrod_encounters, $rock_smash"
                 ],
                 "visibility_rules": [
                     "show_mons"

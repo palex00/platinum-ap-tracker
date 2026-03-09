@@ -78,7 +78,9 @@ function swarm_encounters()
 end
 
 function surf_encounters()
-    return surf
+    if surf then
+        return AccessibilityLevel.Normal
+    end
 end
 
 function roamer_encounters()
@@ -93,7 +95,7 @@ function roamer_encounters()
 end
 
 function feebas_fishing_encounters()
-    if has("pokesonar")  and has("poketch") and has("dowsingmachine") then
+    if has("pokesonar") and has("poketch") and has("dowsingmachine") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.SequenceBreak
@@ -109,9 +111,10 @@ function regular_honey_tree_encounters()
 end
 
 function munchlax_honey_tree_encounters()
-    if has("event_floaroma_meadow") and has ("treecamera") and has("poketch") has ("dowsingmachine") then
-        return AccessibilityLevel.Normal
-    elseif has("event_floaroma_meadow")
+    local meadow = Tracker:FindObjectForCode("@floaroma_meadow").AccessibilityLevel
+    if has ("treecamera") and has("poketch") has ("dowsingmachine") then
+        return meadow
+    elseif meadow then
         return AccessibilityLevel.SequenceBreak
 	else
 	    return AccessibilityLevel.None
