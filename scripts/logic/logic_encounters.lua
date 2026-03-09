@@ -109,7 +109,7 @@ function regular_honey_tree_encounters()
 end
 
 function munchlax_honey_tree_encounters()
-    if has("event_floaroma_meadow") and has ("treecamera") and has("poketch") then
+    if has("event_floaroma_meadow") and has ("treecamera") and has("poketch") has ("dowsingmachine") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.SequenceBreak
