@@ -1,0 +1,148 @@
+{
+    "key_encounters_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "sapphirecartridge",
+                                "rubycartridge",
+                                "emeraldcartridge",
+                                "fireredcartridge",
+                                "leafgreencartridge",
+                                "markingmap",
+                                "treecamera",
+                                "pokesonar",
+                                "poffincase",
+                            ],
+                            [
+                                "dawnstone",
+                                "duskstone",
+                                "firestone",
+                                "leafstone",
+                                "moonstone",
+                                "shinystone",
+                                "thunderstone",
+                                "sunstone",
+                                "waterstone"
+                            ],
+                            [
+                                "linkingcord",
+                                "oddkeystone",
+                                "ovalstone",
+                                "kingsrock",
+								"deepseatooth",
+                                "deepseascale",
+                                "metalcoat"
+                            ],
+                            [
+                                "dragonscale",
+                                "upgrade",
+                                "protector",
+								"electirizer",
+								"magmarizer",
+								"dubiousdisc",
+								"reapercloth"
+                            ],
+                            [
+                                "razorclaw",
+                                "razorfang",
+                                "tm93rollout",
+                                "tm94ancientpower",
+                                "tm95doublehit",
+                                "tm96mimic"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "v_key_encounters_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "sapphirecartridge",
+                                "rubycartridge",
+                                "emeraldcartridge",
+                                "fireredcartridge",
+                                "leafgreencartridge",
+                                "markingmap",
+                                "treecamera",
+                                "pokesonar",
+                                "poffincase",
+                            ],
+                            [
+                                "dawnstone",
+                                "duskstone",
+                                "firestone",
+                                "leafstone",
+                                "moonstone",
+                                "shinystone",
+                                "thunderstone",
+                                "sunstone",
+                                "waterstone"
+                            ],
+                            [
+                                "linkingcord",
+                                "oddkeystone",
+                                "ovalstone",
+                                "kingsrock",
+								"deepseatooth",
+                                "deepseascale",
+                                "metalcoat"
+                            ],
+                            [
+                                "dragonscale",
+                                "upgrade",
+                                "protector",
+								"electirizer",
+								"magmarizer",
+								"dubiousdisc",
+								"reapercloth"
+                            ],
+                            [
+                                "razorclaw",
+                                "razorfang",
+                                "tm93rollout",
+                                "tm94ancientpower",
+                                "tm95doublehit",
+                                "tm96mimic"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
