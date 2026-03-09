@@ -770,7 +770,7 @@
             {
                 "name": "Show normal and encounter locations",
                 "img": "/images/settings/tools_encounters_on.png",
-                "codes": "location_visibility,show_items, show_mons",
+                "codes": "location_visibility, show_items, show_mons",
                 "inherit_codes": false
             },
             {
