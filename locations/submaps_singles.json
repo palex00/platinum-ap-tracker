@@ -825,7 +825,7 @@
 {"name": "Route 223 South​​​​​​​​", "sections": [{"ref": "Route 223 South/Sailor Zachariah", "name": "Sailor Zachariah"}], "map_locations": [{"map": "route223north", "x": 248, "y": 760}]},
 {"name": "Route 223 North​​​​", "sections": [{"ref": "Route 223 North/Swimmer Crystal", "name": "Swimmer Crystal"}], "map_locations": [{"map": "route223north", "x": 298, "y": 966}]},
 {"name": "Route 223 North​​​​​", "sections": [{"ref": "Route 223 North/Swimmer Cassandra", "name": "Swimmer Cassandra"}], "map_locations": [{"map": "route223north", "x": 264, "y": 468}]},
-{"name": "Route 223 North​​​​​​", "sections": [{"ref": "Route 223 North/Swimmer Gabrielle", "name": "Swimmer Gabrielle"}], "map_locations": [{"map": "route223north", "x": 184, "y": 1032}]},
+{"name": "Route 223 North​​​​​​", "sections": [{"ref": "Route 223 North/Swimmer Gabrielle", "name": "Swimmer Gabrielle"}], "map_locations": [{"map": "route223north", "x": 184, "y": 548}]},
 {"name": "Route 223 North​​​​​​​", "sections": [{"ref": "Route 223 North/Swimmer Troy", "name": "Swimmer Troy"}], "map_locations": [{"map": "route223north", "x": 246, "y": 214}]},
 {"name": "Route 223 North​​​​​​​​", "sections": [{"ref": "Route 223 North/Swimmer Francisco", "name": "Swimmer Francisco"}], "map_locations": [{"map": "route223north", "x": 472, "y": 756}]},
 {"name": "Route 223 North​​​​​​​​​", "sections": [{"ref": "Route 223 North/Swimmer Wesley", "name": "Swimmer Wesley"}], "map_locations": [{"map": "route223north", "x": 86, "y": 900}]},
