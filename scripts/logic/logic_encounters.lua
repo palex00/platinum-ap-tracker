@@ -1,5 +1,5 @@
 function day_encounters()
-    if has("daytime") then
+    if has("daytime") and has("poketch") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -7,7 +7,7 @@ function day_encounters()
 end
 
 function night_encounters()
-    if has("nighttime") then
+    if has("nighttime") and has("poketch") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -23,7 +23,7 @@ function radar_encounters()
 end
 
 function firered_encounters()
-    if has("fireredcartridge") then
+    if has("fireredcartridge") and has("poketch") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -31,7 +31,7 @@ function firered_encounters()
 end
 
 function leafgreen_encounters()
-    if has("leafgreencartridge") then
+    if has("leafgreencartridge") and has("poketch") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -39,7 +39,7 @@ function leafgreen_encounters()
 end
 
 function ruby_encounters()
-    if has("rubycartridge") then
+    if has("rubycartridge") and has("poketch") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -47,7 +47,7 @@ function ruby_encounters()
 end
 
 function sapphire_encounters()
-    if has("sapphirecartridge") then
+    if has("sapphirecartridge") and has("poketch") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -55,7 +55,7 @@ function sapphire_encounters()
 end
 
 function emerald_encounters()
-    if has("emeraldcartridge") then
+    if has("emeraldcartridge") and has("poketch") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -71,7 +71,7 @@ function swarms_encounters()
 end
 
 function surf_encounters()
-    if has("hm03surf") then
+    if surf then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -79,7 +79,7 @@ function surf_encounters()
 end
 
 function roamers_encounters()
-    if has("markingmap") then
+    if has("markingmap")  and has("poketch") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -95,7 +95,7 @@ function odd_keystone_encounters()
 end
 
 function feebas_fishing_encounters()
-    if has("pokesonar") then
+    if has("pokesonar")  and has("poketch")  and has("dowsingmachine") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -103,7 +103,7 @@ function feebas_fishing_encounters()
 end
 
 function trophy_garden_encounters()
-    if has("ACCESS TO PKEMON MANSION") then
+    if has("ACCESS TO POKEMON MANSION") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -119,7 +119,7 @@ function regular_honey_tree_encounters()
 end
 
 function munchlax_honey_tree_encounters()
-    if has("treecamera") and has ("ACCESS TO HONEY") then
+    if has("treecamera") and has ("ACCESS TO HONEY")  and has("poketch") and has("dowsingmachine") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
