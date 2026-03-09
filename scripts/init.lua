@@ -38,6 +38,7 @@ Tracker:AddLocations("locations/access.json")
 Tracker:AddLocations("locations/overworldmap.json")
 Tracker:AddLocations("locations/submaps_singles.json")
 Tracker:AddLocations("locations/submaps_groups.json")
+Tracker:AddLocations("locations/submaps_encounters.json")
 Tracker:AddLocations("locations/pokedex.json")
 Tracker:AddLocations("locations/dexsanity.json")
 

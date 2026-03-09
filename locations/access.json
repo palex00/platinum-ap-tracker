@@ -1114,6 +1114,15 @@
         ]
     },
     {
+        "name": "mt_coronet_1f_north_room_1",
+        "access_rules": [
+            "@mt_coronet_1f_north_room_1_left",
+            "@mt_coronet_1f_north_room_1_middle",
+            "@mt_coronet_1f_north_room_1_right",
+            "@mt_coronet_1f_north_room_1_top"
+        ]
+    },
+    {
         "name": "mt_coronet_1f_north_room_1_bottom",
         "access_rules": [
             "@mt_coronet_1f_tunnel_room_base"
@@ -1194,6 +1203,13 @@
         "access_rules": [
             "@mt_coronet_1f_south, $surf, $rock_climb",
             "@mt_coronet_2f_left"
+        ]
+    },
+    {
+        "name": "mt_coronet_2f",
+        "access_rules": [
+            "@mt_coronet_2f_left",
+            "@mt_coronet_2f_right"
         ]
     },
     {
@@ -2394,6 +2410,14 @@
         "access_rules": [
             "@route_226_east, $surf, $rock_climb",
             "@route_226_west, $rock_climb"
+        ]
+    },
+    {
+        "name": "route_226",
+        "access_rules": [
+            "@route_226_east",
+            "@route_226_west",
+            "@route_226_mid"
         ]
     },
     {
