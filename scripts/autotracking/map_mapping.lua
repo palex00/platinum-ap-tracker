@@ -215,7 +215,7 @@ MAP_SPLIT_MAPPING = {
     [17] = {
       [17] = {"Routes", "R210", "Center"}, --"362": "route_210_south",
       [18] = {"Routes", "R210", "South"}, --"362": "route_210_south",
-      [19] = {"Routes", "R211", "South"}, --"362": "route_210_south",
+      [19] = {"Routes", "R210", "South"}, --"362": "route_210_south",
     }
   },
   [363] = {
