@@ -13,13 +13,27 @@
                     "background": "#1E1E1E",
                     "content": [
                         {
-                            "type": "group",
-                            "header": "Items",
+                            "type": "tabbed",
+                            "h_alignment": "center",
                             "dock": "left",
-                            "content": {
-                                "type": "layout",
-                                "key": "key_items_grid"
-                            }
+                            "tabs": [
+                                {
+                                    "title": "Key Items",
+                                    "h_alignment": "center",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "key_items_grid"
+                                    }
+                                },
+                                {
+                                    "title": "Pokemon Items",
+                                    "h_alignment": "center",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "key_encounters_grid"
+                                    }
+                                }
+                            ]
                         },
                         {
                             "type": "group",

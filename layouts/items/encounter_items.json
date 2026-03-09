@@ -12,9 +12,7 @@
                     {
                         "type": "itemgrid",
                         "item_margin": "2, 2",
-                        "h_alignment": "center",
-                        "item_h_alignment": "center",
-                        "item_v_alignment": "center",
+                        "h_alignment": "right",
                         "item_height": 32,
                         "item_width": 32,
                         "rows": [
@@ -28,6 +26,7 @@
                                 "treecamera",
                                 "pokesonar",
                                 "poffincase",
+                                "tm93rollout"
                             ],
                             [
                                 "dawnstone",
@@ -38,7 +37,8 @@
                                 "shinystone",
                                 "thunderstone",
                                 "sunstone",
-                                "waterstone"
+                                "waterstone",
+                                "tm94ancientpower"
                             ],
                             [
                                 "linkingcord",
@@ -47,23 +47,19 @@
                                 "kingsrock",
 								"deepseatooth",
                                 "deepseascale",
-                                "metalcoat"
-                            ],
-                            [
+                                "metalcoat",
                                 "dragonscale",
                                 "upgrade",
+                                "tm95doublehit"
+                            ],
+                            [
                                 "protector",
 								"electirizer",
 								"magmarizer",
 								"dubiousdisc",
-								"reapercloth"
-                            ],
-                            [
+								"reapercloth",
                                 "razorclaw",
                                 "razorfang",
-                                "tm93rollout",
-                                "tm94ancientpower",
-                                "tm95doublehit",
                                 "tm96mimic"
                             ]
                         ]

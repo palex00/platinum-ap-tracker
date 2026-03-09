@@ -70,7 +70,7 @@ function swarm_encounters()
     local cynthia = Tracker:FindObjectForCode("@pokemon_league_hall_of_fame").AccessibilityLevel
     if has("opt_start_with_swarms_on") and has("poffincase") and has("bag") then
         return AccessibilityLevel.Normal
-    elseif has("poffincase") and has("bag") and has ("national_dex") then
+    elseif has("poffincase") and has("bag") and has("national_dex") then
         return cynthia
     else
         return AccessibilityLevel.None
@@ -112,7 +112,7 @@ end
 
 function munchlax_honey_tree_encounters()
     local meadow = Tracker:FindObjectForCode("@floaroma_meadow").AccessibilityLevel
-    if has ("treecamera") and has("poketch") has ("dowsingmachine") then
+    if has("treecamera") and has("poketch") and has("dowsingmachine") then
         return meadow
     elseif meadow then
         return AccessibilityLevel.SequenceBreak

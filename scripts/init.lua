@@ -3,6 +3,7 @@ local variant = Tracker.ActiveVariantUID
 -- Items
 Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/encounter_items.json")
 Tracker:AddItems("items/settings.json")
 Tracker:AddItems("items/trainers.json")
 Tracker:AddItems("items/pokemon.json")
@@ -25,6 +26,7 @@ Tracker:AddMaps("maps/pokedex.json")
 -- Layout
 Tracker:AddLayouts("layouts/settings_popup.json")
 Tracker:AddLayouts("layouts/items/items_hmreader_marshpass_storagekey_unownfile.json")
+Tracker:AddLayouts("layouts/items/encounter_items.json")
 Tracker:AddLayouts("layouts/events.json")
 Tracker:AddLayouts("layouts/submaps.json")
 Tracker:AddLayouts("layouts/pokedex.json")
