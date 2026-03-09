@@ -12,7 +12,7 @@ Tracker:AddItems("items/dexsanity_sent.json")
 -- Logic
 ScriptHost:LoadScript("scripts/logic/utils.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
-ScriptHost:LoadScript("scripts/logic/pokemon_logic.lua")
+ScriptHost:LoadScript("scripts/logic/logic_encounters.lua")
 ScriptHost:LoadScript("scripts/custom_items.lua")
 
 -- Maps
