@@ -1,7 +1,6 @@
-function day_encounters()
+function land_encounters()
     return AccessibilityLevel.Normal
 end
-
 
 function day_encounters()
     if has("daytime") and has("poketch") then
@@ -20,7 +19,7 @@ function night_encounters()
 end
 
 function radar_encounters()
-    if has("radar") then
+    if has("radar") and has("bag") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -67,9 +66,12 @@ function emerald_encounters()
     end
 end
 
-function swarms_encounters()
-    if has("ACCESS TO SWARMS") then
+function swarm_encounters()
+    local cynthia = Tracker:FindObjectForCode("@pokemon_league_hall_of_fame").AccessibilityLevel
+    if has("opt_start_with_swarms_on") and has("poffincase") and has("bag") then
         return AccessibilityLevel.Normal
+    elseif has("poffincase") and has("bag") and has ("national_dex") then
+        return cynthia
     else
         return AccessibilityLevel.None
     end
@@ -79,40 +81,27 @@ function surf_encounters()
     return surf
 end
 
-function roamers_encounters()
-    if has("markingmap")  and has("poketch") then
+function roamer_encounters()
+    local cynthia = Tracker:FindObjectForCode("@pokemon_league_hall_of_fame").AccessibilityLevel
+    if has("opt_can_reset_legendaries_in_ap_helper_on") and has("poketch") and has("markingmap") then
         return AccessibilityLevel.Normal
+    elseif has("poketch") and has("markingmap") then
+        return cynthia
     else
-        return AccessibilityLevel.None
-    end
-end
-
-function odd_keystone_encounters()
-    if has("oddkeystone") then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
+        return AccessibilityLevel.SequenceBreak
     end
 end
 
 function feebas_fishing_encounters()
-    if has("pokesonar")  and has("poketch")  and has("dowsingmachine") then
+    if has("pokesonar")  and has("poketch") and has("dowsingmachine") then
         return AccessibilityLevel.Normal
     else
-        return AccessibilityLevel.None
-    end
-end
-
-function trophy_garden_encounters()
-    if has("ACCESS TO POKEMON MANSION") then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
+        return AccessibilityLevel.SequenceBreak
     end
 end
 
 function regular_honey_tree_encounters()
-    if has("ACCESS TO HONEY") then
+    if has("event_floaroma_meadow") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -120,23 +109,19 @@ function regular_honey_tree_encounters()
 end
 
 function munchlax_honey_tree_encounters()
-    if has("treecamera") and has ("ACCESS TO HONEY")  and has("poketch") and has("dowsingmachine") then
+    if has("event_floaroma_meadow") and has ("treecamera") and has("poketch") then
         return AccessibilityLevel.Normal
     else
-        return AccessibilityLevel.None
+        return AccessibilityLevel.SequenceBreak
     end
 end
 
 function great_marsh_observatory_encounters()
-    if has("ACCESS TO GREAT MARSH") then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+    return AccessibilityLevel.Normal
 end
 
 function great_marsh_observatory_national_dex_encounters()
-    if has("ACCESS TO GREAT MARSH") and has("national_dex") then
+    if has("national_dex") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -144,7 +129,7 @@ function great_marsh_observatory_national_dex_encounters()
 end
 
 function oldrod_encounters()
-    if has("oldrod") then
+    if has("oldrod") and has("bag") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -152,7 +137,7 @@ function oldrod_encounters()
 end
 
 function goodrod_encounters()
-    if has("goodrod") then
+    if has("goodrod") and has("bag") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -160,7 +145,7 @@ function goodrod_encounters()
 end
 
 function superrod_encounters()
-    if has("superrod") then
+    if has("superrod") and has("bag") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
