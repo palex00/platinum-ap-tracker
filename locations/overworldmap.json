@@ -286,7 +286,7 @@
                 "item_count": 1
             },
             {
-                "name": "Area 1 -  Land Encounters",
+                "name": "Area 1 - Land Encounters",
                 "item_count": 6,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -298,7 +298,7 @@
                 ]
             },
             {
-                "name": "Area 1 -  Night Encounters",
+                "name": "Area 1 - Night Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -310,7 +310,7 @@
                 ]
             },
             {
-                "name": "Area 1 -  FireRed Encounters",
+                "name": "Area 1 - FireRed Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/firered.png",
                 "chest_opened_img": "/images/locations/encounters/firered_cleared.png",
@@ -322,7 +322,7 @@
                 ]
             },
             {
-                "name": "Area 1 -  Surf Encounters",
+                "name": "Area 1 - Surf Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
@@ -334,7 +334,7 @@
                 ]
             },
             {
-                "name": "Area 1 -  Old Rod Encounters",
+                "name": "Area 1 - Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
@@ -346,7 +346,7 @@
                 ]
             },
             {
-                "name": "Area 1 -  Good Rod Encounters",
+                "name": "Area 1 - Good Rod Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
@@ -358,7 +358,7 @@
                 ]
             },
             {
-                "name": "Area 1 -  Super Rod Encounters",
+                "name": "Area 1 - Super Rod Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
@@ -370,7 +370,7 @@
                 ]
             },
             {
-                "name": "Area 2 -  Land Encounters",
+                "name": "Area 2 - Land Encounters",
                 "item_count": 6,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -382,7 +382,7 @@
                 ]
             },
             {
-                "name": "Area 2 -  Night Encounters",
+                "name": "Area 2 - Night Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -394,7 +394,7 @@
                 ]
             },
             {
-                "name": "Area 2 -  FireRed Encounters",
+                "name": "Area 2 - FireRed Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/firered.png",
                 "chest_opened_img": "/images/locations/encounters/firered_cleared.png",
@@ -406,7 +406,7 @@
                 ]
             },
             {
-                "name": "Area 2 -  Surf Encounters",
+                "name": "Area 2 - Surf Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
@@ -418,7 +418,7 @@
                 ]
             },
             {
-                "name": "Area 2 -  Old Rod Encounters",
+                "name": "Area 2 - Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
@@ -430,7 +430,7 @@
                 ]
             },
             {
-                "name": "Area 2 -  Good Rod Encounters",
+                "name": "Area 2 - Good Rod Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
@@ -442,7 +442,7 @@
                 ]
             },
             {
-                "name": "Area 2 -  Super Rod Encounters",
+                "name": "Area 2 - Super Rod Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
@@ -454,7 +454,7 @@
                 ]
             },
             {
-                "name": "Area 3 -  Land Encounters",
+                "name": "Area 3 - Land Encounters",
                 "item_count": 5,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -466,7 +466,7 @@
                 ]
             },
             {
-                "name": "Area 3 -  Night Encounters",
+                "name": "Area 3 - Night Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -478,7 +478,7 @@
                 ]
             },
             {
-                "name": "Area 3 -  FireRed Encounters",
+                "name": "Area 3 - FireRed Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/firered.png",
                 "chest_opened_img": "/images/locations/encounters/firered_cleared.png",
@@ -490,7 +490,7 @@
                 ]
             },
             {
-                "name": "Area 3 -  Surf Encounters",
+                "name": "Area 3 - Surf Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
@@ -502,7 +502,7 @@
                 ]
             },
             {
-                "name": "Area 3 -  Old Rod Encounters",
+                "name": "Area 3 - Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
@@ -514,7 +514,7 @@
                 ]
             },
             {
-                "name": "Area 3 -  Good Rod Encounters",
+                "name": "Area 3 - Good Rod Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
@@ -526,7 +526,7 @@
                 ]
             },
             {
-                "name": "Area 3 -  Super Rod Encounters",
+                "name": "Area 3 - Super Rod Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
@@ -538,7 +538,7 @@
                 ]
             },
             {
-                "name": "Area 4 -  Land Encounters",
+                "name": "Area 4 - Land Encounters",
                 "item_count": 5,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -550,7 +550,7 @@
                 ]
             },
             {
-                "name": "Area 4 -  Night Encounters",
+                "name": "Area 4 - Night Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -562,7 +562,7 @@
                 ]
             },
             {
-                "name": "Area 4 -  FireRed Encounters",
+                "name": "Area 4 - FireRed Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/firered.png",
                 "chest_opened_img": "/images/locations/encounters/firered_cleared.png",
@@ -574,7 +574,7 @@
                 ]
             },
             {
-                "name": "Area 4 -  Surf Encounters",
+                "name": "Area 4 - Surf Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
@@ -586,7 +586,7 @@
                 ]
             },
             {
-                "name": "Area 4 -  Old Rod Encounters",
+                "name": "Area 4 - Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
@@ -598,7 +598,7 @@
                 ]
             },
             {
-                "name": "Area 4 -  Good Rod Encounters",
+                "name": "Area 4 - Good Rod Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
@@ -610,7 +610,7 @@
                 ]
             },
             {
-                "name": "Area 4 -  Super Rod Encounters",
+                "name": "Area 4 - Super Rod Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
@@ -622,7 +622,7 @@
                 ]
             },
             {
-                "name": "Area 5 -  Land Encounters",
+                "name": "Area 5 - Land Encounters",
                 "item_count": 5,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -634,7 +634,7 @@
                 ]
             },
             {
-                "name": "Area 5 -  Night Encounters",
+                "name": "Area 5 - Night Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -646,7 +646,7 @@
                 ]
             },
             {
-                "name": "Area 5 -  FireRed Encounters",
+                "name": "Area 5 - FireRed Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/firered.png",
                 "chest_opened_img": "/images/locations/encounters/firered_cleared.png",
@@ -658,7 +658,7 @@
                 ]
             },
             {
-                "name": "Area 5 -  Surf Encounters",
+                "name": "Area 5 - Surf Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
@@ -670,7 +670,7 @@
                 ]
             },
             {
-                "name": "Area 5 -  Old Rod Encounters",
+                "name": "Area 5 - Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
@@ -682,7 +682,7 @@
                 ]
             },
             {
-                "name": "Area 5 -  Good Rod Encounters",
+                "name": "Area 5 - Good Rod Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
@@ -694,7 +694,7 @@
                 ]
             },
             {
-                "name": "Area 5 -  Super Rod Encounters",
+                "name": "Area 5 - Super Rod Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
@@ -706,7 +706,7 @@
                 ]
             },
             {
-                "name": "Area 6 -  Land Encounters",
+                "name": "Area 6 - Land Encounters",
                 "item_count": 5,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -718,7 +718,7 @@
                 ]
             },
             {
-                "name": "Area 6 -  Night Encounters",
+                "name": "Area 6 - Night Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -730,7 +730,7 @@
                 ]
             },
             {
-                "name": "Area 6 -  FireRed Encounters",
+                "name": "Area 6 - FireRed Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/firered.png",
                 "chest_opened_img": "/images/locations/encounters/firered_cleared.png",
@@ -742,7 +742,7 @@
                 ]
             },
             {
-                "name": "Area 6 -  Surf Encounters",
+                "name": "Area 6 - Surf Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
@@ -754,7 +754,7 @@
                 ]
             },
             {
-                "name": "Area 6 -  Old Rod Encounters",
+                "name": "Area 6 - Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
@@ -766,7 +766,7 @@
                 ]
             },
             {
-                "name": "Area 6 -  Good Rod Encounters",
+                "name": "Area 6 - Good Rod Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
@@ -778,7 +778,7 @@
                 ]
             },
             {
-                "name": "Area 6 -  Super Rod Encounters",
+                "name": "Area 6 - Super Rod Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
@@ -1762,7 +1762,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F -  Land Encounters",
+                "name": "1F - Land Encounters",
                 "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -1774,7 +1774,7 @@
                 ]
             },
             {
-                "name": "2F -  Land Encounters",
+                "name": "2F - Land Encounters",
                 "item_count": 6,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -1786,7 +1786,7 @@
                 ]
             },
             {
-                "name": "B1F -  Land Encounters",
+                "name": "B1F - Land Encounters",
                 "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -1798,7 +1798,7 @@
                 ]
             },
             {
-                "name": "B1F -  Surf Encounters",
+                "name": "B1F - Surf Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
@@ -1810,7 +1810,7 @@
                 ]
             },
             {
-                "name": "B1F -  Old Rod Encounters",
+                "name": "B1F - Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
@@ -1822,7 +1822,7 @@
                 ]
             },
             {
-                "name": "B1F -  Good Rod Encounters",
+                "name": "B1F - Good Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
@@ -1834,7 +1834,7 @@
                 ]
             },
             {
-                "name": "B1F -  Super Rod Encounters",
+                "name": "B1F - Super Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
@@ -1846,7 +1846,7 @@
                 ]
             },
             {
-                "name": "Side Cave B1F -   Land Encounters",
+                "name": "Side Cave B1F -  Land Encounters",
                 "item_count": 6,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -1858,7 +1858,7 @@
                 ]
             },
             {
-                "name": "Side Cave B1F -   Surf Encounters",
+                "name": "Side Cave B1F -  Surf Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
@@ -1870,7 +1870,7 @@
                 ]
             },
             {
-                "name": "Side Cave B1F -   Old Rod Encounters",
+                "name": "Side Cave B1F -  Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
@@ -1882,7 +1882,7 @@
                 ]
             },
             {
-                "name": "Side Cave B1F -   Good Rod Encounters",
+                "name": "Side Cave B1F -  Good Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
@@ -1894,7 +1894,7 @@
                 ]
             },
             {
-                "name": "Side Cave B1F -   Super Rod Encounters",
+                "name": "Side Cave B1F -  Super Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
@@ -1906,7 +1906,7 @@
                 ]
             },
             {
-                "name": "Side Cave Entrance -  Land Encounters",
+                "name": "Side Cave Entrance - Land Encounters",
                 "item_count": 6,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -1918,7 +1918,7 @@
                 ]
             },
             {
-                "name": "Side Cave Exit -  Land Encounters",
+                "name": "Side Cave Exit - Land Encounters",
                 "item_count": 6,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -5213,7 +5213,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F -  Land Encounters",
+                "name": "1F - Land Encounters",
                 "item_count": 5,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -5225,7 +5225,7 @@
                 ]
             },
             {
-                "name": "B1F Left -  Land Encounters",
+                "name": "B1F Left - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -5237,7 +5237,7 @@
                 ]
             },
             {
-                "name": "B1F Left -  Ruby Encounters",
+                "name": "B1F Left - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -5249,7 +5249,7 @@
                 ]
             },
             {
-                "name": "B1F Left -  Sapphire Encounters",
+                "name": "B1F Left - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -5261,7 +5261,7 @@
                 ]
             },
             {
-                "name": "B1F Right -  Land Encounters",
+                "name": "B1F Right - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -5273,7 +5273,7 @@
                 ]
             },
             {
-                "name": "B1F Right -  Ruby Encounters",
+                "name": "B1F Right - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -5285,7 +5285,7 @@
                 ]
             },
             {
-                "name": "B1F Right -  Sapphire Encounters",
+                "name": "B1F Right - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -5297,7 +5297,7 @@
                 ]
             },
             {
-                "name": "B2F Left -  Land Encounters",
+                "name": "B2F Left - Land Encounters",
                 "item_count": 4,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -5309,7 +5309,7 @@
                 ]
             },
             {
-                "name": "B2F Left -  Ruby Encounters",
+                "name": "B2F Left - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -5321,7 +5321,7 @@
                 ]
             },
             {
-                "name": "B2F Left -  Sapphire Encounters",
+                "name": "B2F Left - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -5333,7 +5333,7 @@
                 ]
             },
             {
-                "name": "B2F Right -  Land Encounters",
+                "name": "B2F Right - Land Encounters",
                 "item_count": 4,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -5345,7 +5345,7 @@
                 ]
             },
             {
-                "name": "B2F Right -  Ruby Encounters",
+                "name": "B2F Right - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -5357,7 +5357,7 @@
                 ]
             },
             {
-                "name": "B2F Right -  Sapphire Encounters",
+                "name": "B2F Right - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -5369,7 +5369,7 @@
                 ]
             },
             {
-                "name": "B3F -  Land Encounters",
+                "name": "B3F - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -5381,7 +5381,7 @@
                 ]
             },
             {
-                "name": "B3F -  Swarm Encounters",
+                "name": "B3F - Swarm Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/swarm.png",
                 "chest_opened_img": "/images/locations/encounters/swarm_cleared.png",
@@ -5393,7 +5393,7 @@
                 ]
             },
             {
-                "name": "B3F -  Ruby Encounters",
+                "name": "B3F - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -5405,7 +5405,7 @@
                 ]
             },
             {
-                "name": "B3F -  Sapphire Encounters",
+                "name": "B3F - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -5417,7 +5417,7 @@
                 ]
             },
             {
-                "name": "Outside -  Surf Encounters",
+                "name": "Outside - Surf Encounters",
                 "item_count": 4,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
@@ -5429,7 +5429,7 @@
                 ]
             },
             {
-                "name": "Outside -  Old Rod Encounters",
+                "name": "Outside - Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
@@ -5441,7 +5441,7 @@
                 ]
             },
             {
-                "name": "Outside -  Good Rod Encounters",
+                "name": "Outside - Good Rod Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
@@ -5453,7 +5453,7 @@
                 ]
             },
             {
-                "name": "Outside -  Super Rod Encounters",
+                "name": "Outside - Super Rod Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
@@ -6786,7 +6786,7 @@
                 "item_count": 1
             },
             {
-                "name": "Cavern -  Land Encounters",
+                "name": "Cavern - Land Encounters",
                 "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -6798,7 +6798,7 @@
                 ]
             },
             {
-                "name": "Entrance -  Land Encounters",
+                "name": "Entrance - Land Encounters",
                 "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -6810,7 +6810,7 @@
                 ]
             },
             {
-                "name": "Outside -  Land Encounters",
+                "name": "Outside - Land Encounters",
                 "item_count": 8,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -6822,7 +6822,7 @@
                 ]
             },
             {
-                "name": "Outside -  Radar Encounters",
+                "name": "Outside - Radar Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/radar.png",
                 "chest_opened_img": "/images/locations/encounters/radar_cleared.png",
@@ -6834,7 +6834,7 @@
                 ]
             },
             {
-                "name": "Outside -  Night Encounters",
+                "name": "Outside - Night Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -10006,7 +10006,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F -  Land Encounters",
+                "name": "1F - Land Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -10018,7 +10018,7 @@
                 ]
             },
             {
-                "name": "1F -  Night Encounters",
+                "name": "1F - Night Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -10030,7 +10030,7 @@
                 ]
             },
             {
-                "name": "2F -  Land Encounters",
+                "name": "2F - Land Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -10042,7 +10042,7 @@
                 ]
             },
             {
-                "name": "2F -  Night Encounters",
+                "name": "2F - Night Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -10054,7 +10054,7 @@
                 ]
             },
             {
-                "name": "3F -  Land Encounters",
+                "name": "3F - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -10066,7 +10066,7 @@
                 ]
             },
             {
-                "name": "3F -  Night Encounters",
+                "name": "3F - Night Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -10078,7 +10078,7 @@
                 ]
             },
             {
-                "name": "4F -  Land Encounters",
+                "name": "4F - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -10090,7 +10090,7 @@
                 ]
             },
             {
-                "name": "4F -  Night Encounters",
+                "name": "4F - Night Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -10102,7 +10102,7 @@
                 ]
             },
             {
-                "name": "5F -  Land Encounters",
+                "name": "5F - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -10114,7 +10114,7 @@
                 ]
             },
             {
-                "name": "5F -  Night Encounters",
+                "name": "5F - Night Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -10271,7 +10271,7 @@
                 "item_count": 1
             },
             {
-                "name": "North -  Land Encounters",
+                "name": "North - Land Encounters",
                 "item_count": 6,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -10283,7 +10283,7 @@
                 ]
             },
             {
-                "name": "North -  Radar Encounters",
+                "name": "North - Radar Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/radar.png",
                 "chest_opened_img": "/images/locations/encounters/radar_cleared.png",
@@ -10295,7 +10295,7 @@
                 ]
             },
             {
-                "name": "North -  Night Encounters",
+                "name": "North - Night Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -10307,7 +10307,7 @@
                 ]
             },
             {
-                "name": "North -  Ruby Encounters",
+                "name": "North - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -10319,7 +10319,7 @@
                 ]
             },
             {
-                "name": "North -  Sapphire Encounters",
+                "name": "North - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -10331,7 +10331,7 @@
                 ]
             },
             {
-                "name": "North -  Emerald Encounters",
+                "name": "North - Emerald Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/emerald.png",
                 "chest_opened_img": "/images/locations/encounters/emerald_cleared.png",
@@ -10343,7 +10343,7 @@
                 ]
             },
             {
-                "name": "North -  FireRed Encounters",
+                "name": "North - FireRed Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/firered.png",
                 "chest_opened_img": "/images/locations/encounters/firered_cleared.png",
@@ -10355,7 +10355,7 @@
                 ]
             },
             {
-                "name": "North -  LeafGreen Encounters",
+                "name": "North - LeafGreen Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/leafgreen.png",
                 "chest_opened_img": "/images/locations/encounters/leafgreen_cleared.png",
@@ -10367,7 +10367,7 @@
                 ]
             },
             {
-                "name": "South -  Land Encounters",
+                "name": "South - Land Encounters",
                 "item_count": 6,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -10379,7 +10379,7 @@
                 ]
             },
             {
-                "name": "South -  Night Encounters",
+                "name": "South - Night Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -10391,7 +10391,7 @@
                 ]
             },
             {
-                "name": "South -  Ruby Encounters",
+                "name": "South - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -10403,7 +10403,7 @@
                 ]
             },
             {
-                "name": "South -  Sapphire Encounters",
+                "name": "South - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -10415,7 +10415,7 @@
                 ]
             },
             {
-                "name": "South -  Emerald Encounters",
+                "name": "South - Emerald Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/emerald.png",
                 "chest_opened_img": "/images/locations/encounters/emerald_cleared.png",
@@ -10427,7 +10427,7 @@
                 ]
             },
             {
-                "name": "South -  FireRed Encounters",
+                "name": "South - FireRed Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/firered.png",
                 "chest_opened_img": "/images/locations/encounters/firered_cleared.png",
@@ -10439,7 +10439,7 @@
                 ]
             },
             {
-                "name": "South -  LeafGreen Encounters",
+                "name": "South - LeafGreen Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/leafgreen.png",
                 "chest_opened_img": "/images/locations/encounters/leafgreen_cleared.png",
@@ -10451,7 +10451,7 @@
                 ]
             },
             {
-                "name": "South -  Surf Encounters",
+                "name": "South - Surf Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
@@ -10463,7 +10463,7 @@
                 ]
             },
             {
-                "name": "South -  Old Rod Encounters",
+                "name": "South - Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
@@ -10475,7 +10475,7 @@
                 ]
             },
             {
-                "name": "South -  Good Rod Encounters",
+                "name": "South - Good Rod Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
@@ -10487,7 +10487,7 @@
                 ]
             },
             {
-                "name": "South -  Super Rod Encounters",
+                "name": "South - Super Rod Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
@@ -11090,7 +11090,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F Northwest -  Land Encounters",
+                "name": "1F Northwest - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11102,7 +11102,7 @@
                 ]
             },
             {
-                "name": "1F Southeast -  Land Encounters",
+                "name": "1F Southeast - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11114,7 +11114,7 @@
                 ]
             },
             {
-                "name": "2F -  Land Encounters",
+                "name": "2F - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11126,7 +11126,7 @@
                 ]
             },
             {
-                "name": "B1F -  Land Encounters",
+                "name": "B1F - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11138,7 +11138,7 @@
                 ]
             },
             {
-                "name": "B1F Northeast -  Land Encounters",
+                "name": "B1F Northeast - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11150,7 +11150,7 @@
                 ]
             },
             {
-                "name": "B1F Southeast -  Land Encounters",
+                "name": "B1F Southeast - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11162,7 +11162,7 @@
                 ]
             },
             {
-                "name": "B2F -  Land Encounters",
+                "name": "B2F - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11174,7 +11174,7 @@
                 ]
             },
             {
-                "name": "B2F Northwest -  Land Encounters",
+                "name": "B2F Northwest - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11186,7 +11186,7 @@
                 ]
             },
             {
-                "name": "B2F Southwest -  Land Encounters",
+                "name": "B2F Southwest - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11198,7 +11198,7 @@
                 ]
             },
             {
-                "name": "B3F Left -  Land Encounters",
+                "name": "B3F Left - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11210,7 +11210,7 @@
                 ]
             },
             {
-                "name": "B3F Left Northwest -  Land Encounters",
+                "name": "B3F Left Northwest - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11234,7 +11234,7 @@
                 ]
             },
             {
-                "name": "B3F Right -  Land Encounters",
+                "name": "B3F Right - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11246,7 +11246,7 @@
                 ]
             },
             {
-                "name": "B3F Right Southeast -  Land Encounters",
+                "name": "B3F Right Southeast - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11258,7 +11258,7 @@
                 ]
             },
             {
-                "name": "B4F -  Land Encounters",
+                "name": "B4F - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11270,7 +11270,7 @@
                 ]
             },
             {
-                "name": "B4F Final Room -  Land Encounters",
+                "name": "B4F Final Room - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11282,7 +11282,7 @@
                 ]
             },
             {
-                "name": "B4F Southeast -  Land Encounters",
+                "name": "B4F Southeast - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11294,7 +11294,7 @@
                 ]
             },
             {
-                "name": "B4F Southwest -  Land Encounters",
+                "name": "B4F Southwest - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -13984,7 +13984,7 @@
                 "item_count": 1
             },
             {
-                "name": "Outside -  Land Encounters",
+                "name": "Outside - Land Encounters",
                 "item_count": 4,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -13996,7 +13996,7 @@
                 ]
             },
             {
-                "name": "Outside -  Radar Encounters",
+                "name": "Outside - Radar Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/radar.png",
                 "chest_opened_img": "/images/locations/encounters/radar_cleared.png",
@@ -14008,7 +14008,7 @@
                 ]
             },
             {
-                "name": "Outside -  Surf Encounters",
+                "name": "Outside - Surf Encounters",
                 "item_count": 4,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
@@ -14020,7 +14020,7 @@
                 ]
             },
             {
-                "name": "Outside -  Old Rod Encounters",
+                "name": "Outside - Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
@@ -14032,7 +14032,7 @@
                 ]
             },
             {
-                "name": "Outside -  Good Rod Encounters",
+                "name": "Outside - Good Rod Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
@@ -14044,7 +14044,7 @@
                 ]
             },
             {
-                "name": "Outside -  Super Rod Encounters",
+                "name": "Outside - Super Rod Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
@@ -14157,7 +14157,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F Dining Room -  Land Encounters",
+                "name": "1F Dining Room - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -14169,7 +14169,7 @@
                 ]
             },
             {
-                "name": "2F Corridor -  Land Encounters",
+                "name": "2F Corridor - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -14181,7 +14181,7 @@
                 ]
             },
             {
-                "name": "2F East Room -  Land Encounters",
+                "name": "2F East Room - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -14193,7 +14193,7 @@
                 ]
             },
             {
-                "name": "2F Middle East Room -  Land Encounters",
+                "name": "2F Middle East Room - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -14205,7 +14205,7 @@
                 ]
             },
             {
-                "name": "2F Middle East Room -  Ruby Encounters",
+                "name": "2F Middle East Room - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -14217,7 +14217,7 @@
                 ]
             },
             {
-                "name": "2F Middle East Room -  Sapphire Encounters",
+                "name": "2F Middle East Room - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -14229,7 +14229,7 @@
                 ]
             },
             {
-                "name": "2F Middle East Room -  Emerald Encounters",
+                "name": "2F Middle East Room - Emerald Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/emerald.png",
                 "chest_opened_img": "/images/locations/encounters/emerald_cleared.png",
@@ -14241,7 +14241,7 @@
                 ]
             },
             {
-                "name": "2F Middle East Room -  FireRed Encounters",
+                "name": "2F Middle East Room - FireRed Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/firered.png",
                 "chest_opened_img": "/images/locations/encounters/firered_cleared.png",
@@ -14253,7 +14253,7 @@
                 ]
             },
             {
-                "name": "2F Middle East Room -  LeafGreen Encounters",
+                "name": "2F Middle East Room - LeafGreen Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/leafgreen.png",
                 "chest_opened_img": "/images/locations/encounters/leafgreen_cleared.png",
@@ -14265,7 +14265,7 @@
                 ]
             },
             {
-                "name": "2F Middle Room -  Land Encounters",
+                "name": "2F Middle Room - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -14277,7 +14277,7 @@
                 ]
             },
             {
-                "name": "2F Middle West Room -  Land Encounters",
+                "name": "2F Middle West Room - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -14289,7 +14289,7 @@
                 ]
             },
             {
-                "name": "2F West Room -  Land Encounters",
+                "name": "2F West Room - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -14301,7 +14301,7 @@
                 ]
             },
             {
-                "name": "Entrance -  Land Encounters",
+                "name": "Entrance - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -14313,7 +14313,7 @@
                 ]
             },
             {
-                "name": "Entrance Side Rooms -  Land Encounters",
+                "name": "Entrance Side Rooms - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -16380,7 +16380,7 @@
                 "item_count": 1
             },
             {
-                "name": "Trophy Garden -  Land Encounters",
+                "name": "Trophy Garden - Land Encounters",
                 "item_count": 5,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -17755,7 +17755,7 @@
                 "hosted_item": "event_clear_lakeacuity"
             },
             {
-                "name": "Lakefront -  Land Encounters",
+                "name": "Lakefront - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -17767,7 +17767,7 @@
                 ]
             },
             {
-                "name": "Lakefront -  Night Encounters",
+                "name": "Lakefront - Night Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -17779,7 +17779,7 @@
                 ]
             },
             {
-                "name": "Lakefront -  Emerald Encounters",
+                "name": "Lakefront - Emerald Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/emerald.png",
                 "chest_opened_img": "/images/locations/encounters/emerald_cleared.png",
@@ -18128,7 +18128,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F -  Land Encounters",
+                "name": "1F - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -18140,7 +18140,7 @@
                 ]
             },
             {
-                "name": "B1F -  Land Encounters",
+                "name": "B1F - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -18152,7 +18152,7 @@
                 ]
             },
             {
-                "name": "B2F -  Land Encounters",
+                "name": "B2F - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -18164,7 +18164,7 @@
                 ]
             },
             {
-                "name": "B3F -  Land Encounters",
+                "name": "B3F - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -18176,7 +18176,7 @@
                 ]
             },
             {
-                "name": "B4F -  Land Encounters",
+                "name": "B4F - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -18188,7 +18188,7 @@
                 ]
             },
             {
-                "name": "B5F -  Land Encounters",
+                "name": "B5F - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -18732,7 +18732,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F -  Land Encounters",
+                "name": "1F - Land Encounters",
                 "item_count": 4,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -18744,7 +18744,7 @@
                 ]
             },
             {
-                "name": "1F -  LeafGreen Encounters",
+                "name": "1F - LeafGreen Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/leafgreen.png",
                 "chest_opened_img": "/images/locations/encounters/leafgreen_cleared.png",
@@ -18756,7 +18756,7 @@
                 ]
             },
             {
-                "name": "B1F -  Land Encounters",
+                "name": "B1F - Land Encounters",
                 "item_count": 5,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -18768,7 +18768,7 @@
                 ]
             },
             {
-                "name": "B1F -  LeafGreen Encounters",
+                "name": "B1F - LeafGreen Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/leafgreen.png",
                 "chest_opened_img": "/images/locations/encounters/leafgreen_cleared.png",
@@ -19149,7 +19149,7 @@
                 "item_count": 1
             },
             {
-                "name": "B1F -  Land Encounters",
+                "name": "B1F - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -19161,7 +19161,7 @@
                 ]
             },
             {
-                "name": "B2F -  Land Encounters",
+                "name": "B2F - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -19306,7 +19306,7 @@
                 "item_count": 1
             },
             {
-                "name": "1F -  Land Encounters",
+                "name": "1F - Land Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -19318,7 +19318,7 @@
                 ]
             },
             {
-                "name": "B1F -  Land Encounters",
+                "name": "B1F - Land Encounters",
                 "item_count": 4,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -19330,7 +19330,7 @@
                 ]
             },
             {
-                "name": "B1F -  Surf Encounters",
+                "name": "B1F - Surf Encounters",
                 "item_count": 4,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
@@ -19342,7 +19342,7 @@
                 ]
             },
             {
-                "name": "B1F -  Old Rod Encounters",
+                "name": "B1F - Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
@@ -19354,7 +19354,7 @@
                 ]
             },
             {
-                "name": "B1F -  Good Rod Encounters",
+                "name": "B1F - Good Rod Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
@@ -19366,7 +19366,7 @@
                 ]
             },
             {
-                "name": "B1F -  Super Rod Encounters",
+                "name": "B1F - Super Rod Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
@@ -20542,7 +20542,7 @@
                 "hosted_item": "event_clear_distortion"
             },
             {
-                "name": "4F Bottom -  Land Encounters",
+                "name": "4F Bottom - Land Encounters",
                 "item_count": 8,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -20554,7 +20554,7 @@
                 ]
             },
             {
-                "name": "4F Bottom -  Ruby Encounters",
+                "name": "4F Bottom - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -20566,7 +20566,7 @@
                 ]
             },
             {
-                "name": "4F Bottom -  Sapphire Encounters",
+                "name": "4F Bottom - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -20578,7 +20578,7 @@
                 ]
             },
             {
-                "name": "4F Bottom -  Surf Encounters",
+                "name": "4F Bottom - Surf Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
@@ -20590,7 +20590,7 @@
                 ]
             },
             {
-                "name": "4F Bottom -  Old Rod Encounters",
+                "name": "4F Bottom - Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
@@ -20602,7 +20602,7 @@
                 ]
             },
             {
-                "name": "4F Bottom -  Good Rod Encounters",
+                "name": "4F Bottom - Good Rod Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
@@ -20614,7 +20614,7 @@
                 ]
             },
             {
-                "name": "4F Bottom -  Super Rod Encounters",
+                "name": "4F Bottom - Super Rod Encounters",
                 "item_count": 4,
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
@@ -20626,7 +20626,7 @@
                 ]
             },
             {
-                "name": "4F Top -  Land Encounters",
+                "name": "4F Top - Land Encounters",
                 "item_count": 9,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -20638,7 +20638,7 @@
                 ]
             },
             {
-                "name": "4F Top -  Ruby Encounters",
+                "name": "4F Top - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -20650,7 +20650,7 @@
                 ]
             },
             {
-                "name": "4F Top -  Sapphire Encounters",
+                "name": "4F Top - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -20662,7 +20662,7 @@
                 ]
             },
             {
-                "name": "5F -  Land Encounters",
+                "name": "5F - Land Encounters",
                 "item_count": 9,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -20674,7 +20674,7 @@
                 ]
             },
             {
-                "name": "5F -  Ruby Encounters",
+                "name": "5F - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -20686,7 +20686,7 @@
                 ]
             },
             {
-                "name": "5F -  Sapphire Encounters",
+                "name": "5F - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -20698,7 +20698,7 @@
                 ]
             },
             {
-                "name": "6F -  Land Encounters",
+                "name": "6F - Land Encounters",
                 "item_count": 8,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -20710,7 +20710,7 @@
                 ]
             },
             {
-                "name": "6F -  Ruby Encounters",
+                "name": "6F - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -20722,7 +20722,7 @@
                 ]
             },
             {
-                "name": "6F -  Sapphire Encounters",
+                "name": "6F - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -21186,7 +21186,7 @@
                 "item_count": 1
             },
             {
-                "name": "North -  Land Encounters",
+                "name": "North - Land Encounters",
                 "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -21198,7 +21198,7 @@
                 ]
             },
             {
-                "name": "North -  Radar Encounters",
+                "name": "North - Radar Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/radar.png",
                 "chest_opened_img": "/images/locations/encounters/radar_cleared.png",
@@ -21210,7 +21210,7 @@
                 ]
             },
             {
-                "name": "North -  Night Encounters",
+                "name": "North - Night Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -21222,7 +21222,7 @@
                 ]
             },
             {
-                "name": "North -  Ruby Encounters",
+                "name": "North - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -21234,7 +21234,7 @@
                 ]
             },
             {
-                "name": "North -  Sapphire Encounters",
+                "name": "North - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -21246,7 +21246,7 @@
                 ]
             },
             {
-                "name": "South -  Land Encounters",
+                "name": "South - Land Encounters",
                 "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -21258,7 +21258,7 @@
                 ]
             },
             {
-                "name": "South -  Radar Encounters",
+                "name": "South - Radar Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/radar.png",
                 "chest_opened_img": "/images/locations/encounters/radar_cleared.png",
@@ -21270,7 +21270,7 @@
                 ]
             },
             {
-                "name": "South -  Night Encounters",
+                "name": "South - Night Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
@@ -21282,7 +21282,7 @@
                 ]
             },
             {
-                "name": "South -  Ruby Encounters",
+                "name": "South - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -21294,7 +21294,7 @@
                 ]
             },
             {
-                "name": "South -  Sapphire Encounters",
+                "name": "South - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -21433,7 +21433,7 @@
                 "item_count": 1
             },
             {
-                "name": "2F -  Land Encounters",
+                "name": "2F - Land Encounters",
                 "item_count": 8,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -21445,7 +21445,7 @@
                 ]
             },
             {
-                "name": "2F -  Ruby Encounters",
+                "name": "2F - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -21457,7 +21457,7 @@
                 ]
             },
             {
-                "name": "2F -  Sapphire Encounters",
+                "name": "2F - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
@@ -21469,7 +21469,7 @@
                 ]
             },
             {
-                "name": "3F -  Land Encounters",
+                "name": "3F - Land Encounters",
                 "item_count": 8,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -21481,7 +21481,7 @@
                 ]
             },
             {
-                "name": "3F -  Ruby Encounters",
+                "name": "3F - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
@@ -21493,7 +21493,7 @@
                 ]
             },
             {
-                "name": "3F -  Sapphire Encounters",
+                "name": "3F - Sapphire Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
