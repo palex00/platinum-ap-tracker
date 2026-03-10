@@ -532,7 +532,7 @@
     {
         "name": "Deep Sea Scale",
         "type": "toggle",
-        "img": "images/items/bag.png",
+        "img": "images/items/deepseascale.png",
         "codes": "deepseascale"
     },
     {
