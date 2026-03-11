@@ -37,6 +37,15 @@
                                 "type": "layout",
                                 "key": "v_quick_settings_grid"
                             }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pokésearch",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "dexsearch_grid"
+                            }
                         }
                     ]
                 },

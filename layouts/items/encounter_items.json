@@ -17,6 +17,7 @@
                         "item_width": 32,
                         "rows": [
                             [
+                                "oldrod",
                                 "sapphirecartridge",
                                 "rubycartridge",
                                 "emeraldcartridge",
@@ -29,6 +30,7 @@
                                 "tm93rollout"
                             ],
                             [
+                                "goodrod",
                                 "dawnstone",
                                 "duskstone",
                                 "firestone",
@@ -41,6 +43,7 @@
                                 "tm94ancientpower"
                             ],
                             [
+                                "superrod",
                                 "linkingcord",
                                 "oddkeystone",
                                 "ovalstone",
@@ -53,6 +56,9 @@
                                 "tm95doublehit"
                             ],
                             [
+                                "num_seen_reg",
+                                "num_seen_nat",
+                                "radar",
                                 "protector",
 								"electirizer",
 								"magmarizer",

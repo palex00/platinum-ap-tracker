@@ -1,5 +1,27 @@
 [
     {
+        "name": "Not available in the Wild",
+        "sections": [
+            {
+                "name": "If you see this, the Pokemon you searched\nfor does not exist in the Wild.\n\nConsider Evolution logic and search for its pre-evolutions!",
+                "chest_unopened_img": "images/pokemon/00.png",
+                "chest_opened_img": "images/pokemon/00.png",
+                "visibility_rules": [
+                    "no_wild_encounters_found"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 176,
+                "y": 300,
+                "size": 24,
+                "shape": "diamond"
+            }
+        ]
+    },
+    {
         "name": "Sendoff Spring",
         "chest_unopened_img": "/images/locations/ball.png",
         "chest_opened_img": "/images/locations/ballopen.png",
@@ -11126,7 +11148,7 @@
                 ]
             },
             {
-                "name": "B1F - Land Encounters",
+                "name": "B1F Corridor - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11198,7 +11220,7 @@
                 ]
             },
             {
-                "name": "B3F Left - Land Encounters",
+                "name": "B3F Left Corridor - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11234,7 +11256,7 @@
                 ]
             },
             {
-                "name": "B3F Right - Land Encounters",
+                "name": "B3F Right Corridor - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
@@ -11258,7 +11280,7 @@
                 ]
             },
             {
-                "name": "B4F - Land Encounters",
+                "name": "B4F Corridor - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",

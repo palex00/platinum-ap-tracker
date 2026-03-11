@@ -1,0 +1,92 @@
+{
+    "dexsearch_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "5,2,0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "9,0",
+                "content": [
+				    {
+                        "type": "item",
+                        "item": "dexentrytop",
+                        "item_size": "86,15"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "9,0",
+                "content": [
+					{
+                        "type": "item",
+                        "item": "dexentryleft",
+                        "item_size": "11, 64"
+                    },
+					{
+                        "type": "item",
+                        "item": "search_ID_result",
+                        "item_size": "64, 64"
+                    },
+					{
+                        "type": "item",
+                        "item": "dexentryright",
+                        "item_size": "11, 64"
+                    },
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "9,0",
+                "content": [
+				    {
+                        "type": "item",
+                        "item": "dexentrybottom",
+                        "item_size": "86,10"
+                    },
+				    {
+                        "type": "item",
+                        "item": "dummy",
+                        "item_size": "0,0"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "2,0",
+                "content": [
+					{
+                        "type": "item",
+                        "item": "dexsearch_digit1",
+                        "item_size": "24, 44"
+                    },
+					{
+                        "type": "item",
+                        "item": "dexsearch_digit2",
+                        "item_size": "18, 44"
+                    },
+					{
+                        "type": "item",
+                        "item": "dexsearch_digit3",
+                        "item_size": "24, 64"
+                    },
+				    {
+                        "type": "item",
+                        "item": "go",
+                        "item_size": "34,44"
+                    },
+				    {
+                        "type": "item",
+                        "item": "dummy",
+                        "item_size": "0,0"
+                    }
+                ]
+            }
+        ]
+    }
+}

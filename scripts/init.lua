@@ -5,6 +5,7 @@ Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/encounter_items.json")
 Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/tools.json")
 Tracker:AddItems("items/trainers.json")
 Tracker:AddItems("items/pokemon.json")
 Tracker:AddItems("items/dexsanity_visibility.json")
@@ -12,8 +13,9 @@ Tracker:AddItems("items/dexsanity_sent.json")
 
 -- Logic
 ScriptHost:LoadScript("scripts/logic/utils.lua")
+ScriptHost:LoadScript("scripts/logic/utils_pokemon.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
-ScriptHost:LoadScript("scripts/logic/logic_encounters.lua")
+ScriptHost:LoadScript("scripts/logic/logic_pokemon.lua")
 ScriptHost:LoadScript("scripts/custom_items.lua")
 
 -- Maps
@@ -34,6 +36,7 @@ Tracker:AddLayouts("layouts/tabs_single.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/quick_settings.json")
+Tracker:AddLayouts("layouts/dexsearch.json")
 
 -- Locations
 Tracker:AddLocations("locations/access.json")
