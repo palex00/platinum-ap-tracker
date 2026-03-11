@@ -612,5 +612,24 @@
 { "name": "Cavern - Defeat Team Galactic in Stark Mountain (Event)", "ref": "Stark Mountain/Cavern - Defeat Team Galactic in Stark Mountain (Event)"}]},
 {"name": "Pastoria City​​​​​​​",  "map_locations": [{"map": "pastoriacity", "x": 216, "y": 388}], "sections": [
 {"ref": "Pastoria City/Rival", "name": "Rival"},
-{"ref": "Pastoria City/Marsh Pass from Wake (After Defeating Gym)", "name": "Marsh Pass from Wake (After Defeating Gym)"}]}
+{"ref": "Pastoria City/Marsh Pass from Wake (After Defeating Gym)", "name": "Marsh Pass from Wake (After Defeating Gym)"}]},
+{ "name": "Lake Verity", "map_locations": [ { "map": "veritylakefront", "x": 270, "y": 100}], "sections": [
+{ "name": "Lake - Item in Southwest Grass Patch", "ref": "Lake Verity/Lake - Item in Southwest Grass Patch"},
+{ "name": "Lake - Galactic Grunt 1", "ref": "Lake Verity/Lake - Galactic Grunt 1"},
+{ "name": "Lake - Galactic Grunt 2", "ref": "Lake Verity/Lake - Galactic Grunt 2"},
+{ "name": "Lake - Galactic Grunt 3", "ref": "Lake Verity/Lake - Galactic Grunt 3"},
+{ "name": "Lake - Galactic Grunt 4", "ref": "Lake Verity/Lake - Galactic Grunt 4"},
+{ "name": "Lake - Commander Mars", "ref": "Lake Verity/Lake - Commander Mars"},
+{ "name": "Lake - Defeat Mars (Event)", "ref": "Lake Verity/Lake - Defeat Mars (Event)"}]},
+{ "name": "Lake Acuity", "map_locations": [ { "map": "acuitylakefront", "x": 336, "y": 42}], "sections": [
+{ "name": "Lake - Item in NE Corner of Lake", "ref": "Lake Acuity/Lake - Item in NE Corner of Lake"},
+{ "name": "Lake - Watch Jupiter defeat your rival (Event)", "ref": "Lake Acuity/Lake - Watch Jupiter defeat your rival (Event)"}]},
+{ "name": "Lake Valor", "map_locations": [ { "map": "route213valorlakefront", "x": 1222, "y": 389}], "sections": [
+{ "name": "Item in SE Corner of Lake", "ref": "Lake Valor/Item in SE Corner of Lake"},
+{ "name": "Galactic Grunt 1", "ref": "Lake Valor/Galactic Grunt 1"},
+{ "name": "Galactic Grunt 2", "ref": "Lake Valor/Galactic Grunt 2"},
+{ "name": "Galactic Grunt 3", "ref": "Lake Valor/Galactic Grunt 3"},
+{ "name": "Hidden Item By Pile of Magikarp During Saturn Takeover", "ref": "Lake Valor/Hidden Item By Pile of Magikarp During Saturn Takeover"},
+{ "name": "Cavern - Commander Saturn", "ref": "Lake Valor/Cavern - Commander Saturn"},
+{ "name": "Cavern - Defeat Saturn (Event)", "ref": "Lake Valor/Cavern - Defeat Saturn (Event)"}]}
 ]}]]
