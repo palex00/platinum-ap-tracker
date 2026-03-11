@@ -184,7 +184,7 @@
 { "name": "Gym - Forest Badge From Gardenia", "ref": "Eterna City/Gym - Forest Badge From Gardenia"},
 { "name": "Gym - TM86 From Gardenia", "ref": "Eterna City/Gym - TM86 From Gardenia"},
 { "name": "Gym - Leader Gardenia", "ref": "Eterna City/Gym - Leader Gardenia"}]},
-{ "name": "Hearthhome Gym", "map_locations": [ { "map": "hearthomecity", "x": 824, "y": 304}], "sections": [
+{ "name": "Hearthome Gym", "map_locations": [ { "map": "hearthomecity", "x": 824, "y": 304}], "sections": [
 { "name": "Gym - Ace Trainer Allen", "ref": "Hearthome City/Gym - Ace Trainer Allen"},
 { "name": "Gym - Ace Trainer Catherine", "ref": "Hearthome City/Gym - Ace Trainer Catherine"},
 { "name": "Gym - Lass Molly", "ref": "Hearthome City/Gym - Lass Molly"},
