@@ -19864,6 +19864,16 @@
                 "item_count": 1
             },
             {
+                "name": "Lab - Poke Radar from Rowan\u200b",
+                "access_rules": [
+                    "@sandgem_town_pokemon_research_lab, pokedex, ^$see_regional_mons"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_keyitems_off"
+                ],
+                "hosted_item": "radar"
+            },
+            {
                 "name": "TM27 from Professor Rowan",
                 "access_rules": [
                     "@sandgem_town"

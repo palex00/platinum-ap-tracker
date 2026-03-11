@@ -97,7 +97,7 @@ FLAG_ITEM3_CODES = {
   {option="opt_overworld_off", codes={"reapercloth"}},
   {option="opt_hidden_off", codes={"thunderstone"}},
   {option="opt_hidden_off", codes={"waterstone"}},
-  {option="opt_keyitems_off", codes={"pokeradar"}},
+  {option="opt_keyitems_off", codes={"radar"}},
   {option="opt_pokedex_off", codes={"pokedex"}},
   {option="opt_pokedex_off", codes={"pokedex"}},
   {option="opt_badges_off", codes={"iciclebadge"}},
