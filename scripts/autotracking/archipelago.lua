@@ -3,12 +3,13 @@ require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/option_mapping")
 require("scripts/autotracking/flag_mapping")
 require("scripts/autotracking/map_mapping")
+require("scripts/autotracking/encounter_mapping")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
 
 SLOT_DATA = {}
-
+ENCOUNTERS_GROUPED = {}
 ROOM_SEED = "default"
 
 if Highlight then
@@ -72,6 +73,89 @@ function onClear(slot_data)
     end
     -------------------------------------------------
 
+    local generated = slot_data.generated_encounters
+    ENCOUNTERS_GROUPED = {}
+
+    local used_keys = {}
+
+    for area_slot_key, slot_counts in pairs(AREA_SLOTS) do
+
+        local base_area = area_slot_key:gsub("_land$", "")
+
+        local cursor = 0
+
+        for type_index, count in ipairs(slot_counts) do
+            if count > 0 then
+
+                local area_type = AREA_TYPES[type_index]
+
+                local grouped_key
+                if area_type == "land" then
+                    grouped_key = area_slot_key
+                else
+                    grouped_key = base_area .. "_" .. area_type
+                end
+
+                ENCOUNTERS_GROUPED[grouped_key] = ENCOUNTERS_GROUPED[grouped_key] or {}
+
+                for i = 0, count - 1 do
+                    local old_index = cursor + i
+                    local old_key = area_slot_key .. "_" .. old_index
+
+                    local value = generated[old_key]
+                    if value ~= nil then
+                        table.insert(ENCOUNTERS_GROUPED[grouped_key], value)
+                        used_keys[old_key] = true
+                    end
+                end
+
+                cursor = cursor + count
+            end
+        end
+    end
+
+    for key, value in pairs(generated) do
+        if not used_keys[key] then
+    
+            local base = key:match("^(.*)_%d+$")
+    
+            ENCOUNTERS_GROUPED[base] = ENCOUNTERS_GROUPED[base] or {}
+            table.insert(ENCOUNTERS_GROUPED[base], value)
+    
+        end
+    end
+
+    -- at this point we have the entire list as region = {number, number, etc.}.
+    -- now we gotta append the special encounters because why does no pokemon dev
+    -- want to ever give me these in the original table? :(
+    
+    local special = slot_data.generated_special_encounters
+    
+    for key, value in pairs(special) do
+        local base = key:match("^(.*)_%d+$")
+    
+        ENCOUNTERS_GROUPED[base] = ENCOUNTERS_GROUPED[base] or {}
+        table.insert(ENCOUNTERS_GROUPED[base], value)
+    end
+
+    -- and now we flip this on the head by instead matching pokemon -> region instead of region -> pokemon
+    
+    POKEMON_TO_LOCATIONS = {}
+    for location, dex_list in pairs(ENCOUNTERS_GROUPED) do
+        for _, dex_number in pairs(dex_list) do
+            if POKEMON_TO_LOCATIONS[dex_number] == nil then
+                POKEMON_TO_LOCATIONS[dex_number] = {}
+            end
+            table.insert(POKEMON_TO_LOCATIONS[dex_number], location)
+        end
+    end
+    
+    --print(dump_table(POKEMON_TO_LOCATIONS))
+    --print(dump_table(ENCOUNTERS_GROUPED))
+    -------------------------------------------------
+
+
+
     for k, v in pairs(slot_data) do
         if SLOT_CODES[k] then
             Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = (SLOT_CODES[k].mapping and SLOT_CODES[k].mapping[v] or v)
@@ -113,6 +197,14 @@ function onClear(slot_data)
         EVENT_ID = "pokemon_platinum_tracked_events_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({EVENT_ID})
         Archipelago:Get({EVENT_ID})
+        
+        SEEN_ID = "pokemon_platinum_seen_pokemon_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({SEEN_ID})
+        Archipelago:Get({SEEN_ID})
+        
+        CAUGHT_ID = "pokemon_platinum_caught_pokemon_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({CAUGHT_ID})
+        Archipelago:Get({CAUGHT_ID})
         
         for i = 1, 4 do
             _G["KEY"..i.."_ID"] =
@@ -284,6 +376,10 @@ function onNotify(key, value, old_value)
             updateVanillaKeyItems2(value)
         elseif key == HINT_ID then
             updateHints(value)
+        elseif key == CAUGHT_ID then
+            updateCaught(value)
+        elseif key == SEEN_ID then
+            updateSeen(value)
         end
     end
 end
@@ -299,6 +395,10 @@ function onNotifyLaunch(key, value)
             updateVanillaKeyItems2(value)
         elseif key == HINT_ID then
             updateHints(value)
+        elseif key == CAUGHT_ID then
+            updateCaught(value)
+        elseif key == SEEN_ID then
+            updateSeen(value)
         end
     end
 end

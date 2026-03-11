@@ -52,6 +52,18 @@
                                 "type": "layout",
                                 "key": "quick_settings_grid"
                             }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pokésearch",
+                            "dock": "left",
+                            "margin": "0,0,0,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "dexsearch_grid"
+                            }
                         }
                     ]
                 },

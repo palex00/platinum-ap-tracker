@@ -600,5 +600,38 @@
         "type": "toggle",
         "img": "images/items/pokeradar.png",
         "codes": "radar"
+    },
+    {
+        "name": "Total Pokemon Caught",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 493,
+        "increment": 1,
+        "initial_quantity": 0,
+        "img": "images/items/coupons.png",
+        "overlay_background": "#000000",
+        "codes": "num_caught"
+    },
+    {
+        "name": "Total Pokemon Seen",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 493,
+        "increment": 1,
+        "initial_quantity": 0,
+        "img": "images/items/coupons.png",
+        "overlay_background": "#000000",
+        "codes": "num_seen_nat"
+    },
+    {
+        "name": "Regional Pokemon Seen",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 210,
+        "increment": 1,
+        "initial_quantity": 0,
+        "img": "images/items/coupons.png",
+        "overlay_background": "#000000",
+        "codes": "num_seen_reg"
     }
 ]

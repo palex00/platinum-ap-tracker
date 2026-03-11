@@ -130,7 +130,7 @@
 { "name": "Choice Specs from Man in Shop (Morning)", "ref": "Celestic Town/Choice Specs from Man in Shop (Morning)"},
 { "name": "Black Glasses from Man in Shop (Day)", "ref": "Celestic Town/Black Glasses from Man in Shop (Day)"},
 { "name": "Black Glasses from Man in Shop (Night)", "ref": "Celestic Town/Black Glasses from Man in Shop (Night)"}]},
-{ "name": "Daughter of the Berry Master", "map_locations": [ { "map": "route208", "x": 920, "y": 288}], "sections": [
+{ "name": "Berry Masters House", "map_locations": [ { "map": "route208", "x": 920, "y": 288}], "sections": [
 { "name": "Berry Searcher App from Berry Masters Daughter", "ref": "Route 208/Berry Searcher App from Berry Masters Daughter"},
 { "name": "Random Berry", "ref": "Route 208/Random Berry"}]},
 { "name": "Galactic Boss Cyrus", "map_locations": [ { "map": "galactichqcyrusoffice", "x": 128, "y": 117}], "sections": [
@@ -496,11 +496,11 @@
 { "name": "4F - Dead End Item 1", "ref": "Galactic Building/4F - Dead End Item 1"},
 { "name": "4F - Dead End Item 2", "ref": "Galactic Building/4F - Dead End Item 2"},
 { "name": "4F - Item By Jupiter", "ref": "Galactic Building/4F - Item By Jupiter"}]},
-{ "name": "Amity Square (Left)", "map_locations": [ { "map": "hearthomecity", "x": 176, "y": 128}], "sections": [
+{ "name": "Amity Square", "map_locations": [ { "map": "hearthomecity", "x": 176, "y": 128}], "sections": [
 { "name": "Left - Item Near Center Warp", "ref": "Amity Square/Left - Item Near Center Warp"},
 { "name": "Left - Item on Middle of Island", "ref": "Amity Square/Left - Item on Middle of Island"},
 { "name": "Random Berry or Accessory", "ref": "Amity Square/Random Berry or Accessory"}]},
-{ "name": "Amity Square (Right)", "map_locations": [ { "map": "hearthomecity", "x": 848, "y": 128}], "sections": [
+{ "name": "Amity Square", "map_locations": [ { "map": "hearthomecity", "x": 848, "y": 128}], "sections": [
 { "name": "Right - Item Behind Bench", "ref": "Amity Square/Right - Item Behind Bench"},
 { "name": "Right - Item Reached with East Warps", "ref": "Amity Square/Right - Item Reached with East Warps"},
 { "name": "Random Berry or Accessory", "ref": "Amity Square/Random Berry or Accessory"}]},
@@ -610,7 +610,7 @@
 { "name": "Black Belt Jarrett", "ref": "Stark Mountain/Black Belt Jarrett"},
 { "name": "Veteran Harlan", "ref": "Stark Mountain/Veteran Harlan"},
 { "name": "Cavern - Defeat Team Galactic in Stark Mountain (Event)", "ref": "Stark Mountain/Cavern - Defeat Team Galactic in Stark Mountain (Event)"}]},
-{"name": "Pastoria City​​​​​​​",  "map_locations": [{"map": "pastoriacity", "x": 216, "y": 388}], "sections": [
+{"name": "Pastoria City",  "map_locations": [{"map": "pastoriacity", "x": 216, "y": 388}], "sections": [
 {"ref": "Pastoria City/Rival", "name": "Rival"},
 {"ref": "Pastoria City/Marsh Pass from Wake (After Defeating Gym)", "name": "Marsh Pass from Wake (After Defeating Gym)"}]},
 { "name": "Lake Verity", "map_locations": [ { "map": "veritylakefront", "x": 270, "y": 100}], "sections": [
@@ -633,3 +633,4 @@
 { "name": "Cavern - Commander Saturn", "ref": "Lake Valor/Cavern - Commander Saturn"},
 { "name": "Cavern - Defeat Saturn (Event)", "ref": "Lake Valor/Cavern - Defeat Saturn (Event)"}]}
 ]}]]
+

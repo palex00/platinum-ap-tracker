@@ -558,55 +558,6 @@
         "codes": "regional_dex_goal"
     },
     {
-        "name": "Split Map",
-        "type": "progressive",
-        "loop": true,
-        "codes": "split",
-        "allow_disabled": false,
-        "stages": [
-            {
-                "name": "Split Map - OFF",
-                "img": "/images/settings/map_split.png",
-                "img_mods": "@disabled",
-                "codes": "splitmap, splitmap_off",
-                "inherit_codes": false
-            },
-            {
-                "name": "Split Map - ON",
-                "img": "/images/settings/map_split.png",
-                "codes": "splitmap, splitmap_on",
-                "inherit_codes": false
-            },
-            {
-                "name": "Split Map - Reverse",
-                "img": "/images/settings/map_reverse.png",
-                "codes": "splitmap, splitmap_reverse",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Auto-Tab",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "name": "Auto-Tab Map - ON",
-                "img": "/images/settings/tools_autotab.png",
-                "codes": "automap, automap_on",
-                "inherit_codes": false
-            },
-            {
-                "name": "Auto-Tab Map - OFF",
-                "img": "/images/settings/tools_autotab.png",
-                "img_mods": "@disabled",
-                "codes": "automap, automap_off",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
         "name": "Cartridges",
         "type": "progressive",
         "initial_stage_idx": 0,
@@ -749,34 +700,6 @@
                 "name": "Evo Items Shop in AP Helper - ON",
                 "img": "images/settings/evo_items_shop_in_ap_helper.png",
                 "codes": "opt_evo_items_shop_in_ap_helper, opt_evo_items_shop_in_ap_helper_on",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Location Visibility",
-        "type": "progressive",
-        "loop": true,
-        "initial_stage_idx": 0,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "name": "Don't show encounter locations",
-                "img": "/images/settings/tools_encounters_off.png",
-                "img_mods": "@disabled",
-                "codes": "location_visibility, show_items",
-                "inherit_codes": false
-            },
-            {
-                "name": "Show normal and encounter locations",
-                "img": "/images/settings/tools_encounters_on.png",
-                "codes": "location_visibility, show_items, show_mons",
-                "inherit_codes": false
-            },
-            {
-                "name": "Only show encounter locations",
-                "img": "/images/settings/tools_encounters_only.png",
-                "codes": "location_visibility, show_mons",
                 "inherit_codes": false
             }
         ]
