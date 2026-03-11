@@ -206,14 +206,30 @@ function onClear(slot_data)
         Archipelago:SetNotify({CAUGHT_ID})
         Archipelago:Get({CAUGHT_ID})
         
-        for i = 1, 4 do
-            _G["KEY"..i.."_ID"] =
-                "pokemon_platinum_tracked_unrandomized_required_locations_"
-                ..TEAM_NUMBER.."_"..PLAYER_ID.."_"..(i - 1)
+        KEY1_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_0"
+        Archipelago:SetNotify({KEY1_ID})
+        Archipelago:Get({KEY1_ID})
         
-            Archipelago:SetNotify({_G["KEY"..i.."_ID"]})
-            Archipelago:Get({_G["KEY"..i.."_ID"]})
-        end
+        KEY2_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_1"
+        Archipelago:SetNotify({KEY2_ID})
+        Archipelago:Get({KEY2_ID})
+        
+        KEY3_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_2"
+        Archipelago:SetNotify({KEY3_ID})
+        Archipelago:Get({KEY3_ID})
+        
+        KEY4_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_3"
+        Archipelago:SetNotify({KEY4_ID})
+        Archipelago:Get({KEY4_ID})
+        
+        --for i = 1, 4 do
+        --    _G["KEY"..i.."_ID"] =
+        --        "pokemon_platinum_tracked_unrandomized_required_locations_"
+        --        ..TEAM_NUMBER.."_"..PLAYER_ID.."_"..(i - 1)
+        --
+        --    Archipelago:SetNotify({_G["KEY"..i.."_ID"]})
+        --    Archipelago:Get({_G["KEY"..i.."_ID"]})
+        --end
     end
 end
 
@@ -374,6 +390,10 @@ function onNotify(key, value, old_value)
             updateVanillaKeyItems1(value)
         elseif key == KEY2_ID then
             updateVanillaKeyItems2(value)
+        elseif key == KEY3_ID then
+            updateVanillaKeyItems3(value)
+        elseif key == KEY4_ID then
+            updateVanillaKeyItems4(value)
         elseif key == HINT_ID then
             updateHints(value)
         elseif key == CAUGHT_ID then
@@ -390,9 +410,17 @@ function onNotifyLaunch(key, value)
         if key == EVENT_ID then
             updateEvents(value)
         elseif key == KEY1_ID then
+            print("Triggered Key 1")
             updateVanillaKeyItems1(value)
         elseif key == KEY2_ID then
+            print("Triggered Key 2")
             updateVanillaKeyItems2(value)
+        elseif key == KEY3_ID then
+            print("Triggered Key 3")
+            updateVanillaKeyItems3(value)
+        elseif key == KEY4_ID then
+            print("Triggered Key 4")
+            updateVanillaKeyItems4(value)
         elseif key == HINT_ID then
             updateHints(value)
         elseif key == CAUGHT_ID then
@@ -425,7 +453,7 @@ function updateVanillaKeyItems1(value)
                             if bit == 1 then
                                 item.CurrentStage = (item.CurrentStage or 0) + 1
                             end
-                        elseif code == "coupons" then
+                        elseif code == "coupons" or code == "unownfile" then
                             if bit == 1 then
                                 item.AcquiredCount = (item.AcquiredCount or 0) + 1
                             end
@@ -439,7 +467,6 @@ function updateVanillaKeyItems1(value)
     end
 end
 
-
 function updateVanillaKeyItems2(value)
     if value ~= nil then
         for i, obj in ipairs(FLAG_ITEM2_CODES) do
@@ -448,7 +475,63 @@ function updateVanillaKeyItems2(value)
                 for j, code in ipairs(obj.codes) do
                     local item = Tracker:FindObjectForCode(code)
                     if item then
-                        if code == "unownfile" then
+                        if code == "pokedex" then
+                            if bit == 1 then
+                                item.CurrentStage = (item.CurrentStage or 0) + 1
+                            end
+                        elseif code == "coupons" or code == "unownfile" then
+                            if bit == 1 then
+                                item.AcquiredCount = (item.AcquiredCount or 0) + 1
+                            end
+                        else
+                            item.Active = item.Active or bit
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+function updateVanillaKeyItems3(value)
+    if value ~= nil then
+        for i, obj in ipairs(FLAG_ITEM3_CODES) do
+            local bit = value >> (i - 1) & 1
+            if obj.codes and (obj.option == nil or has(obj.option)) then
+                for j, code in ipairs(obj.codes) do
+                    local item = Tracker:FindObjectForCode(code)
+                    if item then
+                        if code == "pokedex" then
+                            if bit == 1 then
+                                item.CurrentStage = (item.CurrentStage or 0) + 1
+                            end
+                        elseif code == "coupons" or code == "unownfile" then
+                            if bit == 1 then
+                                item.AcquiredCount = (item.AcquiredCount or 0) + 1
+                            end
+                        else
+                            item.Active = item.Active or bit
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+function updateVanillaKeyItems4(value)
+    if value ~= nil then
+        for i, obj in ipairs(FLAG_ITEM4_CODES) do
+            local bit = value >> (i - 1) & 1
+            if obj.codes and (obj.option == nil or has(obj.option)) then
+                for j, code in ipairs(obj.codes) do
+                    local item = Tracker:FindObjectForCode(code)
+                    if item then
+                        if code == "pokedex" then
+                            if bit == 1 then
+                                item.CurrentStage = (item.CurrentStage or 0) + 1
+                            end
+                        elseif code == "coupons" or code == "unownfile" then
                             if bit == 1 then
                                 item.AcquiredCount = (item.AcquiredCount or 0) + 1
                             end
