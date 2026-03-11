@@ -9168,7 +9168,8 @@
             {
                 "name": "Pokemon History App from Ruin Maniac",
                 "access_rules": [
-                    "@solaceon_town, pokedex, $see_50_regional_mons"
+                    "@solaceon_town, pokedex, {}",
+                    "@solaceon_town, pokedex, num_seen_reg:50"
                 ],
                 "visibility_rules": [
                     "show_items, opt_poketchapps_on"
@@ -16435,7 +16436,8 @@
             {
                 "name": "North Gate - Reward For 35 Pokemon Seen",
                 "access_rules": [
-                    "@route_206_cycling_road_north_gate, pokedex, ^$see_35_mons"
+                    "@route_206_cycling_road_north_gate, pokedex, {}",
+                    "@route_206_cycling_road_north_gate, pokedex, num_seen_nat:35"
                 ],
                 "visibility_rules": [
                     "show_items, opt_npcgifts_on"

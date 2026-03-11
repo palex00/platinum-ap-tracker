@@ -164,28 +164,48 @@ function any_rod()
 end
 
 function see_regional_mons()
-    -- We need to decide on this
-    return AccessibilityLevel.Normal
-end
-
-function see_50_regional_mons()
-    -- We need to decide on this
-    return AccessibilityLevel.Normal
-end
-
-function see_35_mons()
-    -- We need to decide on this
-    return AccessibilityLevel.Normal
-end
-
-function regional_mons()
-    -- We need to decide on this
-    return AccessibilityLevel.Normal
+    goal = Tracker:FindObjectForCode("regional_dex_goal").AcquiredCount
+    seen = Tracker:FindObjectForCode("num_seen_reg").AcquiredCount
+    if goal <= seen then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.Inspect
+    end
 end
 
 function amity_square()
-    -- We need to decide on this
-    return AccessibilityLevel.Normal
+    local dexIds = {
+        25,  -- Pikachu
+        35,  -- Clefairy
+        54,  -- Psyduck
+        387, -- Turtwig
+        388, -- Grotle
+        389, -- Torterra
+        390, -- Chimchar
+        391, -- Monferno
+        392, -- Infernape
+        393, -- Piplup
+        394, -- Prinplup
+        395, -- Empoleon
+        417, -- Pachirisu
+        425, -- Drifloon
+        427, -- Buneary
+        440  -- Happiny
+    }
+
+    for _, id in ipairs(dexIds) do
+        if has("caught_" .. id) then
+            return AccessibilityLevel.Normal
+        end
+    end
+
+    if has("pokedex", 3) then
+        if has("caught_39") or has("caught_255") or has("caught_") or has("caught_") then
+            return AccessibilityLevel.Normal
+        end
+    end
+
+    return AccessibilityLevel.Inspect
 end
 
 function has_mon(dexnumber)
