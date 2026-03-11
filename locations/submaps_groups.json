@@ -496,11 +496,11 @@
 { "name": "4F - Dead End Item 1", "ref": "Galactic Building/4F - Dead End Item 1"},
 { "name": "4F - Dead End Item 2", "ref": "Galactic Building/4F - Dead End Item 2"},
 { "name": "4F - Item By Jupiter", "ref": "Galactic Building/4F - Item By Jupiter"}]},
-{ "name": "Amity Square", "map_locations": [ { "map": "hearthomecity", "x": 176, "y": 128}], "sections": [
+{ "name": "Amity Square (Left)", "map_locations": [ { "map": "hearthomecity", "x": 176, "y": 128}], "sections": [
 { "name": "Left - Item Near Center Warp", "ref": "Amity Square/Left - Item Near Center Warp"},
 { "name": "Left - Item on Middle of Island", "ref": "Amity Square/Left - Item on Middle of Island"},
 { "name": "Random Berry or Accessory", "ref": "Amity Square/Random Berry or Accessory"}]},
-{ "name": "Amity Square", "map_locations": [ { "map": "hearthomecity", "x": 848, "y": 128}], "sections": [
+{ "name": "Amity Square (Right)", "map_locations": [ { "map": "hearthomecity", "x": 848, "y": 128}], "sections": [
 { "name": "Right - Item Behind Bench", "ref": "Amity Square/Right - Item Behind Bench"},
 { "name": "Right - Item Reached with East Warps", "ref": "Amity Square/Right - Item Reached with East Warps"},
 { "name": "Random Berry or Accessory", "ref": "Amity Square/Random Berry or Accessory"}]},
