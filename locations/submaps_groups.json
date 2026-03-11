@@ -1,4 +1,4 @@
-[
+[[
     {
         "name": "Submap-Groups",
         "children": [
@@ -414,7 +414,7 @@
 { "name": "Area 6 - Hidden Item in Southeast Deep Mud", "ref": "Great Marsh/Area 6 - Hidden Item in Southeast Deep Mud"},
 { "name": "Area 6 - Item Below Bug Catcher", "ref": "Great Marsh/Area 6 - Item Below Bug Catcher"},
 { "name": "Area 6 - Item Below Pond", "ref": "Great Marsh/Area 6 - Item Below Pond"},
-{ "name": "Matchup Checker App from Cowgirl", "ref": "Great Marsh/Matchup Checker App from Cowgirl"}]},
+{ "name": "Lobby - Matchup Checker App from Cowgirl", "ref": "Great Marsh/Lobby - Matchup Checker App from Cowgirl"}]},
 { "name": "Lost Tower", "map_locations": [ { "map": "route209north", "x": 392, "y": 162}], "sections": [
 { "name": "2F - Hidden Item in Southeast Headstone", "ref": "Lost Tower/2F - Hidden Item in Southeast Headstone"},
 { "name": "2F - Item in Front of Youngster", "ref": "Lost Tower/2F - Item in Front of Youngster"},
@@ -610,6 +610,9 @@
 { "name": "Black Belt Jarrett", "ref": "Stark Mountain/Black Belt Jarrett"},
 { "name": "Veteran Harlan", "ref": "Stark Mountain/Veteran Harlan"},
 { "name": "Cavern - Defeat Team Galactic in Stark Mountain (Event)", "ref": "Stark Mountain/Cavern - Defeat Team Galactic in Stark Mountain (Event)"}]},
+{"name": "Pastoria City",  "map_locations": [{"map": "pastoriacity", "x": 216, "y": 388}], "sections": [
+{"ref": "Pastoria City/Rival", "name": "Rival"},
+{"ref": "Pastoria City/Marsh Pass from Wake (After Defeating Gym)", "name": "Marsh Pass from Wake (After Defeating Gym)"}]},
 { "name": "Lake Verity", "map_locations": [ { "map": "veritylakefront", "x": 270, "y": 100}], "sections": [
 { "name": "Lake - Item in Southwest Grass Patch", "ref": "Lake Verity/Lake - Item in Southwest Grass Patch"},
 { "name": "Lake - Galactic Grunt 1", "ref": "Lake Verity/Lake - Galactic Grunt 1"},
@@ -629,4 +632,5 @@
 { "name": "Hidden Item By Pile of Magikarp During Saturn Takeover", "ref": "Lake Valor/Hidden Item By Pile of Magikarp During Saturn Takeover"},
 { "name": "Cavern - Commander Saturn", "ref": "Lake Valor/Cavern - Commander Saturn"},
 { "name": "Cavern - Defeat Saturn (Event)", "ref": "Lake Valor/Cavern - Defeat Saturn (Event)"}]}
-]}]
+]}]]
+

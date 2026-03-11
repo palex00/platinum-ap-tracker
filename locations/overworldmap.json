@@ -4615,7 +4615,7 @@
             {
                 "name": "Marsh Pass from Wake (After Defeating Gym)",
                 "access_rules": [
-                    "@pastoria_city"
+                    "@pastoria_city, event_defeat_wake"
                 ],
                 "visibility_rules": [
                     "show_items, opt_marsh_pass_on"

@@ -1571,7 +1571,7 @@
     {
         "name": "pastoria_city_gym",
         "access_rules": [
-            "@pastoria_city, event_defeat_maylene, @veilstone_city_gym"
+            "@pastoria_city"
         ]
     },
     {
