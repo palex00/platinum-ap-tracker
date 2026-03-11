@@ -215,7 +215,3 @@ function has_mon(dexnumber)
         return AccessibilityLevel.Inspect
     end
 end
-
-function scout()
-    return AccessibilityLevel.Inspect
-end

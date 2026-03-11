@@ -226,7 +226,6 @@ end
 
 function updateSeen(value)
     SEEN = value
-    print(dump_table(SEEN))
     
     NUM_SEEN_NAT = 0
     NUM_SEEN_REG = 0

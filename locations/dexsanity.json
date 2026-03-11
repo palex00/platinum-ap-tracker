@@ -5,7 +5,7 @@
             {
                 "name": "Bulbasaur",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_1",
                 "sections": [
@@ -26,7 +26,7 @@
             {
                 "name": "Ivysaur",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_2",
                 "sections": [
@@ -47,7 +47,7 @@
             {
                 "name": "Venusaur",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_3",
                 "sections": [
@@ -68,7 +68,7 @@
             {
                 "name": "Charmander",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_4",
                 "sections": [
@@ -89,7 +89,7 @@
             {
                 "name": "Charmeleon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_5",
                 "sections": [
@@ -110,7 +110,7 @@
             {
                 "name": "Charizard",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_6",
                 "sections": [
@@ -131,7 +131,7 @@
             {
                 "name": "Squirtle",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_7",
                 "sections": [
@@ -152,7 +152,7 @@
             {
                 "name": "Wartortle",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_8",
                 "sections": [
@@ -173,7 +173,7 @@
             {
                 "name": "Blastoise",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_9",
                 "sections": [
@@ -194,7 +194,7 @@
             {
                 "name": "Caterpie",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_10",
                 "sections": [
@@ -215,7 +215,7 @@
             {
                 "name": "Metapod",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_11",
                 "sections": [
@@ -236,7 +236,7 @@
             {
                 "name": "Butterfree",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_12",
                 "sections": [
@@ -257,7 +257,7 @@
             {
                 "name": "Weedle",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_13",
                 "sections": [
@@ -278,7 +278,7 @@
             {
                 "name": "Kakuna",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_14",
                 "sections": [
@@ -299,7 +299,7 @@
             {
                 "name": "Beedrill",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_15",
                 "sections": [
@@ -320,7 +320,7 @@
             {
                 "name": "Pidgey",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_16",
                 "sections": [
@@ -341,7 +341,7 @@
             {
                 "name": "Pidgeotto",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_17",
                 "sections": [
@@ -362,7 +362,7 @@
             {
                 "name": "Pidgeot",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_18",
                 "sections": [
@@ -383,7 +383,7 @@
             {
                 "name": "Rattata",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_19",
                 "sections": [
@@ -404,7 +404,7 @@
             {
                 "name": "Raticate",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_20",
                 "sections": [
@@ -425,7 +425,7 @@
             {
                 "name": "Spearow",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_21",
                 "sections": [
@@ -446,7 +446,7 @@
             {
                 "name": "Fearow",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_22",
                 "sections": [
@@ -467,7 +467,7 @@
             {
                 "name": "Ekans",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_23",
                 "sections": [
@@ -488,7 +488,7 @@
             {
                 "name": "Arbok",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_24",
                 "sections": [
@@ -509,7 +509,7 @@
             {
                 "name": "Pikachu",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_25",
                 "sections": [
@@ -530,7 +530,7 @@
             {
                 "name": "Raichu",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_26",
                 "sections": [
@@ -551,7 +551,7 @@
             {
                 "name": "Sandshrew",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_27",
                 "sections": [
@@ -572,7 +572,7 @@
             {
                 "name": "Sandslash",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_28",
                 "sections": [
@@ -593,7 +593,7 @@
             {
                 "name": "Nidoran♀",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_29",
                 "sections": [
@@ -614,7 +614,7 @@
             {
                 "name": "Nidorina",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_30",
                 "sections": [
@@ -635,7 +635,7 @@
             {
                 "name": "Nidoqueen",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_31",
                 "sections": [
@@ -656,7 +656,7 @@
             {
                 "name": "Nidoran♂",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_32",
                 "sections": [
@@ -677,7 +677,7 @@
             {
                 "name": "Nidorino",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_33",
                 "sections": [
@@ -698,7 +698,7 @@
             {
                 "name": "Nidoking",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_34",
                 "sections": [
@@ -719,7 +719,7 @@
             {
                 "name": "Clefairy",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_35",
                 "sections": [
@@ -740,7 +740,7 @@
             {
                 "name": "Clefable",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_36",
                 "sections": [
@@ -761,7 +761,7 @@
             {
                 "name": "Vulpix",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_37",
                 "sections": [
@@ -782,7 +782,7 @@
             {
                 "name": "Ninetales",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_38",
                 "sections": [
@@ -803,7 +803,7 @@
             {
                 "name": "Jigglypuff",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_39",
                 "sections": [
@@ -824,7 +824,7 @@
             {
                 "name": "Wigglytuff",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_40",
                 "sections": [
@@ -845,7 +845,7 @@
             {
                 "name": "Zubat",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_41",
                 "sections": [
@@ -866,7 +866,7 @@
             {
                 "name": "Golbat",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_42",
                 "sections": [
@@ -887,7 +887,7 @@
             {
                 "name": "Oddish",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_43",
                 "sections": [
@@ -908,7 +908,7 @@
             {
                 "name": "Gloom",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_44",
                 "sections": [
@@ -929,7 +929,7 @@
             {
                 "name": "Vileplume",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_45",
                 "sections": [
@@ -950,7 +950,7 @@
             {
                 "name": "Paras",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_46",
                 "sections": [
@@ -971,7 +971,7 @@
             {
                 "name": "Parasect",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_47",
                 "sections": [
@@ -992,7 +992,7 @@
             {
                 "name": "Venonat",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_48",
                 "sections": [
@@ -1013,7 +1013,7 @@
             {
                 "name": "Venomoth",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_49",
                 "sections": [
@@ -1034,7 +1034,7 @@
             {
                 "name": "Diglett",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_50",
                 "sections": [
@@ -1055,7 +1055,7 @@
             {
                 "name": "Dugtrio",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_51",
                 "sections": [
@@ -1076,7 +1076,7 @@
             {
                 "name": "Meowth",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_52",
                 "sections": [
@@ -1097,7 +1097,7 @@
             {
                 "name": "Persian",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_53",
                 "sections": [
@@ -1118,7 +1118,7 @@
             {
                 "name": "Psyduck",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_54",
                 "sections": [
@@ -1139,7 +1139,7 @@
             {
                 "name": "Golduck",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_55",
                 "sections": [
@@ -1160,7 +1160,7 @@
             {
                 "name": "Mankey",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_56",
                 "sections": [
@@ -1181,7 +1181,7 @@
             {
                 "name": "Primeape",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_57",
                 "sections": [
@@ -1202,7 +1202,7 @@
             {
                 "name": "Growlithe",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_58",
                 "sections": [
@@ -1223,7 +1223,7 @@
             {
                 "name": "Arcanine",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_59",
                 "sections": [
@@ -1244,7 +1244,7 @@
             {
                 "name": "Poliwag",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_60",
                 "sections": [
@@ -1265,7 +1265,7 @@
             {
                 "name": "Poliwhirl",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_61",
                 "sections": [
@@ -1286,7 +1286,7 @@
             {
                 "name": "Poliwrath",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_62",
                 "sections": [
@@ -1307,7 +1307,7 @@
             {
                 "name": "Abra",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_63",
                 "sections": [
@@ -1328,7 +1328,7 @@
             {
                 "name": "Kadabra",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_64",
                 "sections": [
@@ -1349,7 +1349,7 @@
             {
                 "name": "Alakazam",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_65",
                 "sections": [
@@ -1370,7 +1370,7 @@
             {
                 "name": "Machop",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_66",
                 "sections": [
@@ -1391,7 +1391,7 @@
             {
                 "name": "Machoke",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_67",
                 "sections": [
@@ -1412,7 +1412,7 @@
             {
                 "name": "Machamp",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_68",
                 "sections": [
@@ -1433,7 +1433,7 @@
             {
                 "name": "Bellsprout",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_69",
                 "sections": [
@@ -1454,7 +1454,7 @@
             {
                 "name": "Weepinbell",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_70",
                 "sections": [
@@ -1475,7 +1475,7 @@
             {
                 "name": "Victreebel",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_71",
                 "sections": [
@@ -1496,7 +1496,7 @@
             {
                 "name": "Tentacool",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_72",
                 "sections": [
@@ -1517,7 +1517,7 @@
             {
                 "name": "Tentacruel",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_73",
                 "sections": [
@@ -1538,7 +1538,7 @@
             {
                 "name": "Geodude",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_74",
                 "sections": [
@@ -1559,7 +1559,7 @@
             {
                 "name": "Graveler",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_75",
                 "sections": [
@@ -1580,7 +1580,7 @@
             {
                 "name": "Golem",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_76",
                 "sections": [
@@ -1601,7 +1601,7 @@
             {
                 "name": "Ponyta",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_77",
                 "sections": [
@@ -1622,7 +1622,7 @@
             {
                 "name": "Rapidash",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_78",
                 "sections": [
@@ -1643,7 +1643,7 @@
             {
                 "name": "Slowpoke",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_79",
                 "sections": [
@@ -1664,7 +1664,7 @@
             {
                 "name": "Slowbro",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_80",
                 "sections": [
@@ -1685,7 +1685,7 @@
             {
                 "name": "Magnemite",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_81",
                 "sections": [
@@ -1706,7 +1706,7 @@
             {
                 "name": "Magneton",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_82",
                 "sections": [
@@ -1727,7 +1727,7 @@
             {
                 "name": "Farfetch'd",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_83",
                 "sections": [
@@ -1748,7 +1748,7 @@
             {
                 "name": "Doduo",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_84",
                 "sections": [
@@ -1769,7 +1769,7 @@
             {
                 "name": "Dodrio",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_85",
                 "sections": [
@@ -1790,7 +1790,7 @@
             {
                 "name": "Seel",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_86",
                 "sections": [
@@ -1811,7 +1811,7 @@
             {
                 "name": "Dewgong",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_87",
                 "sections": [
@@ -1832,7 +1832,7 @@
             {
                 "name": "Grimer",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_88",
                 "sections": [
@@ -1853,7 +1853,7 @@
             {
                 "name": "Muk",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_89",
                 "sections": [
@@ -1874,7 +1874,7 @@
             {
                 "name": "Shellder",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_90",
                 "sections": [
@@ -1895,7 +1895,7 @@
             {
                 "name": "Cloyster",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_91",
                 "sections": [
@@ -1916,7 +1916,7 @@
             {
                 "name": "Gastly",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_92",
                 "sections": [
@@ -1937,7 +1937,7 @@
             {
                 "name": "Haunter",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_93",
                 "sections": [
@@ -1958,7 +1958,7 @@
             {
                 "name": "Gengar",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_94",
                 "sections": [
@@ -1979,7 +1979,7 @@
             {
                 "name": "Onix",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_95",
                 "sections": [
@@ -2000,7 +2000,7 @@
             {
                 "name": "Drowzee",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_96",
                 "sections": [
@@ -2021,7 +2021,7 @@
             {
                 "name": "Hypno",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_97",
                 "sections": [
@@ -2042,7 +2042,7 @@
             {
                 "name": "Krabby",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_98",
                 "sections": [
@@ -2063,7 +2063,7 @@
             {
                 "name": "Kingler",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_99",
                 "sections": [
@@ -2084,7 +2084,7 @@
             {
                 "name": "Voltorb",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_100",
                 "sections": [
@@ -2105,7 +2105,7 @@
             {
                 "name": "Electrode",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_101",
                 "sections": [
@@ -2126,7 +2126,7 @@
             {
                 "name": "Exeggcute",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_102",
                 "sections": [
@@ -2147,7 +2147,7 @@
             {
                 "name": "Exeggutor",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_103",
                 "sections": [
@@ -2168,7 +2168,7 @@
             {
                 "name": "Cubone",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_104",
                 "sections": [
@@ -2189,7 +2189,7 @@
             {
                 "name": "Marowak",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_105",
                 "sections": [
@@ -2210,7 +2210,7 @@
             {
                 "name": "Hitmonlee",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_106",
                 "sections": [
@@ -2231,7 +2231,7 @@
             {
                 "name": "Hitmonchan",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_107",
                 "sections": [
@@ -2252,7 +2252,7 @@
             {
                 "name": "Lickitung",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_108",
                 "sections": [
@@ -2273,7 +2273,7 @@
             {
                 "name": "Koffing",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_109",
                 "sections": [
@@ -2294,7 +2294,7 @@
             {
                 "name": "Weezing",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_110",
                 "sections": [
@@ -2315,7 +2315,7 @@
             {
                 "name": "Rhyhorn",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_111",
                 "sections": [
@@ -2336,7 +2336,7 @@
             {
                 "name": "Rhydon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_112",
                 "sections": [
@@ -2357,7 +2357,7 @@
             {
                 "name": "Chansey",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_113",
                 "sections": [
@@ -2378,7 +2378,7 @@
             {
                 "name": "Tangela",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_114",
                 "sections": [
@@ -2399,7 +2399,7 @@
             {
                 "name": "Kangaskhan",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_115",
                 "sections": [
@@ -2420,7 +2420,7 @@
             {
                 "name": "Horsea",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_116",
                 "sections": [
@@ -2441,7 +2441,7 @@
             {
                 "name": "Seadra",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_117",
                 "sections": [
@@ -2462,7 +2462,7 @@
             {
                 "name": "Goldeen",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_118",
                 "sections": [
@@ -2483,7 +2483,7 @@
             {
                 "name": "Seaking",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_119",
                 "sections": [
@@ -2504,7 +2504,7 @@
             {
                 "name": "Staryu",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_120",
                 "sections": [
@@ -2525,7 +2525,7 @@
             {
                 "name": "Starmie",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_121",
                 "sections": [
@@ -2546,7 +2546,7 @@
             {
                 "name": "Mr. Mime",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_122",
                 "sections": [
@@ -2567,7 +2567,7 @@
             {
                 "name": "Scyther",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_123",
                 "sections": [
@@ -2588,7 +2588,7 @@
             {
                 "name": "Jynx",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_124",
                 "sections": [
@@ -2609,7 +2609,7 @@
             {
                 "name": "Electabuzz",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_125",
                 "sections": [
@@ -2630,7 +2630,7 @@
             {
                 "name": "Magmar",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_126",
                 "sections": [
@@ -2651,7 +2651,7 @@
             {
                 "name": "Pinsir",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_127",
                 "sections": [
@@ -2672,7 +2672,7 @@
             {
                 "name": "Tauros",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_128",
                 "sections": [
@@ -2693,7 +2693,7 @@
             {
                 "name": "Magikarp",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_129",
                 "sections": [
@@ -2714,7 +2714,7 @@
             {
                 "name": "Gyarados",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_130",
                 "sections": [
@@ -2735,7 +2735,7 @@
             {
                 "name": "Lapras",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_131",
                 "sections": [
@@ -2756,7 +2756,7 @@
             {
                 "name": "Ditto",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_132",
                 "sections": [
@@ -2777,7 +2777,7 @@
             {
                 "name": "Eevee",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_133",
                 "sections": [
@@ -2798,7 +2798,7 @@
             {
                 "name": "Vaporeon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_134",
                 "sections": [
@@ -2819,7 +2819,7 @@
             {
                 "name": "Jolteon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_135",
                 "sections": [
@@ -2840,7 +2840,7 @@
             {
                 "name": "Flareon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_136",
                 "sections": [
@@ -2861,7 +2861,7 @@
             {
                 "name": "Porygon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_137",
                 "sections": [
@@ -2882,7 +2882,7 @@
             {
                 "name": "Omanyte",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_138",
                 "sections": [
@@ -2903,7 +2903,7 @@
             {
                 "name": "Omastar",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_139",
                 "sections": [
@@ -2924,7 +2924,7 @@
             {
                 "name": "Kabuto",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_140",
                 "sections": [
@@ -2945,7 +2945,7 @@
             {
                 "name": "Kabutops",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_141",
                 "sections": [
@@ -2966,7 +2966,7 @@
             {
                 "name": "Aerodactyl",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_142",
                 "sections": [
@@ -2987,7 +2987,7 @@
             {
                 "name": "Snorlax",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_143",
                 "sections": [
@@ -3008,7 +3008,7 @@
             {
                 "name": "Articuno",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_144",
                 "sections": [
@@ -3029,7 +3029,7 @@
             {
                 "name": "Zapdos",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_145",
                 "sections": [
@@ -3050,7 +3050,7 @@
             {
                 "name": "Moltres",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_146",
                 "sections": [
@@ -3071,7 +3071,7 @@
             {
                 "name": "Dratini",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_147",
                 "sections": [
@@ -3092,7 +3092,7 @@
             {
                 "name": "Dragonair",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_148",
                 "sections": [
@@ -3113,7 +3113,7 @@
             {
                 "name": "Dragonite",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_149",
                 "sections": [
@@ -3134,7 +3134,7 @@
             {
                 "name": "Mewtwo",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_150",
                 "sections": [
@@ -3155,7 +3155,7 @@
             {
                 "name": "Mew",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_151",
                 "sections": [
@@ -3176,7 +3176,7 @@
             {
                 "name": "Chikorita",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_152",
                 "sections": [
@@ -3197,7 +3197,7 @@
             {
                 "name": "Bayleef",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_153",
                 "sections": [
@@ -3218,7 +3218,7 @@
             {
                 "name": "Meganium",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_154",
                 "sections": [
@@ -3239,7 +3239,7 @@
             {
                 "name": "Cyndaquil",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_155",
                 "sections": [
@@ -3260,7 +3260,7 @@
             {
                 "name": "Quilava",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_156",
                 "sections": [
@@ -3281,7 +3281,7 @@
             {
                 "name": "Typhlosion",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_157",
                 "sections": [
@@ -3302,7 +3302,7 @@
             {
                 "name": "Totodile",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_158",
                 "sections": [
@@ -3323,7 +3323,7 @@
             {
                 "name": "Croconaw",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_159",
                 "sections": [
@@ -3344,7 +3344,7 @@
             {
                 "name": "Feraligatr",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_160",
                 "sections": [
@@ -3365,7 +3365,7 @@
             {
                 "name": "Sentret",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_161",
                 "sections": [
@@ -3386,7 +3386,7 @@
             {
                 "name": "Furret",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_162",
                 "sections": [
@@ -3407,7 +3407,7 @@
             {
                 "name": "Hoothoot",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_163",
                 "sections": [
@@ -3428,7 +3428,7 @@
             {
                 "name": "Noctowl",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_164",
                 "sections": [
@@ -3449,7 +3449,7 @@
             {
                 "name": "Ledyba",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_165",
                 "sections": [
@@ -3470,7 +3470,7 @@
             {
                 "name": "Ledian",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_166",
                 "sections": [
@@ -3491,7 +3491,7 @@
             {
                 "name": "Spinarak",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_167",
                 "sections": [
@@ -3512,7 +3512,7 @@
             {
                 "name": "Ariados",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_168",
                 "sections": [
@@ -3533,7 +3533,7 @@
             {
                 "name": "Crobat",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_169",
                 "sections": [
@@ -3554,7 +3554,7 @@
             {
                 "name": "Chinchou",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_170",
                 "sections": [
@@ -3575,7 +3575,7 @@
             {
                 "name": "Lanturn",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_171",
                 "sections": [
@@ -3596,7 +3596,7 @@
             {
                 "name": "Pichu",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_172",
                 "sections": [
@@ -3617,7 +3617,7 @@
             {
                 "name": "Cleffa",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_173",
                 "sections": [
@@ -3638,7 +3638,7 @@
             {
                 "name": "Igglybuff",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_174",
                 "sections": [
@@ -3659,7 +3659,7 @@
             {
                 "name": "Togepi",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_175",
                 "sections": [
@@ -3680,7 +3680,7 @@
             {
                 "name": "Togetic",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_176",
                 "sections": [
@@ -3701,7 +3701,7 @@
             {
                 "name": "Natu",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_177",
                 "sections": [
@@ -3722,7 +3722,7 @@
             {
                 "name": "Xatu",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_178",
                 "sections": [
@@ -3743,7 +3743,7 @@
             {
                 "name": "Mareep",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_179",
                 "sections": [
@@ -3764,7 +3764,7 @@
             {
                 "name": "Flaaffy",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_180",
                 "sections": [
@@ -3785,7 +3785,7 @@
             {
                 "name": "Ampharos",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_181",
                 "sections": [
@@ -3806,7 +3806,7 @@
             {
                 "name": "Bellossom",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_182",
                 "sections": [
@@ -3827,7 +3827,7 @@
             {
                 "name": "Marill",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_183",
                 "sections": [
@@ -3848,7 +3848,7 @@
             {
                 "name": "Azumarill",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_184",
                 "sections": [
@@ -3869,7 +3869,7 @@
             {
                 "name": "Sudowoodo",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_185",
                 "sections": [
@@ -3890,7 +3890,7 @@
             {
                 "name": "Politoed",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_186",
                 "sections": [
@@ -3911,7 +3911,7 @@
             {
                 "name": "Hoppip",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_187",
                 "sections": [
@@ -3932,7 +3932,7 @@
             {
                 "name": "Skiploom",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_188",
                 "sections": [
@@ -3953,7 +3953,7 @@
             {
                 "name": "Jumpluff",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_189",
                 "sections": [
@@ -3974,7 +3974,7 @@
             {
                 "name": "Aipom",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_190",
                 "sections": [
@@ -3995,7 +3995,7 @@
             {
                 "name": "Sunkern",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_191",
                 "sections": [
@@ -4016,7 +4016,7 @@
             {
                 "name": "Sunflora",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_192",
                 "sections": [
@@ -4037,7 +4037,7 @@
             {
                 "name": "Yanma",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_193",
                 "sections": [
@@ -4058,7 +4058,7 @@
             {
                 "name": "Wooper",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_194",
                 "sections": [
@@ -4079,7 +4079,7 @@
             {
                 "name": "Quagsire",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_195",
                 "sections": [
@@ -4100,7 +4100,7 @@
             {
                 "name": "Espeon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_196",
                 "sections": [
@@ -4121,7 +4121,7 @@
             {
                 "name": "Umbreon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_197",
                 "sections": [
@@ -4142,7 +4142,7 @@
             {
                 "name": "Murkrow",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_198",
                 "sections": [
@@ -4163,7 +4163,7 @@
             {
                 "name": "Slowking",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_199",
                 "sections": [
@@ -4184,7 +4184,7 @@
             {
                 "name": "Misdreavus",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_200",
                 "sections": [
@@ -4205,7 +4205,7 @@
             {
                 "name": "Unown",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_201",
                 "sections": [
@@ -4226,7 +4226,7 @@
             {
                 "name": "Wobbuffet",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_202",
                 "sections": [
@@ -4247,7 +4247,7 @@
             {
                 "name": "Girafarig",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_203",
                 "sections": [
@@ -4268,7 +4268,7 @@
             {
                 "name": "Pineco",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_204",
                 "sections": [
@@ -4289,7 +4289,7 @@
             {
                 "name": "Forretress",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_205",
                 "sections": [
@@ -4310,7 +4310,7 @@
             {
                 "name": "Dunsparce",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_206",
                 "sections": [
@@ -4331,7 +4331,7 @@
             {
                 "name": "Gligar",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_207",
                 "sections": [
@@ -4352,7 +4352,7 @@
             {
                 "name": "Steelix",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_208",
                 "sections": [
@@ -4373,7 +4373,7 @@
             {
                 "name": "Snubbull",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_209",
                 "sections": [
@@ -4394,7 +4394,7 @@
             {
                 "name": "Granbull",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_210",
                 "sections": [
@@ -4415,7 +4415,7 @@
             {
                 "name": "Qwilfish",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_211",
                 "sections": [
@@ -4436,7 +4436,7 @@
             {
                 "name": "Scizor",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_212",
                 "sections": [
@@ -4457,7 +4457,7 @@
             {
                 "name": "Shuckle",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_213",
                 "sections": [
@@ -4478,7 +4478,7 @@
             {
                 "name": "Heracross",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_214",
                 "sections": [
@@ -4499,7 +4499,7 @@
             {
                 "name": "Sneasel",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_215",
                 "sections": [
@@ -4520,7 +4520,7 @@
             {
                 "name": "Teddiursa",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_216",
                 "sections": [
@@ -4541,7 +4541,7 @@
             {
                 "name": "Ursaring",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_217",
                 "sections": [
@@ -4562,7 +4562,7 @@
             {
                 "name": "Slugma",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_218",
                 "sections": [
@@ -4583,7 +4583,7 @@
             {
                 "name": "Magcargo",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_219",
                 "sections": [
@@ -4604,7 +4604,7 @@
             {
                 "name": "Swinub",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_220",
                 "sections": [
@@ -4625,7 +4625,7 @@
             {
                 "name": "Piloswine",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_221",
                 "sections": [
@@ -4646,7 +4646,7 @@
             {
                 "name": "Corsola",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_222",
                 "sections": [
@@ -4667,7 +4667,7 @@
             {
                 "name": "Remoraid",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_223",
                 "sections": [
@@ -4688,7 +4688,7 @@
             {
                 "name": "Octillery",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_224",
                 "sections": [
@@ -4709,7 +4709,7 @@
             {
                 "name": "Delibird",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_225",
                 "sections": [
@@ -4730,7 +4730,7 @@
             {
                 "name": "Mantine",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_226",
                 "sections": [
@@ -4751,7 +4751,7 @@
             {
                 "name": "Skarmory",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_227",
                 "sections": [
@@ -4772,7 +4772,7 @@
             {
                 "name": "Houndour",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_228",
                 "sections": [
@@ -4793,7 +4793,7 @@
             {
                 "name": "Houndoom",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_229",
                 "sections": [
@@ -4814,7 +4814,7 @@
             {
                 "name": "Kingdra",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_230",
                 "sections": [
@@ -4835,7 +4835,7 @@
             {
                 "name": "Phanpy",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_231",
                 "sections": [
@@ -4856,7 +4856,7 @@
             {
                 "name": "Donphan",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_232",
                 "sections": [
@@ -4877,7 +4877,7 @@
             {
                 "name": "Porygon2",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_233",
                 "sections": [
@@ -4898,7 +4898,7 @@
             {
                 "name": "Stantler",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_234",
                 "sections": [
@@ -4919,7 +4919,7 @@
             {
                 "name": "Smeargle",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_235",
                 "sections": [
@@ -4940,7 +4940,7 @@
             {
                 "name": "Tyrogue",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_236",
                 "sections": [
@@ -4961,7 +4961,7 @@
             {
                 "name": "Hitmontop",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_237",
                 "sections": [
@@ -4982,7 +4982,7 @@
             {
                 "name": "Smoochum",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_238",
                 "sections": [
@@ -5003,7 +5003,7 @@
             {
                 "name": "Elekid",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_239",
                 "sections": [
@@ -5024,7 +5024,7 @@
             {
                 "name": "Magby",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_240",
                 "sections": [
@@ -5045,7 +5045,7 @@
             {
                 "name": "Miltank",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_241",
                 "sections": [
@@ -5066,7 +5066,7 @@
             {
                 "name": "Blissey",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_242",
                 "sections": [
@@ -5087,7 +5087,7 @@
             {
                 "name": "Raikou",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_243",
                 "sections": [
@@ -5108,7 +5108,7 @@
             {
                 "name": "Entei",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_244",
                 "sections": [
@@ -5129,7 +5129,7 @@
             {
                 "name": "Suicune",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_245",
                 "sections": [
@@ -5150,7 +5150,7 @@
             {
                 "name": "Larvitar",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_246",
                 "sections": [
@@ -5171,7 +5171,7 @@
             {
                 "name": "Pupitar",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_247",
                 "sections": [
@@ -5192,7 +5192,7 @@
             {
                 "name": "Tyranitar",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_248",
                 "sections": [
@@ -5213,7 +5213,7 @@
             {
                 "name": "Lugia",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_249",
                 "sections": [
@@ -5234,7 +5234,7 @@
             {
                 "name": "Ho-Oh",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_250",
                 "sections": [
@@ -5255,7 +5255,7 @@
             {
                 "name": "Celebi",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_251",
                 "sections": [
@@ -5276,7 +5276,7 @@
             {
                 "name": "Treecko",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_252",
                 "sections": [
@@ -5297,7 +5297,7 @@
             {
                 "name": "Grovyle",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_253",
                 "sections": [
@@ -5318,7 +5318,7 @@
             {
                 "name": "Sceptile",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_254",
                 "sections": [
@@ -5339,7 +5339,7 @@
             {
                 "name": "Torchic",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_255",
                 "sections": [
@@ -5360,7 +5360,7 @@
             {
                 "name": "Combusken",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_256",
                 "sections": [
@@ -5381,7 +5381,7 @@
             {
                 "name": "Blaziken",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_257",
                 "sections": [
@@ -5402,7 +5402,7 @@
             {
                 "name": "Mudkip",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_258",
                 "sections": [
@@ -5423,7 +5423,7 @@
             {
                 "name": "Marshtomp",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_259",
                 "sections": [
@@ -5444,7 +5444,7 @@
             {
                 "name": "Swampert",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_260",
                 "sections": [
@@ -5465,7 +5465,7 @@
             {
                 "name": "Poochyena",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_261",
                 "sections": [
@@ -5486,7 +5486,7 @@
             {
                 "name": "Mightyena",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_262",
                 "sections": [
@@ -5507,7 +5507,7 @@
             {
                 "name": "Zigzagoon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_263",
                 "sections": [
@@ -5528,7 +5528,7 @@
             {
                 "name": "Linoone",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_264",
                 "sections": [
@@ -5549,7 +5549,7 @@
             {
                 "name": "Wurmple",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_265",
                 "sections": [
@@ -5570,7 +5570,7 @@
             {
                 "name": "Silcoon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_266",
                 "sections": [
@@ -5591,7 +5591,7 @@
             {
                 "name": "Beautifly",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_267",
                 "sections": [
@@ -5612,7 +5612,7 @@
             {
                 "name": "Cascoon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_268",
                 "sections": [
@@ -5633,7 +5633,7 @@
             {
                 "name": "Dustox",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_269",
                 "sections": [
@@ -5654,7 +5654,7 @@
             {
                 "name": "Lotad",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_270",
                 "sections": [
@@ -5675,7 +5675,7 @@
             {
                 "name": "Lombre",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_271",
                 "sections": [
@@ -5696,7 +5696,7 @@
             {
                 "name": "Ludicolo",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_272",
                 "sections": [
@@ -5717,7 +5717,7 @@
             {
                 "name": "Seedot",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_273",
                 "sections": [
@@ -5738,7 +5738,7 @@
             {
                 "name": "Nuzleaf",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_274",
                 "sections": [
@@ -5759,7 +5759,7 @@
             {
                 "name": "Shiftry",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_275",
                 "sections": [
@@ -5780,7 +5780,7 @@
             {
                 "name": "Taillow",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_276",
                 "sections": [
@@ -5801,7 +5801,7 @@
             {
                 "name": "Swellow",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_277",
                 "sections": [
@@ -5822,7 +5822,7 @@
             {
                 "name": "Wingull",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_278",
                 "sections": [
@@ -5843,7 +5843,7 @@
             {
                 "name": "Pelipper",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_279",
                 "sections": [
@@ -5864,7 +5864,7 @@
             {
                 "name": "Ralts",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_280",
                 "sections": [
@@ -5885,7 +5885,7 @@
             {
                 "name": "Kirlia",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_281",
                 "sections": [
@@ -5906,7 +5906,7 @@
             {
                 "name": "Gardevoir",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_282",
                 "sections": [
@@ -5927,7 +5927,7 @@
             {
                 "name": "Surskit",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_283",
                 "sections": [
@@ -5948,7 +5948,7 @@
             {
                 "name": "Masquerain",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_284",
                 "sections": [
@@ -5969,7 +5969,7 @@
             {
                 "name": "Shroomish",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_285",
                 "sections": [
@@ -5990,7 +5990,7 @@
             {
                 "name": "Breloom",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_286",
                 "sections": [
@@ -6011,7 +6011,7 @@
             {
                 "name": "Slakoth",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_287",
                 "sections": [
@@ -6032,7 +6032,7 @@
             {
                 "name": "Vigoroth",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_288",
                 "sections": [
@@ -6053,7 +6053,7 @@
             {
                 "name": "Slaking",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_289",
                 "sections": [
@@ -6074,7 +6074,7 @@
             {
                 "name": "Nincada",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_290",
                 "sections": [
@@ -6095,7 +6095,7 @@
             {
                 "name": "Ninjask",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_291",
                 "sections": [
@@ -6116,7 +6116,7 @@
             {
                 "name": "Shedinja",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_292",
                 "sections": [
@@ -6137,7 +6137,7 @@
             {
                 "name": "Whismur",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_293",
                 "sections": [
@@ -6158,7 +6158,7 @@
             {
                 "name": "Loudred",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_294",
                 "sections": [
@@ -6179,7 +6179,7 @@
             {
                 "name": "Exploud",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_295",
                 "sections": [
@@ -6200,7 +6200,7 @@
             {
                 "name": "Makuhita",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_296",
                 "sections": [
@@ -6221,7 +6221,7 @@
             {
                 "name": "Hariyama",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_297",
                 "sections": [
@@ -6242,7 +6242,7 @@
             {
                 "name": "Azurill",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_298",
                 "sections": [
@@ -6263,7 +6263,7 @@
             {
                 "name": "Nosepass",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_299",
                 "sections": [
@@ -6284,7 +6284,7 @@
             {
                 "name": "Skitty",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_300",
                 "sections": [
@@ -6305,7 +6305,7 @@
             {
                 "name": "Delcatty",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_301",
                 "sections": [
@@ -6326,7 +6326,7 @@
             {
                 "name": "Sableye",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_302",
                 "sections": [
@@ -6347,7 +6347,7 @@
             {
                 "name": "Mawile",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_303",
                 "sections": [
@@ -6368,7 +6368,7 @@
             {
                 "name": "Aron",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_304",
                 "sections": [
@@ -6389,7 +6389,7 @@
             {
                 "name": "Lairon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_305",
                 "sections": [
@@ -6410,7 +6410,7 @@
             {
                 "name": "Aggron",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_306",
                 "sections": [
@@ -6431,7 +6431,7 @@
             {
                 "name": "Meditite",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_307",
                 "sections": [
@@ -6452,7 +6452,7 @@
             {
                 "name": "Medicham",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_308",
                 "sections": [
@@ -6473,7 +6473,7 @@
             {
                 "name": "Electrike",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_309",
                 "sections": [
@@ -6494,7 +6494,7 @@
             {
                 "name": "Manectric",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_310",
                 "sections": [
@@ -6515,7 +6515,7 @@
             {
                 "name": "Plusle",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_311",
                 "sections": [
@@ -6536,7 +6536,7 @@
             {
                 "name": "Minun",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_312",
                 "sections": [
@@ -6557,7 +6557,7 @@
             {
                 "name": "Volbeat",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_313",
                 "sections": [
@@ -6578,7 +6578,7 @@
             {
                 "name": "Illumise",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_314",
                 "sections": [
@@ -6599,7 +6599,7 @@
             {
                 "name": "Roselia",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_315",
                 "sections": [
@@ -6620,7 +6620,7 @@
             {
                 "name": "Gulpin",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_316",
                 "sections": [
@@ -6641,7 +6641,7 @@
             {
                 "name": "Swalot",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_317",
                 "sections": [
@@ -6662,7 +6662,7 @@
             {
                 "name": "Carvanha",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_318",
                 "sections": [
@@ -6683,7 +6683,7 @@
             {
                 "name": "Sharpedo",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_319",
                 "sections": [
@@ -6704,7 +6704,7 @@
             {
                 "name": "Wailmer",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_320",
                 "sections": [
@@ -6725,7 +6725,7 @@
             {
                 "name": "Wailord",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_321",
                 "sections": [
@@ -6746,7 +6746,7 @@
             {
                 "name": "Numel",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_322",
                 "sections": [
@@ -6767,7 +6767,7 @@
             {
                 "name": "Camerupt",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_323",
                 "sections": [
@@ -6788,7 +6788,7 @@
             {
                 "name": "Torkoal",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_324",
                 "sections": [
@@ -6809,7 +6809,7 @@
             {
                 "name": "Spoink",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_325",
                 "sections": [
@@ -6830,7 +6830,7 @@
             {
                 "name": "Grumpig",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_326",
                 "sections": [
@@ -6851,7 +6851,7 @@
             {
                 "name": "Spinda",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_327",
                 "sections": [
@@ -6872,7 +6872,7 @@
             {
                 "name": "Trapinch",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_328",
                 "sections": [
@@ -6893,7 +6893,7 @@
             {
                 "name": "Vibrava",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_329",
                 "sections": [
@@ -6914,7 +6914,7 @@
             {
                 "name": "Flygon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_330",
                 "sections": [
@@ -6935,7 +6935,7 @@
             {
                 "name": "Cacnea",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_331",
                 "sections": [
@@ -6956,7 +6956,7 @@
             {
                 "name": "Cacturne",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_332",
                 "sections": [
@@ -6977,7 +6977,7 @@
             {
                 "name": "Swablu",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_333",
                 "sections": [
@@ -6998,7 +6998,7 @@
             {
                 "name": "Altaria",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_334",
                 "sections": [
@@ -7019,7 +7019,7 @@
             {
                 "name": "Zangoose",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_335",
                 "sections": [
@@ -7040,7 +7040,7 @@
             {
                 "name": "Seviper",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_336",
                 "sections": [
@@ -7061,7 +7061,7 @@
             {
                 "name": "Lunatone",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_337",
                 "sections": [
@@ -7082,7 +7082,7 @@
             {
                 "name": "Solrock",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_338",
                 "sections": [
@@ -7103,7 +7103,7 @@
             {
                 "name": "Barboach",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_339",
                 "sections": [
@@ -7124,7 +7124,7 @@
             {
                 "name": "Whiscash",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_340",
                 "sections": [
@@ -7145,7 +7145,7 @@
             {
                 "name": "Corphish",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_341",
                 "sections": [
@@ -7166,7 +7166,7 @@
             {
                 "name": "Crawdaunt",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_342",
                 "sections": [
@@ -7187,7 +7187,7 @@
             {
                 "name": "Baltoy",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_343",
                 "sections": [
@@ -7208,7 +7208,7 @@
             {
                 "name": "Claydol",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_344",
                 "sections": [
@@ -7229,7 +7229,7 @@
             {
                 "name": "Lileep",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_345",
                 "sections": [
@@ -7250,7 +7250,7 @@
             {
                 "name": "Cradily",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_346",
                 "sections": [
@@ -7271,7 +7271,7 @@
             {
                 "name": "Anorith",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_347",
                 "sections": [
@@ -7292,7 +7292,7 @@
             {
                 "name": "Armaldo",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_348",
                 "sections": [
@@ -7313,7 +7313,7 @@
             {
                 "name": "Feebas",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_349",
                 "sections": [
@@ -7334,7 +7334,7 @@
             {
                 "name": "Milotic",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_350",
                 "sections": [
@@ -7355,7 +7355,7 @@
             {
                 "name": "Castform",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_351",
                 "sections": [
@@ -7376,7 +7376,7 @@
             {
                 "name": "Kecleon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_352",
                 "sections": [
@@ -7397,7 +7397,7 @@
             {
                 "name": "Shuppet",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_353",
                 "sections": [
@@ -7418,7 +7418,7 @@
             {
                 "name": "Banette",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_354",
                 "sections": [
@@ -7439,7 +7439,7 @@
             {
                 "name": "Duskull",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_355",
                 "sections": [
@@ -7460,7 +7460,7 @@
             {
                 "name": "Dusclops",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_356",
                 "sections": [
@@ -7481,7 +7481,7 @@
             {
                 "name": "Tropius",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_357",
                 "sections": [
@@ -7502,7 +7502,7 @@
             {
                 "name": "Chimecho",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_358",
                 "sections": [
@@ -7523,7 +7523,7 @@
             {
                 "name": "Absol",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_359",
                 "sections": [
@@ -7544,7 +7544,7 @@
             {
                 "name": "Wynaut",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_360",
                 "sections": [
@@ -7565,7 +7565,7 @@
             {
                 "name": "Snorunt",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_361",
                 "sections": [
@@ -7586,7 +7586,7 @@
             {
                 "name": "Glalie",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_362",
                 "sections": [
@@ -7607,7 +7607,7 @@
             {
                 "name": "Spheal",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_363",
                 "sections": [
@@ -7628,7 +7628,7 @@
             {
                 "name": "Sealeo",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_364",
                 "sections": [
@@ -7649,7 +7649,7 @@
             {
                 "name": "Walrein",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_365",
                 "sections": [
@@ -7670,7 +7670,7 @@
             {
                 "name": "Clamperl",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_366",
                 "sections": [
@@ -7691,7 +7691,7 @@
             {
                 "name": "Huntail",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_367",
                 "sections": [
@@ -7712,7 +7712,7 @@
             {
                 "name": "Gorebyss",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_368",
                 "sections": [
@@ -7733,7 +7733,7 @@
             {
                 "name": "Relicanth",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_369",
                 "sections": [
@@ -7754,7 +7754,7 @@
             {
                 "name": "Luvdisc",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_370",
                 "sections": [
@@ -7775,7 +7775,7 @@
             {
                 "name": "Bagon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_371",
                 "sections": [
@@ -7796,7 +7796,7 @@
             {
                 "name": "Shelgon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_372",
                 "sections": [
@@ -7817,7 +7817,7 @@
             {
                 "name": "Salamence",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_373",
                 "sections": [
@@ -7838,7 +7838,7 @@
             {
                 "name": "Beldum",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_374",
                 "sections": [
@@ -7859,7 +7859,7 @@
             {
                 "name": "Metang",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_375",
                 "sections": [
@@ -7880,7 +7880,7 @@
             {
                 "name": "Metagross",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_376",
                 "sections": [
@@ -7901,7 +7901,7 @@
             {
                 "name": "Regirock",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_377",
                 "sections": [
@@ -7922,7 +7922,7 @@
             {
                 "name": "Regice",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_378",
                 "sections": [
@@ -7943,7 +7943,7 @@
             {
                 "name": "Registeel",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_379",
                 "sections": [
@@ -7964,7 +7964,7 @@
             {
                 "name": "Latias",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_380",
                 "sections": [
@@ -7985,7 +7985,7 @@
             {
                 "name": "Latios",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_381",
                 "sections": [
@@ -8006,7 +8006,7 @@
             {
                 "name": "Kyogre",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_382",
                 "sections": [
@@ -8027,7 +8027,7 @@
             {
                 "name": "Groudon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_383",
                 "sections": [
@@ -8048,7 +8048,7 @@
             {
                 "name": "Rayquaza",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_384",
                 "sections": [
@@ -8069,7 +8069,7 @@
             {
                 "name": "Jirachi",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_385",
                 "sections": [
@@ -8090,7 +8090,7 @@
             {
                 "name": "Deoxys",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_386",
                 "sections": [
@@ -8111,7 +8111,7 @@
             {
                 "name": "Turtwig",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_387",
                 "sections": [
@@ -8132,7 +8132,7 @@
             {
                 "name": "Grotle",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_388",
                 "sections": [
@@ -8153,7 +8153,7 @@
             {
                 "name": "Torterra",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_389",
                 "sections": [
@@ -8174,7 +8174,7 @@
             {
                 "name": "Chimchar",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_390",
                 "sections": [
@@ -8195,7 +8195,7 @@
             {
                 "name": "Monferno",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_391",
                 "sections": [
@@ -8216,7 +8216,7 @@
             {
                 "name": "Infernape",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_392",
                 "sections": [
@@ -8237,7 +8237,7 @@
             {
                 "name": "Piplup",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_393",
                 "sections": [
@@ -8258,7 +8258,7 @@
             {
                 "name": "Prinplup",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_394",
                 "sections": [
@@ -8279,7 +8279,7 @@
             {
                 "name": "Empoleon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_395",
                 "sections": [
@@ -8300,7 +8300,7 @@
             {
                 "name": "Starly",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_396",
                 "sections": [
@@ -8321,7 +8321,7 @@
             {
                 "name": "Staravia",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_397",
                 "sections": [
@@ -8342,7 +8342,7 @@
             {
                 "name": "Staraptor",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_398",
                 "sections": [
@@ -8363,7 +8363,7 @@
             {
                 "name": "Bidoof",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_399",
                 "sections": [
@@ -8384,7 +8384,7 @@
             {
                 "name": "Bibarel",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_400",
                 "sections": [
@@ -8405,7 +8405,7 @@
             {
                 "name": "Kricketot",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_401",
                 "sections": [
@@ -8426,7 +8426,7 @@
             {
                 "name": "Kricketune",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_402",
                 "sections": [
@@ -8447,7 +8447,7 @@
             {
                 "name": "Shinx",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_403",
                 "sections": [
@@ -8468,7 +8468,7 @@
             {
                 "name": "Luxio",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_404",
                 "sections": [
@@ -8489,7 +8489,7 @@
             {
                 "name": "Luxray",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_405",
                 "sections": [
@@ -8510,7 +8510,7 @@
             {
                 "name": "Budew",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_406",
                 "sections": [
@@ -8531,7 +8531,7 @@
             {
                 "name": "Roserade",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_407",
                 "sections": [
@@ -8552,7 +8552,7 @@
             {
                 "name": "Cranidos",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_408",
                 "sections": [
@@ -8573,7 +8573,7 @@
             {
                 "name": "Rampardos",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_409",
                 "sections": [
@@ -8594,7 +8594,7 @@
             {
                 "name": "Shieldon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_410",
                 "sections": [
@@ -8615,7 +8615,7 @@
             {
                 "name": "Bastiodon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_411",
                 "sections": [
@@ -8636,7 +8636,7 @@
             {
                 "name": "Burmy",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_412",
                 "sections": [
@@ -8657,7 +8657,7 @@
             {
                 "name": "Wormadam",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_413",
                 "sections": [
@@ -8678,7 +8678,7 @@
             {
                 "name": "Mothim",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_414",
                 "sections": [
@@ -8699,7 +8699,7 @@
             {
                 "name": "Combee",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_415",
                 "sections": [
@@ -8720,7 +8720,7 @@
             {
                 "name": "Vespiquen",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_416",
                 "sections": [
@@ -8741,7 +8741,7 @@
             {
                 "name": "Pachirisu",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_417",
                 "sections": [
@@ -8762,7 +8762,7 @@
             {
                 "name": "Buizel",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_418",
                 "sections": [
@@ -8783,7 +8783,7 @@
             {
                 "name": "Floatzel",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_419",
                 "sections": [
@@ -8804,7 +8804,7 @@
             {
                 "name": "Cherubi",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_420",
                 "sections": [
@@ -8825,7 +8825,7 @@
             {
                 "name": "Cherrim",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_421",
                 "sections": [
@@ -8846,7 +8846,7 @@
             {
                 "name": "Shellos",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_422",
                 "sections": [
@@ -8867,7 +8867,7 @@
             {
                 "name": "Gastrodon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_423",
                 "sections": [
@@ -8888,7 +8888,7 @@
             {
                 "name": "Ambipom",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_424",
                 "sections": [
@@ -8909,7 +8909,7 @@
             {
                 "name": "Drifloon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_425",
                 "sections": [
@@ -8930,7 +8930,7 @@
             {
                 "name": "Drifblim",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_426",
                 "sections": [
@@ -8951,7 +8951,7 @@
             {
                 "name": "Buneary",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_427",
                 "sections": [
@@ -8972,7 +8972,7 @@
             {
                 "name": "Lopunny",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_428",
                 "sections": [
@@ -8993,7 +8993,7 @@
             {
                 "name": "Mismagius",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_429",
                 "sections": [
@@ -9014,7 +9014,7 @@
             {
                 "name": "Honchkrow",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_430",
                 "sections": [
@@ -9035,7 +9035,7 @@
             {
                 "name": "Glameow",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_431",
                 "sections": [
@@ -9056,7 +9056,7 @@
             {
                 "name": "Purugly",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_432",
                 "sections": [
@@ -9077,7 +9077,7 @@
             {
                 "name": "Chingling",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_433",
                 "sections": [
@@ -9098,7 +9098,7 @@
             {
                 "name": "Stunky",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_434",
                 "sections": [
@@ -9119,7 +9119,7 @@
             {
                 "name": "Skuntank",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_435",
                 "sections": [
@@ -9140,7 +9140,7 @@
             {
                 "name": "Bronzor",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_436",
                 "sections": [
@@ -9161,7 +9161,7 @@
             {
                 "name": "Bronzong",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_437",
                 "sections": [
@@ -9182,7 +9182,7 @@
             {
                 "name": "Bonsly",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_438",
                 "sections": [
@@ -9203,7 +9203,7 @@
             {
                 "name": "Mime Jr.",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_439",
                 "sections": [
@@ -9224,7 +9224,7 @@
             {
                 "name": "Happiny",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_440",
                 "sections": [
@@ -9245,7 +9245,7 @@
             {
                 "name": "Chatot",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_441",
                 "sections": [
@@ -9266,7 +9266,7 @@
             {
                 "name": "Spiritomb",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_442",
                 "sections": [
@@ -9287,7 +9287,7 @@
             {
                 "name": "Gible",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_443",
                 "sections": [
@@ -9308,7 +9308,7 @@
             {
                 "name": "Gabite",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_444",
                 "sections": [
@@ -9329,7 +9329,7 @@
             {
                 "name": "Garchomp",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_445",
                 "sections": [
@@ -9350,7 +9350,7 @@
             {
                 "name": "Munchlax",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_446",
                 "sections": [
@@ -9371,7 +9371,7 @@
             {
                 "name": "Riolu",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_447",
                 "sections": [
@@ -9392,7 +9392,7 @@
             {
                 "name": "Lucario",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_448",
                 "sections": [
@@ -9413,7 +9413,7 @@
             {
                 "name": "Hippopotas",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_449",
                 "sections": [
@@ -9434,7 +9434,7 @@
             {
                 "name": "Hippowdon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_450",
                 "sections": [
@@ -9455,7 +9455,7 @@
             {
                 "name": "Skorupi",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_451",
                 "sections": [
@@ -9476,7 +9476,7 @@
             {
                 "name": "Drapion",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_452",
                 "sections": [
@@ -9497,7 +9497,7 @@
             {
                 "name": "Croagunk",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_453",
                 "sections": [
@@ -9518,7 +9518,7 @@
             {
                 "name": "Toxicroak",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_454",
                 "sections": [
@@ -9539,7 +9539,7 @@
             {
                 "name": "Carnivine",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_455",
                 "sections": [
@@ -9560,7 +9560,7 @@
             {
                 "name": "Finneon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_456",
                 "sections": [
@@ -9581,7 +9581,7 @@
             {
                 "name": "Lumineon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_457",
                 "sections": [
@@ -9602,7 +9602,7 @@
             {
                 "name": "Mantyke",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_458",
                 "sections": [
@@ -9623,7 +9623,7 @@
             {
                 "name": "Snover",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_459",
                 "sections": [
@@ -9644,7 +9644,7 @@
             {
                 "name": "Abomasnow",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_460",
                 "sections": [
@@ -9665,7 +9665,7 @@
             {
                 "name": "Weavile",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_461",
                 "sections": [
@@ -9686,7 +9686,7 @@
             {
                 "name": "Magnezone",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_462",
                 "sections": [
@@ -9707,7 +9707,7 @@
             {
                 "name": "Lickilicky",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_463",
                 "sections": [
@@ -9728,7 +9728,7 @@
             {
                 "name": "Rhyperior",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_464",
                 "sections": [
@@ -9749,7 +9749,7 @@
             {
                 "name": "Tangrowth",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_465",
                 "sections": [
@@ -9770,7 +9770,7 @@
             {
                 "name": "Electivire",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_466",
                 "sections": [
@@ -9791,7 +9791,7 @@
             {
                 "name": "Magmortar",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_467",
                 "sections": [
@@ -9812,7 +9812,7 @@
             {
                 "name": "Togekiss",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_468",
                 "sections": [
@@ -9833,7 +9833,7 @@
             {
                 "name": "Yanmega",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_469",
                 "sections": [
@@ -9854,7 +9854,7 @@
             {
                 "name": "Leafeon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_470",
                 "sections": [
@@ -9875,7 +9875,7 @@
             {
                 "name": "Glaceon",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_471",
                 "sections": [
@@ -9896,7 +9896,7 @@
             {
                 "name": "Gliscor",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_472",
                 "sections": [
@@ -9917,7 +9917,7 @@
             {
                 "name": "Mamoswine",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_473",
                 "sections": [
@@ -9938,7 +9938,7 @@
             {
                 "name": "Porygon-Z",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_474",
                 "sections": [
@@ -9959,7 +9959,7 @@
             {
                 "name": "Gallade",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_475",
                 "sections": [
@@ -9980,7 +9980,7 @@
             {
                 "name": "Probopass",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_476",
                 "sections": [
@@ -10001,7 +10001,7 @@
             {
                 "name": "Dusknoir",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_477",
                 "sections": [
@@ -10022,7 +10022,7 @@
             {
                 "name": "Froslass",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_478",
                 "sections": [
@@ -10043,7 +10043,7 @@
             {
                 "name": "Rotom",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_479",
                 "sections": [
@@ -10064,7 +10064,7 @@
             {
                 "name": "Uxie",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_480",
                 "sections": [
@@ -10085,7 +10085,7 @@
             {
                 "name": "Mesprit",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_481",
                 "sections": [
@@ -10106,7 +10106,7 @@
             {
                 "name": "Azelf",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_482",
                 "sections": [
@@ -10127,7 +10127,7 @@
             {
                 "name": "Dialga",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_483",
                 "sections": [
@@ -10148,7 +10148,7 @@
             {
                 "name": "Palkia",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_484",
                 "sections": [
@@ -10169,7 +10169,7 @@
             {
                 "name": "Heatran",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_485",
                 "sections": [
@@ -10190,7 +10190,7 @@
             {
                 "name": "Regigigas",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_486",
                 "sections": [
@@ -10211,7 +10211,7 @@
             {
                 "name": "Giratina",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_487",
                 "sections": [
@@ -10232,7 +10232,7 @@
             {
                 "name": "Cresselia",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_488",
                 "sections": [
@@ -10253,7 +10253,7 @@
             {
                 "name": "Phione",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_489",
                 "sections": [
@@ -10274,7 +10274,7 @@
             {
                 "name": "Manaphy",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_490",
                 "sections": [
@@ -10295,7 +10295,7 @@
             {
                 "name": "Darkrai",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_491",
                 "sections": [
@@ -10316,7 +10316,7 @@
             {
                 "name": "Shaymin",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_492",
                 "sections": [
@@ -10337,7 +10337,7 @@
             {
                 "name": "Arceus",
                 "access_rules": [
-                    "^$scout"
+                    "{}"
                 ],
                 "visibility_rules": "dexsanity_visibility_493",
                 "sections": [
