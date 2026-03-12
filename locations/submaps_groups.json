@@ -1,8 +1,8 @@
 [[
     {
         "name": "Submap-Groups",
-        "children":[
-          { "name": "Galactic Trouble", "map_locations": [ { "map": "jubilifecity", "x": 752, "y": 58}], "sections": [
+        "children": [
+{ "name": "Galactic Trouble", "map_locations": [ { "map": "jubilifecity", "x": 752, "y": 58}], "sections": [
 { "name": "Fashion Case from Overalls Man After Grunts Battle After Oreburgh Gym", "ref": "Jubilife City/Fashion Case from Overalls Man After Grunts Battle After Oreburgh Gym"},
 { "name": "Galactic Grunt 1", "ref": "Jubilife City/Galactic Grunt 1"},
 { "name": "Galactic Grunt 2", "ref": "Jubilife City/Galactic Grunt 2"}]},
