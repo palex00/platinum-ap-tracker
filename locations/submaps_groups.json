@@ -1,4 +1,8 @@
-[{ "name": "Galactic Trouble", "map_locations": [ { "map": "jubilifecity", "x": 752, "y": 58}], "sections": [
+[[
+    {
+        "name": "Submap-Groups",
+        "children":[
+          { "name": "Galactic Trouble", "map_locations": [ { "map": "jubilifecity", "x": 752, "y": 58}], "sections": [
 { "name": "Fashion Case from Overalls Man After Grunts Battle After Oreburgh Gym", "ref": "Jubilife City/Fashion Case from Overalls Man After Grunts Battle After Oreburgh Gym"},
 { "name": "Galactic Grunt 1", "ref": "Jubilife City/Galactic Grunt 1"},
 { "name": "Galactic Grunt 2", "ref": "Jubilife City/Galactic Grunt 2"}]},
@@ -689,3 +693,4 @@
 { "name": "Hidden Item on Left White Rock", "ref": "Mt. Coronet R216 Path/Hidden Item on Left White Rock"},
 { "name": "Iceberg Ruins - Item in Center", "ref": "Mt. Coronet R216 Path/Iceberg Ruins - Item in Center"},
 { "name": "Iceberg Ruins - Hidden Item Up and Left of Center", "ref": "Mt. Coronet R216 Path/Iceberg Ruins - Hidden Item Up and Left of Center"}]}]
+}]]
