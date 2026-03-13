@@ -241,6 +241,7 @@
         "name": "Bag",
         "type": "toggle",
         "img": "images/items/bag.png",
+        "initial_active_state": true,
         "codes": "bag"
     },
     {

@@ -78,7 +78,7 @@ function swarm_encounters()
 end
 
 function surf_encounters()
-    if surf == true then
+    if surf() == true then
         return AccessibilityLevel.Normal
     end
 end
