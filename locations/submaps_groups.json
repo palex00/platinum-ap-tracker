@@ -282,7 +282,7 @@
 { "name": "B3F - Item in Front of Iron Ruins", "ref": "Iron Island/B3F - Item in Front of Iron Ruins"},
 { "name": "Iron Ruins - Hidden Item on Left", "ref": "Iron Island/Iron Ruins - Hidden Item on Left"},
 { "name": "Iron Ruins - Item in Center", "ref": "Iron Island/Iron Ruins - Item in Center"}]},
-{ "name": "Oreburgh Gate", "map_locations": [ { "map": "oreburghcity", "x": 25, "y": 182}], "sections": [
+{ "name": "Oreburgh Gate", "map_locations": [ { "map": "oreburghcity", "x": 25, "y": 182}, {"map": "route203", "x": 888, "y": 182}], "sections": [
 { "name": "HM06 from Hiker", "ref": "Oreburgh Gate/HM06 from Hiker"},
 { "name": "1F - Camper Curtis", "ref": "Oreburgh Gate/1F - Camper Curtis"},
 { "name": "1F - Picnicker Diana", "ref": "Oreburgh Gate/1F - Picnicker Diana"},
@@ -434,16 +434,16 @@
 { "name": "B3F - Hidden Item on Rock Between Staircases", "ref": "Snowpoint Temple/B3F - Hidden Item on Rock Between Staircases"},
 { "name": "B3F - TM94 (Overworld Item)", "ref": "Snowpoint Temple/B3F - TM94 (Overworld Item)"},
 { "name": "B4F - Item Past Ice Tile", "ref": "Snowpoint Temple/B4F - Item Past Ice Tile"}]},
-{ "name": "Maniac Tunnel", "map_locations": [ { "map": "route214north", "x": 120, "y": 468}], "sections": [
+{ "name": "Maniac Tunnel", "map_locations": [ { "map": "route214north", "x": 120, "y": 468}, {"map": "route214north_barriers", "x": 128, "y": 476}], "sections": [
 { "name": "Item Next to Entrance", "ref": "Maniac Tunnel/Item Next to Entrance"},
 { "name": "Unown File !", "ref": "Solaceon Ruins/Unown File !"},
 { "name": "Unown File ?", "ref": "Solaceon Ruins/Unown File ?"}]},
-{ "name": "Pokemon Mansion", "map_locations": [ { "map": "route212north", "x": 376, "y": 558}], "sections": [
+{ "name": "Pokemon Mansion", "map_locations": [ { "map": "route212north", "x": 376, "y": 558}, {"map": "route212north_barriers", "x": 384, "y": 566}], "sections": [
 { "name": "Hidden Item in East Bedroom Trash", "ref": "Pokemon Mansion/Hidden Item in East Bedroom Trash"},
 { "name": "Item in Mr. Backlots Office", "ref": "Pokemon Mansion/Item in Mr. Backlots Office"},
 { "name": "Item in West Bedroom", "ref": "Pokemon Mansion/Item in West Bedroom"},
 { "name": "Soothe Bell from Maid in Center Bedroom", "ref": "Pokemon Mansion/Soothe Bell from Maid in Center Bedroom"}]},
-{ "name": "Ravaged Path", "map_locations": [ { "map": "route204south", "x": 168, "y": 54}], "sections": [
+{ "name": "Ravaged Path", "map_locations": [ { "map": "route204south", "x": 168, "y": 54}, {"map": "route204north", "x": 312, "y": 454}], "sections": [
 { "name": "First Item", "ref": "Ravaged Path/First Item"},
 { "name": "Item at Waters End", "ref": "Ravaged Path/Item at Waters End"},
 { "name": "Item Behind Long Boulder Trail", "ref": "Ravaged Path/Item Behind Long Boulder Trail"},
@@ -550,7 +550,7 @@
 { "name": "1F - Hidden Item in Center Boulder", "ref": "Wayward Cave/1F - Hidden Item in Center Boulder"},
 { "name": "1F - Hidden Item in Corner With Breakable Rock", "ref": "Wayward Cave/1F - Hidden Item in Corner With Breakable Rock"},
 { "name": "1F - Hidden Item in Southeast Corner", "ref": "Wayward Cave/1F - Hidden Item in Southeast Corner"}]},
-{ "name": "Eterna Forest", "map_locations": [ { "map": "route205north", "x": 40, "y": 204}], "sections": [
+{ "name": "Eterna Forest", "map_locations": [ { "map": "route205north", "x": 40, "y": 204}, {"map": "route205center", "x": 238, "y": 76}], "sections": [
 { "name": "Bug Catcher Donald", "ref": "Eterna Forest/Bug Catcher Donald"},
 { "name": "Bug Catcher Jack", "ref": "Eterna Forest/Bug Catcher Jack"},
 { "name": "Bug Catcher Phillip", "ref": "Eterna Forest/Bug Catcher Phillip"},
@@ -610,9 +610,6 @@
 { "name": "Black Belt Jarrett", "ref": "Stark Mountain/Black Belt Jarrett"},
 { "name": "Veteran Harlan", "ref": "Stark Mountain/Veteran Harlan"},
 { "name": "Cavern - Defeat Team Galactic in Stark Mountain (Event)", "ref": "Stark Mountain/Cavern - Defeat Team Galactic in Stark Mountain (Event)"}]},
-{"name": "Pastoria City",  "map_locations": [{"map": "pastoriacity", "x": 216, "y": 388}], "sections": [
-{"ref": "Pastoria City/Rival", "name": "Rival"},
-{"ref": "Pastoria City/Marsh Pass from Wake (After Defeating Gym)", "name": "Marsh Pass from Wake (After Defeating Gym)"}]},
 { "name": "Lake Verity", "map_locations": [ { "map": "veritylakefront", "x": 270, "y": 100}], "sections": [
 { "name": "Lake - Item in Southwest Grass Patch", "ref": "Lake Verity/Lake - Item in Southwest Grass Patch"},
 { "name": "Lake - Galactic Grunt 1", "ref": "Lake Verity/Lake - Galactic Grunt 1"},
@@ -631,6 +628,69 @@
 { "name": "Galactic Grunt 3", "ref": "Lake Valor/Galactic Grunt 3"},
 { "name": "Hidden Item By Pile of Magikarp During Saturn Takeover", "ref": "Lake Valor/Hidden Item By Pile of Magikarp During Saturn Takeover"},
 { "name": "Cavern - Commander Saturn", "ref": "Lake Valor/Cavern - Commander Saturn"},
-{ "name": "Cavern - Defeat Saturn (Event)", "ref": "Lake Valor/Cavern - Defeat Saturn (Event)"}]}
-]}]]
-
+{ "name": "Cavern - Defeat Saturn (Event)", "ref": "Lake Valor/Cavern - Defeat Saturn (Event)"}]},
+{ "name": "Pastoria City", "map_locations": [ { "map": "pastoriacity", "x": 216, "y": 388}], "sections": [
+{ "name": "Rival", "ref": "Pastoria City/Rival"},
+{ "name": "Marsh Pass from Wake (After Defeating Gym)", "ref": "Pastoria City/Marsh Pass from Wake (After Defeating Gym)"}]},
+{ "name": "Floaroma Meadow", "map_locations": [ { "map": "fuegoironworksoutside", "x": 336, "y": 614}], "sections": [
+{ "name": "Top Left Item Ball", "ref": "Floaroma Meadow/Top Left Item Ball"},
+{ "name": "Right Most Item Ball", "ref": "Floaroma Meadow/Right Most Item Ball"},
+{ "name": "Middle Item Ball", "ref": "Floaroma Meadow/Middle Item Ball"},
+{ "name": "Bottom Left Item Ball", "ref": "Floaroma Meadow/Bottom Left Item Ball"},
+{ "name": "Hidden Item Above House", "ref": "Floaroma Meadow/Hidden Item Above House"},
+{ "name": "Hidden Item on Red Flowers near Middle Top", "ref": "Floaroma Meadow/Hidden Item on Red Flowers near Middle Top"},
+{ "name": "Hidden Item next to Bottom Left Item Ball", "ref": "Floaroma Meadow/Hidden Item next to Bottom Left Item Ball"},
+{ "name": "Hidden Item in Middle", "ref": "Floaroma Meadow/Hidden Item in Middle"},
+{ "name": "Hidden Item between Yellow and Blue Flowers Above Hidden Item Above House", "ref": "Floaroma Meadow/Hidden Item between Yellow and Blue Flowers Above Hidden Item Above House"},
+{ "name": "Second most Right Side Hidden Item", "ref": "Floaroma Meadow/Second most Right Side Hidden Item"},
+{ "name": "Hidden Item in Middle Left Red Flowers", "ref": "Floaroma Meadow/Hidden Item in Middle Left Red Flowers"},
+{ "name": "Right Most Hidden Item", "ref": "Floaroma Meadow/Right Most Hidden Item"},
+{ "name": "Hidden Item Close to Top Left Item Ball", "ref": "Floaroma Meadow/Hidden Item Close to Top Left Item Ball"},
+{ "name": "Hidden Item Middle of Bottom Left 3 Path Split", "ref": "Floaroma Meadow/Hidden Item Middle of Bottom Left 3 Path Split"},
+{ "name": "Top Most Hidden Item", "ref": "Floaroma Meadow/Top Most Hidden Item"}]},
+{ "name": "Wayward Cave Secret", "map_locations": [ { "map": "route206", "x": 130, "y": 588}], "sections": [
+{ "name": "B1F - Item Between Bike Bridges", "ref": "Wayward Cave/B1F - Item Between Bike Bridges"},
+{ "name": "B1F - Item After Four Bike Jumps", "ref": "Wayward Cave/B1F - Item After Four Bike Jumps"},
+{ "name": "B1F - Item Next to Bike Ramp on Ledges", "ref": "Wayward Cave/B1F - Item Next to Bike Ramp on Ledges"},
+{ "name": "B1F - Hidden Item Against Northwest Wall", "ref": "Wayward Cave/B1F - Hidden Item Against Northwest Wall"},
+{ "name": "B1F - Hidden Item in Rock Before First Bike Slope", "ref": "Wayward Cave/B1F - Hidden Item in Rock Before First Bike Slope"},
+{ "name": "Final Room - Item", "ref": "Wayward Cave/Final Room - Item"}]},
+{ "name": "Mt. Coronet South", "map_locations": [ { "map": "route207", "x": 873, "y": 165}, {"map": "route208", "x": 119, "y": 373}], "sections": [
+{ "name": "Item Across Upper Pond", "ref": "Mt. Coronet 1F South/Item Across Upper Pond"},
+{ "name": "Item Across Lower Pond", "ref": "Mt. Coronet 1F South/Item Across Lower Pond"},
+{ "name": "Hidden Item on Center Boulder", "ref": "Mt. Coronet 1F South/Hidden Item on Center Boulder"},
+{ "name": "Hidden Item in Boulder in Top Left", "ref": "Mt. Coronet 1F South/Hidden Item in Boulder in Top Left"},
+{ "name": "Hidden Item in Bottom Left", "ref": "Mt. Coronet 1F South/Hidden Item in Bottom Left"},
+{ "name": "2F - Item in Top Left", "ref": "Mt. Coronet 2F-3F/2F - Item in Top Left"},
+{ "name": "2F - Item in Center", "ref": "Mt. Coronet 2F-3F/2F - Item in Center"},
+{ "name": "2F - Item in Bottom Left Path", "ref": "Mt. Coronet 2F-3F/2F - Item in Bottom Left Path"},
+{ "name": "2F - Item Between White Rocks", "ref": "Mt. Coronet 2F-3F/2F - Item Between White Rocks"},
+{ "name": "2F - Hidden Item on Rock Down East Staircase After Mural", "ref": "Mt. Coronet 2F-3F/2F - Hidden Item on Rock Down East Staircase After Mural"},
+{ "name": "2F - Hidden Item on Center Boulder", "ref": "Mt. Coronet 2F-3F/2F - Hidden Item on Center Boulder"},
+{ "name": "2F - Gift from Looker", "ref": "Mt. Coronet 2F-3F/2F - Gift from Looker"},
+{ "name": "3F - Hidden Item in Top Left in Room After Mural", "ref": "Mt. Coronet 2F-3F/3F - Hidden Item in Top Left in Room After Mural"},
+{ "name": "3F - Galactic Grunt 1", "ref": "Mt. Coronet 2F-3F/3F - Galactic Grunt 1"},
+{ "name": "3F - Galactic Grunt 2", "ref": "Mt. Coronet 2F-3F/3F - Galactic Grunt 2"}]},
+{ "name": "Mt. Coronet North", "map_locations": [ { "map": "route211west", "x": 473, "y": 356}, {"map": "route211east", "x": 39, "y": 309}], "sections": [
+{ "name": "Item Behind Two Breakable Rocks", "ref": "Mt. Coronet 1F North/Item Behind Two Breakable Rocks"},
+{ "name": "Item in Corner Above Ledge", "ref": "Mt. Coronet 1F North/Item in Corner Above Ledge"},
+{ "name": "Item Below East Exit", "ref": "Mt. Coronet 1F North/Item Below East Exit"},
+{ "name": "Item in Center", "ref": "Mt. Coronet 1F North/Item in Center"},
+{ "name": "Hidden Item on Boulder Before Stairs", "ref": "Mt. Coronet 1F North/Hidden Item on Boulder Before Stairs"},
+{ "name": "Hidden Item on Right Boulder", "ref": "Mt. Coronet 1F North/Hidden Item on Right Boulder"},
+{ "name": "Hidden Item on Center Boulder", "ref": "Mt. Coronet 1F North/Hidden Item on Center Boulder"},
+{ "name": "Hidden Item on Left Boulder", "ref": "Mt. Coronet 1F North/Hidden Item on Left Boulder"},
+{ "name": "Item Behind Boulder", "ref": "Mt. Coronet B1F/Item Behind Boulder"},
+{ "name": "Item Behind West Boulder", "ref": "Mt. Coronet B1F/Item Behind West Boulder"},
+{ "name": "Item in Middle of Lake", "ref": "Mt. Coronet B1F/Item in Middle of Lake"},
+{ "name": "Item in Northeast Corner of Lake", "ref": "Mt. Coronet B1F/Item in Northeast Corner of Lake"},
+{ "name": "Item Against East Wall", "ref": "Mt. Coronet B1F/Item Against East Wall"},
+{ "name": "Item in SW Corner", "ref": "Mt. Coronet B1F/Item in SW Corner"},
+{ "name": "Hidden Item Between White Rocks in North", "ref": "Mt. Coronet B1F/Hidden Item Between White Rocks in North"},
+{ "name": "Hidden Item in Front of North Stairs", "ref": "Mt. Coronet B1F/Hidden Item in Front of North Stairs"},
+{ "name": "Hidden Item Behind Breakable Rock West of Lake", "ref": "Mt. Coronet B1F/Hidden Item Behind Breakable Rock West of Lake"},
+{ "name": "Hidden Item in SW White Rock", "ref": "Mt. Coronet B1F/Hidden Item in SW White Rock"},
+{ "name": "Hidden Item on Left White Rock", "ref": "Mt. Coronet R216 Path/Hidden Item on Left White Rock"},
+{ "name": "Iceberg Ruins - Item in Center", "ref": "Mt. Coronet R216 Path/Iceberg Ruins - Item in Center"},
+{ "name": "Iceberg Ruins - Hidden Item Up and Left of Center", "ref": "Mt. Coronet R216 Path/Iceberg Ruins - Hidden Item Up and Left of Center"}]}]
+}]]
