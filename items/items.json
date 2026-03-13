@@ -609,7 +609,7 @@
         "max_quantity": 493,
         "increment": 1,
         "initial_quantity": 0,
-        "img": "images/items/coupons.png",
+        "img": "images/items/caught_nat.png",
         "overlay_background": "#000000",
         "codes": "num_caught"
     },
@@ -620,7 +620,7 @@
         "max_quantity": 493,
         "increment": 1,
         "initial_quantity": 0,
-        "img": "images/items/coupons.png",
+        "img": "images/items/seen_nat.png",
         "overlay_background": "#000000",
         "codes": "num_seen_nat"
     },
@@ -631,7 +631,7 @@
         "max_quantity": 210,
         "increment": 1,
         "initial_quantity": 0,
-        "img": "images/items/coupons.png",
+        "img": "images/items/seen_reg.png",
         "overlay_background": "#000000",
         "codes": "num_seen_reg"
     }
