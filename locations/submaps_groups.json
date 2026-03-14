@@ -135,8 +135,10 @@
 { "name": "Random Berry", "ref": "Route 208/Random Berry"}]},
 { "name": "Galactic Boss Cyrus", "map_locations": [ { "map": "galactichqcyrusoffice", "x": 128, "y": 117}], "sections": [
 { "name": "Master Ball from Cyrus", "ref": "Galactic HQ/Master Ball from Cyrus"},
-{ "name": "4F - Galactic Boss Cyrus", "ref": "Galactic HQ/4F - Galactic Boss Cyrus"},
-{ "name": "Defeat Cyrus (Event)", "ref": "Galactic HQ/Defeat Cyrus (Event)"}]},
+{ "name": "4F - Galactic Boss Cyrus", "ref": "Galactic HQ/4F - Galactic Boss Cyrus"}]},
+{ "name": "Commander Saturn", "map_locations": [ {"map": "galactichqmachineroom", "x": 576, "y": 72}], "sections": [
+{ "name": "Commander Saturn", "ref": "Galactic HQ/Commander Saturn"},
+{ "name": "Release the Lake Guardians (Event)", "ref": "Galactic HQ/Release the Lake Guardians (Event)"}]},
 { "name": "Iron Island Grunts", "map_locations": [ { "map": "ironislandb2fleft", "x": 318, "y": 518}], "sections": [
 { "name": "Galactic Grunt 1", "ref": "Iron Island/Galactic Grunt 1"},
 { "name": "Galactic Grunt 2", "ref": "Iron Island/Galactic Grunt 2"}]},
@@ -400,6 +402,7 @@
 { "name": "Side Cave B1F - NW Strength Boulders Item 1", "ref": "Victory Road/Side Cave B1F - NW Strength Boulders Item 1"},
 { "name": "Side Cave B1F - NW Strength Boulders Item 2", "ref": "Victory Road/Side Cave B1F - NW Strength Boulders Item 2"}]},
 { "name": "Great Marsh", "map_locations": [ { "map": "pastoriacity", "x": 560, "y": 151}], "sections": [
+{ "name": "Lobby - Matchup Checker App from Cowgirl", "ref": "Great Marsh/Lobby - Matchup Checker App from Cowgirl"},
 { "name": "Area 1 - Hidden Item in Northwest Corner of Deep Mud", "ref": "Great Marsh/Area 1 - Hidden Item in Northwest Corner of Deep Mud"},
 { "name": "Area 1 - Lower Item Between Mud Patches", "ref": "Great Marsh/Area 1 - Lower Item Between Mud Patches"},
 { "name": "Area 1 - Upper Item Between Mud Patches", "ref": "Great Marsh/Area 1 - Upper Item Between Mud Patches"},
@@ -413,8 +416,7 @@
 { "name": "Area 5 - Item in Southwest Area", "ref": "Great Marsh/Area 5 - Item in Southwest Area"},
 { "name": "Area 6 - Hidden Item in Southeast Deep Mud", "ref": "Great Marsh/Area 6 - Hidden Item in Southeast Deep Mud"},
 { "name": "Area 6 - Item Below Bug Catcher", "ref": "Great Marsh/Area 6 - Item Below Bug Catcher"},
-{ "name": "Area 6 - Item Below Pond", "ref": "Great Marsh/Area 6 - Item Below Pond"},
-{ "name": "Lobby - Matchup Checker App from Cowgirl", "ref": "Great Marsh/Lobby - Matchup Checker App from Cowgirl"}]},
+{ "name": "Area 6 - Item Below Pond", "ref": "Great Marsh/Area 6 - Item Below Pond"}]},
 { "name": "Lost Tower", "map_locations": [ { "map": "route209north", "x": 392, "y": 162}], "sections": [
 { "name": "2F - Hidden Item in Southeast Headstone", "ref": "Lost Tower/2F - Hidden Item in Southeast Headstone"},
 { "name": "2F - Item in Front of Youngster", "ref": "Lost Tower/2F - Item in Front of Youngster"},

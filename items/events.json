@@ -42,7 +42,7 @@
         "codes":"event_defeat_maylene"
     },
     {
-        "name": "Defeat Cyrus at Galactic HQ",
+        "name": "Release the Lake Guardians at Galactic HQ",
         "type": "toggle",
         "img": "/images/events/event_galactic_hq_defeat_cyrus.png",
         "img_mods": "",
