@@ -129,7 +129,7 @@
 { "name": "Night Encounters", "ref": "Lost Tower/4F - Night Encounters" }]},
 { "name": "5F - Encounters", "map_locations": [ { "map": "losttower5f", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Lost Tower/5F - Land Encounters" },
 { "name": "Night Encounters", "ref": "Lost Tower/5F - Night Encounters" }]},
-{ "name": "Encounters​​​​​​​​​", "map_locations": [ { "map": "maniactunnel1", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Maniac Tunnel/Land Encounters" }]},
+{ "name": "Encounters​​​​​​​​​", "map_locations": [ { "map": "maniactunnel1", "size": 24, "x": 16, "y": 16, "shape": "diamond" }, { "map": "maniactunnel2", "size": 24, "x": 16, "y": 16, "shape": "diamond" }, { "map": "maniactunnel3", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Maniac Tunnel/Land Encounters" }]},
 { "name": "Encounters​​​​​​​​​​", "map_locations": [ { "map": "mtcoronetnorth1f", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Mt. Coronet 1F North/Land Encounters" }]},
 { "name": "Encounters​​​​​​​​​​​", "map_locations": [ { "map": "mtcoronetsouth1f", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Mt. Coronet 1F South/Land Encounters" },
 { "name": "Surf Encounters", "ref": "Mt. Coronet 1F South/Surf Encounters" },
