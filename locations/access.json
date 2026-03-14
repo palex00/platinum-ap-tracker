@@ -2567,7 +2567,7 @@
     {
         "name": "sendoff_spring",
         "access_rules": [
-            "@distortion_world",
+            "@distortion_world, event_clear_distortion",
             "@spring_path",
             "@turnback_cave_entrance"
         ]
