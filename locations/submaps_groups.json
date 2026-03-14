@@ -135,8 +135,8 @@
 { "name": "Random Berry", "ref": "Route 208/Random Berry"}]},
 { "name": "Galactic Boss Cyrus", "map_locations": [ { "map": "galactichqcyrusoffice", "x": 128, "y": 117}], "sections": [
 { "name": "Master Ball from Cyrus", "ref": "Galactic HQ/Master Ball from Cyrus"},
-{ "name": "4F - Galactic Boss Cyrus", "ref": "Galactic HQ/4F - Galactic Boss Cyrus"}]},
-{ "name": "Commander Saturn", "map_locations": [ {"map": "galactichqmachineroom", "x": 576, "y": 72}], "sections": [
+{ "name": "Galactic Boss Cyrus", "ref": "Galactic HQ/4F - Galactic Boss Cyrus"}]},
+{ "name": "Secret Lab", "map_locations": [ {"map": "galactichqmachineroom", "x": 576, "y": 72}], "sections": [
 { "name": "Commander Saturn", "ref": "Galactic HQ/Commander Saturn"},
 { "name": "Release the Lake Guardians (Event)", "ref": "Galactic HQ/Release the Lake Guardians (Event)"}]},
 { "name": "Iron Island Grunts", "map_locations": [ { "map": "ironislandb2fleft", "x": 318, "y": 518}], "sections": [
