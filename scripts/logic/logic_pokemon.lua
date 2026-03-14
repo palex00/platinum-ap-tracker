@@ -93,10 +93,12 @@ function roamer_encounters()
 end
 
 function feebas_fishing_encounters()
-    if has("pokesonar") and has("poketch") and has("dowsingmachine") then
-        return AccessibilityLevel.Normal
-    else
+    if has("bag") and (has("oldrod") or has("goodrod") or has("superrod")) then
         return AccessibilityLevel.SequenceBreak
+    elseif has("bag") and (has("oldrod") or has("goodrod") or has("superrod")) and has("poketch") and has("dowsingmachine") and has("pokesonar") and has("hm03surf") and (has("free_surf") or has("fenbadge")) then
+        return AccessibilityLevel.Normal
+	else
+        return AccessibilityLevel.None
     end
 end
 
