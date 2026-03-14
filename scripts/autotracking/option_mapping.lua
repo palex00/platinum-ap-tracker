@@ -39,5 +39,5 @@ HM_CODES = {
     defog = "hm05defog",
     rock_smash = "hm06rocksmash",
     waterfall = "hm07waterfall",
-    rock_climb = "hm08rockclimb",
+    rock_climb = "hm08rockclimb"
 }
