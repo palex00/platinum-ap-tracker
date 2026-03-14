@@ -4470,7 +4470,7 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
-                    "@lake_verity, ^$land_encounters"
+                    "@verity_lakefront, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -4482,7 +4482,7 @@
                 "chest_unopened_img": "/images/locations/encounters/radar.png",
                 "chest_opened_img": "/images/locations/encounters/radar_cleared.png",
                 "access_rules": [
-                    "@lake_verity, ^$radar_encounters"
+                    "@verity_lakefront, ^$radar_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -4494,7 +4494,7 @@
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
                 "access_rules": [
-                    "@lake_verity, ^$ruby_encounters"
+                    "@verity_lakefront, ^$ruby_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -4506,7 +4506,7 @@
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
                 "access_rules": [
-                    "@lake_verity, ^$sapphire_encounters"
+                    "@verity_lakefront, ^$sapphire_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
