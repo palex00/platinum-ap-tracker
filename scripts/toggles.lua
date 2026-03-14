@@ -31,11 +31,11 @@ function toggle_splitmap()
 end
 
 function toggle_pastoriabarriers()
-    if has("opt_pastoria_barriers_off") then
-        Tracker:AddMaps("maps/route212north.json")
-        Tracker:AddMaps("maps/route214north.json")
-    elseif has("opt_pastoria_barriers_on") then
+    if has("opt_pastoria_barriers_on") then
         Tracker:AddMaps("maps/route212north_barriers.json")
         Tracker:AddMaps("maps/route214north_barriers.json")
+    elseif has("opt_pastoria_barriers_off") then
+        Tracker:AddMaps("maps/route212north.json")
+        Tracker:AddMaps("maps/route214north.json")
 	end
 end

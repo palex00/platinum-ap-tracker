@@ -21,8 +21,8 @@ ScriptHost:LoadScript("scripts/custom_items.lua")
 -- Maps
 Tracker:AddMaps("maps/errors.json")
 Tracker:AddMaps("maps/maps.json")
-Tracker:AddMaps("maps/route212north.json")
-Tracker:AddMaps("maps/route214north.json")
+Tracker:AddMaps("maps/route212north_barriers.json")
+Tracker:AddMaps("maps/route214north_barriers.json")
 Tracker:AddMaps("maps/pokedex.json")
 
 -- Layout
