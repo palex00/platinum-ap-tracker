@@ -232,6 +232,16 @@
                 "item_count": 1
             },
             {
+                "name": "Area 3 - Hidden Item in Center of East Mud Puddle\u200b",
+                "access_rules": [
+                    "@great_marsh_3, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "leafstone"
+            },
+            {
                 "name": "Area 4 - Item Above Bug Catcher",
                 "access_rules": [
                     "@great_marsh_4"
@@ -841,6 +851,16 @@
                 "item_count": 1
             },
             {
+                "name": "Item on SW Hill\u200b",
+                "access_rules": [
+                    "@route_225, $rock_climb"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "razorfang"
+            },
+            {
                 "name": "Item Behind Cut Trees Near Trainer Trio",
                 "access_rules": [
                     "@route_225, $cut"
@@ -881,6 +901,16 @@
                 "item_count": 1
             },
             {
+                "name": "Item Across Lake Above House\u200b",
+                "access_rules": [
+                    "@route_225, $surf"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "dubiousdisc"
+            },
+            {
                 "name": "Item on Northern Rock Climb Ledge",
                 "access_rules": [
                     "@route_225, $rock_climb"
@@ -889,6 +919,16 @@
                     "show_items, opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Item on Northern Rock Climb Ledge\u200b",
+                "access_rules": [
+                    "@route_225, $rock_climb"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "dawnstone"
             },
             {
                 "name": "Item West of Bridge Section",
@@ -945,6 +985,16 @@
                     "show_items, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Hidden Item in Corner of Grass Below House\u200b",
+                "access_rules": [
+                    "@route_225, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "leafstone"
             },
             {
                 "name": "Hidden Item in Center of Northernmost Grass Patch",
@@ -1257,6 +1307,16 @@
                 "item_count": 1
             },
             {
+                "name": "1F - Item Down Rock-Filled Path\u200b",
+                "access_rules": [
+                    "@victory_road_1f"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "razorclaw"
+            },
+            {
                 "name": "1F - Item in Front of Foggy Basement Entrance",
                 "access_rules": [
                     "@victory_road_1f"
@@ -1558,6 +1618,16 @@
                     "show_items, opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Side Cave B1F - NW Strength Boulders Item 2\u200b",
+                "access_rules": [
+                    "@victory_road_1f_room_2"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "duskstone"
             },
             {
                 "name": "Side Cave B1F - Item in Bottom Right Corner of SW Pool",
@@ -2191,6 +2261,16 @@
                 "item_count": 1
             },
             {
+                "name": "Item on Waters Edge South of Victory Road Exit\u200b",
+                "access_rules": [
+                    "@route_224"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "razorclaw"
+            },
+            {
                 "name": "Item in NW Corner Between Two Psychics",
                 "access_rules": [
                     "@route_224"
@@ -2492,6 +2572,16 @@
                     "show_items, opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Item in Grass Outside Victory Road\u200b",
+                "access_rules": [
+                    "@route_224"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "upgrade"
             },
             {
                 "name": "Dragon Tamer Hayden",
@@ -3142,6 +3232,17 @@
                 "item_count": 1
             },
             {
+                "name": "Item in Northernmost Pit\u200b",
+                "access_rules": [
+                    "@route_228, bag, bicycle",
+                    "@route_228, bag, $fly"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "protector"
+            },
+            {
                 "name": "Item Northeast of Move Tutors House",
                 "access_rules": [
                     "@route_228"
@@ -3160,6 +3261,16 @@
                     "show_items, opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Item Across Bike Rail Above Vents\u200b",
+                "access_rules": [
+                    "@route_228, bicycle, bag"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "shinystone"
             },
             {
                 "name": "Item Behind Breakable Rocks",
@@ -3511,6 +3622,16 @@
                 "item_count": 1
             },
             {
+                "name": "Hidden Item on Island East Side Behind Breakable Rock\u200b",
+                "access_rules": [
+                    "@route_230, $rock_smash, $surf, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "waterstone"
+            },
+            {
                 "name": "Swimmer Glenn",
                 "access_rules": [
                     "@route_230, $surf"
@@ -3714,6 +3835,16 @@
                 "item_count": 1
             },
             {
+                "name": "Hidden Item Above Shrine Left Stairs\u200b",
+                "access_rules": [
+                    "@celestic_town, oldcharm, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "kingsrock"
+            },
+            {
                 "name": "Analog Watch App from Black Belt in Lower Left House",
                 "access_rules": [
                     "@celestic_town_southwest_house"
@@ -3883,6 +4014,16 @@
                 "item_count": 1
             },
             {
+                "name": "Item in Center Behind Cut Tree\u200b",
+                "access_rules": [
+                    "@route_229, $cut"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "reapercloth"
+            },
+            {
                 "name": "Item in NE Corner",
                 "access_rules": [
                     "@route_229"
@@ -3913,6 +4054,16 @@
                     "show_items, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Hidden Item Southwest of Pond\u200b",
+                "access_rules": [
+                    "@route_229, $cut, $surf, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "thunderstone"
             },
             {
                 "name": "First Gift from Nugget Man",
@@ -4229,6 +4380,16 @@
                     "show_items, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Hidden Item in Pond\u200b",
+                "access_rules": [
+                    "@twinleaf_town, $surf, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "oddkeystone"
             },
             {
                 "name": "Bag in Player's Bedroom",
@@ -4859,6 +5020,16 @@
                 "item_count": 1
             },
             {
+                "name": "Byron's house - Metal Coat from Byron\u200b",
+                "access_rules": [
+                    "@iron_island_house, national_dex"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_npcgifts_off"
+                ],
+                "hosted_item": "metalcoat"
+            },
+            {
                 "name": "B1F Left - Item in Center",
                 "access_rules": [
                     "@iron_island_b1f_left_room"
@@ -4867,6 +5038,16 @@
                     "show_items, opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "B1F Left - Item in Center\u200b",
+                "access_rules": [
+                    "@iron_island_b1f_left_room"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "protector"
             },
             {
                 "name": "B1F Left - Item on Raised Walkway",
@@ -5213,6 +5394,16 @@
                 "item_count": 1
             },
             {
+                "name": "B3F - Item in Front of Iron Ruins\u200b",
+                "access_rules": [
+                    "@iron_island_b3f"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "shinystone"
+            },
+            {
                 "name": "Iron Ruins - Item in Center",
                 "access_rules": [
                     "@iron_island_iron_ruins"
@@ -5221,6 +5412,16 @@
                     "show_items, opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Iron Ruins - Item in Center\u200b",
+                "access_rules": [
+                    "@iron_island_iron_ruins"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "metalcoat"
             },
             {
                 "name": "Iron Ruins - Hidden Item on Left",
@@ -5693,6 +5894,16 @@
                     "show_items, opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Item on Small Island Above Swimmers\u200b",
+                "access_rules": [
+                    "@route_213, $surf"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "waterstone"
             },
             {
                 "name": "Item By Grass After Rock Climb Slope",
@@ -7496,6 +7707,16 @@
                 "item_count": 1
             },
             {
+                "name": "Hidden Item in Mud Near Pastoria 3\u200b",
+                "access_rules": [
+                    "@route_212_south, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "dawnstone"
+            },
+            {
                 "name": "Hidden Item in Deep Mud South of Honey Tree",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
@@ -7683,6 +7904,16 @@
                     "show_items, opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Black Belt Near Honey Tree\u200b",
+                "access_rules": [
+                    "@route_208"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_npcgifts_off"
+                ],
+                "hosted_item": "oddkeystone"
             },
             {
                 "name": "Berry Searcher App from Berry Masters Daughter",
@@ -7941,6 +8172,16 @@
                     "show_items, opt_keyitems_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Poffin Case from Fan Club Chairman\u200b",
+                "access_rules": [
+                    "@hearthome_city_pokemon_fan_club"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_keyitems_off"
+                ],
+                "hosted_item": "poffincase"
             },
             {
                 "name": "Gift from Woman in Hotel",
@@ -8638,6 +8879,16 @@
                     "show_items, opt_poketchapps_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Poketch Company - Marking Map App\u200b",
+                "access_rules": [
+                    "@poketch_co_1f, $poketch_req|3"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_poketchapps_off"
+                ],
+                "hosted_item": "markingmap"
             },
             {
                 "name": "Poketch Company - Link Searcher App",
@@ -9509,6 +9760,16 @@
                 "item_count": 1
             },
             {
+                "name": "Hidden Item on Ledge in Pit\u200b",
+                "access_rules": [
+                    "@route_210_north, $rock_climb, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "shinystone"
+            },
+            {
                 "name": "Item Near Bottom Left Tree in Long Grass",
                 "access_rules": [
                     "@route_210_south_upper"
@@ -9910,6 +10171,16 @@
                     "show_items, opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "2F - Item in Front of Youngster\u200b",
+                "access_rules": [
+                    "@route_209_lost_tower_2f"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "ovalstone"
             },
             {
                 "name": "2F - Hidden Item in Southeast Headstone",
@@ -10773,6 +11044,16 @@
                 "item_count": 1
             },
             {
+                "name": "B3F - Hidden Item Down Bottom Left Staircase\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_3_southwest_dead_end, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "waterstone"
+            },
+            {
                 "name": "B5F - Hidden Item Down Bottom Right Staircase",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
@@ -10783,6 +11064,16 @@
                     "show_items, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "B5F - Hidden Item Down Bottom Right Staircase\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_5_southeast_deadend, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "thunderstone"
             },
             {
                 "name": "B5F - FRIENDSHIP Room Bottom Left Item",
@@ -10855,6 +11146,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File A\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_a"
+            },
+            {
                 "name": "Unown File B",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10863,6 +11164,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File B\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_b"
             },
             {
                 "name": "Unown File C",
@@ -10875,6 +11186,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File C\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_c"
+            },
+            {
                 "name": "Unown File D",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10883,6 +11204,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File D\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_d"
             },
             {
                 "name": "Unown File E",
@@ -10895,6 +11226,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File E\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_e"
+            },
+            {
                 "name": "Unown File F",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10903,6 +11244,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File F\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_f"
             },
             {
                 "name": "Unown File G",
@@ -10915,6 +11266,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File G\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_g"
+            },
+            {
                 "name": "Unown File H",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10923,6 +11284,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File H\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_h"
             },
             {
                 "name": "Unown File I",
@@ -10935,6 +11306,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File I\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_i"
+            },
+            {
                 "name": "Unown File J",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10943,6 +11324,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File J\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_j"
             },
             {
                 "name": "Unown File K",
@@ -10955,6 +11346,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File K\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_k"
+            },
+            {
                 "name": "Unown File L",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10963,6 +11364,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File L\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_l"
             },
             {
                 "name": "Unown File M",
@@ -10975,6 +11386,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File M\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_m"
+            },
+            {
                 "name": "Unown File N",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10983,6 +11404,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File N\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_n"
             },
             {
                 "name": "Unown File O",
@@ -10995,6 +11426,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File O\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_o"
+            },
+            {
                 "name": "Unown File P",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -11003,6 +11444,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File P\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_p"
             },
             {
                 "name": "Unown File Q",
@@ -11015,6 +11466,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File Q\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_q"
+            },
+            {
                 "name": "Unown File R",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -11023,6 +11484,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File R\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_r"
             },
             {
                 "name": "Unown File S",
@@ -11035,6 +11506,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File S\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_s"
+            },
+            {
                 "name": "Unown File T",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -11043,6 +11524,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File T\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_t"
             },
             {
                 "name": "Unown File U",
@@ -11055,6 +11546,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File U\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_u"
+            },
+            {
                 "name": "Unown File V",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -11063,6 +11564,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File V\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_v"
             },
             {
                 "name": "Unown File W",
@@ -11075,6 +11586,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File W\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_w"
+            },
+            {
                 "name": "Unown File X",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -11083,6 +11604,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File X\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_x"
             },
             {
                 "name": "Unown File Y",
@@ -11095,6 +11626,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File Y\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_y"
+            },
+            {
                 "name": "Unown File Z",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -11103,6 +11644,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File Z\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_z"
             },
             {
                 "name": "Unown File !",
@@ -11115,6 +11666,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File !\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_maniac_tunnel_room"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_ex"
+            },
+            {
                 "name": "Unown File ?",
                 "access_rules": [
                     "@solaceon_ruins_maniac_tunnel_room"
@@ -11123,6 +11684,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File ?\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_maniac_tunnel_room"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_qu"
             },
             {
                 "name": "Ruin Maniac Karl",
@@ -12102,6 +12673,16 @@
                     "show_items, opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Item Down Stairs Behind Vista Lighthouse\u200b",
+                "access_rules": [
+                    "@sunyshore_city"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "thunderstone"
             },
             {
                 "name": "Hidden Item Near Sunyshore Market",
@@ -13325,6 +13906,16 @@
                 "item_count": 1
             },
             {
+                "name": "Item Beyond Fence\u200b",
+                "access_rules": [
+                    "@valley_windworks_outside, $surf"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "electirizer"
+            },
+            {
                 "name": "Hidden Item Beyond Fence",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
@@ -14534,6 +15125,16 @@
                 "item_count": 1
             },
             {
+                "name": "Up-Grade from Prof Oak\u200b",
+                "access_rules": [
+                    "@eterna_city_south_house"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_npcgifts_off"
+                ],
+                "hosted_item": "upgrade"
+            },
+            {
                 "name": "Gift from Old Woman in Condominiums",
                 "access_rules": [
                     "@eterna_city_condominiums_2f"
@@ -14830,6 +15431,16 @@
                     "show_items, opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "4F - Item By Jupiter\u200b",
+                "access_rules": [
+                    "@team_galactic_eterna_building_4f"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "upgrade"
             }
         ],
         "map_locations": [
@@ -15051,6 +15662,16 @@
                 "item_count": 1
             },
             {
+                "name": "Item Near Breakable Rocks\u200b",
+                "access_rules": [
+                    "@route_214"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "magmarizer"
+            },
+            {
                 "name": "Item in Fence Dead End Above Honey Tree",
                 "access_rules": [
                     "@route_214"
@@ -15105,6 +15726,16 @@
                     "show_items, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Hidden Item in Corner of Long Grass\u200b",
+                "access_rules": [
+                    "@route_214, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "razorfang"
             },
             {
                 "name": "Ruin Maniac Bryan",
@@ -15656,6 +16287,16 @@
                 "item_count": 1
             },
             {
+                "name": "Right Most Item Ball\u200b",
+                "access_rules": [
+                    "@floaroma_meadow"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "leafstone"
+            },
+            {
                 "name": "Middle Item Ball",
                 "access_rules": [
                     "@floaroma_meadow"
@@ -15968,6 +16609,16 @@
                 "item_count": 1
             },
             {
+                "name": "Item Next to Table\u200b",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "dubiousdisc"
+            },
+            {
                 "name": "Item in Many Generators Room",
                 "access_rules": [
                     "@galactic_hq_wo_key, galactickey"
@@ -16040,6 +16691,16 @@
                 "item_count": 1
             },
             {
+                "name": "Item By Computer\u200b",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "duskstone"
+            },
+            {
                 "name": "HM02 with Looker",
                 "access_rules": [
                     "@veilstone_city_galactic_warehouse"
@@ -16101,6 +16762,16 @@
                     "show_items, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Hidden Item in Room Next to Cyrus\u200b",
+                "access_rules": [
+                    "@galactic_hq_w_key, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "razorclaw"
             },
             {
                 "name": "Item in Room with Two Tables",
@@ -17812,6 +18483,16 @@
                 "item_count": 1
             },
             {
+                "name": "Lakefront - Item East of Lake Entrance\u200b",
+                "access_rules": [
+                    "@acuity_lakefront, $rock_climb"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "reapercloth"
+            },
+            {
                 "name": "Lake - Item in NE Corner of Lake",
                 "access_rules": [
                     "@lake_acuity"
@@ -18797,6 +19478,16 @@
                     "show_items, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "B1F - Hidden Item in Rock Before First Bike Slope\u200b",
+                "access_rules": [
+                    "@wayward_cave_b1f, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "duskstone"
             },
             {
                 "name": "Final Room - Item",
@@ -21649,6 +22340,16 @@
                     "show_items, opt_overworld_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Item Across Lower Pond\u200b",
+                "access_rules": [
+                    "@mt_coronet_1f_south, $surf"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "dawnstone"
             },
             {
                 "name": "Hidden Item on Center Boulder",
