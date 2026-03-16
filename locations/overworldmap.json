@@ -6589,6 +6589,16 @@
                 "item_count": 1
             },
             {
+                "name": "Cavern - Hidden Item on Rock in NW Corner\u200b",
+                "access_rules": [
+                    "@stark_mountain_room_2, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "firestone"
+            },
+            {
                 "name": "Cavern - Defeat Team Galactic in Stark Mountain (Event)",
                 "access_rules": [
                     "@stark_mountain_room_3"
@@ -10738,6 +10748,16 @@
                 "item_count": 1
             },
             {
+                "name": "B1F - Hidden Item Down Top Left Staircase\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1_northwest_dead_end, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "firestone"
+            },
+            {
                 "name": "B3F - Hidden Item Down Bottom Left Staircase",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
@@ -11963,6 +11983,16 @@
                     "show_items, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Hidden Item After Rock Climbing From Route 213\u200b",
+                "access_rules": [
+                    "@valor_lakefront, $rock_climb, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "sunstone"
             },
             {
                 "name": "Hidden Item in Upper Corner of Grass",
@@ -13880,6 +13910,16 @@
                 "item_count": 1
             },
             {
+                "name": "Top Right Item\u200b",
+                "access_rules": [
+                    "@fuego_ironworks_building"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "firestone"
+            },
+            {
                 "name": "Item in Lower Right Dead End",
                 "access_rules": [
                     "@fuego_ironworks_building"
@@ -14409,6 +14449,16 @@
                     "show_items, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Hidden Item Above Pond\u200b",
+                "access_rules": [
+                    "@eterna_city, $surf, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "moonstone"
             },
             {
                 "name": "HM01 from Cynthia",
@@ -20296,6 +20346,16 @@
                 "item_count": 1
             },
             {
+                "name": "4F Bottom - Hidden Item Behind NW Breakable Rock\u200b",
+                "access_rules": [
+                    "@mt_coronet_4f_rooms_1_and_2, $rock_smash, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "sunstone"
+            },
+            {
                 "name": "4F Bottom - Hidden Item in Upper Middle",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
@@ -21194,6 +21254,16 @@
                     "show_items, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "North - Hidden Item on Rock in Grass\u200b",
+                "access_rules": [
+                    "@mt_coronet_outside_north, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "moonstone"
             },
             {
                 "name": "North - Hidden Item in Grass North of Strength Boulder",
