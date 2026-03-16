@@ -18,6 +18,9 @@ ScriptHost:AddWatchForCode("opt_pastoria_barriers", "opt_pastoria_barriers", tog
 ScriptHost:AddWatchForCode("encounter_tracking", "encounter_tracking", updatePokemon)
 ScriptHost:AddWatchForCode("search_active", "search_active", searchMon)
 
+-- Other
+ScriptHost:AddWatchForCode("hint_tracking", "hint_tracking", updateHints)
+
 -- Debug
 --ScriptHost:AddWatchForCode("debug", "*", debug)
 --ScriptHost:AddOnLocationSectionChangedHandler("debug", debug)

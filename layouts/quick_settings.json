@@ -13,13 +13,14 @@
                         "type": "itemgrid",
                         "item_margin": "2,2",
                         "item_size": "32,32",
-                        "h_alignment": "center",
+                        "h_alignment": "left",
                         "rows": [
                             [
-                                "automap"
+                                "automap",
+                                "hint_tracking"
                             ],
                             [
-                                "split"
+                                "splitmap"
                             ],
                             [
                                 "location_visibility"

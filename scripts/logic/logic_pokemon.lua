@@ -161,3 +161,12 @@ function superrod_encounters()
         return AccessibilityLevel.None
     end
 end
+
+function evo_item_shop()
+    if has("opt_evo_items_shop_in_ap_helper_on") then
+        return AccessibilityLevel.Normal
+    else
+        local veilstone = Tracker:FindObjectForCode("@veilstone_city").AccessibilityLevel
+        return veilstone
+    end    
+end

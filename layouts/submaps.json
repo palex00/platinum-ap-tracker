@@ -941,7 +941,7 @@
                   "sendoffspring"
                 ]
               }
-            },
+            }
           ]
         }
       },
@@ -1555,20 +1555,11 @@
                 "type": "tabbed",
                 "tabs": [
                   {
-                    "title": "1F",
+                    "title": "Entrance",
                     "content": {
                       "type": "map",
                       "maps": [
                         "galacticwharehouse1f"
-                      ]
-                    }
-                  },
-                  {
-                    "title": "B1F",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "galacticwharehouseb1f"
                       ]
                     }
                   },
@@ -1578,6 +1569,15 @@
                       "type": "map",
                       "maps": [
                         "galacticwharehouseb2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "galacticwharehouseb1f"
                       ]
                     }
                   }
@@ -1962,7 +1962,7 @@
             }
           ]
         }
-      },
+      }
     ]
   },
   "mtcoronet": {

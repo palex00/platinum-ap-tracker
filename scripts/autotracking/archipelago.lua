@@ -11,6 +11,7 @@ SLOT_DATA = nil
 SLOT_DATA = {}
 ENCOUNTERS_GROUPED = {}
 ROOM_SEED = "default"
+SAVED_HINTS = {}
 
 if Highlight then
     HIGHLIGHT_LEVEL= {
@@ -396,7 +397,8 @@ function onNotify(key, value, old_value)
         elseif key == KEY4_ID then
             updateVanillaKeyItems(4, value)
         elseif key == HINT_ID then
-            updateHints(value)
+            SAVED_HINTS = value
+            updateHints()
         elseif key == CAUGHT_ID then
             updateCaught(value)
         elseif key == SEEN_ID then
@@ -418,7 +420,8 @@ function onNotifyLaunch(key, value)
         elseif key == KEY4_ID then
             updateVanillaKeyItems(4, value)
         elseif key == HINT_ID then
-            updateHints(value)
+            SAVED_HINTS = value
+            updateHints()
         elseif key == CAUGHT_ID then
             updateCaught(value)
         elseif key == SEEN_ID then
@@ -451,21 +454,46 @@ function updateVanillaKeyItems(register, value)
     end
 end
 
-function updateHints(value)
+function updateHints()
     if not Highlight then
         return
     end
     
-    for _, hint in ipairs(value) do
-        if hint.finding_player == PLAYER_ID then
-            local mapped = LOCATION_MAPPING[hint.location]
-            local locations = (type(mapped) == "table") and mapped or { mapped }
-    
-            
-            for _, location in ipairs(locations) do
-                -- Only sections (items don't support Highlight)
-                if type(location) == "string" and location:sub(1, 1) == "@" and Tracker:FindObjectForCode(location).ChestCount == 1 then
-                    Tracker:FindObjectForCode(location).Highlight = HIGHLIGHT_LEVEL[hint.item_flags]
+    if has("hint_tracking_off") then
+        for _, hint in ipairs(SAVED_HINTS) do
+            if hint.finding_player == PLAYER_ID then
+                local mapped = LOCATION_MAPPING[hint.location]
+                local locations = (type(mapped) == "table") and mapped or { mapped }
+        
+                for _, location in ipairs(locations) do
+                    -- Only sections (items don't support Highlight)
+                    if location:sub(1, 1) == "@" and Tracker:FindObjectForCode(location).ChestCount == 1 then
+                        Tracker:FindObjectForCode(location).Highlight = 0
+                    end
+                end
+            end
+        end
+    else
+        for _, hint in ipairs(SAVED_HINTS) do
+            if hint.finding_player == PLAYER_ID then
+                local mapped = LOCATION_MAPPING[hint.location]
+                local locations = (type(mapped) == "table") and mapped or { mapped }
+        
+                
+                for _, location in ipairs(locations) do
+                    -- Only sections (items don't support Highlight)
+                    if location:sub(1, 1) == "@" and Tracker:FindObjectForCode(location).ChestCount == 1 then
+                    
+                        if has("hint_tracking_on_plus") then
+                            if hint.item_flags == 1 then
+                                Tracker:FindObjectForCode(location).Highlight = HIGHLIGHT_LEVEL[hint.item_flags]
+                            else
+                                Tracker:FindObjectForCode(location).AvailableChestCount = 0
+                            end
+                        else
+                            Tracker:FindObjectForCode(location).Highlight = HIGHLIGHT_LEVEL[hint.item_flags]
+                        end
+                    end
                 end
             end
         end

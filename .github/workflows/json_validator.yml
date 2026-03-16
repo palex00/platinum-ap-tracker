@@ -1,0 +1,33 @@
+name: Validate JSON Files
+
+on:
+  pull_request:
+
+jobs:
+  validate-json:
+    name: Validate JSON files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate all JSON files
+        run: |
+          FAILED=0
+
+          while IFS= read -r -d '' file; do
+            if python3 -c "import json; json.load(open('$file'))" 2>/dev/null; then
+              echo "OK: $file"
+            else
+              echo "FAILED: $file"
+              python3 -c "import json; json.load(open('$file'))" || true
+              FAILED=1
+            fi
+          done < <(find . -name '*.json' -not -path '*/.git/*' -print0)
+
+          if [ "$FAILED" -eq 1 ]; then
+            echo ""
+            echo "One or more JSON files are invalid."
+            exit 1
+          fi

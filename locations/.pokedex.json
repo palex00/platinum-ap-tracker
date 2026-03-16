@@ -493,7 +493,7 @@
 {"name": "Manaphy", "access_rules": ["caught_490"], "sections": [{"hosted_item": "caught_490"}],  "map_locations": [{"map": "sinnohdex", "x": 744, "y": 840, "shape": "rect"}]},
 {"name": "Darkrai", "access_rules": ["caught_491"], "sections": [{"hosted_item": "caught_491"}],  "map_locations": [{"map": "sinnohdex", "x": 840, "y": 840, "shape": "rect"}]},
 {"name": "Shaymin", "access_rules": ["caught_492"], "sections": [{"hosted_item": "caught_492"}],  "map_locations": [{"map": "sinnohdex", "x": 936, "y": 840, "shape": "rect"}]},
-{"name": "Arceus", "access_rules": ["caught_493"], "sections": [{"hosted_item": "caught_493"}],  "map_locations": [{"map": "sinnohdex", "x": 1032, "y": 840, "shape": "rect"}]},
+{"name": "Arceus", "access_rules": ["caught_493"], "sections": [{"hosted_item": "caught_493"}],  "map_locations": [{"map": "sinnohdex", "x": 1032, "y": 840, "shape": "rect"}]}
 ]
 }
 ]
