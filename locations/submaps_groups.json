@@ -10,9 +10,7 @@
 { "name": "Lab - Pokedex from Prof Rowan", "ref": "Sandgem Town/Lab - Pokedex from Prof Rowan"},
 { "name": "Lab - Pokedex from Prof Rowan\u200b", "ref": "Sandgem Town/Lab - Pokedex from Prof Rowan\u200b"},
 { "name": "Lab - National Pokedex from Prof Oak", "ref": "Sandgem Town/Lab - National Pokedex from Prof Oak"},
-{ "name": "Lab - National Pokedex from Prof Oak\u200b", "ref": "Sandgem Town/Lab - National Pokedex from Prof Oak\u200b"},
-{ "name": "Lab - Poke Radar from Rowan", "ref": "Sandgem Town/Lab - Poke Radar from Rowan"},
-{ "name": "Lab - Poke Radar from Rowan\u200b", "ref": "Sandgem Town/Lab - Poke Radar from Rowan\u200b"},
+{ "name": "Lab - National Pokedex "ref": "Sandgem Town/Lab - Poke Radar from Rowan\u200b"},
 { "name": "TM27 from Professor Rowan", "ref": "Sandgem Town/TM27 from Professor Rowan"}]},
 { "name": "Galactic Double Battle", "map_locations": [ { "map": "starkmountainentrance", "x": 328, "y": 382}], "sections": [
 { "name": "Commander Mars", "ref": "Stark Mountain/Commander Mars"},
