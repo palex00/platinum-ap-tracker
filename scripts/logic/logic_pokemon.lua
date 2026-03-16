@@ -105,7 +105,7 @@ function feebas_fishing_encounters()
 end
 
 function soft_honey()
-	if has("honey") or has("honeyx3") or has("honeyx10") then
+	if has("honey") or has("caught_415") then
 	    return AccessibilityLevel.SequenceBreak
 	else
         return AccessibilityLevel.None
@@ -114,23 +114,15 @@ end
 
 function regular_honey_tree_encounters()
     local meadow = Tracker:FindObjectForCode("@floaroma_meadow").AccessibilityLevel
-    if meadow == 6 then
-        return AccessibilityLevel.Normal
-	elseif meadow == 5 then
-        return AccessibilityLevel.SequenceBreak
-	else
-	    return soft_honey()
-    end
+    return math.max(meadow, soft_honey())
 end
 
 function munchlax_honey_tree_encounters()
     local meadow = Tracker:FindObjectForCode("@floaroma_meadow").AccessibilityLevel
-    if has("treecamera") and has("poketch") and has("dowsingmachine") and meadow == 6 then
-        return AccessibilityLevel.Normal
-	elseif has("treecamera") and has("poketch") and has("dowsingmachine") and meadow == 5 then
-        return AccessibilityLevel.SequenceBreak
-	else
-	    return soft_honey()
+    if has("treecamera") and has("poketch") and has("dowsingmachine") then
+        return math.max(meadow, soft_honey())
+    else
+        return AccessibilityLevel.None
     end
 end
 

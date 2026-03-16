@@ -286,6 +286,21 @@
         "codes": "coupons"
     },
     {
+        "name": "Coupon 1",
+        "type": "toggle",
+        "codes": "coupon_1"
+    },
+    {
+        "name": "Coupon 2",
+        "type": "toggle",
+        "codes": "coupon_2"
+    },
+    {
+        "name": "Coupon 3",
+        "type": "toggle",
+        "codes": "coupon_3"
+    },
+    {
         "name": "Works Key",
         "type": "toggle",
         "img": "images/items/works_key.png",
@@ -313,6 +328,146 @@
         "img": "images/items/unown_file.png",
         "overlay_background": "#000000",
         "codes": "unownfile"
+    },
+    {
+        "name": "Unown File A",
+        "type": "toggle",
+        "codes": "unownfile_a"
+    },
+    {
+        "name": "Unown File B",
+        "type": "toggle",
+        "codes": "unownfile_b"
+    },
+    {
+        "name": "Unown File C",
+        "type": "toggle",
+        "codes": "unownfile_c"
+    },
+    {
+        "name": "Unown File D",
+        "type": "toggle",
+        "codes": "unownfile_d"
+    },
+    {
+        "name": "Unown File E",
+        "type": "toggle",
+        "codes": "unownfile_e"
+    },
+    {
+        "name": "Unown File EX",
+        "type": "toggle",
+        "codes": "unownfile_ex"
+    },
+    {
+        "name": "Unown File F",
+        "type": "toggle",
+        "codes": "unownfile_f"
+    },
+    {
+        "name": "Unown File G",
+        "type": "toggle",
+        "codes": "unownfile_g"
+    },
+    {
+        "name": "Unown File H",
+        "type": "toggle",
+        "codes": "unownfile_h"
+    },
+    {
+        "name": "Unown File I",
+        "type": "toggle",
+        "codes": "unownfile_i"
+    },
+    {
+        "name": "Unown File J",
+        "type": "toggle",
+        "codes": "unownfile_j"
+    },
+    {
+        "name": "Unown File K",
+        "type": "toggle",
+        "codes": "unownfile_k"
+    },
+    {
+        "name": "Unown File L",
+        "type": "toggle",
+        "codes": "unownfile_l"
+    },
+    {
+        "name": "Unown File M",
+        "type": "toggle",
+        "codes": "unownfile_m"
+    },
+    {
+        "name": "Unown File N",
+        "type": "toggle",
+        "codes": "unownfile_n"
+    },
+    {
+        "name": "Unown File O",
+        "type": "toggle",
+        "codes": "unownfile_o"
+    },
+    {
+        "name": "Unown File P",
+        "type": "toggle",
+        "codes": "unownfile_p"
+    },
+    {
+        "name": "Unown File Q",
+        "type": "toggle",
+        "codes": "unownfile_q"
+    },
+    {
+        "name": "Unown File QU",
+        "type": "toggle",
+        "codes": "unownfile_qu"
+    },
+    {
+        "name": "Unown File R",
+        "type": "toggle",
+        "codes": "unownfile_r"
+    },
+    {
+        "name": "Unown File S",
+        "type": "toggle",
+        "codes": "unownfile_s"
+    },
+    {
+        "name": "Unown File T",
+        "type": "toggle",
+        "codes": "unownfile_t"
+    },
+    {
+        "name": "Unown File U",
+        "type": "toggle",
+        "codes": "unownfile_u"
+    },
+    {
+        "name": "Unown File V",
+        "type": "toggle",
+        "codes": "unownfile_v"
+    },
+    {
+        "name": "Unown File W",
+        "type": "toggle",
+        "codes": "unownfile_w"
+    },
+    {
+        "name": "Unown File X",
+        "type": "toggle",
+        "codes": "unownfile_x"
+    },
+    {
+        "name": "Unown File Y",
+        "type": "toggle",
+        "codes": "unownfile_y"
+    },
+    {
+        "name": "Unown File Z",
+        "type": "toggle",
+        "codes": "unownfile_z"
     },
     {
         "name": "Storage Key",
@@ -639,15 +794,5 @@
         "name": "Honey",
         "type": "toggle",
         "codes": "honey"
-    },
-    {
-        "name": "Honey x3",
-        "type": "toggle",
-        "codes": "honeyx3"
-    },
-    {
-        "name": "Honey x10",
-        "type": "toggle",
-        "codes": "honeyx10"
     }
 ]

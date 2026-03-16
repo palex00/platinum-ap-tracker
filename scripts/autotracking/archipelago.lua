@@ -405,7 +405,6 @@ function onNotify(key, value, old_value)
     end
 end
 
-
 function onNotifyLaunch(key, value)
     if value ~= nil and value ~= 0 then
         if key == EVENT_ID then
@@ -428,7 +427,6 @@ function onNotifyLaunch(key, value)
     end
 end
 
-
 function updateEvents(value)
     if value ~= nil then
         for i, code in ipairs(FLAG_EVENT_CODES) do
@@ -438,48 +436,16 @@ function updateEvents(value)
     end
 end
 
-local flippedBits = flippedBits or {}
-
-function countBitsForCode(targetCode)
-    local total = 0
-    for _, regBits in pairs(flippedBits) do
-        for _, code in pairs(regBits) do
-            if code == targetCode then
-                total = total + 1
-            end
-        end
-    end
-    return total
-end
-
 function updateVanillaKeyItems(register, value)
     if value == nil then return end
-
+    
     local list = _G["FLAG_ITEM" .. tostring(register) .. "_CODES"]
-
-    flippedBits[register] = flippedBits[register] or {}
-
+    
     for i, obj in ipairs(list) do
         local bit = (value >> (i - 1)) & 1
-
-        if bit == 1 and not flippedBits[register][i] then
-            if obj.codes and (obj.option == nil or has(obj.option)) then
-                for _, code in ipairs(obj.codes) do
-                    flippedBits[register][i] = code
-
-                    local item = Tracker:FindObjectForCode(code)
-                    if item then
-                        if code == "pokedex" then
-                            local total = countBitsForCode("pokedex")
-                            item.CurrentStage = math.min(total, 3)
-                        elseif code == "coupons" or code == "unownfile" then
-                            local total = countBitsForCode(code)
-                            item.AcquiredCount = total
-                        else
-                            item.Active = true
-                        end
-                    end
-                end
+        if obj.codes and (not obj.option or has(obj.option)) then
+            for _, code in ipairs(obj.codes) do
+                Tracker:FindObjectForCode(code).Active = (bit == 1)
             end
         end
     end

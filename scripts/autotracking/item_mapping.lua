@@ -1,5 +1,5 @@
 ITEM_MAPPING = {  
-	[16781] =     {{"tm70flash", "toggle"}},
+	[16781] =   {{"tm70flash", "toggle"}},
 	[420] =     {{"hm01cut", "progressive_toggle"}},
 	[421] =     {{"hm02fly", "progressive_toggle"}},
 	[422] =     {{"hm03surf", "progressive_toggle"}},
@@ -56,6 +56,9 @@ ITEM_MAPPING = {
     [16833] = {{"poffincase", "toggle"}},
     [20492] = {{"markingmap", "toggle"}},
     [16495] = {{"oddkeystone", "toggle"}},
+    [94]    = {{"honey", "toggle"}},
+    [4958]  = {{"honey", "toggle"}},
+    [6750]  = {{"honey", "toggle"}},
     
     -- Evolution related
     [16856] = {{"tm93rollout", "toggle"}},
@@ -85,8 +88,5 @@ ITEM_MAPPING = {
     [85]    = {{"leafstone", "toggle"}},
     [107]   = {{"shinystone", "toggle"}},
     [108]   = {{"duskstone", "toggle"}},
-    [109]   = {{"dawnstone", "toggle"}},
-    [94]   = {{"honey", "toggle"}},
-    [4958]   = {{"honeyx3", "toggle"}},
-    [6750]   = {{"honeyx10", "toggle"}}
+    [109]   = {{"dawnstone", "toggle"}}
 }
