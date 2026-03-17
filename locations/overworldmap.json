@@ -4261,6 +4261,16 @@
                 "item_count": 1
             },
             {
+                "name": "Running Shoes From Mom\u200b",
+                "access_rules": [
+                    "@twinleaf_town_player_house_1f"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_shoes_off"
+                ],
+                "hosted_item": "shoes"
+            },
+            {
                 "name": "Journal from Mom",
                 "access_rules": [
                     "@twinleaf_town_player_house_1f"
@@ -10835,6 +10845,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File A\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_a"
+            },
+            {
                 "name": "Unown File B",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10843,6 +10863,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File B\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_b"
             },
             {
                 "name": "Unown File C",
@@ -10855,6 +10885,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File C\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_c"
+            },
+            {
                 "name": "Unown File D",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10863,6 +10903,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File D\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_d"
             },
             {
                 "name": "Unown File E",
@@ -10875,6 +10925,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File E\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_e"
+            },
+            {
                 "name": "Unown File F",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10883,6 +10943,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File F\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_f"
             },
             {
                 "name": "Unown File G",
@@ -10895,6 +10965,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File G\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_g"
+            },
+            {
                 "name": "Unown File H",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10903,6 +10983,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File H\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_h"
             },
             {
                 "name": "Unown File I",
@@ -10915,6 +11005,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File I\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_i"
+            },
+            {
                 "name": "Unown File J",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10923,6 +11023,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File J\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_j"
             },
             {
                 "name": "Unown File K",
@@ -10935,6 +11045,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File K\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_k"
+            },
+            {
                 "name": "Unown File L",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10943,6 +11063,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File L\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_l"
             },
             {
                 "name": "Unown File M",
@@ -10955,6 +11085,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File M\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_m"
+            },
+            {
                 "name": "Unown File N",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10963,6 +11103,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File N\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_n"
             },
             {
                 "name": "Unown File O",
@@ -10975,6 +11125,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File O\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_o"
+            },
+            {
                 "name": "Unown File P",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -10983,6 +11143,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File P\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_p"
             },
             {
                 "name": "Unown File Q",
@@ -10995,6 +11165,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File Q\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_q"
+            },
+            {
                 "name": "Unown File R",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -11003,6 +11183,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File R\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_r"
             },
             {
                 "name": "Unown File S",
@@ -11015,6 +11205,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File S\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_s"
+            },
+            {
                 "name": "Unown File T",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -11023,6 +11223,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File T\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_t"
             },
             {
                 "name": "Unown File U",
@@ -11035,6 +11245,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File U\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_u"
+            },
+            {
                 "name": "Unown File V",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -11043,6 +11263,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File V\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_v"
             },
             {
                 "name": "Unown File W",
@@ -11055,6 +11285,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File W\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_w"
+            },
+            {
                 "name": "Unown File X",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -11063,6 +11303,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File X\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_x"
             },
             {
                 "name": "Unown File Y",
@@ -11075,6 +11325,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File Y\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_y"
+            },
+            {
                 "name": "Unown File Z",
                 "access_rules": [
                     "@solaceon_ruins_room_1"
@@ -11083,6 +11343,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File Z\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_room_1"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_z"
             },
             {
                 "name": "Unown File !",
@@ -11095,6 +11365,16 @@
                 "item_count": 1
             },
             {
+                "name": "Unown File !\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_maniac_tunnel_room"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_ex"
+            },
+            {
                 "name": "Unown File ?",
                 "access_rules": [
                     "@solaceon_ruins_maniac_tunnel_room"
@@ -11103,6 +11383,16 @@
                     "show_items, opt_unown_item, opt_hidden_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Unown File ?\u200b",
+                "access_rules": [
+                    "@solaceon_ruins_maniac_tunnel_room"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_unown_item, opt_hidden_off"
+                ],
+                "hosted_item": "unownfile_qu"
             },
             {
                 "name": "Ruin Maniac Karl",
