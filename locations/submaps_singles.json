@@ -4,6 +4,7 @@
         "children": [
 {"name": "Great Marsh", "sections": [{"ref": "Great Marsh/Area 3 - Item in Front of Man", "name": "Area 3 - Item in Front of Man"}], "map_locations": [{"map": "greatmarsh", "x": 136, "y": 636}]},
 {"name": "Great Marsh​", "sections": [{"ref": "Great Marsh/Area 3 - Hidden Item in Center of East Mud Puddle", "name": "Area 3 - Hidden Item in Center of East Mud Puddle"}], "map_locations": [{"map": "greatmarsh", "x": 312, "y": 586}]},
+{"name": "Great Marsh - Leaf Stone", "sections": [{"ref": "Great Marsh/Area 3 - Hidden Item in Center of East Mud Puddle\u200b", "name": "Area 3 - Hidden Item in Center of East Mud Puddle\u200b"}], "map_locations": [{"map": "greatmarsh", "x": 312, "y": 586}]},
 {"name": "Route 225", "sections": [{"ref": "Route 225/Item on SW Hill", "name": "Item on SW Hill"}], "map_locations": [{"map": "route225south", "x": 56, "y": 936}]},
 {"name": "Route 225 - Razor Fang", "sections": [{"ref": "Route 225/Item on SW Hill\u200b", "name": "Item on SW Hill\u200b"}], "map_locations": [{"map": "route225south", "x": 56, "y": 936}]},
 {"name": "Route 225​", "sections": [{"ref": "Route 225/Item Behind Cut Trees Near Trainer Trio", "name": "Item Behind Cut Trees Near Trainer Trio"}], "map_locations": [{"map": "route225south", "x": 472, "y": 728}]},
