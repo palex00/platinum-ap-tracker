@@ -513,7 +513,16 @@ ENCOUNTER_MAPPING = {
   ["wayward_cave_1f_land"] = "@Wayward Cave/1F - Land Encounters",
   ["wayward_cave_1f_leafgreen"] = "@Wayward Cave/1F - LeafGreen Encounters",
   ["wayward_cave_b1f_land"] = "@Wayward Cave/B1F - Land Encounters",
-  ["wayward_cave_b1f_leafgreen"] = "@Wayward Cave/B1F - LeafGreen Encounters"
+  ["wayward_cave_b1f_leafgreen"] = "@Wayward Cave/B1F - LeafGreen Encounters",
+
+-- special encounters
+  ["feebas_fishing"] = "@Mt. Coronet B1F/Feebas Fishing Encounter",
+  ["great_marsh_observatory"] = "@Great Marsh/Observatory Encounters",
+  ["great_marsh_observatory_national_dex"] = "@Great Marsh/National Dex Observatory Encounters",
+--  ["munchlax_honey_tree"] = "@XX/XX",
+  ["odd_keystone"] = "@Route 209/Odd Keystone Encounter",
+--  ["regular_honey_tree"] = "@XX/XX",
+  ["trophy_garden"] = "@Pokemon Mansion/Trophy Garden - Trophy Garden Encounters"
 }
 
 AREA_TYPES = {

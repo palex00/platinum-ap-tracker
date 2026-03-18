@@ -1,0 +1,382 @@
+{
+    "pokemon_logic": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "8,6",
+                "content": [
+                    {
+                        "type": "array",
+                        "orientation": "vertical",
+                        "content": [
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "encountermethods_dummy",
+                                        "item_size": "202, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "surf_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "encmethod_surf",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "fishing_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "encmethod_fishing",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "radar_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "encmethod_radar",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "swarm_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "encmethod_swarm",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "timeofday_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "encmethod_timeofday",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "cartridge_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "encmethod_cartridge",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "vertical",
+                        "content": [
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "greatmarsh_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "encmethod_greatmarsh",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "feebasfishing_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "encmethod_feebasfishing",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "trophygarden_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "encmethod_trophygarden",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "roamer_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "encmethod_roamer",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "honeytree_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "encmethod_honeytree",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "munchlaxtree_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "encmethod_munchlaxtree",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "oddkeystone_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "encmethod_oddkeystone",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "vertical",
+                        "margin": "20,0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "evolutionmethods_dummy",
+                                        "item_size": "202, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "happiness_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "evomethod_happiness",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "leveling_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "evomethod_level",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "item_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "evomethod_item",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "geographical_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "evomethod_geographical",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "mildlyannoying_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "evomethod_mildlyannoying",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "2,6",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "highlyannoying_dummy",
+                                        "item_size": "162, 26"
+                                    },
+                                    {
+                                        "type": "item",
+                                        "item": "evomethod_highlyannoying",
+                                        "item_size": "122, 26"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

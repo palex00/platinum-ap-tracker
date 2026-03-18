@@ -183,11 +183,11 @@
 { "name": "Galactic Grunts", "map_locations": [ { "map": "veilstonecity", "x": 392, "y": 300}], "sections": [
 { "name": "Galactic Grunt 1", "ref": "Veilstone City/Galactic Grunt 1"},
 { "name": "Galactic Grunt 2", "ref": "Veilstone City/Galactic Grunt 2"}]},
-{ "name": "Valley Windworks ", "map_locations": [ { "map": "valleywindworksbuilding", "x": 312, "y": 90}], "sections": [
-{ "name": "Building - Commander Mars", "ref": "Valley Windworks/Building - Commander Mars"},
-{ "name": "Building - Defeat Team Galactic (Event)", "ref": "Valley Windworks/Building - Defeat Team Galactic (Event)"},
-{ "name": "Building - Ruby Cartridge from Scientist After Defeating Mars", "ref": "Valley Windworks/Building - Ruby Cartridge from Scientist After Defeating Mars"},
-{ "name": "Building - Ruby Cartridge from Scientist After Defeating Mars\u200b", "ref": "Valley Windworks/Building - Ruby Cartridge from Scientist After Defeating Mars\u200b"}]},
+{ "name": "\u200bValley Windworks Building", "map_locations": [ { "map": "valleywindworksbuilding", "x": 312, "y": 90}], "sections": [
+{ "name": "Commander Mars", "ref": "Valley Windworks/Building - Commander Mars"},
+{ "name": "Defeat Team Galactic (Event)", "ref": "Valley Windworks/Building - Defeat Team Galactic (Event)"},
+{ "name": "Ruby Cartridge from Scientist After Defeating Mars", "ref": "Valley Windworks/Building - Ruby Cartridge from Scientist After Defeating Mars"},
+{ "name": "Ruby Cartridge from Scientist After Defeating Mars\u200b", "ref": "Valley Windworks/Building - Ruby Cartridge from Scientist After Defeating Mars\u200b"}]},
 { "name": "Canalave Gym", "map_locations": [ { "map": "canalavecity", "x": 128, "y": 299}], "sections": [
 { "name": "Gym - Ace Trainer Breanna", "ref": "Canalave City/Gym - Ace Trainer Breanna"},
 { "name": "Gym - Ace Trainer Cesar", "ref": "Canalave City/Gym - Ace Trainer Cesar"},
@@ -588,13 +588,13 @@
 { "name": "Right - Item Behind Bench", "ref": "Amity Square/Right - Item Behind Bench"},
 { "name": "Right - Item Reached with East Warps", "ref": "Amity Square/Right - Item Reached with East Warps"},
 { "name": "Random Berry or Accessory", "ref": "Amity Square/Random Berry or Accessory"}]},
-{ "name": "Valley Windworks - Building", "map_locations": [ { "map": "route205south", "x": 824, "y": 226}], "sections": [
-{ "name": "Building - Galactic Grunt 2", "ref": "Valley Windworks/Building - Galactic Grunt 2"},
-{ "name": "Building - Galactic Grunt 3", "ref": "Valley Windworks/Building - Galactic Grunt 3"},
-{ "name": "Building - Commander Mars", "ref": "Valley Windworks/Building - Commander Mars"},
-{ "name": "Building - Defeat Team Galactic (Event)", "ref": "Valley Windworks/Building - Defeat Team Galactic (Event)"},
-{ "name": "Building - Ruby Cartridge from Scientist After Defeating Mars", "ref": "Valley Windworks/Building - Ruby Cartridge from Scientist After Defeating Mars"},
-{ "name": "Building - Ruby Cartridge from Scientist After Defeating Mars\u200b", "ref": "Valley Windworks/Building - Ruby Cartridge from Scientist After Defeating Mars\u200b"}]},
+{ "name": "Valley Windworks Building\u200b", "map_locations": [ { "map": "valleywindworksoutside", "x": 312, "y": 226}], "sections": [
+{ "name": "Galactic Grunt 2", "ref": "Valley Windworks/Building - Galactic Grunt 2"},
+{ "name": "Galactic Grunt 3", "ref": "Valley Windworks/Building - Galactic Grunt 3"},
+{ "name": "Commander Mars", "ref": "Valley Windworks/Building - Commander Mars"},
+{ "name": "Defeat Team Galactic (Event)", "ref": "Valley Windworks/Building - Defeat Team Galactic (Event)"},
+{ "name": "Ruby Cartridge from Scientist After Defeating Mars", "ref": "Valley Windworks/Building - Ruby Cartridge from Scientist After Defeating Mars"},
+{ "name": "Ruby Cartridge from Scientist After Defeating Mars\u200b", "ref": "Valley Windworks/Building - Ruby Cartridge from Scientist After Defeating Mars\u200b"}]},
 { "name": "Fuego Ironworks - Inside", "map_locations": [ { "map": "fuegoironworksoutside", "x": 152, "y": 194}], "sections": [
 { "name": "Hidden Item in Short Dead End", "ref": "Fuego Ironworks/Hidden Item in Short Dead End"},
 { "name": "Hidden Item in Single Barrel", "ref": "Fuego Ironworks/Hidden Item in Single Barrel"},

@@ -1,5 +1,11 @@
 [
     {
+        "name": "info_sheet",
+        "location_size": 14,
+        "location_border_thickness": 1,
+        "img": "images/settings/dex_related/informationsheet.png"
+    },
+    {
         "name": "Sinnoh",
         "location_size": 14,
         "location_border_thickness": 2,
@@ -930,12 +936,6 @@
         "img": "images/maps/snowpointtempleb5f.png"
     },
     {
-        "name": "palpark",
-        "location_size": 14,
-        "location_border_thickness": 2,
-        "img": "images/maps/palpark.png"
-    },
-    {
         "name": "rockpeakruins",
         "location_size": 14,
         "location_border_thickness": 2,
@@ -1078,6 +1078,12 @@
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/sendoffspring.png"
+    },
+    {
+        "name": "valleywindworksoutside",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/valleywindworks.png"
     },
     {
         "name": "valleywindworksbuilding",

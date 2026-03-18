@@ -72,7 +72,9 @@
                         "event_learn_of_lake_explosion",
                         "event_clear_lakevalor",
                         "event_clear_lakeverity",
-                        "event_clear_lakeacuity",
+                        "event_clear_lakeacuity"
+                    ],
+                    [
                         "event_galactic_hq_defeat_cyrus",
                         "event_met_oak_at_palpark",
                         "event_clear_distortion",

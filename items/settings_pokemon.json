@@ -1,66 +1,14 @@
 [
     {
-        "name": "Encounter Tracking",
-        "type": "progressive",
-        "loop": true,
-        "initial_stage_idx": 1,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "name": "Encounter Tracking - Off",
-                "img": "/images/settings/encounter_tracking.png",
-                "img_mods": "@disabled",
-                "codes": "encounter_tracking, encounter_tracking_off",
-                "inherit_codes": false
-            },
-            {
-                "name": "Encounter Tracking - Strict",
-                "img": "/images/settings/encounter_tracking.png",
-                "codes": "encounter_tracking, encounter_tracking_strict",
-                "inherit_codes": false
-            },
-            {
-                "name": "Encounter Tracking - Loose",
-                "img": "/images/settings/encounter_tracking_loose.png",
-                "codes": "encounter_tracking, encounter_tracking_loose",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
         "img": "/images/settings/dex_related/encountermethods.png",
         "codes": "encountermethods_dummy",
-        "type": "static"
-    },
-    {
-        "name": "Encounter Method: Land",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "name": "Encounter Method: Land Encounters NOT in logic",
-                "img": "/images/settings/dex_related/notinlogic.png",
-                "codes": "encmethod_land, encmethod_land_off",
-                "inherit_codes": false
-            },
-            {
-                "name": "Encounter Method: Land Encounters in logic",
-                "img": "/images/settings/dex_related/inlogic.png",
-                "codes": "encmethod_land, encmethod_land_on",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "img": "/images/settings/dex_related/land.png",
-        "codes": "land_dummy",
         "type": "static"
     },
     {
         "name": "Encounter Method: Swarms",
         "type": "progressive",
         "loop": true,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
@@ -83,9 +31,10 @@
         "type": "static"
     },
     {
-        "name": "Encounter Method: Poké Radar",
+        "name": "Encounter Method: Radar",
         "type": "progressive",
         "loop": true,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
@@ -108,59 +57,36 @@
         "type": "static"
     },
     {
-        "name": "Encounter Method: Daytime",
+        "name": "Encounter Method: Time of Day",
         "type": "progressive",
         "loop": true,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Encounter Method: Day Encounters NOT in logic",
+                "name": "Encounter Method: Time of Day Encounters NOT in logic",
                 "img": "/images/settings/dex_related/notinlogic.png",
-                "codes": "encmethod_day, encmethod_day_off",
+                "codes": "encmethod_timeofday, encmethod_timeofday_off",
                 "inherit_codes": false
             },
             {
-                "name": "Encounter Method: Day Encounters in logic",
+                "name": "Encounter Method: Time of Day Encounters in logic",
                 "img": "/images/settings/dex_related/inlogic.png",
-                "codes": "encmethod_day, encmethod_day_on",
+                "codes": "encmethod_timeofday, encmethod_timeofday_on",
                 "inherit_codes": false
             }
         ]
     },
     {
-        "img": "/images/settings/dex_related/day.png",
-        "codes": "day_dummy",
-        "type": "static"
-    },
-    {
-        "name": "Encounter Method: Nighttime",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "name": "Encounter Method: Night Encounters NOT in logic",
-                "img": "/images/settings/dex_related/notinlogic.png",
-                "codes": "encmethod_night, encmethod_night_off",
-                "inherit_codes": false
-            },
-            {
-                "name": "Encounter Method: Night Encounters in logic",
-                "img": "/images/settings/dex_related/inlogic.png",
-                "codes": "encmethod_night, encmethod_night_on",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "img": "/images/settings/dex_related/night.png",
-        "codes": "night_dummy",
+        "img": "/images/settings/dex_related/timeofday.png",
+        "codes": "timeofday_dummy",
         "type": "static"
     },
     {
         "name": "Encounter Method: Fishing",
         "type": "progressive",
         "loop": true,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
@@ -183,28 +109,398 @@
         "type": "static"
     },
     {
-        "name": "Encounter Method: Surfing",
+        "name": "Encounter Method: Surf",
         "type": "progressive",
         "loop": true,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
                 "name": "Encounter Method: Surfing Encounters NOT in logic",
                 "img": "/images/settings/dex_related/notinlogic.png",
-                "codes": "encmethod_water, encmethod_water_off",
+                "codes": "encmethod_surf, encmethod_surf_off",
                 "inherit_codes": false
             },
             {
                 "name": "Encounter Method: Surfing Encounters in logic",
                 "img": "/images/settings/dex_related/inlogic.png",
-                "codes": "encmethod_water, encmethod_water_on",
+                "codes": "encmethod_surf, encmethod_surf_on",
                 "inherit_codes": false
             }
         ]
     },
     {
-        "img": "/images/settings/dex_related/surfing.png",
-        "codes": "surfing_dummy",
+        "img": "/images/settings/dex_related/surf.png",
+        "codes": "surf_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Cartridges",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Cartridge Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_cartridge, encmethod_cartridge_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Cartridge Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_cartridge, encmethod_cartridge_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/cartridge.png",
+        "codes": "cartridge_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Great Marsh",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Great Marsh Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_greatmarsh, encmethod_greatmarsh_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Great Marsh Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_greatmarsh, encmethod_greatmarsh_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/greatmarsh.png",
+        "codes": "greatmarsh_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Feebas Fishing",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Feebas Fishing Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_feebasfishing, encmethod_feebasfishing_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Feebas Fishing Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_feebasfishing, encmethod_feebasfishing_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/feebasfishing.png",
+        "codes": "feebasfishing_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Trophy Garden",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Trophy Garden Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_trophygarden, encmethod_trophygarden_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Trophy Garden Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_trophygarden, encmethod_trophygarden_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/trophygarden.png",
+        "codes": "trophygarden_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Roamers",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Roamers Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_roamer, encmethod_roamer_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Roamers Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_roamer, encmethod_roamer_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/roamer.png",
+        "codes": "roamer_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Honey Trees",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Honey Trees Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_honeytree, encmethod_honeytree_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Honey Trees Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_honeytree, encmethod_honeytree_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/honeytree.png",
+        "codes": "honeytree_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Munchlax Tree",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Munchlax Tree Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_munchlaxtree, encmethod_munchlaxtree_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Munchlax Tree Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_munchlaxtree, encmethod_munchlaxtree_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/munchlaxtree.png",
+        "codes": "munchlaxtree_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Encounter Method: Odd Keystone",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Method: Odd Keystone Encounters NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "encmethod_oddkeystone, encmethod_oddkeystone_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Method: Odd Keystone Encounters in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "encmethod_oddkeystone, encmethod_oddkeystone_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/oddkeystone.png",
+        "codes": "oddkeystone_dummy",
+        "type": "static"
+    },
+    {
+        "img": "/images/settings/dex_related/evolutionmethods.png",
+        "codes": "evolutionmethods_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Evolution Method: Happiness",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Evolution Method: Happiness NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "evomethod_happiness, evomethod_happiness_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Evolution Method: Happiness in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "evomethod_happiness, evomethod_happiness_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/happiness.png",
+        "codes": "happiness_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Evolution Method: Leveling",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Evolution Method: Leveling NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "evomethod_level, evomethod_level_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Evolution Method: Leveling in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "evomethod_level, evomethod_level_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/leveling.png",
+        "codes": "leveling_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Evolution Method: Items",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Evolution Method: Items NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "evomethod_item, evomethod_item_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Evolution Method: Items in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "evomethod_item, evomethod_item_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/item.png",
+        "codes": "item_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Evolution Method: Geographical",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Evolution Method: Geographical NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "evomethod_geographical, evomethod_geographical_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Evolution Method: Geographical in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "evomethod_geographical, evomethod_geographical_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/geographical.png",
+        "codes": "geographical_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Evolution Method: Mildly Annoying",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Evolution Method: Mildly Annoying NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "evomethod_mildlyannoying, evomethod_mildlyannoying_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Evolution Method: Mildly Annoying in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "evomethod_mildlyannoying, evomethod_mildlyannoying_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/mildlyannoying.png",
+        "codes": "mildlyannoying_dummy",
+        "type": "static"
+    },
+    {
+        "name": "Evolution Method: Highly Annoying",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Evolution Method: Highly Annoying NOT in logic",
+                "img": "/images/settings/dex_related/notinlogic.png",
+                "codes": "evomethod_highlyannoying, evomethod_highlyannoying_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Evolution Method: Highly Annoying in logic",
+                "img": "/images/settings/dex_related/inlogic.png",
+                "codes": "evomethod_highlyannoying, evomethod_highlyannoying_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "img": "/images/settings/dex_related/highlyannoying.png",
+        "codes": "highlyannoying_dummy",
         "type": "static"
     }
 ]

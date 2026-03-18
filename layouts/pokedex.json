@@ -3,6 +3,22 @@
         "type": "tabbed",
         "tabs": [
             {
+                "title": "Logic Settings",
+                "content": {
+                    "type": "layout",
+                    "key": "pokemon_logic"
+                }
+            },
+            {
+                "title": "Information",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "info_sheet"
+                    ]
+                }
+            },
+            {
                 "title": "Kanto Pokémon (001-151)",
                 "content": {
                     "type": "map",

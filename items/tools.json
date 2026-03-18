@@ -2257,20 +2257,20 @@
         "stages": [
             {
                 "name": "Hint Tracking - OFF",
-                "img": "/images/tools/map_split.png",
+                "img": "/images/tools/hint_tracking_off.png",
                 "img_mods": "@disabled",
                 "codes": "hint_tracking, hint_tracking_off",
                 "inherit_codes": false
             },
             {
                 "name": "Hint Tracking - ON",
-                "img": "/images/tools/map_split.png",
+                "img": "/images/tools/hint_tracking_on.png",
                 "codes": "hint_tracking, hint_tracking_on",
                 "inherit_codes": false
             },
             {
                 "name": "Hint Tracking - ON (w/ Auto-Mark-Off)",
-                "img": "/images/tools/map_reverse.png",
+                "img": "/images/tools/hint_tracking_on_plus.png",
                 "codes": "hint_tracking, hint_tracking_on_plus",
                 "inherit_codes": false
             }

@@ -13,20 +13,18 @@
                         "type": "itemgrid",
                         "item_margin": "2,2",
                         "item_size": "32,32",
-                        "h_alignment": "left",
+                        "h_alignment": "center",
                         "rows": [
                             [
                                 "automap",
-                                "hint_tracking"
+								"splitmap"
                             ],
                             [
-                                "splitmap"
-                            ],
-                            [
-                                "location_visibility"
-                            ],
-                            [
+                                "location_visibility",
 								"encounter_tracking"
+                            ],
+                            [
+                                "hint_tracking"
                             ]
                         ]
                     }
@@ -52,9 +50,10 @@
                         "rows": [
                             [
                                 "automap",
-								"split",
+								"splitmap",
 								"location_visibility",
-                                "encounter_tracking"
+                                "encounter_tracking",
+								"hint_tracking"
                             ]
                         ]
                     }

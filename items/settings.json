@@ -365,13 +365,13 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Maniac Tunnel requires seeing all 26 Unown Forms",
+                "name": "Maniac Tunnel requires seeing at least 26 Unown Forms",
                 "img": "images/settings/opt_unown_vanilla.png",
                 "codes": "opt_unown, opt_unown_vanilla",
                 "inherit_codes": false
             },
             {
-                "name": "Maniac Tunnel requires having all 26 Unown File Items",
+                "name": "Maniac Tunnel requires having at least 26 Unown File Items",
                 "img": "images/settings/opt_unown_item.png",
                 "codes": "opt_unown, opt_unown_item",
                 "inherit_codes": false

@@ -215,3 +215,11 @@ function has_mon(dexnumber)
         return AccessibilityLevel.Inspect
     end
 end
+
+function day()
+    return has("poketch") and has("daytime")
+end
+
+function night()
+    return has("poketch") and has("nighttime")
+end

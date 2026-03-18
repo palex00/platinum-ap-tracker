@@ -662,11 +662,28 @@
               }
             },
             {
-              "title": "Valley Windworks Building",
+              "title": "Valley Windworks",
               "content": {
-                "type": "map",
-                "maps": [
-                  "valleywindworksbuilding"
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Outside",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "valleywindworksoutside"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Building",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "valleywindworksbuilding"
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -1070,15 +1087,6 @@
                 "type": "map",
                 "maps": [
                   "route221east"
-                ]
-              }
-            },
-            {
-              "title": "Pal Park",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "palpark"
                 ]
               }
             }
