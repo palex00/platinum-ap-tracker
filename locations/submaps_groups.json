@@ -757,7 +757,7 @@
 { "name": "Mt. Coronet South", "map_locations": [ { "map": "route207", "x": 873, "y": 165}, {"map": "route208", "x": 119, "y": 373}], "sections": [
 { "name": "Item Across Upper Pond", "ref": "Mt. Coronet 1F South/Item Across Upper Pond"},
 { "name": "Item Across Lower Pond", "ref": "Mt. Coronet 1F South/Item Across Lower Pond"},
-{ "name": "Item Across Lower Pond\u200b", "ref": "Mt. Coronet 1F South/Item Across Lower \u200b"},
+{ "name": "Item Across Lower Pond\u200b", "ref": "Mt. Coronet 1F South/Item Across Lower Pond\u200b"},
 { "name": "Hidden Item on Center Boulder", "ref": "Mt. Coronet 1F South/Hidden Item on Center Boulder"},
 { "name": "Hidden Item in Boulder in Top Left", "ref": "Mt. Coronet 1F South/Hidden Item in Boulder in Top Left"},
 { "name": "Hidden Item in Bottom Left", "ref": "Mt. Coronet 1F South/Hidden Item in Bottom Left"},
