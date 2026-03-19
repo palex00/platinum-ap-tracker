@@ -16625,7 +16625,27 @@
         ],
         "sections": [
             {
-                "name": "Item in Room With Boxes and Green Warp",
+                "name": "Entrance - HM02 with Looker",
+                "access_rules": [
+                    "@veilstone_city_galactic_warehouse"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hms_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Entrance - HM02 with Looker\u200b",
+                "access_rules": [
+                    "@veilstone_city_galactic_warehouse"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hms_off"
+                ],
+                "hosted_item": "hm02fly"
+            },
+            {
+                "name": "Entrance - Item By Computer",
                 "access_rules": [
                     "@galactic_hq_wo_key"
                 ],
@@ -16635,7 +16655,28 @@
                 "item_count": 1
             },
             {
-                "name": "Item Next to Table",
+                "name": "Entrance - Item By Computer\u200b",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_off"
+                ],
+                "hosted_item": "duskstone"
+            },
+            {
+                "name": "B2F - Galactic Grunt 1",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_trainer_full",
+                    "show_items, opt_trainer_328187"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F - Item By Boxes",
                 "access_rules": [
                     "@galactic_hq_wo_key"
                 ],
@@ -16645,7 +16686,110 @@
                 "item_count": 1
             },
             {
-                "name": "Item Next to Table\u200b",
+                "name": "B2F - Galactic Grunt 2",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_trainer_full",
+                    "show_items, opt_trainer_328188"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F - Item Sitting in Puddle",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F - Galactic Key Next to Locked Door",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_keyitems_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B2F - Galactic Key Next to Locked Door\u200b",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_keyitems_off"
+                ],
+                "hosted_item": "galactickey"
+            },
+            {
+                "name": "B1F - Linking Cord",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_keyitems_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "B1F -Linking Cord\u200b",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_keyitems_off"
+                ],
+                "hosted_item": "linkingcord"
+            },
+            {
+                "name": "1F - Galactic Grunt",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_trainer_full",
+                    "show_items, opt_trainer_328108"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Item in Room With Boxes and Green Warp",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Scientist Fredrick",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_trainer_full",
+                    "show_items, opt_trainer_328510"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Item Next to Table",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "1F - Item Next to Table\u200b",
                 "access_rules": [
                     "@galactic_hq_wo_key"
                 ],
@@ -16655,17 +16799,29 @@
                 "hosted_item": "dubiousdisc"
             },
             {
-                "name": "Item in Many Generators Room",
+                "name": "2F - Galactic Grunt 1",
                 "access_rules": [
-                    "@galactic_hq_wo_key, galactickey"
+                    "@galactic_hq_wo_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_overworld_on"
+                    "show_items, opt_trainer_full",
+                    "show_items, opt_trainer_328190"
                 ],
                 "item_count": 1
             },
             {
-                "name": "Hidden Item Near Team Galactic Credo",
+                "name": "3F - Galactic Grunt 1",
+                "access_rules": [
+                    "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_trainer_full",
+                    "show_items, opt_trainer_328189"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Hidden Item Near Team Galactic Credo",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -16677,84 +16833,25 @@
                 "item_count": 1
             },
             {
-                "name": "Item Sitting in Puddle",
+                "name": "3F - Galactic Grunt 2",
                 "access_rules": [
                     "@galactic_hq_wo_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_trainer_full",
+                    "show_items, opt_trainer_328192"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Item in Many Generators Room",
+                "access_rules": [
+                    "@galactic_hq_wo_key, galactickey"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
                 ],
                 "item_count": 1
-            },
-            {
-                "name": "Galactic Key Next to Locked Door",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_keyitems_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Galactic Key Next to Locked Door\u200b",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_keyitems_off"
-                ],
-                "hosted_item": "galactickey"
-            },
-            {
-                "name": "Item By Boxes",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item By Computer",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item By Computer\u200b",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_off"
-                ],
-                "hosted_item": "duskstone"
-            },
-            {
-                "name": "HM02 with Looker",
-                "access_rules": [
-                    "@veilstone_city_galactic_warehouse"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_hms_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "HM02 with Looker\u200b",
-                "access_rules": [
-                    "@veilstone_city_galactic_warehouse"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_hms_off"
-                ],
-                "hosted_item": "hm02fly"
             }
         ],
         "map_locations": [
@@ -16776,7 +16873,7 @@
         ],
         "sections": [
             {
-                "name": "Hidden Item Near Entrance in Green Warp Room",
+                "name": "1F - Hidden Item Near Entrance in Green Warp Room",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -16788,195 +16885,13 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Room Next to Cyrus",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@galactic_hq_w_key, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Item in Room Next to Cyrus\u200b",
-                "access_rules": [
-                    "@galactic_hq_w_key, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_hidden_off"
-                ],
-                "hosted_item": "razorclaw"
-            },
-            {
-                "name": "Item in Room with Two Tables",
-                "access_rules": [
-                    "@galactic_hq_w_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item Behind Box",
-                "access_rules": [
-                    "@galactic_hq_w_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Item in Box in Room with Two Tables",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@galactic_hq_w_key, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Item by Three Teleporters",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@galactic_hq_w_key, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Secret Lab - Item Next to Three Machines",
-                "access_rules": [
-                    "@galactic_hq_w_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item in Room with Two Generators",
-                "access_rules": [
-                    "@galactic_hq_w_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Item in Room with Four Boxes",
-                "access_rules": [
-                    "@galactic_hq_w_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Item in Bed",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@galactic_hq_w_key, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Item in Room with Four Boxes",
-                "chest_unopened_img": "/images/locations/hidden.png",
-                "chest_opened_img": "/images/locations/hiddenopen.png",
-                "access_rules": [
-                    "@galactic_hq_w_key, ^$hidden"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_hidden_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Linking Cord (In First Basement)",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_keyitems_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Linking Cord (In First Basement)\u200b",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_keyitems_off"
-                ],
-                "hosted_item": "linkingcord"
-            },
-            {
-                "name": "Release the Lake Guardians (Event)",
-                "access_rules": [
-                    "@galactic_hq_w_key"
-                ],
-                "visibility_rules": [
-                    "show_items, "
-                ],
-                "hosted_item": "event_galactic_hq_defeat_cyrus"
-            },
-            {
-                "name": "Master Ball from Cyrus",
-                "access_rules": [
-                    "@galactic_hq_w_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_npcgifts_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "4F - Galactic Boss Cyrus",
+                "name": "2F - Galactic Grunt 2",
                 "access_rules": [
                     "@galactic_hq_w_key"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328083"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Commander Saturn",
-                "access_rules": [
-                    "@galactic_hq_w_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328089"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "1F - Galactic Grunt",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328108"
+                    "show_items, opt_trainer_328193"
                 ],
                 "item_count": 1
             },
@@ -16992,68 +16907,57 @@
                 "item_count": 1
             },
             {
-                "name": "B2F - Galactic Grunt 1",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328187"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B2F - Galactic Grunt 2",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328188"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "3F - Galactic Grunt 1",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328189"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "2F - Galactic Grunt 1",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328190"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "3F - Galactic Grunt 2",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328192"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "2F - Galactic Grunt 2",
+                "name": "2F - Scientist Darrius",
                 "access_rules": [
                     "@galactic_hq_w_key"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328193"
+                    "show_items, opt_trainer_328509"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Item in Room with Two Generators",
+                "access_rules": [
+                    "@galactic_hq_w_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Hidden Item in Room with Four Boxes",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@galactic_hq_w_key, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Item in Room with Four Boxes",
+                "access_rules": [
+                    "@galactic_hq_w_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "2F - Hidden Item in Bed",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@galactic_hq_w_key, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_on"
                 ],
                 "item_count": 1
             },
@@ -17080,26 +16984,122 @@
                 "item_count": 1
             },
             {
-                "name": "2F - Scientist Darrius",
+                "name": "3F - Hidden Item by Three Teleporters",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@galactic_hq_w_key, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Item Behind Box",
+                "access_rules": [
+                    "@galactic_hq_w_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Item in Room with Two Tables",
+                "access_rules": [
+                    "@galactic_hq_w_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "3F - Hidden Item in Box in Room with Two Tables",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@galactic_hq_w_key, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Office - Galactic Boss Cyrus",
                 "access_rules": [
                     "@galactic_hq_w_key"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328509"
+                    "show_items, opt_trainer_328083"
                 ],
                 "item_count": 1
             },
             {
-                "name": "1F - Scientist Fredrick",
+                "name": "Office - Master Ball from Cyrus",
                 "access_rules": [
-                    "@galactic_hq_wo_key"
+                    "@galactic_hq_w_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_npcgifts_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item in Room Next to Cyrus",
+                "chest_unopened_img": "/images/locations/hidden.png",
+                "chest_opened_img": "/images/locations/hiddenopen.png",
+                "access_rules": [
+                    "@galactic_hq_w_key, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Item in Room Next to Cyrus\u200b",
+                "access_rules": [
+                    "@galactic_hq_w_key, ^$hidden"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_hidden_off"
+                ],
+                "hosted_item": "razorclaw"
+            },
+            {
+                "name": "Secret Lab - Item Next to Three Machines",
+                "access_rules": [
+                    "@galactic_hq_w_key"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_on"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Secret Lab - Commander Saturn",
+                "access_rules": [
+                    "@galactic_hq_w_key"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328510"
+                    "show_items, opt_trainer_328089"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Secret Lab - Release the Lake Guardians (Event)",
+                "access_rules": [
+                    "@galactic_hq_w_key"
+                ],
+                "visibility_rules": [
+                    "show_items, "
+                ],
+                "hosted_item": "event_galactic_hq_defeat_cyrus"
             }
         ],
         "map_locations": [
