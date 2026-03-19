@@ -17049,7 +17049,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Room Next to Cyrus",
+                "name": "Office - Hidden Item in Room Next to Cyrus",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -17061,7 +17061,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Room Next to Cyrus\u200b",
+                "name": "Office - Hidden Item in Room Next to Cyrus\u200b",
                 "access_rules": [
                     "@galactic_hq_w_key, ^$hidden"
                 ],
