@@ -132,7 +132,7 @@
 { "name": "Poketch Company", "map_locations": [ { "map": "jubilifecity", "x": 288, "y": 182}], "sections": [
 { "name": "Poketch Company - Memo Pad App", "ref": "Jubilife City/Poketch Company - Memo Pad App"},
 { "name": "Poketch Company - Marking Map App", "ref": "Jubilife City/Poketch Company - Marking Map App"},
-{ "name": "Poketch Company - Marking Map App\u200b", "ref": "Jubilife City/Poketch Company - Marking Map \u200b"},
+{ "name": "Poketch Company - Marking Map App\u200b", "ref": "Jubilife City/Poketch Company - Marking Map App\u200b"},
 { "name": "Poketch Company - Link Searcher App", "ref": "Jubilife City/Poketch Company - Link Searcher App"},
 { "name": "Poketch Company - Move Tester App", "ref": "Jubilife City/Poketch Company - Move Tester App"}]},
 { "name": "Veilstone Dept. Store", "map_locations": [ { "map": "veilstonecity", "x": 472, "y": 368}], "sections": [
