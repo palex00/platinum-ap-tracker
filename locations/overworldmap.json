@@ -6784,7 +6784,7 @@
                 "hosted_item": "firestone"
             },
             {
-                "name": "Cavern - Defeat Team Galactic in Stark Mountain (Event)",
+                "name": "Heatran's Room - Defeat Team Galactic in Stark Mountain (Event)",
                 "access_rules": [
                     "@stark_mountain_room_3"
                 ],
@@ -6794,7 +6794,7 @@
                 "hosted_item": "event_clear_starkmountain"
             },
             {
-                "name": "Bird Keeper Krystal",
+                "name": "Cavern - Bird Keeper Krystal",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6816,7 +6816,7 @@
                 "item_count": 1
             },
             {
-                "name": "Dragon Tamer Drake",
+                "name": "Cavern - Dragon Tamer Drake",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6827,7 +6827,7 @@
                 "item_count": 1
             },
             {
-                "name": "Dragon Tamer Kenny",
+                "name": "Cavern - Dragon Tamer Kenny",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6838,7 +6838,7 @@
                 "item_count": 1
             },
             {
-                "name": "Ace Trainer Keenan",
+                "name": "Cavern - Ace Trainer Keenan",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6849,7 +6849,7 @@
                 "item_count": 1
             },
             {
-                "name": "Ace Trainer Stefan",
+                "name": "Cavern - Ace Trainer Stefan",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6860,7 +6860,7 @@
                 "item_count": 1
             },
             {
-                "name": "Ace Trainer Skylar",
+                "name": "Cavern - Ace Trainer Skylar",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6871,7 +6871,7 @@
                 "item_count": 1
             },
             {
-                "name": "Ace Trainer Abel",
+                "name": "Cavern - Ace Trainer Abel",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6882,7 +6882,7 @@
                 "item_count": 1
             },
             {
-                "name": "Ace Trainer Kassandra",
+                "name": "Cavern - Ace Trainer Kassandra",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6893,7 +6893,7 @@
                 "item_count": 1
             },
             {
-                "name": "Ace Trainer Jasmin",
+                "name": "Cavern - Ace Trainer Jasmin",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6904,7 +6904,7 @@
                 "item_count": 1
             },
             {
-                "name": "Ace Trainer Natasha",
+                "name": "Cavern - Ace Trainer Natasha",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6915,7 +6915,7 @@
                 "item_count": 1
             },
             {
-                "name": "Ace Trainer Monique",
+                "name": "Cavern - Ace Trainer Monique",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6926,7 +6926,7 @@
                 "item_count": 1
             },
             {
-                "name": "Psychic Sterling",
+                "name": "Cavern - Psychic Sterling",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6937,7 +6937,7 @@
                 "item_count": 1
             },
             {
-                "name": "Psychic Chelsey",
+                "name": "Cavern - Psychic Chelsey",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6948,7 +6948,7 @@
                 "item_count": 1
             },
             {
-                "name": "Black Belt Ray",
+                "name": "Cavern - Black Belt Ray",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6959,7 +6959,7 @@
                 "item_count": 1
             },
             {
-                "name": "Black Belt Jarrett",
+                "name": "Cavern - Black Belt Jarrett",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6970,7 +6970,7 @@
                 "item_count": 1
             },
             {
-                "name": "Veteran Harlan",
+                "name": "Cavern - Veteran Harlan",
                 "access_rules": [
                     "@stark_mountain_room_2"
                 ],
@@ -6981,7 +6981,7 @@
                 "item_count": 1
             },
             {
-                "name": "Commander Mars",
+                "name": "Entrance - Commander Mars",
                 "access_rules": [
                     "@stark_mountain_room_1"
                 ],
@@ -6992,7 +6992,7 @@
                 "item_count": 1
             },
             {
-                "name": "Commander Jupiter",
+                "name": "Entrance - Commander Jupiter",
                 "access_rules": [
                     "@stark_mountain_room_1"
                 ],
