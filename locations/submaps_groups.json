@@ -15,8 +15,8 @@
 { "name": "Lab - Poke Radar from Rowan\u200b", "ref": "Sandgem Town/Lab - Poke Radar from Rowan\u200b"},
 { "name": "TM27 from Professor Rowan", "ref": "Sandgem Town/TM27 from Professor Rowan"}]},
 { "name": "Galactic Double Battle", "map_locations": [ { "map": "starkmountainentrance", "x": 328, "y": 382}], "sections": [
-{ "name": "Commander Mars", "ref": "Stark Mountain/Entrance - Commander Mars"},
-{ "name": "Commander Jupiter", "ref": "Stark Mountain/Entrance - Commander Jupiter"}]},
+{ "name": "Entrance - Commander Mars", "ref": "Stark Mountain/Entrance - Commander Mars"},
+{ "name": "Entrance - Commander Jupiter", "ref": "Stark Mountain/Entrance - Commander Jupiter"}]},
 { "name": "Pokemon League", "map_locations": [ { "map": "pokemonleaguenorth", "x": 248, "y": 240}], "sections": [
 { "name": "Rival", "ref": "Pokemon League/Rival"},
 { "name": "Elite Four Aaron", "ref": "Pokemon League/Elite Four Aaron"},
