@@ -218,41 +218,25 @@ function onClear(slot_data)
         end
     end
     
-    updateEvents(0)
+    updateEvents(1, 0)
     
-    if Archipelago.PlayerNumber > -1 then
-        HINT_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({HINT_ID})
-        Archipelago:Get({HINT_ID})
-        
-        EVENT_ID = "pokemon_platinum_tracked_events_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({EVENT_ID})
-        Archipelago:Get({EVENT_ID})
-        
-        SEEN_ID = "pokemon_platinum_seen_pokemon_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({SEEN_ID})
-        Archipelago:Get({SEEN_ID})
-        
-        CAUGHT_ID = "pokemon_platinum_caught_pokemon_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({CAUGHT_ID})
-        Archipelago:Get({CAUGHT_ID})
-        
-        KEY1_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_0"
-        Archipelago:SetNotify({KEY1_ID})
-        Archipelago:Get({KEY1_ID})
-        
-        KEY2_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_1"
-        Archipelago:SetNotify({KEY2_ID})
-        Archipelago:Get({KEY2_ID})
-        
-        KEY3_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_2"
-        Archipelago:SetNotify({KEY3_ID})
-        Archipelago:Get({KEY3_ID})
-        
-        KEY4_ID = "pokemon_platinum_tracked_unrandomized_required_locations_"..TEAM_NUMBER.."_"..PLAYER_ID.."_3"
-        Archipelago:SetNotify({KEY4_ID})
-        Archipelago:Get({KEY4_ID})
-        
+    if Archipelago.PlayerNumber > -1 then 
+        local suffix = TEAM_NUMBER .. "_" .. PLAYER_ID
+        local function makeID(s) return "pokemon_platinum_" .. s .. suffix end
+        IDs = {
+            EVENT      = makeID("tracked_events_"),
+            SEEN       = makeID("seen_pokemon_"),
+            CAUGHT     = makeID("caught_pokemon_"),
+            KEY1       = makeID("tracked_unrandomized_required_locations_0_"),
+            KEY2      = makeID("tracked_unrandomized_required_locations_1_"),
+            KEY3      = makeID("tracked_unrandomized_required_locations_2_"),
+            KEY4     = makeID("tracked_unrandomized_required_locations_3_"),
+            HINT       = "_read_hints_" .. suffix,
+        }
+        for _, id in pairs(IDs) do
+            Archipelago:SetNotify({id})
+            Archipelago:Get({id})
+        end
         --for i = 1, 4 do
         --    _G["KEY"..i.."_ID"] =
         --        "pokemon_platinum_tracked_unrandomized_required_locations_"
@@ -418,56 +402,35 @@ end
 
 function onNotify(key, value, old_value)
     if value ~= nil and value ~= 0 and old_value ~= value then
-        if key == EVENT_ID then
-            updateEvents(value)
-        elseif key == KEY1_ID then
+        if key == IDs.EVENT then
+            updateEvents(1, value)
+        elseif key == IDs.KEY1 then
             updateVanillaKeyItems(1, value)
-        elseif key == KEY2_ID then
+        elseif key == IDs.KEY2 then
             updateVanillaKeyItems(2, value)
-        elseif key == KEY3_ID then
+        elseif key == IDs.KEY3 then
             updateVanillaKeyItems(3, value)
-        elseif key == KEY4_ID then
+        elseif key == IDs.KEY4 then
             updateVanillaKeyItems(4, value)
-        elseif key == HINT_ID then
+        elseif key == IDs.HINT then
             SAVED_HINTS = value
             toggleHints()
-        elseif key == CAUGHT_ID then
+        elseif key == IDs.CAUGHT then
             updateCaught(value)
-        elseif key == SEEN_ID then
+        elseif key == IDs.SEEN then
             updateSeen(value)
         end
     end
 end
 
-function onNotifyLaunch(key, value)
-    if value ~= nil and value ~= 0 then
-        if key == EVENT_ID then
-            updateEvents(value)
-        elseif key == KEY1_ID then
-            updateVanillaKeyItems(1, value)
-        elseif key == KEY2_ID then
-            updateVanillaKeyItems(2, value)
-        elseif key == KEY3_ID then
-            updateVanillaKeyItems(3, value)
-        elseif key == KEY4_ID then
-            updateVanillaKeyItems(4, value)
-        elseif key == HINT_ID then
-            SAVED_HINTS = value
-            toggleHints()
-        elseif key == CAUGHT_ID then
-            updateCaught(value)
-        elseif key == SEEN_ID then
-            updateSeen(value)
-        end
-    end
-end
-
-function updateEvents(value)
+function updateEvents(register, value)
     if value ~= nil then
-        for i, code in ipairs(FLAG_EVENT_CODES) do
-            local bit = (value >> (i - 1)) & 1
-            Tracker:FindObjectForCode(code).Active = (bit == 1)
-        end
+        local list = _G["FLAG_EVENT_" .. tostring(register) .. "_CODES"]
+        
+        for i, code in ipairs(list) do
+         local bit = (value >> (i - 1)) & 1
+         Tracker:FindObjectForCode(code).Active = (bit == 1)
+         end
     end
 end
 
