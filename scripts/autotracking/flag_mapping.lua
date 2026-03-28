@@ -1,4 +1,4 @@
-FLAG_EVENT_CODES = {
+FLAG_EVENT_1_CODES = {
     "event_defeat_wake",
     "event_met_oak_at_palpark",
     "event_clear_lakeverity",
