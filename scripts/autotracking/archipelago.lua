@@ -218,7 +218,7 @@ function onClear(slot_data)
         end
     end
     
-    updateEvents(1, 0)
+    updateEvents(0)
     
     if Archipelago.PlayerNumber > -1 then 
         local suffix = TEAM_NUMBER .. "_" .. PLAYER_ID
@@ -403,7 +403,7 @@ end
 function onNotify(key, value, old_value)
     if value ~= nil and value ~= 0 and old_value ~= value then
         if key == IDs.EVENT then
-            updateEvents(1, value)
+            updateEvents(value)
         elseif key == IDs.KEY1 then
             updateVanillaKeyItems(1, value)
         elseif key == IDs.KEY2 then
@@ -425,12 +425,10 @@ end
 
 function updateEvents(register, value)
     if value ~= nil then
-        local list = _G["FLAG_EVENT_" .. tostring(register) .. "_CODES"]
-        
-        for i, code in ipairs(list) do
-         local bit = (value >> (i - 1)) & 1
-         Tracker:FindObjectForCode(code).Active = (bit == 1)
-         end
+        for i, code in ipairs(FLAG_EVENT_CODES) do
+            local bit = (value >> (i - 1)) & 1
+            Tracker:FindObjectForCode(code).Active = (bit == 1)
+        end
     end
 end
 
