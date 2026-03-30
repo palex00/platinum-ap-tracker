@@ -77,7 +77,6 @@
 { "name": "Ruby Encounters", "ref": "Iron Island/B2F Right - Ruby Encounters" },
 { "name": "Sapphire Encounters", "ref": "Iron Island/B2F Right - Sapphire Encounters" }]},
 { "name": "B3F - Encounters", "map_locations": [ { "map": "ironislandb3f", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Iron Island/B3F - Land Encounters" },
-{ "name": "Swarm Encounters", "ref": "Iron Island/B3F - Swarm Encounters" },
 { "name": "Ruby Encounters", "ref": "Iron Island/B3F - Ruby Encounters" },
 { "name": "Sapphire Encounters", "ref": "Iron Island/B3F - Sapphire Encounters" }]},
 { "name": "Outside - Encounters​", "map_locations": [ { "map": "ironislandoutside", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Surf Encounters", "ref": "Iron Island/Outside - Surf Encounters" },
