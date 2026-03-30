@@ -72,7 +72,6 @@ ENCOUNTER_MAPPING = {
   ["iron_island_b2f_right_room_ruby"] = "@Iron Island/B2F Right - Ruby Encounters",
   ["iron_island_b2f_right_room_sapphire"] = "@Iron Island/B2F Right - Sapphire Encounters",
   ["iron_island_b3f_land"] = "@Iron Island/B3F - Land Encounters",
-  ["iron_island_b3f_swarm"] = "@Iron Island/B3F - Swarm Encounters",
   ["iron_island_b3f_ruby"] = "@Iron Island/B3F - Ruby Encounters",
   ["iron_island_b3f_sapphire"] = "@Iron Island/B3F - Sapphire Encounters",
   ["iron_island_surf"] = "@Iron Island/Outside - Surf Encounters",
