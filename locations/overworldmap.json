@@ -5578,18 +5578,6 @@
                 ]
             },
             {
-                "name": "B3F - Swarm Encounters",
-                "item_count": 1,
-                "chest_unopened_img": "/images/locations/encounters/swarm.png",
-                "chest_opened_img": "/images/locations/encounters/swarm_cleared.png",
-                "access_rules": [
-                    "@iron_island_b3f, ^$swarm_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
                 "name": "B3F - Ruby Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
