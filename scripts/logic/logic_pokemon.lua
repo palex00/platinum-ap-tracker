@@ -285,3 +285,39 @@ end
 function evolve_friendship()
     return AccessibilityLevel.Normal
 end
+
+function evolve_friendship_day()
+    if has("poketch") and has("daytime") then return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
+end
+
+function evolve_friendship_night()
+    if has("poketch") and has("nighttime") then return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
+end
+
+
+function evolve_item_day(value)
+    if not has(value) or not has("bag") or not has("poketch") or not has("daytime") then return end
+    
+    if has("evomethod_item_on") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
+end
+
+
+function evolve_item_night(value)
+    if not has(value) or not has("bag") or not has("poketch") or not has("nighttime") then return end
+    
+    if has("evomethod_item_on") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
+end
