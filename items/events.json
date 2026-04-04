@@ -142,7 +142,7 @@
     {
         "name": "Release Mesprit",
         "type": "toggle",
-        "img": "/images/events/event_roamer_0",
+        "img": "/images/events/event_roamer_0.png",
         "img_mods": "",
         "codes":"event_roamer_0"
     },
