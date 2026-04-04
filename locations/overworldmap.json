@@ -66,7 +66,7 @@
                 "chest_unopened_img": "/images/locations/encounters/roamer.png",
                 "chest_opened_img": "/images/locations/encounters/roamer_cleared.png",
                 "access_rules": [
-                    "@virt_roamers, ^$roamer_encounters, event_roamer_0"
+                    "@virt_roamers, ^$roamer_encounters, event_roamer_0,  @Lake Verity/Release Mesprit (Event)"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -4625,7 +4625,7 @@
             {
                 "name": "Release Mesprit (Event)",
                 "access_rules": [
-                    "@lake_verity, $surf, event_clear_lakeverity, event_clear_distortion, @distortion_world"
+                    "@verity_cavern, event_clear_lakeverity, event_clear_distortion, @distortion_world"
                 ],
                 "visibility_rules": [
                     "show_items",
