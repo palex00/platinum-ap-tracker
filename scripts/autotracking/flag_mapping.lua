@@ -17,10 +17,10 @@ FLAG_EVENT_CODES = {
     "event_defeat_cynthia",
     "event_clear_distortion",
     "event_clear_windworks",
-    "event_clear_starkmountain"
-    "event_roamer_1"
-    "event_roamer_0"
-    "event_roamer_3",
+    "event_clear_starkmountain",
+    "event_roamer_1",
+    "event_roamer_0",
+    "event_roamer_3"
 }
 
 FLAG_ITEM1_CODES = {
