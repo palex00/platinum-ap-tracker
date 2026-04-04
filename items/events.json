@@ -144,7 +144,7 @@
         "type": "toggle",
         "img": "/images/events/event_roamer_0",
         "img_mods": "",
-        "codes":"event_met_oak_at_palpark"
+        "codes":"event_roamer_0"
     },
     {
         "name": "Release The Legendary Birds",
