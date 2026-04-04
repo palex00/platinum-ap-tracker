@@ -94,8 +94,30 @@ function surf_encounters()
     end
 end
 
-function roamer_encounters()
-    if not has("poketch") or not has("markingmap") then return AccessibilityLevel.None end
+function roamer_encounters_cresselia()
+    if not has("poketch") or not has("markingmap") or not has("event_roamer_1") then return AccessibilityLevel.None end
+    
+    local cynthia = Tracker:FindObjectForCode("@pokemon_league_hall_of_fame").AccessibilityLevel
+    if has("encmethod_roamer_on") then
+        return math.max(has_level("opt_can_reset_legendaries_in_ap_helper_on"), cynthia, AccessibilityLevel.SequenceBreak)    
+    end
+    
+    return AccessibilityLevel.SequenceBreak
+end
+
+function roamer_encounters_mesprit()
+    if not has("poketch") or not has("markingmap") or not has("event_roamer_0") then return AccessibilityLevel.None end
+    
+    local cynthia = Tracker:FindObjectForCode("@pokemon_league_hall_of_fame").AccessibilityLevel
+    if has("encmethod_roamer_on") then
+        return math.max(has_level("opt_can_reset_legendaries_in_ap_helper_on"), cynthia, AccessibilityLevel.SequenceBreak)    
+    end
+    
+    return AccessibilityLevel.SequenceBreak
+end
+
+function roamer_encounters_birds()
+    if not has("poketch") or not has("markingmap") or not has("event_roamer_3") then return AccessibilityLevel.None end
     
     local cynthia = Tracker:FindObjectForCode("@pokemon_league_hall_of_fame").AccessibilityLevel
     if has("encmethod_roamer_on") then
