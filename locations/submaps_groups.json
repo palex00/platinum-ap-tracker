@@ -898,6 +898,7 @@
 { "name": "Release Cresselia (Event)", "ref": "Fullmoon Island/Release Cresselia (Event)"}]},
 { "name": "Oak's House", "map_locations": [ { "map": "eternacity", "x": 168, "y": 656}], "sections": [
 { "name": "Up-Grade from Prof Oak", "ref": "Eterna City/Up-Grade from Prof Oak"},
+{ "name": "Up-Grade from Prof Oak\u200b", "ref": "Eterna City/Up-Grade from Prof Oak\u200b"},
 { "name": "Release The Legendary Birds (Event)", "ref": "Eterna City/Release The Legendary Birds (Event)"}]},
 { "name": "Oreburgh Gate - Gift from Hiker", "map_locations": [ { "map": "oreburghgate1f", "x": 88, "y": 244}], "sections": [
 { "name": "HM06 from Hiker", "ref": "Oreburgh Gate/HM06 from Hiker"},
