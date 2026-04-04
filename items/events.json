@@ -131,7 +131,7 @@
         "img": "/images/events/event_clear_starkmountain.png",
         "img_mods": "",
         "codes":"event_clear_starkmountain"
-    }
+    },
     {
         "name": "Release Cresselia",
         "type": "toggle",
