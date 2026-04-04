@@ -2048,7 +2048,7 @@
                     "@pokemon_league_hall_of_fame"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_defeat_cynthia"
             },
@@ -2728,7 +2728,7 @@
                     "@fullmoon_island_forest"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_roamer_1"
             }
@@ -3878,7 +3878,7 @@
                     "@celestic_town"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "item_count": 1
             },
@@ -3888,7 +3888,7 @@
                     "@celestic_town, $day"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "item_count": 1
             },
@@ -3898,7 +3898,7 @@
                     "@celestic_town, $night"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "item_count": 1
             },
@@ -4618,7 +4618,7 @@
                     "@lake_verity"
                 ],
                 "visibility_rules": [
-                    "show_items"
+                    "show_items",
                 ],
                 "hosted_item": "event_clear_lakeverity"
             },
@@ -4628,7 +4628,7 @@
                     "@lake_verity, $surf, event_clear_lakeverity, event_clear_distortion"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_roamer_0"
             },
@@ -4883,7 +4883,7 @@
                     "@pastoria_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_defeat_wake"
             },
@@ -6821,7 +6821,7 @@
                     "@stark_mountain_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_clear_starkmountain"
             },
@@ -8285,7 +8285,7 @@
                     "@hearthome_city_gym_leader_room"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_defeat_fantina"
             },
@@ -12419,7 +12419,7 @@
                     "@lake_valor_drained"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_clear_lakevalor"
             },
@@ -12950,7 +12950,7 @@
                     "@sunyshore_city_gym_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_defeat_volkner"
             },
@@ -13600,7 +13600,7 @@
                     "@canalave_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_defeat_byron"
             },
@@ -13651,7 +13651,7 @@
                     "@canalave_library_3f, hm04strength, event_defeat_byron, @canalave_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_learn_of_lake_explosion"
             },
@@ -14047,7 +14047,7 @@
                     "@valley_windworks_building"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_clear_windworks"
             },
@@ -15163,7 +15163,7 @@
                     "@eterna_city_south_house, event_met_oak_at_palpark, @pal_park_lobby"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_roamer_3"
             },
@@ -15226,7 +15226,7 @@
                     "@eterna_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_defeat_gardenia"
             },
@@ -15450,7 +15450,7 @@
                     "@team_galactic_eterna_building_4f"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_clear_eternahideout"
             },
@@ -16249,7 +16249,7 @@
                     "@veilstone_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_defeat_maylene"
             },
@@ -17112,7 +17112,7 @@
                     "@galactic_hq_w_key"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_galactic_hq_defeat_cyrus"
             }
@@ -18571,7 +18571,7 @@
                     "@lake_acuity"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_clear_lakeacuity"
             },
@@ -18832,7 +18832,7 @@
                     "@snowpoint_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_defeat_candice"
             },
@@ -19863,7 +19863,7 @@
                     "@oreburgh_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_defeat_roark"
             },
@@ -20715,7 +20715,7 @@
                     "@pal_park_lobby"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_met_oak_at_palpark"
             },
@@ -21400,7 +21400,7 @@
                     "@distortion_world"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items",
                 ],
                 "hosted_item": "event_clear_distortion"
             },
