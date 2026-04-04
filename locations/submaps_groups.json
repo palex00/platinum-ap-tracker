@@ -893,6 +893,12 @@
 { "name": "Galactic Warehouse Entrance", "map_locations": [ { "map": "galacticwharehouse1f", "x": 208, "y": 109}], "sections": [
 { "name": "HM02 with Looker", "ref": "Galactic Warehouse/Entrance - HM02 with Looker"},
 { "name": "HM02 with Looker\u200b", "ref": "Galactic Warehouse/Entrance - HM02 with Looker\u200b"}]},
+{ "name": "Fullmoon Island - Forest Clearing", "map_locations": [ { "map": "fullmoonislandinside", "x": 200, "y": 156}], "sections": [
+{ "name": "Item in Clearing after Cresselia has Fled", "ref": "Fullmoon Island/Item in Clearing after Cresselia has Fled"},
+{ "name": "Release Cresselia (Event)", "ref": "Fullmoon Island/Release Cresselia (Event)"}]},
+{ "name": "Oak's House", "map_locations": [ { "map": "eternacity", "x": 168, "y": 656}], "sections": [
+{ "name": "Up-Grade from Prof Oak", "ref": "Eterna City/Up-Grade from Prof Oak"},
+{ "name": "Release The Legendary Birds (Event)", "ref": "Eterna City/Release The Legendary Birds (Event)"}]},
 { "name": "Oreburgh Gate - Gift from Hiker", "map_locations": [ { "map": "oreburghgate1f", "x": 88, "y": 244}], "sections": [
 { "name": "HM06 from Hiker", "ref": "Oreburgh Gate/HM06 from Hiker"},
 { "name": "HM06 from Hiker\u200b", "ref": "Oreburgh Gate/HM06 from Hiker\u200b"}]}
