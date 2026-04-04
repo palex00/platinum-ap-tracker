@@ -2697,6 +2697,16 @@
                     "show_items, opt_keyitems_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Release Cresselia",
+                "access_rules": [
+                    "@fullmoon_island_forest"
+                ],
+                "visibility_rules": [
+                    "show_items, "
+                ],
+                "hosted_item": "event_roamer_1"
             }
         ],
         "map_locations": [
@@ -4587,6 +4597,16 @@
                     "show_items"
                 ],
                 "hosted_item": "event_clear_lakeverity"
+            },
+            {
+                "name": "Release Mesprit",
+                "access_rules": [
+                    "@lake_verity, $surf, event_clear_lakeverity, event_clear_distortion"
+                ],
+                "visibility_rules": [
+                    "show_items, "
+                ],
+                "hosted_item": "event_roamer_1"
             },
             {
                 "name": "Lake - Commander Mars",
@@ -15112,6 +15132,16 @@
                     "show_items, opt_npcgifts_on"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Release The Legendary Birds",
+                "access_rules": [
+                    "@eterna_city_south_house, event_met_oak_at_palpark, @pal_park_lobby"
+                ],
+                "visibility_rules": [
+                    "show_items, "
+                ],
+                "hosted_item": "event_roamer_3"
             },
             {
                 "name": "Up-Grade from Prof Oak\u200b",
