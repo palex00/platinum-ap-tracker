@@ -2699,7 +2699,7 @@
                 "item_count": 1
             },
             {
-                "name": "Release Cresselia",
+                "name": "Release Cresselia (Event)",
                 "access_rules": [
                     "@fullmoon_island_forest"
                 ],
@@ -4599,7 +4599,7 @@
                 "hosted_item": "event_clear_lakeverity"
             },
             {
-                "name": "Release Mesprit",
+                "name": "Release Mesprit (Event)",
                 "access_rules": [
                     "@lake_verity, $surf, event_clear_lakeverity, event_clear_distortion"
                 ],
@@ -15134,7 +15134,7 @@
                 "item_count": 1
             },
             {
-                "name": "Release The Legendary Birds",
+                "name": "Release The Legendary Birds (Event)",
                 "access_rules": [
                     "@eterna_city_south_house, event_met_oak_at_palpark, @pal_park_lobby"
                 ],
