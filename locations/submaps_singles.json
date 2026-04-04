@@ -1161,5 +1161,6 @@
 {"name": "Lake Acuity​​​", "sections": [{"ref": "Lake Acuity/Lake - Watch Jupiter defeat your rival (Event)", "name": "Lake - Watch Jupiter defeat your rival (Event)"}], "map_locations": [{"map": "acuitylake", "x": 112, "y": 520}]},
 {"name": "Mt. Coronet Upper Floors​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Mt. Coronet Upper Floors/Distortion World - Clear the Distortion World (Event)", "name": "Distortion World - Clear the Distortion World (Event)"}], "map_locations": [{"map": "distortionworld", "x": 176, "y": 158}]},
 {"name": "Stark Mountain​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Stark Mountain/Heatran's Room - Defeat Team Galactic in Stark Mountain (Event)", "name": "Heatran's Room - Defeat Team Galactic in Stark Mountain (Event)"}], "map_locations": [{"map": "starkmountainheatransroom", "x": 120, "y": 243}]},
+{"name": "Lake Verity​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Lake Verity/Release Mesprit (Event)", "name": "Release Mesprit (Event)"}], "map_locations": [{"map": "veritylake", "x": 424, "y": 278}]},
 {"name": "Galactic HQ​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Galactic HQ/1F - Hidden Item Near Entrance in Green Warp Room", "name": "1F - Hidden Item Near Entrance in Green Warp Room"}], "map_locations": [{"map": "veilstonecity", "x": 776, "y": 164}]}    
 ]}]
