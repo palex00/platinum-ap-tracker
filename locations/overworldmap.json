@@ -49,12 +49,36 @@
                 ]
             },
             {
-                "name": "Roamers",
-                "item_count": 5,
+                "name": "Roamer - Cresselia",
+                "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/roamer.png",
                 "chest_opened_img": "/images/locations/encounters/roamer_cleared.png",
                 "access_rules": [
-                    "@virt_roamers, ^$roamer_encounters"
+                    "@virt_roamers, ^$roamer_encounters_cresselia"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Roamer - Mesprit",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/roamer.png",
+                "chest_opened_img": "/images/locations/encounters/roamer_cleared.png",
+                "access_rules": [
+                    "@virt_roamers, ^$roamer_encounter_mesprit"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Roamers - Legendary Birds",
+                "item_count": 3,
+                "chest_unopened_img": "/images/locations/encounters/roamer.png",
+                "chest_opened_img": "/images/locations/encounters/roamer_cleared.png",
+                "access_rules": [
+                    "@virt_roamers, ^$roamer_encounters_birds"
                 ],
                 "visibility_rules": [
                     "show_mons"
