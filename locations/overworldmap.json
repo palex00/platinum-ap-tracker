@@ -54,7 +54,7 @@
                 "chest_unopened_img": "/images/locations/encounters/roamer.png",
                 "chest_opened_img": "/images/locations/encounters/roamer_cleared.png",
                 "access_rules": [
-                    "@virt_roamers, ^$roamer_encounters_cresselia"
+                    "@virt_roamers, ^$roamer_encounters, event_roamer_1"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -66,7 +66,7 @@
                 "chest_unopened_img": "/images/locations/encounters/roamer.png",
                 "chest_opened_img": "/images/locations/encounters/roamer_cleared.png",
                 "access_rules": [
-                    "@virt_roamers, ^$roamer_encounters_mesprit"
+                    "@virt_roamers, ^$roamer_encounters, event_roamer_0"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -78,7 +78,7 @@
                 "chest_unopened_img": "/images/locations/encounters/roamer.png",
                 "chest_opened_img": "/images/locations/encounters/roamer_cleared.png",
                 "access_rules": [
-                    "@virt_roamers, ^$roamer_encounters_birds"
+                    "@virt_roamers, ^$roamer_encounters, event_roamer_3"
                 ],
                 "visibility_rules": [
                     "show_mons"
