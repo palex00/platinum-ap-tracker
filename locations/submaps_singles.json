@@ -568,7 +568,6 @@
 {"name": "Eterna Forest​​​​​​​​​", "sections": [{"ref": "Eterna Forest/Soothe Bell from Cheryl", "name": "Soothe Bell from Cheryl"}], "map_locations": [{"map": "eternaforest", "x": 1172, "y": 386}]},
 {"name": "Eterna City​​​​​​", "sections": [{"ref": "Eterna City/Pokemon Center - Friendship Checker App from Woman", "name": "Pokemon Center - Friendship Checker App from Woman"}], "map_locations": [{"map": "eternacity", "x": 280, "y": 260}]},
 {"name": "Eterna City​​​​​​​", "sections": [{"ref": "Eterna City/Explorer Kit from Underground Man", "name": "Explorer Kit from Underground Man"}], "map_locations": [{"map": "eternacity", "x": 360, "y": 260}]},
-{"name": "Eterna City​​​​​​​​", "sections": [{"ref": "Eterna City/Up-Grade from Prof Oak", "name": "Up-Grade from Prof Oak"}], "map_locations": [{"map": "eternacity", "x": 168, "y": 656}]},
 {"name": "Route 206 North​​​", "sections": [{"ref": "Route 206 North/North Gate - Reward For 35 Pokemon Seen", "name": "North Gate - Reward For 35 Pokemon Seen"}], "map_locations": [{"map": "route206", "x": 224, "y": 72}, {"map": "eternacity", "x": 272, "y": 820}]},
 {"name": "Route 208​​​​​", "sections": [{"ref": "Route 208/Black Belt Near Honey Tree", "name": "Black Belt Near Honey Tree"}], "map_locations": [{"map": "route208", "x": 856, "y": 556}]},
 {"name": "Route 208 - Black Belt", "sections": [{"ref": "Route 208/Black Belt Near Honey Tree\u200b", "name": "Black Belt Near Honey Tree\u200b"}], "map_locations": [{"map": "route208", "x": 856, "y": 556}]},
