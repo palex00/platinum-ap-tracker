@@ -54,7 +54,7 @@
                 "chest_unopened_img": "/images/locations/encounters/roamer.png",
                 "chest_opened_img": "/images/locations/encounters/roamer_cleared.png",
                 "access_rules": [
-                    "@virt_roamers, ^$roamer_encounters, event_roamer_1, @Fullmoon Island/Release Cresselia (Event)"
+                    "@virt_roamers, ^$roamer_encounters, event_roamer_1, @fullmoon_island_forest"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -78,7 +78,7 @@
                 "chest_unopened_img": "/images/locations/encounters/roamer.png",
                 "chest_opened_img": "/images/locations/encounters/roamer_cleared.png",
                 "access_rules": [
-                    "@virt_roamers, ^$roamer_encounters, event_roamer_3, @Eterna City/Release The Legendary Birds (Event)"
+                    "@virt_roamers, ^$roamer_encounters, event_roamer_3, @eterna_city_south_house"
                 ],
                 "visibility_rules": [
                     "show_mons"
