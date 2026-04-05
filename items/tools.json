@@ -12,18 +12,6 @@
                 "img_mods": "@disabled",
                 "codes": "location_visibility, show_items",
                 "inherit_codes": false
-            },
-            {
-                "name": "Show normal and encounter locations",
-                "img": "/images/tools/tools_encounters_on.png",
-                "codes": "location_visibility, show_items, show_mons",
-                "inherit_codes": false
-            },
-            {
-                "name": "Only show encounter locations",
-                "img": "/images/tools/tools_encounters_only.png",
-                "codes": "location_visibility, show_mons",
-                "inherit_codes": false
             }
         ]
     },

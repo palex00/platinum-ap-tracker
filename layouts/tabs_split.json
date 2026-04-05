@@ -64,15 +64,6 @@
                             "type": "tabbed",
                             "tabs": [
                                 {
-                                    "title": "Sinnoh",
-                                    "content": {
-                                        "type": "map",
-                                        "maps": [
-                                            "Sinnoh"
-                                        ]
-                                    }
-                                },
-                                {
                                     "title": "Pokédex",
                                     "content": {
                                         "type": "dock",

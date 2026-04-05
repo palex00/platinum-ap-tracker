@@ -1,10 +1,6 @@
 function toggle_itemgrid()
     suffix = ""
     
-    if not has("opt_hmreader_off") then
-        suffix = suffix.."_hmreader"
-    end
-    
     if has("opt_marsh_pass_on") then
         suffix = suffix.."_marshpass"
     end

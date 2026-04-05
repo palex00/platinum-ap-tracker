@@ -27,7 +27,7 @@ Tracker:AddMaps("maps/pokedex.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/settings_popup.json")
-Tracker:AddLayouts("layouts/items/items_hmreader_marshpass_storagekey_unownfile.json")
+Tracker:AddLayouts("layouts/items/items_marshpass_storagekey_unownfile.json")
 Tracker:AddLayouts("layouts/items/encounter_items.json")
 Tracker:AddLayouts("layouts/items/evolution_items.json")
 Tracker:AddLayouts("layouts/events.json")

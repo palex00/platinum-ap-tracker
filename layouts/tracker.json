@@ -32,20 +32,6 @@
                                                         "type": "layout",
                                                         "key": "key_items_grid"
                                                     }
-                                                },
-                                                {
-                                                    "title": "Encounter Items",
-                                                    "content": {
-                                                        "type": "layout",
-                                                        "key": "key_encounters_grid"
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Evolution Items",
-                                                    "content": {
-                                                        "type": "layout",
-                                                        "key": "key_evolution_grid"
-                                                    }
                                                 }
                                             ]
                                         }
@@ -71,19 +57,6 @@
                             "content": {
                                 "type": "layout",
                                 "key": "quick_settings_grid"
-                            }
-                        },
-                        {
-                            "type": "group",
-                            "background": "#171717",
-                            "header": "Pokésearch",
-                            "dock": "left",
-                            "margin": "0,0,0,0",
-                            "content": {
-                                "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
-                                "key": "dexsearch_grid"
                             }
                         }
                     ]

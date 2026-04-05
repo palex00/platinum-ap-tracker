@@ -18,18 +18,6 @@
                                             "Sinnoh"
                                         ]
                                     }
-                                },
-                                {
-                                    "title": "Pokédex",
-                                    "content": {
-                                        "type": "dock",
-                                        "content": [
-                                            {
-                                            "type": "layout",
-                                            "key": "pokedex_grid"
-                                            }
-                                        ]
-                                    }
                                 }
                             ]
                         },

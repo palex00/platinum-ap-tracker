@@ -1014,7 +1014,7 @@
                     "@route_225"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328234"
                 ],
                 "item_count": 1
@@ -1025,7 +1025,7 @@
                     "@route_225, $rock_climb"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328237"
                 ],
                 "item_count": 1
@@ -1036,7 +1036,7 @@
                     "@route_225"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328243"
                 ],
                 "item_count": 1
@@ -1047,7 +1047,7 @@
                     "@route_225"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328247"
                 ],
                 "item_count": 1
@@ -1058,7 +1058,7 @@
                     "@route_225"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328253"
                 ],
                 "item_count": 1
@@ -1069,7 +1069,7 @@
                     "@route_225"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328265"
                 ],
                 "item_count": 1
@@ -1080,7 +1080,7 @@
                     "@route_225"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328273"
                 ],
                 "item_count": 1
@@ -1091,7 +1091,7 @@
                     "@route_225"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328274"
                 ],
                 "item_count": 1
@@ -1227,7 +1227,7 @@
                     "@victory_road_1f_entrance"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327913"
                 ],
                 "item_count": 1
@@ -1260,7 +1260,7 @@
                     "@victory_road_1f_entrance, $rock_climb"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327906"
                 ],
                 "item_count": 1
@@ -1271,7 +1271,7 @@
                     "@victory_road_1f_entrance, $rock_climb"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327914"
                 ],
                 "item_count": 1
@@ -1346,7 +1346,7 @@
                     "@victory_road_1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327908"
                 ],
                 "item_count": 1
@@ -1357,7 +1357,7 @@
                     "@victory_road_1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327911"
                 ],
                 "item_count": 1
@@ -1368,7 +1368,7 @@
                     "@victory_road_1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328124"
                 ],
                 "item_count": 1
@@ -1443,7 +1443,7 @@
                     "@victory_road_2f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327904"
                 ],
                 "item_count": 1
@@ -1454,7 +1454,7 @@
                     "@victory_road_2f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327907"
                 ],
                 "item_count": 1
@@ -1465,7 +1465,7 @@
                     "@victory_road_2f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327917"
                 ],
                 "item_count": 1
@@ -1476,7 +1476,7 @@
                     "@victory_road_2f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327909"
                 ],
                 "item_count": 1
@@ -1541,7 +1541,7 @@
                     "@victory_road_b1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327905"
                 ],
                 "item_count": 1
@@ -1552,7 +1552,7 @@
                     "@victory_road_b1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327910"
                 ],
                 "item_count": 1
@@ -1563,7 +1563,7 @@
                     "@victory_road_b1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327915"
                 ],
                 "item_count": 1
@@ -1574,7 +1574,7 @@
                     "@victory_road_b1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327916"
                 ],
                 "item_count": 1
@@ -1695,7 +1695,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328053"
                 ],
                 "item_count": 1
@@ -1706,7 +1706,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328066"
                 ],
                 "item_count": 1
@@ -1717,7 +1717,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328069"
                 ],
                 "item_count": 1
@@ -1728,7 +1728,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328070"
                 ],
                 "item_count": 1
@@ -1739,7 +1739,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328073"
                 ],
                 "item_count": 1
@@ -1750,7 +1750,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328074"
                 ],
                 "item_count": 1
@@ -1761,7 +1761,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328076"
                 ],
                 "item_count": 1
@@ -1772,7 +1772,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328077"
                 ],
                 "item_count": 1
@@ -1783,7 +1783,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328079"
                 ],
                 "item_count": 1
@@ -1794,7 +1794,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328080"
                 ],
                 "item_count": 1
@@ -1805,7 +1805,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328126"
                 ],
                 "item_count": 1
@@ -1816,7 +1816,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328127"
                 ],
                 "item_count": 1
@@ -1827,7 +1827,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328179"
                 ],
                 "item_count": 1
@@ -1838,7 +1838,7 @@
                     "@victory_road_1f_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328180"
                 ],
                 "item_count": 1
@@ -2058,7 +2058,7 @@
                     "@pokemon_league_aaron_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327941"
                 ],
                 "item_count": 1
@@ -2069,7 +2069,7 @@
                     "@pokemon_league_bertha_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327942"
                 ],
                 "item_count": 1
@@ -2080,7 +2080,7 @@
                     "@pokemon_league_flint_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327943"
                 ],
                 "item_count": 1
@@ -2091,7 +2091,7 @@
                     "@pokemon_league_lucian_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327944"
                 ],
                 "item_count": 1
@@ -2102,7 +2102,7 @@
                     "@pokemon_league_champion_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327947"
                 ],
                 "item_count": 1
@@ -2113,7 +2113,7 @@
                     "@pokemon_league_north_pokecenter_1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328160"
                 ],
                 "item_count": 1
@@ -2124,7 +2124,7 @@
                     "@pokemon_league_aaron_room, event_clear_starkmountain, @stark_mountain_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328546"
                 ],
                 "item_count": 1
@@ -2135,7 +2135,7 @@
                     "@pokemon_league_bertha_room, event_clear_starkmountain, @stark_mountain_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328547"
                 ],
                 "item_count": 1
@@ -2146,7 +2146,7 @@
                     "@pokemon_league_flint_room, event_clear_starkmountain, @stark_mountain_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328548"
                 ],
                 "item_count": 1
@@ -2157,7 +2157,7 @@
                     "@pokemon_league_lucian_room, event_clear_starkmountain, @stark_mountain_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328549"
                 ],
                 "item_count": 1
@@ -2168,7 +2168,7 @@
                     "@pokemon_league_champion_room, event_clear_starkmountain, @stark_mountain_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328550"
                 ],
                 "item_count": 1
@@ -2304,7 +2304,7 @@
                     "@route_224"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327962"
                 ],
                 "item_count": 1
@@ -2315,7 +2315,7 @@
                     "@route_224"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328042"
                 ],
                 "item_count": 1
@@ -2326,7 +2326,7 @@
                     "@route_224"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327968"
                 ],
                 "item_count": 1
@@ -2337,7 +2337,7 @@
                     "@route_224"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327969"
                 ],
                 "item_count": 1
@@ -2583,7 +2583,7 @@
                     "@route_224"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327957"
                 ],
                 "item_count": 1
@@ -2594,7 +2594,7 @@
                     "@route_224"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327966"
                 ],
                 "item_count": 1
@@ -2605,7 +2605,7 @@
                     "@route_224"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327985"
                 ],
                 "item_count": 1
@@ -2616,7 +2616,7 @@
                     "@route_224"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327993"
                 ],
                 "item_count": 1
@@ -2688,7 +2688,7 @@
                     "@survival_area, event_clear_starkmountain, @stark_mountain_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328518"
                 ],
                 "item_count": 1
@@ -2847,7 +2847,7 @@
                     "@route_226_mid"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328235"
                 ],
                 "item_count": 1
@@ -2858,7 +2858,7 @@
                     "@route_226_mid"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328240"
                 ],
                 "item_count": 1
@@ -2869,7 +2869,7 @@
                     "@route_226_mid"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328248"
                 ],
                 "item_count": 1
@@ -2880,7 +2880,7 @@
                     "@route_226_east, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328280"
                 ],
                 "item_count": 1
@@ -2891,7 +2891,7 @@
                     "@route_226_east, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328284"
                 ],
                 "item_count": 1
@@ -3071,7 +3071,7 @@
                     "@route_227_lower"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328244"
                 ],
                 "item_count": 1
@@ -3082,7 +3082,7 @@
                     "@route_227_lower"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328256"
                 ],
                 "item_count": 1
@@ -3093,7 +3093,7 @@
                     "@route_227"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328268"
                 ],
                 "item_count": 1
@@ -3104,7 +3104,7 @@
                     "@route_227_lower"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328275"
                 ],
                 "item_count": 1
@@ -3400,7 +3400,7 @@
                     "@route_228, bicycle, bag"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328239"
                 ],
                 "item_count": 1
@@ -3411,7 +3411,7 @@
                     "@route_228"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328245"
                 ],
                 "item_count": 1
@@ -3422,7 +3422,7 @@
                     "@route_228"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328254"
                 ],
                 "item_count": 1
@@ -3433,7 +3433,7 @@
                     "@route_228"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328257"
                 ],
                 "item_count": 1
@@ -3444,7 +3444,7 @@
                     "@route_228, bicycle, bag"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328263"
                 ],
                 "item_count": 1
@@ -3455,7 +3455,7 @@
                     "@route_228"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328267"
                 ],
                 "item_count": 1
@@ -3466,7 +3466,7 @@
                     "@route_228"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328271"
                 ],
                 "item_count": 1
@@ -3477,7 +3477,7 @@
                     "@route_228"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328276"
                 ],
                 "item_count": 1
@@ -3645,7 +3645,7 @@
                     "@route_230, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328277"
                 ],
                 "item_count": 1
@@ -3656,7 +3656,7 @@
                     "@route_230, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328278"
                 ],
                 "item_count": 1
@@ -3667,7 +3667,7 @@
                     "@route_230, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328279"
                 ],
                 "item_count": 1
@@ -3678,7 +3678,7 @@
                     "@route_230, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328281"
                 ],
                 "item_count": 1
@@ -3689,7 +3689,7 @@
                     "@route_230, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328282"
                 ],
                 "item_count": 1
@@ -3700,7 +3700,7 @@
                     "@route_230, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328283"
                 ],
                 "item_count": 1
@@ -3873,42 +3873,12 @@
                 "item_count": 1
             },
             {
-                "name": "Choice Specs from Man in Shop (Morning)",
-                "access_rules": [
-                    "@celestic_town"
-                ],
-                "visibility_rules": [
-                    "show_items",
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Black Glasses from Man in Shop (Day)",
-                "access_rules": [
-                    "@celestic_town, $day"
-                ],
-                "visibility_rules": [
-                    "show_items",
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Black Glasses from Man in Shop (Night)",
-                "access_rules": [
-                    "@celestic_town, $night"
-                ],
-                "visibility_rules": [
-                    "show_items",
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Galactic Grunt",
                 "access_rules": [
                     "@celestic_town, oldcharm"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328096"
                 ],
                 "item_count": 1
@@ -3919,7 +3889,7 @@
                     "@celestic_town_cave, oldcharm"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328593"
                 ],
                 "item_count": 1
@@ -4099,7 +4069,7 @@
                     "@route_229"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328246"
                 ],
                 "item_count": 1
@@ -4110,7 +4080,7 @@
                     "@route_229"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328255"
                 ],
                 "item_count": 1
@@ -4121,7 +4091,7 @@
                     "@route_229"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328258"
                 ],
                 "item_count": 1
@@ -4132,7 +4102,7 @@
                     "@route_229"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328272"
                 ],
                 "item_count": 1
@@ -4574,7 +4544,7 @@
                     "@lake_verity"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328099"
                 ],
                 "item_count": 1
@@ -4585,7 +4555,7 @@
                     "@lake_verity"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328106"
                 ],
                 "item_count": 1
@@ -4596,7 +4566,7 @@
                     "@lake_verity"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328100"
                 ],
                 "item_count": 1
@@ -4607,7 +4577,7 @@
                     "@lake_verity"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328107"
                 ],
                 "item_count": 1
@@ -4638,7 +4608,7 @@
                     "@lake_verity"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328085"
                 ],
                 "item_count": 1
@@ -4786,7 +4756,7 @@
                     "@pastoria_city, event_defeat_maylene, @veilstone_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328154"
                 ],
                 "item_count": 1
@@ -4817,7 +4787,7 @@
                     "@pastoria_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327973"
                 ],
                 "item_count": 1
@@ -4828,7 +4798,7 @@
                     "@pastoria_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328019"
                 ],
                 "item_count": 1
@@ -4839,7 +4809,7 @@
                     "@pastoria_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328081"
                 ],
                 "item_count": 1
@@ -4850,7 +4820,7 @@
                     "@pastoria_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328163"
                 ],
                 "item_count": 1
@@ -4861,7 +4831,7 @@
                     "@pastoria_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328177"
                 ],
                 "item_count": 1
@@ -4872,7 +4842,7 @@
                     "@pastoria_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328178"
                 ],
                 "item_count": 1
@@ -4923,7 +4893,7 @@
                     "@pastoria_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327996"
                 ],
                 "item_count": 1
@@ -5083,7 +5053,7 @@
                     "@iron_island_b1f_left_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328058"
                 ],
                 "item_count": 1
@@ -5136,7 +5106,7 @@
                     "@iron_island_b1f_right_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328137"
                 ],
                 "item_count": 1
@@ -5179,7 +5149,7 @@
                     "@iron_island_b2f_right_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328183"
                 ],
                 "item_count": 1
@@ -5190,7 +5160,7 @@
                     "@iron_island_b2f_right_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328184"
                 ],
                 "item_count": 1
@@ -5297,7 +5267,7 @@
                     "@iron_island_b2f_left_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328052"
                 ],
                 "item_count": 1
@@ -5308,7 +5278,7 @@
                     "@iron_island_b2f_left_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328068"
                 ],
                 "item_count": 1
@@ -5319,7 +5289,7 @@
                     "@iron_island_b2f_left_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328072"
                 ],
                 "item_count": 1
@@ -5330,7 +5300,7 @@
                     "@iron_island_b2f_left_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328125"
                 ],
                 "item_count": 1
@@ -5341,7 +5311,7 @@
                     "@iron_island_b2f_left_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328132"
                 ],
                 "item_count": 1
@@ -5352,7 +5322,7 @@
                     "@iron_island_b2f_left_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328133"
                 ],
                 "item_count": 1
@@ -5363,7 +5333,7 @@
                     "@iron_island_b2f_left_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328185"
                 ],
                 "item_count": 1
@@ -5374,7 +5344,7 @@
                     "@iron_island_b2f_left_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328186"
                 ],
                 "item_count": 1
@@ -5385,7 +5355,7 @@
                     "@iron_island_b2f_left_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328515"
                 ],
                 "item_count": 1
@@ -5396,7 +5366,7 @@
                     "@iron_island_b2f_left_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328516"
                 ],
                 "item_count": 1
@@ -5754,7 +5724,7 @@
                     "@route_213"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327791"
                 ],
                 "item_count": 1
@@ -5765,7 +5735,7 @@
                     "@route_213"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328026"
                 ],
                 "item_count": 1
@@ -6099,7 +6069,7 @@
                     "@route_213, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327783"
                 ],
                 "item_count": 1
@@ -6110,7 +6080,7 @@
                     "@route_213, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327784"
                 ],
                 "item_count": 1
@@ -6121,7 +6091,7 @@
                     "@route_213, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327785"
                 ],
                 "item_count": 1
@@ -6132,7 +6102,7 @@
                     "@route_213, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327786"
                 ],
                 "item_count": 1
@@ -6143,7 +6113,7 @@
                     "@route_213"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327787"
                 ],
                 "item_count": 1
@@ -6154,7 +6124,7 @@
                     "@route_213"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327788"
                 ],
                 "item_count": 1
@@ -6165,7 +6135,7 @@
                     "@route_213, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327790"
                 ],
                 "item_count": 1
@@ -6217,7 +6187,7 @@
                     "@route_219, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328038"
                 ],
                 "item_count": 1
@@ -6228,7 +6198,7 @@
                     "@route_219, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328040"
                 ],
                 "item_count": 1
@@ -6406,7 +6376,7 @@
                     "@route_221"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327846"
                 ],
                 "item_count": 1
@@ -6417,7 +6387,7 @@
                     "@route_221"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327847"
                 ],
                 "item_count": 1
@@ -6428,7 +6398,7 @@
                     "@route_221"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327848"
                 ],
                 "item_count": 1
@@ -6439,7 +6409,7 @@
                     "@route_221"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327850"
                 ],
                 "item_count": 1
@@ -6450,7 +6420,7 @@
                     "@route_221"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327851"
                 ],
                 "item_count": 1
@@ -6461,7 +6431,7 @@
                     "@route_221"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327954"
                 ],
                 "item_count": 1
@@ -6831,7 +6801,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328236"
                 ],
                 "item_count": 1
@@ -6842,7 +6812,7 @@
                     "@stark_mountain_outside"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328238"
                 ],
                 "item_count": 1
@@ -6853,7 +6823,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328241"
                 ],
                 "item_count": 1
@@ -6864,7 +6834,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328242"
                 ],
                 "item_count": 1
@@ -6875,7 +6845,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328249"
                 ],
                 "item_count": 1
@@ -6886,7 +6856,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328250"
                 ],
                 "item_count": 1
@@ -6897,7 +6867,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328251"
                 ],
                 "item_count": 1
@@ -6908,7 +6878,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328252"
                 ],
                 "item_count": 1
@@ -6919,7 +6889,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328259"
                 ],
                 "item_count": 1
@@ -6930,7 +6900,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328260"
                 ],
                 "item_count": 1
@@ -6941,7 +6911,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328261"
                 ],
                 "item_count": 1
@@ -6952,7 +6922,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328262"
                 ],
                 "item_count": 1
@@ -6963,7 +6933,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328264"
                 ],
                 "item_count": 1
@@ -6974,7 +6944,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328266"
                 ],
                 "item_count": 1
@@ -6985,7 +6955,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328269"
                 ],
                 "item_count": 1
@@ -6996,7 +6966,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328270"
                 ],
                 "item_count": 1
@@ -7007,7 +6977,7 @@
                     "@stark_mountain_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328286"
                 ],
                 "item_count": 1
@@ -7018,7 +6988,7 @@
                     "@stark_mountain_room_1"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328606"
                 ],
                 "item_count": 1
@@ -7029,7 +6999,7 @@
                     "@stark_mountain_room_1"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328607"
                 ],
                 "item_count": 1
@@ -7194,7 +7164,7 @@
                     "@route_212_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327762"
                 ],
                 "item_count": 1
@@ -7205,7 +7175,7 @@
                     "@route_212_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327763"
                 ],
                 "item_count": 1
@@ -7216,7 +7186,7 @@
                     "@route_212_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327764"
                 ],
                 "item_count": 1
@@ -7227,7 +7197,7 @@
                     "@route_212_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327765"
                 ],
                 "item_count": 1
@@ -7238,7 +7208,7 @@
                     "@route_212_north_top, $night"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327768"
                 ],
                 "item_count": 1
@@ -7249,7 +7219,7 @@
                     "@route_212_north, $night"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327769"
                 ],
                 "item_count": 1
@@ -7260,7 +7230,7 @@
                     "@route_212_north, $night"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327770"
                 ],
                 "item_count": 1
@@ -7271,7 +7241,7 @@
                     "@route_212_north, $night"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327782"
                 ],
                 "item_count": 1
@@ -7455,7 +7425,7 @@
                     "@route_212_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327771"
                 ],
                 "item_count": 1
@@ -7466,7 +7436,7 @@
                     "@route_212_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327772"
                 ],
                 "item_count": 1
@@ -7477,7 +7447,7 @@
                     "@route_212_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327773"
                 ],
                 "item_count": 1
@@ -7488,7 +7458,7 @@
                     "@route_212_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327775"
                 ],
                 "item_count": 1
@@ -7499,7 +7469,7 @@
                     "@route_212_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327776"
                 ],
                 "item_count": 1
@@ -7510,7 +7480,7 @@
                     "@route_212_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327779"
                 ],
                 "item_count": 1
@@ -7521,7 +7491,7 @@
                     "@route_212_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328061"
                 ],
                 "item_count": 1
@@ -7532,7 +7502,7 @@
                     "@route_212_south, $night"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328012"
                 ],
                 "item_count": 1
@@ -7792,7 +7762,7 @@
                     "@route_212_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328007"
                 ],
                 "item_count": 1
@@ -7803,7 +7773,7 @@
                     "@route_212_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327774"
                 ],
                 "item_count": 1
@@ -7815,7 +7785,7 @@
                     "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328166"
                 ],
                 "item_count": 1
@@ -7827,7 +7797,7 @@
                     "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328008"
                 ],
                 "item_count": 1
@@ -7951,7 +7921,7 @@
                     "@route_208"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327719"
                 ],
                 "item_count": 1
@@ -7962,7 +7932,7 @@
                     "@route_208, $rock_climb"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327720"
                 ],
                 "item_count": 1
@@ -7973,7 +7943,7 @@
                     "@route_208"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327721"
                 ],
                 "item_count": 1
@@ -7984,7 +7954,7 @@
                     "@route_208"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327722"
                 ],
                 "item_count": 1
@@ -7995,7 +7965,7 @@
                     "@route_208, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327723"
                 ],
                 "item_count": 1
@@ -8006,7 +7976,7 @@
                     "@route_208"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327724"
                 ],
                 "item_count": 1
@@ -8017,7 +7987,7 @@
                     "@route_208"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327725"
                 ],
                 "item_count": 1
@@ -8219,7 +8189,7 @@
                     "@hearthome_city_gym_trainer_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327960"
                 ],
                 "item_count": 1
@@ -8230,7 +8200,7 @@
                     "@hearthome_city_gym_trainer_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327964"
                 ],
                 "item_count": 1
@@ -8241,7 +8211,7 @@
                     "@hearthome_city_gym_trainer_room_1"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328005"
                 ],
                 "item_count": 1
@@ -8252,7 +8222,7 @@
                     "@hearthome_city_gym_trainer_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328020"
                 ],
                 "item_count": 1
@@ -8263,7 +8233,7 @@
                     "@hearthome_city_gym_trainer_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328023"
                 ],
                 "item_count": 1
@@ -8274,7 +8244,7 @@
                     "@hearthome_city_gym_trainer_room_1"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328037"
                 ],
                 "item_count": 1
@@ -8325,7 +8295,7 @@
                     "@hearthome_city_gym_leader_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327998"
                 ],
                 "item_count": 1
@@ -8397,7 +8367,7 @@
                     "@route_220"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327839"
                 ],
                 "item_count": 1
@@ -8408,7 +8378,7 @@
                     "@route_220"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327840"
                 ],
                 "item_count": 1
@@ -8419,7 +8389,7 @@
                     "@route_220"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327841"
                 ],
                 "item_count": 1
@@ -8430,7 +8400,7 @@
                     "@route_220"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327842"
                 ],
                 "item_count": 1
@@ -8441,7 +8411,7 @@
                     "@route_220"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327843"
                 ],
                 "item_count": 1
@@ -8452,7 +8422,7 @@
                     "@route_220"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327844"
                 ],
                 "item_count": 1
@@ -8463,7 +8433,7 @@
                     "@route_220"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328174"
                 ],
                 "item_count": 1
@@ -8561,7 +8531,7 @@
                     "@route_202"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327681"
                 ],
                 "item_count": 1
@@ -8572,7 +8542,7 @@
                     "@route_202"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327682"
                 ],
                 "item_count": 1
@@ -8583,7 +8553,7 @@
                     "@route_202"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327683"
                 ],
                 "item_count": 1
@@ -8996,7 +8966,7 @@
                     "@trainers_school"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328022"
                 ],
                 "item_count": 1
@@ -9007,7 +8977,7 @@
                     "@trainers_school"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328025"
                 ],
                 "item_count": 1
@@ -9018,7 +8988,7 @@
                     "@jubilife_city, event_defeat_roark, @oreburgh_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328094"
                 ],
                 "item_count": 1
@@ -9029,7 +8999,7 @@
                     "@jubilife_city, event_defeat_roark, @oreburgh_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328095"
                 ],
                 "item_count": 1
@@ -9187,7 +9157,7 @@
                     "@route_209"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327726"
                 ],
                 "item_count": 1
@@ -9198,7 +9168,7 @@
                     "@route_209"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327727"
                 ],
                 "item_count": 1
@@ -9209,7 +9179,7 @@
                     "@route_209"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327728"
                 ],
                 "item_count": 1
@@ -9220,7 +9190,7 @@
                     "@route_209"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327729"
                 ],
                 "item_count": 1
@@ -9231,7 +9201,7 @@
                     "@route_209"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327733"
                 ],
                 "item_count": 1
@@ -9242,7 +9212,7 @@
                     "@route_209"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327735"
                 ],
                 "item_count": 1
@@ -9253,7 +9223,7 @@
                     "@route_209"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327974"
                 ],
                 "item_count": 1
@@ -9264,7 +9234,7 @@
                     "@route_209"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327988"
                 ],
                 "item_count": 1
@@ -9275,7 +9245,7 @@
                     "@route_209, event_defeat_fantina, @hearthome_city_gym_leader_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328151"
                 ],
                 "item_count": 1
@@ -9550,7 +9520,7 @@
                     "@route_210_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327746"
                 ],
                 "item_count": 1
@@ -9561,7 +9531,7 @@
                     "@route_210_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327754"
                 ],
                 "item_count": 1
@@ -9572,7 +9542,7 @@
                     "@route_210_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327748"
                 ],
                 "item_count": 1
@@ -9583,7 +9553,7 @@
                     "@route_210_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327749"
                 ],
                 "item_count": 1
@@ -9594,7 +9564,7 @@
                     "@route_210_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327751"
                 ],
                 "item_count": 1
@@ -9606,7 +9576,7 @@
                     "@route_210_north, bicycle, $rock_smash, $strength"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327752"
                 ],
                 "item_count": 1
@@ -9617,7 +9587,7 @@
                     "@route_210_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327755"
                 ],
                 "item_count": 1
@@ -9875,7 +9845,7 @@
                     "@route_210_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327747"
                 ],
                 "item_count": 1
@@ -9886,7 +9856,7 @@
                     "@route_210_north, $rock_climb"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327753"
                 ],
                 "item_count": 1
@@ -9897,7 +9867,7 @@
                     "@route_210_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327750"
                 ],
                 "item_count": 1
@@ -9908,7 +9878,7 @@
                     "@route_210_south_upper"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328168"
                 ],
                 "item_count": 1
@@ -9919,7 +9889,7 @@
                     "@route_210_south_upper"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328169"
                 ],
                 "item_count": 1
@@ -9930,7 +9900,7 @@
                     "@route_210_south_upper"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328170"
                 ],
                 "item_count": 1
@@ -10012,7 +9982,7 @@
                     "@route_210_south, bicycle, bag"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327736"
                 ],
                 "item_count": 1
@@ -10023,7 +9993,7 @@
                     "@route_210_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327737"
                 ],
                 "item_count": 1
@@ -10034,7 +10004,7 @@
                     "@route_210_south, bicycle, bag"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327745"
                 ],
                 "item_count": 1
@@ -10045,7 +10015,7 @@
                     "@route_210_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327970"
                 ],
                 "item_count": 1
@@ -10056,7 +10026,7 @@
                     "@route_210_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327972"
                 ],
                 "item_count": 1
@@ -10067,7 +10037,7 @@
                     "@route_210_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327986"
                 ],
                 "item_count": 1
@@ -10078,7 +10048,7 @@
                     "@cafe"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328046"
                 ],
                 "item_count": 1
@@ -10089,7 +10059,7 @@
                     "@cafe"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327955"
                 ],
                 "item_count": 1
@@ -10100,7 +10070,7 @@
                     "@cafe"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327956"
                 ],
                 "item_count": 1
@@ -10222,7 +10192,7 @@
                     "@route_209_lost_tower_2f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328212"
                 ],
                 "item_count": 1
@@ -10243,7 +10213,7 @@
                     "@route_209_lost_tower_3f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328209"
                 ],
                 "item_count": 1
@@ -10254,7 +10224,7 @@
                     "@route_209_lost_tower_3f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328210"
                 ],
                 "item_count": 1
@@ -10287,7 +10257,7 @@
                     "@route_209_lost_tower_4f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328211"
                 ],
                 "item_count": 1
@@ -10298,7 +10268,7 @@
                     "@route_209_lost_tower_4f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328213"
                 ],
                 "item_count": 1
@@ -10309,7 +10279,7 @@
                     "@route_209_lost_tower_4f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328214"
                 ],
                 "item_count": 1
@@ -10509,7 +10479,7 @@
                     "@route_204_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327690"
                 ],
                 "item_count": 1
@@ -10520,7 +10490,7 @@
                     "@route_204_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327691"
                 ],
                 "item_count": 1
@@ -10531,7 +10501,7 @@
                     "@route_204_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327692"
                 ],
                 "item_count": 1
@@ -10572,7 +10542,7 @@
                     "@route_204_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327693"
                 ],
                 "item_count": 1
@@ -10583,7 +10553,7 @@
                     "@route_204_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327694"
                 ],
                 "item_count": 1
@@ -10594,7 +10564,7 @@
                     "@route_204_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327695"
                 ],
                 "item_count": 1
@@ -10902,7 +10872,7 @@
                     "@route_218, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327833"
                 ],
                 "item_count": 1
@@ -10913,7 +10883,7 @@
                     "@route_218, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327834"
                 ],
                 "item_count": 1
@@ -10924,7 +10894,7 @@
                     "@route_218, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327980"
                 ],
                 "item_count": 1
@@ -10935,7 +10905,7 @@
                     "@route_218, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328018"
                 ],
                 "item_count": 1
@@ -11779,7 +11749,7 @@
                     "@solaceon_ruins_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328233"
                 ],
                 "item_count": 1
@@ -12162,7 +12132,7 @@
                     "@route_222"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327852"
                 ],
                 "item_count": 1
@@ -12173,7 +12143,7 @@
                     "@route_222"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327853"
                 ],
                 "item_count": 1
@@ -12184,7 +12154,7 @@
                     "@route_222"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327854"
                 ],
                 "item_count": 1
@@ -12195,7 +12165,7 @@
                     "@route_222"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327855"
                 ],
                 "item_count": 1
@@ -12206,7 +12176,7 @@
                     "@route_222"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327860"
                 ],
                 "item_count": 1
@@ -12217,7 +12187,7 @@
                     "@route_222, $night"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328013"
                 ],
                 "item_count": 1
@@ -12228,7 +12198,7 @@
                     "@route_222"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328015"
                 ],
                 "item_count": 1
@@ -12239,7 +12209,7 @@
                     "@route_222"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328017"
                 ],
                 "item_count": 1
@@ -12250,7 +12220,7 @@
                     "@route_222"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328039"
                 ],
                 "item_count": 1
@@ -12261,7 +12231,7 @@
                     "@route_222"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328041"
                 ],
                 "item_count": 1
@@ -12272,7 +12242,7 @@
                     "@route_222"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328172"
                 ],
                 "item_count": 1
@@ -12283,7 +12253,7 @@
                     "@route_222_west_house"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328512"
                 ],
                 "item_count": 1
@@ -12429,7 +12399,7 @@
                     "@valor_cavern"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328088"
                 ],
                 "item_count": 1
@@ -12440,7 +12410,7 @@
                     "@lake_valor_drained"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328097"
                 ],
                 "item_count": 1
@@ -12451,7 +12421,7 @@
                     "@lake_valor_drained"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328098"
                 ],
                 "item_count": 1
@@ -12462,7 +12432,7 @@
                     "@lake_valor_drained"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328105"
                 ],
                 "item_count": 1
@@ -12694,7 +12664,7 @@
                     "@valor_lakefront, event_defeat_wake, @pastoria_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328527"
                 ],
                 "item_count": 1
@@ -12862,7 +12832,7 @@
                     "@sunyshore_city_gym_room_1"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328024"
                 ],
                 "item_count": 1
@@ -12873,7 +12843,7 @@
                     "@sunyshore_city_gym_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327981"
                 ],
                 "item_count": 1
@@ -12884,7 +12854,7 @@
                     "@sunyshore_city_gym_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328011"
                 ],
                 "item_count": 1
@@ -12895,7 +12865,7 @@
                     "@sunyshore_city_gym_room_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328021"
                 ],
                 "item_count": 1
@@ -12906,7 +12876,7 @@
                     "@sunyshore_city_gym_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327961"
                 ],
                 "item_count": 1
@@ -12917,7 +12887,7 @@
                     "@sunyshore_city_gym_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327965"
                 ],
                 "item_count": 1
@@ -12928,7 +12898,7 @@
                     "@sunyshore_city_gym_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327982"
                 ],
                 "item_count": 1
@@ -12939,7 +12909,7 @@
                     "@sunyshore_city_gym_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327983"
                 ],
                 "item_count": 1
@@ -12990,7 +12960,7 @@
                     "@sunyshore_city_gym_room_3"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328000"
                 ],
                 "item_count": 1
@@ -13090,7 +13060,7 @@
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327864"
                 ],
                 "item_count": 1
@@ -13101,7 +13071,7 @@
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327866"
                 ],
                 "item_count": 1
@@ -13112,7 +13082,7 @@
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327868"
                 ],
                 "item_count": 1
@@ -13123,7 +13093,7 @@
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327869"
                 ],
                 "item_count": 1
@@ -13134,7 +13104,7 @@
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327870"
                 ],
                 "item_count": 1
@@ -13145,7 +13115,7 @@
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327871"
                 ],
                 "item_count": 1
@@ -13265,7 +13235,7 @@
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327872"
                 ],
                 "item_count": 1
@@ -13276,7 +13246,7 @@
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328162"
                 ],
                 "item_count": 1
@@ -13287,7 +13257,7 @@
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327873"
                 ],
                 "item_count": 1
@@ -13298,7 +13268,7 @@
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327874"
                 ],
                 "item_count": 1
@@ -13309,7 +13279,7 @@
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327867"
                 ],
                 "item_count": 1
@@ -13320,7 +13290,7 @@
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327865"
                 ],
                 "item_count": 1
@@ -13331,7 +13301,7 @@
                     "@route_223, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327863"
                 ],
                 "item_count": 1
@@ -13490,7 +13460,7 @@
                     "@canalave_city"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328157"
                 ],
                 "item_count": 1
@@ -13523,7 +13493,7 @@
                     "@canalave_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327936"
                 ],
                 "item_count": 1
@@ -13534,7 +13504,7 @@
                     "@canalave_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327937"
                 ],
                 "item_count": 1
@@ -13545,7 +13515,7 @@
                     "@canalave_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327959"
                 ],
                 "item_count": 1
@@ -13556,7 +13526,7 @@
                     "@canalave_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327963"
                 ],
                 "item_count": 1
@@ -13567,7 +13537,7 @@
                     "@canalave_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327994"
                 ],
                 "item_count": 1
@@ -13578,7 +13548,7 @@
                     "@canalave_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328047"
                 ],
                 "item_count": 1
@@ -13589,7 +13559,7 @@
                     "@canalave_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327912"
                 ],
                 "item_count": 1
@@ -13640,7 +13610,7 @@
                     "@canalave_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327930"
                 ],
                 "item_count": 1
@@ -13780,7 +13750,7 @@
                     "@route_205_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327696"
                 ],
                 "item_count": 1
@@ -13791,7 +13761,7 @@
                     "@route_205_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327697"
                 ],
                 "item_count": 1
@@ -13802,7 +13772,7 @@
                     "@route_205_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327698"
                 ],
                 "item_count": 1
@@ -13813,7 +13783,7 @@
                     "@route_205_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327699"
                 ],
                 "item_count": 1
@@ -13824,7 +13794,7 @@
                     "@route_205_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327700"
                 ],
                 "item_count": 1
@@ -13835,7 +13805,7 @@
                     "@route_205_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327701"
                 ],
                 "item_count": 1
@@ -13846,7 +13816,7 @@
                     "@route_205_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328057"
                 ],
                 "item_count": 1
@@ -13857,7 +13827,7 @@
                     "@route_205_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328136"
                 ],
                 "item_count": 1
@@ -14014,7 +13984,7 @@
                     "@valley_windworks_outside"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328523"
                 ],
                 "item_count": 1
@@ -14025,7 +13995,7 @@
                     "@valley_windworks_building"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327978"
                 ],
                 "item_count": 1
@@ -14036,7 +14006,7 @@
                     "@valley_windworks_building"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327979"
                 ],
                 "item_count": 1
@@ -14057,7 +14027,7 @@
                     "@valley_windworks_building"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327975"
                 ],
                 "item_count": 1
@@ -14186,26 +14156,6 @@
         ],
         "sections": [
             {
-                "name": "TM95 (By Mossy Rock)",
-                "access_rules": [
-                    "@eterna_forest"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "TM95 (By Mossy Rock)\u200b",
-                "access_rules": [
-                    "@eterna_forest"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_off"
-                ],
-                "hosted_item": "tm95doublehit"
-            },
-            {
                 "name": "Item Left of South Entrance",
                 "access_rules": [
                     "@eterna_forest"
@@ -14293,7 +14243,7 @@
                     "@eterna_forest"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327881"
                 ],
                 "item_count": 1
@@ -14304,7 +14254,7 @@
                     "@eterna_forest"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327882"
                 ],
                 "item_count": 1
@@ -14315,7 +14265,7 @@
                     "@eterna_forest"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327883"
                 ],
                 "item_count": 1
@@ -14326,7 +14276,7 @@
                     "@eterna_forest"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327884"
                 ],
                 "item_count": 1
@@ -14337,7 +14287,7 @@
                     "@eterna_forest"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327885"
                 ],
                 "item_count": 1
@@ -14348,7 +14298,7 @@
                     "@eterna_forest"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327886"
                 ],
                 "item_count": 1
@@ -14359,7 +14309,7 @@
                     "@eterna_forest"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328075"
                 ],
                 "item_count": 1
@@ -14370,7 +14320,7 @@
                     "@eterna_forest"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328078"
                 ],
                 "item_count": 1
@@ -14669,32 +14619,12 @@
                 "item_count": 1
             },
             {
-                "name": "TM93 (Overworld Item)",
-                "access_rules": [
-                    "@fuego_ironworks_building"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "TM93 (Overworld Item)\u200b",
-                "access_rules": [
-                    "@fuego_ironworks_building"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_off"
-                ],
-                "hosted_item": "tm93rollout"
-            },
-            {
                 "name": "Worker Dillan",
                 "access_rules": [
                     "@fuego_ironworks_building"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328524"
                 ],
                 "item_count": 1
@@ -14705,7 +14635,7 @@
                     "@fuego_ironworks_building"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328525"
                 ],
                 "item_count": 1
@@ -14716,7 +14646,7 @@
                     "@fuego_ironworks_building"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328526"
                 ],
                 "item_count": 1
@@ -14812,26 +14742,6 @@
             " "
         ],
         "sections": [
-            {
-                "name": "Entrance - TM96 (In Right Side Room)",
-                "access_rules": [
-                    "@old_chateau_side_rooms"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Entrance - TM96 (In Right Side Room)\u200b",
-                "access_rules": [
-                    "@old_chateau_side_rooms"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_off"
-                ],
-                "hosted_item": "tm96mimic"
-            },
             {
                 "name": "1F - Item on Left of Dining Area",
                 "access_rules": [
@@ -15193,7 +15103,7 @@
                     "@eterna_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327939"
                 ],
                 "item_count": 1
@@ -15204,7 +15114,7 @@
                     "@eterna_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327940"
                 ],
                 "item_count": 1
@@ -15215,7 +15125,7 @@
                     "@eterna_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328004"
                 ],
                 "item_count": 1
@@ -15266,7 +15176,7 @@
                     "@eterna_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327995"
                 ],
                 "item_count": 1
@@ -15344,7 +15254,7 @@
                     "@team_galactic_eterna_building_1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328090"
                 ],
                 "item_count": 1
@@ -15355,7 +15265,7 @@
                     "@team_galactic_eterna_building_1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328101"
                 ],
                 "item_count": 1
@@ -15376,7 +15286,7 @@
                     "@team_galactic_eterna_building_2f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328092"
                 ],
                 "item_count": 1
@@ -15387,7 +15297,7 @@
                     "@team_galactic_eterna_building_2f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328102"
                 ],
                 "item_count": 1
@@ -15408,7 +15318,7 @@
                     "@team_galactic_eterna_building_3f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328103"
                 ],
                 "item_count": 1
@@ -15419,7 +15329,7 @@
                     "@team_galactic_eterna_building_3f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328511"
                 ],
                 "item_count": 1
@@ -15460,7 +15370,7 @@
                     "@team_galactic_eterna_building_4f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328086"
                 ],
                 "item_count": 1
@@ -15532,7 +15442,7 @@
                     "@route_205_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327702"
                 ],
                 "item_count": 1
@@ -15543,7 +15453,7 @@
                     "@route_205_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327703"
                 ],
                 "item_count": 1
@@ -15554,7 +15464,7 @@
                     "@route_205_north"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327704"
                 ],
                 "item_count": 1
@@ -15786,7 +15696,7 @@
                     "@route_214"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327793"
                 ],
                 "item_count": 1
@@ -15797,7 +15707,7 @@
                     "@route_214"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327794"
                 ],
                 "item_count": 1
@@ -15808,7 +15718,7 @@
                     "@route_214"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327799"
                 ],
                 "item_count": 1
@@ -15819,7 +15729,7 @@
                     "@route_214"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327800"
                 ],
                 "item_count": 1
@@ -15830,7 +15740,7 @@
                     "@route_214"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327801"
                 ],
                 "item_count": 1
@@ -15841,7 +15751,7 @@
                     "@route_214"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327952"
                 ],
                 "item_count": 1
@@ -15852,7 +15762,7 @@
                     "@route_214"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327953"
                 ],
                 "item_count": 1
@@ -15863,7 +15773,7 @@
                     "@route_214"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328062"
                 ],
                 "item_count": 1
@@ -15874,7 +15784,7 @@
                     "@route_214"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328171"
                 ],
                 "item_count": 1
@@ -16153,7 +16063,7 @@
                     "@veilstone_city, event_defeat_maylene, @veilstone_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328528"
                 ],
                 "item_count": 1
@@ -16164,7 +16074,7 @@
                     "@veilstone_city, event_defeat_maylene, @veilstone_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328529"
                 ],
                 "item_count": 1
@@ -16205,7 +16115,7 @@
                     "@veilstone_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327989"
                 ],
                 "item_count": 1
@@ -16216,7 +16126,7 @@
                     "@veilstone_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327990"
                 ],
                 "item_count": 1
@@ -16227,7 +16137,7 @@
                     "@veilstone_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327991"
                 ],
                 "item_count": 1
@@ -16238,7 +16148,7 @@
                     "@veilstone_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327992"
                 ],
                 "item_count": 1
@@ -16289,7 +16199,7 @@
                     "@veilstone_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327997"
                 ],
                 "item_count": 1
@@ -16531,7 +16441,7 @@
                     "@floaroma_meadow_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327976"
                 ],
                 "item_count": 1
@@ -16542,7 +16452,7 @@
                     "@floaroma_meadow_south"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327977"
                 ],
                 "item_count": 1
@@ -16685,7 +16595,7 @@
                     "@galactic_hq_wo_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328187"
                 ],
                 "item_count": 1
@@ -16706,7 +16616,7 @@
                     "@galactic_hq_wo_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328188"
                 ],
                 "item_count": 1
@@ -16742,32 +16652,12 @@
                 "hosted_item": "galactickey"
             },
             {
-                "name": "B1F - Linking Cord",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_keyitems_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B1F - Linking Cord\u200b",
-                "access_rules": [
-                    "@galactic_hq_wo_key"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_keyitems_off"
-                ],
-                "hosted_item": "linkingcord"
-            },
-            {
                 "name": "1F - Galactic Grunt",
                 "access_rules": [
                     "@galactic_hq_wo_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328108"
                 ],
                 "item_count": 1
@@ -16788,7 +16678,7 @@
                     "@galactic_hq_wo_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328510"
                 ],
                 "item_count": 1
@@ -16819,7 +16709,7 @@
                     "@galactic_hq_wo_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328190"
                 ],
                 "item_count": 1
@@ -16830,7 +16720,7 @@
                     "@galactic_hq_wo_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328189"
                 ],
                 "item_count": 1
@@ -16853,7 +16743,7 @@
                     "@galactic_hq_wo_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328192"
                 ],
                 "item_count": 1
@@ -16905,7 +16795,7 @@
                     "@galactic_hq_w_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328193"
                 ],
                 "item_count": 1
@@ -16916,7 +16806,7 @@
                     "@galactic_hq_w_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328110"
                 ],
                 "item_count": 1
@@ -16927,7 +16817,7 @@
                     "@galactic_hq_w_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328509"
                 ],
                 "item_count": 1
@@ -16982,7 +16872,7 @@
                     "@galactic_hq_w_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328194"
                 ],
                 "item_count": 1
@@ -16993,7 +16883,7 @@
                     "@galactic_hq_w_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328202"
                 ],
                 "item_count": 1
@@ -17048,7 +16938,7 @@
                     "@galactic_hq_w_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328083"
                 ],
                 "item_count": 1
@@ -17101,7 +16991,7 @@
                     "@galactic_hq_w_key"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328089"
                 ],
                 "item_count": 1
@@ -17269,7 +17159,7 @@
                     "@cycling_road"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327705"
                 ],
                 "item_count": 1
@@ -17280,7 +17170,7 @@
                     "@cycling_road"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327706"
                 ],
                 "item_count": 1
@@ -17291,7 +17181,7 @@
                     "@cycling_road"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327709"
                 ],
                 "item_count": 1
@@ -17302,7 +17192,7 @@
                     "@cycling_road"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327710"
                 ],
                 "item_count": 1
@@ -17313,7 +17203,7 @@
                     "@route_206_upper"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328131"
                 ],
                 "item_count": 1
@@ -17375,7 +17265,7 @@
                     "@cycling_road"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327711"
                 ],
                 "item_count": 1
@@ -17386,7 +17276,7 @@
                     "@cycling_road"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327712"
                 ],
                 "item_count": 1
@@ -17397,7 +17287,7 @@
                     "@cycling_road"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327707"
                 ],
                 "item_count": 1
@@ -17408,7 +17298,7 @@
                     "@cycling_road"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327708"
                 ],
                 "item_count": 1
@@ -17636,7 +17526,7 @@
                     "@route_207"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327713"
                 ],
                 "item_count": 1
@@ -17647,7 +17537,7 @@
                     "@route_207"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327714"
                 ],
                 "item_count": 1
@@ -17658,7 +17548,7 @@
                     "@route_207"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327715"
                 ],
                 "item_count": 1
@@ -17669,7 +17559,7 @@
                     "@route_207"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327716"
                 ],
                 "item_count": 1
@@ -17680,7 +17570,7 @@
                     "@route_207"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327717"
                 ],
                 "item_count": 1
@@ -17691,7 +17581,7 @@
                     "@route_207"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327718"
                 ],
                 "item_count": 1
@@ -17841,7 +17731,7 @@
                     "@route_216"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327812"
                 ],
                 "item_count": 1
@@ -17852,7 +17742,7 @@
                     "@route_216"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327813"
                 ],
                 "item_count": 1
@@ -17863,7 +17753,7 @@
                     "@route_216"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327814"
                 ],
                 "item_count": 1
@@ -17874,7 +17764,7 @@
                     "@route_216"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327815"
                 ],
                 "item_count": 1
@@ -17885,7 +17775,7 @@
                     "@route_216, $rock_climb"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327816"
                 ],
                 "item_count": 1
@@ -17896,7 +17786,7 @@
                     "@route_216"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327817"
                 ],
                 "item_count": 1
@@ -17907,7 +17797,7 @@
                     "@route_216, $rock_climb"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327818"
                 ],
                 "item_count": 1
@@ -17918,7 +17808,7 @@
                     "@route_216, $rock_climb"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327819"
                 ],
                 "item_count": 1
@@ -17929,7 +17819,7 @@
                     "@route_216, $rock_climb"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327938"
                 ],
                 "item_count": 1
@@ -18037,7 +17927,7 @@
                     "@route_211_east"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327759"
                 ],
                 "item_count": 1
@@ -18048,7 +17938,7 @@
                     "@route_211_east"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327760"
                 ],
                 "item_count": 1
@@ -18059,7 +17949,7 @@
                     "@route_211_east"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327761"
                 ],
                 "item_count": 1
@@ -18070,7 +17960,7 @@
                     "@route_211_east"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328122"
                 ],
                 "item_count": 1
@@ -18214,7 +18104,7 @@
                     "@route_217"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327820"
                 ],
                 "item_count": 1
@@ -18225,7 +18115,7 @@
                     "@route_217"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327822"
                 ],
                 "item_count": 1
@@ -18236,7 +18126,7 @@
                     "@route_217"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327825"
                 ],
                 "item_count": 1
@@ -18247,7 +18137,7 @@
                     "@route_217"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327826"
                 ],
                 "item_count": 1
@@ -18258,7 +18148,7 @@
                     "@route_217"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327827"
                 ],
                 "item_count": 1
@@ -18408,7 +18298,7 @@
                     "@route_217"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327821"
                 ],
                 "item_count": 1
@@ -18419,7 +18309,7 @@
                     "@route_217"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327823"
                 ],
                 "item_count": 1
@@ -18430,7 +18320,7 @@
                     "@route_217"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327824"
                 ],
                 "item_count": 1
@@ -18441,7 +18331,7 @@
                     "@route_217"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327828"
                 ],
                 "item_count": 1
@@ -18766,7 +18656,7 @@
                     "@snowpoint_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327948"
                 ],
                 "item_count": 1
@@ -18777,7 +18667,7 @@
                     "@snowpoint_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327949"
                 ],
                 "item_count": 1
@@ -18788,7 +18678,7 @@
                     "@snowpoint_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327950"
                 ],
                 "item_count": 1
@@ -18799,7 +18689,7 @@
                     "@snowpoint_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327951"
                 ],
                 "item_count": 1
@@ -18810,7 +18700,7 @@
                     "@snowpoint_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328507"
                 ],
                 "item_count": 1
@@ -18821,7 +18711,7 @@
                     "@snowpoint_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328508"
                 ],
                 "item_count": 1
@@ -18872,7 +18762,7 @@
                     "@snowpoint_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327999"
                 ],
                 "item_count": 1
@@ -18917,26 +18807,6 @@
                     "show_items, opt_hidden_on"
                 ],
                 "item_count": 1
-            },
-            {
-                "name": "B3F - TM94 (Overworld Item)",
-                "access_rules": [
-                    "@snowpoint_temple_b3f"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "B3F - TM94 (Overworld Item)\u200b",
-                "access_rules": [
-                    "@snowpoint_temple_b3f"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_off"
-                ],
-                "hosted_item": "tm94ancientpower"
             },
             {
                 "name": "B4F - Item Past Ice Tile",
@@ -19151,7 +19021,7 @@
                     "@route_215, $cut"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327807"
                 ],
                 "item_count": 1
@@ -19162,7 +19032,7 @@
                     "@route_215"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327808"
                 ],
                 "item_count": 1
@@ -19173,7 +19043,7 @@
                     "@route_215"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327809"
                 ],
                 "item_count": 1
@@ -19184,7 +19054,7 @@
                     "@route_215"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327810"
                 ],
                 "item_count": 1
@@ -19195,7 +19065,7 @@
                     "@route_215"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327958"
                 ],
                 "item_count": 1
@@ -19206,7 +19076,7 @@
                     "@route_215"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327967"
                 ],
                 "item_count": 1
@@ -19217,7 +19087,7 @@
                     "@route_215"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327984"
                 ],
                 "item_count": 1
@@ -19228,7 +19098,7 @@
                     "@route_215"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327987"
                 ],
                 "item_count": 1
@@ -19384,7 +19254,7 @@
                     "@wayward_cave_1f, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328059"
                 ],
                 "item_count": 1
@@ -19395,7 +19265,7 @@
                     "@wayward_cave_1f, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328060"
                 ],
                 "item_count": 1
@@ -19406,7 +19276,7 @@
                     "@wayward_cave_1f, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328063"
                 ],
                 "item_count": 1
@@ -19417,7 +19287,7 @@
                     "@wayward_cave_1f, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328123"
                 ],
                 "item_count": 1
@@ -19428,7 +19298,7 @@
                     "@wayward_cave_1f, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328130"
                 ],
                 "item_count": 1
@@ -19439,7 +19309,7 @@
                     "@wayward_cave_1f, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328134"
                 ],
                 "item_count": 1
@@ -19450,7 +19320,7 @@
                     "@wayward_cave_1f, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328135"
                 ],
                 "item_count": 1
@@ -19461,7 +19331,7 @@
                     "@wayward_cave_1f, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328138"
                 ],
                 "item_count": 1
@@ -19472,7 +19342,7 @@
                     "@wayward_cave_1f, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328139"
                 ],
                 "item_count": 1
@@ -19483,7 +19353,7 @@
                     "@wayward_cave_1f, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328176"
                 ],
                 "item_count": 1
@@ -19657,7 +19527,7 @@
                     "@route_211_west, $rock_smash"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327756"
                 ],
                 "item_count": 1
@@ -19668,7 +19538,7 @@
                     "@route_211_west"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327758"
                 ],
                 "item_count": 1
@@ -19679,7 +19549,7 @@
                     "@route_211_west"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328006"
                 ],
                 "item_count": 1
@@ -19841,7 +19711,7 @@
                     "@oreburgh_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327924"
                 ],
                 "item_count": 1
@@ -19852,7 +19722,7 @@
                     "@oreburgh_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327925"
                 ],
                 "item_count": 1
@@ -19903,7 +19773,7 @@
                     "@oreburgh_city_gym"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327926"
                 ],
                 "item_count": 1
@@ -19963,7 +19833,7 @@
                     "@oreburgh_mine_b2f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327875"
                 ],
                 "item_count": 1
@@ -19974,7 +19844,7 @@
                     "@oreburgh_mine_b2f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327876"
                 ],
                 "item_count": 1
@@ -20109,7 +19979,7 @@
                     "@oreburgh_gate_b1f, $surf"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327920"
                 ],
                 "item_count": 1
@@ -20120,7 +19990,7 @@
                     "@oreburgh_gate_1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327945"
                 ],
                 "item_count": 1
@@ -20131,7 +20001,7 @@
                     "@oreburgh_gate_1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328009"
                 ],
                 "item_count": 1
@@ -20263,7 +20133,7 @@
                     "@route_203"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327684"
                 ],
                 "item_count": 1
@@ -20274,7 +20144,7 @@
                     "@route_203"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_327928"
                 ],
                 "item_count": 1
@@ -20285,7 +20155,7 @@
                     "@route_203"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328002"
                 ],
                 "item_count": 1
@@ -20296,7 +20166,7 @@
                     "@route_203"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328003"
                 ],
                 "item_count": 1
@@ -20307,7 +20177,7 @@
                     "@route_203"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328035"
                 ],
                 "item_count": 1
@@ -20318,7 +20188,7 @@
                     "@route_203"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328036"
                 ],
                 "item_count": 1
@@ -20498,7 +20368,7 @@
                     "@fight_area"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328601"
                 ],
                 "item_count": 1
@@ -20509,7 +20379,7 @@
                     "@fight_area"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328602"
                 ],
                 "item_count": 1
@@ -20723,26 +20593,6 @@
                 "name": "Trainer Counter App from Prof Oak",
                 "access_rules": [
                     "@pal_park_lobby"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_poketchapps_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Kitchen Timer App from Girl",
-                "access_rules": [
-                    "@pal_park_lobby, ^$has_mon|143"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_poketchapps_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Color Changer App from Girl",
-                "access_rules": [
-                    "@pal_park_lobby, ^$has_mon|352, ^$has_mon|143"
                 ],
                 "visibility_rules": [
                     "show_items, opt_poketchapps_on"
@@ -21166,7 +21016,7 @@
                     "@mt_coronet_4f_rooms_1_and_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328196"
                 ],
                 "item_count": 1
@@ -21177,7 +21027,7 @@
                     "@mt_coronet_4f_rooms_1_and_2"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328197"
                 ],
                 "item_count": 1
@@ -21292,7 +21142,7 @@
                     "@mt_coronet_5f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328200"
                 ],
                 "item_count": 1
@@ -21303,7 +21153,7 @@
                     "@mt_coronet_5f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328205"
                 ],
                 "item_count": 1
@@ -21314,7 +21164,7 @@
                     "@mt_coronet_6f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328206"
                 ],
                 "item_count": 1
@@ -21345,7 +21195,7 @@
                     "@spear_pillar"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328201"
                 ],
                 "item_count": 1
@@ -21356,7 +21206,7 @@
                     "@spear_pillar"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328207"
                 ],
                 "item_count": 1
@@ -21367,7 +21217,7 @@
                     "@spear_pillar"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328087"
                 ],
                 "item_count": 1
@@ -21378,7 +21228,7 @@
                     "@spear_pillar"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328208"
                 ],
                 "item_count": 1
@@ -21389,7 +21239,7 @@
                     "@distortion_world"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328084"
                 ],
                 "item_count": 1
@@ -21693,7 +21543,7 @@
                     "@mt_coronet_1f_tunnel_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328198"
                 ],
                 "item_count": 1
@@ -21704,7 +21554,7 @@
                     "@mt_coronet_1f_tunnel_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328199"
                 ],
                 "item_count": 1
@@ -21715,7 +21565,7 @@
                     "@mt_coronet_1f_tunnel_room"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328204"
                 ],
                 "item_count": 1
@@ -22289,7 +22139,7 @@
                     "@mt_coronet_3f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328195"
                 ],
                 "item_count": 1
@@ -22300,7 +22150,7 @@
                     "@mt_coronet_3f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_trainer_full",
+                    "show_items, notyetimplemented",
                     "show_items, opt_trainer_328203"
                 ],
                 "item_count": 1

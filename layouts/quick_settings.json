@@ -20,10 +20,6 @@
 								"splitmap"
                             ],
                             [
-                                "location_visibility",
-								"encounter_tracking"
-                            ],
-                            [
                                 "hint_tracking"
                             ]
                         ]
@@ -51,8 +47,6 @@
                             [
                                 "automap",
 								"splitmap",
-								"location_visibility",
-                                "encounter_tracking",
 								"hint_tracking"
                             ]
                         ]

@@ -52,7 +52,7 @@ function onClear(slot_data)
         else
             local version = tostring(slot_data["version"])
             local major_version = version:match("^([^.]+%.[^.]+)%.")
-            if major_version == "0.2" then
+            if major_version == "0.1" then
                 -- yey. pass.
             else
                 Tracker:AddLayouts("layouts/errors/error_version.json")
@@ -67,117 +67,7 @@ function onClear(slot_data)
     -- RESET AREA
     resetLocations()
     resetItems()
-    
-        -- resets trainer visibility
-    local trainer_resetting = false
-    for id, _ in pairs(LOCATION_MAPPING) do
-        if id == START_ID then
-            trainer_resetting = true
-        end
-    
-        if trainer_resetting then
-            Tracker:FindObjectForCode("opt_trainer_" .. id).Active = false
-        end
-    
-        if id == END_ID then
-            trainer_resetting = false
-        end
-    end
     -------------------------------------------------
-
-    local generated = slot_data.generated_encounters
-    ENCOUNTERS_GROUPED = {}
-
-    local used_keys = {}
-
-    for area_slot_key, slot_counts in pairs(AREA_SLOTS) do
-
-        local base_area = area_slot_key:gsub("_land$", "")
-        local is_special_case = (base_area == "old_chateau_back_middle_east_room")
-        local special_types = { "land", "any_cartridge" }
-
-        local cursor = 0
-
-        for type_index, count in ipairs(slot_counts) do
-            if count > 0 then
-
-                local area_type
-
-                -- There is specifically one room in old Chateau which has a slot
-                -- whose access rules is ANY cartridge.
-                if is_special_case then
-                    area_type = special_types[type_index]
-                else
-                    area_type = AREA_TYPES[type_index]
-                end
-                
-                local grouped_key
-                if area_type == "land" then
-                    grouped_key = area_slot_key
-                else
-                    grouped_key = base_area .. "_" .. area_type
-                end
-
-                ENCOUNTERS_GROUPED[grouped_key] = ENCOUNTERS_GROUPED[grouped_key] or {}
-
-                for i = 0, count - 1 do
-                    local old_index = cursor + i
-                    local old_key = area_slot_key .. "_" .. old_index
-
-                    local value = generated[old_key]
-                    if value ~= nil then
-                        table.insert(ENCOUNTERS_GROUPED[grouped_key], value)
-                        used_keys[old_key] = true
-                    end
-                end
-
-                cursor = cursor + count
-            end
-        end
-    end
-
-    for key, value in pairs(generated) do
-        if not used_keys[key] then
-            local base = key:match("^(.*)_%d+$")
-    
-            ENCOUNTERS_GROUPED[base] = ENCOUNTERS_GROUPED[base] or {}
-            table.insert(ENCOUNTERS_GROUPED[base], value)
-    
-        end
-    end
-
-    -- at this point we have the entire list as region = {number, number, etc.}.
-    -- now we gotta append the special encounters because why does no pokemon dev
-    -- want to ever give me these in the original table? :(
-    
-    local special = slot_data.generated_special_encounters
-    for key, value in pairs(special) do
-        local base = key:match("^(.*)_%d+$")
-    
-        ENCOUNTERS_GROUPED[base] = ENCOUNTERS_GROUPED[base] or {}
-        table.insert(ENCOUNTERS_GROUPED[base], value)
-    end
-
-    ENCOUNTERS_GROUPED["roamer_0"] = {slot_data.generated_roamers[1]}
-    ENCOUNTERS_GROUPED["roamer_1"] = {slot_data.generated_roamers[2]}
-    ENCOUNTERS_GROUPED["roamer_345"] = {slot_data.generated_roamers[3], slot_data.generated_roamers[4], slot_data.generated_roamers[5]}
-
-    -- and now we flip this on the head by instead matching pokemon -> region instead of region -> pokemon
-    
-    POKEMON_TO_LOCATIONS = {}
-    for location, dex_list in pairs(ENCOUNTERS_GROUPED) do
-        for _, dex_number in pairs(dex_list) do
-            if POKEMON_TO_LOCATIONS[dex_number] == nil then
-                POKEMON_TO_LOCATIONS[dex_number] = {}
-            end
-            table.insert(POKEMON_TO_LOCATIONS[dex_number], location)
-        end
-    end
-    
-    --print(dump_table(POKEMON_TO_LOCATIONS))
-    --print(dump_table(ENCOUNTERS_GROUPED))
-    -------------------------------------------------
-
 
 
     for k, v in pairs(slot_data) do
@@ -197,26 +87,6 @@ function onClear(slot_data)
                     Tracker:FindObjectForCode(HM_CODES[hm]).CurrentStage = 1
                 end
             end
-        elseif k == "trainersanity_trainers" then
-            if #v == 0 then
-                TRAINERS:setType("none")
-            elseif #v == 457 then
-                TRAINERS:setType("full")
-            else
-                TRAINERS:setType("partial")
-                TRAINERS:setStage(#v)
-                for _, value in ipairs(v) do
-                    Tracker:FindObjectForCode("opt_trainer_" .. value).Active = true
-                end
-            end
-        elseif k == "dexsanity_specs" then
-            local rolled_dexsanity = {}
-            for _, num in ipairs(v) do
-                rolled_dexsanity[num] = true
-            end
-            for i = 1, 493 do
-                Tracker:FindObjectForCode("dexsanity_visibility_" .. i).Active = rolled_dexsanity[i] == true
-            end
         end
     end
     
@@ -227,12 +97,8 @@ function onClear(slot_data)
         local function makeID(s) return "pokemon_platinum_" .. s .. suffix end
         IDs = {
             EVENT      = makeID("tracked_events_"),
-            SEEN       = makeID("seen_pokemon_"),
-            CAUGHT     = makeID("caught_pokemon_"),
             KEY1       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_0",
             KEY2       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_1",
-            KEY3       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_2",
-            KEY4       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_3",
             HINT       = "_read_hints_" .. suffix,
         }
         
@@ -403,10 +269,6 @@ function onNotify(key, value, old_value)
             updateVanillaKeyItems(1, value)
         elseif key == IDs.KEY2 then
             updateVanillaKeyItems(2, value)
-        elseif key == IDs.KEY3 then
-            updateVanillaKeyItems(3, value)
-        elseif key == IDs.KEY4 then
-            updateVanillaKeyItems(4, value)
         elseif key == IDs.HINT then
             SAVED_HINTS = value
             updateHints()

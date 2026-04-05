@@ -41,43 +41,6 @@
               }
             ]
           }
-        },
-        {
-          "title": "Dex Logic",
-          "content": {
-            "type": "array",
-            "orientation": "vertical",
-            "h_alignment": "left",
-            "content": [
-              {
-                "type": "group",
-                "header": "Encounter Logic",
-                "dock": "top",
-                "content": {
-                  "type": "layout",
-                  "key": "enc_logic_grid"
-                }
-              },
-              {
-                "type": "group",
-                "header": "Evolution Logic",
-                "dock": "top",
-                "content": {
-                  "type": "layout",
-                  "key": "evo_logic_grid"
-                }
-              },
-              {
-                "type": "group",
-                "header": "Information",
-                "dock": "top",
-                "content": {
-                  "type": "layout",
-                  "key": "information_grid"
-                }
-              }
-            ]
-          }
         }
       ]
       }
@@ -100,8 +63,6 @@
             ],
             [
                 "opt_keyitems",
-                "opt_cartridges",
-                "opt_trainer_full",
                 "opt_rods",
                 "opt_poketchapps"
             ],
@@ -115,9 +76,7 @@
             [
                 "opt_marsh_pass",
                 "opt_storage_key",
-                "opt_bag",
-				"opt_hmreader",
-				"opt_timeitems"
+                "opt_bag"
             ]
         ]
     },
@@ -133,12 +92,7 @@
                 "opt_goal",
                 "opt_hm_visibility",
                 "opt_dowsing",
-                "opt_north_sinnoh_fly",
-                "opt_start_with_swarms"
-            ],
-            [
-                "opt_evo_items_shop_in_ap_helper",
-				"opt_can_reset_legendaries_in_ap_helper"
+                "opt_north_sinnoh_fly"
             ]
         ]
     },
