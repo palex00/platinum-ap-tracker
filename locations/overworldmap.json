@@ -11421,7 +11421,7 @@
                 "hosted_item": "unownfile, unownfile_l"
             },
             {
-                "name": "Unown File M",
+                "name": "B3F Right - Unown File M",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11433,7 +11433,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File M\u200b",
+                "name": "B3F Right - Unown File M\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11443,7 +11443,7 @@
                 "hosted_item": "unownfile, unownfile_m"
             },
             {
-                "name": "Unown File N",
+                "name": "B3F Right - Unown File N",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11455,7 +11455,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File N\u200b",
+                "name": "B3F Right - Unown File N\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11465,7 +11465,7 @@
                 "hosted_item": "unownfile, unownfile_n"
             },
             {
-                "name": "Unown File O",
+                "name": "B4F - Unown File O",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11477,7 +11477,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File O\u200b",
+                "name": "B4F - Unown File O\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11487,7 +11487,7 @@
                 "hosted_item": "unownfile, unownfile_o"
             },
             {
-                "name": "Unown File P",
+                "name": "B4F - Unown File P",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11499,7 +11499,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File P\u200b",
+                "name": "B4F - Unown File P\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11509,7 +11509,7 @@
                 "hosted_item": "unownfile, unownfile_p"
             },
             {
-                "name": "Unown File Q",
+                "name": "B4F - Unown File Q",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11521,7 +11521,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File Q\u200b",
+                "name": "B4F - Unown File Q\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11531,7 +11531,7 @@
                 "hosted_item": "unownfile, unownfile_q"
             },
             {
-                "name": "Unown File R",
+                "name": "B4F - Unown File R",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11543,7 +11543,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File R\u200b",
+                "name": "B4F - Unown File R\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11553,7 +11553,7 @@
                 "hosted_item": "unownfile, unownfile_r"
             },
             {
-                "name": "Unown File S",
+                "name": "B3F Left - Unown File S",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11565,7 +11565,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File S\u200b",
+                "name": "B3F Left - Unown File S\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11575,7 +11575,7 @@
                 "hosted_item": "unownfile, unownfile_s"
             },
             {
-                "name": "Unown File T",
+                "name": "B3F Left - Unown File T",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11587,7 +11587,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File T\u200b",
+                "name": "B3F Left - Unown File T\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11597,7 +11597,7 @@
                 "hosted_item": "unownfile, unownfile_t"
             },
             {
-                "name": "Unown File U",
+                "name": "Final Room - Unown File U",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11609,7 +11609,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File U\u200b",
+                "name": "Final Room - Unown File U\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11641,7 +11641,7 @@
                 "hosted_item": "unownfile, unownfile_v"
             },
             {
-                "name": "Unown File W",
+                "name": "B4F - Unown File W",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11653,7 +11653,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File W\u200b",
+                "name": "B4F - Unown File W\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11729,7 +11729,7 @@
                 "hosted_item": "unownfile, unownfile_z"
             },
             {
-                "name": "Unown File !",
+                "name": "2F - Unown File !",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11741,7 +11741,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File !\u200b",
+                "name": "2F - Unown File !\u200b",
                 "access_rules": [
                     "@solaceon_ruins_maniac_tunnel_room, ^$hidden"
                 ],
