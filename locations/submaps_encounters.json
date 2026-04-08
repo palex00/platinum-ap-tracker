@@ -465,7 +465,7 @@
 { "name": "B1F - Encounters​​​", "map_locations": [ { "map": "solaceonruinsb1f", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Corridor - Land Encounters", "ref": "Solaceon Ruins/B1F Corridor - Land Encounters" },
 { "name": "Northeast - Land Encounters", "ref": "Solaceon Ruins/B1F Northeast - Land Encounters" },
 { "name": "Southeast - Land Encounters", "ref": "Solaceon Ruins/B1F Southeast - Land Encounters" }]},
-{ "name": "B2F - Encounters​​", "map_locations": [ { "map": "solaceonruinsb2f", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Corridor - Land Encounters", "ref": "Solaceon Ruins/B2F - Land Encounters" },
+{ "name": "B2F - Encounters​​", "map_locations": [ { "map": "solaceonruinsb2f", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Corridor - Land Encounters", "ref": "Solaceon Ruins/B2F Corridor - Land Encounters" },
 { "name": "Northwest - Land Encounters", "ref": "Solaceon Ruins/B2F Northwest - Land Encounters" },
 { "name": "Southwest - Land Encounters", "ref": "Solaceon Ruins/B2F Southwest - Land Encounters" }]},
 { "name": "B3F Left - Encounters", "map_locations": [ { "map": "solaceonruinsb3f", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Corridor - Land Encounters", "ref": "Solaceon Ruins/B3F Left Corridor - Land Encounters" },
