@@ -637,7 +637,7 @@
 {"name": "Solaceon Ruins​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Solaceon Ruins/B3F Left - Unown File S", "name": "B3F Left - Unown File S"}], "map_locations": [{"map": "solaceonruinsb3f", "x": 28, "y": 97}]},
 {"name": "Solaceon Ruins - Unown File S", "sections": [{"ref": "Solaceon Ruins/B3F Left - Unown File S\u200b", "name": "B3F Left - Unown File S\u200b"}], "map_locations": [{"map": "solaceonruinsb3f", "x": 28, "y": 97}]},
 {"name": "Solaceon Ruins​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Solaceon Ruins/B3F Left - Unown File T", "name": "B3F Left - Unown File T"}], "map_locations": [{"map": "solaceonruinsb3f", "x": 28, "y": 125}]},
-{"name": "Solaceon Ruins - Unown File T", "sections": [{"ref": "Solaceon Ruins/Unown File T\u200b", "name": "Unown File T\u200b"}], "map_locations": [{"map": "solaceonruinsb3f", "x": 28, "y": 125}]},
+{"name": "Solaceon Ruins - Unown File T", "sections": [{"ref": "Solaceon Ruins/B3F Left - Unown File T\u200b", "name": "B3F Left - Unown File T\u200b"}], "map_locations": [{"map": "solaceonruinsb3f", "x": 28, "y": 125}]},
 {"name": "Solaceon Ruins​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Solaceon Ruins/Final Room - Unown File U", "name": "Final Room - Unown File U"}], "map_locations": [{"map": "solaceonruinsb4f", "x": 95, "y": 190}]},
 {"name": "Solaceon Ruins - Unown File U", "sections": [{"ref": "Solaceon Ruins/Final Room - Unown File U\u200b", "name": "Final Room - Unown File U\u200b"}], "map_locations": [{"map": "solaceonruinsb4f", "x": 95, "y": 190}]},
 {"name": "Solaceon Ruins​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Solaceon Ruins/B3F Left - Unown File V", "name": "B3F Left - Unown File V"}], "map_locations": [{"map": "solaceonruinsb3f", "x": 225, "y": 200}]},
