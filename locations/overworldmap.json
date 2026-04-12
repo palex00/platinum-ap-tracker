@@ -9503,7 +9503,7 @@
             {
                 "name": "Item Under Bridge Next to Hidden Ninja Boy",
                 "access_rules": [
-                    "@route_210_north, ^$hidden"
+                    "@route_210_north"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
