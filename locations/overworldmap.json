@@ -4370,26 +4370,6 @@
                 "hosted_item": "oddkeystone"
             },
             {
-                "name": "Bag in Player's Bedroom",
-                "access_rules": [
-                    ""
-                ],
-                "visibility_rules": [
-                    "show_items, opt_bag_on"
-                ],
-                "item_count": 1
-            },
-            {
-                "name": "Bag in Player's Bedroom\u200b",
-                "access_rules": [
-                    ""
-                ],
-                "visibility_rules": [
-                    "show_items, opt_bag_off"
-                ],
-                "hosted_item": "bag"
-            },
-            {
                 "name": "Running Shoes From Mom",
                 "access_rules": [
                     "@twinleaf_town_player_house_1f"
