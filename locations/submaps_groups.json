@@ -91,8 +91,6 @@
 { "name": "Gym - TM57 from Volkner", "ref": "Sunyshore City/Gym - TM57 from Volkner"},
 { "name": "Gym - Leader Volkner", "ref": "Sunyshore City/Gym - Leader Volkner"}]},
 { "name": "Home", "map_locations": [ { "map": "twinleaftown", "x": 320, "y": 257}], "sections": [
-{ "name": "Bag in Player's Bedroom", "ref": "Twinleaf Town/Bag in Player's Bedroom"},
-{ "name": "Bag in Player's Bedroom\u200b", "ref": "Twinleaf Town/Bag in Player's Bedroom\u200b"},
 { "name": "Running Shoes From Mom", "ref": "Twinleaf Town/Running Shoes From Mom"},
 { "name": "Journal from Mom", "ref": "Twinleaf Town/Journal from Mom"},
 { "name": "Parcel from Rivals Mom", "ref": "Twinleaf Town/Parcel from Rivals Mom"},
