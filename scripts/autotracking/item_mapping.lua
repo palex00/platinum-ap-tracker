@@ -1,5 +1,5 @@
 ITEM_MAPPING = {  
-	[16781] =   {{"tm70flash", "toggle"}},
+	[397] =     {{"tm70flash", "toggle"}},
 	[420] =     {{"hm01cut", "progressive_toggle"}},
 	[421] =     {{"hm02fly", "progressive_toggle"}},
 	[422] =     {{"hm03surf", "progressive_toggle"}},
