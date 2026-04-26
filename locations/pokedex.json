@@ -233,7 +233,7 @@
 {"name": "Kingdra", "access_rules": ["caught_230", "^$evolve_trade_item|dragonscale, caught_116"], "sections": [{"hosted_item": "caught_230"}],  "map_locations": [{"map": "johtodex", "x": 536, "y": 536, "shape": "rect"}]},
 {"name": "Phanpy", "access_rules": ["caught_231"], "sections": [{"hosted_item": "caught_231"}],  "map_locations": [{"map": "johtodex", "x": 616, "y": 536, "shape": "rect"}]},
 {"name": "Donphan", "access_rules": ["caught_232", "^$levelup|25, caught_231"], "sections": [{"hosted_item": "caught_232"}],  "map_locations": [{"map": "johtodex", "x": 696, "y": 536, "shape": "rect"}]},
-{"name": "Porygon2", "access_rules": ["caught_233", "^$evolve_item|upgrade, caught_137"], "sections": [{"hosted_item": "caught_233"}],  "map_locations": [{"map": "johtodex", "x": 776, "y": 536, "shape": "rect"}]},
+{"name": "Porygon2", "access_rules": ["caught_233", "^$evolve_trade_item|upgrade, caught_137"], "sections": [{"hosted_item": "caught_233"}],  "map_locations": [{"map": "johtodex", "x": 776, "y": 536, "shape": "rect"}]},
 {"name": "Stantler", "access_rules": ["caught_234"], "sections": [{"hosted_item": "caught_234"}],  "map_locations": [{"map": "johtodex", "x": 856, "y": 536, "shape": "rect"}]},
 {"name": "Smeargle", "access_rules": ["caught_235"], "sections": [{"hosted_item": "caught_235"}],  "map_locations": [{"map": "johtodex", "x": 936, "y": 536, "shape": "rect"}]},
 {"name": "Tyrogue", "access_rules": ["caught_236"], "sections": [{"hosted_item": "caught_236"}],  "map_locations": [{"map": "johtodex", "x": 56, "y": 616, "shape": "rect"}]},
