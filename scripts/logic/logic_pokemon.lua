@@ -2,6 +2,14 @@ function land_encounters()
     return AccessibilityLevel.Normal
 end
 
+function notnight_encounters()
+    return AccessibilityLevel.Normal
+end
+
+function notday_encounters()
+    return AccessibilityLevel.Normal
+end
+
 function day_encounters()
     if not day() then return AccessibilityLevel.None end
     
