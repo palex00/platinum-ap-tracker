@@ -10815,7 +10815,7 @@
                 ]
             },
             {
-                "name": "Morning Encounters",
+                "name": "South - Morning Encounters",
                 "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/morning.png",
                 "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
