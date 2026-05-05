@@ -173,7 +173,7 @@
 { "name": "Good Rod Encounters", "ref": "Mt. Coronet Upper Floors/4F Bottom - Good Rod Encounters" },
 { "name": "Super Rod Encounters", "ref": "Mt. Coronet Upper Floors/4F Bottom - Super Rod Encounters" }]},
 { "name": "4F Top - Encounters", "map_locations": [ { "map": "mtcoronetupper4ftop", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Mt. Coronet Upper Floors/4F Top - Land Encounters" },
-{ "name": "Morning Encounters", "ref": "Mt. Coronet Upper Floors/4F top - Morning Encounters" },
+{ "name": "Morning Encounters", "ref": "Mt. Coronet Upper Floors/4F Top - Morning Encounters" },
 { "name": "Ruby Encounters", "ref": "Mt. Coronet Upper Floors/4F Top - Ruby Encounters" },
 { "name": "Sapphire Encounters", "ref": "Mt. Coronet Upper Floors/4F Top - Sapphire Encounters" }]},
 { "name": "5F - Encounters​", "map_locations": [ { "map": "mtcoronetupper5f", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Mt. Coronet Upper Floors/5F - Land Encounters" },
