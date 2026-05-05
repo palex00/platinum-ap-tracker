@@ -279,7 +279,7 @@
 { "name": "Good Rod Encounters", "ref": "Route 205 South/Good Rod Encounters" },
 { "name": "Super Rod Encounters", "ref": "Route 205 South/Super Rod Encounters" }]},
 { "name": "Encounters​​​​​​​​​​​​​​​​​​​​​​​​", "map_locations": [ { "map": "route206", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Route 206 South/Land Encounters" },
-{ "name": "Morning Encounters", "ref": "Route 206/Morning Encounters" },
+{ "name": "Morning Encounters", "ref": "Route 206 South/Morning Encounters" },
 { "name": "Swarm Encounters", "ref": "Route 206 South/Swarm Encounters" },
 { "name": "Radar Encounters", "ref": "Route 206 South/Radar Encounters" },
 { "name": "Night Encounters", "ref": "Route 206 South/Night Encounters" }]},
