@@ -14562,7 +14562,7 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 8,
+                "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
@@ -14663,6 +14663,18 @@
                 "chest_opened_img": "/images/locations/encounters/leafgreen_cleared.png",
                 "access_rules": [
                     "@eterna_forest, ^$leafgreen_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "No Inserted Cartridge Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/gba.png",
+                "chest_opened_img": "/images/locations/encounters/gba_cleared.png",
+                "access_rules": [
+                    "@eterna_forest, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
