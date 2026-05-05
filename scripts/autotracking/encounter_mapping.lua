@@ -560,7 +560,7 @@ AREA_TYPES = {
 }
 
 AREA_SLOTS = {
-    old_chateau_back_middle_east_room_land = {1,0,0,1},
+    old_chateau_back_middle_east_room_land = {1,1},
     acuity_lakefront_land = {3,0,0,0,0,1,0,0,1,0,0,0},
     eterna_forest_land = {2,2,6,1,0,1,1,0,1,2,2,1},
     fuego_ironworks_outside_land = {4,0,0,0,0,0,0,0,0,0,0,1},
