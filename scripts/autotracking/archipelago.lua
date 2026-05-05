@@ -100,6 +100,8 @@ function onClear(slot_data)
         local base_area = area_slot_key:gsub("_land$", "")
         local is_special_case = (base_area == "old_chateau_back_middle_east_room")
         local special_types = { "land", "any_cartridge" }
+        local is_special_case = (base_area == "eterna_forest")
+        local special_types = { "land", "morning", "land", "no_cartridge", "land", "swarm", "day", "night", "ruby", "sapphire", "emerald", "firered", "leafgreen", "radar" }
 
         local cursor = 0
 
