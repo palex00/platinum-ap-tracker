@@ -2,12 +2,6 @@ function land_encounters()
     return AccessibilityLevel.Normal
 end
 
--- This includes encounters that can be caught in morning/day and morning/night
--- This is to separate them from land_encounters to make it easier to farm on the correct time of day
-function morning_encounters()
-    return AccessibilityLevel.Normal
-end
-
 function day_encounters()
     if not day() then return AccessibilityLevel.None end
     
