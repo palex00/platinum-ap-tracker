@@ -30,6 +30,15 @@
                                             }
                                         ]
                                     }
+                                },
+                                {
+                                    "title": "",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "Credits"
+                                        ]
+                                    }
                                 }
                             ]
                         },
