@@ -11856,7 +11856,7 @@
                 ]
             },
             {
-                "name": "B2F - Land Encounters",
+                "name": "B2F Corridor - Land Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
