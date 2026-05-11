@@ -2282,30 +2282,37 @@
         ]
     },
     {
-        "name": "route_218",
+        "name": "route_218_east",
+        "access_rules": [
+            "@route_218_west, ^$surf",
+            "@route_218_gate_to_jubilife_city"
+        ]
+    },
+    {
+        "name": "route_218_west",
         "access_rules": [
             "@route_218_gate_to_canalave_city",
-            "@route_218_gate_to_jubilife_city"
+            "@route_218_east, ^$surf"
         ]
     },
     {
         "name": "route_218_gate_to_canalave_city",
         "access_rules": [
             "@canalave_city",
-            "@route_218, $surf"
+            "@route_218_west"
         ]
     },
     {
         "name": "route_218_gate_to_jubilife_city",
         "access_rules": [
             "@jubilife_city",
-            "@route_218"
+            "@route_218_east"
         ]
     },
     {
         "name": "route_218_honey_tree",
         "access_rules": [
-            "@route_218, $surf"
+            "@route_218_west"
         ]
     },
     {
