@@ -774,7 +774,7 @@
 { "name": "3F - Hidden Item in Top Left in Room After Mural", "ref": "Mt. Coronet 2F-3F/3F - Hidden Item in Top Left in Room After Mural"},
 { "name": "3F - Galactic Grunt 1", "ref": "Mt. Coronet 2F-3F/3F - Galactic Grunt 1"},
 { "name": "3F - Galactic Grunt 2", "ref": "Mt. Coronet 2F-3F/3F - Galactic Grunt 2"}]},
-{ "name": "Mt. Coronet North", "map_locations": [ { "map": "route211west", "x": 473, "y": 356}, {"map": "route211east", "x": 39, "y": 309}], "sections": [
+{ "name": "Mt. Coronet North", "map_locations": [ { "map": "route211west", "x": 473, "y": 356}, {"map": "route211east", "x": 39, "y": 309}, {"map": "route216east", "x": 904, "y": 370}], "sections": [
 { "name": "Item Behind Two Breakable Rocks", "ref": "Mt. Coronet 1F North/Item Behind Two Breakable Rocks"},
 { "name": "Item in Corner Above Ledge", "ref": "Mt. Coronet 1F North/Item in Corner Above Ledge"},
 { "name": "Item Below East Exit", "ref": "Mt. Coronet 1F North/Item Below East Exit"},
