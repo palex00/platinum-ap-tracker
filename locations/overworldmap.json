@@ -15039,7 +15039,7 @@
                 "item_count": 1
             },
             {
-                "name": "2F - Item in Room Left of Entrance",
+                "name": "Entrance - Item in Room Left of Entrance",
                 "access_rules": [
                     "@old_chateau_side_rooms"
                 ],
