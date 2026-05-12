@@ -342,7 +342,7 @@
 { "name": "1F - Item on Left of Dining Area", "ref": "Old Chateau/1F - Item on Left of Dining Area"},
 { "name": "1F - Item on Right of Dining Area", "ref": "Old Chateau/1F - Item on Right of Dining Area"},
 { "name": "2F - Item in Easternmost Bedroom", "ref": "Old Chateau/2F - Item in Easternmost Bedroom"},
-{ "name": "2F - Item in Room Left of Entrance", "ref": "Old Chateau/2F - Item in Room Left of Entrance"},
+{ "name": "2F - Item in Room Left of Entrance", "ref": "Old Chateau/Entrance - Item in Room Left of Entrance"},
 { "name": "2F - Item in Westernmost Bedroom", "ref": "Old Chateau/2F - Item in Westernmost Bedroom"}]},
 { "name": "Solaceon Ruins\u200b\u200b\u200b", "map_locations": [ { "map": "solaceontown", "x": 847, "y": 203}], "sections": [
 { "name": "B1F - Hidden Item Down Top Left Staircase", "ref": "Solaceon Ruins/B1F - Hidden Item Down Top Left Staircase"},
@@ -774,7 +774,7 @@
 { "name": "3F - Hidden Item in Top Left in Room After Mural", "ref": "Mt. Coronet 2F-3F/3F - Hidden Item in Top Left in Room After Mural"},
 { "name": "3F - Galactic Grunt 1", "ref": "Mt. Coronet 2F-3F/3F - Galactic Grunt 1"},
 { "name": "3F - Galactic Grunt 2", "ref": "Mt. Coronet 2F-3F/3F - Galactic Grunt 2"}]},
-{ "name": "Mt. Coronet North", "map_locations": [ { "map": "route211west", "x": 473, "y": 356}, {"map": "route211east", "x": 39, "y": 309}], "sections": [
+{ "name": "Mt. Coronet North", "map_locations": [ { "map": "route211west", "x": 473, "y": 356}, {"map": "route211east", "x": 39, "y": 309}, {"map": "route216east", "x": 904, "y": 370}], "sections": [
 { "name": "Item Behind Two Breakable Rocks", "ref": "Mt. Coronet 1F North/Item Behind Two Breakable Rocks"},
 { "name": "Item in Corner Above Ledge", "ref": "Mt. Coronet 1F North/Item in Corner Above Ledge"},
 { "name": "Item Below East Exit", "ref": "Mt. Coronet 1F North/Item Below East Exit"},
@@ -824,7 +824,7 @@
 { "name": "Route 213 East - Dropped Item", "map_locations": [ { "map": "route213valorlakefront", "x": 1048, "y": 1176}], "sections": [
 { "name": "Hidden Suite Key By Reception", "ref": "Route 213 East/Hidden Suite Key By Reception"},
 { "name": "Hidden Suite Key By Reception\u200b", "ref": "Route 213 East/Hidden Suite Key By Reception\u200b"}]},
-{ "name": "Gate to Route 218", "map_locations": [ { "map": "jubilifecity", "x": 8, "y": 296}], "sections": [
+{ "name": "Gate to Route 218", "map_locations": [ { "map": "jubilifecity", "x": 8, "y": 296}, {"map": "route218", "x": 920, "y": 368}], "sections": [
 { "name": "Gate to Route 218 - Old Rod from Fisherman", "ref": "Jubilife City/Gate to Route 218 - Old Rod from Fisherman"},
 { "name": "Gate to Route 218 - Old Rod from Fisherman\u200b", "ref": "Jubilife City/Gate to Route 218 - Old Rod from Fisherman\u200b"}]},
 { "name": "Jubilife City - Gift from DS Kid 1", "map_locations": [ { "map": "jubilifecity", "x": 848, "y": 584}], "sections": [
@@ -902,5 +902,20 @@
 { "name": "HM06 from Hiker\u200b", "ref": "Oreburgh Gate/HM06 from Hiker\u200b"}]},
 { "name": "Rock Peak Ruins", "map_locations": [ {"map": "route228north", "x": 280, "y": 354}], "sections": [
 { "name": "Item in Center", "ref": "Route 228/Rock Peak Ruins - Item in Center"},
-{ "name": "Hidden Item Near Top Right", "ref": "Route 228/Rock Peak Ruins - Hidden Item Near Top Right"}]}
+{ "name": "Hidden Item Near Top Right", "ref": "Route 228/Rock Peak Ruins - Hidden Item Near Top Right"}]},
+{ "name": "Oreburgh Gate B2F", "map_locations": [ {"map": "oreburghgate1f", "x": 314, "y": 64}], "sections": [
+{ "name": "B1F - Item After Ramps", "ref": "Oreburgh Gate/B1F - Item After Ramps"},
+{ "name": "B1F - Item in Pit North", "ref": "Oreburgh Gate/B1F - Item in Pit North"},
+{ "name": "B1F - Item in Pit South", "ref": "Oreburgh Gate/B1F - Item in Pit South"},
+{ "name": "B1F - Item Next to Cyclist", "ref": "Oreburgh Gate/B1F - Item Next to Cyclist"},
+{ "name": "B1F - Item on East Ledges", "ref": "Oreburgh Gate/B1F - Item on East Ledges"},
+{ "name": "B1F - Item on East Ledges\u200b", "ref": "Oreburgh Gate/B1F - Item on East Ledges\u200b"},
+{ "name": "B1F - Veteran Grant", "ref": "Oreburgh Gate/B1F - Veteran Grant"}]},
+{ "name": "Old Chateau 1F", "map_locations": [ {"map": "oldchateauentrance", "x": 280, "y": 100}], "sections": [
+{ "name": "1F - Hidden Item in Box in Kitchen", "ref": "Old Chateau/1F - Hidden Item in Box in Kitchen"},
+{ "name": "1F - Item on Left of Dining Area", "ref": "Old Chateau/1F - Item on Left of Dining Area"},
+{ "name": "1F - Item on Right of Dining Area", "ref": "Old Chateau/1F - Item on Right of Dining Area"}]},
+{ "name": "Old Chateau 2F", "map_locations": [ {"map": "oldchateauentrance", "x": 280, "y": 32}], "sections": [
+{ "name": "2F - Item in Easternmost Bedroom", "ref": "Old Chateau/2F - Item in Easternmost Bedroom"},
+{ "name": "2F - Item in Westernmost Bedroom", "ref": "Old Chateau/2F - Item in Westernmost Bedroom"}]},
 ]}]
