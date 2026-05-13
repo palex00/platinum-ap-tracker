@@ -339,7 +339,7 @@
 {"name": "Fuego Ironworks​​​​​​​​​", "sections": [{"ref": "Fuego Ironworks/Item Behind Blue Crate", "name": "Item Behind Blue Crate"}], "map_locations": [{"map": "fuegoironworks", "x": 168, "y": 224}]},
 {"name": "Fuego Ironworks​​​​​​​​​​", "sections": [{"ref": "Fuego Ironworks/Hidden Item in Single Barrel", "name": "Hidden Item in Single Barrel"}], "map_locations": [{"map": "fuegoironworks", "x": 696, "y": 188}]},
 {"name": "Fuego Ironworks​​​​​​​​​​​", "sections": [{"ref": "Fuego Ironworks/Hidden Item in Short Dead End", "name": "Hidden Item in Short Dead End"}], "map_locations": [{"map": "fuegoironworks", "x": 346, "y": 36}]},
-{"name": "Old Chateau", "sections": [{"ref": "Old Chateau/Entrance - Item in Room Left of Entrance", "name": "Entrance - Item in Room Left of Entrance"}], "map_locations": [{"map": "oldchateauentrance", "x": 64, "y": 88}]},
+{"name": "Old Chateau", "sections": [{"ref": "Old Chateau/2F - Item in Room Left of Entrance", "name": "2F - Item in Room Left of Entrance"}], "map_locations": [{"map": "oldchateauentrance", "x": 64, "y": 88}]},
 {"name": "Route 205 North", "sections": [{"ref": "Route 205 North/Item South of Pond", "name": "Item South of Pond"}], "map_locations": [{"map": "route205north", "x": 296, "y": 472}]},
 {"name": "Eterna City", "sections": [{"ref": "Eterna City/Item Behind Fence", "name": "Item Behind Fence"}], "map_locations": [{"map": "eternacity", "x": 632, "y": 98}]},
 {"name": "Eterna City​", "sections": [{"ref": "Eterna City/Item Behind Gym", "name": "Item Behind Gym"}], "map_locations": [{"map": "eternacity", "x": 472, "y": 616}]},
