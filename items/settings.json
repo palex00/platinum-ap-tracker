@@ -917,7 +917,6 @@
         "img": "/images/locations/ball.png",
         "codes": "opt_dexsanity",
         "type": "consumable",
-        "allow_disabled": true,
         "min_quantity": 0,
         "max_quantity": 493,
         "overlay_background": "000000",
