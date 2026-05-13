@@ -1873,7 +1873,7 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
-                    "@victory_road_1f, ^$land_encounters"
+                    "@victory_road_1f_entrance, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -1885,7 +1885,7 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
-                    "@victory_road_2f, ^$land_encounters"
+                    "@victory_road_2f_entrance, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
