@@ -9887,16 +9887,6 @@
                 "hosted_item": "shinystone"
             },
             {
-                "name": "Item Near Bottom Left Tree in Long Grass",
-                "access_rules": [
-                    "@route_210_south_upper"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_overworld_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Item in Northeast Grass Corner",
                 "access_rules": [
                     "@route_210_south_upper"
@@ -10100,6 +10090,16 @@
                     "show_items, opt_keyitems_off"
                 ],
                 "hosted_item": "oldcharm"
+            },
+            {
+                "name": "Item Near Bottom Left Tree in Long Grass",
+                "access_rules": [
+                    "@route_210_south_upper"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_overworld_on"
+                ],
+                "item_count": 1
             },
             {
                 "name": "Breeder Kahlil",
