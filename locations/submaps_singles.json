@@ -248,7 +248,7 @@
 {"name": "Solaceon Town", "sections": [{"ref": "Solaceon Town/Item on East Ledges", "name": "Item on East Ledges"}], "map_locations": [{"map": "solaceontown", "x": 672, "y": 292}]},
 {"name": "Solaceon Town​", "sections": [{"ref": "Solaceon Town/Clifftop Item from Maniac Tunnel Exit", "name": "Clifftop Item from Maniac Tunnel Exit"}], "map_locations": [{"map": "solaceontown", "x": 832, "y": 158}]},
 {"name": "Solaceon Town​​", "sections": [{"ref": "Solaceon Town/Hidden Item in Northeast Corner", "name": "Hidden Item in Northeast Corner"}], "map_locations": [{"map": "solaceontown", "x": 828, "y": 8}]},
-{"name": "Route 210 Center", "sections": [{"ref": "Route 210 Center/Item Near Bottom Left Tree in Long Grass", "name": "Item Near Bottom Left Tree in Long Grass"}], "map_locations": [{"map": "route210south", "x": 40, "y": 40}]},
+{"name": "Route 210 Center", "sections": [{"ref": "Route 210 South/Item Near Bottom Left Tree in Long Grass", "name": "Item Near Bottom Left Tree in Long Grass"}], "map_locations": [{"map": "route210south", "x": 40, "y": 40}]},
 {"name": "Route 210 South", "sections": [{"ref": "Route 210 South/Item in Northwest Corner", "name": "Item in Northwest Corner"}], "map_locations": [{"map": "route210south", "x": 168, "y": 360}]},
 {"name": "Route 210 Center​", "sections": [{"ref": "Route 210 Center/Item in Northeast Grass Corner", "name": "Item in Northeast Grass Corner"}], "map_locations": [{"map": "route210center", "x": 504, "y": 584}]},
 {"name": "Route 210 Center​​", "sections": [{"ref": "Route 210 Center/Item in Center", "name": "Item in Center"}], "map_locations": [{"map": "route210center", "x": 296, "y": 888}]},
