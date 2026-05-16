@@ -4742,16 +4742,6 @@
                 "item_count": 1
             },
             {
-                "name": "Marsh Pass from Wake (After Defeating Gym)",
-                "access_rules": [
-                    "@pastoria_city, event_defeat_wake"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_marsh_pass_on"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Gift from Parasol Lady",
                 "access_rules": [
                     "@pastoria_city"

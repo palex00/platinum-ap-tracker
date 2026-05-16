@@ -723,8 +723,7 @@
 { "name": "Cavern - Commander Saturn", "ref": "Lake Valor/Cavern - Commander Saturn"},
 { "name": "Cavern - Defeat Saturn (Event)", "ref": "Lake Valor/Cavern - Defeat Saturn (Event)"}]},
 { "name": "Pastoria City - Outside of Gym", "map_locations": [ { "map": "pastoriacity", "x": 216, "y": 388}], "sections": [
-{ "name": "Rival", "ref": "Pastoria City/Rival"},
-{ "name": "Marsh Pass from Wake (After Defeating Gym)", "ref": "Pastoria City/Marsh Pass from Wake (After Defeating Gym)"}]},
+{ "name": "Rival", "ref": "Pastoria City/Rival"}]},
 { "name": "Floaroma Meadow - Front", "map_locations": [ { "map": "floaromatown", "x": 48, "y": 54}], "sections": [
 { "name": "Galactic Grunt 1", "ref": "Floaroma Meadow/Galactic Grunt 1"},
 { "name": "Galactic Grunt 2", "ref": "Floaroma Meadow/Galactic Grunt 2"},
