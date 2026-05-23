@@ -135,7 +135,7 @@ function unowns()
     elseif has("opt_unown_item") then
         return has("unownfile", 26)
     elseif has("opt_unown_vanilla") then
-        return true
+        return has("@solaceon_town")
     end
 end
 
