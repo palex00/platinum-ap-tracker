@@ -2832,7 +2832,8 @@
             "@solaceon_town_north_house",
             "@solaceon_town_northeast_house",
             "@solaceon_town_pokecenter_1f",
-            "@solaceon_town_pokemon_news_press"
+            "@solaceon_town_pokemon_news_press",
+            "@solaceon_town_ledge, $fly"
         ]
     },
     {
