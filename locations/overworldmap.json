@@ -21775,7 +21775,7 @@
                 "chest_unopened_img": "/images/locations/encounters/morning.png",
                 "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
-                    "@mt_coronet_1f_north_room_2, ^$land_encounters"
+                    "@mt_coronet_4f_room_3, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
