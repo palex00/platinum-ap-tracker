@@ -2036,8 +2036,7 @@
         "access_rules": [
             "@mt_coronet_1f_south",
             "@route_208_gate_to_hearthome_city",
-            "@route_208_house",
-            "@route_212_north"
+            "@route_208_house"
         ]
     },
     {
