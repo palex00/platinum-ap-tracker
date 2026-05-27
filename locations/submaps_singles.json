@@ -662,7 +662,7 @@
 {"name": "Pastoria City​​", "sections": [{"ref": "Pastoria City/Accessory from Parasol Lady", "name": "Accessory from Parasol Lady"}], "map_locations": [{"map": "pastoriacity", "x": 584, "y": 262}]},
 {"name": "Veilstone City​​​​​​​​", "sections": [{"ref": "Veilstone City/Accessory from Massage Girl", "name": "Accessory from Massage Girl"}], "map_locations": [{"map": "veilstonecity", "x": 296, "y": 611}]},
 {"name": "Hearthome City​​​", "sections": [{"ref": "Hearthome City/Accessory from Keira in Contest Hall", "name": "Accessory from Keira in Contest Hall"}], "map_locations": [{"map": "hearthomecity", "x": 503, "y": 228}]},
-{"name": "Amity Square​​​​", "sections": [{"ref": "Amity Square/Gift from Man in Random Spot", "name": "Gift from Man in Random Spot"}], "map_locations": [{"map": "amitysquare", "x": 24, "y": 24}]},
+{"name": "Amity Square​​​​", "sections": [{"ref": "Amity Square/Gift From Man in Random Spot", "name": "Gift From Man in Random Spot"}], "map_locations": [{"map": "amitysquare", "x": 24, "y": 24}]},
 {"name": "Eterna Forest​​​​​​​​​​", "sections": [{"ref": "Eterna Forest/Side Route - Accessory from Woman", "name": "Side Route - Accessory from Woman"}], "map_locations": [{"map": "eternaforestoutside", "x": 424, "y": 518}]},
 {"name": "Celestic Town​​​", "sections": [{"ref": "Celestic Town/Gift from Man in Pokemon Center", "name": "Gift from Man in Pokemon Center"}], "map_locations": [{"map": "celestictown", "x": 392, "y": 386}]},
 {"name": "Mt. Coronet 1F North", "sections": [{"ref": "Mt. Coronet 1F North/Item Behind Two Breakable Rocks", "name": "Item Behind Two Breakable Rocks"}], "map_locations": [{"map": "mtcoronetnorth1f", "x": 238, "y": 276}]},
