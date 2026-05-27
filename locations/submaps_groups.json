@@ -885,8 +885,8 @@
 { "name": "Super Rod from Fisherman", "ref": "Fight Area/Super Rod from Fisherman"},
 { "name": "Super Rod from Fisherman\u200b", "ref": "Fight Area/Super Rod from Fisherman\u200b"}]},
 { "name": "Spear Pillar", "map_locations": [ { "map": "spearpillar", "x": 94, "y": 616}], "sections": [
-{ "name": "Spear Pillar - Item", "ref": "Mt. Coronet Upper Floors/Spear Pillar - Item"},
-{ "name": "Spear Pillar - Item\u200b", "ref": "Mt. Coronet Upper Floors/Spear Pillar - Item\u200b"}]},
+{ "name": "Spear Pillar - Item Before Stairs", "ref": "Mt. Coronet Upper Floors/Spear Pillar - Item Before Stairs"},
+{ "name": "Spear Pillar - Item Before Stairs\u200b", "ref": "Mt. Coronet Upper Floors/Spear Pillar - Item Before Stairs\u200b"}]},
 { "name": "Galactic Warehouse Entrance", "map_locations": [ { "map": "galacticwharehouse1f", "x": 208, "y": 109}], "sections": [
 { "name": "HM02 with Looker", "ref": "Galactic Warehouse/Entrance - HM02 with Looker"},
 { "name": "HM02 with Looker\u200b", "ref": "Galactic Warehouse/Entrance - HM02 with Looker\u200b"}]},
