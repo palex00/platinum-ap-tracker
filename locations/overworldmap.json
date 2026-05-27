@@ -2514,7 +2514,7 @@
                 "item_count": 1
             },
             {
-                "name": "Top Right item on Island",
+                "name": "Top Right Item on Island",
                 "access_rules": [
                     "@route_224"
                 ],
