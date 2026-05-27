@@ -742,7 +742,7 @@
 {"name": "Snowpoint Temple​​​", "sections": [{"ref": "Snowpoint Temple/B3F - Bottom Left Item", "name": "B3F - Bottom Left Item"}], "map_locations": [{"map": "snowpointtempleb3f", "x": 40, "y": 186}]},
 {"name": "Fuego Ironworks​​​​​​​​​​​​​", "sections": [{"ref": "Fuego Ironworks/Bottom Right Item in Front of Blue Crate", "name": "Bottom Right Item in Front of Blue Crate"}], "map_locations": [{"map": "fuegoironworks", "x": 807, "y": 304}]},
 {"name": "Old Chateau​​​​​​", "sections": [{"ref": "Old Chateau/2F - Item in Right Side Room", "name": "2F - Item in Right Side Room"}], "map_locations": [{"map": "oldchateauentrance", "x": 542, "y": 68}]},
-{"name": "Eterna Forest​​​​​​​​​​​", "sections": [{"ref": "Eterna Forest/TM95 (By Mossy Rock)", "name": "TM95 (By Mossy Rock)"}], "map_locations": [{"map": "eternaforest", "x": 72, "y": 824}]},
+{"name": "Eterna Forest​​​​​​​​​​​", "sections": [{"ref": "Eterna Forest/Item by Mossy Rock", "name": "Item by Mossy Rock"}], "map_locations": [{"map": "eternaforest", "x": 72, "y": 824}]},
 {"name": "Route 202​​", "sections": [{"ref": "Route 202/Youngster Tristan", "name": "Youngster Tristan"}], "map_locations": [{"map": "route202", "x": 87, "y": 213}]},
 {"name": "Route 202​​​", "sections": [{"ref": "Route 202/Youngster Logan", "name": "Youngster Logan"}], "map_locations": [{"map": "route202", "x": 390, "y": 71}]},
 {"name": "Route 202​​​​", "sections": [{"ref": "Route 202/Lass Natalie", "name": "Lass Natalie"}], "map_locations": [{"map": "route202", "x": 327, "y": 293}]},
