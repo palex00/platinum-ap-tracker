@@ -360,7 +360,7 @@
                 "item_count": 1
             },
             {
-                "name": "Area 6 - Item Below Bug Catcher",
+                "name": "Area 4 - Item Below Bug Catcher",
                 "access_rules": [
                     "@great_marsh_4"
                 ],
@@ -1614,7 +1614,7 @@
                 "item_count": 1
             },
             {
-                "name": "Side Cave B1F - NW Strength Boulders Item 1",
+                "name": "Side Cave B1F - NW Strength Boulders Bottom Item",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -1624,7 +1624,7 @@
                 "item_count": 1
             },
             {
-                "name": "Side Cave B1F - NW Strength Boulders Item 2",
+                "name": "Side Cave B1F - NW Strength Boulders Top Item",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -1634,7 +1634,7 @@
                 "item_count": 1
             },
             {
-                "name": "Side Cave B1F - NW Strength Boulders Item 2\u200b",
+                "name": "Side Cave B1F - NW Strength Boulders Top Item\u200b",
                 "access_rules": [
                     "@victory_road_1f_room_2"
                 ],
@@ -2504,7 +2504,7 @@
                 "item_count": 1
             },
             {
-                "name": "Item on Island 1",
+                "name": "Bottom Left Item on Island",
                 "access_rules": [
                     "@route_224"
                 ],
@@ -2514,7 +2514,7 @@
                 "item_count": 1
             },
             {
-                "name": "Item on Island 2",
+                "name": "Top Right item on Island",
                 "access_rules": [
                     "@route_224"
                 ],
@@ -2830,7 +2830,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item on Grassy Plateau Near Lake 1",
+                "name": "Hidden Item on Left Side of Grassy Plateau Near Lake",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -2842,7 +2842,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item on Grassy Plateau Near Lake 2",
+                "name": "Hidden Item on Bottom Right of Grassy Plateau Near Lake",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -2854,7 +2854,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item on Grassy Plateau Near Lake 3",
+                "name": "Hidden Item on Top Right of Grassy Plateau Near Lake",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -3933,7 +3933,7 @@
                 "item_count": 1
             },
             {
-                "name": "Choice Specs from Man in Shop (Morning)",
+                "name": "Item from Man in Shop (Morning)",
                 "access_rules": [
                     "@celestic_town"
                 ],
@@ -3943,7 +3943,7 @@
                 "item_count": 1
             },
             {
-                "name": "Black Glasses from Man in Shop (Day)",
+                "name": "Item from Man in Shop (Day)",
                 "access_rules": [
                     "@celestic_town, $day"
                 ],
@@ -3953,7 +3953,7 @@
                 "item_count": 1
             },
             {
-                "name": "Black Glasses from Man in Shop (Night)",
+                "name": "Item from Man in Shop (Night)",
                 "access_rules": [
                     "@celestic_town, $night"
                 ],
@@ -4472,7 +4472,7 @@
                 "hosted_item": "oddkeystone"
             },
             {
-                "name": "Bag in Player's Bedroom",
+                "name": "Item in Player's Bedroom",
                 "access_rules": [
                     ""
                 ],
@@ -4482,7 +4482,7 @@
                 "item_count": 1
             },
             {
-                "name": "Bag in Player's Bedroom\u200b",
+                "name": "Item in Player's Bedroom\u200b",
                 "access_rules": [
                     ""
                 ],
@@ -4864,7 +4864,7 @@
                 "item_count": 1
             },
             {
-                "name": "Marsh Pass from Wake (After Defeating Gym)",
+                "name": "Item from Wake (After Defeating Gym)",
                 "access_rules": [
                     "@pastoria_city, event_defeat_wake"
                 ],
@@ -4874,7 +4874,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gift from Parasol Lady",
+                "name": "Accessory from Parasol Lady",
                 "access_rules": [
                     "@pastoria_city"
                 ],
@@ -5100,7 +5100,7 @@
                 "hosted_item": "hm04strength"
             },
             {
-                "name": "Byron's house - Metal Coat from Byron",
+                "name": "Byron's house - Gift from Byron",
                 "access_rules": [
                     "@iron_island_house, national_dex"
                 ],
@@ -5110,7 +5110,7 @@
                 "item_count": 1
             },
             {
-                "name": "Byron's house - Metal Coat from Byron\u200b",
+                "name": "Byron's house - Gift from Byron\u200b",
                 "access_rules": [
                     "@iron_island_house, national_dex"
                 ],
@@ -5797,7 +5797,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item Below Footsteps House 1",
+                "name": "Hidden Item SE Below Footsteps House",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -5809,7 +5809,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item Below Footsteps House 2",
+                "name": "Hidden Item Below By the Coast Footsteps House",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -6086,7 +6086,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item on Beach East Side 2",
+                "name": "Hidden Item on Bottom Right of Eastern Beach",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -6134,7 +6134,7 @@
                 "hosted_item": "suitekey"
             },
             {
-                "name": "Hidden Item on Beach East Side 1",
+                "name": "Hidden Item on Right side of Eastern Beach",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -7789,7 +7789,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Mud Near Pastoria 3",
+                "name": "Hidden Item in Left Side of Mud Near Pastoria",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -7801,7 +7801,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Mud Near Pastoria 3\u200b",
+                "name": "Hidden Item in Left Side of Mud Near Pastoria\u200b",
                 "access_rules": [
                     "@route_212_south, ^$hidden"
                 ],
@@ -7835,7 +7835,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Mud Near Pastoria 1",
+                "name": "Hidden Item in Bottom Right of Mud Near Pastoria",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -7859,7 +7859,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Mud Near Pastoria 2",
+                "name": "Hidden Item in Top Right of Mud Near Pastoria",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -7990,7 +7990,7 @@
                 "item_count": 1
             },
             {
-                "name": "Black Belt Near Honey Tree",
+                "name": "Gift from Black Belt Near Honey Tree",
                 "access_rules": [
                     "@route_208"
                 ],
@@ -8000,7 +8000,7 @@
                 "item_count": 1
             },
             {
-                "name": "Black Belt Near Honey Tree\u200b",
+                "name": "Gift from Black Belt Near Honey Tree\u200b",
                 "access_rules": [
                     "@route_208"
                 ],
@@ -8020,7 +8020,7 @@
                 "item_count": 1
             },
             {
-                "name": "Random Berry",
+                "name": "Gift from Berry Master in House",
                 "access_rules": [
                     "@route_208_house"
                 ],
@@ -8288,7 +8288,7 @@
                 "item_count": 1
             },
             {
-                "name": "Glitter Powder gift in Contest Hall",
+                "name": "Accessory from Keira in Contest Hall",
                 "access_rules": [
                     "@contest_hall_lobby"
                 ],
@@ -9017,7 +9017,7 @@
                 "item_count": 1
             },
             {
-                "name": "Mask from Man in Jubilife TV 2F",
+                "name": "Accessory from Man in Jubilife TV 2F",
                 "access_rules": [
                     "@jubilife_tv_2f"
                 ],
@@ -9027,7 +9027,7 @@
                 "item_count": 1
             },
             {
-                "name": "Fire Red Cartridge from DS Kid",
+                "name": "Item from Left DS Kid",
                 "access_rules": [
                     "@jubilife_city"
                 ],
@@ -9037,7 +9037,7 @@
                 "item_count": 1
             },
             {
-                "name": "Fire Red Cartridge from DS Kid\u200b",
+                "name": "Item from Left DS Kid\u200b",
                 "access_rules": [
                     "@jubilife_city"
                 ],
@@ -9047,7 +9047,7 @@
                 "hosted_item": "fireredcartridge"
             },
             {
-                "name": "Leaf Green Cartridge from DS Kid",
+                "name": "Item from Right DS Kid",
                 "access_rules": [
                     "@jubilife_city"
                 ],
@@ -9057,7 +9057,7 @@
                 "item_count": 1
             },
             {
-                "name": "Leaf Green Cartridge from DS Kid\u200b",
+                "name": "Item from Right DS Kid\u200b",
                 "access_rules": [
                     "@jubilife_city"
                 ],
@@ -9067,7 +9067,7 @@
                 "hosted_item": "leafgreencartridge"
             },
             {
-                "name": "Sapphire Cartridge from Schoolboy in Southwest Corner",
+                "name": "Item from Schoolboy in Southwest Corner",
                 "access_rules": [
                     "@jubilife_city, $badges|1"
                 ],
@@ -9077,7 +9077,7 @@
                 "item_count": 1
             },
             {
-                "name": "Sapphire Cartridge from Schoolboy in Southwest Corner\u200b",
+                "name": "Item from Schoolboy in Southwest Corner\u200b",
                 "access_rules": [
                     "@jubilife_city, $badges|1"
                 ],
@@ -11236,7 +11236,7 @@
                 "hosted_item": "thunderstone"
             },
             {
-                "name": "B5F - FRIENDSHIP Room Bottom Left Item",
+                "name": "Friendship Room - Bottom Left Item",
                 "access_rules": [
                     "@solaceon_ruins_room_7"
                 ],
@@ -11246,7 +11246,7 @@
                 "item_count": 1
             },
             {
-                "name": "B5F - FRIENDSHIP Room Bottom Right Item",
+                "name": "Friendship Room - Bottom Right Item",
                 "access_rules": [
                     "@solaceon_ruins_room_7"
                 ],
@@ -11256,7 +11256,7 @@
                 "item_count": 1
             },
             {
-                "name": "B5F - FRIENDSHIP Room Top Left Item",
+                "name": "Friendship Room - Top Left Item",
                 "access_rules": [
                     "@solaceon_ruins_room_7"
                 ],
@@ -11266,7 +11266,7 @@
                 "item_count": 1
             },
             {
-                "name": "B5F - FRIENDSHIP Room Top Right Item",
+                "name": "Friendship Room - Top Right Item",
                 "access_rules": [
                     "@solaceon_ruins_room_7"
                 ],
@@ -11276,7 +11276,7 @@
                 "item_count": 1
             },
             {
-                "name": "B5F - FRIENDSHIP Room Top Right Item\u200b",
+                "name": "Friendship Room - Top Right Item\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_7"
                 ],
@@ -11286,7 +11286,7 @@
                 "hosted_item": "hm05defog"
             },
             {
-                "name": "B2F - Gift for Lending Defog to Hiker",
+                "name": "B1F - Gift for Lending Defog to Hiker",
                 "access_rules": [
                     "@solaceon_ruins_room_2, hm05defog"
                 ],
@@ -11296,7 +11296,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File A",
+                "name": "B1F - Unown File A",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11308,7 +11308,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File A\u200b",
+                "name": "B1F - Unown File A\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11318,7 +11318,7 @@
                 "hosted_item": "unownfile, unownfile_a"
             },
             {
-                "name": "Unown File B",
+                "name": "B1F - Unown File B",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11330,7 +11330,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File B\u200b",
+                "name": "B1F - Unown File B\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11340,7 +11340,7 @@
                 "hosted_item": "unownfile, unownfile_b"
             },
             {
-                "name": "Unown File C",
+                "name": "B1F - Unown File C",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11352,7 +11352,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File C\u200b",
+                "name": "B1F - Unown File C\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11362,7 +11362,7 @@
                 "hosted_item": "unownfile, unownfile_c"
             },
             {
-                "name": "Unown File D",
+                "name": "B1F - Unown File D",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11374,7 +11374,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File D\u200b",
+                "name": "B1F - Unown File D\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11384,7 +11384,7 @@
                 "hosted_item": "unownfile, unownfile_d"
             },
             {
-                "name": "Unown File E",
+                "name": "B2F - Unown File E",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11396,7 +11396,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File E\u200b",
+                "name": "B2F - Unown File E\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11406,7 +11406,7 @@
                 "hosted_item": "unownfile, unownfile_e"
             },
             {
-                "name": "Unown File F",
+                "name": "B2F - Unown File F",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11418,7 +11418,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File F\u200b",
+                "name": "B2F - Unown File F\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11428,7 +11428,7 @@
                 "hosted_item": "unownfile, unownfile_f"
             },
             {
-                "name": "Unown File G",
+                "name": "B2F - Unown File G",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11440,7 +11440,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File G\u200b",
+                "name": "B2F - Unown File G\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11450,7 +11450,7 @@
                 "hosted_item": "unownfile, unownfile_g"
             },
             {
-                "name": "Unown File H",
+                "name": "B2F - Unown File H",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11462,7 +11462,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File H\u200b",
+                "name": "B2F - Unown File H\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11472,7 +11472,7 @@
                 "hosted_item": "unownfile, unownfile_h"
             },
             {
-                "name": "Unown File I",
+                "name": "B3F - Unown File I",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11484,7 +11484,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File I\u200b",
+                "name": "B3F - Unown File I\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11494,7 +11494,7 @@
                 "hosted_item": "unownfile, unownfile_i"
             },
             {
-                "name": "Unown File J",
+                "name": "B3F - Unown File J",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11506,7 +11506,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File J\u200b",
+                "name": "B3F - Unown File J\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11516,7 +11516,7 @@
                 "hosted_item": "unownfile, unownfile_j"
             },
             {
-                "name": "Unown File K",
+                "name": "B3F - Unown File K",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11528,7 +11528,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File K\u200b",
+                "name": "B3F - Unown File K\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11538,7 +11538,7 @@
                 "hosted_item": "unownfile, unownfile_k"
             },
             {
-                "name": "Unown File L",
+                "name": "B3F - Unown File L",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11550,7 +11550,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File L\u200b",
+                "name": "B3F - Unown File L\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11560,7 +11560,7 @@
                 "hosted_item": "unownfile, unownfile_l"
             },
             {
-                "name": "Unown File M",
+                "name": "B4F - Unown File M",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11572,7 +11572,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File M\u200b",
+                "name": "B4F - Unown File M\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11582,7 +11582,7 @@
                 "hosted_item": "unownfile, unownfile_m"
             },
             {
-                "name": "Unown File N",
+                "name": "B4F - Unown File N",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11594,7 +11594,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File N\u200b",
+                "name": "B4F - Unown File N\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11604,7 +11604,7 @@
                 "hosted_item": "unownfile, unownfile_n"
             },
             {
-                "name": "Unown File O",
+                "name": "B5F - Unown File O",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11616,7 +11616,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File O\u200b",
+                "name": "B5F - Unown File O\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11626,7 +11626,7 @@
                 "hosted_item": "unownfile, unownfile_o"
             },
             {
-                "name": "Unown File P",
+                "name": "B5F - Unown File P",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11638,7 +11638,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File P\u200b",
+                "name": "B5F - Unown File P\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11648,7 +11648,7 @@
                 "hosted_item": "unownfile, unownfile_p"
             },
             {
-                "name": "Unown File Q",
+                "name": "B3F - Unown File Q",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11660,7 +11660,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File Q\u200b",
+                "name": "B3F - Unown File Q\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11670,7 +11670,7 @@
                 "hosted_item": "unownfile, unownfile_q"
             },
             {
-                "name": "Unown File R",
+                "name": "B3F - Unown File R",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11682,7 +11682,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File R\u200b",
+                "name": "B3F - Unown File R\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11692,7 +11692,7 @@
                 "hosted_item": "unownfile, unownfile_r"
             },
             {
-                "name": "Unown File S",
+                "name": "B4F - Unown File S",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11704,7 +11704,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File S\u200b",
+                "name": "B4F - Unown File S\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11714,7 +11714,7 @@
                 "hosted_item": "unownfile, unownfile_s"
             },
             {
-                "name": "Unown File T",
+                "name": "B4F - Unown File T",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11726,7 +11726,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File T\u200b",
+                "name": "B4F - Unown File T\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11736,7 +11736,7 @@
                 "hosted_item": "unownfile, unownfile_t"
             },
             {
-                "name": "Unown File U",
+                "name": "Friendship Room - Unown File U",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11748,7 +11748,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File U\u200b",
+                "name": "Friendshop Room - Unown File U\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11758,7 +11758,7 @@
                 "hosted_item": "unownfile, unownfile_u"
             },
             {
-                "name": "Unown File V",
+                "name": "B3F - Unown File V",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11770,7 +11770,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File V\u200b",
+                "name": "B3F - Unown File V\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11780,7 +11780,7 @@
                 "hosted_item": "unownfile, unownfile_v"
             },
             {
-                "name": "Unown File W",
+                "name": "B4F - Unown File W",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11792,7 +11792,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File W\u200b",
+                "name": "B4F - Unown File W\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11802,7 +11802,7 @@
                 "hosted_item": "unownfile, unownfile_w"
             },
             {
-                "name": "Unown File X",
+                "name": "B3F - Unown File X",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11814,7 +11814,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File X\u200b",
+                "name": "B3F - Unown File X\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11824,7 +11824,7 @@
                 "hosted_item": "unownfile, unownfile_x"
             },
             {
-                "name": "Unown File Y",
+                "name": "B2F - Unown File Y",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11836,7 +11836,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File Y\u200b",
+                "name": "B2F - Unown File Y\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11846,7 +11846,7 @@
                 "hosted_item": "unownfile, unownfile_y"
             },
             {
-                "name": "Unown File Z",
+                "name": "B1F - Unown File Z",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11858,7 +11858,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File Z\u200b",
+                "name": "B1F - Unown File Z\u200b",
                 "access_rules": [
                     "@solaceon_ruins_room_1, ^$hidden"
                 ],
@@ -11868,7 +11868,7 @@
                 "hosted_item": "unownfile, unownfile_z"
             },
             {
-                "name": "Unown File !",
+                "name": "2F - Unown File !",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11880,7 +11880,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File !\u200b",
+                "name": "2F - Unown File !\u200b",
                 "access_rules": [
                     "@solaceon_ruins_maniac_tunnel_room, ^$hidden"
                 ],
@@ -11890,7 +11890,7 @@
                 "hosted_item": "unownfile, unownfile_ex"
             },
             {
-                "name": "Unown File ?",
+                "name": "2F - Unown File ?",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -11902,7 +11902,7 @@
                 "item_count": 1
             },
             {
-                "name": "Unown File ?\u200b",
+                "name": "2F - Unown File ?\u200b",
                 "access_rules": [
                     "@solaceon_ruins_maniac_tunnel_room, ^$hidden"
                 ],
@@ -12199,7 +12199,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Grass Below Fence 1",
+                "name": "Hidden Item in Grass Below Fence on the Left",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -12212,7 +12212,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item in Grass Below Fence 2",
+                "name": "Hidden Item in Grass Below Fence on the Right",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -12999,7 +12999,7 @@
                 "item_count": 1
             },
             {
-                "name": "Daytime in Lighthouse",
+                "name": "Item in Lighthouse",
                 "access_rules": [
                     "@sunyshore_city"
                 ],
@@ -13009,7 +13009,7 @@
                 "item_count": 1
             },
             {
-                "name": "Daytime in Lighthouse\u200b",
+                "name": "Item in Lighthouse\u200b",
                 "access_rules": [
                     "@sunyshore_city"
                 ],
@@ -14225,7 +14225,7 @@
                 "item_count": 1
             },
             {
-                "name": "Building - Ruby Cartridge from Scientist After Defeating Mars",
+                "name": "Building - Item from Scientist After Defeating Mars",
                 "access_rules": [
                     "@valley_windworks_building"
                 ],
@@ -14235,7 +14235,7 @@
                 "item_count": 1
             },
             {
-                "name": "Building - Ruby Cartridge from Scientist After Defeating Mars\u200b",
+                "name": "Building - Item from Scientist After Defeating Mars\u200b",
                 "access_rules": [
                     "@valley_windworks_building"
                 ],
@@ -14348,7 +14348,7 @@
         ],
         "sections": [
             {
-                "name": "TM95 (By Mossy Rock)",
+                "name": "Item by Mossy Rock",
                 "access_rules": [
                     "@eterna_forest"
                 ],
@@ -14358,7 +14358,7 @@
                 "item_count": 1
             },
             {
-                "name": "TM95 (By Mossy Rock)\u200b",
+                "name": "Item by Mossy Rock\u200b",
                 "access_rules": [
                     "@eterna_forest"
                 ],
@@ -14440,7 +14440,7 @@
                 "item_count": 1
             },
             {
-                "name": "Soothe Bell from Cheryl",
+                "name": "Gift from Cheryl",
                 "access_rules": [
                     "@eterna_forest"
                 ],
@@ -14538,7 +14538,7 @@
                 "item_count": 1
             },
             {
-                "name": "Side Route - Big Tree from Woman",
+                "name": "Side Route - Accessory from Woman",
                 "access_rules": [
                     "@eterna_forest_outside"
                 ],
@@ -14833,7 +14833,7 @@
                 "item_count": 1
             },
             {
-                "name": "Star Piece from Mr. Fuego",
+                "name": "Gift from Mr. Fuego",
                 "access_rules": [
                     "@fuego_ironworks_building"
                 ],
@@ -14843,7 +14843,7 @@
                 "item_count": 1
             },
             {
-                "name": "TM93 (Overworld Item)",
+                "name": "Bottom Right Item in Front of Blue Crate",
                 "access_rules": [
                     "@fuego_ironworks_building"
                 ],
@@ -14853,7 +14853,7 @@
                 "item_count": 1
             },
             {
-                "name": "TM93 (Overworld Item)\u200b",
+                "name": "Bottom Right Item in Front of Blue Crate\u200b",
                 "access_rules": [
                     "@fuego_ironworks_building"
                 ],
@@ -14987,7 +14987,7 @@
         ],
         "sections": [
             {
-                "name": "Entrance - TM96 (In Right Side Room)",
+                "name": "2F - Item in Right Side Room",
                 "access_rules": [
                     "@old_chateau_side_rooms"
                 ],
@@ -14997,7 +14997,7 @@
                 "item_count": 1
             },
             {
-                "name": "Entrance - TM96 (In Right Side Room)\u200b",
+                "name": "2F - Item in Right Side Room)\u200b",
                 "access_rules": [
                     "@old_chateau_side_rooms"
                 ],
@@ -15039,7 +15039,7 @@
                 "item_count": 1
             },
             {
-                "name": "2F - Item in Room Left of Entrance",
+                "name": "2F - Item in Left Side Room",
                 "access_rules": [
                     "@old_chateau_side_rooms"
                 ],
@@ -15322,7 +15322,7 @@
                 "item_count": 1
             },
             {
-                "name": "Up-Grade from Prof Oak",
+                "name": "Gift from Prof Oak",
                 "access_rules": [
                     "@eterna_city_south_house"
                 ],
@@ -15342,7 +15342,7 @@
                 "hosted_item": "event_roamer_3"
             },
             {
-                "name": "Up-Grade from Prof Oak\u200b",
+                "name": "Gift from Prof Oak\u200b",
                 "access_rules": [
                     "@eterna_city_south_house"
                 ],
@@ -15599,7 +15599,7 @@
                 "item_count": 1
             },
             {
-                "name": "4F - Dead End Item 1",
+                "name": "4F - Left Dead End Item",
                 "access_rules": [
                     "@team_galactic_eterna_building_4f"
                 ],
@@ -15609,7 +15609,7 @@
                 "item_count": 1
             },
             {
-                "name": "4F - Dead End Item 2",
+                "name": "4F - Right Dead End Item",
                 "access_rules": [
                     "@team_galactic_eterna_building_4f"
                 ],
@@ -16324,7 +16324,7 @@
                 "item_count": 1
             },
             {
-                "name": "Random Accessory from Massage Girl",
+                "name": "Accessory from Massage Girl",
                 "access_rules": [
                     "@veilstone_city_southwest_house"
                 ],
@@ -16356,7 +16356,7 @@
                 "item_count": 1
             },
             {
-                "name": "Department Store 1F - Turtwig Mask",
+                "name": "Department Store 1F - Accessory from Socialite",
                 "access_rules": [
                     "@veilstone_store_1f"
                 ],
@@ -16376,7 +16376,7 @@
                 "item_count": 1
             },
             {
-                "name": "Department Store 5F - Sticky Barb",
+                "name": "Department Store 5F - Gift from the Two Men",
                 "access_rules": [
                     "@veilstone_store_5f"
                 ],
@@ -16797,7 +16797,7 @@
                 "item_count": 1
             },
             {
-                "name": "Berry or Accessory from Man in Random Spot",
+                "name": "Gift from Man in Random Spot",
                 "access_rules": [
                     "@amity_square, ^$amity_square"
                 ],
@@ -16928,7 +16928,7 @@
                 "hosted_item": "galactickey"
             },
             {
-                "name": "B1F - Linking Cord",
+                "name": "B1F - Item By Machine",
                 "access_rules": [
                     "@galactic_hq_wo_key"
                 ],
@@ -16938,7 +16938,7 @@
                 "item_count": 1
             },
             {
-                "name": "B1F - Linking Cord\u200b",
+                "name": "B1F - Item By Machine\u200b",
                 "access_rules": [
                     "@galactic_hq_wo_key"
                 ],
@@ -17354,7 +17354,7 @@
                 "item_count": 1
             },
             {
-                "name": "Soothe Bell from Maid in Center Bedroom",
+                "name": "Gift from Maid in Center Bedroom",
                 "access_rules": [
                     "@pokemon_mansion_maids_room"
                 ],
@@ -17599,7 +17599,7 @@
                 "item_count": 1
             },
             {
-                "name": "South Gate - Gift Item",
+                "name": "South Gate - Accessory from NPC",
                 "access_rules": [
                     "@route_206_cycling_road_south_gate"
                 ],
@@ -18602,7 +18602,7 @@
                 "item_count": 1
             },
             {
-                "name": "Spell Tag from Ghost Woman",
+                "name": "Gift from Ghost Woman",
                 "access_rules": [
                     "@route_217_northeast_house"
                 ],
@@ -19128,7 +19128,7 @@
                 "item_count": 1
             },
             {
-                "name": "B3F - TM94 (Overworld Item)",
+                "name": "B3F - Bottom Left Item",
                 "access_rules": [
                     "@snowpoint_temple_b3f"
                 ],
@@ -19138,7 +19138,7 @@
                 "item_count": 1
             },
             {
-                "name": "B3F - TM94 (Overworld Item)\u200b",
+                "name": "B3F - Bottom Left Item\u200b",
                 "access_rules": [
                     "@snowpoint_temple_b3f"
                 ],
@@ -20005,7 +20005,7 @@
                 "item_count": 1
             },
             {
-                "name": "Lass in Northwest Building",
+                "name": "Gift from Lass in Northwest Building",
                 "access_rules": [
                     "@oreburgh_city_northwest_house_2f"
                 ],
@@ -20755,7 +20755,7 @@
         ],
         "sections": [
             {
-                "name": "Potion from Poke Mart Employee",
+                "name": "Gift from Poke Mart Employee",
                 "access_rules": [
                     "@route_201"
                 ],
@@ -20983,7 +20983,7 @@
                 "item_count": 1
             },
             {
-                "name": "Emerald Cartridge from Guy",
+                "name": "Item from Guy",
                 "access_rules": [
                     "@pal_park_lobby"
                 ],
@@ -20993,7 +20993,7 @@
                 "item_count": 1
             },
             {
-                "name": "Emerald Cartridge from Guy\u200b",
+                "name": "Item from Guy\u200b",
                 "access_rules": [
                     "@pal_park_lobby"
                 ],
@@ -21022,7 +21022,7 @@
         ],
         "sections": [
             {
-                "name": "Girl in Northwest House",
+                "name": "Gift from Girl in Northwest House",
                 "access_rules": [
                     "@floaroma_town_middle_house"
                 ],
@@ -21042,7 +21042,7 @@
                 "item_count": 1
             },
             {
-                "name": "Flower Shop - Daily Berry",
+                "name": "Flower Shop - Gift from NPC",
                 "access_rules": [
                     "@flower_shop"
                 ],
@@ -21440,7 +21440,7 @@
                 "item_count": 1
             },
             {
-                "name": "4F Room Above Waterfall - Item 1",
+                "name": "4F Room Above Waterfall - Right Item",
                 "access_rules": [
                     "@mt_coronet_4f_rooms_1_and_2_lower, $surf, $waterfall"
                 ],
@@ -21450,7 +21450,7 @@
                 "item_count": 1
             },
             {
-                "name": "4F Room Above Waterfall - Item 2",
+                "name": "4F Room Above Waterfall - Left Item",
                 "access_rules": [
                     "@mt_coronet_4f_rooms_1_and_2_lower, $surf, $waterfall"
                 ],
@@ -21577,7 +21577,7 @@
                 "item_count": 1
             },
             {
-                "name": "Spear Pillar - Nighttime",
+                "name": "Spear Pillar - Item Before Stairs",
                 "access_rules": [
                     "@spear_pillar"
                 ],
@@ -21587,7 +21587,7 @@
                 "item_count": 1
             },
             {
-                "name": "Spear Pillar - Nighttime\u200b",
+                "name": "Spear Pillar - Item Before Stairs\u200b",
                 "access_rules": [
                     "@spear_pillar"
                 ],
