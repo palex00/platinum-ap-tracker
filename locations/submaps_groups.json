@@ -876,8 +876,8 @@
 { "name": "HM08 Above Hikers House", "ref": "Route 217 North/HM08 Above Hikers House"},
 { "name": "HM08 Above Hikers House\u200b", "ref": "Route 217 North/HM08 Above Hikers House\u200b"}]},
 { "name": "Snowpoint Temple - Overworld Item", "map_locations": [ { "map": "snowpointtempleb3f", "x": 40, "y": 186}], "sections": [
-{ "name": "B3F - Bottom left Item", "ref": "Snowpoint Temple/B3F - Bottom left Item"},
-{ "name": "B3F - Bottom left Item\u200b", "ref": "Snowpoint Temple/B3F - Bottom left Item\u200b"}]},
+{ "name": "B3F - Bottom Left Item", "ref": "Snowpoint Temple/B3F - Bottom Left Item"},
+{ "name": "B3F - Bottom Left Item\u200b", "ref": "Snowpoint Temple/B3F - Bottom Left Item\u200b"}]},
 { "name": "Oreburgh Gate - On the Ledges", "map_locations": [ { "map": "oreburghgateb1f", "x": 936, "y": 196}], "sections": [
 { "name": "B1F - Item on East Ledges", "ref": "Oreburgh Gate/B1F - Item on East Ledges"},
 { "name": "B1F - Item on East Ledges\u200b", "ref": "Oreburgh Gate/B1F - Item on East Ledges\u200b"}]},
