@@ -14997,7 +14997,7 @@
                 "item_count": 1
             },
             {
-                "name": "2F - Item in Right Side Room)\u200b",
+                "name": "2F - Item in Right Side Room\u200b",
                 "access_rules": [
                     "@old_chateau_side_rooms"
                 ],
