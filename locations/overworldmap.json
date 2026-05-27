@@ -16797,7 +16797,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gift from Man in Random Spot",
+                "name": "Gift From Man in Random Spot",
                 "access_rules": [
                     "@amity_square, ^$amity_square"
                 ],
