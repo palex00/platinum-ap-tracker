@@ -504,8 +504,8 @@
 { "name": "Snowpoint Temple\u200b\u200b", "map_locations": [ { "map": "snowpointcity", "x": 240, "y": 116}], "sections": [
 { "name": "B1F - Bottom Right Item", "ref": "Snowpoint Temple/B1F - Bottom Right Item"},
 { "name": "B3F - Hidden Item on Rock Between Staircases", "ref": "Snowpoint Temple/B3F - Hidden Item on Rock Between Staircases"},
-{ "name": "B3F - Bottom left Item", "ref": "Snowpoint Temple/B3F - Bottom left Item"},
-{ "name": "B3F - Bottom left Item\u200b", "ref": "Snowpoint Temple/B3F - Bottom left Item\u200b"},
+{ "name": "B3F - Bottom Left Item", "ref": "Snowpoint Temple/B3F - Bottom Left Item"},
+{ "name": "B3F - Bottom Left Item\u200b", "ref": "Snowpoint Temple/B3F - Bottom Left Item\u200b"},
 { "name": "B4F - Item Past Ice Tile", "ref": "Snowpoint Temple/B4F - Item Past Ice Tile"}]},
 { "name": "Maniac Tunnel\u200b\u200b", "map_locations": [ { "map": "route214north", "x": 120, "y": 468}, {"map": "route214north_barriers", "x": 128, "y": 476}], "sections": [
 { "name": "Item Next to Entrance", "ref": "Maniac Tunnel/Item Next to Entrance"},
