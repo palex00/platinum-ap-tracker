@@ -5,6 +5,7 @@ LOCATION_MAPPING = {
 	[65735] = {"@Route 225/Item Behind Cut Trees Near Trainer Trio"},
 	[65736] = {"@Route 225/Item SW in Bridge Section"},
 	[65737] = {"@Route 225/Item Behind Cut Trees Next to House"},
+	[65738] = {"@Route 225/Item Across Lake Above House"},
 	[65739] = {"@Route 225/Item on Northern Rock Climb Ledge"},
 	[65740] = {"@Route 225/Item West of Bridge Section"},
 	[65842] = {"@Route 225/Item in Grass Corner on North Side"},
