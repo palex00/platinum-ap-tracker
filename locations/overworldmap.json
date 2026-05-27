@@ -5809,7 +5809,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item Below By the Coast Footsteps House",
+                "name": "Hidden Item By the Coast Below Footsteps House",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
