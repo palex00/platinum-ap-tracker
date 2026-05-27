@@ -408,8 +408,8 @@
 { "name": "B3F - Unown File X\u200b", "ref": "Solaceon Ruins/B3F - Unown File X\u200b"},
 { "name": "B2F - Unown File Y", "ref": "Solaceon Ruins/B2F - Unown File Y"},
 { "name": "B2F - Unown File Y\u200b", "ref": "Solaceon Ruins/B2F - Unown File Y\u200b"},
-{ "name": "B2F - Unown File Z", "ref": "Solaceon Ruins/B2F - Unown File Z"},
-{ "name": "B2F - Unown File Z\u200b", "ref": "Solaceon Ruins/B2F - Unown File Z\u200b"}]},
+{ "name": "B1F - Unown File Z", "ref": "Solaceon Ruins/B1F - Unown File Z"},
+{ "name": "B1F - Unown File Z\u200b", "ref": "Solaceon Ruins/B1F - Unown File Z\u200b"}]},
 { "name": "Victory Road\u200b\u200b", "map_locations": [ { "map": "pokemonleaguesouth", "x": 312, "y": 320}], "sections": [
 { "name": "1F - Dragon Tamer Clinton", "ref": "Victory Road/1F - Dragon Tamer Clinton"},
 { "name": "1F - Black Belt Miles", "ref": "Victory Road/1F - Black Belt Miles"},
