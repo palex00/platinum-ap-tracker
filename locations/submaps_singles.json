@@ -1090,7 +1090,7 @@
 {"name": "Lost Tower​​​​​​​​​​", "sections": [{"ref": "Lost Tower/2F - Youngster Oliver", "name": "2F - Youngster Oliver"}], "map_locations": [{"map": "losttower2f", "x": 118, "y": 118}]},
 {"name": "Lost Tower​​​​​​​​​​​", "sections": [{"ref": "Lost Tower/4F - Belle And Pa Beth And Bob", "name": "4F - Belle And Pa Beth And Bob"}], "map_locations": [{"map": "losttower4f", "x": 199, "y": 158}]},
 {"name": "Lost Tower​​​​​​​​​​​​", "sections": [{"ref": "Lost Tower/4F - Young Couple Mike And Nat", "name": "4F - Young Couple Mike And Nat"}], "map_locations": [{"map": "losttower4f", "x": 63, "y": 109}]},
-{"name": "Solaceon Ruins​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Solaceon Ruins/Ruin Maniac Karl", "name": "Ruin Maniac Karl"}], "map_locations": [{"map": "solaceonruinsb2f", "x": 226, "y": 102}]},
+{"name": "Solaceon Ruins​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Solaceon Ruins/B2F - Ruin Maniac Karl", "name": "B2F - Ruin Maniac Karl"}], "map_locations": [{"map": "solaceonruinsb2f", "x": 226, "y": 102}]},
 {"name": "Route 225​​​​​​​​​​​​​", "sections": [{"ref": "Route 225/Bird Keeper Audrey", "name": "Bird Keeper Audrey"}], "map_locations": [{"map": "route225south", "x": 328, "y": 774}]},
 {"name": "Route 226​​​​​​​​", "sections": [{"ref": "Route 226/Bird Keeper Geneva", "name": "Bird Keeper Geneva"}], "map_locations": [{"map": "route226west", "x": 568, "y": 72}]},
 {"name": "Stark Mountain​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Stark Mountain/Cavern - Bird Keeper Krystal", "name": "Cavern - Bird Keeper Krystal"}], "map_locations": [{"map": "starkmountaincavern", "x": 775, "y": 753}]},
