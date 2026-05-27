@@ -855,8 +855,8 @@
 { "name": "Item by Mossy Rock", "ref": "Eterna Forest/Item by Mossy Rock"},
 { "name": "Item by Mossy Rock\u200b", "ref": "Eterna Forest/Item by Mossy Rock\u200b"}]},
 { "name": "Fuego Ironworks - Overworld Item", "map_locations": [ { "map": "fuegoironworks", "x": 807, "y": 304}], "sections": [
-{ "name": "TM93 (Overworld Item)", "ref": "Fuego Ironworks/TM93 (Overworld Item)"},
-{ "name": "TM93 (Overworld Item)\u200b", "ref": "Fuego Ironworks/TM93 (Overworld Item)\u200b"}]},
+{ "name": "Bottom Right Item in Front of Blue Crate", "ref": "Fuego Ironworks/Bottom Right Item in Front of Blue Crate"},
+{ "name": "Bottom Right Item in Front of Blue Crate\u200b", "ref": "Fuego Ironworks/Bottom Right Item in Front of Blue Crate\u200b"}]},
 { "name": "Old Chateau - Right Side Room", "map_locations": [ { "map": "oldchateauentrance", "x": 542, "y": 68}], "sections": [
 { "name": "2F - Item in Right Side Room", "ref": "Old Chateau/2F - Item in Right Side Room"},
 { "name": "2F - Item in Right Side Room\u200b", "ref": "Old Chateau/2F - Item in Right Side Room\u200b"}]},
