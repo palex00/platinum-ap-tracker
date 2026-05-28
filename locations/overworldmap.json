@@ -7948,7 +7948,7 @@
             {
                 "name": "Item Above Waterfall",
                 "access_rules": [
-                    "@route_208, $surf, $waterfall"
+                    "@route_208, $surf, $up_waterfall"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -9620,7 +9620,7 @@
             {
                 "name": "Item Under West Bridge",
                 "access_rules": [
-                    "@route_210_north, $surf, $waterfall"
+                    "@route_210_north, $surf, $up_waterfall, $down_waterfall"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -9632,7 +9632,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@route_210_north, $surf, $waterfall, ^$hidden"
+                    "@route_210_north, $surf, $up_waterfall, ^$hidden"
                 ],
                 "visibility_rules": [
                     "show_items, opt_hidden_on"
@@ -21442,7 +21442,7 @@
             {
                 "name": "4F Room Above Waterfall - Right Item",
                 "access_rules": [
-                    "@mt_coronet_4f_rooms_1_and_2_lower, $surf, $waterfall"
+                    "@mt_coronet_4f_rooms_1_and_2_lower, $surf, $up_waterfall"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -21452,7 +21452,7 @@
             {
                 "name": "4F Room Above Waterfall - Left Item",
                 "access_rules": [
-                    "@mt_coronet_4f_rooms_1_and_2_lower, $surf, $waterfall"
+                    "@mt_coronet_4f_rooms_1_and_2_lower, $surf, $up_waterfall"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -21464,7 +21464,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@mt_coronet_4f_rooms_1_and_2_lower, $surf, $waterfall, ^$hidden"
+                    "@mt_coronet_4f_rooms_1_and_2_lower, $surf, $up_waterfall, ^$hidden"
                 ],
                 "visibility_rules": [
                     "show_items, opt_hidden_on"
