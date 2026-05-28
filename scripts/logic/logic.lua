@@ -46,12 +46,19 @@ function rock_smash()
     or (has("hm06rocksmash") and has("coalbadge"))
 end
 
-function waterfall()
+function up_waterfall()
     if not has("bag") and not has("hmreader") then
         return false
     end
     return has("free_waterfall")
     or (has("hm07waterfall") and has("beaconbadge"))
+end
+
+function down_waterfall()
+    if not has("bag") and not has("hmreader") then
+        return false
+    end
+    return has("hm07waterfall")
 end
 
 function rock_climb()
