@@ -1658,7 +1658,7 @@
         "name": "pokemon_league",
         "access_rules": [
             "@pokemon_league_north_pokecenter_1f",
-            "@victory_road_1f"
+            "@victory_road_1f, $up_waterfall"
         ]
     },
     {
@@ -1769,7 +1769,7 @@
         "name": "pokemon_league_south",
         "access_rules": [
             "@pokemon_league_south_pokecenter_1f",
-            "@pokemon_league_south_south, $surf, $waterfall",
+            "@pokemon_league_south_south, $surf, $up_waterfall",
             "@victory_road_1f",
             "@victory_road_1f_entrance"
         ]
@@ -1797,7 +1797,7 @@
     {
         "name": "pokemon_league_south_south",
         "access_rules": [
-            "@pokemon_league_south",
+            "@pokemon_league_south, $surf, Sdown_waterfall",
             "@route_223, $surf"
         ]
     },
