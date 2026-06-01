@@ -1797,7 +1797,7 @@
     {
         "name": "pokemon_league_south_south",
         "access_rules": [
-            "@pokemon_league_south",
+            "@pokemon_league_south, $surf, $down_waterfall",
             "@route_223, $surf"
         ]
     },
