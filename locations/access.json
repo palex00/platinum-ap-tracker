@@ -3494,7 +3494,7 @@
         "name": "victory_road_b1f",
         "access_rules": [
             "@victory_road_1f_center",
-            "@Victory_road_b1f_upper"
+            "@victory_road_b1f_upper"
         ]
     },
     {
