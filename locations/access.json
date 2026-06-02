@@ -3406,32 +3406,29 @@
             "@victory_road_2f_north_alcove"
         ]
     },
-       {
+    {
         "name": "victory_road_1f_center",
         "access_rules": [
             "@victory_road_1f",
             "@victory_road_2f_from_1f",
             "@victory_road_b1f",
         ]
-    }, 
-        {
+    },
+    {
         "name": "victory_road_2f_from_1f",
         "access_rules": [
             "@victory_road_1f_center",
             "@victory_road_2f_from_1f_strength"
-            
         ]
     },
-        }, 
-        {
+    {
         "name": "victory_road_2f_from_1f_strength",
         "access_rules": [
             "@victory_road_2f",
             "@victory_road_2f_from_1f, $strength"
         ]
     },
-        }, 
-        {
+    {
         "name": "victory_road_2f_north_alcove",
         "access_rules": [
             "@victory_road_1f"
@@ -3452,7 +3449,7 @@
             "@victory_road_1f_room_2_entrance, event_defeat_cynthia, national_dex, ^$soft_defog @pokemon_league_hall_of_fame"
         ]
     },
-        {
+    {
         "name": "victory_road_1f_room_2_entrance",
         "access_rules": [
             "@victory_road_1f_room_1, ^$soft_defog",
@@ -3494,7 +3491,7 @@
             "@Victory_road_b1f_upper"
         ]
     },
-        {
+    {
         "name": "victory_road_b1f_upper",
         "access_rules": [
             "@victory_road_1f",
