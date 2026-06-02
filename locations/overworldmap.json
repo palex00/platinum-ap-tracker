@@ -1303,7 +1303,7 @@
             {
                 "name": "1F - Item from Southern B1F Stairs",
                 "access_rules": [
-                    "@victory_road_1f"
+                    "@victory_road_b1f, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -1345,7 +1345,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@victory_road_1f, ^$hidden"
+                    "@victory_road_1f_center, ^$hidden"
                 ],
                 "visibility_rules": [
                     "show_items, opt_hidden_on"
@@ -1378,7 +1378,7 @@
             {
                 "name": "1F - Dragon Tamer Clinton",
                 "access_rules": [
-                    "@victory_road_1f"
+                    "@victory_road_1f_upper_entrance"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -1389,7 +1389,7 @@
             {
                 "name": "1F - Black Belt Miles",
                 "access_rules": [
-                    "@victory_road_1f"
+                    "@victory_road_1f_center"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -1400,7 +1400,7 @@
             {
                 "name": "2F - Item From Northern 1F Stairs",
                 "access_rules": [
-                    "@victory_road_2f"
+                    "@victory_road_2f_north_alcove, $strength"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -1442,7 +1442,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@victory_road_2f, ^$hidden"
+                    "@victory_road_2f_from_1f_strength, ^$hidden"
                 ],
                 "visibility_rules": [
                     "show_items, opt_hidden_on"
@@ -1475,7 +1475,7 @@
             {
                 "name": "2F - Ace Trainer Sydney",
                 "access_rules": [
-                    "@victory_road_2f"
+                    "@victory_road_2f_from_1f_strength"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -1497,7 +1497,7 @@
             {
                 "name": "2F - Veteran Clayton",
                 "access_rules": [
-                    "@victory_road_2f"
+                    "@victory_road_2f_from_1f"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -1508,7 +1508,7 @@
             {
                 "name": "B1F - Item on Ledge",
                 "access_rules": [
-                    "@victory_road_b1f"
+                    "@victory_road_b1f_upper"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -1518,7 +1518,7 @@
             {
                 "name": "B1F - Item in Top Right",
                 "access_rules": [
-                    "@victory_road_b1f"
+                    "@victory_road_b1f, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -1528,7 +1528,7 @@
             {
                 "name": "B1F - Item in Bottom Right",
                 "access_rules": [
-                    "@victory_road_b1f"
+                    "@victory_road_b1f, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -1540,7 +1540,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@victory_road_b1f, ^$hidden"
+                    "@victory_road_b1f, $surf, ^$hidden"
                 ],
                 "visibility_rules": [
                     "show_items, opt_hidden_on"
@@ -1552,7 +1552,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@victory_road_b1f, ^$hidden"
+                    "@victory_road_b1f_upper, ^$hidden"
                 ],
                 "visibility_rules": [
                     "show_items, opt_hidden_on"
@@ -1562,7 +1562,7 @@
             {
                 "name": "B1F - Ace Trainer Henry",
                 "access_rules": [
-                    "@victory_road_b1f"
+                    "@victory_road_b1f, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -1573,7 +1573,7 @@
             {
                 "name": "B1F - Dragon Tamer Ondrej",
                 "access_rules": [
-                    "@victory_road_b1f"
+                    "@victory_road_b1f_upper"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -1584,7 +1584,7 @@
             {
                 "name": "B1F - Psychic Valencia",
                 "access_rules": [
-                    "@victory_road_b1f"
+                    "@victory_road_b1f, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -1595,7 +1595,7 @@
             {
                 "name": "B1F - Double Team Jo And Pat",
                 "access_rules": [
-                    "@victory_road_b1f"
+                    "@victory_road_b1f, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -1873,7 +1873,8 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
-                    "@victory_road_1f_entrance, ^$land_encounters"
+                    "@victory_road_1f_entrance, ^$land_encounters",
+					"@victory_road_1f_upper_entrance, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -1885,7 +1886,9 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
-                    "@victory_road_2f_entrance, ^$land_encounters"
+                    "@victory_road_2f_entrance, ^$land_encounters",
+					"@victory_road_2f_from_1f, ^$land_encounters",
+					"@victory_road_2f_north_alcove, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -1957,7 +1960,7 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
-                    "@victory_road_1f_room_2, ^$land_encounters"
+                    "@victory_road_1f_room_2_entrance, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
