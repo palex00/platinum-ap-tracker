@@ -94,7 +94,7 @@
 {"name": "Cloyster", "access_rules": ["caught_91", "^$evolve_item|waterstone, caught_90"], "sections": [{"hosted_item": "caught_91"}],  "map_locations": [{"map": "kantodex", "x": 536, "y": 616, "shape": "rect"}]},
 {"name": "Gastly", "access_rules": ["caught_92"], "sections": [{"hosted_item": "caught_92"}],  "map_locations": [{"map": "kantodex", "x": 616, "y": 616, "shape": "rect"}]},
 {"name": "Haunter", "access_rules": ["caught_93", "^$levelup|25, caught_92"], "sections": [{"hosted_item": "caught_93"}],  "map_locations": [{"map": "kantodex", "x": 696, "y": 616, "shape": "rect"}]},
-{"name": "Gengar", "access_rules": ["caught_94", "^$levelup|37, caught_93"], "sections": [{"hosted_item": "caught_94"}],  "map_locations": [{"map": "kantodex", "x": 776, "y": 616, "shape": "rect"}]},
+{"name": "Gengar", "access_rules": ["caught_94", "^$evolve_item|linkingcord, caught_93"], "sections": [{"hosted_item": "caught_94"}],  "map_locations": [{"map": "kantodex", "x": 776, "y": 616, "shape": "rect"}]},
 {"name": "Onix", "access_rules": ["caught_95"], "sections": [{"hosted_item": "caught_95"}],  "map_locations": [{"map": "kantodex", "x": 856, "y": 616, "shape": "rect"}]},
 {"name": "Drowzee", "access_rules": ["caught_96"], "sections": [{"hosted_item": "caught_96"}],  "map_locations": [{"map": "kantodex", "x": 936, "y": 616, "shape": "rect"}]},
 {"name": "Hypno", "access_rules": ["caught_97", "^$levelup|26, caught_96"], "sections": [{"hosted_item": "caught_97"}],  "map_locations": [{"map": "kantodex", "x": 56, "y": 696, "shape": "rect"}]},
