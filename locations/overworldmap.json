@@ -6387,7 +6387,7 @@
             {
                 "name": "Item on Corner of Land",
                 "access_rules": [
-                    "@route_221"
+                    "@route_221, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -6487,7 +6487,7 @@
             {
                 "name": "Swimmer Dillon",
                 "access_rules": [
-                    "@route_221"
+                    "@route_221, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -6498,7 +6498,7 @@
             {
                 "name": "Swimmer Vanessa",
                 "access_rules": [
-                    "@route_221"
+                    "@route_221, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
