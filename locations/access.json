@@ -3465,8 +3465,8 @@
     {
         "name": "victory_road_1f_room_2",
         "access_rules": [
-            "@victory_road_1f_room_2_entrance, ^$soft_defog, $strength",
-            "@victory_road_1f_room_3, ^$soft_defog"
+            "@victory_road_1f_room_2_entrance, $strength",
+            "@victory_road_1f_room_3"
         ]
     },
     {
@@ -3501,7 +3501,7 @@
         "name": "victory_road_b1f_upper",
         "access_rules": [
             "@victory_road_1f",
-            "@victory_road_b1f, $waterfall"
+            "@victory_road_b1f, $surf, $waterfall"
         ]
     },
     {
