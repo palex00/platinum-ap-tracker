@@ -3451,15 +3451,15 @@
     {
         "name": "victory_road_1f_room_1",
         "access_rules": [
-            "@victory_road_1f, event_defeat_cynthia, national_dex, @pokemon_league_hall_of_fame",
-            "@victory_road_1f_room_2_entrance, event_defeat_cynthia, national_dex, ^$soft_defog, @pokemon_league_hall_of_fame"
+            "@victory_road_1f, event_defeat_cynthia, national_dex",
+            "@victory_road_1f_room_2_entrance, event_defeat_cynthia, national_dex"
         ]
     },
     {
         "name": "victory_road_1f_room_2_entrance",
         "access_rules": [
             "@victory_road_1f_room_1, ^$soft_defog",
-            "@victory_road_1f_room_2, ^$soft_defog"
+            "@victory_road_1f_room_2"
         ]
     },
     {
