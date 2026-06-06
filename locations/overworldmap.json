@@ -1303,7 +1303,7 @@
             {
                 "name": "1F - Item from Southern B1F Stairs",
                 "access_rules": [
-                    "@victory_road_b1f, $surf"
+                    "@victory_road_1f_center, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
