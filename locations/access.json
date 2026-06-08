@@ -3409,7 +3409,7 @@
         "name": "victory_road_1f_center",
         "access_rules": [
             "@victory_road_1f",
-            "@victory_road_2f",
+            "@victory_road_2f_from_1f",
             "@victory_road_b1f",
         ]
     },
