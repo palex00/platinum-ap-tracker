@@ -7102,7 +7102,7 @@
             {
                 "name": "Entrance - Commander Mars",
                 "access_rules": [
-                    "@stark_mountain_room_1"
+                    "@stark_mountain_room_1_entrance"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -7113,7 +7113,7 @@
             {
                 "name": "Entrance - Commander Jupiter",
                 "access_rules": [
-                    "@stark_mountain_room_1"
+                    "@stark_mountain_room_1_entrance"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
