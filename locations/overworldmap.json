@@ -18829,7 +18829,7 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
-                    "@lake_acuity, ^$land_encounters"
+                    "@lake_acuity, $surf, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -18841,7 +18841,7 @@
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
                 "access_rules": [
-                    "@lake_acuity, ^$night_encounters"
+                    "@lake_acuity, $surf, ^$night_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -18853,7 +18853,7 @@
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
                 "access_rules": [
-                    "@lake_acuity, ^$ruby_encounters"
+                    "@lake_acuity, $surf, ^$ruby_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -18865,7 +18865,7 @@
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
                 "access_rules": [
-                    "@lake_acuity, ^$sapphire_encounters"
+                    "@lake_acuity, $surf, ^$sapphire_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -18877,7 +18877,7 @@
                 "chest_unopened_img": "/images/locations/encounters/emerald.png",
                 "chest_opened_img": "/images/locations/encounters/emerald_cleared.png",
                 "access_rules": [
-                    "@lake_acuity, ^$emerald_encounters"
+                    "@lake_acuity, $surf, ^$emerald_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
