@@ -2597,6 +2597,7 @@
             "@snowpoint_city_pokecenter_1f",
             "@snowpoint_city_west_house",
             "@snowpoint_temple_1f",
+            "@fight_area",
             "@canalave_city, $boat_canalave_snowpoint, ^$north_sinnoh_fly",
             "@pastoria_city, $boat_pastoria_snowpoint, ^$north_sinnoh_fly"
         ]
