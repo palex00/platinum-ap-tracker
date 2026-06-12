@@ -2,7 +2,7 @@
     {
         "name": "acuity_cavern",
         "access_rules": [
-            "@lake_acuity"
+            "@lake_acuity, $surf"
         ]
     },
     {
