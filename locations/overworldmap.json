@@ -18770,7 +18770,7 @@
             {
                 "name": "Lake - Item in NE Corner of Lake",
                 "access_rules": [
-                    "@lake_acuity"
+                    "@lake_acuity, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
