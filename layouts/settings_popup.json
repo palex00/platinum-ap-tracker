@@ -159,8 +159,8 @@
                 "regional_dex_goal"
             ],
             [
-                "opt_boat_canalave_pastoria",
                 "opt_boat_canalave_snowpoint",
+				"opt_boat_canalave_pastoria",
                 "opt_boat_pastoria_snowpoint",
                 "opt_route_207_barricade"
             ]
