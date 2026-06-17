@@ -3941,7 +3941,7 @@
                     "@celestic_town"
                 ],
                 "visibility_rules": [
-                    "show_items",
+                    "show_items, opt_npcgifts_on"
                 ],
                 "item_count": 1
             },
@@ -3951,7 +3951,7 @@
                     "@celestic_town, $day"
                 ],
                 "visibility_rules": [
-                    "show_items",
+                    "show_items, opt_npcgifts_on"
                 ],
                 "item_count": 1
             },
@@ -3961,7 +3961,7 @@
                     "@celestic_town, $night"
                 ],
                 "visibility_rules": [
-                    "show_items",
+                    "show_items, opt_npcgifts_on"
                 ],
                 "item_count": 1
             },
