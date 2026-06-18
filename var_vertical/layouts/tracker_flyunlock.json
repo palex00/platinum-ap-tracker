@@ -9,13 +9,13 @@
                 {
                     "type": "dock",
                     "dropshadow": false,
-                    "dock": "bottom",
+                    "dock": "left",
                     "content": [
                         {
                             "type": "group",
                             "margin": "100,100",
                             "background": "#171717",
-                            "dock": "left",
+                            "dock": "top",
                             "content": [
                                 {
                                     "type": "array",
@@ -30,21 +30,21 @@
                                                     "title": "Key Items",
                                                     "content": {
                                                         "type": "layout",
-                                                        "key": "key_items_grid"
+                                                        "key": "v_key_items_grid"
                                                     }
                                                 },
                                                 {
                                                     "title": "Encounter Items",
                                                     "content": {
                                                         "type": "layout",
-                                                        "key": "key_encounters_grid"
+                                                        "key": "v_key_encounters_grid"
                                                     }
                                                 },
                                                 {
                                                     "title": "Evolution Items",
                                                     "content": {
                                                         "type": "layout",
-                                                        "key": "key_evolution_grid"
+                                                        "key": "v_key_evolution_grid"
                                                     }
                                                 }
                                             ]
@@ -56,28 +56,38 @@
                         {
                             "type": "group",
                             "background": "#171717",
-                            "header": "Events",
-                            "dock": "left",
+                            "header": "Fly Unlocks",
+                            "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "event_grid"
+                                "key": "v_flyunlock_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "background": "#171717",
+                            "header": "Events",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "v_event_grid"
                             }
                         },
                         {
                             "type": "group",
                             "background": "#171717",
                             "header": "Tools",
-                            "dock": "left",
+                            "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "quick_settings_grid"
+                                "key": "v_quick_settings_grid"
                             }
                         },
                         {
                             "type": "group",
                             "background": "#171717",
                             "header": "Pokésearch",
-                            "dock": "left",
+                            "dock": "top",
                             "margin": "0,0,0,0",
                             "content": {
                                 "type": "layout",

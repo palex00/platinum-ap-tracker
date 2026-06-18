@@ -33,7 +33,7 @@ SLOT_CODES = {
     boat_canalave_snowpoint = {code = "opt_boat_canalave_snowpoint"},
     boat_pastoria_snowpoint = {code = "opt_boat_pastoria_snowpoint"},
     require_fly_items_for_flight = {code = "opt_require_fly_items_for_flight"},
-    fly_items = {code = "opt_fly_items"},
+    randomize_fly_items = {code = "opt_randomize_fly_items"},
     route_207_barricade = {
         code = "opt_route_207_barricade",
         mapping = {

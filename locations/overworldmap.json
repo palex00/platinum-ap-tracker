@@ -2065,7 +2065,7 @@
                     "@pokemon_league_north_pokecenter_1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all"
+                    "show_items, opt_randomize_fly_items_all"
                 ],
                 "item_count": 1
             },
@@ -2077,8 +2077,8 @@
                     "@pokemon_league_south_pokecenter_1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -2712,8 +2712,8 @@
                     "@survival_area"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -3929,8 +3929,8 @@
                     "@celestic_town"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -4422,8 +4422,8 @@
                     "@resort_area"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -4524,8 +4524,8 @@
                     "@twinleaf_town"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -4918,8 +4918,8 @@
                     "@pastoria_city"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -8346,8 +8346,8 @@
                     "@hearthome_city"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -8865,8 +8865,8 @@
                     "@jubilife_city"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -9642,8 +9642,8 @@
                     "@virt_fly_solaceon_town"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -13044,8 +13044,8 @@
                     "@sunyshore_city"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -13789,8 +13789,8 @@
                     "@canalave_city"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -15373,8 +15373,8 @@
                     "@eterna_city"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -16416,8 +16416,8 @@
                     "@veilstone_city"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -19139,8 +19139,8 @@
                     "@snowpoint_city"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -20165,8 +20165,8 @@
                     "@oreburgh_city"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -20903,8 +20903,8 @@
 					"@route_225_gate_to_fight_area"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -21076,8 +21076,8 @@
                     "@sandgem_town"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -21188,8 +21188,8 @@
                     "@pal_park_lobby"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },
@@ -21280,8 +21280,8 @@
                     "@floaroma_town"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_fly_items_all",
-                    "show_items, opt_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all",
+                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
                 ],
                 "item_count": 1
             },

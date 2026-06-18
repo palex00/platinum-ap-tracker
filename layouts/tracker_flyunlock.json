@@ -56,6 +56,16 @@
                         {
                             "type": "group",
                             "background": "#171717",
+                            "header": "Fly Unlocks",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "flyunlock_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "background": "#171717",
                             "header": "Events",
                             "dock": "left",
                             "content": {

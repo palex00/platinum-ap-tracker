@@ -30,6 +30,17 @@ function toggle_splitmap()
     end
 end
 
+function toggle_trackerlayout()
+    suffix = ""
+   
+    if not has("opt_randomize_fly_items_off") then
+        suffix = suffix.."_flyunlock"
+    end
+
+    Tracker:AddLayouts("layouts/tracker"..suffix..".json")
+end
+
+
 function toggle_pastoriabarriers()
     if has("opt_pastoria_barriers_on") then
         Tracker:AddMaps("maps/route212north_barriers.json")

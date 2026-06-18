@@ -105,7 +105,7 @@
                 "opt_dexsanity",
                 "opt_rods",
                 "opt_poketchapps",
-				"opt_fly_items"
+				"opt_randomize_fly_items"
             ],
             [
                 "opt_shoes",
@@ -151,7 +151,7 @@
         "item_size": "32,32",
         "item_h_alignment": "center",
         "item_v_alignment": "center",
-        "h_alignment": "left",
+        "h_alignment": "center",
         "rows": [
             [
                 "opt_unown",

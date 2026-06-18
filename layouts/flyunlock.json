@@ -65,20 +65,21 @@
                         "flyunlock_oreburghcity",
                         "flyunlock_floaromatown",
                         "flyunlock_eternacity",
-                        "flyunlock_hearthomecity"
+                        "flyunlock_hearthomecity",
+                        "flyunlock_solaceontown",
+                        "flyunlock_veilstonecity"
                     ],
                     [
-                        "flyunlock_solaceontown",
-                        "flyunlock_veilstonecity",
                         "flyunlock_pastoriacity",
                         "flyunlock_celestictown",
                         "flyunlock_canalavecity",
                         "flyunlock_snowpointcity",
-                        "flyunlock_sunyshorecity"
+                        "flyunlock_sunyshorecity",
+                        "flyunlock_pokemonleaguesouth",
+                        "flyunlock_route221"
                     ],
                     [
-                        "flyunlock_pokemonleaguesouth",
-                        "flyunlock_route221",
+
                         "flyunlock_fightarea",
                         "flyunlock_survivalarea",
                         "flyunlock_resortarea",

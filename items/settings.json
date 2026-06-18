@@ -940,21 +940,21 @@
                 "name": "Randomize Fly Unlocks - OFF",
                 "img": "images/settings/fly_rando.png",
                 "img_mods": "@disabled",
-                "codes": "opt_fly_items, opt_fly_items_off",
+                "codes": "opt_randomize_fly_items, opt_randomize_fly_items_off",
                 "inherit_codes": false
             },
             {
                 "name": "Randomize Fly Unlocks - No Pokemon League",
                 "img": "images/settings/fly_rando.png",
                 "img_mods": "overlay|images/settings/overlays/NOE4.png",
-                "codes": "opt_fly_items, opt_fly_items_all_except_pokemon_league",
+                "codes": "opt_randomize_fly_items, opt_randomize_fly_items_all_except_pokemon_league",
                 "inherit_codes": false
             },
             {
                 "name": "Randomize Fly Unlocks - ALL",
                 "img": "images/settings/fly_rando.png",
                 "img_mods": "overlay|images/settings/overlays/all.png",
-                "codes": "opt_fly_items, opt_fly_items_all",
+                "codes": "opt_randomize_fly_items, opt_randomize_fly_items_all",
                 "inherit_codes": false
             }
         ]
