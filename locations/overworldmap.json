@@ -7139,7 +7139,7 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
-                    "@stark_mountain_room_1_entrance, ^$land_encounters"
+                    "@stark_mountain_room_1, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
