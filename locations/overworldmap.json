@@ -7831,8 +7831,7 @@
             {
                 "name": "Item on Ledge Above Move Tutor",
                 "access_rules": [
-                    "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut"
+                    "@route_212_south, bicycle, $cut, bag"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -7842,8 +7841,7 @@
             {
                 "name": "Item Near Scientist Between Cut Trees",
                 "access_rules": [
-                    "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut"
+                    "@route_212_south, bicycle, $cut, bag"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -7987,8 +7985,7 @@
             {
                 "name": "Scientist Shaun",
                 "access_rules": [
-                    "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut"
+                    "@route_212_south, bicycle, $cut, bag"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -7999,8 +7996,7 @@
             {
                 "name": "Parasol Lady Sabrina",
                 "access_rules": [
-                    "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut"
+                    "@route_212_south, bicycle, $cut, bag"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
