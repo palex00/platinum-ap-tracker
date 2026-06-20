@@ -227,8 +227,21 @@ function onClear(slot_data)
     end
     
     updateEvents(0)
-    
-    if Archipelago.PlayerNumber > -1 then 
+
+    for register = 1, 5 do
+        local list = _G["FLAG_ITEM" .. tostring(register) .. "_CODES"]
+        for _, obj in ipairs(list) do
+            if obj.codes then
+                for _, code in ipairs(obj.codes) do
+                    if code ~= "" then
+                        Tracker:FindObjectForCode(code).Active = false
+                    end
+                end
+            end
+        end
+    end
+
+    if Archipelago.PlayerNumber > -1 then
         local suffix = TEAM_NUMBER .. "_" .. PLAYER_ID
         local function makeID(s) return "pokemon_platinum_" .. s .. suffix end
         IDs = {
@@ -443,9 +456,9 @@ function updateVanillaKeyItems(register, value)
 
     for i, obj in ipairs(list) do
         local bit = (value >> (i - 1)) & 1
-        if obj.codes and (not obj.option or has(obj.option)) then
+        if bit == 1 and obj.codes and (not obj.option or has(obj.option)) then
             for _, code in ipairs(obj.codes) do
-                Tracker:FindObjectForCode(code).Active = (bit == 1)
+                Tracker:FindObjectForCode(code).Active = true
             end
         end
     end

@@ -714,7 +714,7 @@
             {
                 "name": "Canalave to Pastoria Boat - OFF",
                 "img": "images/settings/opt_boat_canalave_pastoria.png",
-                "img_mods": "@disabled,overlay|images/settings/opt_boat_off_overlay.png",
+                "img_mods": "@disabled",
                 "codes": "opt_boat_canalave_pastoria, opt_boat_canalave_pastoria_off",
                 "inherit_codes": false
             },
@@ -727,7 +727,7 @@
             {
                 "name": "Canalave to Pastoria Boat - Requires S.S. Ticket",
                 "img": "images/settings/opt_boat_canalave_pastoria.png",
-                "img_mods": "overlay|images/settings/overlays/ssticket.png",
+                "img_mods": "overlay|images/settings/overlays/ssticket_tc.png",
                 "codes": "opt_boat_canalave_pastoria, opt_boat_canalave_pastoria_ssticket",
                 "inherit_codes": false
             }
@@ -743,7 +743,7 @@
             {
                 "name": "Canalave to Snowpoint Boat - OFF",
                 "img": "images/settings/opt_boat_canalave_snowpoint.png",
-                "img_mods": "@disabled,overlay|images/settings/opt_boat_off_overlay.png",
+                "img_mods": "@disabled",
                 "codes": "opt_boat_canalave_snowpoint, opt_boat_canalave_snowpoint_off",
                 "inherit_codes": false
             },
@@ -756,7 +756,7 @@
             {
                 "name": "Canalave to Snowpoint Boat - Requires S.S. Ticket",
                 "img": "images/settings/opt_boat_canalave_snowpoint.png",
-                "img_mods": "overlay|images/settings/overlays/ssticket.png",
+                "img_mods": "overlay|images/settings/overlays/ssticket_br.png",
                 "codes": "opt_boat_canalave_snowpoint, opt_boat_canalave_snowpoint_ssticket",
                 "inherit_codes": false
             }
@@ -772,7 +772,7 @@
             {
                 "name": "Pastoria to Snowpoint Boat - OFF",
                 "img": "images/settings/opt_boat_pastoria_snowpoint.png",
-                "img_mods": "@disabled,overlay|images/settings/opt_boat_off_overlay.png",
+                "img_mods": "@disabled",
                 "codes": "opt_boat_pastoria_snowpoint, opt_boat_pastoria_snowpoint_off",
                 "inherit_codes": false
             },
@@ -785,7 +785,7 @@
             {
                 "name": "Pastoria to Snowpoint Boat - Requires S.S. Ticket",
                 "img": "images/settings/opt_boat_pastoria_snowpoint.png",
-                "img_mods": "overlay|images/settings/overlays/ssticket.png",
+                "img_mods": "overlay|images/settings/overlays/ssticket_bl.png",
                 "codes": "opt_boat_pastoria_snowpoint, opt_boat_pastoria_snowpoint_ssticket",
                 "inherit_codes": false
             }
