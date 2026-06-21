@@ -140,7 +140,7 @@
 { "name": "Veilstone Dept. Store", "map_locations": [ { "map": "veilstonecity", "x": 472, "y": 368}], "sections": [
 { "name": "1F - Accessory from Socialite", "ref": "Veilstone City/Department Store 1F - Accessory from Socialite"},
 { "name": "2F - Counter App", "ref": "Veilstone City/Department Store 2F - Counter App"},
-{ "name": "5F - Gift from the Two Men", "ref": "Veilstone City/Department Store 5F - Gift from the Two Men"}]},
+{ "name": "5F - Gift from Two Buff Guys Standing Side by Side", "ref": "Veilstone City/Department Store 5F - Gift from Two Buff Guys Standing Side by Side"}]},
 { "name": "App Developer", "map_locations": [ { "map": "sunyshorecity", "x": 905, "y": 424}], "sections": [
 { "name": "Roulette App From Developer", "ref": "Sunyshore City/Roulette App From Developer"},
 { "name": "Dot Artist App From Developer", "ref": "Sunyshore City/Dot Artist App From Developer"},
