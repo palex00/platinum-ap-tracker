@@ -582,7 +582,7 @@
 {"name": "Solaceon Ruins​​​​​​​", "sections": [{"ref": "Solaceon Ruins/B1F - Gift for Lending Defog to Hiker", "name": "B1F - Gift for Lending Defog to Hiker"}], "map_locations": [{"map": "solaceonruinsb1f", "x": 76, "y": 118}]},
 {"name": "Solaceon Town​​​​​", "sections": [{"ref": "Solaceon Town/Item From Woman in Far East House", "name": "Item From Woman in Far East House"}], "map_locations": [{"map": "solaceontown", "x": 624, "y": 206}]},
 {"name": "Route 210 South​​", "sections": [{"ref": "Route 210 South/Gift from Girl on Hill", "name": "Gift from Girl on Hill"}], "map_locations": [{"map": "route210south", "x": 360, "y": 568}]},
-{"name": "Route 210 South​​​", "sections": [{"ref": "Route 210 South/Third Item  from Cynthia", "name": "Third Item  from Cynthia"}], "map_locations": [{"map": "route210south", "x": 284, "y": 228}]},
+{"name": "Route 210 South​​​", "sections": [{"ref": "Route 210 South/Third Item from Cynthia", "name": "Third Item from Cynthia"}], "map_locations": [{"map": "route210south", "x": 284, "y": 228}]},
 {"name": "Route 211 East​​​", "sections": [{"ref": "Route 211 East/Gift from Ace Trainer", "name": "Gift from Ace Trainer"}], "map_locations": [{"map": "route211east", "x": 232, "y": 328}]},
 {"name": "Celestic Town​​", "sections": [{"ref": "Celestic Town/Item from Black Belt in Lower Left House", "name": "Item from Black Belt in Lower Left House"}], "map_locations": [{"map": "celestictown", "x": 104, "y": 386}]},
 {"name": "Route 215​​​​​​​​​", "sections": [{"ref": "Route 215/Gift from Black Belt", "name": "Gift from Black Belt"}], "map_locations": [{"map": "route215west", "x": 568, "y": 360}]},
