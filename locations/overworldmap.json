@@ -220,7 +220,7 @@
         ],
         "sections": [
             {
-                "name": "Lobby - Matchup Checker App from Cowgirl",
+                "name": "Lobby - Item from Cowgirl",
                 "access_rules": [
                     "@pastoria_city_observatory_gate_1f, $marsh_pass"
                 ],
@@ -3966,7 +3966,7 @@
                 "hosted_item": "kingsrock"
             },
             {
-                "name": "Analog Watch App from Black Belt in Lower Left House",
+                "name": "Item from Black Belt in Lower Left House",
                 "access_rules": [
                     "@celestic_town_southwest_house"
                 ],
@@ -4038,7 +4038,7 @@
                 "item_count": 1
             },
             {
-                "name": "Cave - HM03 from Cynthias Grandmother",
+                "name": "Cave - Item from Cynthias Grandmother",
                 "access_rules": [
                     "@celestic_town_cave, oldcharm"
                 ],
@@ -4048,7 +4048,7 @@
                 "item_count": 1
             },
             {
-                "name": "Cave - HM03 from Cynthias Grandmother\u200b",
+                "name": "Cave - Item from Cynthias Grandmother\u200b",
                 "access_rules": [
                     "@celestic_town_cave, oldcharm"
                 ],
@@ -4571,7 +4571,7 @@
                 "hosted_item": "bag"
             },
             {
-                "name": "Running Shoes From Mom",
+                "name": "Item From Mom",
                 "access_rules": [
                     "@twinleaf_town_player_house_1f"
                 ],
@@ -4581,7 +4581,7 @@
                 "item_count": 1
             },
             {
-                "name": "Journal from Mom",
+                "name": "Item from Mom (After Visiting Rowan)",
                 "access_rules": [
                     "@twinleaf_town_player_house_1f"
                 ],
@@ -4591,7 +4591,7 @@
                 "item_count": 1
             },
             {
-                "name": "Parcel from Rivals Mom",
+                "name": "Item from Rivals Mom",
                 "access_rules": [
                     "@twinleaf_town_player_house_1f"
                 ],
@@ -4601,7 +4601,7 @@
                 "item_count": 1
             },
             {
-                "name": "Parcel from Rivals Mom\u200b",
+                "name": "Item from Rivals Mom\u200b",
                 "access_rules": [
                     "@twinleaf_town_player_house_1f"
                 ],
@@ -4611,7 +4611,7 @@
                 "hosted_item": "parcel"
             },
             {
-                "name": "S.S. Ticket from Mom (After Defeating Champion)",
+                "name": "Item from Mom (After Defeating Champion)",
                 "access_rules": [
                     "@twinleaf_town_player_house_1f, event_defeat_cynthia, @pokemon_league_hall_of_fame"
                 ],
@@ -4621,7 +4621,7 @@
                 "item_count": 1
             },
             {
-                "name": "S.S. Ticket from Mom (After Defeating Champion)\u200b",
+                "name": "Item from Mom (After Defeating Champion)\u200b",
                 "access_rules": [
                     "@twinleaf_town_player_house_1f, event_defeat_cynthia, @pokemon_league_hall_of_fame"
                 ],
@@ -5052,7 +5052,7 @@
                 "hosted_item": "event_defeat_wake"
             },
             {
-                "name": "Gym - Fen Badge from Crasher Wake",
+                "name": "Gym - Badge from Crasher Wake",
                 "access_rules": [
                     "@pastoria_city_gym"
                 ],
@@ -5062,7 +5062,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Fen Badge from Crasher Wake\u200b",
+                "name": "Gym - Badge from Crasher Wake\u200b",
                 "access_rules": [
                     "@pastoria_city_gym"
                 ],
@@ -5072,7 +5072,7 @@
                 "hosted_item": "fenbadge"
             },
             {
-                "name": "Gym - TM55 from Crasher Wake",
+                "name": "Gym - Gift from Crasher Wake",
                 "access_rules": [
                     "@pastoria_city_gym"
                 ],
@@ -5172,7 +5172,7 @@
                 "item_count": 1
             },
             {
-                "name": "Outside - HM04 from Riley",
+                "name": "Outside - Item from Riley",
                 "access_rules": [
                     "@iron_island"
                 ],
@@ -5182,7 +5182,7 @@
                 "item_count": 1
             },
             {
-                "name": "Outside - HM04 from Riley\u200b",
+                "name": "Outside - Item from Riley\u200b",
                 "access_rules": [
                     "@iron_island"
                 ],
@@ -6202,7 +6202,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Suite Key By Reception",
+                "name": "Hidden Item By Reception",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -6214,7 +6214,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Suite Key By Reception\u200b",
+                "name": "Hidden Item By Reception\u200b",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -6250,7 +6250,7 @@
                 "item_count": 1
             },
             {
-                "name": "Coin Toss App from Rich Boy in Rock Climb House",
+                "name": "Item from Rich Boy in Rock Climb House",
                 "access_rules": [
                     "@grand_lake_route_213_northeast_house"
                 ],
@@ -6260,7 +6260,7 @@
                 "item_count": 1
             },
             {
-                "name": "TM92 from Clown in NW House",
+                "name": "Gift from Clown in NW House",
                 "access_rules": [
                     "@grand_lake_route_213_northwest_house"
                 ],
@@ -7189,7 +7189,7 @@
                 "item_count": 1
             },
             {
-                "name": "Entrance - Commander Mars",
+                "name": "First Room - Commander Mars",
                 "access_rules": [
                     "@stark_mountain_room_1_entrance"
                 ],
@@ -7200,7 +7200,7 @@
                 "item_count": 1
             },
             {
-                "name": "Entrance - Commander Jupiter",
+                "name": "First Room - Commander Jupiter",
                 "access_rules": [
                     "@stark_mountain_room_1_entrance"
                 ],
@@ -8363,7 +8363,7 @@
                 "item_count": 1
             },
             {
-                "name": "Poffin Case from Fan Club Chairman",
+                "name": "Item from Fan Club Chairman",
                 "access_rules": [
                     "@hearthome_city_pokemon_fan_club"
                 ],
@@ -8373,7 +8373,7 @@
                 "item_count": 1
             },
             {
-                "name": "Poffin Case from Fan Club Chairman\u200b",
+                "name": "Item from Fan Club Chairman\u200b",
                 "access_rules": [
                     "@hearthome_city_pokemon_fan_club"
                 ],
@@ -8479,7 +8479,7 @@
                 "hosted_item": "event_defeat_fantina"
             },
             {
-                "name": "Gym - Relic Badge From Fantina",
+                "name": "Gym - Badge From Fantina",
                 "access_rules": [
                     "@hearthome_city_gym_leader_room"
                 ],
@@ -8489,7 +8489,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Relic Badge From Fantina\u200b",
+                "name": "Gym - Badge From Fantina\u200b",
                 "access_rules": [
                     "@hearthome_city_gym_leader_room"
                 ],
@@ -8499,7 +8499,7 @@
                 "hosted_item": "relicbadge"
             },
             {
-                "name": "Gym - TM65 From Fantina",
+                "name": "Gym - Gift From Fantina",
                 "access_rules": [
                     "@hearthome_city_gym_leader_room"
                 ],
@@ -8735,7 +8735,7 @@
                 "item_count": 1
             },
             {
-                "name": "Poke Balls from Lucas or Dawn",
+                "name": "Item from Lucas or Dawn",
                 "access_rules": [
                     "@route_202"
                 ],
@@ -8902,7 +8902,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gate to Route 218 - Old Rod from Fisherman",
+                "name": "Gate to Route 218 - Item from Fisherman",
                 "access_rules": [
                     "@route_218_gate_to_jubilife_city"
                 ],
@@ -8912,7 +8912,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gate to Route 218 - Old Rod from Fisherman\u200b",
+                "name": "Gate to Route 218 - Item from Fisherman\u200b",
                 "access_rules": [
                     "@route_218_gate_to_jubilife_city"
                 ],
@@ -8922,7 +8922,7 @@
                 "hosted_item": "oldrod"
             },
             {
-                "name": "Vs. Recorder from Looker",
+                "name": "Item from Looker",
                 "access_rules": [
                     "@jubilife_city"
                 ],
@@ -8932,7 +8932,7 @@
                 "item_count": 1
             },
             {
-                "name": "Trainers' School - Town Map from Rival",
+                "name": "Trainers' School - Item from Rival",
                 "access_rules": [
                     "@trainers_school, parcel"
                 ],
@@ -8952,7 +8952,7 @@
                 "item_count": 1
             },
             {
-                "name": "Coupon from East Clown",
+                "name": "Item from East Clown",
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
@@ -8962,7 +8962,7 @@
                 "item_count": 1
             },
             {
-                "name": "Coupon from East Clown\u200b",
+                "name": "Item from East Clown\u200b",
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
@@ -8973,7 +8973,7 @@
                 "clear_as_group": true
             },
             {
-                "name": "Coupon from Clown in front of Poketch HQ",
+                "name": "Item from Clown in front of Poketch HQ",
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
@@ -8983,7 +8983,7 @@
                 "item_count": 1
             },
             {
-                "name": "Coupon from Clown in front of Poketch HQ\u200b",
+                "name": "Item from Clown in front of Poketch HQ\u200b",
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
@@ -8994,7 +8994,7 @@
                 "clear_as_group": true
             },
             {
-                "name": "Coupon from Clown in front of Jubilife TV",
+                "name": "Item from Clown in front of Jubilife TV",
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
@@ -9004,7 +9004,7 @@
                 "item_count": 1
             },
             {
-                "name": "Coupon from Clown in front of Jubilife TV\u200b",
+                "name": "Item from Clown in front of Jubilife TV\u200b",
                 "access_rules": [
                     "@jubilife_city, parcel"
                 ],
@@ -9015,7 +9015,7 @@
                 "clear_as_group": true
             },
             {
-                "name": "Poketch from CEO",
+                "name": "First Item from CEO",
                 "access_rules": [
                     "@jubilife_city, $poketch_req"
                 ],
@@ -9025,7 +9025,7 @@
                 "item_count": 1
             },
             {
-                "name": "Poketch from CEO\u200b",
+                "name": "First Item from CEO\u200b",
                 "access_rules": [
                     "@jubilife_city, $poketch_req"
                 ],
@@ -9035,7 +9035,7 @@
                 "hosted_item": "poketch"
             },
             {
-                "name": "Calculator App from CEO",
+                "name": "Second Item from CEO",
                 "access_rules": [
                     "@jubilife_city, $poketch_req"
                 ],
@@ -9045,7 +9045,7 @@
                 "item_count": 1
             },
             {
-                "name": "Pedometer App from CEO",
+                "name": "Third Item from CEO",
                 "access_rules": [
                     "@jubilife_city, $poketch_req"
                 ],
@@ -9055,7 +9055,7 @@
                 "item_count": 1
             },
             {
-                "name": "Party Status App from CEO",
+                "name": "Fourth Item from CEO",
                 "access_rules": [
                     "@jubilife_city, $poketch_req"
                 ],
@@ -9075,7 +9075,7 @@
                 "item_count": 1
             },
             {
-                "name": "Fashion Case from Overalls Man After Grunts Battle After Oreburgh Gym",
+                "name": "Item from Overalls Man After Grunts Battle After Oreburgh Gym",
                 "access_rules": [
                     "@jubilife_city, event_defeat_roark, @oreburgh_city_gym"
                 ],
@@ -9085,7 +9085,7 @@
                 "item_count": 1
             },
             {
-                "name": "Poketch Company - Memo Pad App",
+                "name": "Poketch Company - Gift from CEO (1 Badge)",
                 "access_rules": [
                     "@poketch_co_1f, $poketch_req|1"
                 ],
@@ -9095,7 +9095,7 @@
                 "item_count": 1
             },
             {
-                "name": "Poketch Company - Marking Map App",
+                "name": "Poketch Company - Gift from CEO (3 Badges)",
                 "access_rules": [
                     "@poketch_co_1f, $poketch_req|3"
                 ],
@@ -9105,7 +9105,7 @@
                 "item_count": 1
             },
             {
-                "name": "Poketch Company - Marking Map App\u200b",
+                "name": "Poketch Company - Gift from CEO (3 Badges)\u200b",
                 "access_rules": [
                     "@poketch_co_1f, $poketch_req|3"
                 ],
@@ -9115,7 +9115,7 @@
                 "hosted_item": "markingmap"
             },
             {
-                "name": "Poketch Company - Link Searcher App",
+                "name": "Poketch Company - Gift from CEO (5 Badges)",
                 "access_rules": [
                     "@poketch_co_1f, $poketch_req|5"
                 ],
@@ -9125,7 +9125,7 @@
                 "item_count": 1
             },
             {
-                "name": "Poketch Company - Move Tester App",
+                "name": "Poketch Company - Gift from CEO (7 Badges)",
                 "access_rules": [
                     "@poketch_co_1f, $poketch_req|7"
                 ],
@@ -9376,7 +9376,7 @@
                 "item_count": 1
             },
             {
-                "name": "Good Rod from Fisherman",
+                "name": "Item from Fisherman",
                 "access_rules": [
                     "@route_209"
                 ],
@@ -9386,7 +9386,7 @@
                 "item_count": 1
             },
             {
-                "name": "Good Rod from Fisherman\u200b",
+                "name": "Item from Fisherman\u200b",
                 "access_rules": [
                     "@route_209"
                 ],
@@ -9679,7 +9679,7 @@
                 "item_count": 1
             },
             {
-                "name": "Pokemon History App from Ruin Maniac",
+                "name": "Item from Ruin Maniac",
                 "access_rules": [
                     "@solaceon_town, pokedex, {num_seen_reg:50}"
                 ],
@@ -9689,7 +9689,7 @@
                 "item_count": 1
             },
             {
-                "name": "Day Care Checker App from Man After Leaving a Pokemon",
+                "name": "Item from Man After Leaving a Pokemon",
                 "access_rules": [
                     "@pokemon_day_care"
                 ],
@@ -9699,7 +9699,7 @@
                 "item_count": 1
             },
             {
-                "name": "Seal Case From Woman in Far East House",
+                "name": "Item From Woman in Far East House",
                 "access_rules": [
                     "@solaceon_town_east_house"
                 ],
@@ -10193,7 +10193,7 @@
                 "item_count": 1
             },
             {
-                "name": "TM51 from Girl on Hill",
+                "name": "Gift from Girl on Hill",
                 "access_rules": [
                     "@route_210_south"
                 ],
@@ -10203,7 +10203,7 @@
                 "item_count": 1
             },
             {
-                "name": "Old Charm from Cynthia",
+                "name": "Third Item from Cynthia",
                 "access_rules": [
                     "@route_210_south_upper, secretpotion"
                 ],
@@ -10213,7 +10213,7 @@
                 "item_count": 1
             },
             {
-                "name": "Old Charm from Cynthia\u200b",
+                "name": "Third Item from Cynthia\u200b",
                 "access_rules": [
                     "@route_210_south_upper, secretpotion"
                 ],
@@ -11131,7 +11131,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father",
+                "name": "Gate to Canalave - Item from Dawn or Lucas Father",
                 "access_rules": [
                     "@route_218_gate_to_canalave_city"
                 ],
@@ -11141,7 +11141,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father\u200b",
+                "name": "Gate to Canalave - Item from Dawn or Lucas Father\u200b",
                 "access_rules": [
                     "@route_218_gate_to_canalave_city"
                 ],
@@ -12876,7 +12876,7 @@
                 "item_count": 1
             },
             {
-                "name": "Item After Rock Climb Ledges 2",
+                "name": "Bottom Item After Rock Climb Ledges",
                 "access_rules": [
                     "@valor_lakefront, $rock_climb"
                 ],
@@ -12896,7 +12896,7 @@
                 "item_count": 1
             },
             {
-                "name": "Item After Rock Climb Ledges 1",
+                "name": "Top Item After Rock Climb Ledges",
                 "access_rules": [
                     "@valor_lakefront, $rock_climb"
                 ],
@@ -12940,7 +12940,7 @@
                 "item_count": 1
             },
             {
-                "name": "Secret Potion from Cynthia",
+                "name": "Second Item from Cynthia",
                 "access_rules": [
                     "@valor_lakefront, event_defeat_wake, @pastoria_city_gym"
                 ],
@@ -12950,7 +12950,7 @@
                 "item_count": 1
             },
             {
-                "name": "Secret Potion from Cynthia\u200b",
+                "name": "Second Item from Cynthia\u200b",
                 "access_rules": [
                     "@valor_lakefront, event_defeat_wake, @pastoria_city_gym"
                 ],
@@ -13093,7 +13093,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM07 from Jasmine",
+                "name": "Item from Jasmine",
                 "access_rules": [
                     "@sunyshore_city, event_defeat_volkner, @sunyshore_city_gym_room_3"
                 ],
@@ -13103,7 +13103,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM07 from Jasmine\u200b",
+                "name": "Item from Jasmine\u200b",
                 "access_rules": [
                     "@sunyshore_city, event_defeat_volkner, @sunyshore_city_gym_room_3"
                 ],
@@ -13113,7 +13113,7 @@
                 "hosted_item": "hm07waterfall"
             },
             {
-                "name": "Roulette App From Developer",
+                "name": "Third Item From Developer",
                 "access_rules": [
                     "@sunyshore_city_east_house"
                 ],
@@ -13123,7 +13123,7 @@
                 "item_count": 1
             },
             {
-                "name": "Dot Artist App From Developer",
+                "name": "Second Item From Developer",
                 "access_rules": [
                     "@sunyshore_city_east_house"
                 ],
@@ -13133,7 +13133,7 @@
                 "item_count": 1
             },
             {
-                "name": "Calendar App From Developer",
+                "name": "First Item From Developer",
                 "access_rules": [
                     "@sunyshore_city_east_house"
                 ],
@@ -13261,7 +13261,7 @@
                 "hosted_item": "event_defeat_volkner"
             },
             {
-                "name": "Gym - Beacon Badge from Volkner",
+                "name": "Gym - Badge from Volkner",
                 "access_rules": [
                     "@sunyshore_city_gym_room_3"
                 ],
@@ -13271,7 +13271,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Beacon Badge from Volkner\u200b",
+                "name": "Gym - Badge from Volkner\u200b",
                 "access_rules": [
                     "@sunyshore_city_gym_room_3"
                 ],
@@ -13281,7 +13281,7 @@
                 "hosted_item": "beaconbadge"
             },
             {
-                "name": "Gym - TM57 from Volkner",
+                "name": "Gym - Gift from Volkner",
                 "access_rules": [
                     "@sunyshore_city_gym_room_3"
                 ],
@@ -13924,7 +13924,7 @@
                 "hosted_item": "event_defeat_byron"
             },
             {
-                "name": "Gym - Mine Badge from Byron",
+                "name": "Gym - Badge from Byron",
                 "access_rules": [
                     "@canalave_city_gym"
                 ],
@@ -13934,7 +13934,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Mine Badge from Byron\u200b",
+                "name": "Gym - Badge from Byron\u200b",
                 "access_rules": [
                     "@canalave_city_gym"
                 ],
@@ -13944,7 +13944,7 @@
                 "hosted_item": "minebadge"
             },
             {
-                "name": "Gym - TM91 from Byron",
+                "name": "Gym - Gift from Byron",
                 "access_rules": [
                     "@canalave_city_gym"
                 ],
@@ -15432,7 +15432,7 @@
                 "hosted_item": "moonstone"
             },
             {
-                "name": "HM01 from Cynthia",
+                "name": "First Item from Cynthia",
                 "access_rules": [
                     "@eterna_city"
                 ],
@@ -15442,7 +15442,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM01 from Cynthia\u200b",
+                "name": "First Item from Cynthia\u200b",
                 "access_rules": [
                     "@eterna_city"
                 ],
@@ -15452,7 +15452,7 @@
                 "hosted_item": "hm01cut"
             },
             {
-                "name": "Bike from Rad Rickshaw",
+                "name": "Item from Rad Rickshaw",
                 "access_rules": [
                     "@cycle_shop, event_clear_eternahideout, @team_galactic_eterna_building_4f"
                 ],
@@ -15462,7 +15462,7 @@
                 "item_count": 1
             },
             {
-                "name": "Bike from Rad Rickshaw\u200b",
+                "name": "Item from Rad Rickshaw\u200b",
                 "access_rules": [
                     "@cycle_shop, event_clear_eternahideout, @team_galactic_eterna_building_4f"
                 ],
@@ -15472,7 +15472,7 @@
                 "hosted_item": "bicycle"
             },
             {
-                "name": "Pokemon Center - Friendship Checker App from Woman",
+                "name": "Pokemon Center - Item from Woman in Pokemon Center",
                 "access_rules": [
                     "@eterna_city_pokecenter_1f"
                 ],
@@ -15482,7 +15482,7 @@
                 "item_count": 1
             },
             {
-                "name": "Explorer Kit from Underground Man",
+                "name": "Item from Underground Man",
                 "access_rules": [
                     "@eterna_city_underground_man_house"
                 ],
@@ -15492,7 +15492,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gift from Prof Oak",
+                "name": "Third Item from Prof Oak",
                 "access_rules": [
                     "@eterna_city_south_house"
                 ],
@@ -15512,7 +15512,7 @@
                 "hosted_item": "event_roamer_3"
             },
             {
-                "name": "Gift from Prof Oak\u200b",
+                "name": "Third Item from Prof Oak\u200b",
                 "access_rules": [
                     "@eterna_city_south_house"
                 ],
@@ -15575,7 +15575,7 @@
                 "hosted_item": "event_defeat_gardenia"
             },
             {
-                "name": "Gym - Forest Badge From Gardenia",
+                "name": "Gym - Badge From Gardenia",
                 "access_rules": [
                     "@eterna_city_gym"
                 ],
@@ -15585,7 +15585,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Forest Badge From Gardenia\u200b",
+                "name": "Gym - Badge From Gardenia\u200b",
                 "access_rules": [
                     "@eterna_city_gym"
                 ],
@@ -15595,7 +15595,7 @@
                 "hosted_item": "forestbadge"
             },
             {
-                "name": "Gym - TM86 From Gardenia",
+                "name": "Gym - Gift From Gardenia",
                 "access_rules": [
                     "@eterna_city_gym"
                 ],
@@ -16487,7 +16487,7 @@
                 "item_count": 1
             },
             {
-                "name": "TM63 from Roughneck Near Gym",
+                "name": "Gift from Roughneck Near Gym",
                 "access_rules": [
                     "@veilstone_city"
                 ],
@@ -16497,7 +16497,7 @@
                 "item_count": 1
             },
             {
-                "name": "Coin Case from Clown in House",
+                "name": "Item from Clown in House",
                 "access_rules": [
                     "@veilstone_city_southeast_house"
                 ],
@@ -16549,7 +16549,7 @@
                 "item_count": 1
             },
             {
-                "name": "Department Store 2F - Counter App",
+                "name": "Department Store 2F - Item from Clerk",
                 "access_rules": [
                     "@veilstone_store_2f"
                 ],
@@ -16623,7 +16623,7 @@
                 "hosted_item": "event_defeat_maylene"
             },
             {
-                "name": "Gym - Cobble Badge from Maylene",
+                "name": "Gym - Badge from Maylene",
                 "access_rules": [
                     "@veilstone_city_gym"
                 ],
@@ -16633,7 +16633,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Cobble Badge from Maylene\u200b",
+                "name": "Gym - Badge from Maylene\u200b",
                 "access_rules": [
                     "@veilstone_city_gym"
                 ],
@@ -16643,7 +16643,7 @@
                 "hosted_item": "cobblebadge"
             },
             {
-                "name": "Gym - TM60 from Maylene",
+                "name": "Gym - Gift from Maylene",
                 "access_rules": [
                     "@veilstone_city_gym"
                 ],
@@ -16865,7 +16865,7 @@
                 "item_count": 1
             },
             {
-                "name": "Works Key after Galactic Grunts",
+                "name": "Item after Galactic Grunts",
                 "access_rules": [
                     "@floaroma_meadow_south"
                 ],
@@ -16875,7 +16875,7 @@
                 "item_count": 1
             },
             {
-                "name": "Works Key after Galactic Grunts\u200b",
+                "name": "Item after Galactic Grunts\u200b",
                 "access_rules": [
                     "@floaroma_meadow_south"
                 ],
@@ -17009,7 +17009,7 @@
         ],
         "sections": [
             {
-                "name": "Entrance - HM02 with Looker",
+                "name": "Entrance - Item Found with Looker",
                 "access_rules": [
                     "@veilstone_city_galactic_warehouse"
                 ],
@@ -17019,7 +17019,7 @@
                 "item_count": 1
             },
             {
-                "name": "Entrance - HM02 with Looker\u200b",
+                "name": "Entrance - Item Found with Looker\u200b",
                 "access_rules": [
                     "@veilstone_city_galactic_warehouse"
                 ],
@@ -17091,7 +17091,7 @@
                 "item_count": 1
             },
             {
-                "name": "B2F - Galactic Key Next to Locked Door",
+                "name": "B2F - Item Next to Locked Door",
                 "access_rules": [
                     "@galactic_hq_wo_key"
                 ],
@@ -17101,7 +17101,7 @@
                 "item_count": 1
             },
             {
-                "name": "B2F - Galactic Key Next to Locked Door\u200b",
+                "name": "B2F - Item Next to Locked Door\u200b",
                 "access_rules": [
                     "@galactic_hq_wo_key"
                 ],
@@ -17423,7 +17423,7 @@
                 "item_count": 1
             },
             {
-                "name": "Office - Master Ball from Cyrus",
+                "name": "Office - Gift from Cyrus",
                 "access_rules": [
                     "@galactic_hq_w_key"
                 ],
@@ -18414,7 +18414,7 @@
                 "item_count": 1
             },
             {
-                "name": "TM77 from Ace Trainer",
+                "name": "Gift from Ace Trainer",
                 "access_rules": [
                     "@route_211_east"
                 ],
@@ -19242,7 +19242,7 @@
                 "hosted_item": "event_defeat_candice"
             },
             {
-                "name": "Gym - Icicle Badge from Candice",
+                "name": "Gym - Badge from Candice",
                 "access_rules": [
                     "@snowpoint_city_gym"
                 ],
@@ -19252,7 +19252,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Icicle Badge from Candice\u200b",
+                "name": "Gym - Badge from Candice\u200b",
                 "access_rules": [
                     "@snowpoint_city_gym"
                 ],
@@ -19262,7 +19262,7 @@
                 "hosted_item": "iciclebadge"
             },
             {
-                "name": "Gym - TM72 from Candice",
+                "name": "Gym - Gift from Candice",
                 "access_rules": [
                     "@snowpoint_city_gym"
                 ],
@@ -19541,7 +19541,7 @@
                 "item_count": 1
             },
             {
-                "name": "TM66 from Black Belt",
+                "name": "Gift from Black Belt",
                 "access_rules": [
                     "@route_215"
                 ],
@@ -20224,7 +20224,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gift from Overalls Man for Showing Geodude in North House",
+                "name": "Show Geodude to Overalls Man in North House",
                 "access_rules": [
                     "@oreburgh_city_north_house_2f, ^$has_mon|74"
                 ],
@@ -20234,7 +20234,7 @@
                 "item_count": 1
             },
             {
-                "name": "Youngster in Southeast Building",
+                "name": "Gift from Youngster in Southeast Building",
                 "access_rules": [
                     "@oreburgh_city_east_house_1f"
                 ],
@@ -20286,7 +20286,7 @@
                 "hosted_item": "event_defeat_roark"
             },
             {
-                "name": "Gym - Coal Badge From Roark",
+                "name": "Gym - Badge From Roark",
                 "access_rules": [
                     "@oreburgh_city_gym"
                 ],
@@ -20296,7 +20296,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Coal Badge From Roark\u200b",
+                "name": "Gym - Badge From Roark\u200b",
                 "access_rules": [
                     "@oreburgh_city_gym"
                 ],
@@ -20306,7 +20306,7 @@
                 "hosted_item": "coalbadge"
             },
             {
-                "name": "Gym - TM75 From Roark",
+                "name": "Gym - Gift From Roark",
                 "access_rules": [
                     "@oreburgh_city_gym"
                 ],
@@ -20502,7 +20502,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM06 from Hiker",
+                "name": "Item from Hiker",
                 "access_rules": [
                     "@oreburgh_gate_1f"
                 ],
@@ -20512,7 +20512,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM06 from Hiker\u200b",
+                "name": "Item from Hiker\u200b",
                 "access_rules": [
                     "@oreburgh_gate_1f"
                 ],
@@ -20908,7 +20908,7 @@
                 "item_count": 1
             },
 			{
-                "name": "Super Rod from Fisherman",
+                "name": "Item from Fisherman",
                 "access_rules": [
                     "@route_225_gate_to_fight_area"
                 ],
@@ -20918,7 +20918,7 @@
                 "item_count": 1
             },
             {
-                "name": "Super Rod from Fisherman\u200b",
+                "name": "Item from Fisherman\u200b",
                 "access_rules": [
                     "@fight_area, national_dex"
                 ],
@@ -21081,7 +21081,7 @@
                 "item_count": 1
             },
 			{
-                "name": "Pokemon Center Basement - Pal Pad",
+                "name": "Pokemon Center Basement - Item from Teala",
                 "access_rules": [
                     "@virt_pal_pad"
                 ],
@@ -21091,7 +21091,7 @@
                 "item_count": 1
             },
             {
-                "name": "Lab - Pokedex from Prof Rowan",
+                "name": "Lab - Item from Prof Rowan",
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab"
                 ],
@@ -21101,7 +21101,7 @@
                 "item_count": 1
             },
             {
-                "name": "Lab - Pokedex from Prof Rowan\u200b",
+                "name": "Lab - Item from Prof Rowan\u200b",
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab"
                 ],
@@ -21111,7 +21111,7 @@
                 "hosted_item": "pokedex, pokedex_1"
             },
             {
-                "name": "Lab - National Pokedex from Prof Oak",
+                "name": "Lab - First Item from Prof Oak",
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab, pokedex, ^$see_regional_mons"
                 ],
@@ -21121,7 +21121,7 @@
                 "item_count": 1
             },
             {
-                "name": "Lab - National Pokedex from Prof Oak\u200b",
+                "name": "Lab - First Item from Prof Oak\u200b",
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab, pokedex, ^$see_regional_mons"
                 ],
@@ -21131,7 +21131,7 @@
                 "hosted_item": "pokedex, pokedex_3"
             },
             {
-                "name": "Lab - Poke Radar from Rowan",
+                "name": "Lab - Item from Prof Rowan (After Regional Dex)",
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab, pokedex, ^$see_regional_mons"
                 ],
@@ -21141,7 +21141,7 @@
                 "item_count": 1
             },
             {
-                "name": "Lab - Poke Radar from Rowan\u200b",
+                "name": "Lab - Item from Prof Rowan (After Regional Dex)\u200b",
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab, pokedex, ^$see_regional_mons"
                 ],
@@ -21151,7 +21151,7 @@
                 "hosted_item": "radar"
             },
             {
-                "name": "TM27 from Professor Rowan",
+                "name": "Item from Prof Rowan (Outside)",
                 "access_rules": [
                     "@sandgem_town"
                 ],
@@ -21203,7 +21203,7 @@
                 "hosted_item": "event_met_oak_at_palpark"
             },
             {
-                "name": "Trainer Counter App from Prof Oak",
+                "name": "Second Item from Prof Oak",
                 "access_rules": [
                     "@pal_park_lobby"
                 ],
@@ -21213,7 +21213,7 @@
                 "item_count": 1
             },
             {
-                "name": "Kitchen Timer App from Girl",
+                "name": "Show Snorlax to Girl",
                 "access_rules": [
                     "@pal_park_lobby, ^$has_mon|143"
                 ],
@@ -21223,7 +21223,7 @@
                 "item_count": 1
             },
             {
-                "name": "Color Changer App from Girl",
+                "name": "Show Kecleon to Girl",
                 "access_rules": [
                     "@pal_park_lobby, ^$has_mon|352, ^$has_mon|143"
                 ],
@@ -21295,7 +21295,7 @@
                 "item_count": 1
             },
             {
-                "name": "Flower Shop - Sprayduck from Left Lady",
+                "name": "Flower Shop - Item from Left Lady",
                 "access_rules": [
                     "@flower_shop"
                 ],
