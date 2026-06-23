@@ -18675,7 +18675,7 @@
         ],
         "sections": [
             {
-                "name": "HM08 Above Hikers House",
+                "name": "Item Above Hikers House",
                 "access_rules": [
                     "@route_217"
                 ],
@@ -18685,7 +18685,7 @@
                 "item_count": 1
             },
             {
-                "name": "HM08 Above Hikers House\u200b",
+                "name": "Item Above Hikers House\u200b",
                 "access_rules": [
                     "@route_217"
                 ],
