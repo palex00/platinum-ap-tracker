@@ -173,7 +173,7 @@
 {"name": "Route 213 East​​​​​​​​​​​​", "sections": [{"ref": "Route 213 East/Hidden Item on Bottom Right of Eastern Beach", "name": "Hidden Item on Bottom Right of Eastern Beach"}], "map_locations": [{"map": "route213valorlakefront", "x": 1192, "y": 1528}]},
 {"name": "Route 213 East​​​​​​​​​​​​​", "sections": [{"ref": "Route 213 East/Hidden Item on Southeast White Rock", "name": "Hidden Item on Southeast White Rock"}], "map_locations": [{"map": "route213valorlakefront", "x": 1320, "y": 1928}]},
 {"name": "Route 213 West​​", "sections": [{"ref": "Route 213 West/Hidden Item SE Below Footsteps House", "name": "Hidden Item SE Below Footsteps House"}], "map_locations": [{"map": "route213valorlakefront", "x": 440, "y": 1688}]},
-{"name": "Route 213 East​​​​​​​​​​​​​​", "sections": [{"ref": "Route 213 East/Hidden  By Reception", "name": "Hidden Item By Reception"}], "map_locations": [{"map": "route213valorlakefront", "x": 1048, "y": 1176}]},
+{"name": "Route 213 East​​​​​​​​​​​​​​", "sections": [{"ref": "Route 213 East/Hidden Item By Reception", "name": "Hidden Item By Reception"}], "map_locations": [{"map": "route213valorlakefront", "x": 1048, "y": 1176}]},
 {"name": "Route 213 East​​​​​​​​​​​​​​​", "sections": [{"ref": "Route 213 East/Hidden Item on Right side of Eastern Beach", "name": "Hidden Item on Right side of Eastern Beach"}], "map_locations": [{"map": "route213valorlakefront", "x": 1160, "y": 1448}]},
 {"name": "Route 219", "sections": [{"ref": "Route 219/Item on Shore", "name": "Item on Shore"}], "map_locations": [{"map": "route219", "x": 167, "y": 217}]},
 {"name": "Route 221", "sections": [{"ref": "Route 221/Item on Corner of Land", "name": "Item on Corner of Land"}], "map_locations": [{"map": "route221west", "x": 248, "y": 200}]},
