@@ -727,7 +727,8 @@
             },
             {
                 "name": "Canalave to Pastoria Boat - Unknown (hidden)",
-                "img": "images/items/dragonscale.png",
+                "img": "images/settings/opt_boat_unknown.png",
+                "img_mods": "overlay|images/settings/overlays/unknown.png",
                 "codes": "opt_boat_canalave_pastoria, opt_boat_canalave_pastoria_unknown",
                 "inherit_codes": false
             }
@@ -762,7 +763,8 @@
             },
             {
                 "name": "Canalave to Snowpoint Boat - Unknown (hidden)",
-                "img": "images/items/dragonscale.png",
+                "img": "images/settings/opt_boat_unknown.png",
+                "img_mods": "overlay|images/settings/overlays/unknown.png",
                 "codes": "opt_boat_canalave_snowpoint, opt_boat_canalave_snowpoint_unknown",
                 "inherit_codes": false
             }
@@ -797,7 +799,8 @@
             },
             {
                 "name": "Pastoria to Snowpoint Boat - Unknown (hidden)",
-                "img": "images/items/dragonscale.png",
+                "img": "images/settings/opt_boat_unknown.png",
+                "img_mods": "overlay|images/settings/overlays/unknown.png",
                 "codes": "opt_boat_pastoria_snowpoint, opt_boat_pastoria_snowpoint_unknown",
                 "inherit_codes": false
             }
@@ -908,7 +911,8 @@
             },
             {
                 "name": "Route 207 Barricade - Unknown (hidden)",
-                "img": "images/items/dragonscale.png",
+                "img": "images/settings/opt_route_207_barricade/unknown.png",
+                "img_mods": "overlay|images/settings/overlays/unknown.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_unknown",
                 "inherit_codes": false
             }
@@ -1079,7 +1083,8 @@
             },
             {
                 "name": "Route 210 Lower Barricade - Unknown (hidden)",
-                "img": "images/items/dragonscale.png",
+                "img": "images/settings/opt_route_210_lower_barricade/none.png",
+                "img_mods": "overlay|images/settings/overlays/unknown.png",
                 "codes": "opt_route_210_lower_barricade, opt_route_210_lower_barricade_unknown",
                 "inherit_codes": false
             }
@@ -1250,7 +1255,8 @@
             },
             {
                 "name": "Route 215 Barricade - Unknown (hidden)",
-                "img": "images/items/dragonscale.png",
+                "img": "images/settings/opt_route_215_barricade/none.png",
+                "img_mods": "overlay|images/settings/overlays/unknown.png",
                 "codes": "opt_route_215_barricade, opt_route_215_barricade_unknown",
                 "inherit_codes": false
             }
