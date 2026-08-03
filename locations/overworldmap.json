@@ -5142,8 +5142,8 @@
             },
             {
                 "name": "Pastoria to Snowpoint Boat",
-                "chest_unopened_img": "/images/items/dragonscale.png",
-                "chest_opened_img": "/images/items/dragonscale.png",
+                "chest_unopened_img": "/images/settings/overlays/unknown.png",
+                "chest_opened_img": "/images/settings/overlays/unknown.png",
                 "access_rules": [
                     "@pastoria_city, {}"
                 ],
@@ -10410,8 +10410,8 @@
             },
             {
                 "name": "Route 210 Lower Barricade",
-                "chest_unopened_img": "/images/items/dragonscale.png",
-                "chest_opened_img": "/images/items/dragonscale.png",
+                "chest_unopened_img": "/images/settings/overlays/unknown.png",
+                "chest_opened_img": "/images/settings/overlays/unknown.png",
                 "access_rules": [
                     "@route_210_south, {}",
                     "@route_210_junction, {}"
@@ -14050,8 +14050,8 @@
             },
             {
                 "name": "Canalave to Pastoria Boat",
-                "chest_unopened_img": "/images/items/dragonscale.png",
-                "chest_opened_img": "/images/items/dragonscale.png",
+                "chest_unopened_img": "/images/settings/overlays/unknown.png",
+                "chest_opened_img": "/images/settings/overlays/unknown.png",
                 "access_rules": [
                     "@canalave_city, {}"
                 ],
@@ -14062,8 +14062,8 @@
             },
             {
                 "name": "Canalave to Snowpoint Boat",
-                "chest_unopened_img": "/images/items/dragonscale.png",
-                "chest_opened_img": "/images/items/dragonscale.png",
+                "chest_unopened_img": "/images/settings/overlays/unknown.png",
+                "chest_opened_img": "/images/settings/overlays/unknown.png",
                 "access_rules": [
                     "@canalave_city, {}"
                 ],
@@ -18199,8 +18199,8 @@
             },
             {
                 "name": "Route 207 Barricade",
-                "chest_unopened_img": "/images/items/dragonscale.png",
-                "chest_opened_img": "/images/items/dragonscale.png",
+                "chest_unopened_img": "/images/settings/overlays/unknown.png",
+                "chest_opened_img": "/images/settings/overlays/unknown.png",
                 "access_rules": [
                     "@route_207_south, {}",
                     "@route_207, {}"
@@ -19738,8 +19738,8 @@
             },
             {
                 "name": "Route 215 Barricade",
-                "chest_unopened_img": "/images/items/dragonscale.png",
-                "chest_opened_img": "/images/items/dragonscale.png",
+                "chest_unopened_img": "/images/settings/overlays/unknown.png",
+                "chest_opened_img": "/images/settings/overlays/unknown.png",
                 "access_rules": [
                     "@route_210_junction, {}",
                     "@route_215, {}"
