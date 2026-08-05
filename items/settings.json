@@ -515,7 +515,7 @@
             },
             {
                 "name": "Pastoria Barriers - Unknown (hidden)",
-                "img": "images/settings/opt_pastoria_barriers_on.png",
+                "img": "images/settings/opt_pastoria_barriers_off.png",
                 "img_mods": "overlay|images/settings/overlays/unknown.png",
                 "codes": "opt_pastoria_barriers, opt_pastoria_barriers_unknown",
                 "inherit_codes": false
