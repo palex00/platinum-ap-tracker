@@ -930,5 +930,11 @@
 { "name": "Snowpoint to Canalave Boat", "ref": "Snowpoint City/Snowpoint to Canalave Boat"}]},
 { "name": "Pastoria Boats", "map_locations": [ { "map": "pastoriacity", "x": 696, "y": 592}], "sections": [
 { "name": "Pastoria to Canalave Boat", "ref": "Pastoria City/Pastoria to Canalave Boat"},
-{ "name": "Pastoria to Snowpoint Boat", "ref": "Pastoria City/Pastoria to Snowpoint Boat"}]}
+{ "name": "Pastoria to Snowpoint Boat", "ref": "Pastoria City/Pastoria to Snowpoint Boat"}]},
+{ "name": "Iron Ruins", "map_locations": [ { "map": "ironislandb3f", "x": 232, "y": 34}], "sections": [
+{ "name": "Pastoria to Canalave Boat", "ref": "Pastoria City/Pastoria to Canalave Boat"},
+{ "name": "Pastoria to Snowpoint Boat", "ref": "Pastoria City/Pastoria to Snowpoint Boat"}]},
+{ "name": "Iceberg Ruins", "map_locations": [ { "map": "mtcoronetnorthexit", "x": 206, "y": 29}], "sections": [
+{ "name": "Item in Center", "ref": "Mt. Coronet R216 Path/Iceberg Ruins - Item in Center"},
+{ "name": "Hidden Item Up and Left of Center", "ref": "Mt. Coronet R216 Path/Iceberg Ruins - Hidden Item Up and Left of Center"}]}
 ]}]
