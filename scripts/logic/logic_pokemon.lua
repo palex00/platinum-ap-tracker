@@ -271,7 +271,7 @@ function evolve_area(area)
     if has("evomethod_location_on") then
         return evo_area
     else
-        math.min(evo_area, AccessibilityLevel.SequenceBreak)
+        return math.min(evo_area, AccessibilityLevel.SequenceBreak)
     end
 end
 
