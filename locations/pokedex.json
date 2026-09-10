@@ -292,7 +292,7 @@
 {"name": "Slaking", "access_rules": ["caught_289", "^$levelup|36, caught_288"], "sections": [{"hosted_item": "caught_289"}],  "map_locations": [{"map": "hoenndex", "x": 136, "y": 296, "shape": "rect"}]},
 {"name": "Nincada", "access_rules": ["caught_290"], "sections": [{"hosted_item": "caught_290"}],  "map_locations": [{"map": "hoenndex", "x": 216, "y": 296, "shape": "rect"}]},
 {"name": "Ninjask", "access_rules": ["caught_291", "^$levelup|20, caught_290"], "sections": [{"hosted_item": "caught_291"}],  "map_locations": [{"map": "hoenndex", "x": 296, "y": 296, "shape": "rect"}]},
-{"name": "Shedinja", "access_rules": ["caught_292", "^$evolve_mildly, caught_290"], "sections": [{"hosted_item": "caught_292"}],  "map_locations": [{"map": "hoenndex", "x": 376, "y": 296, "shape": "rect"}]},
+{"name": "Shedinja", "access_rules": ["caught_292", "^$levelup|20, ^$evolve_mildly, caught_290"], "sections": [{"hosted_item": "caught_292"}],  "map_locations": [{"map": "hoenndex", "x": 376, "y": 296, "shape": "rect"}]},
 {"name": "Whismur", "access_rules": ["caught_293"], "sections": [{"hosted_item": "caught_293"}],  "map_locations": [{"map": "hoenndex", "x": 456, "y": 296, "shape": "rect"}]},
 {"name": "Loudred", "access_rules": ["caught_294", "^$levelup|20, caught_293"], "sections": [{"hosted_item": "caught_294"}],  "map_locations": [{"map": "hoenndex", "x": 536, "y": 296, "shape": "rect"}]},
 {"name": "Exploud", "access_rules": ["caught_295", "^$levelup|40, caught_294"], "sections": [{"hosted_item": "caught_295"}],  "map_locations": [{"map": "hoenndex", "x": 616, "y": 296, "shape": "rect"}]},

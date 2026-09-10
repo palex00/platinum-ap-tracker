@@ -296,7 +296,7 @@ function evolve_highly(which)
         elseif which == "beauty" then
             return math.min(veilstone, hearthome, has_level("poffincase"))
         elseif which == "wurmple" then
-            return AccessibilityLevel.Normal
+            return levelup()
         end
     else
         if which == "beauty" then
