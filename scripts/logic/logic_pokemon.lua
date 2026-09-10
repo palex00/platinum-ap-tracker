@@ -292,7 +292,7 @@ function evolve_highly(which)
 
     if has("evomethod_highlyannoying_on") then
         if which == "tyrogue" then
-            return math.max(can_give_vitamins, AccessibilityLevel.SequenceBreak)
+            return math.min(levelup(), math.max(can_give_vitamins, AccessibilityLevel.SequenceBreak))
         elseif which == "beauty" then
             return math.min(veilstone, hearthome, has_level("poffincase"))
         elseif which == "wurmple" then
