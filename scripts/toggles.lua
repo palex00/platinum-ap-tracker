@@ -30,14 +30,22 @@ function toggle_splitmap()
     end
 end
 
+function toggle_flygrid()
+    if not has("opt_randomize_fly_items_all") then
+        Tracker:AddLayouts("layouts/flyunlock_no_e4.json")
+    else
+        Tracker:AddLayouts("layouts/flyunlock.json")
+    end
+end
+
 function toggle_trackerlayout()
-    suffix = ""
-   
+    local suffix = ""
+
     if not has("opt_randomize_fly_items_off") then
         suffix = suffix.."_flyunlock"
     end
 
-    Tracker:AddLayouts("layouts/tracker"..suffix..".json")
+        Tracker:AddLayouts("layouts/tracker"..suffix..".json")
 end
 
 

@@ -17,6 +17,7 @@ ScriptHost:AddWatchForCode("opt_route_210_lower_barricade", "opt_route_210_lower
 ScriptHost:AddWatchForCode("opt_route_215_barricade", "opt_route_215_barricade", toggle_route215roadblock)
 ScriptHost:AddWatchForCode("opt_route_207_barricade", "opt_route_207_barricade", toggle_route207roadblock)
 ScriptHost:AddWatchForCode("opt_randomize_fly_items", "opt_randomize_fly_items", toggle_trackerlayout)
+ScriptHost:AddWatchForCode("opt_randomize_fly_items2", "opt_randomize_fly_items", toggle_flygrid)
 
 -- Pokemon Related
 ScriptHost:AddWatchForCode("encounter_tracking", "encounter_tracking", updatePokemon)
