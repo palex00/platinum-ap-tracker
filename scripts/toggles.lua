@@ -45,7 +45,7 @@ function toggle_trackerlayout()
         suffix = suffix.."_flyunlock"
     end
 
-        Tracker:AddLayouts("layouts/tracker"..suffix..".json")
+    Tracker:AddLayouts("layouts/tracker"..suffix..".json")
 end
 
 
