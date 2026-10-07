@@ -886,9 +886,44 @@
       {
         "title": "R213 & VLF",
         "content": {
-          "type": "map",
-          "maps": [
-            "route213valorlakefront"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "West",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route213_w"
+                ]
+              }
+            },
+            {
+              "title": "South",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route213_s"
+                ]
+              }
+            },
+            {
+              "title": "Resort",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "r213_resort"
+                ]
+              }
+            },
+            {
+              "title": "Valor Lakefront",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "valorlakefront"
+                ]
+              }
+            }
           ]
         }
       },

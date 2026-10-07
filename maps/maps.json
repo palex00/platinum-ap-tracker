@@ -330,12 +330,6 @@
         "img": "images/maps/route212southeast.png"
     },
     {
-        "name": "route213valorlakefront",
-        "location_size": 36,
-        "location_border_thickness": 4,
-        "img": "images/maps/route213valorlakefront.png"
-    },
-    {
         "name": "route214south",
         "location_size": 14,
         "location_border_thickness": 2,
@@ -1078,5 +1072,29 @@
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/cafecabin.png"
+    },
+    {
+        "name": "route213_w",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route213_w.png"
+    },
+    {
+        "name": "route213_s",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route213_s.png"
+    },
+    {
+        "name": "r213_resort",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/r213_resort.png"
+    },
+    {
+        "name": "valorlakefront",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/valorlakefront.png"
     }
 ]

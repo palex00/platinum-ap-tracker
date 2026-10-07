@@ -124,7 +124,6 @@ MAP_MAPPING = {
   [315] = {"Dungeons", "Lake Valor", "Normal"}, --315: "lake_valor",
   [318] = {"Dungeons", "Lake Acuity", "Lake"}, --318: "lake_acuity",
   [334] = {"Dungeons", "Lake Verity", "Lakefront"}, --334: "verity_lakefront",
-  [336] = {"Routes", "R213 & VLF"}, --336: "valor_lakefront",
   [340] = {"Dungeons", "Lake Acuity", "Lakefront"}, --340: "acuity_lakefront",
   [342] = {"Routes", "R201"}, --342: "route_201",
   [343] = {"Routes", "R202"}, --343: "route_202",
@@ -146,7 +145,6 @@ MAP_MAPPING = {
   [368] = {"Routes", "R212", "Pokémon Mansion", "Mansion"}, --368: "pokemon_mansion",
   [369] = {"Routes", "R212", "Pokémon Mansion", "Mansion"}, --369: "pokemon_mansion_maids_room",
   [370] = {"Routes", "R212", "Pokémon Mansion", "Mansion"}, --370: "pokemon_mansion_office",
-  [373] = {"Routes", "R213 & VLF"}, --373: "route_213",
   [388] = {"Routes", "R218"}, --388: "route_218",
   [391] = {"Routes", "R219"}, --391: "route_219",
   [403] = {"Routes", "R227"}, --403: "route_227",
@@ -366,6 +364,29 @@ MAP_SPLIT_MAPPING = {
     },
     [23] = {
       [13] = {"Routes", "R230", "East"}, --471: "route_230",
+    }
+  },
+  [373] = {
+    [20] = {
+      [25] = {"Routes", "R213 & VLF", "West"}, --373: "route_213",
+      [26] = {"Routes", "R213 & VLF", "West"}, --373: "route_213",
+    },
+    [21] = {
+      [26] = {"Routes", "R213 & VLF", "South"}, --373: "route_213",
+      [25] = {"Routes", "R213 & VLF", "Resort"}, --373: "route_213",
+    },
+    [22] = {
+      [26] = {"Routes", "R213 & VLF", "South"}, --373: "route_213",
+      [25] = {"Routes", "R213 & VLF", "Resort"}, --373: "route_213",
+    }
+  },
+  [336] = {
+    [22] = {
+      [23] = {"Routes", "R213 & VLF", "Valor Lakefront"}, --336: "valor_lakefront",
+      [24] = {"Routes", "R213 & VLF", "Resort"}, --336: "valor_lakefront",
+    },
+    [21] = {
+      [24] = {"Routes", "R213 & VLF", "Resort"}, --336: "valor_lakefront",
     }
   }
 

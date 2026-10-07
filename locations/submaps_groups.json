@@ -34,7 +34,7 @@
 { "name": "Fight Area Double Battle", "map_locations": [ { "map": "fightarea", "x": 752, "y": 112}], "sections": [
 { "name": "Leader Volkner", "ref": "Fight Area/Leader Volkner"},
 { "name": "Elite Four Flint", "ref": "Fight Area/Elite Four Flint"}]},
-{ "name": "Rock Climb House", "map_locations": [ { "map": "route213valorlakefront", "x": 1160, "y": 1038}], "sections": [
+{ "name": "Rock Climb House", "map_locations": [ { "map": "r213_resort", "x": 648, "y": 526}], "sections": [
 { "name": "Item from Rich Boy in Rock Climb House", "ref": "Route 213 East/Item from Rich Boy in Rock Climb House"},
 { "name": "Hidden Item in Trash Can in Rock Climb House", "ref": "Route 213 East/Hidden Item in Trash Can in Rock Climb House"}]},
 { "name": "Trainers' School", "map_locations": [ { "map": "jubilifecity", "x": 657, "y": 492}], "sections": [
@@ -164,7 +164,7 @@
 { "name": "Iron Island Grunts", "map_locations": [ { "map": "ironislandb2fleft", "x": 318, "y": 518}], "sections": [
 { "name": "Galactic Grunt 1", "ref": "Iron Island/B2F Left - Galactic Grunt 1"},
 { "name": "Galactic Grunt 2", "ref": "Iron Island/B2F Left - Galactic Grunt 2"}]},
-{ "name": "Cynthia rewards defeating Grunt", "map_locations": [ { "map": "route213valorlakefront", "x": 1331, "y": 563}], "sections": [
+{ "name": "Cynthia rewards defeating Grunt", "map_locations": [ { "map": "r213_resort", "x": 819, "y": 51}], "sections": [
 { "name": "Galactic Grunt", "ref": "Valor Lakefront/Galactic Grunt"},
 { "name": "Second Item from Cynthia", "ref": "Valor Lakefront/Second Item from Cynthia"},
 { "name": "Second Item from Cynthia\u200b", "ref": "Valor Lakefront/Second Item from Cynthia\u200b"}]},
@@ -719,7 +719,7 @@
 { "name": "Lake Acuity Shore", "map_locations": [ { "map": "acuitylakefront", "x": 336, "y": 42}], "sections": [
 { "name": "Lake - Item in NE Corner of Lake", "ref": "Lake Acuity/Lake - Item in NE Corner of Lake"},
 { "name": "Lake - Watch Jupiter defeat your rival (Event)", "ref": "Lake Acuity/Lake - Watch Jupiter defeat your rival (Event)"}]},
-{ "name": "Lake Valor Shore", "map_locations": [ { "map": "route213valorlakefront", "x": 1222, "y": 389}], "sections": [
+{ "name": "Lake Valor Shore", "map_locations": [ { "map": "valorlakefront", "x": 198, "y": 389}], "sections": [
 { "name": "Item in SE Corner of Lake", "ref": "Lake Valor/Item in SE Corner of Lake"},
 { "name": "Galactic Grunt 1", "ref": "Lake Valor/Galactic Grunt 1"},
 { "name": "Galactic Grunt 2", "ref": "Lake Valor/Galactic Grunt 2"},
@@ -825,7 +825,7 @@
 { "name": "Jasmine", "map_locations": [ { "map": "sunyshorecity", "x": 408, "y": 96}], "sections": [
 { "name": "Item from Jasmine", "ref": "Sunyshore City/Item from Jasmine"},
 { "name": "Item from Jasmine\u200b", "ref": "Sunyshore City/Item from Jasmine\u200b"}]},
-{ "name": "Route 213 East - Dropped Item", "map_locations": [ { "map": "route213valorlakefront", "x": 1048, "y": 1176}], "sections": [
+{ "name": "Route 213 East - Dropped Item", "map_locations": [ { "map": "r213_resort", "x": 536, "y": 664}], "sections": [
 { "name": "Hidden Item By Reception", "ref": "Route 213 East/Hidden Item By Reception"},
 { "name": "Hidden Item By Reception\u200b", "ref": "Route 213 East/Hidden Item By Reception\u200b"}]},
 { "name": "Gate to Route 218", "map_locations": [ { "map": "jubilifecity", "x": 8, "y": 296}, {"map": "route218", "x": 920, "y": 368}], "sections": [
