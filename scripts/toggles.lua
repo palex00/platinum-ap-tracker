@@ -30,6 +30,14 @@ function toggle_splitmap()
     end
 end
 
+function toggle_inlogic()
+    if inlogic_split() then
+        Tracker:AddLayouts("layouts/inlogic/inlogic_split.json")
+    else
+        Tracker:AddLayouts("layouts/inlogic/inlogic_new.json")
+    end
+end
+
 function toggle_flygrid()
     if not has("opt_randomize_fly_items_all") then
         Tracker:AddLayouts("layouts/flyunlock_no_e4.json")

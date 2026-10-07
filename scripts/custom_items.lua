@@ -4,5 +4,6 @@
 ScriptHost:LoadScript("scripts/custom_items/class.lua")
 ScriptHost:LoadScript("scripts/custom_items/custom_item.lua")
 ScriptHost:LoadScript("scripts/custom_items/trainersanity.lua")
+ScriptHost:LoadScript("scripts/custom_items/inlogic.lua")
 
 TRAINERS = TrainersanityNumber()

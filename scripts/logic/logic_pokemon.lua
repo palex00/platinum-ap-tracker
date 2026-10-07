@@ -333,3 +333,60 @@ function evolve_time(timeofday)
 
     return math.max(has_level("evomethod_time_on"), AccessibilityLevel.SequenceBreak)
 end
+
+--== Evolution Data ==--
+
+local function parse_rule(rule)
+    local checks = {}
+    for _, token in ipairs(rule) do
+        if token:sub(1, 2) == "^$" then
+            local args = {}
+            for arg in token:sub(3):gmatch("[^|]+") do
+                table.insert(args, arg)
+            end
+            local func = table.remove(args, 1)
+            table.insert(checks, {func = _G[func], args = args})
+        else
+            table.insert(checks, {code = token})
+        end
+    end
+    return checks
+end
+
+function setEvolutionData(data)
+    EVOLUTION_DATA = data
+    PRE_EVOLUTION = {}
+    for from, evos in pairs(data) do
+        for _, evo in ipairs(evos) do
+            evo.checks = parse_rule(evo.rule)
+            PRE_EVOLUTION[evo.into] = {from = from, evo = evo}
+        end
+    end
+end
+
+function evolution_access(evo)
+    local min = AccessibilityLevel.Normal
+    for _, check in ipairs(evo.checks) do
+        local level
+        if check.code then
+            level = has_level(check.code)
+        else
+            level = check.func(table.unpack(check.args)) or AccessibilityLevel.None
+        end
+        if level < min then
+            if level == AccessibilityLevel.None then
+                return AccessibilityLevel.None
+            end
+            min = level
+        end
+    end
+    return min
+end
+
+function evolve_from(target)
+    local pre = PRE_EVOLUTION[tonumber(target)]
+    if not has("caught_" .. pre.from) then
+        return AccessibilityLevel.None
+    end
+    return evolution_access(pre.evo)
+end

@@ -27,6 +27,21 @@ ScriptHost:AddWatchForCode("search_kecleon_active", "search_kecleon_active", sea
 ScriptHost:AddWatchForCode("search_snorlax_active", "search_snorlax_active", searchSnorlax)
 ScriptHost:AddWatchForCode("search_amity_active", "search_amity_active", searchAmity)
 ScriptHost:AddWatchForCode("search_reset_complete", "search_reset_complete", searchReset)
+ScriptHost:AddWatchForCode("opt_dexsanity", "opt_dexsanity", toggle_inlogic)
+
+-- In Logic Tab
+ScriptHost:AddWatchForCode("inlogic_dirty", "*", function(code)
+    if code:sub(1, 8) ~= "inlogic_" then
+        INLOGIC_DIRTY = true
+    end
+end)
+
+ScriptHost:AddOnFrameHandler("inlogic_flush", function()
+    if INLOGIC_DIRTY then
+        INLOGIC_DIRTY = false
+        syncInLogic()
+    end
+end)
 
 -- Other
 ScriptHost:AddWatchForCode("hint_tracking", "hint_tracking", toggleHints)

@@ -37,6 +37,13 @@
                         "sinnohdex"
                     ]
                 }
+            },
+            {
+                "title": "In Logic",
+                "content": {
+                    "type": "layout",
+                    "key": "pokedex_inlogic"
+                }
             }
         ]
     }

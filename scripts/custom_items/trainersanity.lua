@@ -1,8 +1,8 @@
 TrainersanityNumber = CustomItem:extend()
 
 function TrainersanityNumber:init()
-    self:createItem("Trainersanity - Full")
     self.code = "opt_trainer_full"
+    self:createItem("Trainersanity - Full", {self.code})
     self.type = "full"
     self:setStage(449)
     self.baseImage = "images/settings/opt_trainersanity.png"
