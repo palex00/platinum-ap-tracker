@@ -24,7 +24,8 @@
 								"encounter_tracking"
                             ],
                             [
-                                "hint_tracking"
+                                "hint_tracking",
+                                "hide_cleared"
                             ]
                         ]
                     }
@@ -53,7 +54,8 @@
 								"splitmap",
 								"location_visibility",
                                 "encounter_tracking",
-								"hint_tracking"
+								"hint_tracking",
+                                "hide_cleared"
                             ]
                         ]
                     }

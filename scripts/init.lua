@@ -20,6 +20,7 @@ ScriptHost:LoadScript("scripts/logic/utils.lua")
 ScriptHost:LoadScript("scripts/logic/utils_pokemon.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 ScriptHost:LoadScript("scripts/logic/logic_pokemon.lua")
+ScriptHost:LoadScript("scripts/hide_cleared.lua")
 ScriptHost:LoadScript("scripts/custom_items.lua")
 
 -- Maps

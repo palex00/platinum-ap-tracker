@@ -28,6 +28,29 @@
         ]
     },
     {
+        "name": "Cleared Locations Visibility",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Show cleared locations",
+                "img": "/images/tools/hide_cleared.png",
+                "img_mods": "overlay|/images/tools/show.png",
+                "codes": "hide_cleared, hide_cleared_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hide cleared locations (except encounters)",
+                "img": "/images/tools/hide_cleared.png",
+                "img_mods": "overlay|/images/tools/hide.png",
+                "codes": "hide_cleared, hide_cleared_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Auto-Tab",
         "type": "progressive",
         "loop": true,
