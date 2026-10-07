@@ -251,9 +251,9 @@
 {"name": "Solaceon Town​​", "sections": [{"ref": "Solaceon Town/Hidden Item in Northeast Corner", "name": "Hidden Item in Northeast Corner"}], "map_locations": [{"map": "solaceontown", "x": 828, "y": 8}]},
 {"name": "Route 210 Center", "sections": [{"ref": "Route 210 South/Item Near Bottom Left Tree in Long Grass", "name": "Item Near Bottom Left Tree in Long Grass"}], "map_locations": [{"map": "route210south", "x": 40, "y": 40}]},
 {"name": "Route 210 South", "sections": [{"ref": "Route 210 South/Item in Northwest Corner", "name": "Item in Northwest Corner"}], "map_locations": [
-	{"map": "route210south", "x": 168, "y": 360, "restrict_visibility_rules": ["$r210itemlocnormal"]},
-	{"map": "route210south", "x": 168, "y": 344, "restrict_visibility_rules": ["$r210itemlochill"]},
-	{"map": "route210south", "x": 168, "y": 328, "restrict_visibility_rules": ["$r210itemlocwater"]}]},
+    {"map": "route210south", "x": 168, "y": 360, "restrict_visibility_rules": ["$r210itemlocnormal"]},
+    {"map": "route210south", "x": 168, "y": 344, "restrict_visibility_rules": ["$r210itemlochill"]},
+    {"map": "route210south", "x": 168, "y": 328, "restrict_visibility_rules": ["$r210itemlocwater"]}]},
 {"name": "Route 210 Center​", "sections": [{"ref": "Route 210 Center/Item in Northeast Grass Corner", "name": "Item in Northeast Grass Corner"}], "map_locations": [{"map": "route210center", "x": 504, "y": 584}]},
 {"name": "Route 210 Center​​", "sections": [{"ref": "Route 210 Center/Item in Center", "name": "Item in Center"}], "map_locations": [{"map": "route210center", "x": 296, "y": 888}]},
 {"name": "Route 210 Center​​​", "sections": [{"ref": "Route 210 Center/Hidden Item in Long Grass Lower Left", "name": "Hidden Item in Long Grass Lower Left"}], "map_locations": [{"map": "route210center", "x": 88, "y": 1016}]},
@@ -797,8 +797,8 @@
 {"name": "Route 209​​​​​​​​​​​​​​​​", "sections": [{"ref": "Route 209/Young Couple Ty And Sue", "name": "Young Couple Ty And Sue"}], "map_locations": [{"map": "route209north", "x": 256, "y": 184}]},
 {"name": "Route 210 South​​​​", "sections": [{"ref": "Route 210 South/Breeder Kahlil", "name": "Breeder Kahlil"}], "map_locations": [{"map": "route210south", "x": 168, "y": 456}]},
 {"name": "Route 210 South​​​​​", "sections": [{"ref": "Route 210 South/Breeder Amber", "name": "Breeder Amber"}], "map_locations": [
-	{"map": "route210south", "x": 312, "y": 408, "restrict_visibility_rules": ["$r210trainerlocnormal"]},
-	{"map": "route210south", "x": 344, "y": 308, "restrict_visibility_rules": ["$r210trainerlocchanged"]}]},
+    {"map": "route210south", "x": 312, "y": 408, "restrict_visibility_rules": ["$r210trainerlocnormal"]},
+    {"map": "route210south", "x": 344, "y": 308, "restrict_visibility_rules": ["$r210trainerlocchanged"]}]},
 {"name": "Route 210 South​​​​​​", "sections": [{"ref": "Route 210 South/Twins Teri And Tia", "name": "Twins Teri And Tia"}], "map_locations": [{"map": "route210south", "x": 223, "y": 536}]},
 {"name": "Route 210 North​​​​", "sections": [{"ref": "Route 210 North/Ace Trainer Ernest", "name": "Ace Trainer Ernest"}], "map_locations": [{"map": "route210north", "x": 872, "y": 104}]},
 {"name": "Route 210 Center​​​​​​​​​​", "sections": [{"ref": "Route 210 Center/Ace Trainer Alyssa", "name": "Ace Trainer Alyssa"}], "map_locations": [{"map": "route210center", "x": 56, "y": 392}]},

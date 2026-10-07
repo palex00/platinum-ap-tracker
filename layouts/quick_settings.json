@@ -17,11 +17,11 @@
                         "rows": [
                             [
                                 "automap",
-								"splitmap"
+                                "splitmap"
                             ],
                             [
                                 "location_visibility",
-								"encounter_tracking"
+                                "encounter_tracking"
                             ],
                             [
                                 "hint_tracking",
@@ -51,10 +51,10 @@
                         "rows": [
                             [
                                 "automap",
-								"splitmap",
-								"location_visibility",
+                                "splitmap",
+                                "location_visibility",
                                 "encounter_tracking",
-								"hint_tracking",
+                                "hint_tracking",
                                 "hide_cleared"
                             ]
                         ]

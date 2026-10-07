@@ -24,10 +24,10 @@
                                 "cobblebadge",
                                 "fenbadge",
                                 "relicbadge",
-								"minebadge",
+                                "minebadge",
                                 "iciclebadge",
                                 "beaconbadge",
-								"bag"
+                                "bag"
                             ],
                             [
                                 "hm01cut",
@@ -37,26 +37,26 @@
                                 "hm05defog",
                                 "hm06rocksmash",
                                 "hm07waterfall",
-								"hm08rockclimb",
-								"tm70flash"
+                                "hm08rockclimb",
+                                "tm70flash"
                             ],
                             [
                                 "parcel",
                                 "coupons",
-								"workskey",
+                                "workskey",
                                 "secretpotion",
                                 "oldcharm",
                                 "storagekey",
                                 "galactickey",
-								"suitekey",
+                                "suitekey",
                                 "ssticket"
                             ],
                             [
                                 "pokedex",
-								"bicycle",
+                                "bicycle",
                                 "poketch",
                                 "dowsingmachine",
-								"marshpass",
+                                "marshpass",
                                 "daytime",
                                 "nighttime",
                                 "hmreader",
@@ -93,10 +93,10 @@
                                 "cobblebadge",
                                 "fenbadge",
                                 "relicbadge",
-								"minebadge",
+                                "minebadge",
                                 "iciclebadge",
                                 "beaconbadge",
-								"bag"
+                                "bag"
                             ],
                             [
                                 "hm01cut",
@@ -106,26 +106,26 @@
                                 "hm05defog",
                                 "hm06rocksmash",
                                 "hm07waterfall",
-								"hm08rockclimb",
-								"tm70flash"
+                                "hm08rockclimb",
+                                "tm70flash"
                             ],
                             [
                                 "parcel",
                                 "coupons",
-								"workskey",
+                                "workskey",
                                 "secretpotion",
                                 "oldcharm",
                                 "storagekey",
                                 "galactickey",
-								"suitekey",
+                                "suitekey",
                                 "ssticket"
                             ],
                             [
                                 "pokedex",
-								"bicycle",
+                                "bicycle",
                                 "poketch",
                                 "dowsingmachine",
-								"marshpass",
+                                "marshpass",
                                 "daytime",
                                 "nighttime",
                                 "hmreader",
