@@ -64,57 +64,36 @@ function toggle_pastoriabarriers()
 end
 
 function toggle_route207roadblock()
-    if has("opt_route_207_barricade_none") then
-        Tracker:AddMaps("maps/route207/none.json")
+    local prefix = "opt_route_207_barricade_"
+    local suffixes = {
+        "none",
+        "bicycle_slope_and_cut_tree",
+        "bicycle_slope_and_psyduck",
+        "bicycle_slope_and_rock_smash",
+        "bicycle_slope_and_strength_boulder",
+        "cut_tree",
+        "impassable",
+        "psyduck",
+        "rock_climb",
+        "rock_climb_and_cut_tree",
+        "rock_climb_and_psyduck",
+        "rock_climb_and_rock_smash",
+        "rock_climb_and_strength_boulder",
+        "rock_smash",
+        "strength_boulder",
+        "unknown"
+    }
 
-    elseif has("opt_route_207_barricade_bicycle_slope") then
+    if has("opt_route_207_barricade_bicycle_slope") then
         Tracker:AddMaps("maps/route207/route207.json")
-
-    elseif has("opt_route_207_barricade_bicycle_slope_and_cut_tree") then
-        Tracker:AddMaps("maps/route207/bicycle_slope_and_cut_tree.json")
-
-    elseif has("opt_route_207_barricade_bicycle_slope_and_psyduck") then
-        Tracker:AddMaps("maps/route207/bicycle_slope_and_psyduck.json")
-
-    elseif has("opt_route_207_barricade_bicycle_slope_and_rock_smash") then
-        Tracker:AddMaps("maps/route207/bicycle_slope_and_rock_smash.json")
-
-    elseif has("opt_route_207_barricade_bicycle_slope_and_strength_boulder") then
-        Tracker:AddMaps("maps/route207/bicycle_slope_and_strength_boulder.json")
-
-    elseif has("opt_route_207_barricade_cut_tree") then
-        Tracker:AddMaps("maps/route207/cut_tree.json")
-
-    elseif has("opt_route_207_barricade_impassable") then
-        Tracker:AddMaps("maps/route207/impassable.json")
-
-    elseif has("opt_route_207_barricade_psyduck") then
-        Tracker:AddMaps("maps/route207/psyduck.json")
-
-    elseif has("opt_route_207_barricade_rock_climb") then
-        Tracker:AddMaps("maps/route207/rock_climb.json")
-
-    elseif has("opt_route_207_barricade_rock_climb_and_cut_tree") then
-        Tracker:AddMaps("maps/route207/rock_climb_and_cut_tree.json")
-
-    elseif has("opt_route_207_barricade_rock_climb_and_psyduck") then
-        Tracker:AddMaps("maps/route207/rock_climb_and_psyduck.json")
-
-    elseif has("opt_route_207_barricade_rock_climb_and_rock_smash") then
-        Tracker:AddMaps("maps/route207/rock_climb_and_rock_smash.json")
-
-    elseif has("opt_route_207_barricade_rock_climb_and_strength_boulder") then
-        Tracker:AddMaps("maps/route207/rock_climb_and_strength_boulder.json")
-
-    elseif has("opt_route_207_barricade_rock_smash") then
-        Tracker:AddMaps("maps/route207/rock_smash.json")
-
-    elseif has("opt_route_207_barricade_strength_boulder") then
-        Tracker:AddMaps("maps/route207/strength_boulder.json")
-
-    elseif has("opt_route_207_barricade_unknown") then
-        Tracker:AddMaps("maps/route207/unknown.json")
-	end
+    else 
+        for _, suffix in ipairs(suffixes) do
+            if has(prefix .. suffix) then
+                Tracker:AddMaps("maps/route207/" .. suffix .. ".json")
+                break
+            end
+        end
+    end
 
 	if CACHED_MAP ~= nil then
 		onMap(CACHED_MAP)
@@ -122,91 +101,50 @@ function toggle_route207roadblock()
 end
 
 function toggle_route210roadblock()
-    if has("opt_route_210_lower_barricade_none") then
+    local prefix = "opt_route_210_lower_barricade_"
+    local suffixes = {
+        "bicycle_slope",
+        "bicycle_slope_and_cut_tree",
+        "bicycle_slope_and_psyduck",
+        "bicycle_slope_and_rock_smash",
+        "bicycle_slope_and_strength_boulder",
+        "cut_tree",
+        "impassable",
+        "psyduck",
+        "rock_climb",
+        "rock_climb_and_cut_tree",
+        "rock_climb_and_psyduck",
+        "rock_climb_and_rock_smash",
+        "rock_climb_and_strength_boulder",
+        "rock_smash",
+        "strength_boulder",
+        "surf",
+        "surf_and_cut_tree",
+        "surf_and_psyduck",
+        "surf_and_rock_smash",
+        "surf_and_strength_boulder",
+        "waterfall",
+        "waterfall_and_cut_tree",
+        "waterfall_and_psyduck",
+        "waterfall_and_rock_smash",
+        "waterfall_and_strength_boulder",
+        "unknown"
+    }
+
+    if has(prefix .. "none") then
         Tracker:AddMaps("maps/route210south/route210south.json")
+    else 
+        for _, suffix in ipairs(suffixes) do
+            if has(prefix .. suffix) then
+                Tracker:AddMaps("maps/route210south/" .. suffix .. ".json")
+                break
+            end
+        end
+    end
 
-    elseif has("opt_route_210_lower_barricade_bicycle_slope") then
-        Tracker:AddMaps("maps/route210south/bike_slope.json")
-
-    elseif has("opt_route_210_lower_barricade_bicycle_slope_and_cut_tree") then
-        Tracker:AddMaps("maps/route210south/bike_slope_cut.json")
-
-    elseif has("opt_route_210_lower_barricade_bicycle_slope_and_psyduck") then
-        Tracker:AddMaps("maps/route210south/bike_slope_psyduck.json")
-
-    elseif has("opt_route_210_lower_barricade_bicycle_slope_and_rock_smash") then
-        Tracker:AddMaps("maps/route210south/bike_slope_rock_smash.json")
-
-    elseif has("opt_route_210_lower_barricade_bicycle_slope_and_strength_boulder") then
-        Tracker:AddMaps("maps/route210south/bike_slope_strength.json")
-
-    elseif has("opt_route_210_lower_barricade_cut_tree") then
-        Tracker:AddMaps("maps/route210south/cut.json")
-
-    elseif has("opt_route_210_lower_barricade_impassable") then
-        Tracker:AddMaps("maps/route210south/impassable.json")
-
-    elseif has("opt_route_210_lower_barricade_psyduck") then
-        Tracker:AddMaps("maps/route210south/psyduck.json")
-
-    elseif has("opt_route_210_lower_barricade_rock_climb") then
-        Tracker:AddMaps("maps/route210south/rock_climb.json")
-
-    elseif has("opt_route_210_lower_barricade_rock_climb_and_cut_tree") then
-        Tracker:AddMaps("maps/route210south/rock_climb_cut.json")
-
-    elseif has("opt_route_210_lower_barricade_rock_climb_and_psyduck") then
-        Tracker:AddMaps("maps/route210south/rock_climb_psyduck.json")
-
-    elseif has("opt_route_210_lower_barricade_rock_climb_and_rock_smash") then
-        Tracker:AddMaps("maps/route210south/rock_climb_rock_smash.json")
-
-    elseif has("opt_route_210_lower_barricade_rock_climb_and_strength_boulder") then
-        Tracker:AddMaps("maps/route210south/rock_climb_strength.json")
-
-    elseif has("opt_route_210_lower_barricade_rock_smash") then
-        Tracker:AddMaps("maps/route210south/rock_smash.json")
-
-    elseif has("opt_route_210_lower_barricade_strength_boulder") then
-        Tracker:AddMaps("maps/route210south/strength.json")
-
-    elseif has("opt_route_210_lower_barricade_surf") then
-        Tracker:AddMaps("maps/route210south/surf.json")
-
-    elseif has("opt_route_210_lower_barricade_surf_and_cut_tree") then
-        Tracker:AddMaps("maps/route210south/surf_cut.json")
-
-    elseif has("opt_route_210_lower_barricade_surf_and_psyduck") then
-        Tracker:AddMaps("maps/route210south/surf_psyduck.json") 
-
-    elseif has("opt_route_210_lower_barricade_surf_and_rock_smash") then
-        Tracker:AddMaps("maps/route210south/surf_rock_smash.json")
-
-    elseif has("opt_route_210_lower_barricade_surf_and_strength_boulder") then
-        Tracker:AddMaps("maps/route210south/surf_strength.json")
-
-    elseif has("opt_route_210_lower_barricade_waterfall") then
-        Tracker:AddMaps("maps/route210south/waterfall.json")
-
-    elseif has("opt_route_210_lower_barricade_waterfall_and_cut_tree") then
-        Tracker:AddMaps("maps/route210south/waterfall_cut.json")
-
-    elseif has("opt_route_210_lower_barricade_waterfall_and_psyduck") then
-        Tracker:AddMaps("maps/route210south/waterfall_psyduck.json")
-
-    elseif has("opt_route_210_lower_barricade_waterfall_and_rock_smash") then
-        Tracker:AddMaps("maps/route210south/waterfall_rock_smash.json")
-
-    elseif has("opt_route_210_lower_barricade_waterfall_and_strength_boulder") then
-        Tracker:AddMaps("maps/route210south/waterfall_strength.json")
-
-    elseif has("opt_route_210_lower_barricade_unknown") then
-        Tracker:AddMaps("maps/route210south/unknown.json")
-	end
-
-	if CACHED_MAP ~= nil then
-		onMap(CACHED_MAP)
-	end
+    if CACHED_MAP ~= nil then
+        onMap(CACHED_MAP)
+    end
 end
 
 function r210trainerlocnormal()
@@ -245,87 +183,45 @@ function r210itemlocwater()
 end
 
 function toggle_route215roadblock()
+    local prefix = "opt_route_215_barricade_"
+    local suffixes = {
+        "bicycle_bridge",
+        "bicycle_bridge_and_cut_tree",
+        "bicycle_bridge_and_psyduck",
+        "bicycle_bridge_and_rock_smash",
+        "bicycle_bridge_and_strength_boulder",
+        "cut_tree",
+        "impassable",
+        "psyduck",
+        "rock_climb",
+        "rock_climb_and_cut_tree",
+        "rock_climb_and_psyduck",
+        "rock_climb_and_rock_smash",
+        "rock_climb_and_strength_boulder",
+        "rock_smash",
+        "strength_boulder",
+        "surf",
+        "surf_and_cut_tree",
+        "surf_and_psyduck",
+        "surf_and_rock_smash",
+        "surf_and_strength_boulder",
+        "waterfall",
+        "waterfall_and_cut_tree",
+        "waterfall_and_psyduck",
+        "waterfall_and_rock_smash",
+        "waterfall_and_strength_boulder",
+        "unknown"
+    }
     if has("opt_route_215_barricade_none") then
         Tracker:AddMaps("maps/route215west/route215west.json")
-
-    elseif has("opt_route_215_barricade_bicycle_bridge") then
-        Tracker:AddMaps("maps/route215west/bike_bridge.json")
-
-    elseif has("opt_route_215_barricade_bicycle_bridge_and_cut_tree") then
-        Tracker:AddMaps("maps/route215west/bike_bridge_cut.json")
-
-    elseif has("opt_route_215_barricade_bicycle_bridge_and_psyduck") then
-        Tracker:AddMaps("maps/route215west/bike_bridge_psyduck.json")
-
-    elseif has("opt_route_215_barricade_bicycle_bridge_and_rock_smash") then
-        Tracker:AddMaps("maps/route215west/bike_bridge_rock_smash.json")
-
-    elseif has("opt_route_215_barricade_bicycle_bridge_and_strength_boulder") then
-        Tracker:AddMaps("maps/route215west/bike_bridge_strength.json")
-
-    elseif has("opt_route_215_barricade_cut_tree") then
-        Tracker:AddMaps("maps/route215west/cut.json")
-
-    elseif has("opt_route_215_barricade_impassable") then
-        Tracker:AddMaps("maps/route215west/impassable.json")
-
-    elseif has("opt_route_215_barricade_psyduck") then
-        Tracker:AddMaps("maps/route215west/psyduck.json")
-
-    elseif has("opt_route_215_barricade_rock_climb") then
-        Tracker:AddMaps("maps/route215west/rock_climb.json")
-
-    elseif has("opt_route_215_barricade_rock_climb_and_cut_tree") then
-        Tracker:AddMaps("maps/route215west/rock_climb_cut.json")
-
-    elseif has("opt_route_215_barricade_rock_climb_and_psyduck") then
-        Tracker:AddMaps("maps/route215west/rock_climb_psyduck.json")
-
-    elseif has("opt_route_215_barricade_rock_climb_and_rock_smash") then
-        Tracker:AddMaps("maps/route215west/rock_climb_rock_smash.json")
-
-    elseif has("opt_route_215_barricade_rock_climb_and_strength_boulder") then
-        Tracker:AddMaps("maps/route215west/rock_climb_strength.json")
-
-    elseif has("opt_route_215_barricade_rock_smash") then
-        Tracker:AddMaps("maps/route215west/rock_smash.json")
-
-    elseif has("opt_route_215_barricade_strength_boulder") then
-        Tracker:AddMaps("maps/route215west/strength.json")
-
-    elseif has("opt_route_215_barricade_surf") then
-        Tracker:AddMaps("maps/route215west/surf.json")
-
-    elseif has("opt_route_215_barricade_surf_and_cut_tree") then
-        Tracker:AddMaps("maps/route215west/surf_cut.json")
-
-    elseif has("opt_route_215_barricade_surf_and_psyduck") then
-        Tracker:AddMaps("maps/route215west/surf_psyduck.json") 
-
-    elseif has("opt_route_215_barricade_surf_and_rock_smash") then
-        Tracker:AddMaps("maps/route215west/surf_rock_smash.json")
-
-    elseif has("opt_route_215_barricade_surf_and_strength_boulder") then
-        Tracker:AddMaps("maps/route215west/surf_strength.json")
-
-    elseif has("opt_route_215_barricade_waterfall") then
-        Tracker:AddMaps("maps/route215west/waterfall.json")
-
-    elseif has("opt_route_215_barricade_waterfall_and_cut_tree") then
-        Tracker:AddMaps("maps/route215west/waterfall_cut.json")
-
-    elseif has("opt_route_215_barricade_waterfall_and_psyduck") then
-        Tracker:AddMaps("maps/route215west/waterfall_psyduck.json")
-
-    elseif has("opt_route_215_barricade_waterfall_and_rock_smash") then
-        Tracker:AddMaps("maps/route215west/waterfall_rock_smash.json")
-
-    elseif has("opt_route_215_barricade_waterfall_and_strength_boulder") then
-        Tracker:AddMaps("maps/route215west/waterfall_strength.json")
-
-    elseif has("opt_route_215_barricade_unknown") then
-        Tracker:AddMaps("maps/route215west/unknown.json")
-	end
+    else
+        for _, suffix in ipairs(suffixes) do
+            if has(prefix .. suffix) then
+                Tracker:AddMaps("maps/route215west/" .. suffix .. ".json")
+                break
+            end
+        end
+    end
 
 	if CACHED_MAP ~= nil then
 		onMap(CACHED_MAP)
