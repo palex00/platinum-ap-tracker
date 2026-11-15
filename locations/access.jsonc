@@ -3617,7 +3617,7 @@
     {
         "name": "wayward_cave_1f_secret",
         "access_rules": [
-            "@route_206_upper",
+            "@route_206_upper, ^$flash",
             "@wayward_cave_b1f"
         ]
     },
